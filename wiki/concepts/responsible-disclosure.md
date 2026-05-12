@@ -1,0 +1,29 @@
+---
+title: Responsible Disclosure + CVE Process
+type: concept
+tags: [ethics, disclosure, cve]
+keywords: [responsible disclosure, cvd, cve, mitre, vendor]
+related:
+  - concepts/bug-bounty.md
+  - sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+  - sources/dicas-como-reportar-uma-falha.md
+  - entities/people/joas-a-santos.md
+maturity: draft
+created: 2026-05-12
+updated: 2026-05-12
+---
+
+## Relations
+
+- @concepts/bug-bounty.md
+- @sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+- @sources/dicas-como-reportar-uma-falha.md
+- @entities/people/joas-a-santos.md
+
+## Raw Concept
+
+Anchored by How to report a vulnerability + Dicas como Reportar uma Falha.
+
+## Narrative
+
+Responsible Disclosure (now usually called Coordinated Vulnerability Disclosure, CVD) is the process of reporting a vulnerability to the vendor and giving them a reasonable window — typically 90 days, sometimes extended for complex fixes — before publishing details. CVE (Common Vulnerabilities and Exposures) IDs are assigned by MITRE or by CNAs (CVE Numbering Authorities, often the vendor itself). The corpus has a dedicated PDF on the CVE-request process. Industry norm: report → acknowledge → coordinated disclosure date → CVE assigned → vendor patches → researcher publishes write-up. Reporting hygiene matters — PoC clarity, impact scoring (CVSS), reproduction steps.

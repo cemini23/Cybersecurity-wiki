@@ -1,0 +1,56 @@
+# =============================================================================
+# Wiki Workspace — .gitignore
+# =============================================================================
+# Tracked: CLAUDE.md, LESSONS.md, ROADMAP.md, wiki/, scripts/, prompts/,
+#          .gitignore, .env.example, claude_desktop_config.json.example,
+#          .gitkeep placeholders inside otherwise-ignored directories
+# Untracked: raw sources, briefs, .env, .claude/, OS cruft
+# =============================================================================
+
+# --- Raw sources (large, often copyrighted / scraped; live local only) -------
+# Ignore contents but keep the directory + .gitkeep so it survives clone
+research to be indexed/*
+!research to be indexed/.gitkeep
+raw-sources/*
+!raw-sources/.gitkeep
+
+# --- Outputs staged for distribution -----------------------------------------
+briefs/*
+!briefs/.gitkeep
+
+# --- Claude Code per-project state -------------------------------------------
+.claude/
+
+# --- Claude Desktop actual config (user fills in keys; example is committed) -
+claude_desktop_config.json
+
+# --- Session-state cache (changes every session; ephemeral) ------------------
+hot.md
+
+# --- Environment variables (secrets; .env.example is the committed template) -
+.env
+
+# --- macOS / editor cruft ----------------------------------------------------
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.obsidian/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- Temp scratch ------------------------------------------------------------
+/tmp_*.txt
+/tmp_*.md
+*.tmp
+.scratch/
+.playwright-mcp/

@@ -1,0 +1,43 @@
+{
+  "_comment_top": "Claude Desktop MCP config template for the {{DOMAIN_NAME}} workspace. Copy this file to ~/Library/Application Support/Claude/claude_desktop_config.json (macOS) or %APPDATA%\\Claude\\claude_desktop_config.json (Windows), then replace the YOUR_*_HERE placeholders with real values. The filesystem path on line 12 is where you cloned this repo. Restart Claude Desktop after editing. The file in this workspace is the committed example; the actual config lives in the OS-managed Claude Desktop folder.",
+
+  "_comment_what_each_server_does": "filesystem = lets Claude Desktop read this wiki folder | brave-search = web search for research and fact-checking | playwright = browser automation for inspecting external surfaces and validators | context7 = up-to-date docs for libraries and frameworks",
+
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "YOUR_ABSOLUTE_PATH_TO_CLONED_REPO_HERE"
+      ]
+    },
+
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY_HERE"
+      }
+    },
+
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    }
+  }
+}
