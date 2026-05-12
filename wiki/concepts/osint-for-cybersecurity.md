@@ -39,7 +39,7 @@ updated: 2026-05-12
 - @sources/using-osint-to-investigate-school-shooters.md
 - @sources/ransomware-investigation-osint-and-hunting-overview-pt1.md
 - @entities/people/joas-a-santos.md
-- @@osint-wiki/concepts/typed-relation-dependencies.md
+- @osint-wiki/concepts/typed-relation-dependencies.md
 - @concepts/anonymity-networks.md
 - @entities/programming-languages/python.md
 
@@ -69,4 +69,4 @@ OSINT (Open-Source Intelligence) is the discipline of collecting + analyzing pub
 
 ### Cross-wiki anchor
 
-The sibling **OSINT wiki** (@osint-wiki/) covers OSINT primarily through the financial-research lens (ticker due-diligence, congressional-trade tracking, prediction-market sentiment), with deeper coverage of source-evaluation methodology + exploration-graph dead-ends. When this wiki needs a methodology reference, prefer linking there rather than duplicating. Example: @osint-wiki/concepts/typed-relation-dependencies.md.
+The sibling **OSINT wiki** (@osint-wiki/) covers OSINT primarily through the financial-research lens (ticker due-diligence, congressional-trade tracking, prediction-market sentiment), with deeper coverage of source-evaluation methodology + exploration-graph dead-ends. When this wiki needs a methodology reference, prefer linking there rather than duplicating. Example: see @osint-wiki/concepts/typed-relation-dependencies.md for that methodology.

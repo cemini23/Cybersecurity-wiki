@@ -20,6 +20,7 @@ Steps:
 - [x] Cross-link to OSINT / image-gen / SEO / 3d-printing wikis
 - [x] Deep-read 7 PDFs to upgrade key concept pages from `draft` to `validated` (MITRE ATT&CK, Red Team Ops, AV/EDR Bypass, Web Pentest Checklist, Linux PrivEsc, IR Overview, INFOSEC Proficiency Colors)
 - [x] Lint clean: 0 orphans, 0 bidirectional gaps, 0 dangling refs
+- [x] Full maintenance pass 2026-05-12 evening — fixed CLAUDE.md OSINT path bug + `@@` typo + trailing-period regex boundary bug. All 8 lint checks now green; 4 cross-wiki refs resolve.
 - [ ] Continue deep-reads: next batch should target Buffer Overflow, eCPPT Notes, OSINT Overview, Threat Hunting
 
 ### W2 — Public-distribution polish
@@ -48,6 +49,7 @@ Steps:
 | 2026-05-12 | Workspace forked from `wiki-template/` (SEO wiki) | Reused proven schema instead of re-deriving |
 | 2026-05-12 | Inventoried 227 PDFs from `ebooks Joas` Drive folder via Playwright DOM scrape | Drive API search did not return contents of shared folders; Playwright extraction got every file ID |
 | 2026-05-12 | Cross-linked to 4 sibling wikis (OSINT, image-gen, SEO, 3d-printing) | Cybersecurity intersects all four — OSINT tradecraft, deepfakes, web-app sec, physical-pentest hardware |
+| 2026-05-12 | Full maintenance lint pass — wiki green across all 8 checks | Fixed CLAUDE.md OSINT path (extra `Desktop/`), `@@` typo, and trailing-period regex bug. Future sessions can trust the lint as a green-light gate. |
 
 ---
 
