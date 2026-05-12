@@ -4,11 +4,9 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
-  - concepts/cybersecurity-careers.md
   - concepts/cyber-for-kids.md
-- concepts/cyber-for-kids.md
-- concepts/cybersecurity-careers.md
-- entities/people/joas-a-santos.md
+  - concepts/cybersecurity-careers.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -20,8 +18,7 @@ read_status: unread-stub
 - @concepts/cyber-for-kids.md
 - @concepts/cybersecurity-careers.md
 - @entities/people/joas-a-santos.md
-- @concepts/cybersecurity-careers.md
-- @concepts/cyber-for-kids.md
+
 
 ## Raw Concept
 

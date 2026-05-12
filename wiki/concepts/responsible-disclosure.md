@@ -5,9 +5,10 @@ tags: [ethics, disclosure, cve]
 keywords: [responsible disclosure, cvd, cve, mitre, vendor]
 related:
   - concepts/bug-bounty.md
-  - sources/how-to-report-a-vulnerability-and-generate-its-cve.md
-  - sources/dicas-como-reportar-uma-falha.md
   - entities/people/joas-a-santos.md
+  - entities/threat-actors/lockbit.md
+  - sources/dicas-como-reportar-uma-falha.md
+  - sources/how-to-report-a-vulnerability-and-generate-its-cve.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,9 +17,11 @@ updated: 2026-05-12
 ## Relations
 
 - @concepts/bug-bounty.md
-- @sources/how-to-report-a-vulnerability-and-generate-its-cve.md
-- @sources/dicas-como-reportar-uma-falha.md
 - @entities/people/joas-a-santos.md
+- @entities/threat-actors/lockbit.md
+- @sources/dicas-como-reportar-uma-falha.md
+- @sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+
 
 ## Raw Concept
 

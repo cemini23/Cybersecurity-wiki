@@ -4,11 +4,12 @@ type: entity
 tags: [threat-actor, apt, nation-state, russia-attributed]
 keywords: [apt28, fancy bear, sofacy, strontium, pawn storm, gru, russia]
 related:
-  - entities/frameworks/mitre-attack.md
   - concepts/adversary-emulation.md
   - concepts/cyberwarfare.md
-  - sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+  - entities/frameworks/mitre-attack.md
   - entities/people/joas-a-santos.md
+  - entities/threat-actors/apt29.md
+  - sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,11 +17,13 @@ updated: 2026-05-12
 
 ## Relations
 
-- @entities/frameworks/mitre-attack.md
 - @concepts/adversary-emulation.md
 - @concepts/cyberwarfare.md
-- @sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+- @entities/frameworks/mitre-attack.md
 - @entities/people/joas-a-santos.md
+- @entities/threat-actors/apt29.md
+- @sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+
 
 ## Raw Concept
 

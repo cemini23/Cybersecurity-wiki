@@ -4,23 +4,25 @@ type: concept
 tags: [red-team, methodology, mitre]
 keywords: [adversary emulation, apt emulation, emulation plan, ttp]
 related:
-  - concepts/red-team-operations.md
+  - concepts/cyberwarfare.md
   - concepts/purple-team-operations.md
+  - concepts/red-team-operations.md
+  - entities/certifications/crto.md
+  - entities/frameworks/cyber-kill-chain.md
   - entities/frameworks/mitre-attack.md
+  - entities/people/joas-a-santos.md
+  - entities/threat-actors/apt28.md
+  - entities/threat-actors/apt29.md
+  - entities/threat-actors/lazarus.md
   - entities/tools/caldera.md
   - entities/tools/cobalt-strike.md
-  - entities/threat-actors/apt28.md
-  - sources/adversary-emulation-com-cobalt-strike.md
   - sources/adversary-emulation-and-cracking-the-bridge-overview.md
+  - sources/adversary-emulation-com-cobalt-strike.md
   - sources/adversary-emulation-matrix-by-joas.md
   - sources/adversary-emulation-services.md
   - sources/adversary-simulation-with-caldera-and-mitre.md
   - sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
   - sources/red-team-operations-simulating-an-apt-group-in-practice.md
-  - entities/people/joas-a-santos.md
-  - concepts/cyberwarfare.md
-  - entities/certifications/crto.md
-  - entities/frameworks/cyber-kill-chain.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-12
@@ -28,23 +30,26 @@ updated: 2026-05-12
 
 ## Relations
 
-- @concepts/red-team-operations.md
+- @concepts/cyberwarfare.md
 - @concepts/purple-team-operations.md
+- @concepts/red-team-operations.md
+- @entities/certifications/crto.md
+- @entities/frameworks/cyber-kill-chain.md
 - @entities/frameworks/mitre-attack.md
+- @entities/people/joas-a-santos.md
+- @entities/threat-actors/apt28.md
+- @entities/threat-actors/apt29.md
+- @entities/threat-actors/lazarus.md
 - @entities/tools/caldera.md
 - @entities/tools/cobalt-strike.md
-- @entities/threat-actors/apt28.md
-- @sources/adversary-emulation-com-cobalt-strike.md
 - @sources/adversary-emulation-and-cracking-the-bridge-overview.md
+- @sources/adversary-emulation-com-cobalt-strike.md
 - @sources/adversary-emulation-matrix-by-joas.md
 - @sources/adversary-emulation-services.md
 - @sources/adversary-simulation-with-caldera-and-mitre.md
 - @sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
 - @sources/red-team-operations-simulating-an-apt-group-in-practice.md
-- @entities/people/joas-a-santos.md
-- @concepts/cyberwarfare.md
-- @entities/certifications/crto.md
-- @entities/frameworks/cyber-kill-chain.md
+
 
 ## Raw Concept
 

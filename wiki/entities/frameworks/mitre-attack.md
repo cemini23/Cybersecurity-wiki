@@ -4,19 +4,24 @@ type: entity
 tags: [framework, threat-intel, tactics-techniques-procedures]
 keywords: [mitre, att&ck, attack matrix, ttps, tactics, techniques, procedures, navigator]
 related:
-  - entities/frameworks/cyber-kill-chain.md
   - concepts/adversary-emulation.md
+  - concepts/av-edr-bypass.md
   - concepts/red-team-operations.md
   - concepts/threat-hunting.md
-  - concepts/av-edr-bypass.md
-  - entities/threat-actors/apt28.md
-  - sources/mitre-att-ck-study-overview.md
-  - sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
-  - sources/tdc2021-mitre-att-ck.md
-  - sources/red-team-operations-concepts-1.md
-  - sources/adversary-emulation-matrix-by-joas.md
+  - entities/frameworks/cyber-kill-chain.md
   - entities/people/joas-a-santos.md
+  - entities/threat-actors/apt28.md
+  - entities/threat-actors/apt29.md
+  - entities/threat-actors/lazarus.md
+  - entities/threat-actors/lockbit.md
   - entities/tools/caldera.md
+  - sources/adversary-emulation-matrix-by-joas.md
+  - sources/adversary-simulation-with-caldera-and-mitre.md
+  - sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
+  - sources/mitre-att-ck-study-overview.md
+  - sources/red-team-macos-att-ck-overview.md
+  - sources/red-team-operations-concepts-1.md
+  - sources/tdc2021-mitre-att-ck.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-12
@@ -24,19 +29,25 @@ updated: 2026-05-12
 
 ## Relations
 
-- @entities/frameworks/cyber-kill-chain.md
 - @concepts/adversary-emulation.md
+- @concepts/av-edr-bypass.md
 - @concepts/red-team-operations.md
 - @concepts/threat-hunting.md
-- @concepts/av-edr-bypass.md
-- @entities/threat-actors/apt28.md
-- @sources/mitre-att-ck-study-overview.md
-- @sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
-- @sources/tdc2021-mitre-att-ck.md
-- @sources/red-team-operations-concepts-1.md
-- @sources/adversary-emulation-matrix-by-joas.md
+- @entities/frameworks/cyber-kill-chain.md
 - @entities/people/joas-a-santos.md
+- @entities/threat-actors/apt28.md
+- @entities/threat-actors/apt29.md
+- @entities/threat-actors/lazarus.md
+- @entities/threat-actors/lockbit.md
 - @entities/tools/caldera.md
+- @sources/adversary-emulation-matrix-by-joas.md
+- @sources/adversary-simulation-with-caldera-and-mitre.md
+- @sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
+- @sources/mitre-att-ck-study-overview.md
+- @sources/red-team-macos-att-ck-overview.md
+- @sources/red-team-operations-concepts-1.md
+- @sources/tdc2021-mitre-att-ck.md
+
 
 ## Raw Concept
 

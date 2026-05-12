@@ -4,14 +4,15 @@ type: entity
 tags: [mid-level, red-team, zeropoint-security]
 keywords: [crto, rto i, rto ii, zero-point security, rastamouse, cobalt strike]
 related:
-  - entities/vendors/zeropoint-security.md
-  - concepts/red-team-operations.md
   - concepts/adversary-emulation.md
-  - entities/tools/cobalt-strike.md
-  - sources/crto-notes-to-exam-preparation.md
-  - sources/certified-red-team-leader-rto-ii-overview-to-study.md
-  - entities/people/joas-a-santos.md
   - concepts/cybersecurity-careers.md
+  - concepts/red-team-operations.md
+  - entities/people/joas-a-santos.md
+  - entities/tools/cobalt-strike.md
+  - entities/vendors/zeropoint-security.md
+  - sources/certified-red-team-leader-rto-ii-overview-to-study.md
+  - sources/certified-red-team-physical-pentest-leader-quick-training.md
+  - sources/crto-notes-to-exam-preparation.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -19,14 +20,16 @@ updated: 2026-05-12
 
 ## Relations
 
-- @entities/vendors/zeropoint-security.md
-- @concepts/red-team-operations.md
 - @concepts/adversary-emulation.md
-- @entities/tools/cobalt-strike.md
-- @sources/crto-notes-to-exam-preparation.md
-- @sources/certified-red-team-leader-rto-ii-overview-to-study.md
-- @entities/people/joas-a-santos.md
 - @concepts/cybersecurity-careers.md
+- @concepts/red-team-operations.md
+- @entities/people/joas-a-santos.md
+- @entities/tools/cobalt-strike.md
+- @entities/vendors/zeropoint-security.md
+- @sources/certified-red-team-leader-rto-ii-overview-to-study.md
+- @sources/certified-red-team-physical-pentest-leader-quick-training.md
+- @sources/crto-notes-to-exam-preparation.md
+
 
 ## Raw Concept
 

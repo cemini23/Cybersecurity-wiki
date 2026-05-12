@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
-"""Fix slug mismatches + bidirectional gaps left by build_entity_concept_pages.py.
+"""Fix slug mismatches + bidirectional gaps in the wiki.
 
-Two passes:
-1. Slug correction — replace broken refs (Portuguese-letter slugs with `-o-` placeholders)
-   with the actual accent-stripped slug.
-2. Bidirectional backlink injection — for every entity/concept page A that lists source B
-   in `related:`, ensure B also lists A in its `related:` (and inline `## Relations`).
-3. Frontmatter cross-wiki strip — `@wiki-alias/...` paths don't belong in `related:`
-   frontmatter (only inline). Strip them.
+Three passes:
+1. Slug correction — replace broken refs (Portuguese accent-stripping artifacts) with actual slugs.
+2. Frontmatter cross-wiki strip — `@wiki-alias/...` paths don't belong in `related:` frontmatter; strip them.
+3. Bidirectional backlink injection — for every page A whose `related:` lists B, ensure B's `related:` lists A back.
 
-Run from repo root after build_source_stubs.py + build_entity_concept_pages.py:
+Idempotent: safe to re-run.
+
+Run from repo root:
     python3 scripts/fix_wiki_refs.py
 """
 from __future__ import annotations
@@ -20,8 +19,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 
-# Manual slug-fix map. Build from lint output.
-SLUG_FIXES: dict[str, str] = {
+# Map of broken Drive-stub slugs (Portuguese accents collapsed to "-o-") → actual file slug.
+SLUG_FIXES: dict[str, str | None] = {
     "sources/introdu-o-ao-pentest-mobile-pt-1.md": "sources/introducao-ao-pentest-mobile-pt-1.md",
     "sources/metaverso-e-a-inova-o-tecnol-gica.md": "sources/metaverso-e-a-inovacao-tecnologica.md",
     "sources/dicas-b-sicas-para-ingressar-no-mercado-de-seguran-a.md": "sources/dicas-basicas-para-ingressar-no-mercado-de-seguranca.md",
@@ -43,82 +42,33 @@ SLUG_FIXES: dict[str, str] = {
     "sources/versao-final-atualizada-vulnerabilidades-comuns-em-aplica-es-web-roadsec-2023.md": "sources/versao-final-atualizada-vulnerabilidades-comuns-em-aplicacoes-web-roadsec-2023.md",
     "sources/programa-o-c-e-c-para-seguran-a-ofensiva-digital.md": "sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md",
     "sources/introdu-o-ao-mitre-att-ck-e-ao-cyber-kill-chain.md": "sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md",
-    # Cosmetic — these page targets that should be removed entirely (missing in sibling wikis)
-    "@seo-wiki/concepts/web-vitals.md": None,  # removed — page doesn't exist in SEO wiki yet
+    "@seo-wiki/concepts/web-vitals.md": None,
 }
 
-
-def fix_slugs(text: str) -> tuple[str, int]:
-    """Apply SLUG_FIXES to a file's text. Returns (new_text, changes)."""
-    changes = 0
-    for broken, fixed in SLUG_FIXES.items():
-        if fixed is None:
-            # Remove these lines entirely (frontmatter or inline)
-            patterns = [
-                f"  - {broken}\n",
-                f"- @{broken}\n",
-                f"- {broken}\n",
-            ]
-            for p in patterns:
-                if p in text:
-                    text = text.replace(p, "")
-                    changes += 1
-        else:
-            if broken in text:
-                text = text.replace(broken, fixed)
-                changes += 1
-    return text, changes
+FRONTMATTER_RE = re.compile(r"^---\n(.*?\n)---\n(.*)$", re.DOTALL)
 
 
-def strip_at_prefix_from_frontmatter(text: str) -> tuple[str, int]:
-    """`related:` frontmatter list items should not have @ prefix (that's for inline blocks).
-    Some entity/concept pages I wrote slipped `@wiki-alias/...` into `related:`. Strip them.
-    """
-    if "related:" not in text or "---" not in text:
-        return text, 0
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return text, 0
-    frontmatter = parts[1]
-    body = parts[2]
-    new_lines = []
-    changes = 0
-    in_related = False
-    for line in frontmatter.split("\n"):
-        if line.startswith("related:"):
-            in_related = True
-            new_lines.append(line)
-            continue
-        if in_related:
-            if line.startswith("  - "):
-                ref = line[4:].strip()
-                if ref.startswith("@"):
-                    # Cross-wiki ref doesn't belong in frontmatter; drop it
-                    changes += 1
-                    continue
-            elif line and not line.startswith(" "):
-                in_related = False
-        new_lines.append(line)
-    return parts[0] + "---" + "\n".join(new_lines) + "---" + body, changes
+def split_frontmatter(text: str) -> tuple[str, str, str] | None:
+    """Return (pre, frontmatter_body, body) or None if not parseable.
+    pre is empty for standard docs (frontmatter at top)."""
+    if not text.startswith("---\n"):
+        return None
+    end = text.find("\n---\n", 4)
+    if end < 0:
+        return None
+    return "", text[4:end + 1], text[end + 5:]
 
 
-def parse_related(text: str) -> list[str]:
-    """Extract `related:` list from frontmatter."""
-    if "related:" not in text or "---" not in text:
-        return []
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return []
-    frontmatter = parts[1]
-    out = []
+def parse_related(frontmatter: str) -> list[str]:
+    out: list[str] = []
     in_related = False
     for line in frontmatter.split("\n"):
         if line.startswith("related:"):
             in_related = True
             continue
         if in_related:
-            if line.startswith("  - "):
-                ref = line[4:].strip()
+            if line.startswith("  - ") or (line.startswith("- ") and not line.startswith("---")):
+                ref = line.split("-", 1)[1].strip()
                 if ref and not ref.startswith("@") and not ref.startswith("["):
                     out.append(ref)
             elif line and not line.startswith(" "):
@@ -126,86 +76,149 @@ def parse_related(text: str) -> list[str]:
     return out
 
 
-def add_related_backlink(target_path: Path, source_ref: str) -> bool:
-    """If `target_path` does not yet list `source_ref` in its `related:`, add it."""
-    if not target_path.exists():
-        return False
-    text = target_path.read_text()
-    existing = parse_related(text)
-    if source_ref in existing:
-        return False
-    # Insert at end of `related:` block, also append to `## Relations` inline list
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return False
-    frontmatter = parts[1]
-    body = parts[2]
-    new_lines = []
+def is_related_item(line: str) -> bool:
+    """Recognize both `  - foo` and `- foo` YAML list items inside related:."""
+    return line.startswith("  - ") or (line.startswith("- ") and not line.startswith("---"))
+
+
+def set_related(frontmatter: str, new_related: list[str]) -> str:
+    """Rewrite the `related:` block in frontmatter to `new_related`."""
+    lines = frontmatter.split("\n")
+    out: list[str] = []
     in_related = False
-    inserted = False
-    for line in frontmatter.split("\n"):
+    written = False
+    for line in lines:
         if line.startswith("related:"):
             in_related = True
-            new_lines.append(line)
+            out.append("related:")
+            if not written:
+                for r in new_related:
+                    out.append(f"  - {r}")
+                written = True
+            continue
+        if in_related:
+            if is_related_item(line):
+                # Skip existing related items (we already wrote the merged set)
+                continue
+            elif line and not line.startswith(" "):
+                in_related = False
+                out.append(line)
+            else:
+                # Blank line inside related block — skip
+                if not line.strip():
+                    continue
+                out.append(line)
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+
+def fix_slugs(text: str) -> tuple[str, int]:
+    changes = 0
+    for broken, fixed in SLUG_FIXES.items():
+        if fixed is None:
+            for variant in (f"  - {broken}\n", f"- @{broken}\n", f"- {broken}\n"):
+                if variant in text:
+                    text = text.replace(variant, "")
+                    changes += 1
+        elif broken in text:
+            text = text.replace(broken, fixed)
+            changes += 1
+    return text, changes
+
+
+def strip_at_prefix_from_frontmatter(frontmatter: str) -> tuple[str, int]:
+    lines = frontmatter.split("\n")
+    out: list[str] = []
+    in_related = False
+    stripped = 0
+    for line in lines:
+        if line.startswith("related:"):
+            in_related = True
+            out.append(line)
             continue
         if in_related:
             if line.startswith("  - "):
-                pass
+                if line[4:].strip().startswith("@"):
+                    stripped += 1
+                    continue
             elif line and not line.startswith(" "):
-                if not inserted:
-                    new_lines.append(f"  - {source_ref}")
-                    inserted = True
                 in_related = False
-        new_lines.append(line)
-    if in_related and not inserted:
-        new_lines.append(f"  - {source_ref}")
-    new_frontmatter = "\n".join(new_lines)
-
-    # Append to ## Relations body section
-    relations_line = f"- @{source_ref}"
-    if "## Relations" in body:
-        body = re.sub(
-            r"(## Relations\n\n)((?:- @[^\n]+\n)+|_\(none yet\)_\n)",
-            lambda m: m.group(1) + (m.group(2).replace("_(none yet)_", "").rstrip() + "\n" + relations_line + "\n"),
-            body,
-            count=1,
-        )
-
-    target_path.write_text(parts[0] + "---" + new_frontmatter + "---" + body)
-    return True
+        out.append(line)
+    return "\n".join(out), stripped
 
 
 def main() -> None:
-    # ---- Pass 1: slug fixes + strip @ prefix from frontmatter ----
-    fixed = 0
-    stripped = 0
-    for md in WIKI.rglob("*.md"):
-        text = md.read_text()
-        new_text, n = fix_slugs(text)
-        new_text, m = strip_at_prefix_from_frontmatter(new_text)
-        if n or m:
-            md.write_text(new_text)
-        fixed += n
-        stripped += m
-    print(f"Pass 1: applied {fixed} slug fixes; stripped {stripped} @-prefix frontmatter refs")
+    md_files = list(WIKI.rglob("*.md"))
 
-    # ---- Pass 2: bidirectional backlink injection ----
-    pages = list(WIKI.rglob("*.md"))
-    paths_by_rel: dict[str, Path] = {}
-    for p in pages:
+    # ---- Pass 1: slug fixes + strip @-prefix ----
+    slug_changes = 0
+    strip_changes = 0
+    for f in md_files:
+        text = f.read_text()
+        text, n = fix_slugs(text)
+        slug_changes += n
+        parts = split_frontmatter(text)
+        if parts is None:
+            f.write_text(text)
+            continue
+        _, fm, body = parts
+        fm, m = strip_at_prefix_from_frontmatter(fm)
+        strip_changes += m
+        f.write_text("---\n" + fm + "---\n" + body)
+    print(f"Pass 1: applied {slug_changes} slug fixes; stripped {strip_changes} @-prefix frontmatter refs")
+
+    # ---- Pass 2: build inbound-edge map ----
+    rel_paths: dict[str, Path] = {}
+    for p in md_files:
         rel = str(p.relative_to(WIKI)).replace("\\", "/")
-        paths_by_rel[rel] = p
+        rel_paths[rel] = p
 
-    added = 0
-    for rel_a, path_a in paths_by_rel.items():
+    inbound: dict[str, set[str]] = {r: set() for r in rel_paths}
+    for rel_a, path_a in rel_paths.items():
         if rel_a in ("index.md", "log.md"):
             continue
-        related_b = parse_related(path_a.read_text())
-        for ref_b in related_b:
-            if ref_b in paths_by_rel:
-                if add_related_backlink(paths_by_rel[ref_b], rel_a):
-                    added += 1
-    print(f"Pass 2: added {added} bidirectional backlinks")
+        parts = split_frontmatter(path_a.read_text())
+        if parts is None:
+            continue
+        _, fm, _ = parts
+        for ref_b in parse_related(fm):
+            if ref_b in rel_paths:
+                inbound[ref_b].add(rel_a)
+
+    # ---- Pass 3: write inbound backlinks into every page's `related:` ----
+    added = 0
+    for rel_b, path_b in rel_paths.items():
+        if rel_b in ("index.md", "log.md"):
+            continue
+        text = path_b.read_text()
+        parts = split_frontmatter(text)
+        if parts is None:
+            continue
+        _, fm, body = parts
+        existing = set(parse_related(fm))
+        wanted = sorted(existing | inbound[rel_b])
+        # Detect whether the file currently has any one-space `- ` (non-normalized) related items
+        # so we always rewrite to normalize even when no new edges are added.
+        non_normalized = any(
+            line.startswith("- ") and not line.startswith("---")
+            for line in fm.split("\n")
+        )
+        if set(wanted) == existing and not non_normalized:
+            continue
+        new_fm = set_related(fm, wanted)
+        # Update `## Relations` inline block too — rebuild it.
+        relations_lines = [f"- @{r}" for r in wanted] if wanted else ["_(none yet)_"]
+        relations_block = "\n".join(relations_lines)
+        body = re.sub(
+            r"## Relations\n\n[\s\S]*?(?=\n##|\Z)",
+            f"## Relations\n\n{relations_block}\n\n",
+            body,
+            count=1,
+        )
+        path_b.write_text("---\n" + new_fm + "---\n" + body)
+        added += len(set(wanted) - existing)
+    print(f"Pass 3: added {added} bidirectional backlinks")
 
 
 if __name__ == "__main__":

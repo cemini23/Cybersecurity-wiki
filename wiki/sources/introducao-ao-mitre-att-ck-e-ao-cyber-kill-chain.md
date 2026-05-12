@@ -4,11 +4,9 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
-  - entities/frameworks/mitre-attack.md
   - entities/frameworks/cyber-kill-chain.md
-- entities/frameworks/mitre-attack.md
-- entities/frameworks/cyber-kill-chain.md
-- entities/people/joas-a-santos.md
+  - entities/frameworks/mitre-attack.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,11 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/frameworks/mitre-attack.md
 - @entities/frameworks/cyber-kill-chain.md
+- @entities/frameworks/mitre-attack.md
 - @entities/people/joas-a-santos.md
-- @entities/frameworks/mitre-attack.md
-- @entities/frameworks/cyber-kill-chain.md
+
 
 ## Raw Concept
 

@@ -4,10 +4,10 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
+  - concepts/network-security.md
   - entities/certifications/ecptx.md
-- entities/vendors/elearnsecurity.md
-- concepts/network-security.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
+  - entities/vendors/elearnsecurity.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,10 +16,11 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/vendors/elearnsecurity.md
 - @concepts/network-security.md
-- @entities/people/joas-a-santos.md
 - @entities/certifications/ecptx.md
+- @entities/people/joas-a-santos.md
+- @entities/vendors/elearnsecurity.md
+
 
 ## Raw Concept
 

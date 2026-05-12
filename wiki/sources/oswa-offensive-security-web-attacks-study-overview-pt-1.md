@@ -4,10 +4,10 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
+  - concepts/web-pentest-methodology.md
   - entities/certifications/oswa.md
-- entities/vendors/offensive-security.md
-- concepts/web-pentest-methodology.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
+  - entities/vendors/offensive-security.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,10 +16,11 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/vendors/offensive-security.md
 - @concepts/web-pentest-methodology.md
-- @entities/people/joas-a-santos.md
 - @entities/certifications/oswa.md
+- @entities/people/joas-a-santos.md
+- @entities/vendors/offensive-security.md
+
 
 ## Raw Concept
 

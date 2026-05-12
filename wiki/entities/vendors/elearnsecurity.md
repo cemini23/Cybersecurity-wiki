@@ -8,6 +8,15 @@ related:
   - entities/certifications/ecptx.md
   - entities/certifications/ewpt.md
   - entities/people/joas-a-santos.md
+  - sources/elearnsecurity-certified-incident-response-ecir-guide-study-to-exam.md
+  - sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
+  - sources/elearnsecurity-ecppt-notes-exam.md
+  - sources/elearnsecurity-ecptxv2-notes.md
+  - sources/elearnsecurity-ecxd-preparation.md
+  - sources/elearnsecurity-ewpt-notes.md
+  - sources/elearnsecurity-ewptx-notes-basic-by-joas.md
+  - sources/elearnsecurity-exploit-development-student-notes-by-joas.md
+  - sources/elearnsecurity-mobile-application-penetration-testing.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -19,6 +28,16 @@ updated: 2026-05-12
 - @entities/certifications/ecptx.md
 - @entities/certifications/ewpt.md
 - @entities/people/joas-a-santos.md
+- @sources/elearnsecurity-certified-incident-response-ecir-guide-study-to-exam.md
+- @sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
+- @sources/elearnsecurity-ecppt-notes-exam.md
+- @sources/elearnsecurity-ecptxv2-notes.md
+- @sources/elearnsecurity-ecxd-preparation.md
+- @sources/elearnsecurity-ewpt-notes.md
+- @sources/elearnsecurity-ewptx-notes-basic-by-joas.md
+- @sources/elearnsecurity-exploit-development-student-notes-by-joas.md
+- @sources/elearnsecurity-mobile-application-penetration-testing.md
+
 
 ## Raw Concept
 

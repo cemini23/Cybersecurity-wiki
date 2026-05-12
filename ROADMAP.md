@@ -18,8 +18,9 @@ Steps:
 - [x] Seed entity pages for ~50 most-cited certs, tools, frameworks, vendors
 - [x] Seed ~25 concept pages covering the wiki's main themes
 - [x] Cross-link to OSINT / image-gen / SEO / 3d-printing wikis
-- [ ] Deep-read top 10 PDFs to upgrade key concept pages from `draft` to `validated`
-- [ ] Periodic lint passes — first one before publishing
+- [x] Deep-read 7 PDFs to upgrade key concept pages from `draft` to `validated` (MITRE ATT&CK, Red Team Ops, AV/EDR Bypass, Web Pentest Checklist, Linux PrivEsc, IR Overview, INFOSEC Proficiency Colors)
+- [x] Lint clean: 0 orphans, 0 bidirectional gaps, 0 dangling refs
+- [ ] Continue deep-reads: next batch should target Buffer Overflow, eCPPT Notes, OSINT Overview, Threat Hunting
 
 ### W2 — Public-distribution polish
 
@@ -54,13 +55,14 @@ Steps:
 
 **Higher priority:**
 
-- Deep-read 10 anchor PDFs to give concept pages real content (currently `draft` maturity)
-- Add a `concepts/responsible-disclosure.md` page referenced from the ethics section of CLAUDE.md
-- Add `concepts/exploration-graph-dead-ends.md`-style page for "techniques that no longer work" — defenders keep patching, exploits keep rotting
+- Continue deep-reads — Buffer Overflow series (4 PDFs), eCPPT Exam Notes, OSINT Overview PT.1 (was too long for single read; need to chunk), Threat Hunting (eLearnSecurity intro PDF)
+- Add `concepts/exploration-graph-dead-ends.md`-style page for "techniques that no longer work" — defenders keep patching, exploits keep rotting (responsible-disclosure already done)
+- Stub @concepts/web-vitals.md in @seo-wiki/ so the cross-wiki ref resolves both ways (currently using @seo-wiki/concepts/local-seo-foundations.md as the anchor)
 
 **Lower priority:**
 
-- Bidirectional backlink scrubber — when the OSINT/SEO/etc wikis add backlinks to our pages, run a sweep to make sure `@cybersecurity-wiki/...` mentions resolve
+- Bidirectional cross-wiki backlink scrubber — when the OSINT/SEO/etc wikis add backlinks to our pages, run a sweep to make sure `@cybersecurity-wiki/...` mentions resolve
 - Per-certification cram-sheet briefs (OSCP, CRTO, eCPPT) staged in `briefs/`
-- Threat-actor profile expansion (APT28 page is a stub; the corpus has one APT28 PDF; the broader threat-intel community has many more)
-- Spanish / Portuguese page mirroring for the kid-safety subset (corpus is bilingual EN+PT-BR)
+- Threat-actor profile expansion beyond the current 4 — APT41 (China-attributed), FIN7 (criminal), Volt Typhoon (China — critical-infrastructure focus), Scattered Spider (criminal social-eng specialist)
+- Spanish / Portuguese page mirroring for the kid-safety subset (corpus is bilingual EN+PT-BR — currently treated as siblings, could be elevated)
+- Per-tool deep-reads: BloodHound + Cobalt Strike + Caldera entity pages currently `draft`; ingest the canonical SpecterOps / Fortra / MITRE docs to upgrade them

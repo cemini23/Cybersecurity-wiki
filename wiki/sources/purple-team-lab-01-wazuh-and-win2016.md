@@ -5,10 +5,8 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/purple-team-operations.md
+  - entities/people/joas-a-santos.md
   - entities/tools/wazuh.md
-- entities/tools/wazuh.md
-- concepts/purple-team-operations.md
-- entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,11 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/tools/wazuh.md
 - @concepts/purple-team-operations.md
 - @entities/people/joas-a-santos.md
-- @concepts/purple-team-operations.md
 - @entities/tools/wazuh.md
+
 
 ## Raw Concept
 

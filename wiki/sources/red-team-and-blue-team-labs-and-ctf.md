@@ -4,10 +4,10 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
+  - concepts/red-team-operations.md
+  - concepts/soc-operations.md
+  - entities/people/joas-a-santos.md
   - entities/platforms/hackthebox.md
-- concepts/red-team-operations.md
-- concepts/soc-operations.md
-- entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -20,6 +20,7 @@ read_status: unread-stub
 - @concepts/soc-operations.md
 - @entities/people/joas-a-santos.md
 - @entities/platforms/hackthebox.md
+
 
 ## Raw Concept
 

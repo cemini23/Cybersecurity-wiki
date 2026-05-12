@@ -4,10 +4,9 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
+  - concepts/cybersecurity-careers.md
   - concepts/mobile-pentest.md
-- concepts/mobile-pentest.md
-- concepts/cybersecurity-careers.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,10 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @concepts/mobile-pentest.md
 - @concepts/cybersecurity-careers.md
-- @entities/people/joas-a-santos.md
 - @concepts/mobile-pentest.md
+- @entities/people/joas-a-santos.md
+
 
 ## Raw Concept
 

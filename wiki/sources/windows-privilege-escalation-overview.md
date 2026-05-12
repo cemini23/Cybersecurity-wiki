@@ -6,8 +6,7 @@ keywords: [cybersecurity, pdf]
 related:
   - concepts/privilege-escalation.md
   - concepts/windows-pentest.md
-- concepts/privilege-escalation.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,9 +16,9 @@ read_status: unread-stub
 ## Relations
 
 - @concepts/privilege-escalation.md
-- @entities/people/joas-a-santos.md
-- @concepts/privilege-escalation.md
 - @concepts/windows-pentest.md
+- @entities/people/joas-a-santos.md
+
 
 ## Raw Concept
 

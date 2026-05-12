@@ -5,8 +5,8 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/cybersecurity-careers.md
-- entities/vendors/offensive-security.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
+  - entities/vendors/offensive-security.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -15,9 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/vendors/offensive-security.md
-- @entities/people/joas-a-santos.md
 - @concepts/cybersecurity-careers.md
+- @entities/people/joas-a-santos.md
+- @entities/vendors/offensive-security.md
+
 
 ## Raw Concept
 

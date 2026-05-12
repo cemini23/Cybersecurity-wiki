@@ -4,66 +4,295 @@ type: entity
 tags: [person, educator, researcher]
 keywords: [joas antonio dos santos, c0d3cr4zy, red team leader, brazilian, cybersecurity educator]
 related:
-  - concepts/red-team-operations.md
   - concepts/adversary-emulation.md
-  - concepts/av-edr-bypass.md
-  - concepts/web-pentest-methodology.md
-  - concepts/osint-for-cybersecurity.md
-  - concepts/cybersecurity-careers.md
-  - concepts/cyber-for-kids.md
-  - concepts/bug-bounty.md
-  - concepts/mobile-pentest.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/responsible-disclosure.md
-  - concepts/cloud-pentest.md
-  - concepts/purple-team-operations.md
-  - concepts/zero-trust.md
-  - concepts/incident-response.md
   - concepts/anonymity-networks.md
-  - concepts/metaverse-security.md
-  - concepts/privilege-escalation.md
-  - concepts/game-hacking.md
-  - concepts/soc-operations.md
-  - concepts/network-security.md
-  - concepts/threat-hunting.md
-  - concepts/cyberwarfare.md
-  - concepts/container-security.md
-  - concepts/windows-pentest.md
-  - concepts/malware-analysis.md
-  - concepts/exploit-development.md
+  - concepts/av-edr-bypass.md
   - concepts/blockchain-security.md
+  - concepts/bug-bounty.md
+  - concepts/cloud-pentest.md
+  - concepts/container-security.md
+  - concepts/cyber-for-kids.md
+  - concepts/cybersecurity-careers.md
+  - concepts/cyberwarfare.md
+  - concepts/exploit-development.md
+  - concepts/game-hacking.md
+  - concepts/incident-response.md
+  - concepts/malware-analysis.md
+  - concepts/metaverse-security.md
+  - concepts/mobile-pentest.md
+  - concepts/network-security.md
+  - concepts/osint-for-cybersecurity.md
+  - concepts/privilege-escalation.md
+  - concepts/purple-team-operations.md
+  - concepts/red-team-operations.md
+  - concepts/responsible-disclosure.md
+  - concepts/soc-operations.md
   - concepts/social-engineering.md
-  - entities/vendors/ec-council.md
-  - entities/vendors/elearnsecurity.md
-  - entities/vendors/comptia.md
-  - entities/vendors/offensive-security.md
-  - entities/vendors/zeropoint-security.md
+  - concepts/threat-hunting.md
+  - concepts/web-pentest-methodology.md
+  - concepts/windows-pentest.md
+  - concepts/zero-trust.md
+  - entities/certifications/ceh.md
+  - entities/certifications/comptia-pentest-plus.md
+  - entities/certifications/comptia-security-plus.md
+  - entities/certifications/crto.md
+  - entities/certifications/ecppt.md
+  - entities/certifications/ecptx.md
+  - entities/certifications/ewpt.md
+  - entities/certifications/oscp.md
+  - entities/certifications/oswa.md
+  - entities/certifications/oswe.md
+  - entities/frameworks/cyber-kill-chain.md
+  - entities/frameworks/mitre-attack.md
   - entities/platforms/hackthebox.md
-  - entities/tools/nmap.md
-  - entities/tools/bloodhound.md
-  - entities/tools/caldera.md
-  - entities/tools/maltego.md
-  - entities/tools/metasploit.md
-  - entities/tools/cobalt-strike.md
-  - entities/tools/wazuh.md
-  - entities/tools/burp-suite.md
-  - entities/threat-actors/apt28.md
-  - entities/programming-languages/python.md
   - entities/programming-languages/c.md
   - entities/programming-languages/javascript.md
   - entities/programming-languages/powershell.md
-  - entities/certifications/oscp.md
-  - entities/certifications/ecptx.md
-  - entities/certifications/crto.md
-  - entities/certifications/comptia-security-plus.md
-  - entities/certifications/ewpt.md
-  - entities/certifications/comptia-pentest-plus.md
-  - entities/certifications/ecppt.md
-  - entities/certifications/oswa.md
-  - entities/certifications/oswe.md
-  - entities/certifications/ceh.md
-  - entities/frameworks/mitre-attack.md
-  - entities/frameworks/cyber-kill-chain.md
+  - entities/programming-languages/python.md
+  - entities/threat-actors/apt28.md
+  - entities/threat-actors/apt29.md
+  - entities/threat-actors/lazarus.md
+  - entities/threat-actors/lockbit.md
+  - entities/tools/bloodhound.md
+  - entities/tools/burp-suite.md
+  - entities/tools/caldera.md
+  - entities/tools/cobalt-strike.md
+  - entities/tools/maltego.md
+  - entities/tools/metasploit.md
+  - entities/tools/nmap.md
+  - entities/tools/wazuh.md
+  - entities/vendors/comptia.md
+  - entities/vendors/ec-council.md
+  - entities/vendors/elearnsecurity.md
+  - entities/vendors/offensive-security.md
+  - entities/vendors/zeropoint-security.md
+  - sources/100-security-operation-center-tools.md
+  - sources/12-best-career-in-cyber-security-2023.md
+  - sources/19-joassantos-gerenciando-sua-superficie-de-ataques.md
+  - sources/30-days-of-practice-pentest-2.md
+  - sources/30-days-of-practice-pentest.md
+  - sources/adversary-emulation-and-cracking-the-bridge-overview.md
+  - sources/adversary-emulation-com-cobalt-strike.md
+  - sources/adversary-emulation-matrix-by-joas.md
+  - sources/adversary-emulation-services.md
+  - sources/adversary-simulation-with-caldera-and-mitre.md
+  - sources/apostila-a-arte-do-osint-para-pentesters.md
+  - sources/apostila-ataques-web-basico.md
+  - sources/apostila-dicas-para-pentest.md
+  - sources/application-security-introduction-overview-pt-2.md
+  - sources/application-security-introduction-overview.md
+  - sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+  - sources/av-and-edr-bypass-techniques-for-new-hackers-update-2022.md
+  - sources/av-edr-bypass-red-team-village-pt-br.md
+  - sources/blockchain-and-smart-contract-testing-security.md
+  - sources/blue-e-red-team-mercado-de-trabalho.md
+  - sources/brazilian-pentest-certification.md
+  - sources/buffer-overflow-for-beginners-joas.md
+  - sources/buffer-overflow-guide-1.md
+  - sources/buffer-overflow-introduction.md
+  - sources/bug-bounty-career.md
+  - sources/bug-bounty-how-to-start.md
+  - sources/burp-suite-plugin-development.md
+  - sources/bypassing-defenses-in-layers.md
+  - sources/c-for-hackers-overview-pt.md
+  - sources/c-for-pentest.md
+  - sources/carreira-em-cyber-security-jr-ao-especialista.md
+  - sources/carreira-em-desenvolvimento-mobile.md
+  - sources/ceh-fundamentals.md
+  - sources/certifications-preparation-guide.md
+  - sources/certified-red-team-leader-rto-ii-overview-to-study.md
+  - sources/certified-red-team-physical-pentest-leader-quick-training.md
+  - sources/chatgpt-for-cybersecurity-1.md
+  - sources/chatgpt-for-cybersecurity-2.md
+  - sources/chatgpt-for-cybersecurity-3.md
+  - sources/chatgpt-for-cybersecurity-4.md
+  - sources/child-safety-a-serious-problem-but-little-talked-about-english.md
+  - sources/communs-web-attack-reference-pt-1.md
+  - sources/como-gerenciar-um-red-team.md
+  - sources/competencias-essenciais-para-liderar-uma-equipe-de-pentest.md
+  - sources/complete-bug-bounty-cheat-sheet.md
+  - sources/comptia-pentest-tips-and-tricks.md
+  - sources/comptia-security-tips-and-tricks.md
+  - sources/computer-forensic-overview-pt.md
+  - sources/conceitos-basicos-de-pos-exploracao-1.md
+  - sources/container-security-overview-pt-1.md
+  - sources/crto-notes-to-exam-preparation.md
+  - sources/cyber-security-career-for-children-pt-1.md
+  - sources/cyber-security-career-in-2024.md
+  - sources/cyber-security-complete-journey-red-team-1.md
+  - sources/cyber-security-five-challenge-2022.md
+  - sources/cyber-security-for-kids-2-1.md
+  - sources/cyber-security-for-kids-2.md
+  - sources/cyber-security-for-kids.md
+  - sources/cyber-security-services.md
+  - sources/cyberbullying-and-its-consequences.md
+  - sources/cyberbullying-e-as-consequencias.md
+  - sources/cybersec-certifications-2023.md
+  - sources/cybersecurity-and-cyberbullying-education-for-kids.md
+  - sources/cybersecurity-flaws-in-the-metaverse-1.md
+  - sources/cybersecurity-for-kids-english.md
+  - sources/cybersecurity-for-kids-pt-br.md
+  - sources/cyberwarfare-books-1.md
+  - sources/diary-of-a-red-team-challenges-for-you-to-practice-your-skills-1.md
+  - sources/dicas-basicas-para-ingressar-no-mercado-de-seguranca.md
+  - sources/dicas-como-reportar-uma-falha.md
+  - sources/dll-hijacking-overview.md
+  - sources/ebook-invadindo-com-metasploit-vl-1.md
+  - sources/elearnsecurity-certified-incident-response-ecir-guide-study-to-exam.md
+  - sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
+  - sources/elearnsecurity-ecppt-notes-exam.md
+  - sources/elearnsecurity-ecptxv2-notes.md
+  - sources/elearnsecurity-ecxd-preparation.md
+  - sources/elearnsecurity-ewpt-notes.md
+  - sources/elearnsecurity-ewptx-notes-basic-by-joas.md
+  - sources/elearnsecurity-exploit-development-student-notes-by-joas.md
+  - sources/elearnsecurity-mobile-application-penetration-testing.md
+  - sources/enumeracao-de-grupos-de-ti-e-seguranca-para-tech-recruiters.md
+  - sources/fundamentals-cracking-the-perimeter.md
+  - sources/fundamentos-de-desenvolvimento-de-exploits-overview.md
+  - sources/fundamentos-de-firewall.md
+  - sources/fundamentos-de-osint.md
+  - sources/game-hacking-1-anti-cheat-bypass.md
+  - sources/golpe-do-perfil-falso-no-whatsapp-medidas-preventivas.md
+  - sources/google-cloud-attack-overview-pt1.md
+  - sources/hackthebox-e-vulnhub-dicas-e-truques.md
+  - sources/hardware-hacking-introduction-overview.md
+  - sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+  - sources/how-to-start-at-once-in-the-pentest.md
+  - sources/incident-response-overview.md
+  - sources/incident-response-simulation-1.md
+  - sources/informatica-para-concurso.md
+  - sources/information-security-training-by-joas.md
+  - sources/infosec-proeficiency-colors.md
+  - sources/iniciando-sua-carreira-em-pentest.md
+  - sources/instagram-social-network-security.md
+  - sources/internet-safety-sexual-predators-and-stalkers-how-to-protect-yourself.md
+  - sources/interview-question-tips-pentest-red-team-appsec-and-blue-team.md
+  - sources/introducao-a-engenharia-social-pratica.md
+  - sources/introducao-a-network-security-1-0.md
+  - sources/introducao-a-network-security-e-firewall.md
+  - sources/introducao-a-pos-exploracao.md
+  - sources/introducao-a-seguranca-da-aplicacao-uniciv.md
+  - sources/introducao-ao-buffer-overflow-1.md
+  - sources/introducao-ao-desenvolvimento-de-exploits-2.md
+  - sources/introducao-ao-desenvolvimento-de-exploits.md
+  - sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
+  - sources/introducao-ao-pentest-mobile-pt-1.md
+  - sources/introducao-basica-a-analise-de-malware-1.md
+  - sources/investigation-using-osint-with-a-focus-on-intelligence-operations-and-dark-web-o.md
+  - sources/javascript-for-hackers-2.md
+  - sources/javascript-for-hackers.md
+  - sources/kubernetes-exploitation-introduction-cheatsheet.md
+  - sources/linux-privilege-escalation-overview.md
+  - sources/low-cost-red-team-tools-v2.md
+  - sources/low-cost-red-team-tools.md
+  - sources/low-cost-soc-tools-2.md
+  - sources/low-cost-soc.md
+  - sources/malicious-group-c2-automation-build.md
+  - sources/maltego-introduction-creating-a-simple-local-transform-en.md
+  - sources/maltego-introduction-creating-a-simple-local-transform-pt-br.md
+  - sources/malware-and-reverse-engineering-complete-collection-by-joas.md
+  - sources/malware-hunting-threat-hunter-overview-1.md
+  - sources/metaverso-e-a-inovacao-tecnologica.md
+  - sources/mitre-att-ck-study-overview.md
+  - sources/most-critical-failure-in-corporate-environments.md
+  - sources/multi-cloud-red-team-pt-1.md
+  - sources/offensive-security-and-web-exploitation-2.md
+  - sources/offensive-security-consultant-spider-labs.md
+  - sources/offensive-security-defense-analyst-overview-pt-1.md
+  - sources/offensive-security-evasion-techniques-pt-1.md
+  - sources/offensive-security-exploit-development-windows-overview.md
+  - sources/offensive-security-labs-reference.md
+  - sources/offensive-security-mac-control-bypass-notes-pt-1.md
+  - sources/offensive-security-materials-for-studies-and-certifications.md
+  - sources/offensive-security-professional-overview-survival.md
+  - sources/offensive-security-web-exploitation-2.md
+  - sources/offensive-security-web-exploitation.md
+  - sources/offensive-security-wireless-fundamentals.md
+  - sources/offensive-security-wireless.md
+  - sources/offsec-certification-and-courses-2024.md
+  - sources/oscp-labs-to-practice-2023.md
+  - sources/oscp-like-vulns-machines.md
+  - sources/osint-overview-pt-1.md
+  - sources/oswa-offensive-security-web-attacks-study-overview-pt-1.md
+  - sources/overview-windows-api-s-and-internals-reverse-engineering.md
+  - sources/penetration-testing-career-jr-to-specialist.md
+  - sources/pentest-and-red-team-books.md
+  - sources/pentest-and-red-teams-tools-by-joas-and-s3cur3th1ssh1t.md
+  - sources/pentest-com-powershell-overview.md
+  - sources/pentest-em-ambientes-cloud-1.md
+  - sources/pentest-in-office365-and-security.md
+  - sources/pentest-iot-and-ot-overview.md
+  - sources/pentest-skills-development.md
+  - sources/pentest-toolkit.md
+  - sources/pentest-web-do-black-box-ao-white-box.md
+  - sources/pentest-with-metasploit-overview.md
+  - sources/plano-de-estudos-cyber-security-parte-1-red-team.md
+  - sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
+  - sources/programming-language-for-hacking-books.md
+  - sources/purple-team-lab-01-wazuh-and-win2016.md
+  - sources/python-for-hackers-bootcamp.md
+  - sources/python-for-hackers-pt-1.md
+  - sources/python-libs-for-security-pt-1.md
+  - sources/ransomware-investigation-osint-and-hunting-overview-pt1.md
+  - sources/red-team-and-blue-team-labs-and-ctf.md
+  - sources/red-team-career-tips-1.md
+  - sources/red-team-macos-att-ck-overview.md
+  - sources/red-team-operations-concepts-1.md
+  - sources/red-team-operations-development-pt-1.md
+  - sources/red-team-operations-overview-pt-1.md
+  - sources/red-team-operations-overview-pt-2.md
+  - sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
+  - sources/red-team-operations-simulating-an-apt-group-in-practice.md
+  - sources/red-team-pentest-english.md
+  - sources/red-team-toolkit-1.md
+  - sources/red-team-tradecraft-complete-guide.md
+  - sources/red-team-x-blue-team.md
+  - sources/redes-sociais-o-lado-sombrio-do-discord.md
+  - sources/resume-pentest-career-by-joas-a-santos.md
+  - sources/resume-web-pentest-by-joas.md
+  - sources/reverse-engineering-content-study-1.md
+  - sources/reverse-engineering-research-storm.md
+  - sources/roadmap-seguranca-da-informacao-pt-1.md
+  - sources/security-operation-center-40-tools.md
+  - sources/security-operation-center-and-analysis.md
+  - sources/security-operation-center-open-source-pt-en.md
+  - sources/security-operation-center-open-source.md
+  - sources/security-operation-center-operations-development.md
+  - sources/security-operation-center-study-and-career-2022.md
+  - sources/seguranca-infantil-um-problema-serio-mas-pouco-falado.md
+  - sources/seguranca-na-internet-para-criancas.md
+  - sources/shellcode-development-2.md
+  - sources/shellcode-development.md
+  - sources/smart-contract-security-overview-pt-1.md
+  - sources/sobrevivendo-a-um-ataque-escolar.md
+  - sources/soc-analyst-career.md
+  - sources/soc-open-source-tools.md
+  - sources/social-engineering-practical-overview.md
+  - sources/starting-your-cybersecurity-career-complete-guide.md
+  - sources/surviving-a-school-attack.md
+  - sources/tdc2021-mitre-att-ck.md
+  - sources/the-complete-guide-for-cyber-security-career-english.md
+  - sources/the-complete-guide-for-cyber-security-career.md
+  - sources/the-onion-router-overview-pt-1.md
+  - sources/using-osint-techniques-to-investigate-human-trafficking-and-missing-persons-pt-1.md
+  - sources/using-osint-to-investigate-human-trafficking-and-missing-persons.md
+  - sources/using-osint-to-investigate-school-shooters.md
+  - sources/versao-final-atualizada-vulnerabilidades-comuns-em-aplicacoes-web-roadsec-2023.md
+  - sources/web-pentesting-checklist-by-joas.md
+  - sources/what-it-takes-to-be-a-red-team.md
+  - sources/windows-api-for-red-team-101-english.md
+  - sources/windows-api-for-red-team-101-portuguese.md
+  - sources/windows-api-for-red-team-102-english.md
+  - sources/windows-api-for-red-team-102-portugues.md
+  - sources/windows-enterprise-network-pentest.md
+  - sources/windows-persistence-techniques.md
+  - sources/windows-privilege-escalation-overview.md
+  - sources/windows-server-ad-and-o365-advanced-pentest.md
+  - sources/windows-server-and-active-directory-pentest.md
+  - sources/wstg-web-application-security-testing-owasp-mind-map.md
+  - sources/zero-trust-testing-checklist.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-12
@@ -71,66 +300,296 @@ updated: 2026-05-12
 
 ## Relations
 
-- @concepts/red-team-operations.md
 - @concepts/adversary-emulation.md
-- @concepts/av-edr-bypass.md
-- @concepts/web-pentest-methodology.md
-- @concepts/osint-for-cybersecurity.md
-- @concepts/cybersecurity-careers.md
-- @concepts/cyber-for-kids.md
-- @concepts/bug-bounty.md
-- @concepts/mobile-pentest.md
 - @concepts/ai-for-cybersecurity.md
-- @concepts/responsible-disclosure.md
-- @concepts/cloud-pentest.md
-- @concepts/purple-team-operations.md
-- @concepts/zero-trust.md
-- @concepts/incident-response.md
 - @concepts/anonymity-networks.md
-- @concepts/metaverse-security.md
-- @concepts/privilege-escalation.md
-- @concepts/game-hacking.md
-- @concepts/soc-operations.md
-- @concepts/network-security.md
-- @concepts/threat-hunting.md
-- @concepts/cyberwarfare.md
-- @concepts/container-security.md
-- @concepts/windows-pentest.md
-- @concepts/malware-analysis.md
-- @concepts/exploit-development.md
+- @concepts/av-edr-bypass.md
 - @concepts/blockchain-security.md
+- @concepts/bug-bounty.md
+- @concepts/cloud-pentest.md
+- @concepts/container-security.md
+- @concepts/cyber-for-kids.md
+- @concepts/cybersecurity-careers.md
+- @concepts/cyberwarfare.md
+- @concepts/exploit-development.md
+- @concepts/game-hacking.md
+- @concepts/incident-response.md
+- @concepts/malware-analysis.md
+- @concepts/metaverse-security.md
+- @concepts/mobile-pentest.md
+- @concepts/network-security.md
+- @concepts/osint-for-cybersecurity.md
+- @concepts/privilege-escalation.md
+- @concepts/purple-team-operations.md
+- @concepts/red-team-operations.md
+- @concepts/responsible-disclosure.md
+- @concepts/soc-operations.md
 - @concepts/social-engineering.md
-- @entities/vendors/ec-council.md
-- @entities/vendors/elearnsecurity.md
-- @entities/vendors/comptia.md
-- @entities/vendors/offensive-security.md
-- @entities/vendors/zeropoint-security.md
+- @concepts/threat-hunting.md
+- @concepts/web-pentest-methodology.md
+- @concepts/windows-pentest.md
+- @concepts/zero-trust.md
+- @entities/certifications/ceh.md
+- @entities/certifications/comptia-pentest-plus.md
+- @entities/certifications/comptia-security-plus.md
+- @entities/certifications/crto.md
+- @entities/certifications/ecppt.md
+- @entities/certifications/ecptx.md
+- @entities/certifications/ewpt.md
+- @entities/certifications/oscp.md
+- @entities/certifications/oswa.md
+- @entities/certifications/oswe.md
+- @entities/frameworks/cyber-kill-chain.md
+- @entities/frameworks/mitre-attack.md
 - @entities/platforms/hackthebox.md
-- @entities/tools/nmap.md
-- @entities/tools/bloodhound.md
-- @entities/tools/caldera.md
-- @entities/tools/maltego.md
-- @entities/tools/metasploit.md
-- @entities/tools/cobalt-strike.md
-- @entities/tools/wazuh.md
-- @entities/tools/burp-suite.md
-- @entities/threat-actors/apt28.md
-- @entities/programming-languages/python.md
 - @entities/programming-languages/c.md
 - @entities/programming-languages/javascript.md
 - @entities/programming-languages/powershell.md
-- @entities/certifications/oscp.md
-- @entities/certifications/ecptx.md
-- @entities/certifications/crto.md
-- @entities/certifications/comptia-security-plus.md
-- @entities/certifications/ewpt.md
-- @entities/certifications/comptia-pentest-plus.md
-- @entities/certifications/ecppt.md
-- @entities/certifications/oswa.md
-- @entities/certifications/oswe.md
-- @entities/certifications/ceh.md
-- @entities/frameworks/mitre-attack.md
-- @entities/frameworks/cyber-kill-chain.md
+- @entities/programming-languages/python.md
+- @entities/threat-actors/apt28.md
+- @entities/threat-actors/apt29.md
+- @entities/threat-actors/lazarus.md
+- @entities/threat-actors/lockbit.md
+- @entities/tools/bloodhound.md
+- @entities/tools/burp-suite.md
+- @entities/tools/caldera.md
+- @entities/tools/cobalt-strike.md
+- @entities/tools/maltego.md
+- @entities/tools/metasploit.md
+- @entities/tools/nmap.md
+- @entities/tools/wazuh.md
+- @entities/vendors/comptia.md
+- @entities/vendors/ec-council.md
+- @entities/vendors/elearnsecurity.md
+- @entities/vendors/offensive-security.md
+- @entities/vendors/zeropoint-security.md
+- @sources/100-security-operation-center-tools.md
+- @sources/12-best-career-in-cyber-security-2023.md
+- @sources/19-joassantos-gerenciando-sua-superficie-de-ataques.md
+- @sources/30-days-of-practice-pentest-2.md
+- @sources/30-days-of-practice-pentest.md
+- @sources/adversary-emulation-and-cracking-the-bridge-overview.md
+- @sources/adversary-emulation-com-cobalt-strike.md
+- @sources/adversary-emulation-matrix-by-joas.md
+- @sources/adversary-emulation-services.md
+- @sources/adversary-simulation-with-caldera-and-mitre.md
+- @sources/apostila-a-arte-do-osint-para-pentesters.md
+- @sources/apostila-ataques-web-basico.md
+- @sources/apostila-dicas-para-pentest.md
+- @sources/application-security-introduction-overview-pt-2.md
+- @sources/application-security-introduction-overview.md
+- @sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+- @sources/av-and-edr-bypass-techniques-for-new-hackers-update-2022.md
+- @sources/av-edr-bypass-red-team-village-pt-br.md
+- @sources/blockchain-and-smart-contract-testing-security.md
+- @sources/blue-e-red-team-mercado-de-trabalho.md
+- @sources/brazilian-pentest-certification.md
+- @sources/buffer-overflow-for-beginners-joas.md
+- @sources/buffer-overflow-guide-1.md
+- @sources/buffer-overflow-introduction.md
+- @sources/bug-bounty-career.md
+- @sources/bug-bounty-how-to-start.md
+- @sources/burp-suite-plugin-development.md
+- @sources/bypassing-defenses-in-layers.md
+- @sources/c-for-hackers-overview-pt.md
+- @sources/c-for-pentest.md
+- @sources/carreira-em-cyber-security-jr-ao-especialista.md
+- @sources/carreira-em-desenvolvimento-mobile.md
+- @sources/ceh-fundamentals.md
+- @sources/certifications-preparation-guide.md
+- @sources/certified-red-team-leader-rto-ii-overview-to-study.md
+- @sources/certified-red-team-physical-pentest-leader-quick-training.md
+- @sources/chatgpt-for-cybersecurity-1.md
+- @sources/chatgpt-for-cybersecurity-2.md
+- @sources/chatgpt-for-cybersecurity-3.md
+- @sources/chatgpt-for-cybersecurity-4.md
+- @sources/child-safety-a-serious-problem-but-little-talked-about-english.md
+- @sources/communs-web-attack-reference-pt-1.md
+- @sources/como-gerenciar-um-red-team.md
+- @sources/competencias-essenciais-para-liderar-uma-equipe-de-pentest.md
+- @sources/complete-bug-bounty-cheat-sheet.md
+- @sources/comptia-pentest-tips-and-tricks.md
+- @sources/comptia-security-tips-and-tricks.md
+- @sources/computer-forensic-overview-pt.md
+- @sources/conceitos-basicos-de-pos-exploracao-1.md
+- @sources/container-security-overview-pt-1.md
+- @sources/crto-notes-to-exam-preparation.md
+- @sources/cyber-security-career-for-children-pt-1.md
+- @sources/cyber-security-career-in-2024.md
+- @sources/cyber-security-complete-journey-red-team-1.md
+- @sources/cyber-security-five-challenge-2022.md
+- @sources/cyber-security-for-kids-2-1.md
+- @sources/cyber-security-for-kids-2.md
+- @sources/cyber-security-for-kids.md
+- @sources/cyber-security-services.md
+- @sources/cyberbullying-and-its-consequences.md
+- @sources/cyberbullying-e-as-consequencias.md
+- @sources/cybersec-certifications-2023.md
+- @sources/cybersecurity-and-cyberbullying-education-for-kids.md
+- @sources/cybersecurity-flaws-in-the-metaverse-1.md
+- @sources/cybersecurity-for-kids-english.md
+- @sources/cybersecurity-for-kids-pt-br.md
+- @sources/cyberwarfare-books-1.md
+- @sources/diary-of-a-red-team-challenges-for-you-to-practice-your-skills-1.md
+- @sources/dicas-basicas-para-ingressar-no-mercado-de-seguranca.md
+- @sources/dicas-como-reportar-uma-falha.md
+- @sources/dll-hijacking-overview.md
+- @sources/ebook-invadindo-com-metasploit-vl-1.md
+- @sources/elearnsecurity-certified-incident-response-ecir-guide-study-to-exam.md
+- @sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
+- @sources/elearnsecurity-ecppt-notes-exam.md
+- @sources/elearnsecurity-ecptxv2-notes.md
+- @sources/elearnsecurity-ecxd-preparation.md
+- @sources/elearnsecurity-ewpt-notes.md
+- @sources/elearnsecurity-ewptx-notes-basic-by-joas.md
+- @sources/elearnsecurity-exploit-development-student-notes-by-joas.md
+- @sources/elearnsecurity-mobile-application-penetration-testing.md
+- @sources/enumeracao-de-grupos-de-ti-e-seguranca-para-tech-recruiters.md
+- @sources/fundamentals-cracking-the-perimeter.md
+- @sources/fundamentos-de-desenvolvimento-de-exploits-overview.md
+- @sources/fundamentos-de-firewall.md
+- @sources/fundamentos-de-osint.md
+- @sources/game-hacking-1-anti-cheat-bypass.md
+- @sources/golpe-do-perfil-falso-no-whatsapp-medidas-preventivas.md
+- @sources/google-cloud-attack-overview-pt1.md
+- @sources/hackthebox-e-vulnhub-dicas-e-truques.md
+- @sources/hardware-hacking-introduction-overview.md
+- @sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+- @sources/how-to-start-at-once-in-the-pentest.md
+- @sources/incident-response-overview.md
+- @sources/incident-response-simulation-1.md
+- @sources/informatica-para-concurso.md
+- @sources/information-security-training-by-joas.md
+- @sources/infosec-proeficiency-colors.md
+- @sources/iniciando-sua-carreira-em-pentest.md
+- @sources/instagram-social-network-security.md
+- @sources/internet-safety-sexual-predators-and-stalkers-how-to-protect-yourself.md
+- @sources/interview-question-tips-pentest-red-team-appsec-and-blue-team.md
+- @sources/introducao-a-engenharia-social-pratica.md
+- @sources/introducao-a-network-security-1-0.md
+- @sources/introducao-a-network-security-e-firewall.md
+- @sources/introducao-a-pos-exploracao.md
+- @sources/introducao-a-seguranca-da-aplicacao-uniciv.md
+- @sources/introducao-ao-buffer-overflow-1.md
+- @sources/introducao-ao-desenvolvimento-de-exploits-2.md
+- @sources/introducao-ao-desenvolvimento-de-exploits.md
+- @sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
+- @sources/introducao-ao-pentest-mobile-pt-1.md
+- @sources/introducao-basica-a-analise-de-malware-1.md
+- @sources/investigation-using-osint-with-a-focus-on-intelligence-operations-and-dark-web-o.md
+- @sources/javascript-for-hackers-2.md
+- @sources/javascript-for-hackers.md
+- @sources/kubernetes-exploitation-introduction-cheatsheet.md
+- @sources/linux-privilege-escalation-overview.md
+- @sources/low-cost-red-team-tools-v2.md
+- @sources/low-cost-red-team-tools.md
+- @sources/low-cost-soc-tools-2.md
+- @sources/low-cost-soc.md
+- @sources/malicious-group-c2-automation-build.md
+- @sources/maltego-introduction-creating-a-simple-local-transform-en.md
+- @sources/maltego-introduction-creating-a-simple-local-transform-pt-br.md
+- @sources/malware-and-reverse-engineering-complete-collection-by-joas.md
+- @sources/malware-hunting-threat-hunter-overview-1.md
+- @sources/metaverso-e-a-inovacao-tecnologica.md
+- @sources/mitre-att-ck-study-overview.md
+- @sources/most-critical-failure-in-corporate-environments.md
+- @sources/multi-cloud-red-team-pt-1.md
+- @sources/offensive-security-and-web-exploitation-2.md
+- @sources/offensive-security-consultant-spider-labs.md
+- @sources/offensive-security-defense-analyst-overview-pt-1.md
+- @sources/offensive-security-evasion-techniques-pt-1.md
+- @sources/offensive-security-exploit-development-windows-overview.md
+- @sources/offensive-security-labs-reference.md
+- @sources/offensive-security-mac-control-bypass-notes-pt-1.md
+- @sources/offensive-security-materials-for-studies-and-certifications.md
+- @sources/offensive-security-professional-overview-survival.md
+- @sources/offensive-security-web-exploitation-2.md
+- @sources/offensive-security-web-exploitation.md
+- @sources/offensive-security-wireless-fundamentals.md
+- @sources/offensive-security-wireless.md
+- @sources/offsec-certification-and-courses-2024.md
+- @sources/oscp-labs-to-practice-2023.md
+- @sources/oscp-like-vulns-machines.md
+- @sources/osint-overview-pt-1.md
+- @sources/oswa-offensive-security-web-attacks-study-overview-pt-1.md
+- @sources/overview-windows-api-s-and-internals-reverse-engineering.md
+- @sources/penetration-testing-career-jr-to-specialist.md
+- @sources/pentest-and-red-team-books.md
+- @sources/pentest-and-red-teams-tools-by-joas-and-s3cur3th1ssh1t.md
+- @sources/pentest-com-powershell-overview.md
+- @sources/pentest-em-ambientes-cloud-1.md
+- @sources/pentest-in-office365-and-security.md
+- @sources/pentest-iot-and-ot-overview.md
+- @sources/pentest-skills-development.md
+- @sources/pentest-toolkit.md
+- @sources/pentest-web-do-black-box-ao-white-box.md
+- @sources/pentest-with-metasploit-overview.md
+- @sources/plano-de-estudos-cyber-security-parte-1-red-team.md
+- @sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
+- @sources/programming-language-for-hacking-books.md
+- @sources/purple-team-lab-01-wazuh-and-win2016.md
+- @sources/python-for-hackers-bootcamp.md
+- @sources/python-for-hackers-pt-1.md
+- @sources/python-libs-for-security-pt-1.md
+- @sources/ransomware-investigation-osint-and-hunting-overview-pt1.md
+- @sources/red-team-and-blue-team-labs-and-ctf.md
+- @sources/red-team-career-tips-1.md
+- @sources/red-team-macos-att-ck-overview.md
+- @sources/red-team-operations-concepts-1.md
+- @sources/red-team-operations-development-pt-1.md
+- @sources/red-team-operations-overview-pt-1.md
+- @sources/red-team-operations-overview-pt-2.md
+- @sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
+- @sources/red-team-operations-simulating-an-apt-group-in-practice.md
+- @sources/red-team-pentest-english.md
+- @sources/red-team-toolkit-1.md
+- @sources/red-team-tradecraft-complete-guide.md
+- @sources/red-team-x-blue-team.md
+- @sources/redes-sociais-o-lado-sombrio-do-discord.md
+- @sources/resume-pentest-career-by-joas-a-santos.md
+- @sources/resume-web-pentest-by-joas.md
+- @sources/reverse-engineering-content-study-1.md
+- @sources/reverse-engineering-research-storm.md
+- @sources/roadmap-seguranca-da-informacao-pt-1.md
+- @sources/security-operation-center-40-tools.md
+- @sources/security-operation-center-and-analysis.md
+- @sources/security-operation-center-open-source-pt-en.md
+- @sources/security-operation-center-open-source.md
+- @sources/security-operation-center-operations-development.md
+- @sources/security-operation-center-study-and-career-2022.md
+- @sources/seguranca-infantil-um-problema-serio-mas-pouco-falado.md
+- @sources/seguranca-na-internet-para-criancas.md
+- @sources/shellcode-development-2.md
+- @sources/shellcode-development.md
+- @sources/smart-contract-security-overview-pt-1.md
+- @sources/sobrevivendo-a-um-ataque-escolar.md
+- @sources/soc-analyst-career.md
+- @sources/soc-open-source-tools.md
+- @sources/social-engineering-practical-overview.md
+- @sources/starting-your-cybersecurity-career-complete-guide.md
+- @sources/surviving-a-school-attack.md
+- @sources/tdc2021-mitre-att-ck.md
+- @sources/the-complete-guide-for-cyber-security-career-english.md
+- @sources/the-complete-guide-for-cyber-security-career.md
+- @sources/the-onion-router-overview-pt-1.md
+- @sources/using-osint-techniques-to-investigate-human-trafficking-and-missing-persons-pt-1.md
+- @sources/using-osint-to-investigate-human-trafficking-and-missing-persons.md
+- @sources/using-osint-to-investigate-school-shooters.md
+- @sources/versao-final-atualizada-vulnerabilidades-comuns-em-aplicacoes-web-roadsec-2023.md
+- @sources/web-pentesting-checklist-by-joas.md
+- @sources/what-it-takes-to-be-a-red-team.md
+- @sources/windows-api-for-red-team-101-english.md
+- @sources/windows-api-for-red-team-101-portuguese.md
+- @sources/windows-api-for-red-team-102-english.md
+- @sources/windows-api-for-red-team-102-portugues.md
+- @sources/windows-enterprise-network-pentest.md
+- @sources/windows-persistence-techniques.md
+- @sources/windows-privilege-escalation-overview.md
+- @sources/windows-server-ad-and-o365-advanced-pentest.md
+- @sources/windows-server-and-active-directory-pentest.md
+- @sources/wstg-web-application-security-testing-owasp-mind-map.md
+- @sources/zero-trust-testing-checklist.md
+
 
 ## Raw Concept
 

@@ -4,10 +4,12 @@ type: entity
 tags: [vendor, certifications, vendor-neutral]
 keywords: [comptia, security+, pentest+, cysa+, casp+]
 related:
-  - entities/certifications/comptia-security-plus.md
-  - entities/certifications/comptia-pentest-plus.md
   - concepts/cybersecurity-careers.md
+  - entities/certifications/comptia-pentest-plus.md
+  - entities/certifications/comptia-security-plus.md
   - entities/people/joas-a-santos.md
+  - sources/comptia-pentest-tips-and-tricks.md
+  - sources/comptia-security-tips-and-tricks.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -15,10 +17,13 @@ updated: 2026-05-12
 
 ## Relations
 
-- @entities/certifications/comptia-security-plus.md
-- @entities/certifications/comptia-pentest-plus.md
 - @concepts/cybersecurity-careers.md
+- @entities/certifications/comptia-pentest-plus.md
+- @entities/certifications/comptia-security-plus.md
 - @entities/people/joas-a-santos.md
+- @sources/comptia-pentest-tips-and-tricks.md
+- @sources/comptia-security-tips-and-tricks.md
+
 
 ## Raw Concept
 

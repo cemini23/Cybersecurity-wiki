@@ -5,8 +5,7 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/ai-for-cybersecurity.md
-- concepts/ai-for-cybersecurity.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,7 +16,7 @@ read_status: unread-stub
 
 - @concepts/ai-for-cybersecurity.md
 - @entities/people/joas-a-santos.md
-- @concepts/ai-for-cybersecurity.md
+
 
 ## Raw Concept
 

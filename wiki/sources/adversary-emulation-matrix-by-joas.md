@@ -6,8 +6,7 @@ keywords: [cybersecurity, pdf]
 related:
   - concepts/adversary-emulation.md
   - entities/frameworks/mitre-attack.md
-- concepts/adversary-emulation.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,9 +16,9 @@ read_status: unread-stub
 ## Relations
 
 - @concepts/adversary-emulation.md
-- @entities/people/joas-a-santos.md
-- @concepts/adversary-emulation.md
 - @entities/frameworks/mitre-attack.md
+- @entities/people/joas-a-santos.md
+
 
 ## Raw Concept
 

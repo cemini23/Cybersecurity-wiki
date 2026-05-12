@@ -22,11 +22,11 @@
 | @concepts/adversary-emulation.md | validated | APT-emulation plan structure |
 | @concepts/purple-team-operations.md | draft | Red + blue collaborative engagements |
 | @concepts/soc-operations.md | draft | Security Operations Center tooling + tiers |
-| @concepts/incident-response.md | draft | NIST / SANS IR lifecycle |
+| @concepts/incident-response.md | validated | NIST / SANS IR lifecycle |
 | @concepts/threat-hunting.md | draft | Hypothesis-driven proactive detection |
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
-| @concepts/cybersecurity-careers.md | draft | Career map + certification ladder |
+| @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
 
 ### Offensive technique categories
 
@@ -39,7 +39,7 @@
 | @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT |
 | @concepts/exploit-development.md | draft | Buffer overflow → ROP → kernel exploits |
 | @concepts/av-edr-bypass.md | validated | AV/EDR evasion tradecraft |
-| @concepts/privilege-escalation.md | draft | Linux + Windows privesc |
+| @concepts/privilege-escalation.md | validated | Linux + Windows privesc |
 | @concepts/social-engineering.md | draft | Phishing + vishing + pretexting |
 | @concepts/osint-for-cybersecurity.md | validated | Pre-engagement + threat-intel OSINT |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
@@ -137,6 +137,9 @@
 | Page | Maturity | Region |
 |------|----------|--------|
 | @entities/threat-actors/apt28.md | draft | Russia-attributed (GRU) |
+| @entities/threat-actors/apt29.md | draft | Russia-attributed (SVR) |
+| @entities/threat-actors/lazarus.md | draft | DPRK-attributed (RGB) |
+| @entities/threat-actors/lockbit.md | draft | Criminal RaaS (Russian-language) |
 
 ### People
 

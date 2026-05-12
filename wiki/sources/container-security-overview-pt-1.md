@@ -5,8 +5,7 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/container-security.md
-- concepts/container-security.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,7 +16,7 @@ read_status: unread-stub
 
 - @concepts/container-security.md
 - @entities/people/joas-a-santos.md
-- @concepts/container-security.md
+
 
 ## Raw Concept
 

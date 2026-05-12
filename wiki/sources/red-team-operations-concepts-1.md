@@ -5,10 +5,9 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/red-team-operations.md
-  - entities/frameworks/mitre-attack.md
   - entities/frameworks/cyber-kill-chain.md
-- concepts/red-team-operations.md
-- entities/people/joas-a-santos.md
+  - entities/frameworks/mitre-attack.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -18,10 +17,10 @@ read_status: unread-stub
 ## Relations
 
 - @concepts/red-team-operations.md
-- @entities/people/joas-a-santos.md
-- @concepts/red-team-operations.md
-- @entities/frameworks/mitre-attack.md
 - @entities/frameworks/cyber-kill-chain.md
+- @entities/frameworks/mitre-attack.md
+- @entities/people/joas-a-santos.md
+
 
 ## Raw Concept
 

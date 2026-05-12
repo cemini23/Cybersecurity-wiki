@@ -5,9 +5,8 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/incident-response.md
-- entities/vendors/elearnsecurity.md
-- concepts/incident-response.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
+  - entities/vendors/elearnsecurity.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,10 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/vendors/elearnsecurity.md
 - @concepts/incident-response.md
 - @entities/people/joas-a-santos.md
-- @concepts/incident-response.md
+- @entities/vendors/elearnsecurity.md
+
 
 ## Raw Concept
 

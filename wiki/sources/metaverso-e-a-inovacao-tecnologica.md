@@ -5,8 +5,7 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/metaverse-security.md
-- concepts/metaverse-security.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -17,7 +16,7 @@ read_status: unread-stub
 
 - @concepts/metaverse-security.md
 - @entities/people/joas-a-santos.md
-- @concepts/metaverse-security.md
+
 
 ## Raw Concept
 

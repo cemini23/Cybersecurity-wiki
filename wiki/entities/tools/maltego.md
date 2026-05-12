@@ -5,8 +5,9 @@ tags: [osint, graph-analysis, investigation]
 keywords: [maltego, transforms, osint, link analysis, paterva]
 related:
   - concepts/osint-for-cybersecurity.md
-  - sources/maltego-introduction-creating-a-simple-local-transform-en.md
   - entities/people/joas-a-santos.md
+  - sources/maltego-introduction-creating-a-simple-local-transform-en.md
+  - sources/maltego-introduction-creating-a-simple-local-transform-pt-br.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -15,8 +16,10 @@ updated: 2026-05-12
 ## Relations
 
 - @concepts/osint-for-cybersecurity.md
-- @sources/maltego-introduction-creating-a-simple-local-transform-en.md
 - @entities/people/joas-a-santos.md
+- @sources/maltego-introduction-creating-a-simple-local-transform-en.md
+- @sources/maltego-introduction-creating-a-simple-local-transform-pt-br.md
+
 
 ## Raw Concept
 

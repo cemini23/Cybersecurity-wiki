@@ -5,9 +5,8 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/bug-bounty.md
-- concepts/bug-bounty.md
-- concepts/cybersecurity-careers.md
-- entities/people/joas-a-santos.md
+  - concepts/cybersecurity-careers.md
+  - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -19,7 +18,7 @@ read_status: unread-stub
 - @concepts/bug-bounty.md
 - @concepts/cybersecurity-careers.md
 - @entities/people/joas-a-santos.md
-- @concepts/bug-bounty.md
+
 
 ## Raw Concept
 

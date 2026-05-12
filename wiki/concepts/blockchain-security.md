@@ -4,11 +4,12 @@ type: concept
 tags: [blockchain, smart-contract, web3]
 keywords: [blockchain, smart contract, solidity, evm, defi]
 related:
+  - concepts/metaverse-security.md
   - concepts/web-pentest-methodology.md
+  - entities/people/joas-a-santos.md
+  - entities/threat-actors/lazarus.md
   - sources/blockchain-and-smart-contract-testing-security.md
   - sources/smart-contract-security-overview-pt-1.md
-  - entities/people/joas-a-santos.md
-  - concepts/metaverse-security.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -16,11 +17,13 @@ updated: 2026-05-12
 
 ## Relations
 
+- @concepts/metaverse-security.md
 - @concepts/web-pentest-methodology.md
+- @entities/people/joas-a-santos.md
+- @entities/threat-actors/lazarus.md
 - @sources/blockchain-and-smart-contract-testing-security.md
 - @sources/smart-contract-security-overview-pt-1.md
-- @entities/people/joas-a-santos.md
-- @concepts/metaverse-security.md
+
 
 ## Raw Concept
 

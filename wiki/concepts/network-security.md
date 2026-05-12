@@ -5,16 +5,26 @@ tags: [network, firewall, wireless, iot, ot]
 keywords: [firewall, network security, wireless, wifi, iot, ot, ics]
 related:
   - concepts/red-team-operations.md
+  - concepts/zero-trust.md
+  - entities/people/joas-a-santos.md
   - entities/tools/nmap.md
+  - sources/crto-notes-to-exam-preparation.md
+  - sources/elearnsecurity-ecppt-notes-exam.md
+  - sources/elearnsecurity-ecptxv2-notes.md
+  - sources/elearnsecurity-ewpt-notes.md
+  - sources/elearnsecurity-ewptx-notes-basic-by-joas.md
+  - sources/elearnsecurity-exploit-development-student-notes-by-joas.md
   - sources/fundamentos-de-firewall.md
+  - sources/hardware-hacking-introduction-overview.md
+  - sources/internet-safety-sexual-predators-and-stalkers-how-to-protect-yourself.md
   - sources/introducao-a-network-security-1-0.md
   - sources/introducao-a-network-security-e-firewall.md
+  - sources/offensive-security-mac-control-bypass-notes-pt-1.md
   - sources/offensive-security-wireless-fundamentals.md
   - sources/offensive-security-wireless.md
-  - sources/hardware-hacking-introduction-overview.md
   - sources/pentest-iot-and-ot-overview.md
-  - entities/people/joas-a-santos.md
-  - concepts/zero-trust.md
+  - sources/python-for-hackers-bootcamp.md
+  - sources/using-osint-to-investigate-school-shooters.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -23,16 +33,27 @@ updated: 2026-05-12
 ## Relations
 
 - @concepts/red-team-operations.md
+- @concepts/zero-trust.md
+- @entities/people/joas-a-santos.md
 - @entities/tools/nmap.md
+- @sources/crto-notes-to-exam-preparation.md
+- @sources/elearnsecurity-ecppt-notes-exam.md
+- @sources/elearnsecurity-ecptxv2-notes.md
+- @sources/elearnsecurity-ewpt-notes.md
+- @sources/elearnsecurity-ewptx-notes-basic-by-joas.md
+- @sources/elearnsecurity-exploit-development-student-notes-by-joas.md
 - @sources/fundamentos-de-firewall.md
+- @sources/hardware-hacking-introduction-overview.md
+- @sources/internet-safety-sexual-predators-and-stalkers-how-to-protect-yourself.md
 - @sources/introducao-a-network-security-1-0.md
 - @sources/introducao-a-network-security-e-firewall.md
+- @sources/offensive-security-mac-control-bypass-notes-pt-1.md
 - @sources/offensive-security-wireless-fundamentals.md
 - @sources/offensive-security-wireless.md
-- @sources/hardware-hacking-introduction-overview.md
 - @sources/pentest-iot-and-ot-overview.md
-- @entities/people/joas-a-santos.md
-- @concepts/zero-trust.md
+- @sources/python-for-hackers-bootcamp.md
+- @sources/using-osint-to-investigate-school-shooters.md
+
 
 ## Raw Concept
 

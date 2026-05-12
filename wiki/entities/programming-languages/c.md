@@ -4,13 +4,15 @@ type: entity
 tags: [systems, exploit-dev, low-level]
 keywords: [c, c++, buffer overflow, shellcode, windows api]
 related:
-  - concepts/exploit-development.md
   - concepts/av-edr-bypass.md
-  - sources/c-for-hackers-overview-pt.md
-  - sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
-  - entities/people/joas-a-santos.md
+  - concepts/exploit-development.md
   - concepts/game-hacking.md
   - concepts/malware-analysis.md
+  - entities/people/joas-a-santos.md
+  - sources/c-for-hackers-overview-pt.md
+  - sources/c-for-pentest.md
+  - sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
+  - sources/programming-language-for-hacking-books.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -18,13 +20,16 @@ updated: 2026-05-12
 
 ## Relations
 
-- @concepts/exploit-development.md
 - @concepts/av-edr-bypass.md
-- @sources/c-for-hackers-overview-pt.md
-- @sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
-- @entities/people/joas-a-santos.md
+- @concepts/exploit-development.md
 - @concepts/game-hacking.md
 - @concepts/malware-analysis.md
+- @entities/people/joas-a-santos.md
+- @sources/c-for-hackers-overview-pt.md
+- @sources/c-for-pentest.md
+- @sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
+- @sources/programming-language-for-hacking-books.md
+
 
 ## Raw Concept
 

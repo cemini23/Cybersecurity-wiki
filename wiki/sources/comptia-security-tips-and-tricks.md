@@ -5,8 +5,8 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - entities/certifications/comptia-security-plus.md
-- entities/vendors/comptia.md
-- entities/people/joas-a-santos.md
+  - entities/people/joas-a-santos.md
+  - entities/vendors/comptia.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -15,9 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/vendors/comptia.md
-- @entities/people/joas-a-santos.md
 - @entities/certifications/comptia-security-plus.md
+- @entities/people/joas-a-santos.md
+- @entities/vendors/comptia.md
+
 
 ## Raw Concept
 

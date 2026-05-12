@@ -5,30 +5,57 @@ tags: [offensive-security, doctrine, operations]
 keywords: [red team, adversary simulation, engagement, ttp]
 related:
   - concepts/adversary-emulation.md
+  - concepts/ai-for-cybersecurity.md
   - concepts/av-edr-bypass.md
+  - concepts/cloud-pentest.md
+  - concepts/cyberwarfare.md
+  - concepts/network-security.md
+  - concepts/osint-for-cybersecurity.md
   - concepts/purple-team-operations.md
   - concepts/social-engineering.md
-  - entities/frameworks/mitre-attack.md
-  - entities/frameworks/cyber-kill-chain.md
-  - entities/tools/cobalt-strike.md
+  - concepts/windows-pentest.md
   - entities/certifications/crto.md
+  - entities/certifications/ecppt.md
   - entities/certifications/ecptx.md
+  - entities/frameworks/cyber-kill-chain.md
+  - entities/frameworks/mitre-attack.md
+  - entities/people/joas-a-santos.md
+  - entities/programming-languages/powershell.md
+  - entities/threat-actors/apt29.md
+  - entities/tools/bloodhound.md
+  - entities/tools/cobalt-strike.md
+  - entities/tools/metasploit.md
+  - entities/vendors/zeropoint-security.md
+  - sources/av-edr-bypass-red-team-village-pt-br.md
+  - sources/blue-e-red-team-mercado-de-trabalho.md
+  - sources/certified-red-team-leader-rto-ii-overview-to-study.md
+  - sources/certified-red-team-physical-pentest-leader-quick-training.md
+  - sources/como-gerenciar-um-red-team.md
+  - sources/cyber-security-complete-journey-red-team-1.md
+  - sources/diary-of-a-red-team-challenges-for-you-to-practice-your-skills-1.md
+  - sources/interview-question-tips-pentest-red-team-appsec-and-blue-team.md
+  - sources/low-cost-red-team-tools-v2.md
+  - sources/low-cost-red-team-tools.md
+  - sources/multi-cloud-red-team-pt-1.md
+  - sources/pentest-and-red-team-books.md
+  - sources/plano-de-estudos-cyber-security-parte-1-red-team.md
+  - sources/red-team-and-blue-team-labs-and-ctf.md
+  - sources/red-team-career-tips-1.md
+  - sources/red-team-macos-att-ck-overview.md
   - sources/red-team-operations-concepts-1.md
+  - sources/red-team-operations-development-pt-1.md
+  - sources/red-team-operations-overview-pt-1.md
+  - sources/red-team-operations-overview-pt-2.md
+  - sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
+  - sources/red-team-operations-simulating-an-apt-group-in-practice.md
+  - sources/red-team-pentest-english.md
+  - sources/red-team-toolkit-1.md
   - sources/red-team-tradecraft-complete-guide.md
   - sources/what-it-takes-to-be-a-red-team.md
-  - sources/red-team-pentest-english.md
-  - entities/people/joas-a-santos.md
-  - concepts/ai-for-cybersecurity.md
-  - concepts/cloud-pentest.md
-  - concepts/network-security.md
-  - concepts/cyberwarfare.md
-  - concepts/windows-pentest.md
-  - concepts/osint-for-cybersecurity.md
-  - entities/vendors/zeropoint-security.md
-  - entities/tools/bloodhound.md
-  - entities/tools/metasploit.md
-  - entities/programming-languages/powershell.md
-  - entities/certifications/ecppt.md
+  - sources/windows-api-for-red-team-101-english.md
+  - sources/windows-api-for-red-team-101-portuguese.md
+  - sources/windows-api-for-red-team-102-english.md
+  - sources/windows-api-for-red-team-102-portugues.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-12
@@ -37,30 +64,58 @@ updated: 2026-05-12
 ## Relations
 
 - @concepts/adversary-emulation.md
+- @concepts/ai-for-cybersecurity.md
 - @concepts/av-edr-bypass.md
+- @concepts/cloud-pentest.md
+- @concepts/cyberwarfare.md
+- @concepts/network-security.md
+- @concepts/osint-for-cybersecurity.md
 - @concepts/purple-team-operations.md
 - @concepts/social-engineering.md
-- @entities/frameworks/mitre-attack.md
-- @entities/frameworks/cyber-kill-chain.md
-- @entities/tools/cobalt-strike.md
+- @concepts/windows-pentest.md
 - @entities/certifications/crto.md
+- @entities/certifications/ecppt.md
 - @entities/certifications/ecptx.md
+- @entities/frameworks/cyber-kill-chain.md
+- @entities/frameworks/mitre-attack.md
+- @entities/people/joas-a-santos.md
+- @entities/programming-languages/powershell.md
+- @entities/threat-actors/apt29.md
+- @entities/tools/bloodhound.md
+- @entities/tools/cobalt-strike.md
+- @entities/tools/metasploit.md
+- @entities/vendors/zeropoint-security.md
+- @sources/av-edr-bypass-red-team-village-pt-br.md
+- @sources/blue-e-red-team-mercado-de-trabalho.md
+- @sources/certified-red-team-leader-rto-ii-overview-to-study.md
+- @sources/certified-red-team-physical-pentest-leader-quick-training.md
+- @sources/como-gerenciar-um-red-team.md
+- @sources/cyber-security-complete-journey-red-team-1.md
+- @sources/diary-of-a-red-team-challenges-for-you-to-practice-your-skills-1.md
+- @sources/interview-question-tips-pentest-red-team-appsec-and-blue-team.md
+- @sources/low-cost-red-team-tools-v2.md
+- @sources/low-cost-red-team-tools.md
+- @sources/multi-cloud-red-team-pt-1.md
+- @sources/pentest-and-red-team-books.md
+- @sources/plano-de-estudos-cyber-security-parte-1-red-team.md
+- @sources/red-team-and-blue-team-labs-and-ctf.md
+- @sources/red-team-career-tips-1.md
+- @sources/red-team-macos-att-ck-overview.md
 - @sources/red-team-operations-concepts-1.md
+- @sources/red-team-operations-development-pt-1.md
+- @sources/red-team-operations-overview-pt-1.md
+- @sources/red-team-operations-overview-pt-2.md
+- @sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
+- @sources/red-team-operations-simulating-an-apt-group-in-practice.md
+- @sources/red-team-pentest-english.md
+- @sources/red-team-toolkit-1.md
 - @sources/red-team-tradecraft-complete-guide.md
 - @sources/what-it-takes-to-be-a-red-team.md
-- @sources/red-team-pentest-english.md
-- @entities/people/joas-a-santos.md
-- @concepts/ai-for-cybersecurity.md
-- @concepts/cloud-pentest.md
-- @concepts/network-security.md
-- @concepts/cyberwarfare.md
-- @concepts/windows-pentest.md
-- @concepts/osint-for-cybersecurity.md
-- @entities/vendors/zeropoint-security.md
-- @entities/tools/bloodhound.md
-- @entities/tools/metasploit.md
-- @entities/programming-languages/powershell.md
-- @entities/certifications/ecppt.md
+- @sources/windows-api-for-red-team-101-english.md
+- @sources/windows-api-for-red-team-101-portuguese.md
+- @sources/windows-api-for-red-team-102-english.md
+- @sources/windows-api-for-red-team-102-portugues.md
+
 
 ## Raw Concept
 

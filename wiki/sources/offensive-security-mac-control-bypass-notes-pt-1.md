@@ -4,9 +4,9 @@ type: source
 tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
-- entities/vendors/offensive-security.md
-- concepts/network-security.md
-- entities/people/joas-a-santos.md
+  - concepts/network-security.md
+  - entities/people/joas-a-santos.md
+  - entities/vendors/offensive-security.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12
@@ -15,9 +15,10 @@ read_status: unread-stub
 
 ## Relations
 
-- @entities/vendors/offensive-security.md
 - @concepts/network-security.md
 - @entities/people/joas-a-santos.md
+- @entities/vendors/offensive-security.md
+
 
 ## Raw Concept
 
