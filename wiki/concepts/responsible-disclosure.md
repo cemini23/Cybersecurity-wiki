@@ -9,9 +9,15 @@ related:
   - entities/threat-actors/lockbit.md
   - sources/dicas-como-reportar-uma-falha.md
   - sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+  - entities/tools/pentest-ai-agents.md
+  - entities/tools/pydns-scanner.md
+  - entities/tools/fuzzyai.md
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/llm-pentest-automation.md
+  - concepts/dns-server-discovery-vs-subdomain-enumeration.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -21,6 +27,12 @@ updated: 2026-05-12
 - @entities/threat-actors/lockbit.md
 - @sources/dicas-como-reportar-uma-falha.md
 - @sources/how-to-report-a-vulnerability-and-generate-its-cve.md
+- @entities/tools/pentest-ai-agents.md
+- @entities/tools/pydns-scanner.md
+- @entities/tools/fuzzyai.md
+- @concepts/llm-adversarial-fuzzing.md
+- @concepts/llm-pentest-automation.md
+- @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 
 
 ## Raw Concept

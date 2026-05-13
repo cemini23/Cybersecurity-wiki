@@ -56,9 +56,15 @@ related:
   - sources/windows-api-for-red-team-101-portuguese.md
   - sources/windows-api-for-red-team-102-english.md
   - sources/windows-api-for-red-team-102-portugues.md
+  - entities/tools/cua.md
+  - entities/tools/fuzzyai.md
+  - entities/tools/pentest-ai-agents.md
+  - concepts/agent-vm-sandboxing.md
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/llm-pentest-automation.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -115,6 +121,12 @@ updated: 2026-05-12
 - @sources/windows-api-for-red-team-101-portuguese.md
 - @sources/windows-api-for-red-team-102-english.md
 - @sources/windows-api-for-red-team-102-portugues.md
+- @entities/tools/cua.md
+- @entities/tools/fuzzyai.md
+- @entities/tools/pentest-ai-agents.md
+- @concepts/agent-vm-sandboxing.md
+- @concepts/llm-adversarial-fuzzing.md
+- @concepts/llm-pentest-automation.md
 
 
 ## Raw Concept

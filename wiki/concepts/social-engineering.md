@@ -10,9 +10,10 @@ related:
   - sources/social-engineering-practical-overview.md
   - sources/introducao-a-engenharia-social-pratica.md
   - entities/people/joas-a-santos.md
+  - concepts/crescendo-multi-turn-jailbreak.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-12
 - @sources/social-engineering-practical-overview.md
 - @sources/introducao-a-engenharia-social-pratica.md
 - @entities/people/joas-a-santos.md
+- @concepts/crescendo-multi-turn-jailbreak.md
 
 ## Raw Concept
 

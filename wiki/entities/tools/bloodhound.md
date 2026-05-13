@@ -7,9 +7,10 @@ related:
   - concepts/windows-pentest.md
   - concepts/red-team-operations.md
   - entities/people/joas-a-santos.md
+  - entities/tools/pentest-ai-agents.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -17,6 +18,7 @@ updated: 2026-05-12
 - @concepts/windows-pentest.md
 - @concepts/red-team-operations.md
 - @entities/people/joas-a-santos.md
+- @entities/tools/pentest-ai-agents.md
 
 ## Raw Concept
 

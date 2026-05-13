@@ -41,9 +41,11 @@ related:
   - sources/starting-your-cybersecurity-career-complete-guide.md
   - sources/the-complete-guide-for-cyber-security-career-english.md
   - sources/the-complete-guide-for-cyber-security-career.md
+  - entities/tools/pentest-ai-agents.md
+  - concepts/llm-pentest-automation.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -85,6 +87,8 @@ updated: 2026-05-12
 - @sources/starting-your-cybersecurity-career-complete-guide.md
 - @sources/the-complete-guide-for-cyber-security-career-english.md
 - @sources/the-complete-guide-for-cyber-security-career.md
+- @entities/tools/pentest-ai-agents.md
+- @concepts/llm-pentest-automation.md
 
 
 ## Raw Concept

@@ -19,9 +19,11 @@ related:
   - concepts/windows-pentest.md
   - entities/tools/metasploit.md
   - entities/certifications/ecptx.md
+  - entities/tools/cua.md
+  - concepts/agent-vm-sandboxing.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -41,6 +43,8 @@ updated: 2026-05-12
 - @concepts/windows-pentest.md
 - @entities/tools/metasploit.md
 - @entities/certifications/ecptx.md
+- @entities/tools/cua.md
+- @concepts/agent-vm-sandboxing.md
 
 ## Raw Concept
 

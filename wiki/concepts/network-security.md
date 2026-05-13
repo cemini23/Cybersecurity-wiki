@@ -25,9 +25,11 @@ related:
   - sources/pentest-iot-and-ot-overview.md
   - sources/python-for-hackers-bootcamp.md
   - sources/using-osint-to-investigate-school-shooters.md
+  - entities/tools/pydns-scanner.md
+  - concepts/dns-server-discovery-vs-subdomain-enumeration.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -53,6 +55,8 @@ updated: 2026-05-12
 - @sources/pentest-iot-and-ot-overview.md
 - @sources/python-for-hackers-bootcamp.md
 - @sources/using-osint-to-investigate-school-shooters.md
+- @entities/tools/pydns-scanner.md
+- @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 
 
 ## Raw Concept

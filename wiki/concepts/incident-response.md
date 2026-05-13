@@ -14,9 +14,11 @@ related:
   - sources/elearnsecurity-certified-incident-response-ecir-guide-study-to-exam.md
   - sources/incident-response-overview.md
   - sources/incident-response-simulation-1.md
+  - entities/tools/cua.md
+  - concepts/agent-vm-sandboxing.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -31,6 +33,8 @@ updated: 2026-05-12
 - @sources/elearnsecurity-certified-incident-response-ecir-guide-study-to-exam.md
 - @sources/incident-response-overview.md
 - @sources/incident-response-simulation-1.md
+- @entities/tools/cua.md
+- @concepts/agent-vm-sandboxing.md
 
 
 ## Raw Concept

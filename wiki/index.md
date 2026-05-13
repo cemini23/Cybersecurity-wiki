@@ -27,6 +27,7 @@
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
+| @concepts/agent-vm-sandboxing.md | draft | LLM-driven agent-VM sandboxing framework |
 
 ### Offensive technique categories
 
@@ -43,6 +44,7 @@
 | @concepts/social-engineering.md | draft | Phishing + vishing + pretexting |
 | @concepts/osint-for-cybersecurity.md | validated | Pre-engagement + threat-intel OSINT |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
+| @concepts/dns-server-discovery-vs-subdomain-enumeration.md | draft | DNS recon distinction (server discovery vs subdomain enum) |
 
 ### Defensive + analytical
 
@@ -55,6 +57,11 @@
 | Page | Maturity | Topic |
 |------|----------|-------|
 | @concepts/ai-for-cybersecurity.md | draft | LLM use in red + blue workflows |
+| @concepts/llm-vulnerability-discovery.md | draft | LLM-driven vuln-discovery pipeline (Detect→Attack) |
+| @concepts/llm-adversarial-fuzzing.md | draft | Adversarial LLM testing methodology (FuzzyAI umbrella) |
+| @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
+| @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
+| @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
 | @concepts/game-hacking.md | draft | Anti-cheat bypass as RE practice |
@@ -106,6 +113,10 @@
 | @entities/tools/wazuh.md | draft | FOSS SIEM / host-IDS |
 | @entities/tools/nmap.md | draft | Network scanner |
 | @entities/tools/bloodhound.md | draft | AD attack-path graph |
+| @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
+| @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
+| @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
+| @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
 
 ### Vendors
 

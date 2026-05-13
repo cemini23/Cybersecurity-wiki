@@ -19,9 +19,11 @@ related:
   - entities/people/joas-a-santos.md
   - concepts/anonymity-networks.md
   - entities/programming-languages/python.md
+  - entities/tools/pydns-scanner.md
+  - concepts/dns-server-discovery-vs-subdomain-enumeration.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -42,6 +44,8 @@ updated: 2026-05-12
 - @osint-wiki/concepts/typed-relation-dependencies.md
 - @concepts/anonymity-networks.md
 - @entities/programming-languages/python.md
+- @entities/tools/pydns-scanner.md
+- @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 
 ## Raw Concept
 

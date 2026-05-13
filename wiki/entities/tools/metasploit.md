@@ -10,9 +10,10 @@ related:
   - sources/ebook-invadindo-com-metasploit-vl-1.md
   - sources/pentest-with-metasploit-overview.md
   - entities/people/joas-a-santos.md
+  - entities/tools/pentest-ai-agents.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-12
 - @sources/ebook-invadindo-com-metasploit-vl-1.md
 - @sources/pentest-with-metasploit-overview.md
 - @entities/people/joas-a-santos.md
+- @entities/tools/pentest-ai-agents.md
 
 ## Raw Concept
 

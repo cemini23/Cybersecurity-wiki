@@ -16,9 +16,11 @@ related:
   - entities/programming-languages/javascript.md
   - entities/certifications/ewpt.md
   - entities/certifications/oswe.md
+  - entities/tools/pentest-ai-agents.md
+  - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -35,6 +37,8 @@ updated: 2026-05-12
 - @entities/programming-languages/javascript.md
 - @entities/certifications/ewpt.md
 - @entities/certifications/oswe.md
+- @entities/tools/pentest-ai-agents.md
+- @concepts/llm-pentest-automation.md
 
 ## Raw Concept
 

@@ -11,9 +11,15 @@ related:
   - sources/chatgpt-for-cybersecurity-3.md
   - sources/chatgpt-for-cybersecurity-4.md
   - entities/people/joas-a-santos.md
+  - entities/tools/fuzzyai.md
+  - entities/tools/pentest-ai-agents.md
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/pair-prompt-pattern.md
+  - concepts/crescendo-multi-turn-jailbreak.md
+  - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -25,6 +31,12 @@ updated: 2026-05-12
 - @sources/chatgpt-for-cybersecurity-3.md
 - @sources/chatgpt-for-cybersecurity-4.md
 - @entities/people/joas-a-santos.md
+- @entities/tools/fuzzyai.md
+- @entities/tools/pentest-ai-agents.md
+- @concepts/llm-adversarial-fuzzing.md
+- @concepts/pair-prompt-pattern.md
+- @concepts/crescendo-multi-turn-jailbreak.md
+- @concepts/llm-pentest-automation.md
 
 ## Raw Concept
 
