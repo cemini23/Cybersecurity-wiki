@@ -10,7 +10,7 @@ This workspace is a **librarian** for cybersecurity knowledge. It:
 - **Curates** them into an interlinked wiki under `wiki/` — pages on certifications, tools, frameworks, threat actors, platforms, people, vendors, programming languages, and concepts
 - **Applies** them by producing briefs in `briefs/` that you paste into claude.ai / Claude Desktop / hands-on workflows (engagement notes, SOC runbooks, CTF write-ups, certification cram sheets)
 
-Everything lives on locally. No remote servers, no team distribution, no automation that touches third-party platforms.
+Everything lives locally. No remote servers, no team distribution, no automation that touches third-party platforms.
 
 The seed corpus (~227 PDFs) was contributed by [Joas A Santos](wiki/entities/people/joas-a-santos.md), a Brazilian cybersecurity educator with deep coverage of offensive security, red team operations, certification prep, SOC tooling, and youth cyber safety. Public release.
 
