@@ -16,6 +16,7 @@ osint_eval_origin: doc1-url-17 (cross-routed; substantive cybersec content)
 
 - `@osint-wiki/entities/tools/claude-code-ultimate-guide.md` — OSINT cross-route (workflow angle)
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 17)
+- `@ccc-wiki/entities/tools/claude-code-ultimate-guide.md` — CCC-side meta-wiki entry; the 28-CVE catalog + 655 malicious-skill patterns inform CCC's Phase-0 skill audit workflow
 
 ## Raw Concept
 

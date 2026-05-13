@@ -149,6 +149,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | `image-gen-wiki` | `../Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops. Shared territory: deepfakes + adversarial-image attacks (when those surfaces appear in pentest scope) |
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing. Shared territory: web-app security for client sites + spam-policy / fake-review attack surfaces |
 | `3d-printing-wiki` | `../3D printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops. Shared territory: hardware hacking when printed jigs / RFID enclosures / lock-pick aids overlap with physical-pentest tooling |
+| `ccc-wiki` | `../Cemini claude code CCC/wiki/` | Cemini Claude Code meta-wiki — workflow, MCP, hooks, skills, slash commands. Shared territory: Tier-1/Tier-2 agent model (`@ccc-wiki/entities/patterns/tier1-tier2-agent-model.md` adapted from this wiki's `concepts/llm-pentest-automation.md`), cua VM-isolation entity (`@ccc-wiki/entities/tools/cua.md`), claude-code-ultimate-guide (`@ccc-wiki/entities/tools/claude-code-ultimate-guide.md`) |
 
 ### Cross-wiki link syntax
 

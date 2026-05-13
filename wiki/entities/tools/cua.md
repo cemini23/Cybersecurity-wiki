@@ -29,6 +29,7 @@ updated: 2026-05-13
 - @entities/tools/fuzzyai.md — sibling tool; pair LLM-adversarial fuzzing with cua-tracing for replayable jailbreak campaigns
 - @entities/tools/pentest-ai-agents.md — sibling tool; pentest-ai-agents orchestrates the pentest toolchain, cua provides the isolation chamber for execution
 - @osint-wiki/entities/tools/cua.md — sibling-wiki Phase-0 audit notes; cross-wiki context for the Cemini Conductor (REFERENCE-ONLY there)
+- @ccc-wiki/entities/tools/cua.md — CCC-side meta-wiki entry; documents cua as the Tier-2 isolation chamber for Cemini's Claude Code subagent pattern
 
 ## Raw Concept
 
