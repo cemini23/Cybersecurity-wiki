@@ -101,3 +101,13 @@ Concept pages (6):
 - Per-CVE deep-reads of PAIR + Crescendo academic papers — currently we cite arXiv IDs but haven't synthesized the full method descriptions into snippets.
 - Lab-validation of pentest-ai-agents Tier-2 mode against a test target — currently `[TENTATIVE]` on the actual operational claims.
 - Tooling-stack briefs for Caldera + Atomic Red Team comparisons against pentest-ai-agents — both are LLM-pentest adjacent but not yet evaluated.
+
+## [2026-05-13] cross-wiki route | xullexer/PYDNS-Scanner — async DNS recon (Slipstream + SlipNet)
+
+Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
+- Created wiki/entities/pydns-scanner-xullexer.md (stub)
+
+## [2026-05-13] cross-wiki route | 0xSteph/pentest-ai-agents — shell-only Claude Code subagents for pentest workflows
+
+Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
+- Created wiki/entities/pentest-ai-agents-0xsteph.md (stub)
