@@ -39,10 +39,16 @@
 | @concepts/mobile-pentest.md | draft | Android + iOS app pentest |
 | @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT |
 | @concepts/exploit-development.md | draft | Buffer overflow → ROP → kernel exploits |
+| @concepts/buffer-overflow.md | draft | Stack/heap overflow fundamentals + shellcode |
 | @concepts/av-edr-bypass.md | validated | AV/EDR evasion tradecraft |
 | @concepts/privilege-escalation.md | validated | Linux + Windows privesc |
+| @concepts/credential-access.md | draft | Credential dumping + password cracking (TA0006) |
+| @concepts/pivoting.md | draft | Lateral movement + tunneling + port forwarding |
 | @concepts/social-engineering.md | draft | Phishing + vishing + pretexting |
+| @concepts/phishing.md | draft | Spear phishing + MFA bypass + infrastructure |
 | @concepts/osint-for-cybersecurity.md | validated | Pre-engagement + threat-intel OSINT |
+| @concepts/linux-pentest.md | draft | Linux enumeration + privesc (GTFOBins, SUID, capabilities) |
+| @concepts/wireless-pentest.md | draft | WiFi / WPS / Bluetooth / RFID attacks |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
 | @concepts/dns-server-discovery-vs-subdomain-enumeration.md | draft | DNS recon distinction (server discovery vs subdomain enum) |
 
@@ -51,6 +57,9 @@
 | Page | Maturity | Topic |
 |------|----------|-------|
 | @concepts/malware-analysis.md | draft | Static + dynamic malware RE |
+| @concepts/defense-in-depth.md | draft | Layered security architecture |
+| @concepts/system-hardening.md | draft | OS + network + application hardening |
+| @concepts/linux-security.md | draft | RHEL security, SELinux, auditd, SSH hardening |
 
 ### Emerging / cross-domain
 
@@ -113,6 +122,8 @@
 | @entities/tools/wazuh.md | draft | FOSS SIEM / host-IDS |
 | @entities/tools/nmap.md | draft | Network scanner |
 | @entities/tools/bloodhound.md | draft | AD attack-path graph |
+| @entities/tools/kali-linux.md | draft | Pentest Linux distribution (OffSec, 600+ tools) |
+| @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
@@ -168,7 +179,12 @@
 
 ## Sources
 
-227 source pages live in `sources/` — one per PDF in the seed Joas A Santos corpus. They're not individually catalogued here; instead, each entity and concept page lists the sources that synthesize into it under `related:`. Browse `sources/` directly for provenance lookups.
+249 source pages live in `sources/`:
+
+- **227** from the Joas A Santos seed corpus (shared Drive folder `ebooks Joas`)
+- **22** from the Redteam Kit shared Drive folder (English-language security books + field manuals)
+
+Source pages are not individually catalogued here; each entity and concept page lists the sources that synthesize into it under `related:`. Browse `sources/` directly for provenance lookups.
 
 The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_inventory.tsv` (gitignored — see `ROADMAP.md` for the storage decision).
 

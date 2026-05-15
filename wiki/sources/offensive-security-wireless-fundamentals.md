@@ -7,9 +7,10 @@ related:
   - concepts/network-security.md
   - entities/people/joas-a-santos.md
   - entities/vendors/offensive-security.md
+  - concepts/wireless-pentest.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 read_status: unread-stub
 ---
 
@@ -20,6 +21,7 @@ read_status: unread-stub
 - @entities/vendors/offensive-security.md
 
 
+- @concepts/wireless-pentest.md
 ## Raw Concept
 
 - **Title:** OFFENSIVE SECURITY WIRELESS FUNDAMENTALS

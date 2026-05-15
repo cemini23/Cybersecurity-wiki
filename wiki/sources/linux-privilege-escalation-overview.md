@@ -6,9 +6,10 @@ keywords: [cybersecurity, pdf]
 related:
   - concepts/privilege-escalation.md
   - entities/people/joas-a-santos.md
+  - concepts/linux-pentest.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 read_status: unread-stub
 ---
 
@@ -18,6 +19,7 @@ read_status: unread-stub
 - @entities/people/joas-a-santos.md
 
 
+- @concepts/linux-pentest.md
 ## Raw Concept
 
 - **Title:** Linux Privilege Escalation – Overview

@@ -6,9 +6,10 @@ keywords: [cybersecurity, pdf]
 related:
   - concepts/exploit-development.md
   - entities/people/joas-a-santos.md
+  - concepts/buffer-overflow.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 read_status: unread-stub
 ---
 
@@ -18,6 +19,7 @@ read_status: unread-stub
 - @entities/people/joas-a-santos.md
 
 
+- @concepts/buffer-overflow.md
 ## Raw Concept
 
 - **Title:** Buffer Overflow Guide 1

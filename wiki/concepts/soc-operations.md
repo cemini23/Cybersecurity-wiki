@@ -24,9 +24,10 @@ related:
   - sources/security-operation-center-study-and-career-2022.md
   - sources/soc-analyst-career.md
   - sources/soc-open-source-tools.md
+  - sources/2025-cybersecurity-attacks-playbooks.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -53,6 +54,7 @@ updated: 2026-05-12
 - @sources/soc-open-source-tools.md
 
 
+- @sources/2025-cybersecurity-attacks-playbooks.md
 ## Raw Concept
 
 11+ corpus PDFs scope into SOC operations.

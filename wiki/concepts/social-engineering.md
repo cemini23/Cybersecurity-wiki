@@ -11,9 +11,12 @@ related:
   - sources/introducao-a-engenharia-social-pratica.md
   - entities/people/joas-a-santos.md
   - concepts/crescendo-multi-turn-jailbreak.md
+  - sources/hacking-multifactor-authentication.md
+  - sources/phishing-dark-waters.md
+  - concepts/phishing.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -26,6 +29,9 @@ updated: 2026-05-13
 - @entities/people/joas-a-santos.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 
+- @sources/hacking-multifactor-authentication.md
+- @sources/phishing-dark-waters.md
+- @concepts/phishing.md
 ## Raw Concept
 
 Two corpus PDFs (PT-BR + EN) anchor.

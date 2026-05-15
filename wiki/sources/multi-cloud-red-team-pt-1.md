@@ -7,9 +7,10 @@ related:
   - concepts/cloud-pentest.md
   - concepts/red-team-operations.md
   - entities/people/joas-a-santos.md
+  - entities/tools/multi-cloud-red-team.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 read_status: unread-stub
 ---
 
@@ -20,6 +21,7 @@ read_status: unread-stub
 - @entities/people/joas-a-santos.md
 
 
+- @entities/tools/multi-cloud-red-team.md
 ## Raw Concept
 
 - **Title:** MULTI-CLOUD RED TEAM – PT 1

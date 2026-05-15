@@ -13,9 +13,11 @@ related:
   - sources/c-for-pentest.md
   - sources/programacao-c-e-c-para-seguranca-ofensiva-digital.md
   - sources/programming-language-for-hacking-books.md
+  - sources/hacking-the-art-of-exploitation-2nd-edition.md
+  - concepts/buffer-overflow.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -31,6 +33,8 @@ updated: 2026-05-12
 - @sources/programming-language-for-hacking-books.md
 
 
+- @sources/hacking-the-art-of-exploitation-2nd-edition.md
+- @concepts/buffer-overflow.md
 ## Raw Concept
 
 Two corpus PDFs anchor (C for Hackers - Overview PT + Programação C e C++ para Segurança Ofensiva).

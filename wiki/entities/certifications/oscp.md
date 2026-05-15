@@ -13,9 +13,10 @@ related:
   - entities/platforms/hackthebox.md
   - entities/people/joas-a-santos.md
   - concepts/cybersecurity-careers.md
+  - entities/tools/kali-linux.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -30,6 +31,7 @@ updated: 2026-05-12
 - @entities/people/joas-a-santos.md
 - @concepts/cybersecurity-careers.md
 
+- @entities/tools/kali-linux.md
 ## Raw Concept
 
 Two corpus PDFs directly anchored: OSCP LABS TO PRACTICE 2023 + OSCP Like Vulns Machines.

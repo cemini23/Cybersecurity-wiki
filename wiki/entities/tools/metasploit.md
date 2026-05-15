@@ -11,9 +11,12 @@ related:
   - sources/pentest-with-metasploit-overview.md
   - entities/people/joas-a-santos.md
   - entities/tools/pentest-ai-agents.md
+  - concepts/credential-access.md
+  - concepts/linux-pentest.md
+  - entities/tools/kali-linux.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -26,6 +29,9 @@ updated: 2026-05-13
 - @entities/people/joas-a-santos.md
 - @entities/tools/pentest-ai-agents.md
 
+- @concepts/credential-access.md
+- @concepts/linux-pentest.md
+- @entities/tools/kali-linux.md
 ## Raw Concept
 
 Cited across the corpus as the standard FOSS exploitation framework. Stub anchored to two corpus PDFs (ebook Invadindo com Metasploit VL 1 + Pentest with metasploit - overview).

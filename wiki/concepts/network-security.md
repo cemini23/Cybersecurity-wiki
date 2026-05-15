@@ -27,9 +27,16 @@ related:
   - sources/using-osint-to-investigate-school-shooters.md
   - entities/tools/pydns-scanner.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
+  - sources/hacking-computer-hacking-security-testing.md
+  - sources/network-attacks-and-exploitation.md
+  - concepts/defense-in-depth.md
+  - concepts/linux-security.md
+  - concepts/pivoting.md
+  - concepts/system-hardening.md
+  - concepts/wireless-pentest.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -59,6 +66,13 @@ updated: 2026-05-13
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 
 
+- @sources/hacking-computer-hacking-security-testing.md
+- @sources/network-attacks-and-exploitation.md
+- @concepts/defense-in-depth.md
+- @concepts/linux-security.md
+- @concepts/pivoting.md
+- @concepts/system-hardening.md
+- @concepts/wireless-pentest.md
 ## Raw Concept
 
 Eight corpus PDFs anchor.

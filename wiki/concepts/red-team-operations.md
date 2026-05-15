@@ -62,9 +62,18 @@ related:
   - concepts/agent-vm-sandboxing.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
+  - sources/for-red-team-operation.md
+  - sources/hands-on-hacking.md
+  - sources/practical-redteaming.md
+  - sources/red-team-guides.md
+  - sources/rtfm-red-team-field-manual-v2.md
+  - sources/the-hacker-playbook-3-practical.md
+  - concepts/phishing.md
+  - concepts/pivoting.md
+  - entities/tools/multi-cloud-red-team.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -129,6 +138,15 @@ updated: 2026-05-13
 - @concepts/llm-pentest-automation.md
 
 
+- @sources/for-red-team-operation.md
+- @sources/hands-on-hacking.md
+- @sources/practical-redteaming.md
+- @sources/red-team-guides.md
+- @sources/rtfm-red-team-field-manual-v2.md
+- @sources/the-hacker-playbook-3-practical.md
+- @concepts/phishing.md
+- @concepts/pivoting.md
+- @entities/tools/multi-cloud-red-team.md
 ## Raw Concept
 
 Anchor concept for the largest single sub-collection in the corpus — 16+ PDFs explicitly scope-named Red Team (Red Team Operations Concepts/Development/Toolkit, Red Team Tradecraft, Red Team Career Tips, What it takes to be a Red Team, Red Team x Blue Team, Red_Team_x_Blue_Team, Cyber Security Complete Journey – Red Team #1, etc.).

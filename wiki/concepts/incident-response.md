@@ -16,9 +16,12 @@ related:
   - sources/incident-response-simulation-1.md
   - entities/tools/cua.md
   - concepts/agent-vm-sandboxing.md
+  - sources/2025-cybersecurity-attacks-playbooks.md
+  - concepts/defense-in-depth.md
+  - concepts/linux-security.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -37,6 +40,9 @@ updated: 2026-05-13
 - @concepts/agent-vm-sandboxing.md
 
 
+- @sources/2025-cybersecurity-attacks-playbooks.md
+- @concepts/defense-in-depth.md
+- @concepts/linux-security.md
 ## Raw Concept
 
 Three corpus PDFs anchor (Incident response - overview, Incident Response Simulation 1, eCIR Guide).

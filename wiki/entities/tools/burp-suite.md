@@ -8,9 +8,10 @@ related:
   - concepts/bug-bounty.md
   - sources/burp-suite-plugin-development.md
   - entities/people/joas-a-santos.md
+  - entities/tools/kali-linux.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -20,6 +21,7 @@ updated: 2026-05-12
 - @sources/burp-suite-plugin-development.md
 - @entities/people/joas-a-santos.md
 
+- @entities/tools/kali-linux.md
 ## Raw Concept
 
 Standard tool for web-app testing across the corpus. Anchored by Burp Suite Plugin Development.pdf.

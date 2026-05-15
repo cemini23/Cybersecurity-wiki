@@ -23,9 +23,13 @@ related:
   - sources/adversary-simulation-with-caldera-and-mitre.md
   - sources/red-team-operations-simulando-um-grupo-apt-na-pratica.md
   - sources/red-team-operations-simulating-an-apt-group-in-practice.md
+  - sources/for-red-team-operation.md
+  - sources/practical-redteaming.md
+  - sources/red-team-guides.md
+  - sources/the-hacker-playbook-3-practical.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -51,6 +55,10 @@ updated: 2026-05-12
 - @sources/red-team-operations-simulating-an-apt-group-in-practice.md
 
 
+- @sources/for-red-team-operation.md
+- @sources/practical-redteaming.md
+- @sources/red-team-guides.md
+- @sources/the-hacker-playbook-3-practical.md
 ## Raw Concept
 
 Corpus has 7+ PDFs that scope explicitly into adversary emulation (Adversary Emulation com Cobalt Strike, Adversary Emulation Matrix, Adversary Emulation Services, Adversary Simulation with Caldera and Mitre, Red Team Operations – Simulando um grupo APT na prática, etc.).

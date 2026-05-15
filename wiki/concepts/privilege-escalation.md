@@ -12,9 +12,13 @@ related:
   - sources/introducao-a-pos-exploracao.md
   - entities/people/joas-a-santos.md
   - entities/certifications/oscp.md
+  - sources/window-privilege-escalation-automated-script.md
+  - concepts/buffer-overflow.md
+  - concepts/credential-access.md
+  - concepts/linux-pentest.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -28,6 +32,10 @@ updated: 2026-05-12
 - @entities/people/joas-a-santos.md
 - @entities/certifications/oscp.md
 
+- @sources/window-privilege-escalation-automated-script.md
+- @concepts/buffer-overflow.md
+- @concepts/credential-access.md
+- @concepts/linux-pentest.md
 ## Raw Concept
 
 Anchored by Linux + Windows privesc PDFs + two post-exploitation overviews.

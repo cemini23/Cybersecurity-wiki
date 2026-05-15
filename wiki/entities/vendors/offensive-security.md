@@ -23,9 +23,10 @@ related:
   - sources/offensive-security-wireless.md
   - sources/offsec-certification-and-courses-2024.md
   - sources/oswa-offensive-security-web-attacks-study-overview-pt-1.md
+  - entities/tools/kali-linux.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -51,6 +52,7 @@ updated: 2026-05-12
 - @sources/oswa-offensive-security-web-attacks-study-overview-pt-1.md
 
 
+- @entities/tools/kali-linux.md
 ## Raw Concept
 
 Sponsor of OSCP / OSWE / OSWA / OSED / OSEP / OSDA / OSWP / OSEE — cited across the corpus.

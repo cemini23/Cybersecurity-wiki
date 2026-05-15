@@ -131,3 +131,49 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/decepticon.md`.
 
 Cross-wiki stub routed from `@osint-wiki/entities/tools/claude-red-offensive-skills.md`.
 - Created wiki/entities/claude-red-offensive-skills.md (stub)
+
+## [2026-05-15] ingest | Redteam Kit — 22 PDFs (shared Drive folder)
+
+- **Source**: Google Drive shared folder [Redteam Kit](https://drive.google.com/drive/folders/1_UR7Kns9v3vIUyPPP0dTGBKdD1JOZupx) (owner hidden, shared 2026-05-15)
+- **Contents**: 22 English-language cybersecurity PDFs — books, playbooks, field manuals, and technique references. Distinct corpus from the Joas A Santos (PT-BR/EN) seed corpus.
+- **Method**: Enumerated via Playwright DOM snapshot (Drive API search doesn't return shared-folder children). File IDs not captured — Drive API search by title also returns empty for shared files.
+- **Pages touched** — 22 source stubs:
+  1. `2025-cybersecurity-attacks-playbooks` — SOC/IR playbooks
+  2. `cloud-hacking-playbook` — Cloud offensive playbook
+  3. `cloud-attack-vectors` — Cloud attack surface reference
+  4. `for-red-team-operation` — Red team operations guide
+  5. `hacking-the-art-of-exploitation-2nd-edition` — Jon Erickson classic (exploit dev)
+  6. `hacking-computer-hacking-security-testing` — Pentest fundamentals
+  7. `hacking-mastery-with-kali-linux` — Kali Linux mastery
+  8. `hacking-multifactor-authentication` — MFA bypass techniques (new topic area)
+  9. `hands-on-hacking` — Practical hacking guide
+  10. `network-attacks-and-exploitation` — Network attack/exploitation
+  11. `no-starch-press-hacking-apis` — Web API hacking (new topic area)
+  12. `offline-bruteforce-wps` — WPS brute-force attacks
+  13. `password-cracking-techniques` — Hash cracking techniques
+  14. `penetration-testing-with-kali-linux` — Kali pentest guide
+  15. `phishing-dark-waters` — Advanced phishing techniques
+  16. `practical-redteaming` — Practical red team operations
+  17. `red-team-guides` — Red team guides collection
+  18. `red-hat-linux-security-and-optimization` — RHEL hardening
+  19. `rtfm-red-team-field-manual-v2` — RTFM v2 quick reference
+  20. `ssh-hardening-and-offensive-mastery` — SSH hardening + tunneling (new topic area)
+  21. `the-hacker-playbook-3-practical` — Peter Kim's Hacker Playbook 3
+  22. `window-privilege-escalation-automated-script` — Windows privesc automation
+- **Genuine topic gaps filled**: MFA hacking (#8), web API hacking (#11), SSH hardening (#20) — these seed entirely new topic areas with no prior source coverage
+- **Kali Linux gap filled**: two Kali-specific sources (#7, #14) — first dedicated Kali source pages despite it being a core pentest platform
+- **Read status**: all 22 sources `unread-stub`; deep-read deferred
+- **Total wiki size**: 249 source stubs (227 Joas + 22 Redteam Kit), ~54 entity pages, ~31 concept pages, 4 threat-actor pages
+- **New concept pages** created to anchor the ingest:
+  - `concepts/buffer-overflow.md` — Stack/heap overflow + shellcode fundamentals
+  - `concepts/credential-access.md` — MITRE TA0006 credential dumping + password cracking
+  - `concepts/linux-pentest.md` — Linux enumeration + privilege escalation
+  - `concepts/linux-security.md` — RHEL hardening, SELinux, SSH defense
+  - `concepts/phishing.md` — Spear phishing + MFA bypass + infrastructure
+  - `concepts/pivoting.md` — Lateral movement + tunneling + port forwarding
+  - `concepts/system-hardening.md` — CIS/STIG system hardening frameworks
+  - `concepts/wireless-pentest.md` — WiFi/WPS/Bluetooth/RFID attacks
+  - `concepts/defense-in-depth.md` — Layered security architecture
+- **New entity pages**: `entities/tools/kali-linux.md` (pentest distro), `entities/tools/multi-cloud-red-team.md` (multi-cloud red team ops)
+- **Backlinks**: 26 existing pages updated (11 concept + 15 entity/source) to maintain bidirectional invariant
+- **Lint state**: 0 new orphans, 0 new bidirectional gaps, 0 new dangling links from this ingest
