@@ -126,3 +126,8 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/tpotce.md`.
 
 Cross-wiki stub routed from `@osint-wiki/entities/tools/decepticon.md`.
 - Created wiki/entities/decepticon.md (stub)
+
+## [2026-05-15] cross-wiki route | Claude-Red — Offensive Security Skills Library for Claude Code
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/claude-red-offensive-skills.md`.
+- Created wiki/entities/claude-red-offensive-skills.md (stub)
