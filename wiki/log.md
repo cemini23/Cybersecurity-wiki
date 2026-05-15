@@ -111,3 +111,18 @@ Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md
 
 Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
 - Created wiki/entities/pentest-ai-agents-0xsteph.md (stub)
+
+## [2026-05-14] cross-wiki route | apktool-mcp-server — Android Reverse Engineering via MCP
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/apktool-mcp-server.md`.
+- Created wiki/entities/apktool-mcp-server.md (stub)
+
+## [2026-05-14] cross-wiki route | T-Pot — Multi-Honeypot Deception Framework
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/tpotce.md`.
+- Created wiki/entities/tpotce.md (stub)
+
+## [2026-05-14] cross-wiki route | Decepticon — Autonomous Red-Team Multi-Agent Framework
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/decepticon.md`.
+- Created wiki/entities/decepticon.md (stub)
