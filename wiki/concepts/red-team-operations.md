@@ -71,6 +71,8 @@ related:
   - concepts/phishing.md
   - concepts/pivoting.md
   - entities/tools/multi-cloud-red-team.md
+  - entities/decepticon.md
+  - entities/tools/red-run.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-15
@@ -147,6 +149,8 @@ updated: 2026-05-15
 - @concepts/phishing.md
 - @concepts/pivoting.md
 - @entities/tools/multi-cloud-red-team.md
+- @entities/decepticon.md — autonomous multi-agent red-team framework (16 LangGraph kill-chain agents)
+- @entities/tools/red-run.md — Claude Code agent-team distributed pentest orchestrator (reference-only, GPL-3.0)
 ## Raw Concept
 
 Anchor concept for the largest single sub-collection in the corpus — 16+ PDFs explicitly scope-named Red Team (Red Team Operations Concepts/Development/Toolkit, Red Team Tradecraft, Red Team Career Tips, What it takes to be a Red Team, Red Team x Blue Team, Red_Team_x_Blue_Team, Cyber Security Complete Journey – Red Team #1, etc.).

@@ -21,9 +21,12 @@ related:
   - entities/programming-languages/python.md
   - entities/tools/pydns-scanner.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
+  - concepts/2026-05-13_chekusu-mails-dual-use.md
+  - entities/tools/taranis-ai.md
+  - entities/tools/website-downloader.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -46,6 +49,9 @@ updated: 2026-05-13
 - @entities/programming-languages/python.md
 - @entities/tools/pydns-scanner.md
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md
+- @concepts/2026-05-13_chekusu-mails-dual-use.md — AI email-parsing for sender-domain / header extraction (threat-intel OSINT)
+- @entities/tools/taranis-ai.md — OSINT threat-intelligence platform with MISP integration
+- @entities/tools/website-downloader.md — site archival for offline recon / target-site analysis
 
 ## Raw Concept
 

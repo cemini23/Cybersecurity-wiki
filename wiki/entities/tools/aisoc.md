@@ -7,9 +7,10 @@ related:
   - "@osint-wiki/entities/tools/aisoc.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
   - "@osint-wiki/concepts/conductor-orchestrator.md"
+  - concepts/defense-in-depth.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-16
 osint_eval_origin: doc2-url-26 (cross-routed; cybersec defensive-ops primary)
 ---
 
@@ -18,7 +19,7 @@ osint_eval_origin: doc2-url-26 (cross-routed; cybersec defensive-ops primary)
 - `@osint-wiki/entities/tools/aisoc.md` — OSINT cross-route (Cemini orchestrator angle)
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin eval (URL 26)
 - `@osint-wiki/concepts/conductor-orchestrator.md` — Cemini orchestrator pattern
-
+- @concepts/defense-in-depth.md — AI SOC orchestration as a defensive automation layer
 ## Raw Concept
 
 - **Repo**: `github.com/beenuar/AiSOC`

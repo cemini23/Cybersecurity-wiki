@@ -8,6 +8,7 @@ related:
   - concepts/red-team-operations.md
   - sources/phishing-dark-waters.md
   - sources/hacking-multifactor-authentication.md
+  - concepts/2026-05-13_chekusu-mails-dual-use.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
@@ -27,3 +28,4 @@ Social engineering technique using deceptive emails, messages, or websites to st
 - @concepts/red-team-operations.md
 - @sources/phishing-dark-waters.md
 - @sources/hacking-multifactor-authentication.md
+- @concepts/2026-05-13_chekusu-mails-dual-use.md — AI email-parsing tool; dual-use for phishing-domain enumeration and brand-abuse monitoring

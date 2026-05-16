@@ -34,9 +34,11 @@ related:
   - concepts/pivoting.md
   - concepts/system-hardening.md
   - concepts/wireless-pentest.md
+  - entities/pydns-scanner-xullexer.md
+  - entities/tpotce.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -73,6 +75,8 @@ updated: 2026-05-15
 - @concepts/pivoting.md
 - @concepts/system-hardening.md
 - @concepts/wireless-pentest.md
+- @entities/pydns-scanner-xullexer.md — async DNS-recon variant of the xullexer project; attack-surface mapping
+- @entities/tpotce.md — T-Pot multi-honeypot deception framework (20+ honeypots, Suricata NMS, Elastic)
 ## Raw Concept
 
 Eight corpus PDFs anchor.

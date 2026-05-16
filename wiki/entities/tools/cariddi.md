@@ -4,15 +4,22 @@ type: entity
 category: tool
 tags: [entity, tool, domain-crawler, secrets-hunting, endpoint-discovery, bug-bounty, k44, steal-from-patterns-only-phase-0-2026-05-14, gpl-3-poison-pill, no-headless-browser, robots-txt-ignored]
 keywords: [cariddi, edoardottt, go-colly, 102-secret-regexes, gpl-3-clean-room-only, alternatives-trufflehog-gitleaks-katana-gospider, pure-http-not-js-rendered]
-related: []
+related:
+  - concepts/bug-bounty.md
+  - concepts/web-pentest-methodology.md
+  - entities/tools/openalternative.md
+  - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @concepts/bug-bounty.md — domain crawling for secret / endpoint discovery is a core bug-bounty recon activity
+- @concepts/web-pentest-methodology.md — endpoint + parameter discovery feeds web-app testing
+- @entities/tools/openalternative.md — OSS-directory for sourcing the MIT/Apache alternatives (katana, trufflehog, gospider) recommended over GPL-3.0 cariddi
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

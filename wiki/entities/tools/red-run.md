@@ -4,15 +4,21 @@ type: entity
 category: tool
 tags: [entity, tool, autonomous-pentest, sliver-c2-wrapper, agent-team-coordination, k44, reference-only-phase-0-2026-05-14, gpl-3-poison-pill, evasion-features-auto-reject]
 keywords: [red-run, blacklanternsecurity, sliver-c2-backend, autonomous-pentest-agents, AMSI-ETW-evasion, AVR-EDR-evasion, agent-teams-api-NOT-tmux, gpl-3-poison-pill]
-related: []
+related:
+  - concepts/red-team-operations.md
+  - concepts/adversary-emulation.md
+  - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+  - "@ccc-wiki/entities/tools/red-run.md"
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @concepts/red-team-operations.md — offensive-security landscape context for AI-assisted red-team orchestration
+- @concepts/adversary-emulation.md — adversary-emulation framing for autonomous pentest agents
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 - @ccc-wiki/entities/tools/red-run.md — CCC-side primary entity (agent-team orchestration use case)
 

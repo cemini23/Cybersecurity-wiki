@@ -9,9 +9,11 @@ related:
   - concepts/defense-in-depth.md
   - sources/red-hat-linux-security-and-optimization.md
   - sources/ssh-hardening-and-offensive-mastery.md
+  - concepts/npm-supply-chain-defense.md
+  - entities/tools/betterleaks.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Raw Concept
@@ -29,3 +31,5 @@ Process of reducing a system's attack surface by removing unnecessary services, 
 - @concepts/defense-in-depth.md
 - @sources/red-hat-linux-security-and-optimization.md
 - @sources/ssh-hardening-and-offensive-mastery.md
+- @concepts/npm-supply-chain-defense.md — dependency-pinning + release-age cooldown as build-toolchain hardening
+- @entities/tools/betterleaks.md — CEL+BPE secrets scanner — pre-IP-sale codebase audit / credential-exposure hardening

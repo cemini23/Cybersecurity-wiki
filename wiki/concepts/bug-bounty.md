@@ -18,9 +18,11 @@ related:
   - entities/certifications/oswe.md
   - entities/tools/pentest-ai-agents.md
   - concepts/llm-pentest-automation.md
+  - entities/tools/bug-bounty-agents.md
+  - entities/tools/cariddi.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -39,6 +41,8 @@ updated: 2026-05-13
 - @entities/certifications/oswe.md
 - @entities/tools/pentest-ai-agents.md
 - @concepts/llm-pentest-automation.md
+- @entities/tools/bug-bounty-agents.md — 43-persona offensive-security agent library for bug-bounty workflows
+- @entities/tools/cariddi.md — domain crawler hunting exposed secrets, API keys, and sensitive endpoints
 
 ## Raw Concept
 

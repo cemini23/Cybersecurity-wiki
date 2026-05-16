@@ -6,9 +6,10 @@ keywords: [taranis-ai, threat intel platform, misp, eupl-1.2, 16gb ram, osint me
 related:
   - "@osint-wiki/entities/tools/taranis-ai.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
+  - concepts/osint-for-cybersecurity.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-16
 osint_eval_origin: doc2-url-16 (cross-routed; cybersec primary; EUPL blocks production reuse but methodology valuable)
 ---
 
@@ -16,7 +17,7 @@ osint_eval_origin: doc2-url-16 (cross-routed; cybersec primary; EUPL blocks prod
 
 - `@osint-wiki/entities/tools/taranis-ai.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin eval (URL 16)
-
+- @concepts/osint-for-cybersecurity.md — OSINT-for-cybersecurity methodology that deploys this tool
 ## Raw Concept
 
 - **License**: EUPL-1.2 (poison-pill for IP-sale; OK for personal self-hosted study)

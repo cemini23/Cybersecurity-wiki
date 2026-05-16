@@ -27,6 +27,7 @@ related:
   - sources/practical-redteaming.md
   - sources/red-team-guides.md
   - sources/the-hacker-playbook-3-practical.md
+  - entities/tools/red-run.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-15
@@ -59,6 +60,7 @@ updated: 2026-05-15
 - @sources/practical-redteaming.md
 - @sources/red-team-guides.md
 - @sources/the-hacker-playbook-3-practical.md
+- @entities/tools/red-run.md — autonomous pentest-agent + Sliver C2 orchestrator (reference-only)
 ## Raw Concept
 
 Corpus has 7+ PDFs that scope explicitly into adversary emulation (Adversary Emulation com Cobalt Strike, Adversary Emulation Matrix, Adversary Emulation Services, Adversary Simulation with Caldera and Mitre, Red Team Operations – Simulando um grupo APT na prática, etc.).

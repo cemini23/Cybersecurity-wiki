@@ -3,10 +3,11 @@ title: T-Pot — Multi-Honeypot Deception Framework
 type: entity
 tags: []
 keywords: []
-related: []
+related:
+  - concepts/network-security.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-16
 cross-wiki-source: @osint-wiki/entities/tools/tpotce.md
 ---
 
@@ -15,7 +16,7 @@ cross-wiki-source: @osint-wiki/entities/tools/tpotce.md
 ## Relations
 
 - @osint-wiki/entities/tools/tpotce.md  (cross-wiki source)
-
+- @concepts/network-security.md — honeypot deception + Suricata network monitoring
 ## Raw Concept
 
 Cross-wiki stub routed from `@osint-wiki/entities/tools/tpotce.md` during ingest.

@@ -6,16 +6,17 @@ tags: [entity, tool, secrets-scanning, secrets-detection, pre-ip-sale-audit, dev
 keywords: [betterleaks, cel-filtering, bpe-tokenization, gitleaks-alternative, secret-rotation, ip-sale-readiness, cemini-financial-suite, go-binary, postgres-dump-gap]
 related:
   - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+  - concepts/system-hardening.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-16
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
-
+- @concepts/system-hardening.md — secret-scanning as a dev/system-hardening control
 ## Raw Concept
 
 A Go-based open-source secrets-scanning engine that outperforms legacy tools (gitleaks, trufflehog) on false-positive rate by combining CEL (Common Expression Language) filters with BPE (byte-pair encoding) tokenization to measure string rarity. **MIT license, claimed 934 stars, claimed last commit 2026-05-08, claimed 86.7% Go.** From K44 doc-level eval (OSINT-wiki ingest, May 14 2026).

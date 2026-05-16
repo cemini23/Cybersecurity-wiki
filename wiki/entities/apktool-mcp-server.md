@@ -1,12 +1,15 @@
 ---
 title: apktool-mcp-server — Android Reverse Engineering via MCP
 type: entity
-tags: []
-keywords: []
-related: []
+tags: [tool, mcp, android, reverse-engineering, apktool, claude-code, apache-2]
+keywords: [apktool-mcp-server, android reverse engineering, decode apk, smali, mcp server, apktool]
+related:
+  - concepts/mobile-pentest.md
+  - concepts/malware-analysis.md
+  - "@osint-wiki/entities/tools/apktool-mcp-server.md"
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/entities/tools/apktool-mcp-server.md
 ---
 
@@ -14,6 +17,8 @@ cross-wiki-source: @osint-wiki/entities/tools/apktool-mcp-server.md
 
 ## Relations
 
+- @concepts/mobile-pentest.md — Android APK decode / smali inspection is core to mobile-app pentesting
+- @concepts/malware-analysis.md — APK decompilation for Android malware reverse engineering
 - @osint-wiki/entities/tools/apktool-mcp-server.md  (cross-wiki source)
 
 ## Raw Concept

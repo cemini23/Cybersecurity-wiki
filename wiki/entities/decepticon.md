@@ -1,12 +1,15 @@
 ---
 title: Decepticon — Autonomous Red-Team Multi-Agent Framework
 type: entity
-tags: []
-keywords: []
-related: []
+tags: [tool, red-team, multi-agent, langgraph, autonomous-pentest, apache-2, offensive-security]
+keywords: [decepticon, langgraph agents, kill-chain agents, litellm fallback, postgresql neo4j, steal-from]
+related:
+  - concepts/red-team-operations.md
+  - concepts/llm-pentest-automation.md
+  - "@osint-wiki/entities/tools/decepticon.md"
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/entities/tools/decepticon.md
 ---
 
@@ -14,6 +17,8 @@ cross-wiki-source: @osint-wiki/entities/tools/decepticon.md
 
 ## Relations
 
+- @concepts/red-team-operations.md — primary use case; 16 specialist agents organized by kill-chain phase
+- @concepts/llm-pentest-automation.md — methodology umbrella; LangGraph subagent topology + LiteLLM fallback patterns
 - @osint-wiki/entities/tools/decepticon.md  (cross-wiki source)
 
 ## Raw Concept

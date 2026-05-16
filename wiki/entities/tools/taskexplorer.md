@@ -6,9 +6,10 @@ keywords: [taskexplorer, windows kernel, process introspection, gpl-3, sysintern
 related:
   - "@osint-wiki/entities/tools/taskexplorer.md"
   - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
+  - concepts/malware-analysis.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-16
 osint_eval_origin: doc1-url-7 (cross-routed; cybersec primary)
 ---
 
@@ -16,7 +17,7 @@ osint_eval_origin: doc1-url-7 (cross-routed; cybersec primary)
 
 - `@osint-wiki/entities/tools/taskexplorer.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 7)
-
+- @concepts/malware-analysis.md — kernel process introspection for malware behavior analysis
 ## Raw Concept
 
 - **License**: GPL-3.0

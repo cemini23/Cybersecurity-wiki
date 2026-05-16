@@ -1,9 +1,12 @@
 ---
 title: Claude-Red — Offensive Security Skills Library for Claude Code
 type: entity
-tags: []
-keywords: []
-related: []
+tags: [tool, claude-code, offensive-security, skills-library, web-pentest, mit]
+keywords: [claude-red, snailsploit, offensive skills, SKILL.md, sparse checkout, web app methodologies]
+related:
+  - concepts/web-pentest-methodology.md
+  - concepts/llm-pentest-automation.md
+  - "@osint-wiki/entities/tools/claude-red-offensive-skills.md"
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
@@ -14,6 +17,8 @@ cross-wiki-source: @osint-wiki/entities/tools/claude-red-offensive-skills.md
 
 ## Relations
 
+- @concepts/web-pentest-methodology.md — Claude-Red maps 16 web application methodologies (SQLi, SSRF, XSS, XXE, IDOR, etc.) into trigger-loaded skills
+- @concepts/llm-pentest-automation.md — methodology umbrella; trigger-loaded SKILL.md offensive-agent variant
 - @osint-wiki/entities/tools/claude-red-offensive-skills.md  (cross-wiki source)
 
 ## Raw Concept

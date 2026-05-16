@@ -4,18 +4,19 @@ type: entity
 category: tool
 tags: [entity, tool, filesystem-analysis, deduplication, perceptual-hash-bk-tree, k44, steal-from-conditional-phase-0-2026-05-14, k44-license-split-wrong, lgpl-mpl-transitive-contamination, python-fallback-imagehash-pybktree]
 keywords: [czkawka, qarmin, czkawka-core, krokiet-gpl, cedinia-gpl, similar-values-threshold-table, blake3-xxh3-crc32, rawler-lgpl-symphonia-mpl, python-port-imagehash-pybktree-xxhash]
-related: []
+related:
+  - concepts/malware-analysis.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-16
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
-- @image-gen-wiki/entities/tools/czkawka.md — cross-route stub (LoRA training dataset dedup)
-
+- @image-gen-wiki/entities/training-tools/czkawka.md — cross-route stub (LoRA training dataset dedup)
+- @concepts/malware-analysis.md — filesystem dedup + broken-file scanning supports malware-sample triage
 ## Raw Concept
 
 A Rust filesystem-analysis tool for duplicate detection, perceptual-hash similar-image detection (BK-tree), audio fingerprinting, and broken-file scanning. **31,006 stars, 1,044 forks, 5y old, last push 2026-05-11**. K44 doc-level license-split framing was **materially wrong** — see verdict.

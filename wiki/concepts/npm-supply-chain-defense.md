@@ -4,15 +4,19 @@ type: concept
 tags: [concept, defensive-ops, supply-chain, npm, bun, package-manager, package-pinning]
 keywords: [npm, supply-chain attack, min-release-age, minimum-release-age, bunfig, tanstack, save-exact, version pinning, lockfile, release-age cooldown]
 related:
+  - concepts/defense-in-depth.md
+  - concepts/system-hardening.md
   - "@osint-wiki/concepts/npm-supply-chain-defense.md"
   - "@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md"
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 ---
 
 ## Relations
 
+- @concepts/defense-in-depth.md — package-manager hardening as one layer of a layered defensive strategy
+- @concepts/system-hardening.md — release-age cooldown + version pinning as attack-surface reduction
 - `@osint-wiki/concepts/npm-supply-chain-defense.md` — full concept page (origin, distilled)
 - `@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md` — original prompt source
 

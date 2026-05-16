@@ -4,10 +4,11 @@ type: entity
 category: tool
 tags: [entity, tool, supabase, rls, postgresql, multi-tenant-isolation, k44, steal-from-doc-level-pending-phase-0]
 keywords: [supavec, supabase-row-level-security, multi-tenant-rls, incident-response-isolation, apache-2-license]
-related: []
+related:
+  - concepts/defense-in-depth.md
 maturity: steal-from-doc-level-pending-phase-0
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-16
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -15,7 +16,7 @@ cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v
 
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 - @osint-wiki/entities/tools/supavec.md — OSINT-side primary entity (kb-server retrieval optimization use case)
-
+- @concepts/defense-in-depth.md — multi-tenant data isolation as a defensive control
 ## Raw Concept
 
 The K44 cross-route from OSINT to Cybersec is the **Supabase Row-Level Security (RLS) schema** — a pattern for enforcing multi-tenant data isolation in PostgreSQL databases backing incident-response tracking systems. **Apache-2.0, claimed 1,100 stars**. K44 verdict: **Steal-from** (RLS patterns only).

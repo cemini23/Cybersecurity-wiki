@@ -1,12 +1,15 @@
 ---
 title: xullexer/PYDNS-Scanner — async DNS recon (Slipstream + SlipNet)
 type: entity
-tags: []
-keywords: []
-related: []
+tags: [tool, dns-recon, async, recon, attack-surface-mapping, mit, offensive-security]
+keywords: [pydns-scanner, xullexer, async dns recon, slipstream, slipnet, subdomain enumeration, external recon]
+related:
+  - entities/tools/pydns-scanner.md
+  - concepts/network-security.md
+  - "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/sources/eval-github-repos-2026-05-13.md
 ---
 
@@ -14,6 +17,8 @@ cross-wiki-source: @osint-wiki/sources/eval-github-repos-2026-05-13.md
 
 ## Relations
 
+- @entities/tools/pydns-scanner.md — primary entity page for the same xullexer project (DNS-server-discovery TUI framing + ethical-use addendum)
+- @concepts/network-security.md — broader recon / attack-surface discipline
 - @osint-wiki/sources/eval-github-repos-2026-05-13.md  (cross-wiki source)
 
 ## Raw Concept

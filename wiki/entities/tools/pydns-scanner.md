@@ -9,10 +9,11 @@ related:
   - concepts/osint-for-cybersecurity.md
   - concepts/responsible-disclosure.md
   - entities/tools/nmap.md
+  - entities/pydns-scanner-xullexer.md
   - "@osint-wiki/entities/tools/pydns-scanner.md"
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -22,6 +23,7 @@ updated: 2026-05-13
 - @concepts/osint-for-cybersecurity.md — DNS-attribution and ISP-mapping intersect with OSINT
 - @concepts/responsible-disclosure.md — ethics floor for DNS-server scanning
 - @entities/tools/nmap.md — comparison anchor (different layer of DNS-relevant recon)
+- @entities/pydns-scanner-xullexer.md — companion stub framing the offensive-recon / attack-surface-mapping angle of the same xullexer project
 - @osint-wiki/entities/tools/pydns-scanner.md — sibling-wiki cross-routing stub
 
 ## Raw Concept

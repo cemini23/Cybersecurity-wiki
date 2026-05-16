@@ -4,18 +4,19 @@ type: entity
 category: tool
 tags: [entity, tool, ai-red-team, vulnerability-fingerprinting, ai-infrastructure-security, tencent-zhuque-lab, k44, conditional-go-phase-0-2026-05-14, vendor-poison-mandatory-attribution, external-docker-only]
 keywords: [ai-infra-guard, tencent, vllm-vuln, ollama-vuln, comfyui-vuln, swagger-docs, mandatory-attribution-section-4d, telemetry-opt-out-default-on, NEVER-vendor-source, external-container-scanner-only]
-related: []
+related:
+  - concepts/llm-pentest-automation.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-16
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
-- @image-gen-wiki/entities/tools/ai-infra-guard.md — cross-route stub (ComfyUI vuln detection)
-
+- @image-gen-wiki/entities/custom-nodes/ai-infra-guard.md — cross-route stub (ComfyUI vuln detection)
+- @concepts/llm-pentest-automation.md — AI-infra vuln scanning is an applied LLM/AI-pentest-automation tool
 ## Raw Concept
 
 A Tencent Zhuque Lab AI red-team scanner in Go + Python that fingerprints vulnerabilities across 64 AI components (v4.1.8). Stack: Go core + Python (AIG-PromptSecurity, mcp-scan, agent-scan), Docker Compose. **Apache-2.0 verbatim BUT with Mandatory Attribution NOTICE (§4(d)) that contaminates derivatives — 3,690 stars verified, 44 contributors, 1,458 commits, pushed 2026-05-14 (today)**. K44 verdict needs refinement: SAFE as external Docker scanner; POISON-PILL if vendored.

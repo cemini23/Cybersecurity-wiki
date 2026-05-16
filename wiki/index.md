@@ -85,6 +85,7 @@
 | @concepts/cyber-for-kids.md | draft | Parent + teacher + LE-facing kid-safety material |
 
 ---
+- [chekusu/mails — AI email parsing, dual-use phishing-domain enumeration](concepts/2026-05-13_chekusu-mails-dual-use.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Entities
 

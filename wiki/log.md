@@ -177,3 +177,8 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/claude-red-offensive-ski
 - **New entity pages**: `entities/tools/kali-linux.md` (pentest distro), `entities/tools/multi-cloud-red-team.md` (multi-cloud red team ops)
 - **Backlinks**: 26 existing pages updated (11 concept + 15 entity/source) to maintain bidirectional invariant
 - **Lint state**: 0 new orphans, 0 new bidirectional gaps, 0 new dangling links from this ingest
+
+## [2026-05-15] cross-wiki route | chekusu/mails — AI email parsing, dual-use phishing-domain enumeration
+
+Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
+- Created wiki/concepts/2026-05-13_chekusu-mails-dual-use.md (stub)
