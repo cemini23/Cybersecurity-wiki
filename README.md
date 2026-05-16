@@ -57,14 +57,15 @@ The full operations spec lives in `CLAUDE.md`. Quick reference:
 
 ## Sister wikis
 
-This wiki is part of a four-wiki constellation. Cross-wiki links use `@<alias>/path/to/page.md` syntax. Aliases + paths in `CLAUDE.md` under "Related Wikis":
+This wiki is one of **six** interconnected Cemini wikis. Cross-wiki links use `@<alias>/path/to/page.md` syntax. Aliases + paths in `CLAUDE.md` under "Related Wikis":
 
-- `osint-wiki` — financial / quant / prediction-market research
+- `osint-wiki` — financial / quant / prediction-market research · **private (not publicly available)**
 - `image-gen-wiki` — uncensored image generation, ComfyUI, LoRA
 - `seo-wiki` — local SEO, GBP, GEO/AEO, web design
 - `3d-printing-wiki` — FDM/FFF, Bambu, slicers, print farms
+- `ccc-wiki` — Cemini Claude Code meta-wiki (workflow, subagents, MCP/conductor) · **private (not publicly available)**
 
-Cybersecurity intersects all four: OSINT tradecraft (osint-wiki), deepfakes + adversarial-image attacks (image-gen-wiki), web-app security for client sites + spam-policy attacks (seo-wiki), physical-pentest tooling + RFID jigs (3d-printing-wiki).
+Cybersecurity intersects all of them: OSINT tradecraft (osint-wiki), deepfakes + adversarial-image attacks (image-gen-wiki), web-app security for client sites + spam-policy attacks (seo-wiki), physical-pentest tooling + RFID jigs (3d-printing-wiki), agent-orchestration + subagent-security patterns (ccc-wiki). The **OSINT and CCC wikis are private repositories** — cross-wiki links into them resolve only inside the Cemini workspace.
 
 ## Privacy + safety
 
