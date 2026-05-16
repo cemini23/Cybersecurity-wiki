@@ -9,6 +9,7 @@ related:
   - entities/people/joas-a-santos.md
   - entities/tools/pydns-scanner.md
   - entities/tools/pentest-ai-agents.md
+  - entities/tools/ducky.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
 maturity: draft
 created: 2026-05-12
@@ -22,6 +23,7 @@ updated: 2026-05-13
 - @entities/people/joas-a-santos.md
 - @entities/tools/pydns-scanner.md
 - @entities/tools/pentest-ai-agents.md
+- @entities/tools/ducky.md — GUI scanner; nmap remains canonical for scan scripting
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 
 ## Raw Concept
