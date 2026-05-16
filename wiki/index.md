@@ -189,6 +189,8 @@ Source pages are not individually catalogued here; each entity and concept page 
 
 The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_inventory.tsv` (gitignored — see `ROADMAP.md` for the storage decision).
 
+**Catalog status (decided 2026-05-16):** the `sources/` layer is a deliberate *reference catalog* of the two shared Drive folders. Every source page carries `read_status: unread-stub` because the PDFs live in external Drive folders not synced to this workspace — `unread-stub` is the expected steady state here, not a defect. A page graduates to `deep-read` only when the underlying PDF is obtained and read. Tooling that scores wiki health (e.g. `wiki_scan_all.py`) should treat this wiki's cited-unread-stub count as informational, not as a backlog to burn down.
+
 ---
 
 ## Cross-wiki anchors
