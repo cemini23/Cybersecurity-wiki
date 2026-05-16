@@ -20,9 +20,10 @@ related:
   - concepts/llm-pentest-automation.md
   - entities/tools/bug-bounty-agents.md
   - entities/tools/cariddi.md
+  - entities/tools/osmedeus.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -43,6 +44,7 @@ updated: 2026-05-15
 - @concepts/llm-pentest-automation.md
 - @entities/tools/bug-bounty-agents.md — 43-persona offensive-security agent library for bug-bounty workflows
 - @entities/tools/cariddi.md — domain crawler hunting exposed secrets, API keys, and sensitive endpoints
+- @entities/tools/osmedeus.md — orchestration engine; declarative YAML workflows automate the recon pipeline bug-bounty hunters rebuild per target
 
 ## Raw Concept
 

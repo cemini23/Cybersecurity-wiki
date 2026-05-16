@@ -6,10 +6,11 @@ keywords: [apktool-mcp-server, android reverse engineering, decode apk, smali, m
 related:
   - concepts/mobile-pentest.md
   - concepts/malware-analysis.md
+  - entities/tools/jadx-mcp-server.md
   - "@osint-wiki/entities/tools/apktool-mcp-server.md"
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-05-16
 cross-wiki-source: @osint-wiki/entities/tools/apktool-mcp-server.md
 ---
 
@@ -19,6 +20,7 @@ cross-wiki-source: @osint-wiki/entities/tools/apktool-mcp-server.md
 
 - @concepts/mobile-pentest.md — Android APK decode / smali inspection is core to mobile-app pentesting
 - @concepts/malware-analysis.md — APK decompilation for Android malware reverse engineering
+- @entities/tools/jadx-mcp-server.md — sibling Android-RE MCP server; apktool-mcp-server wraps Apktool (smali/resources), jadx-mcp-server wraps the JADX decompiler (Java source recovery + live debug)
 - @osint-wiki/entities/tools/apktool-mcp-server.md  (cross-wiki source)
 
 ## Raw Concept

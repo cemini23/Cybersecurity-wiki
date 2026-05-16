@@ -24,9 +24,10 @@ related:
   - concepts/2026-05-13_chekusu-mails-dual-use.md
   - entities/tools/taranis-ai.md
   - entities/tools/website-downloader.md
+  - "@osint-wiki/entities/tools/socid-extractor.md"
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -52,6 +53,7 @@ updated: 2026-05-15
 - @concepts/2026-05-13_chekusu-mails-dual-use.md — AI email-parsing for sender-domain / header extraction (threat-intel OSINT)
 - @entities/tools/taranis-ai.md — OSINT threat-intelligence platform with MISP integration
 - @entities/tools/website-downloader.md — site archival for offline recon / target-site analysis
+- @osint-wiki/entities/tools/socid-extractor.md — cross-wiki: cross-platform social-account identifier-extraction tool used in threat-actor correlation
 
 ## Raw Concept
 
@@ -70,7 +72,7 @@ OSINT (Open-Source Intelligence) is the discipline of collecting + analyzing pub
 ### Tool families
 
 - **Domain + IP**: whois / dig / crt.sh / SecurityTrails / Shodan / Censys / DNSDumpster / DNS history sites
-- **People + accounts**: Sherlock, WhatsMyName, Maigret (cross-platform username lookups); Holehe, Epieos (email enumeration); LinkedIn / Twitter / Facebook / Instagram with proper OPSEC
+- **People + accounts**: Sherlock, WhatsMyName, Maigret (cross-platform username lookups); Holehe, Epieos (email enumeration); LinkedIn / Twitter / Facebook / Instagram with proper OPSEC. For deeper account-correlation work, @osint-wiki/entities/tools/socid-extractor.md extracts stable internal IDs (e.g. Google GAIA IDs) across 130+ platforms — these survive username changes and platform redesigns, so they anchor threat-actor correlation that username-only tools miss (MIT, https://github.com/soxoj/socid-extractor).
 - **Leaked credentials**: HaveIBeenPwned, Dehashed, IntelX, ScyllaDB credential dumps
 - **Graph + linkage**: @entities/tools/maltego.md (commercial + community), SpiderFoot, Recon-ng (frameworks that orchestrate the smaller tools)
 - **Code search**: GitHub Dorking (`extension:env DB_PASSWORD`), GitLeaks, TruffleHog for repo secret discovery

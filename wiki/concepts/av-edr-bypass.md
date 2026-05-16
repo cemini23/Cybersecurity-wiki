@@ -23,7 +23,7 @@ related:
   - concepts/agent-vm-sandboxing.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -108,3 +108,4 @@ Reading:
 - [itm4n: Bypassing LSA Protection in userland](https://itm4n.github.io/bypassing-lsa-protection-userland/)
 - [NCC Group: RIFT - Lazarus shellcode execution method](https://research.nccgroup.com/2021/01/23/rift-analysing-a-lazarus-shellcode-execution-method/)
 - [DInvoke_rs by NVISO](https://github.com/NVISOsecurity/brown-bags/tree/main/DInvoke%20to%20defeat%20EDRs)
+- [Remote Process Write Primitive via APC Routines](https://medium.com/@s12deff/remote-process-write-primitive-via-apc-routines-82c2598c6419) — mid-2026 write-up of an APC-routine-based remote write primitive; a recent data point for ETW/telemetry tamper-detection engineering. Catalogued via the OSINT v3 tool-eval (Reference-only tier).

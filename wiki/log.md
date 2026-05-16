@@ -182,3 +182,16 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/claude-red-offensive-ski
 
 Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
 - Created wiki/concepts/2026-05-13_chekusu-mails-dual-use.md (stub)
+
+## [2026-05-16] cross-wiki route | jadx-mcp-server + osmedeus (OSINT v3 tool-eval)
+
+Two new tool pages cross-routed from the OSINT workspace tool-evaluation ingest (`@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md`), both rated Adopt tier with cybersec as primary-fit wiki.
+- New pages: `entities/tools/jadx-mcp-server.md` (Android RE + live debugging via MCP, JADX decompiler), `entities/tools/osmedeus.md` (orchestration engine for security scanning).
+- **Backlink wiring** — reciprocal `related:` + Relations entries added to maintain bidirectional invariant:
+  - jadx-mcp-server: `concepts/mobile-pentest.md`, `concepts/malware-analysis.md`, `entities/apktool-mcp-server.md` (sibling Android-RE MCP server)
+  - osmedeus: `concepts/red-team-operations.md`, `concepts/bug-bounty.md`, `concepts/web-pentest-methodology.md`, `entities/tools/nmap.md` (Osmedeus integrates nmap)
+- **Cross-wiki concept backlinks** — two pages now referenced by sibling-wiki tool pages:
+  - `concepts/osint-for-cybersecurity.md` → `@osint-wiki/entities/tools/socid-extractor.md` (cross-platform social-account identifier-extraction; threat-actor correlation)
+  - `concepts/blockchain-security.md` → `@osint-wiki/entities/tools/polymarket-insider-tracker.md` (Polymarket funding-chain analysis; threat-actor financial profiling)
+- **av-edr-bypass reading list** — one catalog-reference line added (APC-routine remote write primitive write-up; Reference-only tier, ETW/telemetry tamper-detection awareness).
+- Index updated: 2 new Tools rows. All modified pages bumped to `updated: 2026-05-16`.

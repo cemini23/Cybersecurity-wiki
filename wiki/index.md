@@ -129,6 +129,8 @@
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
+| @entities/tools/jadx-mcp-server.md | draft | Android RE + live debugging via MCP (JADX decompiler) |
+| @entities/tools/osmedeus.md | draft | Orchestration engine for security scanning (recon/scan YAML workflows) |
 
 ### Vendors
 
