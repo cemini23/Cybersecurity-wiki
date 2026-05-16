@@ -7,6 +7,7 @@ related:
   - concepts/windows-pentest.md
   - concepts/privilege-escalation.md
 maturity: draft
+read_status: unread-stub
 created: 2026-05-15
 updated: 2026-05-15
 ---

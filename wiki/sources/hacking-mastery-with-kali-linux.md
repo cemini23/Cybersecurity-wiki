@@ -7,6 +7,7 @@ related:
   - entities/tools/kali-linux.md
   - concepts/linux-pentest.md
 maturity: draft
+read_status: unread-stub
 created: 2026-05-15
 updated: 2026-05-15
 ---
