@@ -224,3 +224,13 @@ First BlueTeam Kit deep-read. The LogRhythm white paper provides an 8-hunt struc
 - **Backlinks** (bidirectional invariant held): added `sysmon.md` ↔ `concepts/siem.md`, `concepts/soc-operations.md`, `concepts/endpoint-detection-response.md`, `entities/frameworks/mitre-attack.md`, `sources/effective-threat-investigation-soc-analysts.md`, `sources/blue-team-handbook.md`, `sources/open-source-soc-guide.md`. Added `concepts/threat-hunting.md` ↔ `concepts/endpoint-detection-response.md` (was missing).
 - **Index updated**: new Tools row for Sysmon; `concepts/threat-hunting.md` maturity bumped draft → validated.
 - Source `read-status`: `unread-stub` count: 275 → 274 (`threat-hunting-101.md` now `read`).
+
+## [2026-05-17] deep-read | Ransomware Investigation Runbook (Kumar Bineet Ranjan) — new concepts/ransomware.md (validated)
+
+Second BlueTeam Kit deep-read. 15-section SOC playbook (triage → collect → query → process review → TP/FP score → contain + recover); concrete enough to warrant a dedicated concept page rather than just inlining the takeaways into `incident-response.md`.
+
+- **`sources/ransomware-investigation-runbook.md`**: `unread-stub` → `read`; full Narrative (15-section summary), `## Snippets` (TP/FP scoring rubric, VSS-deletion commands, Splunk mass-write + encoded-PowerShell queries, ransom-note filename catalog, certutil LOLBin pattern, encrypted-extension catalog), Dead Ends (entropy as sole signal, power-off destroys evidence, PowerShell-alone false-positive rate).
+- **NEW `concepts/ransomware.md`** (validated): defensive-operations synthesis. Kill-chain → defender-signal mapping table, RaaS + double/triple/quad extortion landscape, the canonical VSS-deletion detection, full TP/FP scoring rubric, 10-step play sequence, recovery rules (no-pay default, backup hygiene, krbtgt double-rotation, breach-notification clock), LOLBin reference table (12 binaries × normal/misuse/detection-cue).
+- **Backlinks** (bidirectional invariant held): added `concepts/ransomware.md` ↔ `incident-response`, `malware-analysis`, `soc-operations`, `threat-hunting`, `endpoint-detection-response`, `entities/tools/sysmon`, `entities/threat-actors/lockbit`, `entities/frameworks/mitre-attack`, `sources/ransomware-investigation-runbook`, `sources/ransomware-investigation-osint-and-hunting-overview-pt1`, `sources/2025-cybersecurity-attacks-playbooks`.
+- **Index updated**: new Doctrine + methodology row for `concepts/ransomware.md` (validated).
+- Source `read-status`: `unread-stub` count: 274 → 273 (`ransomware-investigation-runbook.md` now `read`).

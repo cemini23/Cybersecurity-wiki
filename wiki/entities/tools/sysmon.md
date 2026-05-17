@@ -13,6 +13,8 @@ related:
   - sources/effective-threat-investigation-soc-analysts.md
   - sources/blue-team-handbook.md
   - sources/open-source-soc-guide.md
+  - concepts/ransomware.md
+  - sources/ransomware-investigation-runbook.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17
@@ -29,6 +31,8 @@ updated: 2026-05-17
 - @sources/effective-threat-investigation-soc-analysts.md
 - @sources/blue-team-handbook.md
 - @sources/open-source-soc-guide.md
+- @concepts/ransomware.md
+- @sources/ransomware-investigation-runbook.md
 
 ## Raw Concept
 

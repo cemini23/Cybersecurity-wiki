@@ -6,10 +6,11 @@ keywords: [attack playbooks, cybersecurity, 2025, incident response, soc]
 related:
   - concepts/soc-operations.md
   - concepts/incident-response.md
+  - concepts/ransomware.md
 maturity: draft
 read_status: unread-stub
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Raw Concept
@@ -30,3 +31,4 @@ Playbook collection for responding to cybersecurity attacks in 2025. Covers inci
 
 - @concepts/soc-operations.md
 - @concepts/incident-response.md
+- @concepts/ransomware.md

@@ -23,6 +23,7 @@
 | @concepts/purple-team-operations.md | draft | Red + blue collaborative engagements |
 | @concepts/soc-operations.md | draft | Security Operations Center tooling + tiers |
 | @concepts/incident-response.md | validated | NIST / SANS IR lifecycle |
+| @concepts/ransomware.md | validated | Ransomware defensive ops + investigation runbook (T1486) |
 | @concepts/threat-hunting.md | validated | Hypothesis-driven proactive detection |
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |

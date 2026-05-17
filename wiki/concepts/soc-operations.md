@@ -51,6 +51,7 @@ related:
   - sources/splunk-siem-soc2-use-cases.md
   - sources/threat-hunting-101.md
   - entities/tools/sysmon.md
+  - concepts/ransomware.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17
@@ -107,6 +108,7 @@ updated: 2026-05-17
 - @sources/splunk-siem-soc2-use-cases.md
 - @sources/threat-hunting-101.md
 - @entities/tools/sysmon.md
+- @concepts/ransomware.md
 ## Raw Concept
 
 11+ corpus PDFs scope into SOC operations.

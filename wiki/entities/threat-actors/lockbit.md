@@ -9,10 +9,12 @@ related:
   - concepts/malware-analysis.md
   - concepts/responsible-disclosure.md
   - concepts/windows-pentest.md
+  - concepts/ransomware.md
   - entities/people/joas-a-santos.md
+  - sources/ransomware-investigation-runbook.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -22,7 +24,9 @@ updated: 2026-05-12
 - @concepts/malware-analysis.md
 - @concepts/responsible-disclosure.md
 - @concepts/windows-pentest.md
+- @concepts/ransomware.md
 - @entities/people/joas-a-santos.md
+- @sources/ransomware-investigation-runbook.md
 
 ## Raw Concept
 

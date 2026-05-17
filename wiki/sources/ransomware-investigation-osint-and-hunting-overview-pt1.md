@@ -6,9 +6,10 @@ keywords: [cybersecurity, pdf]
 related:
   - concepts/osint-for-cybersecurity.md
   - entities/people/joas-a-santos.md
+  - concepts/ransomware.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 read_status: unread-stub
 ---
 
@@ -16,6 +17,7 @@ read_status: unread-stub
 
 - @concepts/osint-for-cybersecurity.md
 - @entities/people/joas-a-santos.md
+- @concepts/ransomware.md
 
 
 ## Raw Concept

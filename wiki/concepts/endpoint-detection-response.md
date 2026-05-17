@@ -10,6 +10,7 @@ related:
   - concepts/av-edr-bypass.md
   - concepts/threat-hunting.md
   - entities/tools/sysmon.md
+  - concepts/ransomware.md
   - sources/edr-tools-overview.md
   - sources/ransomware-investigation-runbook.md
 maturity: draft
@@ -25,6 +26,7 @@ updated: 2026-05-17
 - @concepts/av-edr-bypass.md
 - @concepts/threat-hunting.md
 - @entities/tools/sysmon.md
+- @concepts/ransomware.md
 - @sources/edr-tools-overview.md
 - @sources/ransomware-investigation-runbook.md
 

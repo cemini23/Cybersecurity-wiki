@@ -24,6 +24,8 @@ related:
   - sources/soc-analyst-book.md
   - sources/50-free-online-tools-soc-analysts.md
   - sources/threat-hunting-101.md
+  - concepts/ransomware.md
+  - sources/ransomware-investigation-runbook.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -51,6 +53,8 @@ updated: 2026-05-17
 - @sources/soc-analyst-book.md
 - @sources/50-free-online-tools-soc-analysts.md
 - @sources/threat-hunting-101.md
+- @concepts/ransomware.md
+- @sources/ransomware-investigation-runbook.md
 
 ## Raw Concept
 
