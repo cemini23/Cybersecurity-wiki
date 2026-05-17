@@ -29,9 +29,10 @@ related:
   - sources/the-hacker-playbook-3-practical.md
   - entities/tools/red-run.md
   - sources/mitre-attack-framework-soc.md
+  - concepts/threat-intelligence.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -63,6 +64,8 @@ updated: 2026-05-16
 - @sources/the-hacker-playbook-3-practical.md
 - @entities/tools/red-run.md — autonomous pentest-agent + Sliver C2 orchestrator (reference-only)
 - @sources/mitre-attack-framework-soc.md
+- @concepts/threat-intelligence.md
+
 ## Raw Concept
 
 Corpus has 7+ PDFs that scope explicitly into adversary emulation (Adversary Emulation com Cobalt Strike, Adversary Emulation Matrix, Adversary Emulation Services, Adversary Simulation with Caldera and Mitre, Red Team Operations – Simulando um grupo APT na prática, etc.).

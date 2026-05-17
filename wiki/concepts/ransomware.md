@@ -15,6 +15,7 @@ related:
   - sources/ransomware-investigation-runbook.md
   - sources/ransomware-investigation-osint-and-hunting-overview-pt1.md
   - sources/2025-cybersecurity-attacks-playbooks.md
+  - concepts/threat-intelligence.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-05-17
@@ -33,6 +34,7 @@ updated: 2026-05-17
 - @sources/ransomware-investigation-runbook.md
 - @sources/ransomware-investigation-osint-and-hunting-overview-pt1.md
 - @sources/2025-cybersecurity-attacks-playbooks.md
+- @concepts/threat-intelligence.md
 
 ## Raw Concept
 

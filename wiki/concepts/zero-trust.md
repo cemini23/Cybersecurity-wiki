@@ -8,9 +8,10 @@ related:
   - concepts/soc-operations.md
   - sources/zero-trust-testing-checklist.md
   - entities/people/joas-a-santos.md
+  - sources/open-source-soc-guide.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-12
 - @concepts/soc-operations.md
 - @sources/zero-trust-testing-checklist.md
 - @entities/people/joas-a-santos.md
+- @sources/open-source-soc-guide.md
 
 ## Raw Concept
 

@@ -26,9 +26,10 @@ related:
   - entities/tools/website-downloader.md
   - "@osint-wiki/entities/tools/socid-extractor.md"
   - sources/50-free-online-tools-soc-analysts.md
+  - concepts/threat-intelligence.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -56,6 +57,7 @@ updated: 2026-05-16
 - @entities/tools/website-downloader.md — site archival for offline recon / target-site analysis
 - @osint-wiki/entities/tools/socid-extractor.md — cross-wiki: cross-platform social-account identifier-extraction tool used in threat-actor correlation
 - @sources/50-free-online-tools-soc-analysts.md
+- @concepts/threat-intelligence.md
 
 ## Raw Concept
 

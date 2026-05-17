@@ -26,6 +26,7 @@ related:
   - sources/threat-hunting-101.md
   - concepts/ransomware.md
   - sources/ransomware-investigation-runbook.md
+  - concepts/threat-intelligence.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -55,6 +56,7 @@ updated: 2026-05-17
 - @sources/threat-hunting-101.md
 - @concepts/ransomware.md
 - @sources/ransomware-investigation-runbook.md
+- @concepts/threat-intelligence.md
 
 ## Raw Concept
 

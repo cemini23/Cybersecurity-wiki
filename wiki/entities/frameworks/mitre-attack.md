@@ -27,6 +27,8 @@ related:
   - entities/tools/sysmon.md
   - concepts/ransomware.md
   - sources/ransomware-investigation-runbook.md
+  - concepts/threat-intelligence.md
+  - sources/open-source-soc-guide.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -59,6 +61,9 @@ updated: 2026-05-17
 - @entities/tools/sysmon.md
 - @concepts/ransomware.md
 - @sources/ransomware-investigation-runbook.md
+- @concepts/threat-intelligence.md
+- @sources/open-source-soc-guide.md
+
 ## Raw Concept
 
 MITRE ATT&CK is the lingua franca for describing adversary behavior in modern cybersecurity. Appears in dozens of corpus titles (Mitre Att&ck Study Overview, Adversary Emulation Matrix, Red Team Operations — Concepts, MULTI-CLOUD RED TEAM, Red Team MacOS Att&ck, TDC2021 — Mitre Att&ck, etc.). Anchor page for every corpus source that maps techniques to T-numbers.

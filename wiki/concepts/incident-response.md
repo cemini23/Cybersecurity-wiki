@@ -29,6 +29,7 @@ related:
   - sources/soc-analyst-book.md
   - sources/soc-top-30-interview-questions.md
   - concepts/ransomware.md
+  - concepts/threat-intelligence.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -63,6 +64,8 @@ updated: 2026-05-17
 - @sources/soc-analyst-book.md
 - @sources/soc-top-30-interview-questions.md
 - @concepts/ransomware.md
+- @concepts/threat-intelligence.md
+
 ## Raw Concept
 
 Three corpus PDFs anchor (Incident response - overview, Incident Response Simulation 1, eCIR Guide).

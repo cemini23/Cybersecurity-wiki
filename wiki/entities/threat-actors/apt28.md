@@ -10,9 +10,10 @@ related:
   - entities/people/joas-a-santos.md
   - entities/threat-actors/apt29.md
   - sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+  - concepts/threat-intelligence.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-12
 - @entities/people/joas-a-santos.md
 - @entities/threat-actors/apt29.md
 - @sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
+- @concepts/threat-intelligence.md
 
 
 ## Raw Concept

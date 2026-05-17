@@ -11,9 +11,12 @@ related:
   - sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
   - sources/red-team-operations-concepts-1.md
   - entities/people/joas-a-santos.md
+  - concepts/soc-operations.md
+  - concepts/threat-intelligence.md
+  - sources/open-source-soc-guide.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -25,6 +28,9 @@ updated: 2026-05-12
 - @sources/introducao-ao-mitre-att-ck-e-ao-cyber-kill-chain.md
 - @sources/red-team-operations-concepts-1.md
 - @entities/people/joas-a-santos.md
+- @concepts/soc-operations.md
+- @concepts/threat-intelligence.md
+- @sources/open-source-soc-guide.md
 
 ## Raw Concept
 

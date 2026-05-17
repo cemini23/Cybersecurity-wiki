@@ -10,9 +10,10 @@ related:
   - concepts/cyberwarfare.md
   - concepts/red-team-operations.md
   - entities/people/joas-a-santos.md
+  - concepts/threat-intelligence.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-12
 - @concepts/cyberwarfare.md
 - @concepts/red-team-operations.md
 - @entities/people/joas-a-santos.md
+- @concepts/threat-intelligence.md
 
 ## Raw Concept
 

@@ -21,10 +21,11 @@
 | @concepts/red-team-operations.md | validated | Red Team vs Pentest distinction; engagement model |
 | @concepts/adversary-emulation.md | validated | APT-emulation plan structure |
 | @concepts/purple-team-operations.md | draft | Red + blue collaborative engagements |
-| @concepts/soc-operations.md | draft | Security Operations Center tooling + tiers |
+| @concepts/soc-operations.md | validated | Security Operations Center tooling + tiers + 5 pillars |
 | @concepts/incident-response.md | validated | NIST / SANS IR lifecycle |
 | @concepts/ransomware.md | validated | Ransomware defensive ops + investigation runbook (T1486) |
 | @concepts/threat-hunting.md | validated | Hypothesis-driven proactive detection |
+| @concepts/threat-intelligence.md | validated | CTI 3-tier model (strategic/tactical/operational) + intel lifecycle |
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |

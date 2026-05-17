@@ -12,6 +12,7 @@ related:
   - concepts/ransomware.md
   - entities/people/joas-a-santos.md
   - sources/ransomware-investigation-runbook.md
+  - concepts/threat-intelligence.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17
@@ -27,6 +28,7 @@ updated: 2026-05-17
 - @concepts/ransomware.md
 - @entities/people/joas-a-santos.md
 - @sources/ransomware-investigation-runbook.md
+- @concepts/threat-intelligence.md
 
 ## Raw Concept
 
