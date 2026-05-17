@@ -8,10 +8,11 @@ related:
   - concepts/siem.md
   - concepts/threat-hunting.md
   - concepts/incident-response.md
+  - entities/tools/sysmon.md
 maturity: draft
 read_status: unread-stub
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Raw Concept
@@ -34,3 +35,4 @@ A Wiley book (Basta et al.) — a complete guide to establishing, managing, and 
 - @concepts/siem.md
 - @concepts/threat-hunting.md
 - @concepts/incident-response.md
+- @entities/tools/sysmon.md

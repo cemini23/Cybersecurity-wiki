@@ -7,10 +7,11 @@ related:
   - concepts/soc-operations.md
   - concepts/incident-response.md
   - concepts/threat-hunting.md
+  - entities/tools/sysmon.md
 maturity: draft
 read_status: unread-stub
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Raw Concept
@@ -32,3 +33,4 @@ Image-based blue-team handbook (~40 MB, 100+ pages). A defensive-operations refe
 - @concepts/soc-operations.md
 - @concepts/incident-response.md
 - @concepts/threat-hunting.md
+- @entities/tools/sysmon.md

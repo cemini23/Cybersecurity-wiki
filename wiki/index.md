@@ -23,7 +23,7 @@
 | @concepts/purple-team-operations.md | draft | Red + blue collaborative engagements |
 | @concepts/soc-operations.md | draft | Security Operations Center tooling + tiers |
 | @concepts/incident-response.md | validated | NIST / SANS IR lifecycle |
-| @concepts/threat-hunting.md | draft | Hypothesis-driven proactive detection |
+| @concepts/threat-hunting.md | validated | Hypothesis-driven proactive detection |
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
@@ -135,6 +135,7 @@
 | @entities/tools/osmedeus.md | draft | Orchestration engine for security scanning (recon/scan YAML workflows) |
 | @entities/tools/splunk.md | draft | Commercial SIEM / log analytics (SPL) |
 | @entities/tools/qradar.md | draft | IBM commercial SIEM (offense correlation) |
+| @entities/tools/sysmon.md | draft | Microsoft Sysinternals — high-fidelity Windows event log (process/network/registry/WMI) |
 
 ### Vendors
 

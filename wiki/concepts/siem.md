@@ -17,9 +17,10 @@ related:
   - sources/splunk-commands-reference.md
   - sources/splunk-siem-soc2-use-cases.md
   - sources/threat-hunting-101.md
+  - entities/tools/sysmon.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -37,6 +38,7 @@ updated: 2026-05-16
 - @sources/splunk-commands-reference.md
 - @sources/splunk-siem-soc2-use-cases.md
 - @sources/threat-hunting-101.md
+- @entities/tools/sysmon.md
 
 ## Raw Concept
 

@@ -8,11 +8,13 @@ related:
   - concepts/incident-response.md
   - concepts/malware-analysis.md
   - concepts/av-edr-bypass.md
+  - concepts/threat-hunting.md
+  - entities/tools/sysmon.md
   - sources/edr-tools-overview.md
   - sources/ransomware-investigation-runbook.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -21,6 +23,8 @@ updated: 2026-05-16
 - @concepts/incident-response.md
 - @concepts/malware-analysis.md
 - @concepts/av-edr-bypass.md
+- @concepts/threat-hunting.md
+- @entities/tools/sysmon.md
 - @sources/edr-tools-overview.md
 - @sources/ransomware-investigation-runbook.md
 
