@@ -12,7 +12,7 @@ This workspace is a **librarian** for cybersecurity knowledge. It:
 
 Everything lives locally. No remote servers, no team distribution, no automation that touches third-party platforms.
 
-The seed corpus (~227 PDFs) was contributed by [Joas A Santos](wiki/entities/people/joas-a-santos.md), a Brazilian cybersecurity educator with deep coverage of offensive security, red team operations, certification prep, SOC tooling, and youth cyber safety. Public release.
+The **seed corpus** (~226 PDFs) was contributed by [Joas A Santos](wiki/entities/people/joas-a-santos.md), a Brazilian cybersecurity educator with deep coverage of offensive security, red team operations, certification prep, SOC tooling, and youth cyber safety. Public release. Since then the wiki has grown through additional shared-folder ingests — a **Redteam Kit** (22 English-language pentest references) and a **BlueTeam Kit** (26 SOC / defensive PDFs — SIEM, threat hunting, incident response, EDR), plus a 50-chapter Kali Linux video course — for **275 source pages** in total.
 
 ## Quick start
 
