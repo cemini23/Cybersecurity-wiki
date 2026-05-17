@@ -12,9 +12,19 @@ related:
   - entities/people/joas-a-santos.md
   - concepts/malware-analysis.md
   - concepts/osint-for-cybersecurity.md
+  - concepts/siem.md
+  - sources/100-splunk-queries-soc-analyst.md
+  - sources/blue-team-handbook.md
+  - sources/blue-team-notes.md
+  - sources/effective-threat-investigation-soc-analysts.md
+  - sources/mitre-attack-framework-soc.md
+  - sources/open-source-soc-guide.md
+  - sources/soc-analyst-book.md
+  - sources/50-free-online-tools-soc-analysts.md
+  - sources/threat-hunting-101.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -27,6 +37,16 @@ updated: 2026-05-12
 - @entities/people/joas-a-santos.md
 - @concepts/malware-analysis.md
 - @concepts/osint-for-cybersecurity.md
+- @concepts/siem.md
+- @sources/100-splunk-queries-soc-analyst.md
+- @sources/blue-team-handbook.md
+- @sources/blue-team-notes.md
+- @sources/effective-threat-investigation-soc-analysts.md
+- @sources/mitre-attack-framework-soc.md
+- @sources/open-source-soc-guide.md
+- @sources/soc-analyst-book.md
+- @sources/50-free-online-tools-soc-analysts.md
+- @sources/threat-hunting-101.md
 
 ## Raw Concept
 

@@ -11,6 +11,8 @@ related:
   - concepts/npm-supply-chain-defense.md
   - entities/tools/aisoc.md
   - entities/tools/supavec.md
+  - sources/cybersecurity-blue-team-strategies.md
+  - sources/encryption-and-hashing.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-16
@@ -33,3 +35,5 @@ Defense in Depth (DiD) is a layered security strategy that deploys multiple inde
 - @concepts/npm-supply-chain-defense.md — package-manager hardening (release-age cooldown + pinning) as a defensive layer
 - @entities/tools/aisoc.md — self-hosted AI SOC orchestrator (LangGraph, 14 log sources) — blue-team automation layer
 - @entities/tools/supavec.md — PostgreSQL RLS multi-tenant isolation pattern for SOC incident-response tooling
+- @sources/cybersecurity-blue-team-strategies.md
+- @sources/encryption-and-hashing.md

@@ -11,9 +11,10 @@ related:
   - entities/tools/wazuh.md
   - sources/purple-team-lab-01-wazuh-and-win2016.md
   - entities/people/joas-a-santos.md
+  - sources/soc-red-blue-team-drills.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -25,6 +26,7 @@ updated: 2026-05-12
 - @entities/tools/wazuh.md
 - @sources/purple-team-lab-01-wazuh-and-win2016.md
 - @entities/people/joas-a-santos.md
+- @sources/soc-red-blue-team-drills.md
 
 ## Raw Concept
 

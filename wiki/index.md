@@ -60,6 +60,8 @@
 | @concepts/defense-in-depth.md | draft | Layered security architecture |
 | @concepts/system-hardening.md | draft | OS + network + application hardening |
 | @concepts/linux-security.md | draft | RHEL security, SELinux, auditd, SSH hardening |
+| @concepts/siem.md | draft | SIEM platform layer — log collection, correlation, alerting |
+| @concepts/endpoint-detection-response.md | draft | EDR/XDR — endpoint telemetry, detection + response |
 
 ### Emerging / cross-domain
 
@@ -131,6 +133,8 @@
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
 | @entities/tools/jadx-mcp-server.md | draft | Android RE + live debugging via MCP (JADX decompiler) |
 | @entities/tools/osmedeus.md | draft | Orchestration engine for security scanning (recon/scan YAML workflows) |
+| @entities/tools/splunk.md | draft | Commercial SIEM / log analytics (SPL) |
+| @entities/tools/qradar.md | draft | IBM commercial SIEM (offense correlation) |
 
 ### Vendors
 
@@ -182,10 +186,12 @@
 
 ## Sources
 
-249 source pages live in `sources/`:
+275 source pages live in `sources/`:
 
-- **227** from the Joas A Santos seed corpus (shared Drive folder `ebooks Joas`)
+- **226** from the Joas A Santos seed corpus (shared Drive folder `ebooks Joas`)
 - **22** from the Redteam Kit shared Drive folder (English-language security books + field manuals)
+- **26** from the BlueTeam Kit shared Drive folder (SOC / blue-team PDFs — SIEM, threat hunting, IR, EDR)
+- **1** Kali Linux 2023 video course (50-chapter `.mp4` set, catalogued as a single page)
 
 Source pages are not individually catalogued here; each entity and concept page lists the sources that synthesize into it under `related:`. Browse `sources/` directly for provenance lookups.
 

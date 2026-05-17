@@ -21,6 +21,7 @@ related:
   - entities/certifications/ecptx.md
   - entities/tools/cua.md
   - concepts/agent-vm-sandboxing.md
+  - concepts/endpoint-detection-response.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-16
@@ -45,6 +46,7 @@ updated: 2026-05-16
 - @entities/certifications/ecptx.md
 - @entities/tools/cua.md
 - @concepts/agent-vm-sandboxing.md
+- @concepts/endpoint-detection-response.md
 
 ## Raw Concept
 

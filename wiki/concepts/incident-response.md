@@ -19,9 +19,18 @@ related:
   - sources/2025-cybersecurity-attacks-playbooks.md
   - concepts/defense-in-depth.md
   - concepts/linux-security.md
+  - concepts/endpoint-detection-response.md
+  - sources/blue-team-handbook.md
+  - sources/blue-team-notes.md
+  - sources/cybersecurity-blue-team-strategies.md
+  - sources/effective-threat-investigation-soc-analysts.md
+  - sources/open-source-soc-guide.md
+  - sources/ransomware-investigation-runbook.md
+  - sources/soc-analyst-book.md
+  - sources/soc-top-30-interview-questions.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -43,6 +52,15 @@ updated: 2026-05-15
 - @sources/2025-cybersecurity-attacks-playbooks.md
 - @concepts/defense-in-depth.md
 - @concepts/linux-security.md
+- @concepts/endpoint-detection-response.md
+- @sources/blue-team-handbook.md
+- @sources/blue-team-notes.md
+- @sources/cybersecurity-blue-team-strategies.md
+- @sources/effective-threat-investigation-soc-analysts.md
+- @sources/open-source-soc-guide.md
+- @sources/ransomware-investigation-runbook.md
+- @sources/soc-analyst-book.md
+- @sources/soc-top-30-interview-questions.md
 ## Raw Concept
 
 Three corpus PDFs anchor (Incident response - overview, Incident Response Simulation 1, eCIR Guide).

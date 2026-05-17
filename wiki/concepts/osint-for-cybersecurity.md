@@ -25,6 +25,7 @@ related:
   - entities/tools/taranis-ai.md
   - entities/tools/website-downloader.md
   - "@osint-wiki/entities/tools/socid-extractor.md"
+  - sources/50-free-online-tools-soc-analysts.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-16
@@ -54,6 +55,7 @@ updated: 2026-05-16
 - @entities/tools/taranis-ai.md — OSINT threat-intelligence platform with MISP integration
 - @entities/tools/website-downloader.md — site archival for offline recon / target-site analysis
 - @osint-wiki/entities/tools/socid-extractor.md — cross-wiki: cross-platform social-account identifier-extraction tool used in threat-actor correlation
+- @sources/50-free-online-tools-soc-analysts.md
 
 ## Raw Concept
 

@@ -36,6 +36,13 @@ related:
   - concepts/wireless-pentest.md
   - entities/pydns-scanner-xullexer.md
   - entities/tpotce.md
+  - sources/basic-network-sniffer.md
+  - sources/ccna-questions-answers.md
+  - sources/cisco-sdwan-nat-part-1.md
+  - sources/cisco-sdwan-lab-documentation.md
+  - sources/top-50-cybersecurity-interview-questions.md
+  - sources/encryption-and-hashing.md
+  - sources/networking-essentials-for-cybersecurity.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-16
@@ -77,6 +84,13 @@ updated: 2026-05-16
 - @concepts/wireless-pentest.md
 - @entities/pydns-scanner-xullexer.md — async DNS-recon variant of the xullexer project; attack-surface mapping
 - @entities/tpotce.md — T-Pot multi-honeypot deception framework (20+ honeypots, Suricata NMS, Elastic)
+- @sources/basic-network-sniffer.md
+- @sources/ccna-questions-answers.md
+- @sources/cisco-sdwan-nat-part-1.md
+- @sources/cisco-sdwan-lab-documentation.md
+- @sources/top-50-cybersecurity-interview-questions.md
+- @sources/encryption-and-hashing.md
+- @sources/networking-essentials-for-cybersecurity.md
 ## Raw Concept
 
 Eight corpus PDFs anchor.

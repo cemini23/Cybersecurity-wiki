@@ -9,9 +9,13 @@ related:
   - concepts/purple-team-operations.md
   - sources/purple-team-lab-01-wazuh-and-win2016.md
   - entities/people/joas-a-santos.md
+  - concepts/siem.md
+  - sources/linux-log-analysis-wazuh.md
+  - entities/tools/splunk.md
+  - entities/tools/qradar.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -21,6 +25,10 @@ updated: 2026-05-12
 - @concepts/purple-team-operations.md
 - @sources/purple-team-lab-01-wazuh-and-win2016.md
 - @entities/people/joas-a-santos.md
+- @concepts/siem.md
+- @sources/linux-log-analysis-wazuh.md
+- @entities/tools/splunk.md
+- @entities/tools/qradar.md
 
 ## Raw Concept
 

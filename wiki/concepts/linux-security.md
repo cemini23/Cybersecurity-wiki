@@ -10,9 +10,10 @@ related:
   - sources/red-hat-linux-security-and-optimization.md
   - sources/ssh-hardening-and-offensive-mastery.md
   - concepts/defense-in-depth.md
+  - sources/linux-log-analysis-wazuh.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Raw Concept
@@ -32,3 +33,4 @@ Linux system security hardening and defense. Covers kernel hardening (SELinux, A
 - @sources/ssh-hardening-and-offensive-mastery.md
 
 - @concepts/defense-in-depth.md
+- @sources/linux-log-analysis-wazuh.md

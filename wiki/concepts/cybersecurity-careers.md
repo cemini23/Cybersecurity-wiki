@@ -43,9 +43,11 @@ related:
   - sources/the-complete-guide-for-cyber-security-career.md
   - entities/tools/pentest-ai-agents.md
   - concepts/llm-pentest-automation.md
+  - sources/top-50-cybersecurity-interview-questions.md
+  - sources/soc-top-30-interview-questions.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -89,6 +91,8 @@ updated: 2026-05-13
 - @sources/the-complete-guide-for-cyber-security-career.md
 - @entities/tools/pentest-ai-agents.md
 - @concepts/llm-pentest-automation.md
+- @sources/top-50-cybersecurity-interview-questions.md
+- @sources/soc-top-30-interview-questions.md
 
 
 ## Raw Concept

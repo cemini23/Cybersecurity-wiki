@@ -25,9 +25,34 @@ related:
   - sources/soc-analyst-career.md
   - sources/soc-open-source-tools.md
   - sources/2025-cybersecurity-attacks-playbooks.md
+  - concepts/siem.md
+  - concepts/endpoint-detection-response.md
+  - entities/tools/splunk.md
+  - entities/tools/qradar.md
+  - sources/100-splunk-queries-soc-analyst.md
+  - sources/basic-network-sniffer.md
+  - sources/blue-team-handbook.md
+  - sources/blue-team-notes.md
+  - sources/next-gen-soc-ibm-qradar.md
+  - sources/cybersecurity-blue-team-strategies.md
+  - sources/top-50-cybersecurity-interview-questions.md
+  - sources/edr-tools-overview.md
+  - sources/effective-threat-investigation-soc-analysts.md
+  - sources/linux-log-analysis-wazuh.md
+  - sources/mitre-attack-framework-soc.md
+  - sources/open-source-soc-guide.md
+  - sources/ransomware-investigation-runbook.md
+  - sources/soc-analyst-book.md
+  - sources/soc-log-types.md
+  - sources/soc-red-blue-team-drills.md
+  - sources/50-free-online-tools-soc-analysts.md
+  - sources/soc-top-30-interview-questions.md
+  - sources/splunk-commands-reference.md
+  - sources/splunk-siem-soc2-use-cases.md
+  - sources/threat-hunting-101.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -55,6 +80,31 @@ updated: 2026-05-15
 
 
 - @sources/2025-cybersecurity-attacks-playbooks.md
+- @concepts/siem.md
+- @concepts/endpoint-detection-response.md
+- @entities/tools/splunk.md
+- @entities/tools/qradar.md
+- @sources/100-splunk-queries-soc-analyst.md
+- @sources/basic-network-sniffer.md
+- @sources/blue-team-handbook.md
+- @sources/blue-team-notes.md
+- @sources/next-gen-soc-ibm-qradar.md
+- @sources/cybersecurity-blue-team-strategies.md
+- @sources/top-50-cybersecurity-interview-questions.md
+- @sources/edr-tools-overview.md
+- @sources/effective-threat-investigation-soc-analysts.md
+- @sources/linux-log-analysis-wazuh.md
+- @sources/mitre-attack-framework-soc.md
+- @sources/open-source-soc-guide.md
+- @sources/ransomware-investigation-runbook.md
+- @sources/soc-analyst-book.md
+- @sources/soc-log-types.md
+- @sources/soc-red-blue-team-drills.md
+- @sources/50-free-online-tools-soc-analysts.md
+- @sources/soc-top-30-interview-questions.md
+- @sources/splunk-commands-reference.md
+- @sources/splunk-siem-soc2-use-cases.md
+- @sources/threat-hunting-101.md
 ## Raw Concept
 
 11+ corpus PDFs scope into SOC operations.

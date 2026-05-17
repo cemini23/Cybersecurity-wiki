@@ -11,9 +11,10 @@ related:
   - concepts/web-pentest-methodology.md
   - sources/hacking-mastery-with-kali-linux.md
   - sources/penetration-testing-with-kali-linux.md
+  - sources/kali-for-2023-video-course.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Raw Concept
@@ -33,3 +34,4 @@ Debian-based Linux distribution purpose-built for penetration testing, security 
 - @concepts/web-pentest-methodology.md
 - @sources/hacking-mastery-with-kali-linux.md
 - @sources/penetration-testing-with-kali-linux.md
+- @sources/kali-for-2023-video-course.md
