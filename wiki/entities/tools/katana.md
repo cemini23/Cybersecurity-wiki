@@ -29,6 +29,8 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05
 
 Cross-routed from the OSINT workspace 56-repo multi-wiki tool eval, 2026-05-17. The eval verdict is **Adopt** tier, cybersec primary fit; OSINT-wiki gets a secondary mention (automated deep-crawling of unstructured data). Doc-level verdict — a Phase-0 clone audit is still owed before adoption on any production surface.
 
+**Local adoption (2026-05-17)**: installed on the OSINT-workspace laptop via `go install github.com/projectdiscovery/katana/cmd/katana@latest` — binary at `~/go/bin/katana` (**v1.6.1**). Smoke-tested (crawled a test domain, returned URLs). The laptop is a curation/workflow surface, not a production surface, so this install does not pre-empt the Phase-0 gate owed before any server-side deployment. Note: `~/go/bin` is not on the laptop's default `PATH` — invoke by full path or add to `PATH`.
+
 ## Narrative
 
 **katana** is a scriptable web crawler from ProjectDiscovery. It operates in two modes: standard HTTP crawling, and a **headless-browser** mode that executes JavaScript via a real browser engine. The headless mode is the differentiator — it lets katana see the URLs, JS paths, and API endpoints that modern single-page-application (SPA) frameworks generate dynamically at runtime, which a pure-HTTP crawler never renders. [Source: https://github.com/projectdiscovery/katana (retrieved 2026-05-17)]

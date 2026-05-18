@@ -29,6 +29,8 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05
 
 Cross-routed from the OSINT workspace 56-repo multi-wiki tool eval, 2026-05-17. The eval verdict is **Adopt** tier, cybersec primary fit; OSINT-wiki gets a secondary mention (data gathering from OTX / Common Crawl) and CCC-wiki a tertiary one (Go CLI pattern). Doc-level verdict — a Phase-0 clone audit is still owed before adoption on any production surface.
 
+**Local adoption (2026-05-17)**: installed on the OSINT-workspace laptop via `go install github.com/lc/gau/v2/cmd/gau@latest` — binary at `~/go/bin/gau` (**v2.2.4**). Smoke-tested (returned known URLs for a test domain). The laptop is a curation/workflow surface, not a production surface, so this install does not pre-empt the Phase-0 gate owed before any server-side deployment. Note: `~/go/bin` is not on the laptop's default `PATH` — invoke by full path or add to `PATH`.
+
 ## Narrative
 
 **gau** (short for *getallurls*) is a Go command-line tool that fetches the set of *known* URLs for a given domain by querying multiple public archives **simultaneously**: AlienVault's Open Threat Exchange (OTX), the Internet Archive's Wayback Machine, and Common Crawl. The result is a deduplicated list of historical and indexed URLs for a target — without ever sending a request to the target itself. [Source: https://github.com/lc/gau (retrieved 2026-05-17)]
