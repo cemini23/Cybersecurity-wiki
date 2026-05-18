@@ -14,6 +14,8 @@ related:
   - sources/edr-tools-overview.md
   - sources/ransomware-investigation-runbook.md
   - entities/tools/splunk.md
+  - entities/tools/qradar.md
+  - sources/next-gen-soc-ibm-qradar.md
 maturity: draft
 created: 2026-05-16
 updated: 2026-05-17
@@ -31,6 +33,8 @@ updated: 2026-05-17
 - @sources/edr-tools-overview.md
 - @sources/ransomware-investigation-runbook.md
 - @entities/tools/splunk.md
+- @entities/tools/qradar.md
+- @sources/next-gen-soc-ibm-qradar.md
 
 ## Raw Concept
 

@@ -22,6 +22,7 @@ related:
   - sources/effective-threat-investigation-soc-analysts.md
   - sources/open-source-soc-guide.md
   - sources/soc-analyst-book.md
+  - sources/next-gen-soc-ibm-qradar.md
   - entities/people/rajneesh-gupta.md
 maturity: validated
 created: 2026-05-16
@@ -48,6 +49,7 @@ updated: 2026-05-17
 - @sources/effective-threat-investigation-soc-analysts.md
 - @sources/open-source-soc-guide.md
 - @sources/soc-analyst-book.md
+- @sources/next-gen-soc-ibm-qradar.md
 - @entities/people/rajneesh-gupta.md
 
 ## Raw Concept

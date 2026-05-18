@@ -137,7 +137,7 @@
 | @entities/tools/jadx-mcp-server.md | draft | Android RE + live debugging via MCP (JADX decompiler) |
 | @entities/tools/osmedeus.md | draft | Orchestration engine for security scanning (recon/scan YAML workflows) |
 | @entities/tools/splunk.md | validated | Commercial SIEM / SPL — 110-query detection catalog + SPL command reference + 24 SOC-2 use cases |
-| @entities/tools/qradar.md | draft | IBM commercial SIEM (offense correlation) |
+| @entities/tools/qradar.md | validated | IBM commercial SIEM — architecture/components/databases/EPS+FPM licensing/coalescing/CRE/superflows (Kothekar 2023 Ch 1-4 deep-read; Ch 5-12 deferred) |
 | @entities/tools/sysmon.md | draft | Microsoft Sysinternals — high-fidelity Windows event log (process/network/registry/WMI) |
 | @entities/tools/gau.md | draft | Multi-provider known-URL discovery — OTX / Wayback / Common Crawl (MIT, Go; Adopt) |
 | @entities/tools/katana.md | draft | Scriptable web crawler with headless-browser mode (MIT, Go; ProjectDiscovery; Adopt) |
@@ -185,6 +185,7 @@
 | @entities/people/joas-a-santos.md | validated | Corpus author |
 | @entities/people/mostafa-yahia.md | draft | SOC analyst author (Yahia Packt 2023) |
 | @entities/people/rajneesh-gupta.md | draft | SIEM / SOC 2 use-case author (@rajneeshcyber) |
+| @entities/people/ashish-m-kothekar.md | draft | IBM SWAT/SME — author of *Building a Next-Gen SOC with IBM QRadar* (Packt 2023) |
 
 ---
 - [xullexer/PYDNS-Scanner — async DNS recon (Slipstream + SlipNet)](entities/pydns-scanner-xullexer.md) — cross-wiki stub routed from ingest — `cross-wiki`

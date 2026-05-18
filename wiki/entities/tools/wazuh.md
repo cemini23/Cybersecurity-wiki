@@ -13,6 +13,7 @@ related:
   - sources/linux-log-analysis-wazuh.md
   - entities/tools/splunk.md
   - entities/tools/qradar.md
+  - sources/next-gen-soc-ibm-qradar.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-16
@@ -29,6 +30,7 @@ updated: 2026-05-16
 - @sources/linux-log-analysis-wazuh.md
 - @entities/tools/splunk.md
 - @entities/tools/qradar.md
+- @sources/next-gen-soc-ibm-qradar.md
 
 ## Raw Concept
 

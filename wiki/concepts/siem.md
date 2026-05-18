@@ -19,6 +19,7 @@ related:
   - sources/threat-hunting-101.md
   - entities/tools/sysmon.md
   - entities/people/rajneesh-gupta.md
+  - entities/people/ashish-m-kothekar.md
 maturity: draft
 created: 2026-05-16
 updated: 2026-05-17
@@ -41,6 +42,7 @@ updated: 2026-05-17
 - @sources/threat-hunting-101.md
 - @entities/tools/sysmon.md
 - @entities/people/rajneesh-gupta.md
+- @entities/people/ashish-m-kothekar.md
 
 ## Raw Concept
 

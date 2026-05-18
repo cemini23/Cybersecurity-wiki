@@ -33,6 +33,8 @@ related:
   - entities/tools/splunk.md
   - sources/splunk-commands-reference.md
   - sources/splunk-siem-soc2-use-cases.md
+  - entities/tools/qradar.md
+  - sources/next-gen-soc-ibm-qradar.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -69,6 +71,8 @@ updated: 2026-05-17
 - @entities/tools/splunk.md
 - @sources/splunk-commands-reference.md
 - @sources/splunk-siem-soc2-use-cases.md
+- @entities/tools/qradar.md
+- @sources/next-gen-soc-ibm-qradar.md
 
 ## Raw Concept
 

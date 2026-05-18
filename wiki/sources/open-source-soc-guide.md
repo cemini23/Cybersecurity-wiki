@@ -14,6 +14,7 @@ related:
   - entities/frameworks/mitre-attack.md
   - entities/tools/sysmon.md
   - entities/tools/splunk.md
+  - entities/tools/qradar.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-16
@@ -84,3 +85,4 @@ Wiley 2025 academic-style textbook by Basta et al. on building an open-source SO
 - @entities/frameworks/mitre-attack.md
 - @entities/tools/sysmon.md
 - @entities/tools/splunk.md
+- @entities/tools/qradar.md
