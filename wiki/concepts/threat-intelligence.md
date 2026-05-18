@@ -17,6 +17,9 @@ related:
   - entities/threat-actors/lazarus.md
   - entities/threat-actors/lockbit.md
   - sources/open-source-soc-guide.md
+  - sources/effective-threat-investigation-soc-analysts.md
+  - concepts/phishing-investigation.md
+  - entities/people/mostafa-yahia.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-05-17
@@ -37,6 +40,9 @@ updated: 2026-05-17
 - @entities/threat-actors/lazarus.md
 - @entities/threat-actors/lockbit.md
 - @sources/open-source-soc-guide.md
+- @sources/effective-threat-investigation-soc-analysts.md
+- @concepts/phishing-investigation.md
+- @entities/people/mostafa-yahia.md
 
 ## Raw Concept
 
@@ -59,6 +65,20 @@ The wiki had no dedicated threat-intelligence page despite >15 pages referencing
 ### Source taxonomy
 
 - **OSINT** — public-source intel: VirusTotal, AbuseIPDB, URLhaus, AlienVault OTX, Shodan, Censys, vendor blogs (Mandiant / CrowdStrike / Microsoft / Cisco Talos), social platforms, leaked-data sites. Free but noisy + variable quality. See @concepts/osint-for-cybersecurity.md.
+
+### Canonical SOC-analyst pivot stack
+
+Per @sources/effective-threat-investigation-soc-analysts.md (Yahia Ch 14), the named-entity OSINT-TI pivots every Tier-1 SOC analyst should know cold:
+
+| Pivot | Best for | URL |
+|-------|----------|-----|
+| **VirusTotal** | File hashes, domains, URLs, outbound IPs | https://www.virustotal.com/ |
+| **IBM X-Force Exchange** | Domains, IPs, hashes — corporate-grade enrichment | https://exchange.xforce.ibmcloud.com/ |
+| **AbuseIPDB** | Inbound IP reputation (Tier-1 first-stop) | https://www.abuseipdb.com/ |
+| **Google** | Open-web context — copy the IOC into search; vendor blogs + threat-actor reports surface | https://google.com/ |
+
+These four are the **first-touch pivots** before reaching for commercial feeds. They are also the universal-language IOCs — anything you'd hand off to another SOC, ISAC member, or external IR firm.
+
 - **Commercial feeds** — Recorded Future, ZeroFox, Anomali, Flashpoint, Intel 471. Higher signal-to-noise + analyst-validated, but $$$ and license-bounded for sharing.
 - **ISAC / industry sharing** — sector-specific Information Sharing & Analysis Centers (FS-ISAC for finance, H-ISAC for healthcare, MS-ISAC for state + local gov, E-ISAC for electricity). Member-only, high-trust, often the fastest source for sector-targeted campaigns.
 - **Government** — CISA AIS + #StopRansomware advisories (US), NCSC NCC + Early Warning (UK), ENISA (EU), ACSC (Australia). Free, public, late-binding but authoritative.

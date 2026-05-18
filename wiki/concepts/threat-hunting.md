@@ -27,6 +27,9 @@ related:
   - concepts/ransomware.md
   - sources/ransomware-investigation-runbook.md
   - concepts/threat-intelligence.md
+  - concepts/phishing-investigation.md
+  - entities/people/mostafa-yahia.md
+  - entities/tools/gopacket.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -57,6 +60,8 @@ updated: 2026-05-17
 - @concepts/ransomware.md
 - @sources/ransomware-investigation-runbook.md
 - @concepts/threat-intelligence.md
+- @concepts/phishing-investigation.md
+- @entities/people/mostafa-yahia.md
 
 ## Raw Concept
 

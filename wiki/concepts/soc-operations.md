@@ -54,6 +54,8 @@ related:
   - concepts/ransomware.md
   - concepts/threat-intelligence.md
   - entities/frameworks/cyber-kill-chain.md
+  - concepts/phishing-investigation.md
+  - entities/people/mostafa-yahia.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -113,6 +115,8 @@ updated: 2026-05-17
 - @concepts/ransomware.md
 - @concepts/threat-intelligence.md
 - @entities/frameworks/cyber-kill-chain.md
+- @concepts/phishing-investigation.md
+- @entities/people/mostafa-yahia.md
 
 ## Raw Concept
 

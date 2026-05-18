@@ -9,9 +9,11 @@ related:
   - sources/phishing-dark-waters.md
   - sources/hacking-multifactor-authentication.md
   - concepts/2026-05-13_chekusu-mails-dual-use.md
+  - concepts/phishing-investigation.md
+  - sources/effective-threat-investigation-soc-analysts.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Raw Concept
@@ -29,3 +31,5 @@ Social engineering technique using deceptive emails, messages, or websites to st
 - @sources/phishing-dark-waters.md
 - @sources/hacking-multifactor-authentication.md
 - @concepts/2026-05-13_chekusu-mails-dual-use.md — AI email-parsing tool; dual-use for phishing-domain enumeration and brand-abuse monitoring
+- @concepts/phishing-investigation.md — defensive SOC-analyst triage workflow (Yahia 5-step + SPF/DKIM/DMARC)
+- @sources/effective-threat-investigation-soc-analysts.md — Yahia Packt 2023, defensive-investigation perspective

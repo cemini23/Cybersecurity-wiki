@@ -26,6 +26,7 @@
 | @concepts/ransomware.md | validated | Ransomware defensive ops + investigation runbook (T1486) |
 | @concepts/threat-hunting.md | validated | Hypothesis-driven proactive detection |
 | @concepts/threat-intelligence.md | validated | CTI 3-tier model (strategic/tactical/operational) + intel lifecycle |
+| @concepts/phishing-investigation.md | validated | SOC-analyst phishing triage (Yahia 5-step workflow + SPF/DKIM/DMARC) |
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
@@ -178,6 +179,7 @@
 | Page | Maturity | Role |
 |------|----------|------|
 | @entities/people/joas-a-santos.md | validated | Corpus author |
+| @entities/people/mostafa-yahia.md | draft | SOC analyst author (Yahia Packt 2023) |
 
 ---
 - [xullexer/PYDNS-Scanner — async DNS recon (Slipstream + SlipNet)](entities/pydns-scanner-xullexer.md) — cross-wiki stub routed from ingest — `cross-wiki`

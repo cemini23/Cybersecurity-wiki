@@ -14,9 +14,11 @@ related:
   - sources/hacking-multifactor-authentication.md
   - sources/phishing-dark-waters.md
   - concepts/phishing.md
+  - concepts/phishing-investigation.md
+  - sources/effective-threat-investigation-soc-analysts.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -32,6 +34,9 @@ updated: 2026-05-15
 - @sources/hacking-multifactor-authentication.md
 - @sources/phishing-dark-waters.md
 - @concepts/phishing.md
+- @concepts/phishing-investigation.md
+- @sources/effective-threat-investigation-soc-analysts.md
+
 ## Raw Concept
 
 Two corpus PDFs (PT-BR + EN) anchor.

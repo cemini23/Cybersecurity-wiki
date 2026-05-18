@@ -30,6 +30,8 @@ related:
   - sources/soc-top-30-interview-questions.md
   - concepts/ransomware.md
   - concepts/threat-intelligence.md
+  - concepts/phishing-investigation.md
+  - entities/people/mostafa-yahia.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -65,6 +67,8 @@ updated: 2026-05-17
 - @sources/soc-top-30-interview-questions.md
 - @concepts/ransomware.md
 - @concepts/threat-intelligence.md
+- @concepts/phishing-investigation.md
+- @entities/people/mostafa-yahia.md
 
 ## Raw Concept
 
@@ -109,6 +113,21 @@ Tooling cited in the corpus:
 - **[Kuiper](https://github.com/DFIRKuiper/Kuiper)** — Mac+Linux+Windows forensic-artifact parser
 - **[awesome-incident-response](https://github.com/meirwah/awesome-incident-response)** — curated list of IR resources
 - **[awesome-forensics](https://github.com/cugu/awesome-forensics)** — curated forensics tooling
+
+### Windows event-log triage toolchain
+
+Per @sources/effective-threat-investigation-soc-analysts.md (Yahia Ch 3) — the canonical live-vs-offline EVTX investigation stack for Windows-host IR:
+
+| Tool | Use case | Cost |
+|------|----------|------|
+| **Event Viewer** (built-in) | Live host, GUI; exports CSV/EVTX/TXT/XML | Free / built-in |
+| **PsLogList** (Sysinternals) | Live host, CLI; dumps logs to TXT/CSV/EVTX | Free |
+| **Event Log Explorer** | Offline EVTX, GUI; free for personal use | Free (personal) / paid (commercial) |
+| **EvtxECmd** (Eric Zimmerman) | Offline EVTX, CLI; outputs CSV/XML/JSON; scripts well | Free |
+| **HELK** (Cyb3rWard0g) | Open-source SIEM lab — Elastic + Kafka + ELK on Ubuntu | Free |
+| **Mordor datasets** | Pre-recorded adversarial-technique EVTX corpora at [securitydatasets.com](https://securitydatasets.com/) | Free |
+
+Default Windows log path: `C:\Windows\System32\winevt\Logs`. Relocate via `HKLM\SYSTEM\CurrentControlSet\Services\EventLog\<LogName>` registry hive. A pure Windows 11 install ships with **336 log files** by default [Source: yahia ch 3 p. 52]. Six Security-log event categories: logon, logon validation, object access, account management, privilege use, process tracking.
 
 ### IR playbook libraries — community canonical
 
