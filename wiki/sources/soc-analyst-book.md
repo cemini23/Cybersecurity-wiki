@@ -7,6 +7,7 @@ related:
   - concepts/soc-operations.md
   - concepts/threat-hunting.md
   - concepts/incident-response.md
+  - entities/tools/splunk.md
 maturity: draft
 read_status: unread-stub
 created: 2026-05-16
@@ -32,3 +33,4 @@ A large (~74 MB) SOC-analyst reference book. Image/scan-based; content is page i
 - @concepts/soc-operations.md
 - @concepts/threat-hunting.md
 - @concepts/incident-response.md
+- @entities/tools/splunk.md

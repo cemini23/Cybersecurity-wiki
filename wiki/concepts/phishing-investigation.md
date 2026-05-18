@@ -13,6 +13,8 @@ related:
   - concepts/malware-analysis.md
   - entities/people/mostafa-yahia.md
   - sources/effective-threat-investigation-soc-analysts.md
+  - entities/tools/splunk.md
+  - sources/100-splunk-queries-soc-analyst.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-05-17
@@ -29,6 +31,8 @@ updated: 2026-05-17
 - @concepts/malware-analysis.md
 - @entities/people/mostafa-yahia.md
 - @sources/effective-threat-investigation-soc-analysts.md
+- @entities/tools/splunk.md
+- @sources/100-splunk-queries-soc-analyst.md
 
 ## Raw Concept
 

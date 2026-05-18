@@ -32,6 +32,9 @@ related:
   - concepts/threat-intelligence.md
   - concepts/phishing-investigation.md
   - entities/people/mostafa-yahia.md
+  - entities/tools/splunk.md
+  - sources/100-splunk-queries-soc-analyst.md
+  - sources/splunk-siem-soc2-use-cases.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -69,6 +72,9 @@ updated: 2026-05-17
 - @concepts/threat-intelligence.md
 - @concepts/phishing-investigation.md
 - @entities/people/mostafa-yahia.md
+- @entities/tools/splunk.md
+- @sources/100-splunk-queries-soc-analyst.md
+- @sources/splunk-siem-soc2-use-cases.md
 
 ## Raw Concept
 

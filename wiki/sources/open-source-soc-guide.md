@@ -13,6 +13,7 @@ related:
   - entities/frameworks/cyber-kill-chain.md
   - entities/frameworks/mitre-attack.md
   - entities/tools/sysmon.md
+  - entities/tools/splunk.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-16
@@ -82,3 +83,4 @@ Wiley 2025 academic-style textbook by Basta et al. on building an open-source SO
 - @entities/frameworks/cyber-kill-chain.md
 - @entities/frameworks/mitre-attack.md
 - @entities/tools/sysmon.md
+- @entities/tools/splunk.md

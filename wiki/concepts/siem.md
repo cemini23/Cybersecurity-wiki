@@ -18,6 +18,7 @@ related:
   - sources/splunk-siem-soc2-use-cases.md
   - sources/threat-hunting-101.md
   - entities/tools/sysmon.md
+  - entities/people/rajneesh-gupta.md
 maturity: draft
 created: 2026-05-16
 updated: 2026-05-17
@@ -39,6 +40,7 @@ updated: 2026-05-17
 - @sources/splunk-siem-soc2-use-cases.md
 - @sources/threat-hunting-101.md
 - @entities/tools/sysmon.md
+- @entities/people/rajneesh-gupta.md
 
 ## Raw Concept
 

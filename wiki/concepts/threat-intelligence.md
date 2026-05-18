@@ -20,6 +20,7 @@ related:
   - sources/effective-threat-investigation-soc-analysts.md
   - concepts/phishing-investigation.md
   - entities/people/mostafa-yahia.md
+  - entities/tools/splunk.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-05-17
@@ -43,6 +44,7 @@ updated: 2026-05-17
 - @sources/effective-threat-investigation-soc-analysts.md
 - @concepts/phishing-investigation.md
 - @entities/people/mostafa-yahia.md
+- @entities/tools/splunk.md
 
 ## Raw Concept
 

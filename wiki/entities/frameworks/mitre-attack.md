@@ -29,6 +29,8 @@ related:
   - sources/ransomware-investigation-runbook.md
   - concepts/threat-intelligence.md
   - sources/open-source-soc-guide.md
+  - entities/tools/splunk.md
+  - sources/100-splunk-queries-soc-analyst.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -63,6 +65,8 @@ updated: 2026-05-17
 - @sources/ransomware-investigation-runbook.md
 - @concepts/threat-intelligence.md
 - @sources/open-source-soc-guide.md
+- @entities/tools/splunk.md
+- @sources/100-splunk-queries-soc-analyst.md
 
 ## Raw Concept
 

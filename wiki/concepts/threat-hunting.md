@@ -30,6 +30,9 @@ related:
   - concepts/phishing-investigation.md
   - entities/people/mostafa-yahia.md
   - entities/tools/gopacket.md
+  - entities/tools/splunk.md
+  - sources/splunk-commands-reference.md
+  - sources/splunk-siem-soc2-use-cases.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -63,6 +66,9 @@ updated: 2026-05-17
 - @concepts/phishing-investigation.md
 - @entities/people/mostafa-yahia.md
 - @entities/tools/gopacket.md — Go packet-decoding library; decoded packet metadata as a network-hunt substrate
+- @entities/tools/splunk.md
+- @sources/splunk-commands-reference.md
+- @sources/splunk-siem-soc2-use-cases.md
 
 ## Raw Concept
 

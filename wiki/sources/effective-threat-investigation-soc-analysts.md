@@ -13,6 +13,7 @@ related:
   - concepts/social-engineering.md
   - entities/people/mostafa-yahia.md
   - entities/tools/sysmon.md
+  - entities/tools/splunk.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-16
@@ -129,3 +130,4 @@ v=DMARC1; p=reject; pct=100; rua=mailto:postmaster@example.com
 - @concepts/social-engineering.md
 - @entities/people/mostafa-yahia.md
 - @entities/tools/sysmon.md
+- @entities/tools/splunk.md

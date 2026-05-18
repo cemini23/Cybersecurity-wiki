@@ -13,6 +13,7 @@ related:
   - concepts/ransomware.md
   - sources/edr-tools-overview.md
   - sources/ransomware-investigation-runbook.md
+  - entities/tools/splunk.md
 maturity: draft
 created: 2026-05-16
 updated: 2026-05-17
@@ -29,6 +30,7 @@ updated: 2026-05-17
 - @concepts/ransomware.md
 - @sources/edr-tools-overview.md
 - @sources/ransomware-investigation-runbook.md
+- @entities/tools/splunk.md
 
 ## Raw Concept
 
