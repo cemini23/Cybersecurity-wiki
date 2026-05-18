@@ -45,6 +45,7 @@ related:
   - sources/networking-essentials-for-cybersecurity.md
   - entities/tools/gopacket.md
   - entities/tools/openvpn-install.md
+  - entities/tools/vpn-self-hosted.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17
@@ -95,6 +96,7 @@ updated: 2026-05-17
 - @sources/networking-essentials-for-cybersecurity.md
 - @entities/tools/gopacket.md — Go packet-decoding library for network-layer analysis (Mandiant, Apache-2.0)
 - @entities/tools/openvpn-install.md — Bash OpenVPN deployment automation; refined NAT detection + IPv6-routing handling
+- @entities/tools/vpn-self-hosted.md — VPN tool hub page; WireGuard/OpenVPN/Tailscale catalog + protocol decision matrix
 
 ## Raw Concept
 

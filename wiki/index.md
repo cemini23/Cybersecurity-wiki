@@ -143,6 +143,7 @@
 | @entities/tools/katana.md | draft | Scriptable web crawler with headless-browser mode (MIT, Go; ProjectDiscovery; Adopt) |
 | @entities/tools/gopacket.md | draft | Go packet-decoding library for network analysis (Apache-2.0, Mandiant; Steal-from) |
 | @entities/tools/openvpn-install.md | draft | Bash OpenVPN deployment automation — NAT / IPv6-routing logic (Unlicense; Steal-from) |
+| @entities/tools/vpn-self-hosted.md | draft | VPN hub page — WireGuard, OpenVPN, wg-easy, PiVPN, Tailscale catalog + decision matrix |
 
 ### Vendors
 

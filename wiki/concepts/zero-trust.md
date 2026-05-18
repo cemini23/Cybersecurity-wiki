@@ -9,6 +9,7 @@ related:
   - sources/zero-trust-testing-checklist.md
   - entities/people/joas-a-santos.md
   - sources/open-source-soc-guide.md
+  - entities/tools/vpn-self-hosted.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17
@@ -21,6 +22,7 @@ updated: 2026-05-17
 - @sources/zero-trust-testing-checklist.md
 - @entities/people/joas-a-santos.md
 - @sources/open-source-soc-guide.md
+- @entities/tools/vpn-self-hosted.md — VPN tool hub; Tailscale (WireGuard-based) is documented as Zero Trust mesh overlay implementation
 
 ## Raw Concept
 

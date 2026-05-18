@@ -12,6 +12,7 @@ related:
   - concepts/npm-supply-chain-defense.md
   - entities/tools/betterleaks.md
   - entities/tools/openvpn-install.md
+  - entities/tools/vpn-self-hosted.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-17
@@ -35,3 +36,4 @@ Process of reducing a system's attack surface by removing unnecessary services, 
 - @concepts/npm-supply-chain-defense.md — dependency-pinning + release-age cooldown as build-toolchain hardening
 - @entities/tools/betterleaks.md — CEL+BPE secrets scanner — pre-IP-sale codebase audit / credential-exposure hardening
 - @entities/tools/openvpn-install.md — hardened OpenVPN deployment automation; secure-defaults server config reference
+- @entities/tools/vpn-self-hosted.md — VPN tool hub; hardened VPN configs as system-hardening reference pattern

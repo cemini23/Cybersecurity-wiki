@@ -6,6 +6,7 @@ keywords: [openvpn-install, angristan, openvpn, bash-script, nat-detection, dual
 related:
   - concepts/network-security.md
   - concepts/system-hardening.md
+  - entities/tools/vpn-self-hosted.md
   - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
 maturity: draft
 created: 2026-05-17
@@ -17,6 +18,7 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05
 
 - @concepts/network-security.md — VPN deployment, NAT detection, and IPv6 routing are network-layer infrastructure topics
 - @concepts/system-hardening.md — the script's secure-defaults OpenVPN config is a hardening reference
+- @entities/tools/vpn-self-hosted.md — VPN tool hub page cataloging all VPN/tunnel tools across the Cemini wiki ecosystem
 - @osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md — cross-routing source (OSINT 56-repo tool eval)
 
 ## Raw Concept
