@@ -62,6 +62,7 @@ updated: 2026-05-17
 - @concepts/threat-intelligence.md
 - @concepts/phishing-investigation.md
 - @entities/people/mostafa-yahia.md
+- @entities/tools/gopacket.md — Go packet-decoding library; decoded packet metadata as a network-hunt substrate
 
 ## Raw Concept
 

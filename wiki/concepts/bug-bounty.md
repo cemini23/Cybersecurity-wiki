@@ -21,9 +21,11 @@ related:
   - entities/tools/bug-bounty-agents.md
   - entities/tools/cariddi.md
   - entities/tools/osmedeus.md
+  - entities/tools/gau.md
+  - entities/tools/katana.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -45,6 +47,8 @@ updated: 2026-05-16
 - @entities/tools/bug-bounty-agents.md — 43-persona offensive-security agent library for bug-bounty workflows
 - @entities/tools/cariddi.md — domain crawler hunting exposed secrets, API keys, and sensitive endpoints
 - @entities/tools/osmedeus.md — orchestration engine; declarative YAML workflows automate the recon pipeline bug-bounty hunters rebuild per target
+- @entities/tools/gau.md — passive known-URL discovery (Wayback / OTX / Common Crawl); front of the recon pipeline
+- @entities/tools/katana.md — active web crawler with headless mode; expands the testable attack surface in SPA targets
 
 ## Raw Concept
 

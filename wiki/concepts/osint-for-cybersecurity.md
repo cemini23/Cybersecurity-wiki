@@ -27,6 +27,7 @@ related:
   - "@osint-wiki/entities/tools/socid-extractor.md"
   - sources/50-free-online-tools-soc-analysts.md
   - concepts/threat-intelligence.md
+  - entities/tools/gau.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17
@@ -58,6 +59,7 @@ updated: 2026-05-17
 - @osint-wiki/entities/tools/socid-extractor.md — cross-wiki: cross-platform social-account identifier-extraction tool used in threat-actor correlation
 - @sources/50-free-online-tools-soc-analysts.md
 - @concepts/threat-intelligence.md
+- @entities/tools/gau.md — multi-provider known-URL harvester (OTX / Wayback / Common Crawl); open-data attack-surface OSINT
 
 ## Raw Concept
 

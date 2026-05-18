@@ -139,6 +139,10 @@
 | @entities/tools/splunk.md | draft | Commercial SIEM / log analytics (SPL) |
 | @entities/tools/qradar.md | draft | IBM commercial SIEM (offense correlation) |
 | @entities/tools/sysmon.md | draft | Microsoft Sysinternals — high-fidelity Windows event log (process/network/registry/WMI) |
+| @entities/tools/gau.md | draft | Multi-provider known-URL discovery — OTX / Wayback / Common Crawl (MIT, Go; Adopt) |
+| @entities/tools/katana.md | draft | Scriptable web crawler with headless-browser mode (MIT, Go; ProjectDiscovery; Adopt) |
+| @entities/tools/gopacket.md | draft | Go packet-decoding library for network analysis (Apache-2.0, Mandiant; Steal-from) |
+| @entities/tools/openvpn-install.md | draft | Bash OpenVPN deployment automation — NAT / IPv6-routing logic (Unlicense; Steal-from) |
 
 ### Vendors
 

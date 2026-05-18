@@ -12,9 +12,10 @@ related:
   - entities/tools/ducky.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
   - entities/tools/osmedeus.md
+  - entities/tools/gopacket.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -27,6 +28,7 @@ updated: 2026-05-16
 - @entities/tools/ducky.md — GUI scanner; nmap remains canonical for scan scripting
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 - @entities/tools/osmedeus.md — orchestration engine that integrates nmap as one of its 80+ security utility functions
+- @entities/tools/gopacket.md — sibling network tooling one layer down: raw packet decoding vs nmap's host/port scanning
 
 ## Raw Concept
 

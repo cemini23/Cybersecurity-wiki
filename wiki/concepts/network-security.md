@@ -43,9 +43,11 @@ related:
   - sources/top-50-cybersecurity-interview-questions.md
   - sources/encryption-and-hashing.md
   - sources/networking-essentials-for-cybersecurity.md
+  - entities/tools/gopacket.md
+  - entities/tools/openvpn-install.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -91,6 +93,9 @@ updated: 2026-05-16
 - @sources/top-50-cybersecurity-interview-questions.md
 - @sources/encryption-and-hashing.md
 - @sources/networking-essentials-for-cybersecurity.md
+- @entities/tools/gopacket.md — Go packet-decoding library for network-layer analysis (Mandiant, Apache-2.0)
+- @entities/tools/openvpn-install.md — Bash OpenVPN deployment automation; refined NAT detection + IPv6-routing handling
+
 ## Raw Concept
 
 Eight corpus PDFs anchor.

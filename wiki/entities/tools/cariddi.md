@@ -8,10 +8,12 @@ related:
   - concepts/bug-bounty.md
   - concepts/web-pentest-methodology.md
   - entities/tools/openalternative.md
+  - entities/tools/katana.md
+  - entities/tools/gau.md
   - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-05-17
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -20,6 +22,8 @@ cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v
 - @concepts/bug-bounty.md — domain crawling for secret / endpoint discovery is a core bug-bounty recon activity
 - @concepts/web-pentest-methodology.md — endpoint + parameter discovery feeds web-app testing
 - @entities/tools/openalternative.md — OSS-directory for sourcing the MIT/Apache alternatives (katana, trufflehog, gospider) recommended over GPL-3.0 cariddi
+- @entities/tools/katana.md — MIT crawler that fills cariddi's headless-browser (G5) gap; recommended adoption path
+- @entities/tools/gau.md — MIT passive known-URL discovery; complements cariddi's active crawl-and-scan
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

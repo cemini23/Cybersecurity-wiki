@@ -8,11 +8,12 @@ related:
   - concepts/bug-bounty.md
   - concepts/web-pentest-methodology.md
   - entities/tools/nmap.md
+  - entities/tools/katana.md
   - "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
   - "@ccc-wiki/entities/tools/osmedeus-acp-orchestration.md"
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 phase_0_verdict: "GO 2026-05-16 — MIT verified (LICENSE file is the full MIT text, Copyright 2020 j3ssie), Go dependency surface permissive (no GPL/AGPL in go.mod direct deps), mature (6,314 stars, 8yr-old project, active multi-contributor commits through 2026-05-12). Cloud runaway-compute concern RESOLVED: --auto-destroy, `cloud destroy all --force`, and max_hourly_spend / max_total_spend cost limits are first-class documented features."
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 ---
@@ -25,6 +26,7 @@ cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-
 - @concepts/bug-bounty.md — declarative YAML workflows automate the recon pipeline bug-bounty hunters rebuild per target
 - @concepts/web-pentest-methodology.md — scales web-attack-surface enumeration across hosts
 - @entities/tools/nmap.md — Osmedeus integrates nmap as one of its 80+ security utility functions
+- @entities/tools/katana.md — a crawler that can be wrapped into Osmedeus recon workflows for endpoint discovery
 - @osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md — cross-wiki source: OSINT tool-eval doc that routed this page (Adopt tier, cybersec primary fit)
 - @ccc-wiki/entities/tools/osmedeus-acp-orchestration.md — cross-wiki: Osmedeus's ACP subprocess-agent orchestration as a CCC conductor pattern
 
