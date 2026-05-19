@@ -9,10 +9,11 @@ related:
   - sources/python-for-hackers-bootcamp.md
   - sources/python-for-hackers-pt-1.md
   - sources/python-libs-for-security-pt-1.md
+  - sources/python-ethical-hacking-masterclass.md
   - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-19
 ---
 
 ## Relations
@@ -22,6 +23,7 @@ updated: 2026-05-12
 - @sources/python-for-hackers-bootcamp.md
 - @sources/python-for-hackers-pt-1.md
 - @sources/python-libs-for-security-pt-1.md
+- @sources/python-ethical-hacking-masterclass.md — video course teaching Python from scratch alongside the offensive workflow
 - @entities/people/joas-a-santos.md
 
 ## Raw Concept

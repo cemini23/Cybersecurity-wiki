@@ -7,9 +7,10 @@ related:
   - concepts/osint-for-cybersecurity.md
   - sources/the-onion-router-overview-pt-1.md
   - entities/people/joas-a-santos.md
+  - sources/python-ethical-hacking-masterclass.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-19
 ---
 
 ## Relations
@@ -17,6 +18,7 @@ updated: 2026-05-12
 - @concepts/osint-for-cybersecurity.md
 - @sources/the-onion-router-overview-pt-1.md
 - @entities/people/joas-a-santos.md
+- @sources/python-ethical-hacking-masterclass.md — video course; section 14 covers anonymity tactics
 
 ## Raw Concept
 

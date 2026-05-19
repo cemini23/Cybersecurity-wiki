@@ -198,12 +198,12 @@
 
 ## Sources
 
-275 source pages live in `sources/`:
+276 source pages live in `sources/`:
 
 - **226** from the Joas A Santos seed corpus (shared Drive folder `ebooks Joas`)
 - **22** from the Redteam Kit shared Drive folder (English-language security books + field manuals)
 - **26** from the BlueTeam Kit shared Drive folder (SOC / blue-team PDFs — SIEM, threat hunting, IR, EDR)
-- **1** Kali Linux 2023 video course (50-chapter `.mp4` set, catalogued as a single page)
+- **2** video courses (Kali Linux 2023 50-chapter set; Python Ethical Hacking MASTERCLASS 19-section set) — `.mp4` only, each catalogued as a single page
 
 Source pages are not individually catalogued here; each entity and concept page lists the sources that synthesize into it under `related:`. Browse `sources/` directly for provenance lookups.
 

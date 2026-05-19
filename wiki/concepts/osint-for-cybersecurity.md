@@ -28,9 +28,10 @@ related:
   - sources/50-free-online-tools-soc-analysts.md
   - concepts/threat-intelligence.md
   - entities/tools/gau.md
+  - sources/python-ethical-hacking-masterclass.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-05-19
 ---
 
 ## Relations
@@ -60,6 +61,7 @@ updated: 2026-05-17
 - @sources/50-free-online-tools-soc-analysts.md
 - @concepts/threat-intelligence.md
 - @entities/tools/gau.md — multi-provider known-URL harvester (OTX / Wayback / Common Crawl); open-data attack-surface OSINT
+- @sources/python-ethical-hacking-masterclass.md — video course; section 15 covers information-gathering tools
 
 ## Raw Concept
 
