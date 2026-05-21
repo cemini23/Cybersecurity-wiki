@@ -14,6 +14,7 @@ related:
   - entities/tools/osmedeus.md
   - entities/tools/gopacket.md
   - sources/python-ethical-hacking-masterclass.md
+  - entities/tools/reconftw.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-19

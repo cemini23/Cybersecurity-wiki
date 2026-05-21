@@ -12,6 +12,7 @@ related:
   - sources/buffer-overflow-guide-1.md
   - sources/buffer-overflow-for-beginners-joas.md
   - sources/introducao-ao-buffer-overflow-1.md
+  - entities/tools/deepzero.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15

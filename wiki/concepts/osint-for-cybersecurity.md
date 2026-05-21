@@ -29,6 +29,7 @@ related:
   - concepts/threat-intelligence.md
   - entities/tools/gau.md
   - sources/python-ethical-hacking-masterclass.md
+  - entities/tools/reconftw.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-19

@@ -74,6 +74,7 @@ related:
   - entities/decepticon.md
   - entities/tools/red-run.md
   - entities/tools/osmedeus.md
+  - entities/tools/offensive-claude.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-16

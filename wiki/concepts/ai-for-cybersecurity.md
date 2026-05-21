@@ -17,6 +17,11 @@ related:
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/llm-pentest-automation.md
+  - entities/tools/defenseclaw.md
+  - entities/tools/raptor.md
+  - entities/tools/src-hunter-skill.md
+  - entities/tools/evilsocket-audit.md
+  - entities/tools/offensive-claude.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-13

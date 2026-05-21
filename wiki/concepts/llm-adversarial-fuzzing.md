@@ -12,6 +12,7 @@ related:
   - concepts/red-team-operations.md
   - concepts/responsible-disclosure.md
   - concepts/llm-pentest-automation.md
+  - entities/tools/defenseclaw.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13

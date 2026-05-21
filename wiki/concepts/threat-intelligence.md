@@ -21,6 +21,7 @@ related:
   - concepts/phishing-investigation.md
   - entities/people/mostafa-yahia.md
   - entities/tools/splunk.md
+  - entities/tools/bluehood.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-05-17

@@ -8,6 +8,7 @@ related:
   - concepts/network-security.md
   - concepts/zero-trust.md
   - concepts/system-hardening.md
+  - entities/tools/super-spr.md
 maturity: draft
 hub: true
 created: 2026-05-17

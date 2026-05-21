@@ -18,6 +18,9 @@ related:
   - entities/certifications/oswe.md
   - entities/tools/pentest-ai-agents.md
   - concepts/llm-pentest-automation.md
+  - entities/tools/raptor.md
+  - entities/tools/src-hunter-skill.md
+  - entities/tools/reconftw.md
   - entities/tools/bug-bounty-agents.md
   - entities/tools/cariddi.md
   - entities/tools/osmedeus.md

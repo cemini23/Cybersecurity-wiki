@@ -13,6 +13,7 @@ related:
   - sources/penetration-testing-with-kali-linux.md
   - sources/kali-for-2023-video-course.md
   - sources/python-ethical-hacking-masterclass.md
+  - entities/tools/offensive-claude.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-19

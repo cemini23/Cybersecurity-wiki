@@ -46,6 +46,8 @@ related:
   - entities/tools/gopacket.md
   - entities/tools/openvpn-install.md
   - entities/tools/vpn-self-hosted.md
+  - entities/tools/bluehood.md
+  - entities/tools/super-spr.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17

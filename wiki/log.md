@@ -306,3 +306,28 @@ User dropped a Google Drive folder link with no instructions; established patter
 - **Backlinks** (bidirectional invariant held): added `sources/python-ethical-hacking-masterclass.md` ↔ `entities/programming-languages/python.md`, `entities/tools/kali-linux.md`, `entities/tools/nmap.md`, `entities/tools/metasploit.md`, `concepts/osint-for-cybersecurity.md`, `concepts/anonymity-networks.md`. 6 pages patched (frontmatter `related:` + body `## Relations`), `updated:` bumped to 2026-05-19 on each.
 - **Index updated**: Sources count 275 → 276; the video-course line now reads "**2** video courses" (Kali Linux 2023 + Python Ethical Hacking MASTERCLASS).
 - No raw source moved — Drive-only, consistent with the four-folder corpus storage decision.
+
+## [2026-05-21] ingest | Cross-wiki brief triage — 15 briefs inventoried, 11 entity stubs + 31 index entries created
+
+All 15 briefs in `briefs/` triaged: 5 already-ingested (content previously folded into wiki during K42 Phase-1 adoption) + 10 unprocessed cross-wiki routing briefs from OSINT wiki tool evaluations.
+
+**11 new entity stub pages** (Adopt/Steal-from tier):
+- `entities/tools/defenseclaw.md` — Cisco AI Defense (Apache-2.0, 654 stars)
+- `entities/tools/deepzero.md` — Windows kernel-driver vuln research (MIT, 425 stars)
+- `entities/tools/grex.md` — Regex generation for SOC/IR (Apache-2.0, ~8,129 stars)
+- `entities/tools/vanguard.md` — Single-binary DFIR toolkit (MIT, ~118 stars)
+- `entities/tools/raptor.md` — Claude Code offensive/defensive agent (Steal-from)
+- `entities/tools/src-hunter-skill.md` — Claude Code bug-bounty skill (MIT, 305 payloads)
+- `entities/tools/bluehood.md` — Bluetooth telemetry monitoring (MIT, 977 stars)
+- `entities/tools/super-spr.md` — Zero-trust networking (BSD-3-Clause, 565 stars)
+- `entities/tools/reconftw.md` — Apex recon automation (MIT, 7.5k+ stars)
+- `entities/tools/evilsocket-audit.md` — 8-stage vuln-discovery agent, Glasswing pattern (MIT, 388 stars)
+- `entities/tools/offensive-claude.md` — Claude Code offensive workstation, 25 skill modules
+
+**~31 index-only catalog entries** (Steal-from/Defer/Reference tier) added to `wiki/index.md` under new "Cross-wiki routed tool evaluations" subsection, covering K42 (9 items), K15 (2), K53 (2), K51 (5), K54 (6), K55 (3), K56 (2).
+
+**~18 Reject-tier items** dropped (not catalogued).
+
+**Bidirectional invariant**: 18 existing concept/tool pages received backlinks for new entity stubs. Lint verified: 0 orphans, 0 bidirectional gaps across 422 pages.
+
+**All 15 briefs** marked `processed: 2026-05-21`.

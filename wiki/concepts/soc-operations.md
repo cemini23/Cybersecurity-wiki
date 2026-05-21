@@ -58,6 +58,8 @@ related:
   - entities/people/mostafa-yahia.md
   - entities/people/rajneesh-gupta.md
   - entities/people/ashish-m-kothekar.md
+  - entities/tools/grex.md
+  - entities/tools/vanguard.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-17

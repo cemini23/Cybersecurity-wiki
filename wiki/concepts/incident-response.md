@@ -18,6 +18,8 @@ related:
   - concepts/agent-vm-sandboxing.md
   - sources/2025-cybersecurity-attacks-playbooks.md
   - concepts/defense-in-depth.md
+  - entities/tools/grex.md
+  - entities/tools/vanguard.md
   - concepts/linux-security.md
   - concepts/endpoint-detection-response.md
   - sources/blue-team-handbook.md

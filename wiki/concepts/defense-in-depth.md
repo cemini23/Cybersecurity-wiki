@@ -13,6 +13,7 @@ related:
   - entities/tools/supavec.md
   - sources/cybersecurity-blue-team-strategies.md
   - sources/encryption-and-hashing.md
+  - entities/tools/super-spr.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-16

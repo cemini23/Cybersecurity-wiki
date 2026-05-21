@@ -144,6 +144,17 @@
 | @entities/tools/gopacket.md | draft | Go packet-decoding library for network analysis (Apache-2.0, Mandiant; Steal-from) |
 | @entities/tools/openvpn-install.md | draft | Bash OpenVPN deployment automation — NAT / IPv6-routing logic (Unlicense; Steal-from) |
 | @entities/tools/vpn-self-hosted.md | draft | VPN hub page — WireGuard, OpenVPN, wg-easy, PiVPN, Tailscale catalog + decision matrix |
+| @entities/tools/defenseclaw.md | draft | Enterprise AI security governance — capability scanning + runtime inspection (Cisco, Apache-2.0) |
+| @entities/tools/deepzero.md | draft | Windows kernel-driver vuln research pipeline — PE→Ghidra→Semgrep→LLM (MIT) |
+| @entities/tools/grex.md | draft | Regex generation from test cases — SOC/IR log parsing (Apache-2.0) |
+| @entities/tools/vanguard.md | draft | Single-binary DFIR toolkit — Velociraptor+Volatility+KAPE+YARA, 28 MITRE-mapped (MIT) |
+| @entities/tools/raptor.md | draft | Claude Code offensive/defensive agent — Semgrep+CodeQL (Steal-from, no license) |
+| @entities/tools/src-hunter-skill.md | draft | Claude Code bug-bounty/pentest skill — 305 payloads, 19 playbooks, 263 WAF bypasses (MIT) |
+| @entities/tools/bluehood.md | draft | Bluetooth telemetry monitoring — BLE MAC correlation (MIT, Steal-from) |
+| @entities/tools/super-spr.md | draft | Zero-trust networking — per-device DNS, VLAN segregation in Go (BSD-3-Clause) |
+| @entities/tools/reconftw.md | draft | Apex recon automation — subdomain+web+vulns+osint+Axiom fleet distribution (MIT, 7.5k stars) |
+| @entities/tools/evilsocket-audit.md | draft | 8-stage vuln-discovery agent — Glasswing pattern, reachability gating (MIT) |
+| @entities/tools/offensive-claude.md | draft | Offensive-security Claude Code workstation — 25 skill modules, 8 classifications |
 
 ### Vendors
 
@@ -195,6 +206,43 @@
 - [T-Pot — Multi-Honeypot Deception Framework](entities/tpotce.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Decepticon — Autonomous Red-Team Multi-Agent Framework](entities/decepticon.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Claude-Red — Offensive Security Skills Library for Claude Code](entities/claude-red-offensive-skills.md) — cross-wiki stub routed from ingest — `cross-wiki`
+
+### Cross-wiki routed tool evaluations (index-only, no entity pages)
+
+These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect the eval tier at routing time. Re-verify license + maturity before adopting.
+
+| Tool | License | Tier | Brief | Note |
+|------|---------|------|-------|------|
+| YellowKey | MIT | Steal-from | K42 | Exploit PoC harness — methodology reference |
+| GreenPlasma | MIT | Steal-from | K42 | Exploit PoC harness — methodology reference |
+| witr | — | Steal-from | K42 | Webhook + telemetry replay harness |
+| autoharness | — | Steal-from | K42 | Fuzz-harness auto-generation pattern reference |
+| cypht | — | Steal-from | K42 | Secure webmail — IR inbox isolation reference |
+| awesome-codex-subagents | — | Reference | K42 | Curated subagent prompt list |
+| claude-code-telegram | — | Steal-from | K42 | Sandbox-hardening pattern for chatops |
+| frona | BSL-1.1 | Reject (until 2029) | K42 | Policy-driven syscall filtering — methodology reference only |
+| Threat-Intel SaaS cluster (9) | closed-source | Reject | K42 | Shodan/FullHunt/ONYPHE/SOCRadar/Pulsedive/IntelX/Hunter.io/PublicWWW/Coalitioninc — batch-rejected |
+| Claude Code Agent Farm | MIT | Steal-from | K15 | Parallel tmux orchestration — lock-based concurrency + heartbeat for network enumeration |
+| MyIP DNS Leak Detection | MIT | Steal-from | K15 | WebRTC STUN leak detection, DNS exit endpoint identification — VPN/tunnel validation |
+| fingerprint-suite | Apache-2.0 | Cross-ref | K15 | Browser fingerprint generation/injection — primary fit osint-wiki. Red-team browser evasion reference |
+| netviz | MIT | Steal-from | K53 | Browser-based network-architecture visualizer (D3.js + Socket.IO) — strip for parts |
+| iOS-pentest-list | — | Reference | K53 | Curated Markdown list of iOS pentest tools |
+| opendrop | TBD | Defer | K51 | Reverse-engineered Apple AirDrop (Python, 9.6k stars, SEEMOO lab) — license audit pending |
+| Shells-X | TBD | Defer | K51 | Modular single-file PHP web-shell framework — license audit pending |
+| AgentGym-RL | TBD | Defer | K51 | RL framework for LLM agent training — academic, license unverified |
+| Grafana-Final-Scanner | TBD | Defer | K51 | Multi-source Grafana version fingerprinting + CVE checking — license unverified |
+| fd | MIT+Apache-2.0 | Adopt-eligible | K51 | Rust `find` replacement, 43k stars — eval wrongly rejected; license verified clean |
+| TruffleHog | AGPL-3.0 | Reject (copyleft) | K54 | Credential scanner, 26k stars — reference-only due to AGPL poison pill |
+| gitGraber | GPL-3.0 | Reject (copyleft) | K54 | Real-time GitHub credential-leak monitor — reference-only |
+| H4X-Tools | GPL-3.0 | Reject (copyleft) | K54/K55 | OSINT/recon/scraping toolkit — reference-only |
+| VulnWeb directory | — | Reference | K54 | Directory of OWASP initiatives (GenAI Security, AI Exchange, CycloneDX) |
+| Hackers-Arise MCP log | — | Reference | K54 | Educational blueprint for AI-assisted blue-team / MCP server boundary patterns |
+| Windows-Use | MIT | Reference | K54 | GUI-level Windows automation agent — lateral-movement logic reference (primary fit: CCC wiki) |
+| tugarecon | GPL-3.0 | Steal-from | K55 | Subdomain recon + Temporal Intelligence & Asset Memory module — impact-scoring algorithm extractable |
+| hackingtool-plugin | NO LICENSE | Defer | K55 | 183 pentest+OSINT utilities integrated into Claude Code via C#/Docker — license+maturity recheck |
+| osint_stuff_tool_collection | NO LICENSE | Reference | K55 | 7,875-star markdown index of OSINT tools — threat-actor-profiling subset |
+| jhalon/reverse-engineering-protocols | — | Reference | K56 | Instructional curriculum on dissecting undocumented network protocols |
+| LLM4Pentest catalog | — | Reference | K56 | Curated catalog of academic papers + benchmarks for LLM-driven pentest |
 
 ## Sources
 

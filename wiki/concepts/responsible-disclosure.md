@@ -15,6 +15,7 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
+  - entities/tools/defenseclaw.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-13

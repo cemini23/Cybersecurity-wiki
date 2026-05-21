@@ -10,6 +10,7 @@ related:
   - entities/people/joas-a-santos.md
   - sources/open-source-soc-guide.md
   - entities/tools/vpn-self-hosted.md
+  - entities/tools/super-spr.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17
