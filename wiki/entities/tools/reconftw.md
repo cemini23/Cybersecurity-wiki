@@ -8,9 +8,10 @@ related:
   - concepts/osint-for-cybersecurity.md
   - concepts/bug-bounty.md
   - entities/tools/nmap.md
+  - entities/tools/cf-hero.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-22
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 
@@ -22,6 +23,7 @@ cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-
 - @concepts/osint-for-cybersecurity.md — OSINT correlation + breach data integration
 - @concepts/bug-bounty.md — automated target scoping and enumeration
 - @entities/tools/nmap.md — complements manual scanning with automated fleet distribution
+- @entities/tools/cf-hero.md — CDN origin-IP unmasking slice (orthogonal to subdomain modules)
 
 ## Raw Concept
 

@@ -10,7 +10,7 @@ related:
   - "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-22
 phase_0_verdict: "GO 2026-05-16 — Apache-2.0 verified (LICENSE file is the full Apache-2.0 text), all declared deps permissive (FastMCP Apache-2.0 / Javalin Apache-2.0 / httpx BSD-3 / SLF4J MIT; no GPL bundling, no .jar files in repo), actively maintained (last commit 2026-04-20, multi-contributor), Mseep.ai badge confirmed real in README."
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 ---
@@ -31,6 +31,8 @@ Cross-routed from the OSINT workspace tool-evaluation ingest (2026-05-16). The e
 ## Narrative
 
 **jadx-mcp-server** is a Model Context Protocol server that exposes the **JADX** Android decompiler to LLM agents (Claude Code, etc.), bridging Python's FastMCP with Java's Javalin web framework. It moves Android reverse engineering from a human-driven, click-through workflow toward an automated, agent-queryable one.
+
+**Sibling project**: `zinja-coder/jadx-ai-mcp` (Apache-2.0 per `gh api`, 2026-05-22) is the same author's alternate JADX↔LLM MCP integration surfaced in K55-2; evaluate separately if consolidating coverage — this page remains the primary cybersec-wiki anchor from the 2026-05-16 OSINT eval.
 
 - **License**: Apache-2.0 — permissive, clean for enterprise/security-workstation use.
 - **Stack**: Python / Java / FastMCP / Javalin.

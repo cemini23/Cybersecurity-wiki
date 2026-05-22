@@ -155,6 +155,7 @@
 | @entities/tools/reconftw.md | draft | Apex recon automation — subdomain+web+vulns+osint+Axiom fleet distribution (MIT, 7.5k stars) |
 | @entities/tools/evilsocket-audit.md | draft | 8-stage vuln-discovery agent — Glasswing pattern, reachability gating (MIT) |
 | @entities/tools/offensive-claude.md | draft | Offensive-security Claude Code workstation — 25 skill modules, 8 classifications |
+| @entities/tools/cf-hero.md | draft | Cloudflare origin-IP discovery via DNS + Shodan hashing (Go, ~2.4k stars) — Defer pending LICENSE audit |
 
 ### Vendors
 
@@ -242,7 +243,15 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | hackingtool-plugin | NO LICENSE | Defer | K55 | 183 pentest+OSINT utilities integrated into Claude Code via C#/Docker — license+maturity recheck |
 | osint_stuff_tool_collection | NO LICENSE | Reference | K55 | 7,875-star markdown index of OSINT tools — threat-actor-profiling subset |
 | jhalon/reverse-engineering-protocols | — | Reference | K56 | Instructional curriculum on dissecting undocumented network protocols |
-| LLM4Pentest catalog | — | Reference | K56 | Curated catalog of academic papers + benchmarks for LLM-driven pentest |
+| LLM4Pentest catalog | — | Defer | K56, K55-2 | `simon-p-j-r/LLM4Pentest` — academic LLM-pentest survey; gh api NO LICENSE (2026-05-22) |
+| Awesome-Hacking | CC0-1.0 | Reference | K55-2 | Aggregate awesome-list — gh-api cleared NO LICENSE false negative |
+| open-source-web-scanners | Apache-2.0 | Reference | K55-2 | ZAP-lead-dev curated web-scanner index (also K57 reject as aggregate — license verified) |
+| CF-Hero | — | Defer | K55-2 | @entities/tools/cf-hero.md — Cloudflare origin-IP unmasking |
+| jadx-ai-mcp | Apache-2.0 | Cross-ref | K55-2 | Sibling to @entities/tools/jadx-mcp-server.md (`zinja-coder`, same MCP family) |
+| Galaxy-Bugbounty-Checklist | — | Reject | K57 | NO LICENSE FOUND — methodology reference only |
+| BugBounty-Recon-Methodology | — | Reject | K57 | Verify license before any adoption |
+| sqlmap | NOASSERTION | Reject | K57 | Confirm AGPL/GPL before use — already cited in methodology pages, no entity |
+| NoSQLMap | GPL-3.0 | Reject (copyleft) | K57 | Reference-only — same copyleft posture as gitGraber/H4X-Tools |
 
 ## Sources
 

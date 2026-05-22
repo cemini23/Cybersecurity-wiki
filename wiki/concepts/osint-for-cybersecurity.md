@@ -30,9 +30,10 @@ related:
   - entities/tools/gau.md
   - sources/python-ethical-hacking-masterclass.md
   - entities/tools/reconftw.md
+  - entities/tools/cf-hero.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-19
+updated: 2026-05-22
 ---
 
 ## Relations

@@ -331,3 +331,16 @@ All 15 briefs in `briefs/` triaged: 5 already-ingested (content previously folde
 **Bidirectional invariant**: 18 existing concept/tool pages received backlinks for new entity stubs. Lint verified: 0 orphans, 0 bidirectional gaps across 422 pages.
 
 **All 15 briefs** marked `processed: 2026-05-21`.
+
+## [2026-05-22] ingest | Cross-wiki brief triage — K55-2 + K57 (2 new briefs)
+
+**K55-2** (`briefs/2026-05-21_k55-2-cybersec-toolset-from-osint-tool-eval.md`): Ran `gh api` license verification on 6 primary-fit entries. Results: `Awesome-Hacking` CC0-1.0, `open-source-web-scanners` Apache-2.0, `jadx-ai-mcp` Apache-2.0, `reconftw` MIT (already `@entities/tools/reconftw.md`), `CF-Hero` and `LLM4Pentest` still no SPDX license.
+
+- **NEW** `@entities/tools/cf-hero.md` (draft, Defer) — Cloudflare origin-IP discovery stub; adoption gated on manual LICENSE audit
+- **Updated** `@entities/tools/jadx-mcp-server.md` — K55-2 sibling note for `jadx-ai-mcp`
+- **Index**: 5 K55-2 rows in cross-wiki eval table; `cf-hero` row in main Tools table; `LLM4Pentest` tier bumped Reference → Defer with K55-2 cross-ref
+- **Backlinks**: `cf-hero` ↔ `web-pentest-methodology`, `osint-for-cybersecurity`, `reconftw`
+
+**K57** (`briefs/2026-05-22_k57-cybersec-tool-eval-rejects-from-osint.md`): Reject-tier methodology reference only — no entity stubs. **4 index rows** added (Galaxy-Bugbounty-Checklist, BugBounty-Recon-Methodology, sqlmap, NoSQLMap). `open-source-web-scanners` already indexed from K55-2 with verified Apache-2.0.
+
+Both briefs marked `processed: 2026-05-22`.
