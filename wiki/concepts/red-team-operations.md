@@ -60,6 +60,7 @@ related:
   - entities/tools/fuzzyai.md
   - entities/tools/pentest-ai-agents.md
   - entities/tools/pentest-ai.md
+  - entities/tools/nidhogg.md
   - concepts/agent-vm-sandboxing.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
@@ -139,6 +140,7 @@ updated: 2026-05-16
 - @entities/tools/fuzzyai.md
 - @entities/tools/pentest-ai-agents.md
 - @entities/tools/pentest-ai.md
+- @entities/tools/nidhogg.md — kernel rootkit tradecraft reference (GPL-3.0; Mythic C# API cited in K63)
 - @concepts/agent-vm-sandboxing.md
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/llm-pentest-automation.md

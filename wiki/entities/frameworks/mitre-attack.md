@@ -31,9 +31,10 @@ related:
   - sources/open-source-soc-guide.md
   - entities/tools/splunk.md
   - sources/100-splunk-queries-soc-analyst.md
+  - entities/tools/nidhogg.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -67,6 +68,7 @@ updated: 2026-05-17
 - @sources/open-source-soc-guide.md
 - @entities/tools/splunk.md
 - @sources/100-splunk-queries-soc-analyst.md
+- @entities/tools/nidhogg.md — T1014 rootkit / DKOM tradecraft reference (GPL-3.0; defensive mapping)
 
 ## Raw Concept
 

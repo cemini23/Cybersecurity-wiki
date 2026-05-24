@@ -17,9 +17,10 @@ related:
   - entities/tools/qradar.md
   - sources/next-gen-soc-ibm-qradar.md
   - entities/tools/vanguard.md
+  - entities/tools/nidhogg.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-17
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -36,6 +37,7 @@ updated: 2026-05-17
 - @entities/tools/splunk.md
 - @entities/tools/qradar.md
 - @sources/next-gen-soc-ibm-qradar.md
+- @entities/tools/nidhogg.md — kernel DKOM / process-hiding patterns for detection-gap analysis
 
 ## Raw Concept
 

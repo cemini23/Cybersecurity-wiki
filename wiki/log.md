@@ -357,3 +357,13 @@ Both briefs marked `processed: 2026-05-22`.
 No entity stubs for KaliGPT (commercial NC), h4cker (reference catalog), or NVISO catalog (no SPDX).
 
 Brief marked `processed: 2026-05-23`.
+
+## [2026-05-24] ingest | Cross-wiki brief triage — K63 Nidhogg (1 new brief)
+
+**K63** (`briefs/2026-05-24_k63-cybersec-nidhogg-from-osint.md`): `Idov31/Nidhogg` — GPL-3.0 Windows kernel rootkit (~2.4k★). Steal-from tier: DKOM / `ActiveProcessLinks` process-hiding tradecraft for blue-team MITRE mapping; **no binary import**.
+
+- **NEW** `@entities/tools/nidhogg.md` (draft, Steal-from) — defensive tradecraft table + T1014/T1562 anchors; GPL deployment boundary documented
+- **Index**: K63 row in cross-wiki eval table + main Tools table row
+- **Backlinks**: `nidhogg` ↔ `av-edr-bypass`, `endpoint-detection-response`, `malware-analysis`, `privilege-escalation`, `red-team-operations`, `mitre-attack`
+
+Brief marked `processed: 2026-05-24`.

@@ -22,9 +22,10 @@ related:
   - entities/tools/cua.md
   - concepts/agent-vm-sandboxing.md
   - concepts/endpoint-detection-response.md
+  - entities/tools/nidhogg.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -47,6 +48,7 @@ updated: 2026-05-16
 - @entities/tools/cua.md
 - @concepts/agent-vm-sandboxing.md
 - @concepts/endpoint-detection-response.md
+- @entities/tools/nidhogg.md — kernel rootkit DKOM reference (GPL-3.0; defensive mapping only)
 
 ## Raw Concept
 

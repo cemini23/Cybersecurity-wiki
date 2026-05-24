@@ -16,9 +16,10 @@ related:
   - concepts/buffer-overflow.md
   - concepts/credential-access.md
   - concepts/linux-pentest.md
+  - entities/tools/nidhogg.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -31,6 +32,7 @@ updated: 2026-05-15
 - @sources/introducao-a-pos-exploracao.md
 - @entities/people/joas-a-santos.md
 - @entities/certifications/oscp.md
+- @entities/tools/nidhogg.md — post-privesc concealment via kernel rootkit patterns (reference only)
 
 - @sources/window-privilege-escalation-automated-script.md
 - @concepts/buffer-overflow.md
