@@ -10,6 +10,7 @@ related:
   - sources/dicas-como-reportar-uma-falha.md
   - sources/how-to-report-a-vulnerability-and-generate-its-cve.md
   - entities/tools/pentest-ai-agents.md
+  - entities/tools/pentest-ai.md
   - entities/tools/pydns-scanner.md
   - entities/tools/fuzzyai.md
   - concepts/llm-adversarial-fuzzing.md
@@ -29,6 +30,7 @@ updated: 2026-05-13
 - @sources/dicas-como-reportar-uma-falha.md
 - @sources/how-to-report-a-vulnerability-and-generate-its-cve.md
 - @entities/tools/pentest-ai-agents.md
+- @entities/tools/pentest-ai.md
 - @entities/tools/pydns-scanner.md
 - @entities/tools/fuzzyai.md
 - @concepts/llm-adversarial-fuzzing.md

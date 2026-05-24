@@ -344,3 +344,16 @@ All 15 briefs in `briefs/` triaged: 5 already-ingested (content previously folde
 **K57** (`briefs/2026-05-22_k57-cybersec-tool-eval-rejects-from-osint.md`): Reject-tier methodology reference only — no entity stubs. **4 index rows** added (Galaxy-Bugbounty-Checklist, BugBounty-Recon-Methodology, sqlmap, NoSQLMap). `open-source-web-scanners` already indexed from K55-2 with verified Apache-2.0.
 
 Both briefs marked `processed: 2026-05-22`.
+
+## [2026-05-23] ingest | Cross-wiki brief triage — K60 (1 new brief)
+
+**K60** (`briefs/2026-05-23_k60-cybersec-tool-eval-from-osint.md`): 20-URL OSINT eval; four cybersec-routed items.
+
+- **NEW** `@entities/tools/pentest-ai.md` (draft, CONDITIONAL-GO Phase-0) — `0xSteph/pentest-ai` MCP + `ptai` CLI; MIT verified; distinct from validated `pentest-ai-agents`
+- **Updated** `@entities/tools/pentest-ai-agents.md` — sibling cross-link; removed stale "out of scope" wording
+- **Index**: 4 K60 rows (KaliGPT Reject/NC, h4cker Reference, pentest-ai entity, NVISO catalog Defer) + main Tools table row for `pentest-ai`
+- **Backlinks**: `pentest-ai` ↔ `llm-pentest-automation`, `ai-for-cybersecurity`, `pentest-ai-agents`
+
+No entity stubs for KaliGPT (commercial NC), h4cker (reference catalog), or NVISO catalog (no SPDX).
+
+Brief marked `processed: 2026-05-23`.

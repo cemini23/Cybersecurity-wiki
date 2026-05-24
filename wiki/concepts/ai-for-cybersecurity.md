@@ -22,9 +22,10 @@ related:
   - entities/tools/src-hunter-skill.md
   - entities/tools/evilsocket-audit.md
   - entities/tools/offensive-claude.md
+  - entities/tools/pentest-ai.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-23
 ---
 
 ## Relations
@@ -38,6 +39,7 @@ updated: 2026-05-13
 - @entities/people/joas-a-santos.md
 - @entities/tools/fuzzyai.md
 - @entities/tools/pentest-ai-agents.md
+- @entities/tools/pentest-ai.md — MCP offensive server (`ptai`); sibling to pentest-ai-agents
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md

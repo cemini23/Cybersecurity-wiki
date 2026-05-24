@@ -156,6 +156,7 @@
 | @entities/tools/evilsocket-audit.md | draft | 8-stage vuln-discovery agent — Glasswing pattern, reachability gating (MIT) |
 | @entities/tools/offensive-claude.md | draft | Offensive-security Claude Code workstation — 25 skill modules, 8 classifications |
 | @entities/tools/cf-hero.md | draft | Cloudflare origin-IP discovery via DNS + Shodan hashing (Go, ~2.4k stars) — Defer pending LICENSE audit |
+| @entities/tools/pentest-ai.md | draft | MCP offensive-security server — 205 tools, 17 agents, MIT (`ptai` CLI; distinct from pentest-ai-agents) |
 
 ### Vendors
 
@@ -252,6 +253,10 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | BugBounty-Recon-Methodology | — | Reject | K57 | Verify license before any adoption |
 | sqlmap | NOASSERTION | Reject | K57 | Confirm AGPL/GPL before use — already cited in methodology pages, no entity |
 | NoSQLMap | GPL-3.0 | Reject (copyleft) | K57 | Reference-only — same copyleft posture as gitGraber/H4X-Tools |
+| KaliGPT | Custom NC | Reject (commercial) | K60 | Ollama terminal harness — **do not install on prod**; eval overturned Adopt |
+| h4cker | MIT | Reference | K60 | Omar Santos mega-repo — OSINT tradecraft in `osint/` subtree (~26k stars) |
+| pentest-ai | MIT | CONDITIONAL-GO | K60 | @entities/tools/pentest-ai.md — MCP + 17 agents; compare vs pentest-ai-agents |
+| cyber-security-llm-agents | — | Defer | K60 | NVISO catalog — gh api NO LICENSE; reference until SPDX filed |
 
 ## Sources
 

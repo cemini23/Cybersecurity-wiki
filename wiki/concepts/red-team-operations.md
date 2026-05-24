@@ -59,6 +59,7 @@ related:
   - entities/tools/cua.md
   - entities/tools/fuzzyai.md
   - entities/tools/pentest-ai-agents.md
+  - entities/tools/pentest-ai.md
   - concepts/agent-vm-sandboxing.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
@@ -137,6 +138,7 @@ updated: 2026-05-16
 - @entities/tools/cua.md
 - @entities/tools/fuzzyai.md
 - @entities/tools/pentest-ai-agents.md
+- @entities/tools/pentest-ai.md
 - @concepts/agent-vm-sandboxing.md
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/llm-pentest-automation.md
