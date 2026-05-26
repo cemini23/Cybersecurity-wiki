@@ -13,9 +13,10 @@ related:
   - concepts/responsible-disclosure.md
   - entities/tools/cua.md
   - "@osint-wiki/entities/tools/fuzzyai.md"
+  - entities/tools/cryptex-oss.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -29,6 +30,7 @@ updated: 2026-05-13
 - @concepts/responsible-disclosure.md — ethics floor for FuzzyAI use
 - @entities/tools/cua.md — pair with cua to capture full trace of multi-turn jailbreak runs
 - @osint-wiki/entities/tools/fuzzyai.md — sibling-wiki Phase-0 audit notes; cross-routes to verbalized-sampling Vector 5 (news-rewriter robustness)
+- @entities/tools/cryptex-oss.md — alternative transform catalog (162 transforms); compare in Phase-0
 
 ## Raw Concept
 

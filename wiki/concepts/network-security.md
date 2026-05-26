@@ -48,9 +48,10 @@ related:
   - entities/tools/vpn-self-hosted.md
   - entities/tools/bluehood.md
   - entities/tools/super-spr.md
+  - entities/tools/iron-proxy.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-05-26
 ---
 
 ## Relations

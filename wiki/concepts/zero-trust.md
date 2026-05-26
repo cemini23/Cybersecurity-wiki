@@ -11,9 +11,10 @@ related:
   - sources/open-source-soc-guide.md
   - entities/tools/vpn-self-hosted.md
   - entities/tools/super-spr.md
+  - entities/tools/iron-proxy.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -24,6 +25,7 @@ updated: 2026-05-17
 - @entities/people/joas-a-santos.md
 - @sources/open-source-soc-guide.md
 - @entities/tools/vpn-self-hosted.md — VPN tool hub; Tailscale (WireGuard-based) is documented as Zero Trust mesh overlay implementation
+- @entities/tools/iron-proxy.md — egress firewall for untrusted workloads (K68 Adopt-eligible)
 
 ## Raw Concept
 

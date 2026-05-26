@@ -8,9 +8,10 @@ related:
   - sources/container-security-overview-pt-1.md
   - sources/kubernetes-exploitation-introduction-cheatsheet.md
   - entities/people/joas-a-santos.md
+  - entities/tools/iron-proxy.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-12
 - @sources/container-security-overview-pt-1.md
 - @sources/kubernetes-exploitation-introduction-cheatsheet.md
 - @entities/people/joas-a-santos.md
+- @entities/tools/iron-proxy.md — default-deny egress for containerized / untrusted workloads
 
 ## Raw Concept
 

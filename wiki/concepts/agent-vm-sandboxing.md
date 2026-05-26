@@ -10,9 +10,10 @@ related:
   - concepts/malware-analysis.md
   - concepts/incident-response.md
   - concepts/av-edr-bypass.md
+  - entities/tools/iron-proxy.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-13
 - @concepts/malware-analysis.md — detonation chamber for unknown samples
 - @concepts/incident-response.md — replay attacker behavior in a matched-image VM
 - @concepts/av-edr-bypass.md — clean-image VMs let you test payload behavior without contaminating host EDR telemetry
+- @entities/tools/iron-proxy.md — network-layer egress complement to VM isolation
 
 ## Raw Concept
 

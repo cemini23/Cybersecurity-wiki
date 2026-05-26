@@ -367,3 +367,14 @@ Brief marked `processed: 2026-05-23`.
 - **Backlinks**: `nidhogg` ↔ `av-edr-bypass`, `endpoint-detection-response`, `malware-analysis`, `privilege-escalation`, `red-team-operations`, `mitre-attack`
 
 Brief marked `processed: 2026-05-24`.
+
+## [2026-05-26] ingest | Cross-wiki brief triage — K68 (1 new brief)
+
+**K68** (`briefs/2026-05-26_k68-cybersec-tool-eval-from-osint.md`): 22-URL OSINT eval; five cybersec-routed repos.
+
+- **NEW** `@entities/tools/iron-proxy.md` (draft, Adopt-eligible) — egress firewall for untrusted workloads (Apache-2.0)
+- **NEW** `@entities/tools/cryptex-oss.md` (draft, Adopt-eligible) — LLM red-team transform/mutator toolkit (MIT, 162 transforms)
+- **Index**: 3 Steal-from/Reject rows (facex, centaur, ZishanAdThandar/pentest GPL-3.0)
+- **Backlinks**: `iron-proxy` ↔ zero-trust, network-security, defense-in-depth, container-security, agent-vm-sandboxing; `cryptex-oss` ↔ llm-adversarial-fuzzing, ai-for-cybersecurity, fuzzyai
+
+Brief marked `processed: 2026-05-26`.

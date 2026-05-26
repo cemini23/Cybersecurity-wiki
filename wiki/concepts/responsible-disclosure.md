@@ -13,6 +13,7 @@ related:
   - entities/tools/pentest-ai.md
   - entities/tools/pydns-scanner.md
   - entities/tools/fuzzyai.md
+  - entities/tools/cryptex-oss.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
@@ -33,6 +34,7 @@ updated: 2026-05-13
 - @entities/tools/pentest-ai.md
 - @entities/tools/pydns-scanner.md
 - @entities/tools/fuzzyai.md
+- @entities/tools/cryptex-oss.md — adversarial prompt research ethics floor
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/llm-pentest-automation.md
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md

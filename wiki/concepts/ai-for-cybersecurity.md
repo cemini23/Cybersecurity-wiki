@@ -23,9 +23,11 @@ related:
   - entities/tools/evilsocket-audit.md
   - entities/tools/offensive-claude.md
   - entities/tools/pentest-ai.md
+  - entities/tools/cryptex-oss.md
+  - entities/tools/iron-proxy.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-23
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -40,6 +42,8 @@ updated: 2026-05-23
 - @entities/tools/fuzzyai.md
 - @entities/tools/pentest-ai-agents.md
 - @entities/tools/pentest-ai.md — MCP offensive server (`ptai`); sibling to pentest-ai-agents
+- @entities/tools/cryptex-oss.md — LLM red-team transform/mutator toolkit (MIT)
+- @entities/tools/iron-proxy.md — egress firewall for agent/LLM workload isolation
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md

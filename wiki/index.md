@@ -158,6 +158,8 @@
 | @entities/tools/cf-hero.md | draft | Cloudflare origin-IP discovery via DNS + Shodan hashing (Go, ~2.4k stars) — Defer pending LICENSE audit |
 | @entities/tools/pentest-ai.md | draft | MCP offensive-security server — 205 tools, 17 agents, MIT (`ptai` CLI; distinct from pentest-ai-agents) |
 | @entities/tools/nidhogg.md | draft | Windows kernel rootkit reference — DKOM/ActiveProcessLinks tradecraft (GPL-3.0; Steal-from, no deploy) |
+| @entities/tools/iron-proxy.md | draft | Egress firewall for untrusted workloads (Apache-2.0; Adopt-eligible Phase-0) |
+| @entities/tools/cryptex-oss.md | draft | LLM red-teaming transforms/mutators toolkit — 162 transforms (MIT; Adopt-eligible Phase-0) |
 
 ### Vendors
 
@@ -259,6 +261,11 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | pentest-ai | MIT | CONDITIONAL-GO | K60 | @entities/tools/pentest-ai.md — MCP + 17 agents; compare vs pentest-ai-agents |
 | cyber-security-llm-agents | — | Defer | K60 | NVISO catalog — gh api NO LICENSE; reference until SPDX filed |
 | Nidhogg | GPL-3.0 | Steal-from | K63 | @entities/tools/nidhogg.md — DKOM/process-hiding tradecraft for MITRE mapping; **no binary import** |
+| facex | Apache-2.0 | Steal-from | K68 | WASM in-browser face stack + anti-spoof — extract ideas only, no full import |
+| iron-proxy | Apache-2.0 | Adopt-eligible | K68 | @entities/tools/iron-proxy.md — egress firewall for untrusted workloads |
+| centaur | NOASSERTION | Steal-from | K68 | Paradigm secure multi-agent host — read LICENSE text before any code use |
+| cryptex-oss | MIT | Adopt-eligible | K68 | @entities/tools/cryptex-oss.md — LLM red-team transform/mutator catalog |
+| ZishanAdThandar/pentest | GPL-3.0 | Reject | K68 | Pentest/bounty notes cheatsheets — keep out of IP-sale surfaces |
 
 ## Sources
 

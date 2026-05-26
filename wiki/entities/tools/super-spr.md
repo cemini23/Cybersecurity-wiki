@@ -8,9 +8,10 @@ related:
   - concepts/network-security.md
   - concepts/defense-in-depth.md
   - entities/tools/vpn-self-hosted.md
+  - entities/tools/iron-proxy.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-26
 cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md
 ---
 
@@ -22,6 +23,7 @@ cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md
 - @concepts/network-security.md — programmatic policy routing + VLAN segregation
 - @concepts/defense-in-depth.md — per-device isolation as architectural primitive
 - @entities/tools/vpn-self-hosted.md — WireGuard telemetry integration patterns
+- @entities/tools/iron-proxy.md — complementary egress-firewall layer (K68)
 
 ## Raw Concept
 

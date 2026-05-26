@@ -13,14 +13,16 @@ related:
   - concepts/responsible-disclosure.md
   - concepts/llm-pentest-automation.md
   - entities/tools/defenseclaw.md
+  - entities/tools/cryptex-oss.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-26
 ---
 
 ## Relations
 
 - @entities/tools/fuzzyai.md — current canonical framework
+- @entities/tools/cryptex-oss.md — transform/mutator catalog alternative (K68 Adopt-eligible)
 - @concepts/pair-prompt-pattern.md — PAIR technique detail
 - @concepts/crescendo-multi-turn-jailbreak.md — Crescendo technique detail
 - @concepts/ai-for-cybersecurity.md — broader LLM × security context
