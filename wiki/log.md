@@ -378,3 +378,14 @@ Brief marked `processed: 2026-05-24`.
 - **Backlinks**: `iron-proxy` ↔ zero-trust, network-security, defense-in-depth, container-security, agent-vm-sandboxing; `cryptex-oss` ↔ llm-adversarial-fuzzing, ai-for-cybersecurity, fuzzyai
 
 Brief marked `processed: 2026-05-26`.
+
+## [2026-05-27] ingest | Cross-wiki brief triage — K71 (1 new brief)
+
+**K71** (`briefs/2026-05-27_k71-cybersec-tooling-from-osint.md`): 27-URL OSINT eval; two cybersec-routed items — both **index-only**, no entity stubs.
+
+- **Reference**: Hackers-Arise AI enumeration article (methodology only, no code) — complements existing K54 Hackers-Arise MCP log index row
+- **Reject**: `blacklanternsecurity/bbot` — AGPL-3.0 confirmed via `gh api`; copyleft poison pill for IP-sale surfaces (same posture as TruffleHog/gitGraber)
+
+**Index**: 2 K71 rows added to cross-wiki eval table.
+
+Brief marked `processed: 2026-05-27`.
