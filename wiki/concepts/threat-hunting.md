@@ -36,9 +36,10 @@ related:
   - entities/tools/qradar.md
   - sources/next-gen-soc-ibm-qradar.md
   - entities/tools/grex.md
+  - entities/tools/cve-mcp-server.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -66,6 +67,7 @@ updated: 2026-05-17
 - @concepts/ransomware.md
 - @sources/ransomware-investigation-runbook.md
 - @concepts/threat-intelligence.md
+- @entities/tools/cve-mcp-server.md — on-demand CVE/KEV/EPSS context during hunt triage
 - @concepts/phishing-investigation.md
 - @entities/people/mostafa-yahia.md
 - @entities/tools/gopacket.md — Go packet-decoding library; decoded packet metadata as a network-hunt substrate

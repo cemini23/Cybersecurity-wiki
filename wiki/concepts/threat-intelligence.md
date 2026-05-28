@@ -22,9 +22,10 @@ related:
   - entities/people/mostafa-yahia.md
   - entities/tools/splunk.md
   - entities/tools/bluehood.md
+  - entities/tools/cve-mcp-server.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -46,6 +47,7 @@ updated: 2026-05-17
 - @concepts/phishing-investigation.md
 - @entities/people/mostafa-yahia.md
 - @entities/tools/splunk.md
+- @entities/tools/cve-mcp-server.md — CVE/EPSS/KEV/ATT&CK enrichment MCP for analyst triage
 
 ## Raw Concept
 

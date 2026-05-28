@@ -31,9 +31,10 @@ related:
   - sources/python-ethical-hacking-masterclass.md
   - entities/tools/reconftw.md
   - entities/tools/cf-hero.md
+  - entities/tools/cve-mcp-server.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-22
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -64,6 +65,7 @@ updated: 2026-05-22
 - @concepts/threat-intelligence.md
 - @entities/tools/gau.md — multi-provider known-URL harvester (OTX / Wayback / Common Crawl); open-data attack-surface OSINT
 - @sources/python-ethical-hacking-masterclass.md — video course; section 15 covers information-gathering tools
+- @entities/tools/cve-mcp-server.md — CVE/EPSS/KEV/ATT&CK MCP enrichment for rapid intel context
 
 ## Raw Concept
 

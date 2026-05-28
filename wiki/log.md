@@ -389,3 +389,14 @@ Brief marked `processed: 2026-05-26`.
 **Index**: 2 K71 rows added to cross-wiki eval table.
 
 Brief marked `processed: 2026-05-27`.
+
+## [2026-05-28] ingest | Cross-wiki brief triage — K73 (1 new brief)
+
+**K73** (`briefs/2026-05-28_k73-security-tool-phase0-outcomes.md`): security-tool Phase-0 outcome routing from OSINT wiki.
+
+- **NEW** `@entities/tools/cve-mcp-server.md` (draft, CONDITIONAL-GO) — Apache-2.0 security-intel MCP server for CVE/EPSS/KEV/ATT&CK enrichment in cybersec workstation workflows
+- **Reject reiterated**: `blacklanternsecurity/bbot` AGPL-3.0 copyleft posture remains reject for IP-sale-bearing production surfaces (already indexed under K71; now annotated K71,K73)
+- **Index**: 1 new K73 row (`cve-mcp-server`) + bbot brief provenance widened to `K71, K73`
+- **Backlinks**: `cve-mcp-server` ↔ `threat-intelligence`, `threat-hunting`, `osint-for-cybersecurity`, `incident-response`, `pentest-ai`
+
+Brief marked `processed: 2026-05-28`.

@@ -39,9 +39,10 @@ related:
   - sources/splunk-siem-soc2-use-cases.md
   - entities/tools/qradar.md
   - sources/next-gen-soc-ibm-qradar.md
+  - entities/tools/cve-mcp-server.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -81,6 +82,7 @@ updated: 2026-05-17
 - @sources/splunk-siem-soc2-use-cases.md
 - @entities/tools/qradar.md
 - @sources/next-gen-soc-ibm-qradar.md
+- @entities/tools/cve-mcp-server.md — CVE/KEV/EPSS rapid-enrichment during containment/eradication triage
 
 ## Raw Concept
 

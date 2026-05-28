@@ -160,6 +160,7 @@
 | @entities/tools/nidhogg.md | draft | Windows kernel rootkit reference — DKOM/ActiveProcessLinks tradecraft (GPL-3.0; Steal-from, no deploy) |
 | @entities/tools/iron-proxy.md | draft | Egress firewall for untrusted workloads (Apache-2.0; Adopt-eligible Phase-0) |
 | @entities/tools/cryptex-oss.md | draft | LLM red-teaming transforms/mutators toolkit — 162 transforms (MIT; Adopt-eligible Phase-0) |
+| @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
 
 ### Vendors
 
@@ -266,8 +267,9 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | centaur | NOASSERTION | Steal-from | K68 | Paradigm secure multi-agent host — read LICENSE text before any code use |
 | cryptex-oss | MIT | Adopt-eligible | K68 | @entities/tools/cryptex-oss.md — LLM red-team transform/mutator catalog |
 | ZishanAdThandar/pentest | GPL-3.0 | Reject | K68 | Pentest/bounty notes cheatsheets — keep out of IP-sale surfaces |
-| bbot | AGPL-3.0 | Reject (copyleft) | K71 | `blacklanternsecurity/bbot` recursive scanner (~9.7k stars) — **do not route into IP-sale surfaces** |
+| bbot | AGPL-3.0 | Reject (copyleft) | K71, K73 | `blacklanternsecurity/bbot` recursive scanner (~9.7k stars) — **do not route into IP-sale surfaces** |
 | Hackers-Arise AI enumeration | — | Reference | K71 | AI-assisted enumeration article (no code); complements K54 Hackers-Arise MCP log row |
+| cve-mcp-server | Apache-2.0 | CONDITIONAL-GO | K73 | @entities/tools/cve-mcp-server.md — workstation CVE/KEV/EPSS intel enrichment MCP |
 
 ## Sources
 
