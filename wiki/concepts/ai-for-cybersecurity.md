@@ -25,9 +25,10 @@ related:
   - entities/tools/pentest-ai.md
   - entities/tools/cryptex-oss.md
   - entities/tools/iron-proxy.md
+  - entities/tools/nvidia-skillspector.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-26
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -44,6 +45,7 @@ updated: 2026-05-26
 - @entities/tools/pentest-ai.md — MCP offensive server (`ptai`); sibling to pentest-ai-agents
 - @entities/tools/cryptex-oss.md — LLM red-team transform/mutator toolkit (MIT)
 - @entities/tools/iron-proxy.md — egress firewall for agent/LLM workload isolation
+- @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanner (K88 Adopt)
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md

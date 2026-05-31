@@ -8,9 +8,10 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/responsible-disclosure.md
+  - entities/tools/nvidia-skillspector.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-31
 cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
 ---
 
@@ -22,6 +23,7 @@ cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
 - @concepts/llm-adversarial-fuzzing.md — complements FuzzyAI by providing the defensive-detection layer
 - @concepts/llm-pentest-automation.md — governance for LLM-driven security tooling
 - @concepts/responsible-disclosure.md — audit-trail requirements for authorized testing
+- @entities/tools/nvidia-skillspector.md — skill/MCP supply-chain scanner complementing runtime governance
 
 ## Raw Concept
 

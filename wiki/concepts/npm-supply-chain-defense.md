@@ -8,9 +8,10 @@ related:
   - concepts/system-hardening.md
   - "@osint-wiki/concepts/npm-supply-chain-defense.md"
   - "@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md"
+  - entities/tools/nvidia-skillspector.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-15
 - @concepts/system-hardening.md — release-age cooldown + version pinning as attack-surface reduction
 - `@osint-wiki/concepts/npm-supply-chain-defense.md` — full concept page (origin, distilled)
 - `@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md` — original prompt source
+- @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanning (extends npm-style defense to skills)
 
 ## Raw Concept
 

@@ -400,3 +400,15 @@ Brief marked `processed: 2026-05-27`.
 - **Backlinks**: `cve-mcp-server` ↔ `threat-intelligence`, `threat-hunting`, `osint-for-cybersecurity`, `incident-response`, `pentest-ai`
 
 Brief marked `processed: 2026-05-28`.
+
+## [2026-05-31] ingest | Cross-wiki brief triage — K88 (1 new brief)
+
+**K88** (`briefs/2026-05-31_k88-skillspector-cybersec-from-osint.md`): skill/MCP supply-chain eval from OSINT wiki.
+
+- **NEW** `@entities/tools/nvidia-skillspector.md` (draft, Adopt) — Apache-2.0 agent/MCP skill supply-chain scanner; LangGraph `skillspector.graph` API; import boundary: cybersec workstation vetting only, no trading-stack integration until Phase-0 lab validation
+- **Reference**: `FareedKhan-dev/train-llm-from-scratch` (MIT) — index-only
+- **Reject**: `ahegazy0/linux-basics-for-hackers-notes` (no LICENSE); `LHRLAB/Graph-R1` (NC-SA per eval; gh api MIT 2026-05-31 — verify before override)
+- **Index**: 1 Tools row + 4 cross-wiki eval rows (Adopt + Reference + 2 Reject)
+- **Backlinks**: `nvidia-skillspector` ↔ `ai-for-cybersecurity`, `npm-supply-chain-defense`, `llm-pentest-automation`, `defenseclaw`, `claude-code-ultimate-guide`, `src-hunter-skill`
+
+Brief marked `processed: 2026-05-31`.

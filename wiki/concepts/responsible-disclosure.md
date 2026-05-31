@@ -18,9 +18,10 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
   - entities/tools/defenseclaw.md
+  - entities/tools/nvidia-skillspector.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -38,9 +39,8 @@ updated: 2026-05-13
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/llm-pentest-automation.md
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md
-
-
-## Raw Concept
+- @entities/tools/defenseclaw.md
+- @entities/tools/nvidia-skillspector.md — skill-poisoning findings follow vendor disclosure timelines
 
 Anchored by How to report a vulnerability + Dicas como Reportar uma Falha.
 

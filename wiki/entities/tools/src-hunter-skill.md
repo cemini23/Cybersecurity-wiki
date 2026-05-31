@@ -8,9 +8,10 @@ related:
   - concepts/web-pentest-methodology.md
   - entities/tools/pentest-ai-agents.md
   - concepts/ai-for-cybersecurity.md
+  - entities/tools/nvidia-skillspector.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-31
 cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md
 ---
 
@@ -22,6 +23,7 @@ cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md
 - @concepts/web-pentest-methodology.md — WAF bypass variants for web-app testing
 - @entities/tools/pentest-ai-agents.md — complementary Claude Code skill framework
 - @concepts/ai-for-cybersecurity.md — LLM-driven offensive tooling
+- @entities/tools/nvidia-skillspector.md — vet third-party skills before install (K88)
 
 ## Raw Concept
 

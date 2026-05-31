@@ -161,6 +161,7 @@
 | @entities/tools/iron-proxy.md | draft | Egress firewall for untrusted workloads (Apache-2.0; Adopt-eligible Phase-0) |
 | @entities/tools/cryptex-oss.md | draft | LLM red-teaming transforms/mutators toolkit — 162 transforms (MIT; Adopt-eligible Phase-0) |
 | @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
+| @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
 
 ### Vendors
 
@@ -270,6 +271,10 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | bbot | AGPL-3.0 | Reject (copyleft) | K71, K73 | `blacklanternsecurity/bbot` recursive scanner (~9.7k stars) — **do not route into IP-sale surfaces** |
 | Hackers-Arise AI enumeration | — | Reference | K71 | AI-assisted enumeration article (no code); complements K54 Hackers-Arise MCP log row |
 | cve-mcp-server | Apache-2.0 | CONDITIONAL-GO | K73 | @entities/tools/cve-mcp-server.md — workstation CVE/KEV/EPSS intel enrichment MCP |
+| nvidia-skillspector | Apache-2.0 | Adopt | K88 | @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanner |
+| train-llm-from-scratch | MIT | Reference | K88 | LLM training reference only — not a security tool |
+| linux-basics-for-hackers-notes | — | Reject | K88 | NO LICENSE FOUND — do not adopt |
+| Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
 
 ## Sources
 
