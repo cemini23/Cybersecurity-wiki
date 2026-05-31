@@ -15,8 +15,7 @@ related:
 maturity: draft
 created: 2026-05-31
 updated: 2026-05-31
-cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md"
-phase_0_verdict: "Adopt 2026-05-31 — Apache-2.0 verified; primary cybersec-wiki fit for agent/MCP skill supply-chain scanning."
+phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 
 # NVIDIA SkillSpector — agent/MCP skill supply-chain scanner
@@ -48,7 +47,9 @@ SkillSpector is the **Adopt-tier** defensive tool for auditing agent/MCP skill s
 - **Cross-wiki**: OSINT wiki owns `skill_audit.py` wiring post-Phase-0; this page is the cybersec-wiki canonical entity.
 
 **Failure modes**:
-- Air-gapped subnets without OSV.dev reachability may degrade vulnerability correlation. `[NEEDS VERIFICATION 2026-05-31]` — confirm offline behavior before relying on scans in isolated lab VLANs.
+- Air-gapped subnets without OSV.dev reachability degrade SC4 supply-chain checks to a small static fallback list. `[CONFIRMED 2026-05-31]` per OSINT Phase-0 source audit — probe on isolated lab VLAN before relying on scans there.
+- Default CLI requires LLM API key; automated pipelines must pass **`--no-llm`** (static-only). LLM semantic pass is operator-opt-in.
+- Not on PyPI — pin Git SHA; Python **≥3.12**; isolated venv ~228 MB.
 
 ## Snippets
 
