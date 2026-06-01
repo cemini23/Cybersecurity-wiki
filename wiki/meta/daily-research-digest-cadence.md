@@ -4,6 +4,8 @@ type: concept
 tags: [meta, automation]
 related:
   - concepts/threat-intelligence.md
+  - meta/daily-research-digest-cadence.md
+  - sweeps/2026-06-01-daily.md
   - "@osint-wiki/concepts/federated-daily-research-digest.md"
 maturity: draft
 created: 2026-06-01
@@ -13,6 +15,7 @@ updated: 2026-06-01
 ## Relations
 
 - @concepts/threat-intelligence.md — digest topics include CVE feeds and offensive OSINT
+- @sweeps/2026-06-01-daily.md — first federated digest output (agent security cluster)
 - @osint-wiki/concepts/federated-daily-research-digest.md — parent federation pattern (K93 install)
 
 ## Narrative

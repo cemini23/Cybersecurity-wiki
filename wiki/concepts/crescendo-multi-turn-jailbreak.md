@@ -9,9 +9,11 @@ related:
   - concepts/pair-prompt-pattern.md
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/agent-runtime-guardrails.md
+  - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -21,6 +23,7 @@ updated: 2026-05-13
 - @concepts/pair-prompt-pattern.md — companion single-turn pattern
 - @concepts/social-engineering.md — Crescendo is structurally a social-engineering attack against the model
 - @concepts/ai-for-cybersecurity.md — LLM × security context
+- @concepts/agent-runtime-guardrails.md — multi-turn jailbreak vs sleeper persist-and-trigger (distinct classes)
 
 ## Raw Concept
 

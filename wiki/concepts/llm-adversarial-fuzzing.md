@@ -14,9 +14,14 @@ related:
   - concepts/llm-pentest-automation.md
   - entities/tools/defenseclaw.md
   - entities/tools/cryptex-oss.md
+  - concepts/agent-runtime-guardrails.md
+  - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
+  - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
+  - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
+  - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -30,6 +35,7 @@ updated: 2026-05-26
 - @concepts/red-team-operations.md — primary engagement context
 - @concepts/responsible-disclosure.md — ethics floor for any LLM-target work
 - @concepts/llm-pentest-automation.md — sibling LLM-pentest methodology; uses adversarial-fuzz patterns for findings validation
+- @concepts/agent-runtime-guardrails.md — agent side-effect attacks exceed jailbreak/refusal testing scope
 
 ## Raw Concept
 

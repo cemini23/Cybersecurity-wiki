@@ -19,9 +19,10 @@ related:
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
+  - concepts/agent-runtime-guardrails.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -41,6 +42,7 @@ updated: 2026-05-31
 - @concepts/dns-server-discovery-vs-subdomain-enumeration.md
 - @entities/tools/defenseclaw.md
 - @entities/tools/nvidia-skillspector.md — skill-poisoning findings follow vendor disclosure timelines
+- @concepts/agent-runtime-guardrails.md — agent guardrail bypass findings use same CVD process
 
 Anchored by How to report a vulnerability + Dicas como Reportar uma Falha.
 

@@ -11,9 +11,10 @@ related:
   - concepts/agent-vm-sandboxing.md
   - entities/tools/super-spr.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/agent-runtime-guardrails.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — Apache-2.0 verified; Phase-0 queue if egress-policy hardening is prioritized."
 ---
@@ -29,6 +30,7 @@ phase_0_verdict: "Adopt-eligible 2026-05-26 — Apache-2.0 verified; Phase-0 que
 - @concepts/agent-vm-sandboxing.md — pairs with agent-VM isolation (Tier 2 pentest agents, LLM tool runners)
 - @entities/tools/super-spr.md — sibling zero-trust networking implementation (different layer: VLAN/DNS vs egress firewall)
 - @concepts/ai-for-cybersecurity.md — LLM agent workload egress containment
+- @concepts/agent-runtime-guardrails.md — network-layer complement to runtime authority guards
 
 ## Raw Concept
 

@@ -9,9 +9,13 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/responsible-disclosure.md
   - entities/tools/nvidia-skillspector.md
+  - entities/tools/airguard.md
+  - entities/tools/chaincaps.md
+  - concepts/agent-runtime-guardrails.md
+  - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
 ---
 
@@ -24,6 +28,10 @@ cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
 - @concepts/llm-pentest-automation.md — governance for LLM-driven security tooling
 - @concepts/responsible-disclosure.md — audit-trail requirements for authorized testing
 - @entities/tools/nvidia-skillspector.md — skill/MCP supply-chain scanner complementing runtime governance
+- @entities/tools/airguard.md — open-source runtime authority guard (MIT)
+- @entities/tools/chaincaps.md — MCP composition IFC reference
+- @concepts/agent-runtime-guardrails.md — guardrail taxonomy synthesizing enterprise + OSS patterns
+- @sources/arxiv-2605-29251-provably-secure-agent-guardrail.md — formal ePCA guardrail research complement
 
 ## Raw Concept
 

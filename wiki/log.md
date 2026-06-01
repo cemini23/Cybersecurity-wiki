@@ -423,3 +423,14 @@ Brief marked `processed: 2026-05-31`.
 - **Backlinks**: `netviz` ↔ `osint-for-cybersecurity`, `threat-intelligence`, `red-team-operations`, `maltego`, `bloodhound`, `reconftw`
 
 Brief marked `processed: 2026-06-01`.
+
+## [2026-06-01] ingest | Agent security arXiv cluster (5 PDFs)
+
+**Source**: daily digest inbox — five May 2026 arXiv papers on tool-using agent security.
+
+- **NEW** `@concepts/agent-runtime-guardrails.md` (draft) — synthesizes failure modes (authority confusion, permission laundering, sleeper attack, dual-surface injection) + defenses (ePCA, AIRGuard, ChainCaps) + eval hygiene (AAR, per-surface ASR)
+- **NEW** `@entities/tools/airguard.md` (draft, CONDITIONAL-GO) — MIT runtime authority guard; paper arXiv:2605.28914
+- **NEW** `@entities/tools/chaincaps.md` (draft, Reference) — MCP composition IFC pattern; paper arXiv:2605.26542
+- **5 source pages** (1 deep-read anchor 2605.29251 ePCA guardrail + 4 read): 28914, 26542, 28201, 30454
+- **Backlinks**: `agent-runtime-guardrails` ↔ `ai-for-cybersecurity`, `llm-adversarial-fuzzing`, `llm-pentest-automation`, `agent-vm-sandboxing`, `crescendo-multi-turn-jailbreak`, `defenseclaw`, `nvidia-skillspector`, `iron-proxy`, `airguard`, `chaincaps`
+- **Raw sources** moved to `raw-sources/`

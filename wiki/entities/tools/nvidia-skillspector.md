@@ -11,10 +11,16 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/claude-code-ultimate-guide.md
   - entities/tools/src-hunter-skill.md
+  - entities/tools/airguard.md
+  - entities/tools/chaincaps.md
+  - concepts/agent-runtime-guardrails.md
+  - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
+  - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
+  - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - "@osint-wiki/entities/tools/nvidia-skillspector.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-01
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 
@@ -28,6 +34,9 @@ phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--
 - @concepts/responsible-disclosure.md — report skill-poisoning findings through vendor timelines
 - @entities/tools/defenseclaw.md — complementary MCP/skill governance at enterprise scale
 - @entities/tools/claude-code-ultimate-guide.md — static malicious-skill pattern DB vs SkillSpector dynamic scan
+- @entities/tools/airguard.md — runtime action-time enforcement after skills pass static scan
+- @entities/tools/chaincaps.md — composition IFC for MCP tool chains
+- @concepts/agent-runtime-guardrails.md — full agent attack/defense cluster
 - @entities/tools/src-hunter-skill.md — example high-risk skill surface to vet before install
 - @osint-wiki/entities/tools/nvidia-skillspector.md — cross-wiki mirror; OSINT wires into `skill_audit.py` after Phase-0
 

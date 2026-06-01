@@ -26,9 +26,12 @@ related:
   - entities/tools/cryptex-oss.md
   - entities/tools/iron-proxy.md
   - entities/tools/nvidia-skillspector.md
+  - concepts/agent-runtime-guardrails.md
+  - entities/tools/airguard.md
+  - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -50,6 +53,7 @@ updated: 2026-05-31
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/llm-pentest-automation.md
+- @concepts/agent-runtime-guardrails.md — runtime side-effect guards vs prompt-only safety (2026 arXiv cluster)
 
 ## Raw Concept
 
