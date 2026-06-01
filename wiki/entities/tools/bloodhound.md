@@ -8,9 +8,10 @@ related:
   - concepts/red-team-operations.md
   - entities/people/joas-a-santos.md
   - entities/tools/pentest-ai-agents.md
+  - entities/tools/netviz.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-13
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-13
 - @concepts/red-team-operations.md
 - @entities/people/joas-a-santos.md
 - @entities/tools/pentest-ai-agents.md
+- @entities/tools/netviz.md — general network graphs vs BloodHound's AD attack-path domain
 
 ## Raw Concept
 

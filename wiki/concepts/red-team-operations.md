@@ -23,6 +23,7 @@ related:
   - entities/programming-languages/powershell.md
   - entities/threat-actors/apt29.md
   - entities/tools/bloodhound.md
+  - entities/tools/netviz.md
   - entities/tools/cobalt-strike.md
   - entities/tools/metasploit.md
   - entities/vendors/zeropoint-security.md
@@ -80,7 +81,7 @@ related:
   - entities/tools/offensive-claude.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -104,6 +105,7 @@ updated: 2026-05-16
 - @entities/programming-languages/powershell.md
 - @entities/threat-actors/apt29.md
 - @entities/tools/bloodhound.md
+- @entities/tools/netviz.md — engagement topology / infrastructure graph mapping (K93 Adopt)
 - @entities/tools/cobalt-strike.md
 - @entities/tools/metasploit.md
 - @entities/vendors/zeropoint-security.md

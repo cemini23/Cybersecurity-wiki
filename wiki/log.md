@@ -412,3 +412,14 @@ Brief marked `processed: 2026-05-28`.
 - **Backlinks**: `nvidia-skillspector` ↔ `ai-for-cybersecurity`, `npm-supply-chain-defense`, `llm-pentest-automation`, `defenseclaw`, `claude-code-ultimate-guide`, `src-hunter-skill`
 
 Brief marked `processed: 2026-05-31`.
+
+## [2026-06-01] ingest | Cross-wiki brief triage — K93 (1 new brief)
+
+**K93** (`briefs/2026-06-01_k93-cybersec-digest-netviz-from-osint.md`): federated daily digest install + netviz Adopt upgrade.
+
+- **Structural**: federated daily digest installed (`scripts/daily_research_digest_run.py`, `daily_research_fetch.py`, `daily_research_config.yaml`, `wiki/sweeps/`, `wiki/meta/daily-research-digest-cadence.md`); LaunchAgent `com.cemini.daily-research-digest.cybersec` written to `~/Library/LaunchAgents/` (not tracked)
+- **NEW** `@entities/tools/netviz.md` (draft, Adopt) — `ShadowArcanist/netviz` MIT; upgraded from K53 Steal-from; Phase-0 analyst-laptop only
+- **Index**: netviz cross-wiki row upgraded `Steal-from K53` → `Adopt K53, K93` + Tools table row
+- **Backlinks**: `netviz` ↔ `osint-for-cybersecurity`, `threat-intelligence`, `red-team-operations`, `maltego`, `bloodhound`, `reconftw`
+
+Brief marked `processed: 2026-06-01`.

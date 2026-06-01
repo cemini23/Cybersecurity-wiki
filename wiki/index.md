@@ -162,6 +162,7 @@
 | @entities/tools/cryptex-oss.md | draft | LLM red-teaming transforms/mutators toolkit — 162 transforms (MIT; Adopt-eligible Phase-0) |
 | @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
 | @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
+| @entities/tools/netviz.md | draft | Browser network-architecture graph visualizer — D3.js + Socket.IO (MIT; Adopt, K93) |
 
 ### Vendors
 
@@ -232,7 +233,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | Claude Code Agent Farm | MIT | Steal-from | K15 | Parallel tmux orchestration — lock-based concurrency + heartbeat for network enumeration |
 | MyIP DNS Leak Detection | MIT | Steal-from | K15 | WebRTC STUN leak detection, DNS exit endpoint identification — VPN/tunnel validation |
 | fingerprint-suite | Apache-2.0 | Cross-ref | K15 | Browser fingerprint generation/injection — primary fit osint-wiki. Red-team browser evasion reference |
-| netviz | MIT | Steal-from | K53 | Browser-based network-architecture visualizer (D3.js + Socket.IO) — strip for parts |
+| netviz | MIT | Adopt | K53, K93 | @entities/tools/netviz.md — browser network graph visualizer (upgraded from Steal-from) |
 | iOS-pentest-list | — | Reference | K53 | Curated Markdown list of iOS pentest tools |
 | opendrop | TBD | Defer | K51 | Reverse-engineered Apple AirDrop (Python, 9.6k stars, SEEMOO lab) — license audit pending |
 | Shells-X | TBD | Defer | K51 | Modular single-file PHP web-shell framework — license audit pending |
@@ -275,6 +276,12 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | train-llm-from-scratch | MIT | Reference | K88 | LLM training reference only — not a security tool |
 | linux-basics-for-hackers-notes | — | Reject | K88 | NO LICENSE FOUND — do not adopt |
 | Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
+
+## Meta
+
+| Page | Maturity | Role |
+|------|----------|------|
+| @meta/daily-research-digest-cadence.md | draft | Federated daily research digest — K93 install; outputs to `wiki/sweeps/` |
 
 ## Sources
 

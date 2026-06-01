@@ -23,9 +23,11 @@ related:
   - entities/tools/splunk.md
   - entities/tools/bluehood.md
   - entities/tools/cve-mcp-server.md
+  - entities/tools/netviz.md
+  - meta/daily-research-digest-cadence.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -48,6 +50,8 @@ updated: 2026-05-28
 - @entities/people/mostafa-yahia.md
 - @entities/tools/splunk.md
 - @entities/tools/cve-mcp-server.md — CVE/EPSS/KEV/ATT&CK enrichment MCP for analyst triage
+- @entities/tools/netviz.md — infrastructure/actor relationship graphs for CTI briefings
+- @meta/daily-research-digest-cadence.md — federated daily digest (CVE/OSINT/wireless topics; K93)
 
 ## Raw Concept
 

@@ -32,9 +32,10 @@ related:
   - entities/tools/reconftw.md
   - entities/tools/cf-hero.md
   - entities/tools/cve-mcp-server.md
+  - entities/tools/netviz.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-28
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -66,6 +67,7 @@ updated: 2026-05-28
 - @entities/tools/gau.md — multi-provider known-URL harvester (OTX / Wayback / Common Crawl); open-data attack-surface OSINT
 - @sources/python-ethical-hacking-masterclass.md — video course; section 15 covers information-gathering tools
 - @entities/tools/cve-mcp-server.md — CVE/EPSS/KEV/ATT&CK MCP enrichment for rapid intel context
+- @entities/tools/netviz.md — self-hosted network/relationship graph visualizer for recon briefings (K93 Adopt)
 
 ## Raw Concept
 
