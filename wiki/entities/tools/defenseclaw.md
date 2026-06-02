@@ -12,10 +12,12 @@ related:
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
   - concepts/agent-runtime-guardrails.md
+  - entities/tools/agentredguard.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
+  - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-01
+updated: 2026-06-02
 cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
 ---
 

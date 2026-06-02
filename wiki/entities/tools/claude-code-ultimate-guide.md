@@ -8,9 +8,10 @@ related:
   - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
   - concepts/llm-pentest-automation.md
   - entities/tools/nvidia-skillspector.md
+  - sources/arxiv-2606-01494-clawhub-security-signals.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-31
+updated: 2026-06-02
 osint_eval_origin: doc1-url-17 (cross-routed; substantive cybersec content)
 ---
 

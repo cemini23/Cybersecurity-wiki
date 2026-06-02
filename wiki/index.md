@@ -76,7 +76,7 @@
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
-| @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guard paradigms (ePCA, AIRGuard, ChainCaps) |
+| @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards (ePCA, AIRGuard, ChainCaps, layered skill scan, SaaS integration) |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
 | @concepts/game-hacking.md | draft | Anti-cheat bypass as RE practice |
@@ -166,6 +166,7 @@
 | @entities/tools/netviz.md | draft | Browser network-architecture graph visualizer — D3.js + Socket.IO (MIT; Adopt, K93) |
 | @entities/tools/airguard.md | draft | Runtime authority control for tool/MCP agents (MIT; CONDITIONAL-GO) |
 | @entities/tools/chaincaps.md | draft | MCP proxy — composition-safe tool chains via monotonic capability budgets (Reference) |
+| @entities/tools/agentredguard.md | draft | Integration-aware guard for SaaS LLM agents — AgentRedBench paper (Reference) |
 
 ### Vendors
 

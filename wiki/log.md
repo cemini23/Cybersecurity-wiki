@@ -434,3 +434,15 @@ Brief marked `processed: 2026-06-01`.
 - **5 source pages** (1 deep-read anchor 2605.29251 ePCA guardrail + 4 read): 28914, 26542, 28201, 30454
 - **Backlinks**: `agent-runtime-guardrails` ↔ `ai-for-cybersecurity`, `llm-adversarial-fuzzing`, `llm-pentest-automation`, `agent-vm-sandboxing`, `crescendo-multi-turn-jailbreak`, `defenseclaw`, `nvidia-skillspector`, `iron-proxy`, `airguard`, `chaincaps`
 - **Raw sources** moved to `raw-sources/`
+
+## [2026-06-02] ingest | Daily digest inbox — 2 agent-security papers
+
+**Source**: AM digest run (`wiki/sweeps/2026-06-02-daily.md`) — ClawHub scanner study + AgentRedBench.
+
+- **NEW** `@sources/arxiv-2606-01494-clawhub-security-signals.md` — VT vs static vs SkillSpector on 67k+ OpenClaw skills
+- **NEW** `@sources/arxiv-2606-02240-agentredbench.md` — dynamic redteam + AgentRedGuard for SaaS integrations
+- **NEW** `@entities/tools/agentredguard.md` (draft, Reference)
+- **Updated** `@concepts/agent-runtime-guardrails.md` — layered skill governance + integration-aware guards
+- **Backlinks** `nvidia-skillspector`, `airguard`, `llm-adversarial-fuzzing`, `index.md`
+- **Sweep** `2026-06-02-daily.md` marked ingested; PDFs → `raw-sources/`
+- **Ops** `~/bin/cemini-daily-research-digest-cybersec` loads `~/.cemini/exa-api-key` + `.env` for LaunchAgent (fixes exit 2 when key missing under launchd)

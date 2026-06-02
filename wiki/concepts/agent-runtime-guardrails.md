@@ -10,6 +10,7 @@ related:
   - concepts/agent-vm-sandboxing.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/responsible-disclosure.md
+  - entities/tools/agentredguard.md
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
   - entities/tools/defenseclaw.md
@@ -20,9 +21,11 @@ related:
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
+  - sources/arxiv-2606-01494-clawhub-security-signals.md
+  - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -35,6 +38,7 @@ updated: 2026-06-01
 - @concepts/agent-vm-sandboxing.md — VM isolation complements but does not replace authority control
 - @concepts/crescendo-multi-turn-jailbreak.md — multi-turn jailbreak vs sleeper persist-and-trigger
 - @concepts/responsible-disclosure.md — agent guardrail bypass findings follow CVD timelines
+- @entities/tools/agentredguard.md — SaaS integration-aware guard (AgentRedBench paper)
 - @entities/tools/airguard.md — MIT runtime authority guard (AgentTrap / DTAP-150)
 - @entities/tools/chaincaps.md — MCP proxy for composition-safe tool chains
 - @entities/tools/defenseclaw.md — enterprise agent governance + MCP scanner
@@ -45,10 +49,12 @@ updated: 2026-06-01
 - @sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md — permission laundering
 - @sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md — sleeper attack
 - @sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md — per-surface eval
+- @sources/arxiv-2606-01494-clawhub-security-signals.md — layered skill scanners (VT / static / SkillSpector)
+- @sources/arxiv-2606-02240-agentredbench.md — dynamic redteam + integration read→write attacks
 
 ## Raw Concept
 
-Synthesized from daily-digest inbox cluster (2026-06-01): five arXiv papers on tool-using agent security — defensive guardrails (ePCA, AIRGuard, ChainCaps) and attack/eval advances (sleeper attack, dual-surface injection).
+Synthesized from daily-digest inbox clusters (2026-06-01, 2026-06-02): seven arXiv papers on tool-using agent security — defensive guardrails (ePCA, AIRGuard, ChainCaps, AgentRedGuard), skill supply-chain scanning (ClawHub / SkillSpector), and attack/eval advances (sleeper attack, dual-surface injection, SaaS integration redteam).
 
 ## Narrative
 
@@ -76,6 +82,10 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 
 4. **Stack with existing wiki tools** — @entities/tools/nvidia-skillspector.md (skill preflight), @entities/tools/defenseclaw.md (enterprise governance), @entities/tools/iron-proxy.md (egress), @concepts/agent-vm-sandboxing.md (substrate isolation).
 
+5. **Layered skill governance (ClawHub study)** — On 67k+ OpenClaw skill versions, VirusTotal, static heuristics, and SkillSpector **disagree** (max pair overlap 10.4%; 81.9% of positives from one scanner only). SkillSpector leads on semantic agentic-risk; VT leads on bundled-code malware. **Do not** treat any single scanner as allow/block. [Source: arXiv:2606.01494] `[TENTATIVE]` — automated registry labels, not human ground truth.
+
+6. **Integration-aware guards (AgentRedBench)** — Enterprise copilots with many SaaS integrations: poison via **read** on one app, harm via **write** on another. Chat-trained guards miss tool-response injections; paper’s AgentRedGuard targets that channel. Compare with AIRGuard authority model before adoption. [Source: arXiv:2606.02240] `[TENTATIVE]` — benchmark scenarios via maintainer channel.
+
 ### Evaluation hygiene
 
 - Report **per-surface** ASR (tool output vs tool description), not single-channel headline numbers. [Source: arXiv:2605.30454]
@@ -91,13 +101,15 @@ When assessing client agent copilots: poison both MCP tool descriptions and retu
 
 Defense layering (recommended order for authorized lab):
 
-1. Skill/MCP supply-chain scan (SkillSpector)
+1. **Layered** skill/MCP scan (static + VT/reputation + SkillSpector-class semantic) — not one gate [Source: arXiv:2606.01494]
 2. Egress policy (iron-proxy / VM sandbox)
 3. Runtime authority or composition proxy (AIRGuard / ChainCaps-class)
-4. Formal constraint layer where policy is machine-expressible (ePCA-class) `[NEEDS VERIFICATION 2026-06-01]`
+4. Integration/tool-response guard for multi-SaaS copilots (AgentRedGuard-class) `[NEEDS VERIFICATION 2026-06-02]`
+5. Formal constraint layer where policy is machine-expressible (ePCA-class) `[NEEDS VERIFICATION 2026-06-01]`
 
 ## Dead Ends
 
 - **LLM-as-Judge alone** for high-privilege agents — paper consensus: probabilistic semantic guards lack verifiable lower bound under decoupling attacks.
 - **Single-surface ASR** as pass/fail metric — systematically overstates defense and understates attack (Surface paper).
 - **Per-tool ACL only** — does not stop permission laundering across composed MCP chains.
+- **Single-scanner skill allowlist** — ClawHub data shows high false-negative/positive disagreement across VT, static, and SkillSpector.

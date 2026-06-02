@@ -9,10 +9,11 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - entities/tools/defenseclaw.md
   - entities/tools/airguard.md
+  - sources/arxiv-2606-01494-clawhub-security-signals.md
 maturity: draft
 read_status: deep-read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

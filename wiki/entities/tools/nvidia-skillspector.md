@@ -17,10 +17,11 @@ related:
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
+  - sources/arxiv-2606-01494-clawhub-security-signals.md
   - "@osint-wiki/entities/tools/nvidia-skillspector.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-01
+updated: 2026-06-02
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 
@@ -37,6 +38,7 @@ phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--
 - @entities/tools/airguard.md — runtime action-time enforcement after skills pass static scan
 - @entities/tools/chaincaps.md — composition IFC for MCP tool chains
 - @concepts/agent-runtime-guardrails.md — full agent attack/defense cluster
+- @sources/arxiv-2606-01494-clawhub-security-signals.md — empirical scanner disagreement on 67k+ skills (SkillSpector vs VT vs static)
 - @entities/tools/src-hunter-skill.md — example high-risk skill surface to vet before install
 - @osint-wiki/entities/tools/nvidia-skillspector.md — cross-wiki mirror; OSINT wires into `skill_audit.py` after Phase-0
 
@@ -54,6 +56,8 @@ SkillSpector is the **Adopt-tier** defensive tool for auditing agent/MCP skill s
 - **In scope**: cybersec-wiki workstation skill vetting, pentest-agent pre-install checks, blue-team governance workflows.
 - **Out of scope**: direct integration into trading-stack / IP-sale-bearing production automation until Phase-0 lab validation completes.
 - **Cross-wiki**: OSINT wiki owns `skill_audit.py` wiring post-Phase-0; this page is the cybersec-wiki canonical entity.
+
+**ClawHub empirical note (2026-06-02)**: OpenClaw Foundation + NVIDIA study of 67,453 public skill versions — SkillSpector flags **75.3%** of registry “suspicious” rows but only **6.8%** of “malicious”; VirusTotal leads on bundled-code malware (**72.8%** of malicious rows). Pairwise scanner overlap ≤10.4%. Layer SkillSpector with static + reputation scanners; see @sources/arxiv-2606-01494-clawhub-security-signals.md. `[TENTATIVE]`
 
 **Failure modes**:
 - Air-gapped subnets without OSV.dev reachability degrade SC4 supply-chain checks to a small static fallback list. `[CONFIRMED 2026-05-31]` per OSINT Phase-0 source audit — probe on isolated lab VLAN before relying on scans there.

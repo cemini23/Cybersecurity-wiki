@@ -10,12 +10,14 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
   - entities/tools/chaincaps.md
+  - entities/tools/agentredguard.md
   - concepts/llm-pentest-automation.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
+  - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool calls pre-execution; lab on AgentTrap/DTAP-style tasks before client copilot assessments."
 ---
 
@@ -29,8 +31,10 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool call
 - @entities/tools/defenseclaw.md — enterprise-scale governance complement
 - @entities/tools/nvidia-skillspector.md — pre-install skill audit vs runtime side-effect enforcement
 - @entities/tools/chaincaps.md — composition IFC complement (flow budgets vs authority inheritance)
+- @entities/tools/agentredguard.md — integration/tool-response guard (compare in lab)
 - @sources/arxiv-2605-28914-airguard-guarding-agent-actions.md — paper provenance
 - @sources/arxiv-2605-29251-provably-secure-agent-guardrail.md — formal guardrail complement (ePCA)
+- @sources/arxiv-2606-02240-agentredbench.md — SaaS read→write indirect injection benchmark
 
 ## Raw Concept
 
