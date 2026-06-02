@@ -91,6 +91,17 @@ git clone https://github.com/cemini23/Cybersecurity-wiki.git
 - Agent toolkit: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet) · [ara-schema](https://github.com/cemini23/ara-schema)
 - Sibling wikis: [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
 
+
+## Support
+
+Voluntary tips fund open research and tooling. **Donation-only addresses** — not trading or production wallets.
+
+| Chain family | Address |
+|--------------|---------|
+| **EVM** (Ethereum, Polygon, Base, Arbitrum, …) | `0x444C5C2eC439E0382aa5a17F70313c536BcC5D58` |
+| **Solana / SVM** | `J4zNn4hK9jTrKBFY8sbAGJHLoZvXvQf4B9pQSbSrocZE` |
+
+
 ## License
 
 MIT — see `LICENSE`.
