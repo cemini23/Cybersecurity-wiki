@@ -77,6 +77,7 @@
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards (ePCA, AIRGuard, ChainCaps, layered skill scan, SaaS integration) |
+| @concepts/agent-skill-injection.md | draft | K95 — skill injection attack surface + SkillGuard permission model + cross-app context poisoning |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
 | @concepts/game-hacking.md | draft | Anti-cheat bypass as RE practice |

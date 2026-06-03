@@ -446,3 +446,10 @@ Brief marked `processed: 2026-06-01`.
 - **Backlinks** `nvidia-skillspector`, `airguard`, `llm-adversarial-fuzzing`, `index.md`
 - **Sweep** `2026-06-02-daily.md` marked ingested; PDFs → `raw-sources/`
 - **Ops** `~/bin/cemini-daily-research-digest-cybersec` loads `~/.cemini/exa-api-key` + `.env` for LaunchAgent (fixes exit 2 when key missing under launchd)
+
+## [2026-06-03] ingest | K95 — skill injection cluster (3 arXiv)
+
+- **Sources** — 2606.00485 Confused ChatGPT, 2606.01567 defenses/enablers, 2606.03024 SkillGuard
+- **Concept** — `agent-skill-injection.md`
+- **Cross-wiki** — steal permission model → `@ccc-wiki/concepts/skill-vetting.md`; OSINT prod brief `2026-06-03_k95-skillguard-permission-steal-cemini-prod`
+- **PDFs** → librarian; inbox cleared
