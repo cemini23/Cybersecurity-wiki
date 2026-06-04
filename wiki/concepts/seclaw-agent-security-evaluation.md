@@ -16,7 +16,7 @@ related:
   - "@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-05-31
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
@@ -50,7 +50,7 @@ Canonical cybersec-wiki concept from K98 + `@ccc-wiki/briefs/2026-06-04_cybersec
 | Tool | Role | Tier (2026-06-04) |
 |------|------|-------------------|
 | **SeClaw** | Benchmark — measure/diagnose agent security failures | Reference (NO LICENSE + README-only repo) |
-| **defenseclaw** | Runtime gate — MCP/skill scanners + optional sidecar | CONDITIONAL-GO (CLI scanners adopted on laptop) |
+| **defenseclaw** | Runtime gate — MCP/skill scanners + Codex sidecar (observe) | ADOPTED on laptop 2026-05-31 |
 
 Use SkillSpector/defenseclaw **before** expanding MCP surface; use SeClaw **after** code ships to regression-test trajectory safety.
 

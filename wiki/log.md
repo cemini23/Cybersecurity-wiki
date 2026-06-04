@@ -477,6 +477,12 @@ Brief marked `processed: 2026-06-01`.
 - **Backlinks** `seclaw-eval`, `agent-runtime-guardrails`, `index.md` adopt row for defenseclaw
 - Brief marked processed 2026-06-04
 
+## [2026-05-31] query | defenseclaw sidecar trial — Codex observe runbook
+
+- **Executed** laptop sidecar trial: `defenseclaw-gateway start` on `:18970`, `defenseclaw setup codex --yes --restart` — 18/3/10 doctor; health OK
+- **Updated** `@entities/tools/defenseclaw.md` — full Codex sidecar trial runbook, adoption table bumped to observe-mode ADOPTED
+- **Updated** `index.md` adopt row — sidecar observe adopted
+
 ## [2026-06-03] ingest | K95 — skill injection cluster (3 arXiv)
 
 - **Sources** — 2606.00485 Confused ChatGPT, 2606.01567 defenses/enablers, 2606.03024 SkillGuard

@@ -147,7 +147,7 @@
 | @entities/tools/gopacket.md | draft | Go packet-decoding library for network analysis (Apache-2.0, Mandiant; Steal-from) |
 | @entities/tools/openvpn-install.md | draft | Bash OpenVPN deployment automation — NAT / IPv6-routing logic (Unlicense; Steal-from) |
 | @entities/tools/vpn-self-hosted.md | draft | VPN hub page — WireGuard, OpenVPN, wg-easy, PiVPN, Tailscale catalog + decision matrix |
-| @entities/tools/defenseclaw.md | draft | Enterprise AI security governance — MCP/skill scanners + optional sidecar (Apache-2.0; CONDITIONAL-GO CLI adopted) |
+| @entities/tools/defenseclaw.md | draft | Enterprise AI security governance — MCP/skill scanners + Codex sidecar observe (Apache-2.0; ADOPTED laptop) |
 | @entities/tools/deepzero.md | draft | Windows kernel-driver vuln research pipeline — PE→Ghidra→Semgrep→LLM (MIT) |
 | @entities/tools/grex.md | draft | Regex generation from test cases — SOC/IR log parsing (Apache-2.0) |
 | @entities/tools/vanguard.md | draft | Single-binary DFIR toolkit — Velociraptor+Volatility+KAPE+YARA, 28 MITRE-mapped (MIT) |
@@ -281,7 +281,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | Hackers-Arise AI enumeration | — | Reference | K71 | AI-assisted enumeration article (no code); complements K54 Hackers-Arise MCP log row |
 | cve-mcp-server | Apache-2.0 | CONDITIONAL-GO | K73 | @entities/tools/cve-mcp-server.md — workstation CVE/KEV/EPSS intel enrichment MCP |
 | nvidia-skillspector | Apache-2.0 | Adopt | K88 | @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanner |
-| defenseclaw | Apache-2.0 | CONDITIONAL-GO | K42, CCC | @entities/tools/defenseclaw.md — CLI skill/MCP scanners adopted 2026-06-04; sidecar optional |
+| defenseclaw | Apache-2.0 | ADOPTED (observe) | K42, CCC | @entities/tools/defenseclaw.md — CLI scanners + Codex sidecar observe 2026-05-31; action/LLM judge optional |
 | train-llm-from-scratch | MIT | Reference | K88 | LLM training reference only — not a security tool |
 | linux-basics-for-hackers-notes | — | Reject | K88 | NO LICENSE FOUND — do not adopt |
 | Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
