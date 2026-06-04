@@ -10,6 +10,8 @@ related:
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-02240-agentredbench.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
+  - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - entities/tools/llm-defense-lattice.md
 maturity: draft
 read_status: read
 created: 2026-06-01

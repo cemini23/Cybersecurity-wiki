@@ -458,6 +458,16 @@ Brief marked `processed: 2026-06-01`.
 - **PDF** → `raw-sources/arxiv-2606.02302-seclaw-spec-driven-security-task-synthesis-for-e.pdf`
 - Brief marked processed 2026-06-04
 
+## [2026-06-04] ingest | Daily digest — OWASP LLM defense attribution (arXiv:2606.02822)
+
+**Source**: `research to be indexed/` — daily digest fetch.
+
+- **NEW** `@sources/arxiv-2606-02822-owasp-llm-defense-attribution.md` (read)
+- **NEW** `@entities/tools/llm-defense-lattice.md` (draft, Reference — GitHub license NOASSERTION)
+- **Updated** `agent-runtime-guardrails`, `llm-adversarial-fuzzing`, `llm-pentest-automation`, `ai-for-cybersecurity`, `defenseclaw`, `cryptex-oss`, `seclaw-eval`, `index.md`
+- **PDF** → `raw-sources/arxiv-2606.02822-which-defense-closes-which-threat-attributing-ow.pdf`
+- **Sweep** `2026-06-04-daily.md` marked ingested
+
 ## [2026-06-03] ingest | K95 — skill injection cluster (3 arXiv)
 
 - **Sources** — 2606.00485 Confused ChatGPT, 2606.01567 defenses/enablers, 2606.03024 SkillGuard

@@ -15,9 +15,11 @@ related:
   - entities/tools/agentredguard.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - entities/tools/llm-defense-lattice.md
+  - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-02
+updated: 2026-06-04
 cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
 ---
 

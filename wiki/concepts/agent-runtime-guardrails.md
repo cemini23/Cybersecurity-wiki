@@ -11,6 +11,7 @@ related:
   - concepts/agent-skill-injection.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/responsible-disclosure.md
+  - entities/tools/llm-defense-lattice.md
   - entities/tools/seclaw-eval.md
   - entities/tools/agentredguard.md
   - entities/tools/airguard.md
@@ -27,6 +28,7 @@ related:
   - sources/arxiv-2606-01494-clawhub-security-signals.md
   - sources/arxiv-2606-02240-agentredbench.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
+  - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-04
@@ -42,6 +44,7 @@ updated: 2026-06-04
 - @concepts/agent-vm-sandboxing.md — VM isolation complements but does not replace authority control
 - @concepts/crescendo-multi-turn-jailbreak.md — multi-turn jailbreak vs sleeper persist-and-trigger
 - @concepts/responsible-disclosure.md — agent guardrail bypass findings follow CVD timelines
+- @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense attribution (BAS lattice)
 - @entities/tools/seclaw-eval.md — trajectory-aware Docker benchmark (SeClaw)
 - @entities/tools/agentredguard.md — SaaS integration-aware guard (AgentRedBench paper)
 - @entities/tools/airguard.md — MIT runtime authority guard (AgentTrap / DTAP-150)
@@ -57,6 +60,7 @@ updated: 2026-06-04
 - @sources/arxiv-2606-01494-clawhub-security-signals.md — layered skill scanners (VT / static / SkillSpector)
 - @sources/arxiv-2606-02240-agentredbench.md — dynamic redteam + integration read→write attacks
 - @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — spec-driven tasks + trajectory scoring (SeClaw)
+- @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — OWASP LLM defense-family attribution + paraphrase brittleness
 
 ## Raw Concept
 
@@ -100,6 +104,8 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 - Test **multi-tool compositions**, not isolated tool permissions. [Source: arXiv:2605.26542]
 - Score **tool trajectories**, not final chat politeness — unsafe intermediate steps can hide behind benign summaries. [Source: arXiv:2606.02302 SeClaw]
 - Use **spec-driven task synthesis** for coverage scaling vs static prompt lists alone. [Source: arXiv:2606.02302] `[TENTATIVE]` — local Docker repro pending
+- Attribute **per-defense-family** OWASP LLM coverage (refusal vs budget vs full stack), not one aggregate BAS score. [Source: arXiv:2606.02822]
+- Test **paraphrase brittleness** on refusal-phrase filters — static jailbreak strings overstate block rate. [Source: arXiv:2606.02822]
 
 ### Pentest / engagement implications
 
@@ -121,3 +127,4 @@ Defense layering (recommended order for authorized lab):
 - **Single-surface ASR** as pass/fail metric — systematically overstates defense and understates attack (Surface paper).
 - **Per-tool ACL only** — does not stop permission laundering across composed MCP chains.
 - **Single-scanner skill allowlist** — ClawHub data shows high false-negative/positive disagreement across VT, static, and SkillSpector.
+- **Refusal-regex-only LLM posture** — OWASP lattice paper: paraphrase drops LLM01/LLM07 block rates 15–25 pp; budget controls more stable.

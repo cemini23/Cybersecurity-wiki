@@ -23,6 +23,8 @@ related:
   - sources/arxiv-2606-02240-agentredbench.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - entities/tools/seclaw-eval.md
+  - entities/tools/llm-defense-lattice.md
+  - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-04
@@ -43,6 +45,8 @@ updated: 2026-06-04
 - @sources/arxiv-2606-02240-agentredbench.md — dynamic LLM redteam for SaaS integration agents (not static jailbreak templates)
 - @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — stateful tool-trajectory eval (orthogonal to refusal fuzzing)
 - @entities/tools/seclaw-eval.md — benchmark harness for trajectory scoring
+- @entities/tools/llm-defense-lattice.md — OWASP LLM BAS lattice; paraphrase brittleness on refusal filters
+- @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — refusal-regex brittleness under LLM paraphrase
 
 ## Raw Concept
 

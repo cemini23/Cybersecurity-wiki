@@ -10,6 +10,8 @@ related:
   - entities/tools/airguard.md
   - entities/tools/nvidia-skillspector.md
   - entities/tools/agentredguard.md
+  - entities/tools/llm-defense-lattice.md
+  - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@osint-wiki/sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md"
