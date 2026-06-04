@@ -69,7 +69,7 @@ Primary cybersec fit: blue-team governance for pentest agents, SOC copilots, and
 | `make all` → `~/.local/bin/defenseclaw` | **ADOPTED** |
 | `skill-scanner scan` / `mcp-scanner` | **ADOPTED** — Phase-0 skill/MCP pre-screen |
 | `defenseclaw agent discover` | **ADOPTED** — inventory claudecode/cursor/codex/geminicli |
-| Sidecar on `:18970` + Codex hooks | **ADOPTED (observe)** — hook-driven telemetry; no LLM proxy in data path |
+| Sidecar on `:18970` + Codex hooks | **ADOPTED (observe, on-demand)** — start when using Codex + defenseclaw telemetry; not required for CLI-only scans or Cursor workflow |
 | `DEFENSECLAW_LLM_KEY` + LLM judge | **OPTIONAL** — doctor still fails until set; local YARA scanners work without |
 | `OPENCLAW_GATEWAY_TOKEN` | **N/A (Codex standalone)** — only for OpenClaw fleet upstream |
 | Splunk/OTel Docker bundles | **OPTIONAL** — enterprise observability only |

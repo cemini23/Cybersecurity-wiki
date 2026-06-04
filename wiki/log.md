@@ -483,6 +483,11 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `@entities/tools/defenseclaw.md` — full Codex sidecar trial runbook, adoption table bumped to observe-mode ADOPTED
 - **Updated** `index.md` adopt row — sidecar observe adopted
 
+## [2026-05-31] ops | defenseclaw sidecar stopped (on-demand)
+
+- Sidecar not always-on — stopped after trial; CLI scanners remain on PATH
+- **Updated** `@entities/tools/defenseclaw.md` — adoption table notes on-demand sidecar
+
 ## [2026-06-03] ingest | K95 — skill injection cluster (3 arXiv)
 
 - **Sources** — 2606.00485 Confused ChatGPT, 2606.01567 defenses/enablers, 2606.03024 SkillGuard
