@@ -8,8 +8,10 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/agent-vm-sandboxing.md
+  - concepts/agent-skill-injection.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/responsible-disclosure.md
+  - entities/tools/seclaw-eval.md
   - entities/tools/agentredguard.md
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
@@ -21,11 +23,13 @@ related:
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
+  - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -38,6 +42,7 @@ updated: 2026-06-02
 - @concepts/agent-vm-sandboxing.md — VM isolation complements but does not replace authority control
 - @concepts/crescendo-multi-turn-jailbreak.md — multi-turn jailbreak vs sleeper persist-and-trigger
 - @concepts/responsible-disclosure.md — agent guardrail bypass findings follow CVD timelines
+- @entities/tools/seclaw-eval.md — trajectory-aware Docker benchmark (SeClaw)
 - @entities/tools/agentredguard.md — SaaS integration-aware guard (AgentRedBench paper)
 - @entities/tools/airguard.md — MIT runtime authority guard (AgentTrap / DTAP-150)
 - @entities/tools/chaincaps.md — MCP proxy for composition-safe tool chains
@@ -51,6 +56,7 @@ updated: 2026-06-02
 - @sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md — per-surface eval
 - @sources/arxiv-2606-01494-clawhub-security-signals.md — layered skill scanners (VT / static / SkillSpector)
 - @sources/arxiv-2606-02240-agentredbench.md — dynamic redteam + integration read→write attacks
+- @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — spec-driven tasks + trajectory scoring (SeClaw)
 
 ## Raw Concept
 
@@ -92,6 +98,8 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 - Use **Adaptive Attack Rate (AAR)** = max ASR over surfaces for the model×task cell.
 - Test **multi-session** persist targets (memory, skills), not only single-interaction injection. [Source: arXiv:2605.28201]
 - Test **multi-tool compositions**, not isolated tool permissions. [Source: arXiv:2605.26542]
+- Score **tool trajectories**, not final chat politeness — unsafe intermediate steps can hide behind benign summaries. [Source: arXiv:2606.02302 SeClaw]
+- Use **spec-driven task synthesis** for coverage scaling vs static prompt lists alone. [Source: arXiv:2606.02302] `[TENTATIVE]` — local Docker repro pending
 
 ### Pentest / engagement implications
 

@@ -12,10 +12,12 @@ related:
   - entities/tools/defenseclaw.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
+  - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
+  - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
 maturity: draft
 read_status: read
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations

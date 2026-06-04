@@ -29,9 +29,10 @@ related:
   - concepts/agent-runtime-guardrails.md
   - entities/tools/airguard.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
+  - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

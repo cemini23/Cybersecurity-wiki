@@ -168,6 +168,7 @@
 | @entities/tools/airguard.md | draft | Runtime authority control for tool/MCP agents (MIT; CONDITIONAL-GO) |
 | @entities/tools/chaincaps.md | draft | MCP proxy — composition-safe tool chains via monotonic capability budgets (Reference) |
 | @entities/tools/agentredguard.md | draft | Integration-aware guard for SaaS LLM agents — AgentRedBench paper (Reference) |
+| @entities/tools/seclaw-eval.md | draft | Trajectory-aware agent security benchmark — SeClaw Docker testbed (Reference, K98) |
 
 ### Vendors
 
@@ -281,6 +282,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | train-llm-from-scratch | MIT | Reference | K88 | LLM training reference only — not a security tool |
 | linux-basics-for-hackers-notes | — | Reject | K88 | NO LICENSE FOUND — do not adopt |
 | Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
+| seclaw-eval | — | Reference | K98 | @entities/tools/seclaw-eval.md — trajectory-aware agent security benchmark; **no LICENSE on GitHub API 2026-06-04** |
 
 ## Meta
 

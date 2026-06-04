@@ -447,6 +447,17 @@ Brief marked `processed: 2026-06-01`.
 - **Sweep** `2026-06-02-daily.md` marked ingested; PDFs → `raw-sources/`
 - **Ops** `~/bin/cemini-daily-research-digest-cybersec` loads `~/.cemini/exa-api-key` + `.env` for LaunchAgent (fixes exit 2 when key missing under launchd)
 
+## [2026-06-04] ingest | Cross-wiki brief K98 — SeClaw agent security eval
+
+**K98** (`briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md`): arXiv:2606.02302 trajectory-aware agent security benchmark.
+
+- **NEW** `@sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md` (read)
+- **NEW** `@entities/tools/seclaw-eval.md` (draft, Reference — no LICENSE on GitHub API at Phase-0)
+- **Updated** `agent-runtime-guardrails`, `llm-pentest-automation`, `llm-adversarial-fuzzing`, `index.md`
+- **Backlinks** OSINT `@osint-wiki/sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md` + `@osint-wiki/concepts/seclaw-agent-security-evaluation.md`
+- **PDF** → `raw-sources/arxiv-2606.02302-seclaw-spec-driven-security-task-synthesis-for-e.pdf`
+- Brief marked processed 2026-06-04
+
 ## [2026-06-03] ingest | K95 — skill injection cluster (3 arXiv)
 
 - **Sources** — 2606.00485 Confused ChatGPT, 2606.01567 defenses/enablers, 2606.03024 SkillGuard

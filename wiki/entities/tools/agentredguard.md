@@ -8,10 +8,11 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - entities/tools/airguard.md
   - entities/tools/defenseclaw.md
+  - entities/tools/seclaw-eval.md
   - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-04
 phase_0_verdict: "Reference 2026-06-02 — paper-reported guard; compare vs AIRGuard on integration-diverse lab replay before adopt."
 ---
 

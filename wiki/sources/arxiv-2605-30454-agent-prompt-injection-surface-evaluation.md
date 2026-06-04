@@ -7,11 +7,13 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
+  - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations

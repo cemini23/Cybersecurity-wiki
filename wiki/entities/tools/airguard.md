@@ -14,6 +14,8 @@ related:
   - concepts/llm-pentest-automation.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
+  - entities/tools/seclaw-eval.md
+  - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-06-01

@@ -21,9 +21,11 @@ related:
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
+  - entities/tools/seclaw-eval.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -39,6 +41,8 @@ updated: 2026-06-02
 - @concepts/llm-pentest-automation.md — sibling LLM-pentest methodology; uses adversarial-fuzz patterns for findings validation
 - @concepts/agent-runtime-guardrails.md — agent side-effect attacks exceed jailbreak/refusal testing scope
 - @sources/arxiv-2606-02240-agentredbench.md — dynamic LLM redteam for SaaS integration agents (not static jailbreak templates)
+- @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — stateful tool-trajectory eval (orthogonal to refusal fuzzing)
+- @entities/tools/seclaw-eval.md — benchmark harness for trajectory scoring
 
 ## Raw Concept
 
