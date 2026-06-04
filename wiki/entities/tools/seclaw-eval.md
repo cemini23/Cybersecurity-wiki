@@ -5,11 +5,13 @@ tags: [tool, ai-security, benchmark, evaluation, docker, trajectory, reference, 
 keywords: [seclaw, seclaw-eval, trajectory-aware, docker-testbed, risk-spec, agent benchmark]
 related:
   - concepts/agent-runtime-guardrails.md
+  - concepts/seclaw-agent-security-evaluation.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - entities/tools/airguard.md
   - entities/tools/nvidia-skillspector.md
   - entities/tools/agentredguard.md
+  - entities/tools/defenseclaw.md
   - entities/tools/llm-defense-lattice.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
@@ -25,7 +27,9 @@ phase_0_verdict: "Reference 2026-06-04 — benchmark only; repo has no LICENSE f
 
 ## Relations
 
+- @concepts/seclaw-agent-security-evaluation.md — canonical eval methodology (this entity = repo stub)
 - @concepts/agent-runtime-guardrails.md — trajectory eval hygiene + guard stack under test
+- @entities/tools/defenseclaw.md — runtime scanner gate vs benchmark
 - @concepts/llm-adversarial-fuzzing.md — refusal/jailbreak fuzzing is orthogonal to stateful tool trajectories
 - @concepts/llm-pentest-automation.md — pre-release regression for Tier-2 MCP copilots
 - @entities/tools/airguard.md — runtime guard candidate to measure under SeClaw tasks

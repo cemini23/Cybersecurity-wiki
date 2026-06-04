@@ -468,6 +468,15 @@ Brief marked `processed: 2026-06-01`.
 - **PDF** → `raw-sources/arxiv-2606.02822-which-defense-closes-which-threat-attributing-ow.pdf`
 - **Sweep** `2026-06-04-daily.md` marked ingested
 
+## [2026-06-04] ingest | CCC handoff — defenseclaw sidecar + SeClaw eval canon
+
+**Brief:** `@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md`
+
+- **Updated** `@entities/tools/defenseclaw.md` — sidecar install (`DEFENSECLAW_LLM_KEY`, port 18970), MCP scanner runbook, Splunk/OTel optional; CONDITIONAL-GO CLI scanners (CCC trial 2026-06-04)
+- **NEW** `@concepts/seclaw-agent-security-evaluation.md` — canonical trajectory-eval concept; CCC/OSINT remain methodology pointers
+- **Backlinks** `seclaw-eval`, `agent-runtime-guardrails`, `index.md` adopt row for defenseclaw
+- Brief marked processed 2026-06-04
+
 ## [2026-06-03] ingest | K95 — skill injection cluster (3 arXiv)
 
 - **Sources** — 2606.00485 Confused ChatGPT, 2606.01567 defenses/enablers, 2606.03024 SkillGuard

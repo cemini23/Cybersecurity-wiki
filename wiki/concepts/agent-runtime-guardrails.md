@@ -12,6 +12,7 @@ related:
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/responsible-disclosure.md
   - entities/tools/llm-defense-lattice.md
+  - concepts/seclaw-agent-security-evaluation.md
   - entities/tools/seclaw-eval.md
   - entities/tools/agentredguard.md
   - entities/tools/airguard.md
@@ -45,6 +46,7 @@ updated: 2026-06-04
 - @concepts/crescendo-multi-turn-jailbreak.md — multi-turn jailbreak vs sleeper persist-and-trigger
 - @concepts/responsible-disclosure.md — agent guardrail bypass findings follow CVD timelines
 - @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense attribution (BAS lattice)
+- @concepts/seclaw-agent-security-evaluation.md — trajectory eval methodology (SeClaw)
 - @entities/tools/seclaw-eval.md — trajectory-aware Docker benchmark (SeClaw)
 - @entities/tools/agentredguard.md — SaaS integration-aware guard (AgentRedBench paper)
 - @entities/tools/airguard.md — MIT runtime authority guard (AgentTrap / DTAP-150)

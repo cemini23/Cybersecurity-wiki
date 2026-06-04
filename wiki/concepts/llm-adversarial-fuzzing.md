@@ -16,6 +16,7 @@ related:
   - entities/tools/cryptex-oss.md
   - entities/tools/agentredguard.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/seclaw-agent-security-evaluation.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md

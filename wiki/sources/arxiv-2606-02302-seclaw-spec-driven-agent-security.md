@@ -5,6 +5,7 @@ tags: [arxiv, agent-security, evaluation, benchmark, trajectory, docker-testbed,
 keywords: [seclaw, 2606.02302, trajectory-aware, risk-spec, openclaw, tool-using agents, docker testbed]
 related:
   - concepts/agent-runtime-guardrails.md
+  - concepts/seclaw-agent-security-evaluation.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - entities/tools/seclaw-eval.md

@@ -14,6 +14,7 @@ related:
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/seclaw-agent-security-evaluation.md
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
