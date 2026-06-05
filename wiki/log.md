@@ -507,3 +507,9 @@ Brief marked `processed: 2026-06-01`.
 - **Promoted** `@concepts/mcp-security-posture.md`, `@concepts/neuro-symbolic-auditable-reasoning.md` → **validated**
 - **Updated** `agent-runtime-guardrails`, `agent-skill-injection`, `llm-pentest-automation`, `llm-vulnerability-discovery`, `defenseclaw`, `index.md`
 - **PDFs** archived to `raw-sources/` (2605.24248, 2606.00669, 2606.04425, 2606.04769, 2606.05567)
+
+## [2026-05-31] brief | K100 SPI checklist + prod-mcp allowlist
+
+- **NEW** `briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md` → CCC skill-vetting steps 9–11
+- **NEW** `briefs/2026-05-31_prod-mcp-allowlist-draft-k100.md` → lazy-tool / prod-mcp deny-by-default YAML draft
+- **OSINT mirror** `briefs/2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md` + `.cursor/mcp-allowlist-draft.yaml`
