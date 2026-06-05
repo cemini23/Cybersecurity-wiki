@@ -494,3 +494,9 @@ Brief marked `processed: 2026-06-01`.
 - **Concept** — `agent-skill-injection.md`
 - **Cross-wiki** — steal permission model → `@ccc-wiki/concepts/skill-vetting.md`; OSINT prod brief `2026-06-03_k95-skillguard-permission-steal-cemini-prod`
 - **PDFs** → librarian; inbox cleared
+
+## [2026-06-05] ingest | K100 — MCP security + NeuroLog batch (5 arXiv)
+
+- **Sources** — 2606.00669 NeuroLog (OSINT handoff); 2605.24248 attested tool admission; 2606.04425 prompt injection persistence; 2606.04769 MCP description–code drift; 2606.05567 ZERO-APT
+- **Concepts** — `mcp-security-posture`, `neuro-symbolic-auditable-reasoning`
+- **PDFs** → librarian; inbox cleared
