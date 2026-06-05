@@ -32,6 +32,8 @@ related:
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - entities/tools/llm-defense-lattice.md
+  - concepts/neuro-symbolic-auditable-reasoning.md
+  - concepts/mcp-security-posture.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-06-04

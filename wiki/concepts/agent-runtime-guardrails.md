@@ -30,9 +30,14 @@ related:
   - sources/arxiv-2606-02240-agentredbench.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
+  - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
+  - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
+  - concepts/mcp-security-posture.md
+  - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-05-31
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -130,3 +135,5 @@ Defense layering (recommended order for authorized lab):
 - **Per-tool ACL only** — does not stop permission laundering across composed MCP chains.
 - **Single-scanner skill allowlist** — ClawHub data shows high false-negative/positive disagreement across VT, static, and SkillSpector.
 - **Refusal-regex-only LLM posture** — OWASP lattice paper: paraphrase drops LLM01/LLM07 block rates 15–25 pp; budget controls more stable.
+- **Session-only prompt guards** — K100 SPI paper: 32–42% E2E-ASR when poison persists across session reset (@sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md).
+- **Trusting MCP tool descriptions** — 9.93% description–code inconsistency in wild MCP servers; attestation gates admission not semantic honesty (@concepts/mcp-security-posture.md).

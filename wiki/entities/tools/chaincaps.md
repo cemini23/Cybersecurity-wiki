@@ -10,9 +10,11 @@ related:
   - entities/tools/nvidia-skillspector.md
   - entities/tools/defenseclaw.md
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
+  - concepts/mcp-security-posture.md
+  - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-05-31
 phase_0_verdict: "Reference 2026-06-01 — workshop paper + MCP proxy pattern; no canonical public repo in source; adopt pattern after manifest linter + lab replay."
 ---
 

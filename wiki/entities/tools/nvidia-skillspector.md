@@ -19,6 +19,8 @@ related:
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
+  - concepts/mcp-security-posture.md
+  - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
   - entities/tools/seclaw-eval.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - "@osint-wiki/entities/tools/nvidia-skillspector.md"

@@ -20,9 +20,11 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/neuro-symbolic-auditable-reasoning.md
+  - sources/arxiv-neurolog-auditable-vuln-discovery-2606.00669-2026-06-05.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-01
+updated: 2026-05-31
 ---
 
 ## Relations

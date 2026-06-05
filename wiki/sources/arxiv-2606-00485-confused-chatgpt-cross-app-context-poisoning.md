@@ -10,6 +10,7 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
 maturity: draft
 read_status: read
 created: 2026-06-03

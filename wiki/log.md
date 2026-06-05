@@ -500,3 +500,10 @@ Brief marked `processed: 2026-06-01`.
 - **Sources** — 2606.00669 NeuroLog (OSINT handoff); 2605.24248 attested tool admission; 2606.04425 prompt injection persistence; 2606.04769 MCP description–code drift; 2606.05567 ZERO-APT
 - **Concepts** — `mcp-security-posture`, `neuro-symbolic-auditable-reasoning`
 - **PDFs** → librarian; inbox cleared
+
+## [2026-05-31] deep-read | K100 — MCP security + NeuroLog batch (5 arXiv)
+
+- **Deep-read** all 5 K100 sources (`read_status: read`) — attested MCP admission, SPI benchmark, DCI measurement, ZERO-APT, NeuroLog
+- **Promoted** `@concepts/mcp-security-posture.md`, `@concepts/neuro-symbolic-auditable-reasoning.md` → **validated**
+- **Updated** `agent-runtime-guardrails`, `agent-skill-injection`, `llm-pentest-automation`, `llm-vulnerability-discovery`, `defenseclaw`, `index.md`
+- **PDFs** archived to `raw-sources/` (2605.24248, 2606.00669, 2606.04425, 2606.04769, 2606.05567)

@@ -6,6 +6,7 @@ keywords: [2606.01567, skill injection, defenses]
 related:
   - concepts/agent-skill-injection.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
+  - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
 maturity: draft
 read_status: read
 created: 2026-06-03

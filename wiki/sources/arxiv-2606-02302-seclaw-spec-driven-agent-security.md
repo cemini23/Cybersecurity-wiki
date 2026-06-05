@@ -14,6 +14,7 @@ related:
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-02240-agentredbench.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
   - "@osint-wiki/sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md"
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 maturity: draft

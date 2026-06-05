@@ -79,9 +79,10 @@ related:
   - entities/tools/red-run.md
   - entities/tools/osmedeus.md
   - entities/tools/offensive-claude.md
+  - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-01
+updated: 2026-05-31
 ---
 
 ## Relations

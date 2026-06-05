@@ -7,11 +7,13 @@ related:
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
+  - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
+  - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -32,3 +34,7 @@ K95 cluster (2026-06-03 daily digest): three papers on **agent skill / context i
 | SkillGuard | 2606.03024 | Permission framework for agent skills — steal-for skill_audit |
 
 **Cemini relevance:** extend `skill-vetting.md` + prod MCP governance (K94 brief) with permission metadata; no SkillGuard vendor install without Phase-0.
+
+### Cross-session stored prompt injection (K100 — 2606.04425)
+
+SPI extends skill/MCP injection across **sessions**: poisoned `AGENTS.md`, memory, or tool-visible state can activate after session reset (32–42% E2E-ASR on SPI-Benchmark). Install-time vetting is necessary but not sufficient — audit **write paths to persistent context** and post-reset activation. See @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md and @concepts/mcp-security-posture.md.

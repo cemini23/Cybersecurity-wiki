@@ -79,6 +79,8 @@
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards (ePCA, AIRGuard, ChainCaps, layered skill scan, SaaS integration) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection attack surface + SkillGuard permission model + cross-app context poisoning |
+| @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI (9.93%), cross-session SPI, lazy-tool checklist |
+| @concepts/neuro-symbolic-auditable-reasoning.md | validated | K100 — NeuroLog-style Datalog+SMT auditable vuln chains |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
 | @concepts/game-hacking.md | draft | Anti-cheat bypass as RE practice |
