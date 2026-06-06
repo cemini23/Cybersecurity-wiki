@@ -12,7 +12,7 @@ related:
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-31
-cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md
+cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md"
 ---
 
 # src-hunter-skill — Claude Code bug-bounty / pentest skill

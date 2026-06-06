@@ -8,7 +8,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-16
-cross-wiki-source: @osint-wiki/entities/tools/tpotce.md
+cross-wiki-source: "@osint-wiki/entities/tools/tpotce.md"
 ---
 
 # T-Pot — Multi-Honeypot Deception Framework

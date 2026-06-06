@@ -11,7 +11,7 @@ related:
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
-cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.md
+cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.md"
 ---
 
 # raptor — Claude Code offensive/defensive security agent

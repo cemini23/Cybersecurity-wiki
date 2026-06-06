@@ -7,10 +7,11 @@ related:
   - concepts/neuro-symbolic-auditable-reasoning.md
   - concepts/llm-vulnerability-discovery.md
   - concepts/responsible-disclosure.md
+  - "@osint-wiki/sources/arxiv-neurolog-osint-handoff-2606.00669-2026-06-06.md"
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-05-31
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -18,6 +19,7 @@ updated: 2026-05-31
 - @concepts/neuro-symbolic-auditable-reasoning.md — canonical methodology synthesis
 - @concepts/llm-vulnerability-discovery.md — compile-free alternative to CodeQL-first pipelines
 - @concepts/responsible-disclosure.md — libarchive upstream filing pattern
+- @osint-wiki/sources/arxiv-neurolog-osint-handoff-2606.00669-2026-06-06.md — OSINT K101 librarian-move pointer
 
 ## Raw Concept
 

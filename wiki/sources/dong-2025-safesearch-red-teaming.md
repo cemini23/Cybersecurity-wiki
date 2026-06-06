@@ -4,7 +4,7 @@ type: source
 tags: [source, llm, search-agent, red-teaming, misinformation]
 keywords: [SafeSearch, search agent, prompt injection, content farms, RAG safety]
 related:
-  - @seo-wiki/sources/dong-2025-safesearch-red-teaming.md
+  - "@seo-wiki/sources/dong-2025-safesearch-red-teaming.md"
 maturity: draft
 read_status: skimmed
 created: 2026-06-01

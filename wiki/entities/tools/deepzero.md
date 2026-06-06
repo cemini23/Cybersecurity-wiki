@@ -11,7 +11,7 @@ related:
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
-cross-wiki-source: @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md
+cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 ---
 
 # DeepZero — automated Windows kernel-driver vulnerability research

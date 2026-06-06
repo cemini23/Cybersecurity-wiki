@@ -11,7 +11,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-16
-cross-wiki-source: @osint-wiki/entities/tools/apktool-mcp-server.md
+cross-wiki-source: "@osint-wiki/entities/tools/apktool-mcp-server.md"
 ---
 
 # apktool-mcp-server — Android Reverse Engineering via MCP

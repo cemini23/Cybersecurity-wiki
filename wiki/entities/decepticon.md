@@ -10,7 +10,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/decepticon.md
+cross-wiki-source: "@osint-wiki/entities/tools/decepticon.md"
 ---
 
 # Decepticon — Autonomous Red-Team Multi-Agent Framework

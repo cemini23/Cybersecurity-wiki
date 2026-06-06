@@ -10,7 +10,7 @@ related:
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/claude-red-offensive-skills.md
+cross-wiki-source: "@osint-wiki/entities/tools/claude-red-offensive-skills.md"
 ---
 
 # Claude-Red — Offensive Security Skills Library for Claude Code
