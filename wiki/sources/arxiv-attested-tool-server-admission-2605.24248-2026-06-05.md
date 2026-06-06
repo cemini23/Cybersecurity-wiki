@@ -9,6 +9,7 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/chaincaps.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
+  - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
 maturity: draft
 read_status: read
 created: 2026-06-05

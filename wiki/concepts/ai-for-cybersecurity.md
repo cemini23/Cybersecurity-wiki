@@ -31,6 +31,7 @@ related:
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - entities/tools/llm-defense-lattice.md
   - concepts/neuro-symbolic-auditable-reasoning.md
   - concepts/mcp-security-posture.md

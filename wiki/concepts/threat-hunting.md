@@ -24,6 +24,7 @@ related:
   - sources/soc-analyst-book.md
   - sources/50-free-online-tools-soc-analysts.md
   - sources/threat-hunting-101.md
+  - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - concepts/ransomware.md
   - sources/ransomware-investigation-runbook.md
   - concepts/threat-intelligence.md

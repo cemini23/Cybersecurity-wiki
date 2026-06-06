@@ -7,6 +7,7 @@ related:
   - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
+  - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
   - concepts/llm-pentest-automation.md
@@ -17,7 +18,7 @@ related:
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: validated
 created: 2026-06-05
-updated: 2026-05-31
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -25,6 +26,7 @@ updated: 2026-05-31
 - @sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md — mcp-attested clearance + allowlist
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — cross-session stored SPI
 - @sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md — DCI measurement (9.93%)
+- @sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md — WebMCP MSTI (mid-session tool registry)
 - @concepts/agent-runtime-guardrails.md — runtime enforcement stack
 - @concepts/agent-skill-injection.md — installable skills/MCP as SPI source
 - @concepts/llm-pentest-automation.md — ZERO-APT eval under live defense (separate source)
@@ -49,6 +51,7 @@ MCP makes tool integration easy by exposing **metadata-only** interfaces to the 
 | **Semantic honesty** | Description/schema ≠ code behavior | 2606.04769 DCI (9.93% in wild) | mcp-scanner + DCIChecker-class description↔code cross-check before prod allowlist |
 | **Persistence** | Injection survives session reset via memory/files/tool state | 2606.04425 SPI (32–42% E2E-ASR) | Write-path governance; treat `AGENTS.md`/memory/tool artifacts as strong-persistence channels |
 | **Eval realism** | Pentest agents never face live defense | 2606.05567 ZERO-APT | Benchmark Tier-2 agents against configurable Defender — see @concepts/llm-pentest-automation.md |
+| **Runtime surface** | Mid-session tool list mutation in browser WebMCP | 2606.06387 MSTI | OBAC + origin-bound registration; freeze tool catalog after task start; log registration events |
 
 ### Confused deputy chain
 
@@ -59,7 +62,7 @@ Untrusted content → (write) persistent state / tool list
                  → implementation C executes (possibly ≠ D)
 ```
 
-Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether **authorized tools lie**. SPI asks whether **past sessions poison future 𝒜**. No single product covers all three — @entities/tools/defenseclaw.md covers scan + optional admission; human GO still required for write MCPs on prod-mcp/lazy-tool.
+Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether **authorized tools lie**. SPI asks whether **past sessions poison future 𝒜**. MSTI asks whether **the tool catalog itself changes mid-task** (WebMCP registry hijack/framing — up to 100% exfil ASR on registration race, 85% task completion on framing attacks). No single product covers all four — @entities/tools/defenseclaw.md covers scan + optional admission; human GO still required for write MCPs on prod-mcp/lazy-tool.
 
 ### Cemini / lazy-tool checklist [TENTATIVE]
 
@@ -68,6 +71,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 3. No auto-load of file-backed agent instructions from untrusted workspaces without review.
 4. Session-reset tests for SPI on any harness storing memory across chats.
 5. Re-scan on MCP version bump (DCI drift).
+6. For browser WebMCP: treat dynamic tool registration as untrusted; require origin binding + registration audit log (2606.06387 MSTI).
 
 ## Snippets
 
@@ -77,6 +81,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 | 2606.04769 | **9.93%** DCI rate / 19,200 pairs |
 | 2606.04425 | **74–82%** fact-manipulation E2E-ASR |
 | 2606.05567 | **79%** ASR vs adaptive Defender (Windows post-exploit lab) |
+| 2606.06387 | **100%** MSTI registration-race ASR; **85%** task completion on framing attacks |
 
 ## Dead Ends
 

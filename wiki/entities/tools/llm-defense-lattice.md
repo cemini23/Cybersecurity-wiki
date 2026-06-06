@@ -8,14 +8,16 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
+  - concepts/siem.md
   - entities/tools/defenseclaw.md
   - entities/tools/cryptex-oss.md
   - entities/tools/seclaw-eval.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-06
 phase_0_verdict: "Reference 2026-06-04 — open lattice + 17-probe corpus; GitHub license NOASSERTION; laptop BAS regression only after LICENSE audit."
 ---
 
@@ -30,6 +32,8 @@ phase_0_verdict: "Reference 2026-06-04 — open lattice + 17-probe corpus; GitHu
 - @entities/tools/cryptex-oss.md — attack-side mutators for brittleness sweeps
 - @entities/tools/seclaw-eval.md — agent trajectory benchmark (different eval axis)
 - @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — paper + methodology provenance
+- @sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md — companion: bypassed probe → deterministic Sigma starter rules
+- @concepts/siem.md — detection-as-code output path from BAS findings
 
 ## Raw Concept
 
@@ -49,6 +53,8 @@ Daily digest fetch (2026-06-04). GitHub `alemaiorano/llm-defense-lattice` — fo
 - Stub targets only — L₄ real-LLM backend test showed regex dominated alignment on tested config (paper-scoped claim)
 
 **Not** a substitute for @entities/tools/seclaw-eval.md (tool-using agent trajectories) or commercial BAS (AttackIQ, SafeBreach, etc.).
+
+**Round-trip with 2606.05252**: lattice BAS produces attributed findings on locked 17-probe LLM corpus; companion paper maps bypassed findings → Sigma templates with probe-level traceback URIs — same sha256-pinned corpus discipline, defense-side output.
 
 ## Snippets
 

@@ -12,6 +12,7 @@ related:
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
   - concepts/mcp-security-posture.md
   - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
+  - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-05-31

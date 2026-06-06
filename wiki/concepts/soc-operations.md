@@ -25,6 +25,7 @@ related:
   - sources/soc-analyst-career.md
   - sources/soc-open-source-tools.md
   - sources/2025-cybersecurity-attacks-playbooks.md
+  - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - concepts/siem.md
   - concepts/endpoint-detection-response.md
   - entities/tools/splunk.md

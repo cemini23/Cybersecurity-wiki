@@ -8,6 +8,7 @@ related:
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
+  - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - "@ccc-wiki/concepts/skill-vetting.md"

@@ -513,3 +513,13 @@ Brief marked `processed: 2026-06-01`.
 - **NEW** `briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md` → CCC skill-vetting steps 9–11
 - **NEW** `briefs/2026-05-31_prod-mcp-allowlist-draft-k100.md` → lazy-tool / prod-mcp deny-by-default YAML draft
 - **OSINT mirror** `briefs/2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md` + `.cursor/mcp-allowlist-draft.yaml`
+
+## [2026-06-06] ingest | Daily digest — BAS→Sigma + WebMCP MSTI (2 arXiv)
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-06 sweep).
+
+- **NEW** `@sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md` (read) — deterministic locked-corpus finding → Sigma starter rules; OpenSearch replay 30%/14% held-out fire rates
+- **NEW** `@sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md` (read) — Mid-Session Tool Injection (MSTI): hijacking up to 100% ASR, framing with 85% task completion
+- **Updated** `siem`, `mcp-security-posture`, `agent-runtime-guardrails`, `llm-defense-lattice`, `arxiv-2606-02822-owasp-llm-defense-attribution`, `index.md`
+- **PDFs** → `raw-sources/arxiv-2606.05252-from-attack-simulation-to-siem-rule-determin.pdf`, `raw-sources/arxiv-2606.06387-webmcp-tool-surface-poisoning-runtime-manipulati.pdf`
+- **Inbox cleared** — 2/2 files ingested

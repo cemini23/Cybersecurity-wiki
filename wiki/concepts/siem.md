@@ -6,9 +6,11 @@ keywords: [siem, log management, correlation, detection engineering, splunk, qra
 related:
   - concepts/soc-operations.md
   - concepts/threat-hunting.md
+  - entities/tools/llm-defense-lattice.md
   - entities/tools/splunk.md
   - entities/tools/qradar.md
   - entities/tools/wazuh.md
+  - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - sources/100-splunk-queries-soc-analyst.md
   - sources/next-gen-soc-ibm-qradar.md
   - sources/linux-log-analysis-wazuh.md
@@ -22,7 +24,7 @@ related:
   - entities/people/ashish-m-kothekar.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-17
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -43,6 +45,8 @@ updated: 2026-05-17
 - @entities/tools/sysmon.md
 - @entities/people/rajneesh-gupta.md
 - @entities/people/ashish-m-kothekar.md
+- @entities/tools/llm-defense-lattice.md
+- @sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
 
 ## Raw Concept
 
@@ -67,3 +71,17 @@ Common platforms: Splunk (@entities/tools/splunk.md), IBM QRadar (@entities/tool
 Wazuh (@entities/tools/wazuh.md, FOSS), Elastic, and Microsoft Sentinel. The corpus's
 *Open-Source SOC* and *Low Cost SOC* material favours the FOSS path (Wazuh + Elastic). The
 12 log types a SIEM ingests are catalogued in the corpus's *SOC logs* reference.
+
+### Detection-as-code + BAS → Sigma (2026 research)
+
+Breach-and-attack-simulation (BAS) findings describe **what monitoring missed**; operators traditionally hand-author Sigma YAML to close gaps. arXiv:2606.05252 shows a **deterministic** alternative when probes come from a **locked corpus** with stable `probe_id` + OWASP/MITRE tags:
+
+```
+BAS bypass finding → probe_id → OWASP category → Sigma template → starter rule (+ traceback URIs)
+```
+
+- **23-template library** (OWASP LLM + Web Top 10) — starter quality only; analyst review before prod.
+- **Traceability**: emitted rules reference originating finding + MITRE technique; byte-stable re-derivation from published corpus.
+- **Live replay**: OpenSearch SIEM fired on 30% AdvBench / 14% HarmBench held-out subsets (7.7% FP benign baseline) — not production coverage claims.
+
+Pairs with @entities/tools/llm-defense-lattice.md (engine-side OWASP LLM attribution on the same locked 17-probe corpus). See @sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md.

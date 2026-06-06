@@ -14,10 +14,11 @@ related:
   - entities/tools/seclaw-eval.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
+  - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -32,6 +33,7 @@ updated: 2026-06-04
 - @entities/tools/seclaw-eval.md — trajectory-aware agent benchmark (orthogonal eval axis)
 - @sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md — per-surface ASR vs per-defense attribution
 - @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — stateful agent trajectory eval
+- @sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md — companion: bypassed probe → Sigma starter rules (same locked corpus)
 
 ## Raw Concept
 

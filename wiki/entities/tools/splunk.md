@@ -23,6 +23,7 @@ related:
   - sources/open-source-soc-guide.md
   - sources/soc-analyst-book.md
   - sources/next-gen-soc-ibm-qradar.md
+  - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - entities/people/rajneesh-gupta.md
 maturity: validated
 created: 2026-05-16
