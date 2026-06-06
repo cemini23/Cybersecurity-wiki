@@ -12,6 +12,8 @@ related:
   - entities/tools/super-spr.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/docker-agent-sandbox-allowlist-proxy.md
+  - entities/tools/defending-code-reference-harness.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-06-01

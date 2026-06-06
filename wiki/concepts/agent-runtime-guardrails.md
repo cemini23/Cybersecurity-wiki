@@ -36,6 +36,7 @@ related:
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/mcp-security-posture.md
+  - concepts/docker-agent-sandbox-allowlist-proxy.md
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
 maturity: draft
 created: 2026-06-01

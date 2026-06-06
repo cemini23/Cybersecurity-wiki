@@ -12,6 +12,8 @@ related:
   - concepts/av-edr-bypass.md
   - entities/tools/fuzzyai.md
   - entities/tools/pentest-ai-agents.md
+  - concepts/docker-agent-sandbox-allowlist-proxy.md
+  - entities/tools/defending-code-reference-harness.md
   - "@osint-wiki/entities/tools/cua.md"
 maturity: validated
 created: 2026-05-13

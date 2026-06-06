@@ -11,10 +11,12 @@ related:
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
+  - entities/tools/defending-code-reference-harness.md
+  - concepts/docker-agent-sandbox-allowlist-proxy.md
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: draft
 created: 2026-06-03
-updated: 2026-05-31
+updated: 2026-06-06
 ---
 
 ## Relations

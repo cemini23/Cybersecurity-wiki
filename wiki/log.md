@@ -523,3 +523,13 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `siem`, `mcp-security-posture`, `agent-runtime-guardrails`, `llm-defense-lattice`, `arxiv-2606-02822-owasp-llm-defense-attribution`, `index.md`
 - **PDFs** → `raw-sources/arxiv-2606.05252-from-attack-simulation-to-siem-rule-determin.pdf`, `raw-sources/arxiv-2606.06387-webmcp-tool-surface-poisoning-runtime-manipulati.pdf`
 - **Inbox cleared** — 2/2 files ingested
+
+## [2026-06-06] brief | K102 — defending-code reference harness
+
+**Brief:** `briefs/2026-06-06_k102-cybersec-defending-code-harness-from-osint.md`
+
+- **NEW** `@entities/tools/defending-code-reference-harness.md` (draft, CONDITIONAL-GO — Apache-2.0, laptop Docker/gVisor only)
+- **NEW** `@concepts/docker-agent-sandbox-allowlist-proxy.md` — vp-internal + egress allowlist pattern
+- **Updated** `agent-vm-sandboxing`, `llm-vulnerability-discovery`, `exploit-development`, `agent-skill-injection`, `index.md`
+- **Backlinks** `@osint-wiki/entities/tools/defending-code-reference-harness.md`
+- **Brief triage:** K100 CCC handoff → processed (CCC skill-vetting steps 9–11 live); prod-mcp allowlist → delivered (YAML in OSINT `.cursor/`); world-cup audit → archived (2026-06-03 drop)

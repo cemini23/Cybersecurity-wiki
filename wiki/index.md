@@ -30,7 +30,8 @@
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
-| @concepts/agent-vm-sandboxing.md | draft | LLM-driven agent-VM sandboxing framework |
+| @concepts/agent-vm-sandboxing.md | validated | LLM-driven agent-VM sandboxing; pairs with Docker allowlist proxy (K102) |
+| @concepts/docker-agent-sandbox-allowlist-proxy.md | draft | Docker/gVisor agent sandbox + vp-internal egress allowlist (K102) |
 
 ### Offensive technique categories
 
@@ -71,7 +72,7 @@
 | Page | Maturity | Topic |
 |------|----------|-------|
 | @concepts/ai-for-cybersecurity.md | draft | LLM use in red + blue workflows |
-| @concepts/llm-vulnerability-discovery.md | draft | LLM-driven vuln-discovery pipeline (Detect→Attack) |
+| @concepts/llm-vulnerability-discovery.md | draft | LLM-driven vuln-discovery pipeline (Detect→Attack); defending-code ASAN verify |
 | @concepts/llm-adversarial-fuzzing.md | draft | Adversarial LLM testing methodology (FuzzyAI umbrella) |
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
@@ -173,6 +174,7 @@
 | @entities/tools/agentredguard.md | draft | Integration-aware guard for SaaS LLM agents — AgentRedBench paper (Reference) |
 | @entities/tools/seclaw-eval.md | draft | Trajectory-aware agent security benchmark — SeClaw Docker testbed (Reference, K98) |
 | @entities/tools/llm-defense-lattice.md | draft | OWASP LLM Top 10 defense attribution — BAS lattice + 17-probe corpus (Reference) |
+| @entities/tools/defending-code-reference-harness.md | draft | Anthropic Docker/gVisor vuln-discovery reference harness — K102 CONDITIONAL-GO |
 
 ### Vendors
 
@@ -289,6 +291,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
 | seclaw-eval | — | Reference | K98 | @entities/tools/seclaw-eval.md — trajectory-aware agent security benchmark; **no LICENSE on GitHub API 2026-06-04** |
 | llm-defense-lattice | NOASSERTION | Reference | digest | @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense BAS lattice; license audit pending |
+| defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
 
 ## Meta
 

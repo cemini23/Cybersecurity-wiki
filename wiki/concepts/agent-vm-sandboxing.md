@@ -12,9 +12,11 @@ related:
   - concepts/av-edr-bypass.md
   - entities/tools/iron-proxy.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/docker-agent-sandbox-allowlist-proxy.md
+  - entities/tools/defending-code-reference-harness.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-06-01
 - @concepts/av-edr-bypass.md — clean-image VMs let you test payload behavior without contaminating host EDR telemetry
 - @entities/tools/iron-proxy.md — network-layer egress complement to VM isolation
 - @concepts/agent-runtime-guardrails.md — substrate isolation complements runtime side-effect guards
+- @concepts/docker-agent-sandbox-allowlist-proxy.md — Docker/gVisor + egress allowlist pattern (K102)
+- @entities/tools/defending-code-reference-harness.md — Anthropic reference pipeline
 
 ## Raw Concept
 

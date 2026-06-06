@@ -8,9 +8,10 @@ related:
   - concepts/llm-vulnerability-discovery.md
   - concepts/responsible-disclosure.md
   - concepts/ai-for-cybersecurity.md
+  - entities/tools/defending-code-reference-harness.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-05-31
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-31
 - @concepts/llm-vulnerability-discovery.md — two-stage Detect→Attack pipelines; NeuroLog as compile-free variant
 - @concepts/responsible-disclosure.md — libarchive upstream disclosure pattern from evaluation
 - @concepts/ai-for-cybersecurity.md — LLM role boundaries in security workflows
+- @entities/tools/defending-code-reference-harness.md — execute-to-crash ASAN complement (NeuroLog = compile-free audit)
 
 ## Raw Concept
 
