@@ -11,6 +11,8 @@ related:
   - entities/tools/qradar.md
   - entities/tools/wazuh.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
   - sources/100-splunk-queries-soc-analyst.md
   - sources/next-gen-soc-ibm-qradar.md
   - sources/linux-log-analysis-wazuh.md
@@ -24,7 +26,7 @@ related:
   - entities/people/ashish-m-kothekar.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

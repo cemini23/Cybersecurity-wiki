@@ -9,10 +9,12 @@ related:
   - concepts/agent-runtime-guardrails.md
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-05-31
+updated: 2026-06-07
 ---
 
 ## Relations

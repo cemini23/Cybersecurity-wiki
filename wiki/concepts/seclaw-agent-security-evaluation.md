@@ -11,12 +11,14 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
 maturity: draft
 created: 2026-06-04
-updated: 2026-05-31
+updated: 2026-06-07
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
@@ -43,6 +45,7 @@ Canonical cybersec-wiki concept from K98 + `@ccc-wiki/briefs/2026-06-04_cybersec
 |---------------|----------------------------------|
 | **Risk specs → tasks** | Scalable coverage vs static jailbreak lists |
 | **Trajectory scoring** | Unsafe intermediate tool steps can hide behind polite summaries |
+| **Provenance eval** | Survey (2606.04990): trajectory metrics are one of four accountability families — pair with evidence attribution + failure localization |
 | **Docker testbed** | Laptop regression harness — not a prod runtime dependency |
 
 ### vs defenseclaw

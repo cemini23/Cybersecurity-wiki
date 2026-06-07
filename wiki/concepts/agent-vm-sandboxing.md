@@ -13,10 +13,12 @@ related:
   - entities/tools/iron-proxy.md
   - concepts/agent-runtime-guardrails.md
   - concepts/docker-agent-sandbox-allowlist-proxy.md
+  - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - entities/tools/defending-code-reference-harness.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

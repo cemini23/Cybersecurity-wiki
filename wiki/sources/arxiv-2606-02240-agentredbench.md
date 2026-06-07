@@ -14,10 +14,12 @@ related:
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
 maturity: draft
 read_status: read
 created: 2026-06-02
-updated: 2026-06-04
+updated: 2026-06-07
 ---
 
 ## Relations

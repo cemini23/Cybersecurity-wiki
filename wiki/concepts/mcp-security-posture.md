@@ -8,6 +8,8 @@ related:
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
   - concepts/llm-pentest-automation.md
@@ -18,7 +20,7 @@ related:
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-06-06
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — cross-session stored SPI
 - @sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md — DCI measurement (9.93%)
 - @sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md — WebMCP MSTI (mid-session tool registry)
+- @sources/arxiv-2606-04990-agent-traces-evidence-provenance.md — provenance survey (2606.04990)
+- @concepts/agent-execution-provenance.md — process accountability layer
 - @concepts/agent-runtime-guardrails.md — runtime enforcement stack
 - @concepts/agent-skill-injection.md — installable skills/MCP as SPI source
 - @concepts/llm-pentest-automation.md — ZERO-APT eval under live defense (separate source)
@@ -72,6 +76,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 4. Session-reset tests for SPI on any harness storing memory across chats.
 5. Re-scan on MCP version bump (DCI drift).
 6. For browser WebMCP: treat dynamic tool registration as untrusted; require origin binding + registration audit log (2606.06387 MSTI).
+7. Log tool-call provenance (params + source labels) for audit — untrusted MCP metadata is not ground truth (2606.04990).
 
 ## Snippets
 

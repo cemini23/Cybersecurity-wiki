@@ -533,3 +533,13 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `agent-vm-sandboxing`, `llm-vulnerability-discovery`, `exploit-development`, `agent-skill-injection`, `index.md`
 - **Backlinks** `@osint-wiki/entities/tools/defending-code-reference-harness.md`
 - **Brief triage:** K100 CCC handoff → processed (CCC skill-vetting steps 9–11 live); prod-mcp allowlist → delivered (YAML in OSINT `.cursor/`); world-cup audit → archived (2026-06-03 drop)
+
+## [2026-06-07] ingest | Daily digest — agent execution provenance survey (arXiv 2606.04990)
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-07 sweep).
+
+- **NEW** `@sources/arxiv-2606-04990-agent-traces-evidence-provenance.md` (read) — 33-page survey: evidence tracing + execution provenance taxonomy, benchmark gap analysis
+- **NEW** `@concepts/agent-execution-provenance.md` — process-level accountability framework mapped to K95–K100 wiki stack
+- **Updated** `agent-runtime-guardrails`, `seclaw-agent-security-evaluation`, `mcp-security-posture`, `agent-skill-injection`, `ai-for-cybersecurity`, `siem`, `index.md`
+- **PDF** → `raw-sources/arxiv-2606.04990-from-agent-traces-to-trust-evidence-tracing-and.pdf`
+- **Inbox cleared** — 1/1 file ingested

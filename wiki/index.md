@@ -30,6 +30,7 @@
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
+| @concepts/agent-execution-provenance.md | draft | Evidence tracing + execution provenance — process accountability for LLM agents (2606.04990) |
 | @concepts/agent-vm-sandboxing.md | validated | LLM-driven agent-VM sandboxing; pairs with Docker allowlist proxy (K102) |
 | @concepts/docker-agent-sandbox-allowlist-proxy.md | draft | Docker/gVisor agent sandbox + vp-internal egress allowlist (K102) |
 
@@ -77,7 +78,7 @@
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
-| @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards (ePCA, AIRGuard, ChainCaps, layered skill scan, SaaS integration) |
+| @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; provenance eval hygiene (2606.04990) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection attack surface + SkillGuard permission model + cross-app context poisoning |
 | @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI (9.93%), cross-session SPI, WebMCP MSTI, lazy-tool checklist |

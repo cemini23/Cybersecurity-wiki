@@ -13,10 +13,12 @@ related:
   - concepts/agent-runtime-guardrails.md
   - entities/tools/defending-code-reference-harness.md
   - concepts/docker-agent-sandbox-allowlist-proxy.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

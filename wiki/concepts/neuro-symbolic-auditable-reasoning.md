@@ -9,9 +9,11 @@ related:
   - concepts/responsible-disclosure.md
   - concepts/ai-for-cybersecurity.md
   - entities/tools/defending-code-reference-harness.md
+  - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

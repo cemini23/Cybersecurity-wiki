@@ -25,6 +25,8 @@ related:
   - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-31

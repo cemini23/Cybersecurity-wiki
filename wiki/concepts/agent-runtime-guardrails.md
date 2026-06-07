@@ -38,9 +38,11 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/docker-agent-sandbox-allowlist-proxy.md
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - concepts/agent-execution-provenance.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -72,6 +74,8 @@ updated: 2026-06-06
 - @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — spec-driven tasks + trajectory scoring (SeClaw)
 - @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — OWASP LLM defense-family attribution + paraphrase brittleness
 - @sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md — WebMCP mid-session tool injection (MSTI)
+- @sources/arxiv-2606-04990-agent-traces-evidence-provenance.md — provenance eval hygiene
+- @concepts/agent-execution-provenance.md — accountability layer for guardrail eval
 - @concepts/mcp-security-posture.md — MCP trust-boundary layer model
 
 ## Raw Concept
@@ -120,6 +124,7 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 - Attribute **per-defense-family** OWASP LLM coverage (refusal vs budget vs full stack), not one aggregate BAS score. [Source: arXiv:2606.02822]
 - Test **paraphrase brittleness** on refusal-phrase filters — static jailbreak strings overstate block rate. [Source: arXiv:2606.02822]
 - For **browser WebMCP** agents: test mid-session tool list mutation (registration race, description framing) — not only static MCP manifests. [Source: arXiv:2606.06387]
+- Score **provenance completeness** (trace + claim attribution), not final-answer politeness alone. [Source: arXiv:2606.04990]
 
 ### Pentest / engagement implications
 

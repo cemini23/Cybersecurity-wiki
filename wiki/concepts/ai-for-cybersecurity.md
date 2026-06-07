@@ -35,9 +35,11 @@ related:
   - entities/tools/llm-defense-lattice.md
   - concepts/neuro-symbolic-auditable-reasoning.md
   - concepts/mcp-security-posture.md
+  - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-04
+updated: 2026-06-07
 ---
 
 ## Relations
