@@ -15,9 +15,10 @@ related:
   - entities/tools/qradar.md
   - sources/next-gen-soc-ibm-qradar.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-06-09
 ---
 
 ## Relations

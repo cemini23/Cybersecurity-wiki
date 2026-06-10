@@ -9,6 +9,8 @@ related:
   - entities/tools/nvidia-skillspector.md
   - entities/tools/claude-code-ultimate-guide.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
+  - entities/tools/malskillbench.md
+  - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
 maturity: draft
 read_status: read
 created: 2026-06-02

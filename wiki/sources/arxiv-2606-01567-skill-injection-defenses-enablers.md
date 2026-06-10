@@ -7,10 +7,12 @@ related:
   - concepts/agent-skill-injection.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
+  - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
+  - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
 maturity: draft
 read_status: read
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-09
 ---
 
 ## Raw Concept

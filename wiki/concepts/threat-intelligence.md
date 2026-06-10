@@ -25,9 +25,11 @@ related:
   - entities/tools/cve-mcp-server.md
   - entities/tools/netviz.md
   - meta/daily-research-digest-cadence.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
+  - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-06-01
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -133,6 +135,7 @@ Per @sources/open-source-soc-guide.md Ch 2, the CTI function should:
 - **Strategic-only CTI** — the threat-intel function writes glossy reports but never ships a detection rule. CTI must close the loop into the SOC + IR + detection-eng workflows.
 - **Static IOCs** — IPs + domains rot in days. Pivoting to TTPs + behaviors (Pyramid of Pain top) is the higher-leverage play. See @concepts/threat-hunting.md.
 - **Attribution overreach** — naming an actor in an exec report demands evidence quality on par with the named-actor risk. Most intrusions cannot be confidently attributed; "consistent with X cluster" is usually the right frame.
+- **TTP convergence under AI emulation** — when adversaries share LLM agent stacks, Recon + Initial Access fingerprints converge across APT profiles; convergent novel behaviors (e.g. weaponizing defender Velociraptor as C2) fall outside TTP catalogs. Early-phase TTP attribution is unsafe as sole signal; late-phase differentiation (55–80% ATT&CK precision when domain compromised) remains useful. [Source: arXiv:2606.07158] [TENTATIVE] — single lab study on CYBER RANGES.
 
 ## Snippets
 

@@ -18,9 +18,11 @@ related:
   - entities/tools/chaincaps.md
   - entities/tools/nvidia-skillspector.md
   - "@ccc-wiki/concepts/skill-vetting.md"
+  - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
+  - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations

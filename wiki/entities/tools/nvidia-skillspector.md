@@ -24,9 +24,12 @@ related:
   - entities/tools/seclaw-eval.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - "@osint-wiki/entities/tools/nvidia-skillspector.md"
+  - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
+  - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
+  - entities/tools/malskillbench.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-02
+updated: 2026-06-09
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 
@@ -80,3 +83,4 @@ gh api repos/nvidia/skillspector --jq '.license.spdx_id'   # Apache-2.0
 
 - **Installing unaudited third-party skills because "it's just markdown"** — skills are executable policy; SkillSpector exists because prompt injection and tool-poisoning payloads hide in skill files.
 - **Treating static pattern lists (claude-code-ultimate-guide) as sufficient** — signature DBs complement but do not replace dynamic skill-structure analysis.
+- **Assuming strong CI recall generalizes to PI** — MalSkillBench reports 98.4% CI recall for best skill-specific tool with collapse on PI/agent-control; pair with runtime verification (@entities/tools/malskillbench.md) and body-line stealth tests (POISE ASR metric). [Source: arXiv:2606.07131, 2606.07943]

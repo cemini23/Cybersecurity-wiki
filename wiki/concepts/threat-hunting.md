@@ -38,9 +38,10 @@ related:
   - sources/next-gen-soc-ibm-qradar.md
   - entities/tools/grex.md
   - entities/tools/cve-mcp-server.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-28
+updated: 2026-06-09
 ---
 
 ## Relations

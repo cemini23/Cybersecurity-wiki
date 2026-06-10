@@ -32,9 +32,10 @@ related:
   - entities/tools/splunk.md
   - sources/100-splunk-queries-soc-analyst.md
   - entities/tools/nidhogg.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-24
+updated: 2026-06-09
 ---
 
 ## Relations

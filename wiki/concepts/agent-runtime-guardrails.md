@@ -40,9 +40,12 @@ related:
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
+  - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
+  - entities/tools/malskillbench.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -125,6 +128,8 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 - Test **paraphrase brittleness** on refusal-phrase filters — static jailbreak strings overstate block rate. [Source: arXiv:2606.02822]
 - For **browser WebMCP** agents: test mid-session tool list mutation (registration race, description framing) — not only static MCP manifests. [Source: arXiv:2606.06387]
 - Score **provenance completeness** (trace + claim attribution), not final-answer politeness alone. [Source: arXiv:2606.04990]
+- For **skill packages**: report CI vs PI recall separately; avoid wild-only vendor benchmarks (up to 66-point swing). [Source: arXiv:2606.07131]
+- Test **task-verifier-pass + payload-execute** (ASR), not payload alone — POISE-style stealth. [Source: arXiv:2606.07943]
 
 ### Pentest / engagement implications
 

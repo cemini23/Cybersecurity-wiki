@@ -30,9 +30,11 @@ related:
   - entities/tools/red-run.md
   - sources/mitre-attack-framework-soc.md
   - concepts/threat-intelligence.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
+  - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -97,3 +99,9 @@ Adversary Emulation is a proactive cybersecurity practice in which an organizati
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) — atomic tests keyed to ATT&CK techniques
 
 **Threat Intelligence pre-work** is what separates good emulation from theater. The TTPs you pick must come from real threat-intel reports about the threat actor you're emulating — otherwise you're testing against fiction. See @concepts/threat-hunting.md and @entities/threat-actors/apt28.md.
+
+### LLM-driven emulation fidelity vs distinguishability (2606.07158)
+
+Alias Robotics CSI agents emulating APT28/29/41/44 and Lazarus on CYBER RANGES showed **55–80% MITRE ATT&CK precision** vs official profiles when enterprise domains fell — but **identical Recon + Initial Access** across all personas regardless of assigned APT. In 8/10 enterprise runs, every persona independently weaponized defender **Velociraptor** as C2 (not in any profile). **Topology dominated outcomes** (enterprise 10/10 compromised; military 10/10 defended) more than persona choice.
+
+**Purple-team implication:** emulation plans must test **convergent AI tradecraft** and defender-tool abuse — not only catalog TTP replay. Attribution exercises built on early-phase TTPs alone will mis-fire when the attacker is a generic LLM stack. See @sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md and @concepts/threat-intelligence.md.

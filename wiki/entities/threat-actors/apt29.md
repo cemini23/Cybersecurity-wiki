@@ -11,9 +11,10 @@ related:
   - concepts/red-team-operations.md
   - entities/people/joas-a-santos.md
   - concepts/threat-intelligence.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 ## Relations

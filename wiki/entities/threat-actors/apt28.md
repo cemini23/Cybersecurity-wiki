@@ -11,9 +11,10 @@ related:
   - entities/threat-actors/apt29.md
   - sources/apt28-understanding-a-group-specialized-in-attacks-against-intelligence-sectors.md
   - concepts/threat-intelligence.md
+  - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 ## Relations

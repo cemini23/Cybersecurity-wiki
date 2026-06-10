@@ -543,3 +543,15 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `agent-runtime-guardrails`, `seclaw-agent-security-evaluation`, `mcp-security-posture`, `agent-skill-injection`, `ai-for-cybersecurity`, `siem`, `index.md`
 - **PDF** → `raw-sources/arxiv-2606.04990-from-agent-traces-to-trust-evidence-tracing-and.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-09] ingest | Daily digest — MalSkillBench, Synthetic APTs, POISE (3 arXiv papers)
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-09 sweep).
+
+- **NEW** `@sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md` (read) — 3,944 runtime-verified malicious skills; CI 98.4% vs PI collapse; wild-only eval bias up to 66 recall pts
+- **NEW** `@sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md` (read) — CSI APT personas converge at Recon/IA; Velociraptor-as-C2 in 8/10 enterprise runs; topology > persona
+- **NEW** `@sources/arxiv-2606-07943-poise-position-aware-skill-injection.md` (read) — ASR = payload + task-verifier pass; 89.3% on Skill-Inject; body placement stealth
+- **NEW** `@entities/tools/malskillbench.md` (draft, Reference — GitHub `lxyeternal/MalSkillBench`)
+- **Updated** `agent-skill-injection`, `agent-runtime-guardrails`, `threat-intelligence`, `adversary-emulation`, `nvidia-skillspector`, `index.md`
+- **PDFs** → `raw-sources/arxiv-2606.07131-malskillbench-a-runtime-verified-benchmark-of-ma.pdf`, `raw-sources/arxiv-2606.07158-synthetic-apts-the-collapse-of-ttp-based-attribu.pdf`, `raw-sources/arxiv-2606.07943-poise-position-aware-undetectable-skill-injectio.pdf`
+- **Inbox cleared** — 3/3 files ingested
