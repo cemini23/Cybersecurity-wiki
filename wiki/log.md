@@ -584,3 +584,10 @@ Brief marked `processed: 2026-06-01`.
 - **K112** — `concepts/google-discovery-document-api-fuzzing.md` + `sources/brief-k112-cybersec-google-ai-api-fuzzing-2026-06-12.md` from OSINT Posts Post 4
 - **K113 brief staged** — `briefs/2026-06-12_k113-cybersec-ai-research-skills-from-osint.md` (Orchestra skills subset; entity on OSINT)
 - **Cross-wiki** — `@osint-wiki/sources/trading-posts-compilation-9-2026-06-12.md`, `@osint-wiki/sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md`
+
+## [2026-06-12] ingest | K113 AI-Research-SKILLs entity + laptop inventory
+
+- **Entity** — `entities/tools/ai-research-skills.md` (cherry-pick map: safety-alignment, post-training, PEFT, distributed, MLOps)
+- **Source** — `sources/brief-k113-cybersec-ai-research-skills-2026-06-12.md`
+- **Updated** — `seclaw-agent-security-evaluation`, `google-discovery-document-api-fuzzing`, `index.md`
+- **Trial** — 98 SKILL.md counted on laptop clone; full npx install operator-gated

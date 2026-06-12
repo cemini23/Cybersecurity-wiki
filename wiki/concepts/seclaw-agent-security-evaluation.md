@@ -10,6 +10,8 @@ related:
   - entities/tools/seclaw-eval.md
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
+  - entities/tools/ai-research-skills.md
+  - sources/brief-k113-cybersec-ai-research-skills-2026-06-12.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
@@ -20,7 +22,7 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
@@ -33,6 +35,8 @@ updated: 2026-06-11
 - @entities/tools/seclaw-eval.md — benchmark repo entity (Reference until LICENSE + code ship)
 - @entities/tools/defenseclaw.md — runtime scanner/sidecar gate (complementary, not substitute)
 - @entities/tools/nvidia-skillspector.md — skill preflight before agent enters testbed
+- @entities/tools/ai-research-skills.md — K113 ML skills cherry-pick (audit before SeClaw runs)
+- @sources/brief-k113-cybersec-ai-research-skills-2026-06-12.md — ingest provenance
 - @sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md — paper provenance
 - @osint-wiki/concepts/seclaw-agent-security-evaluation.md — OSINT synthesis (Cemini boundary)
 - @ccc-wiki/concepts/seclaw-agent-security-evaluation.md — CCC harness pointer (methodology only)

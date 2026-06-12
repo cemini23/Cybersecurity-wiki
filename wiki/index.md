@@ -178,6 +178,8 @@
 | @entities/tools/chaincaps.md | draft | MCP proxy — composition-safe tool chains via monotonic capability budgets (Reference) |
 | @entities/tools/agentredguard.md | draft | Integration-aware guard for SaaS LLM agents — AgentRedBench paper (Reference) |
 | @entities/tools/seclaw-eval.md | draft | Trajectory-aware agent security benchmark — SeClaw Docker testbed (Reference, K98) |
+| @entities/tools/ai-research-skills.md | draft | Orchestra ML skills library — cybersec cherry-pick subset (K113 CONDITIONAL-GO) |
+| @sources/brief-k113-cybersec-ai-research-skills-2026-06-12.md | deep-read | K113 cross-wiki brief ingest |
 | @entities/tools/llm-defense-lattice.md | draft | OWASP LLM Top 10 defense attribution — BAS lattice + 17-probe corpus (Reference) |
 | @entities/tools/defending-code-reference-harness.md | draft | Anthropic Docker/gVisor vuln-discovery reference harness — K102 CONDITIONAL-GO |
 
