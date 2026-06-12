@@ -24,6 +24,16 @@ from collections import defaultdict
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument("--verify-age-days", type=int, default=7,
                     help="Flag [NEEDS VERIFICATION YYYY-MM-DD] tags older than this many days (default: 7)")
+parser.add_argument(
+    "--fail-on-dangling",
+    action="store_true",
+    help="Exit 1 when local related:/@path links do not resolve (ignores cross-wiki aliases)",
+)
+parser.add_argument(
+    "--fail-on-bidirectional",
+    action="store_true",
+    help="Exit 1 when related: edges are not bidirectional",
+)
 args = parser.parse_args()
 TODAY = date.today()
 
@@ -48,12 +58,16 @@ def load_wiki_aliases():
     for m in table_re.finditer(text):
         alias = m.group(1).strip()
         path_str = m.group(2).strip().rstrip("/")
-        # Path from CLAUDE.md already includes wiki/ — don't append again
         wiki_path = Path(path_str)
+        if not wiki_path.is_absolute():
+            wiki_path = (claude_md.parent / wiki_path).resolve()
         if wiki_path.is_dir():
             aliases[alias] = wiki_path
         elif (wiki_path / "wiki").is_dir():
             aliases[alias] = wiki_path / "wiki"
+        else:
+            # Sibling wiki absent (e.g. GitHub Actions) — still register alias for lint.
+            aliases[alias] = wiki_path if wiki_path.name == "wiki" else wiki_path / "wiki"
     return aliases
 
 
@@ -96,8 +110,8 @@ def parse_frontmatter(text):
     return out
 
 def normalize_path(p):
-    """Strip leading slash, drop wiki/ prefix if accidentally included."""
-    p = p.strip().lstrip("/")
+    """Strip quotes, leading slash, drop wiki/ prefix if accidentally included."""
+    p = p.strip().strip('"').strip("'").lstrip("/")
     if p.startswith("wiki/"):
         p = p[len("wiki/"):]
     return p
@@ -116,6 +130,14 @@ def is_cross_wiki_path_exists(normalized_path):
             target = WIKI_ALIASES[alias] / rel
             return target.exists()
     return None
+
+
+def is_cross_wiki_reference(path: str) -> bool:
+    """True when *path* (with or without leading @) uses a known wiki alias prefix."""
+    if not WIKI_ALIASES:
+        return False
+    p = path.lstrip("@")
+    return any(p.startswith(f"{alias}/") for alias in WIKI_ALIASES)
 
 # -- walk ----------------------------------------------------------------
 
@@ -370,3 +392,32 @@ else:
             print(f"  {src}  →  @{alias}/{rel_path}  (wiki alias not found in CLAUDE.md)")
         else:
             print(f"  {src}  →  @{alias}/{rel_path}  (file not found: {target})")
+
+if args.fail_on_bidirectional and gaps:
+    print(f"\nERROR: {len(gaps)} bidirectional gap(s) (--fail-on-bidirectional)")
+    for src, tgt in gaps[:20]:
+        print(f"  {src} → {tgt} (missing backlink from {tgt})")
+    if len(gaps) > 20:
+        print(f"  ... and {len(gaps) - 20} more")
+    sys.exit(1)
+
+if args.fail_on_dangling:
+    local_related_dangling = [
+        (src, tgt_raw)
+        for src, tgt_raw in dangling
+        if not is_cross_wiki_reference(normalize_path(tgt_raw))
+    ]
+    local_missing = {
+        path: srcs
+        for path, srcs in missing_mentions.items()
+        if not is_cross_wiki_reference(path)
+        and not (path.startswith("briefs/") and (WIKI.parent / path).exists())
+    }
+    if local_related_dangling or local_missing:
+        print("\nERROR: unresolved local wiki links (--fail-on-dangling)")
+        for src, tgt_raw in local_related_dangling:
+            print(f"  related: {src} → {tgt_raw}")
+        for path, srcs in sorted(local_missing.items()):
+            for src in sorted(srcs):
+                print(f"  @mention: {src} → {path}")
+        sys.exit(1)

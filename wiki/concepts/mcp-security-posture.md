@@ -24,9 +24,10 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - concepts/context-fractured-decomposition-attacks.md
   - concepts/enterprise-mcp-adoption-interviews.md
+  - entities/tools/ai-research-skills.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

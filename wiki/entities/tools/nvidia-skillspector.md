@@ -27,9 +27,10 @@ related:
   - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
   - entities/tools/malskillbench.md
+  - entities/tools/ai-research-skills.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-09
+updated: 2026-06-12
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 

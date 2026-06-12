@@ -5,6 +5,7 @@ tags: [api-security, google-vrp, fuzzing, discovery-documents, k112]
 keywords: [arvin-shivram, api-keys, bug-bounty, ai-assisted-fuzzing]
 related:
   - sources/brief-k112-cybersec-google-ai-api-fuzzing-2026-06-12.md
+  - sources/brief-k113-cybersec-ai-research-skills-2026-06-12.md
   - entities/tools/ai-research-skills.md
   - "@osint-wiki/sources/trading-posts-compilation-9-2026-06-12.md"
 maturity: draft

@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  wiki-lint:
+    name: Wiki lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: wiki_lint (strict local links + bidirectional)
+        run: |
+          set -o pipefail
+          python3 scripts/wiki_lint.py --fail-on-dangling --fail-on-bidirectional | tee lint-output.txt
+
+      - name: Post lint summary
+        if: always()
+        run: |
+          {
+            echo "## Wiki lint"
+            echo ""
+            echo "Gates: \`--fail-on-bidirectional\`, \`--fail-on-dangling\` (local only; cross-wiki aliases ignored on CI)."
+            echo ""
+            echo '```'
+            cat lint-output.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: wiki_gap_detect (informational)
+        if: always()
+        run: python3 scripts/wiki_gap_detect.py || true
