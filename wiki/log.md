@@ -578,3 +578,9 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `network-security`, `soc-operations`, `siem`, `zero-trust`, `threat-intelligence`, `ai-for-cybersecurity`, `wireless-pentest`, `mitre-attack`, `index.md`
 - **PDF** → `raw-sources/arxiv-2606.08173-ai-native-closed-loop-security-for-6g-enabled-cy.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-12] ingest | K112 Google discovery-doc fuzzing + K113 AI-Research-SKILLs brief
+
+- **K112** — `concepts/google-discovery-document-api-fuzzing.md` + `sources/brief-k112-cybersec-google-ai-api-fuzzing-2026-06-12.md` from OSINT Posts Post 4
+- **K113 brief staged** — `briefs/2026-06-12_k113-cybersec-ai-research-skills-from-osint.md` (Orchestra skills subset; entity on OSINT)
+- **Cross-wiki** — `@osint-wiki/sources/trading-posts-compilation-9-2026-06-12.md`, `@osint-wiki/sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md`
