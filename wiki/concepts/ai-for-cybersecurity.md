@@ -40,11 +40,11 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - concepts/context-fractured-decomposition-attacks.md
-  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
-  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - concepts/6g-cps-closed-loop-security.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -79,3 +79,7 @@ LLMs (ChatGPT, Claude, Gemini, local Llama / Mistral) have become daily tools ac
 ### Agent security lifecycle framing (2606.10749 survey)
 
 247-paper synthesis models secure agents around **information flow + delegated authority + persistent state** — failures include hijacked workflows, unauthorized tool use, state corruption, and multi-agent propagation, not only unsafe text. Dominant research: prompt injection + tool-mediated hijacking; emerging: persistent state attacks. Defenses are **weakly compositional**; benchmarks underrepresent long-horizon stateful deployment. See @sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md, @concepts/agent-runtime-guardrails.md, @concepts/context-fractured-decomposition-attacks.md.
+
+### Telco edge AI (6G CPS — 2606.08173)
+
+Separate from LLM copilots: **federated learning + compressed deep models at MEC** for CDR/RAN anomaly detection, with LLM/XAI as analyst-assist enablers inside a closed loop (not standalone chatbots). Pairs with @concepts/6g-cps-closed-loop-security.md for OT/smart-grid/V2X defensive architecture.

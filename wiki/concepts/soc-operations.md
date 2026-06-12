@@ -61,9 +61,11 @@ related:
   - entities/people/ashish-m-kothekar.md
   - entities/tools/grex.md
   - entities/tools/vanguard.md
+  - concepts/6g-cps-closed-loop-security.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -192,3 +194,7 @@ ATT&CK + Kill Chain pair: ATT&CK = unordered technique matrix; Kill Chain = orde
 > 76% of firms have at least begun to execute a zero-trust approach. — Nispel (2023), cited in Basta et al. [Source: open-source-soc-guide.pdf Ch 1]
 
 Treat as the default network-design assumption when modeling modern SOC scope. See @concepts/zero-trust.md.
+
+### Distributed / MEC-tier SOC (6G CPS — 2606.08173)
+
+Enterprise tier-1/2/3 SOC model assumes central correlation latency. **6G CPS** (URLLC slices) needs **edge sense→detect→mitigate** inside p99 tail bounds — CDR slow-path + RAN fast-path at MEC, actuation via O-RAN RIC xApps/SDN, retrain via federated learning. Complements but does not replace central SOC for enterprise IT; see @concepts/6g-cps-closed-loop-security.md. [TENTATIVE] — telco survey, not laptop SOC lab validated here.

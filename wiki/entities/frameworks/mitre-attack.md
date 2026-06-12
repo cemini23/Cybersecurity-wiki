@@ -35,9 +35,11 @@ related:
   - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
   - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
   - entities/tools/autosut.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
+  - concepts/6g-cps-closed-loop-security.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

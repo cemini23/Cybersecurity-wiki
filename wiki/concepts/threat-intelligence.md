@@ -29,9 +29,11 @@ related:
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
   - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
   - entities/tools/autosut.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
+  - concepts/6g-cps-closed-loop-security.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -139,6 +141,7 @@ Per @sources/open-source-soc-guide.md Ch 2, the CTI function should:
 - **Attribution overreach** — naming an actor in an exec report demands evidence quality on par with the named-actor risk. Most intrusions cannot be confidently attributed; "consistent with X cluster" is usually the right frame.
 - **TTP convergence under AI emulation** — when adversaries share LLM agent stacks, Recon + Initial Access fingerprints converge across APT profiles; convergent novel behaviors (e.g. weaponizing defender Velociraptor as C2) fall outside TTP catalogs. Early-phase TTP attribution is unsafe as sole signal; late-phase differentiation (55–80% ATT&CK precision when domain compromised) remains useful. [Source: arXiv:2606.07158] [TENTATIVE] — single lab study on CYBER RANGES.
 - **Environment semantics gap in structured CTI** — public ATT&CK STIX supports lower-bound SUT narrowing but 97.6% of Enterprise software refs lack version+CPE; replay-ready environment requires analyst-authored enrichment beyond corpus. [Source: arXiv:2606.08700] [CONFIRMED] — measurement over published bundles.
+- **Telco CDR-observable CTI (6G CPS)** — mobile-core hunts use CDR feature spaces + ATT&CK mapping distinct from enterprise EDR IOCs; slow-rate slice-hop and signalling campaigns operate on minute-to-hour baselines at MEC. [Source: arXiv:2606.08173] [TENTATIVE] — survey synthesis.
 
 ## Snippets
 

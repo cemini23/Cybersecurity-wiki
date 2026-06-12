@@ -24,9 +24,11 @@ related:
   - entities/tools/sysmon.md
   - entities/people/rajneesh-gupta.md
   - entities/people/ashish-m-kothekar.md
+  - concepts/6g-cps-closed-loop-security.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-07
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -87,3 +89,7 @@ BAS bypass finding → probe_id → OWASP category → Sigma template → starte
 - **Live replay**: OpenSearch SIEM fired on 30% AdvBench / 14% HarmBench held-out subsets (7.7% FP benign baseline) — not production coverage claims.
 
 Pairs with @entities/tools/llm-defense-lattice.md (engine-side OWASP LLM attribution on the same locked 17-probe corpus). See @sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md.
+
+### Telco CDR analytics (6G CPS — 2606.08173)
+
+Mobile-core SIEM differs from enterprise log correlation: **call-detail records (CDRs)** at minute scale plus **RAN/O-RAN telemetry** at sub-ms scale feed MEC anomaly detectors (statistical front-line + deep models on flagged segments). Threat hunts map to ATT&CK + CDR-observable features (signalling storms, silent-call campaigns, slice-hop slow attacks). See @concepts/6g-cps-closed-loop-security.md.

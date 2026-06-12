@@ -12,9 +12,11 @@ related:
   - entities/tools/vpn-self-hosted.md
   - entities/tools/super-spr.md
   - entities/tools/iron-proxy.md
+  - concepts/6g-cps-closed-loop-security.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-26
+updated: 2026-06-12
 ---
 
 ## Relations

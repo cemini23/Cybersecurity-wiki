@@ -42,7 +42,8 @@
 | @concepts/windows-pentest.md | draft | Windows + Active Directory + O365 |
 | @concepts/cloud-pentest.md | draft | AWS / Azure / GCP / O365 pentest |
 | @concepts/mobile-pentest.md | draft | Android + iOS app pentest |
-| @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT |
+| @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT / 6G CPS closed-loop |
+| @concepts/6g-cps-closed-loop-security.md | draft | 6G CPS edge-to-network AI-native security loop (2606.08173) |
 | @concepts/exploit-development.md | draft | Buffer overflow → ROP → kernel exploits |
 | @concepts/buffer-overflow.md | draft | Stack/heap overflow fundamentals + shellcode |
 | @concepts/av-edr-bypass.md | validated | AV/EDR evasion tradecraft |

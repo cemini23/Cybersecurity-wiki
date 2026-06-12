@@ -568,3 +568,13 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `adversary-emulation`, `threat-intelligence`, `agent-execution-provenance`, `agent-runtime-guardrails`, `crescendo-multi-turn-jailbreak`, `ai-for-cybersecurity`, `mcp-security-posture`, `mitre-attack`, `index.md`
 - **PDFs** → `raw-sources/arxiv-2606.08700-autosut-the-environment-semantics-gap-in-structu.pdf`, `raw-sources/arxiv-2606.09084-context-fractured-decomposition-attacks-on-tool.pdf`, `raw-sources/arxiv-2606.10749-toward-secure-llm-agents-threat-surfaces-attacks.pdf`
 - **Inbox cleared** — 3/3 files ingested
+
+## [2026-06-12] ingest | Daily digest — 6G CPS closed-loop security survey (arXiv 2606.08173)
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-12 sweep).
+
+- **NEW** `@sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md` (read) — PRISMA 128-study survey; MEC sense/detect → O-RAN/SDN mitigate → FL retrain; ATT&CK + CDR feature space
+- **NEW** `@concepts/6g-cps-closed-loop-security.md` — OT/smart-grid/V2X defensive architecture synthesis
+- **Updated** `network-security`, `soc-operations`, `siem`, `zero-trust`, `threat-intelligence`, `ai-for-cybersecurity`, `wireless-pentest`, `mitre-attack`, `index.md`
+- **PDF** → `raw-sources/arxiv-2606.08173-ai-native-closed-loop-security-for-6g-enabled-cy.pdf`
+- **Inbox cleared** — 1/1 file ingested

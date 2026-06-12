@@ -49,9 +49,11 @@ related:
   - entities/tools/bluehood.md
   - entities/tools/super-spr.md
   - entities/tools/iron-proxy.md
+  - concepts/6g-cps-closed-loop-security.md
+  - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-26
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -108,3 +110,7 @@ Eight corpus PDFs anchor.
 ## Narrative
 
 Network security = traditional network-layer + perimeter topics (firewalls, IDS/IPS, segmentation, VLANs, NAC) plus the wireless + IoT + OT extensions. Wireless: WPA2 attacks (PMKID, handshake capture + offline crack with hashcat), WPA3 (Dragonblood), Evil Twin / captive-portal phishing. IoT: firmware extraction (binwalk), hardware interfaces (UART, JTAG, SPI dumps via Bus Pirate / Saleae), default credential mining. OT/ICS: Modbus, PROFINET, DNP3 protocol attacks — context-specific because of real-world safety implications. See @concepts/red-team-operations.md.
+
+### 6G CPS closed-loop security (2606.08173)
+
+Next-gen **6G cyber-physical** stacks (V2X, smart grid, remote surgery, Industry 4.0 over URLLC slices) collapse breach-to-physical-harm latency to milliseconds — perimeter SOCs cannot meet slice tail bounds. Defensive pattern: **MEC sense/detect** (CDR + RAN telemetry) → **O-RAN/SDN mitigate** → **FL/digital-twin retrain**, with ZTA per slice. See @concepts/6g-cps-closed-loop-security.md — distinct from WiFi/BLE offensive tradecraft in @concepts/wireless-pentest.md.
