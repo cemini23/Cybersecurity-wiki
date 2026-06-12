@@ -555,3 +555,16 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `agent-skill-injection`, `agent-runtime-guardrails`, `threat-intelligence`, `adversary-emulation`, `nvidia-skillspector`, `index.md`
 - **PDFs** → `raw-sources/arxiv-2606.07131-malskillbench-a-runtime-verified-benchmark-of-ma.pdf`, `raw-sources/arxiv-2606.07158-synthetic-apts-the-collapse-of-ttp-based-attribu.pdf`, `raw-sources/arxiv-2606.07943-poise-position-aware-undetectable-skill-injectio.pdf`
 - **Inbox cleared** — 3/3 files ingested
+
+## [2026-06-11] ingest | Daily digest — AutoSUT, CFD, Secure LLM Agents survey (3 arXiv papers)
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-11 sweep).
+
+- **NEW** `@sources/arxiv-2606-08700-autosut-environment-semantics-gap.md` (read) — environment semantics gap in ATT&CK STIX; 97.6% software lacks version+CPE; non-unique SUT witness CVE-2021-41773
+- **NEW** `@sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md` (read) — CFD provenance gap; +28.14 pp ASR vs Crescendo/ToA; lineage tagging mitigation
+- **NEW** `@sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md` (read) — 247-paper lifecycle survey; compositional defense gap; stateful/multi-agent risks
+- **NEW** `@entities/tools/autosut.md` (draft, Reference — GitHub reproducibility artifact)
+- **NEW** `@concepts/context-fractured-decomposition-attacks.md` — artifact-mediated cross-session jailbreak class
+- **Updated** `adversary-emulation`, `threat-intelligence`, `agent-execution-provenance`, `agent-runtime-guardrails`, `crescendo-multi-turn-jailbreak`, `ai-for-cybersecurity`, `mcp-security-posture`, `mitre-attack`, `index.md`
+- **PDFs** → `raw-sources/arxiv-2606.08700-autosut-the-environment-semantics-gap-in-structu.pdf`, `raw-sources/arxiv-2606.09084-context-fractured-decomposition-attacks-on-tool.pdf`, `raw-sources/arxiv-2606.10749-toward-secure-llm-agents-threat-surfaces-attacks.pdf`
+- **Inbox cleared** — 3/3 files ingested

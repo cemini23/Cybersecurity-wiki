@@ -18,10 +18,13 @@ related:
   - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
   - entities/tools/malskillbench.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - concepts/context-fractured-decomposition-attacks.md
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations

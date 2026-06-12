@@ -11,9 +11,11 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-runtime-guardrails.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - concepts/context-fractured-decomposition-attacks.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-11
 ---
 
 ## Relations
@@ -80,3 +82,4 @@ fuzzyai run \
 - **Judging turn-N in isolation** — turn-N often looks innocuous. Judging must run on the cumulative conversation state. This is the most common implementation error in Crescendo evaluators. [CONFIRMED]
 - **Hard turn-budget cutoffs without back-off** — Crescendo's success rate increases nonmonotonically with turn budget if back-off is implemented (try smaller increment after refusal). Without back-off, raising the budget plateaus quickly. [TENTATIVE — practitioner observation, not in paper]
 - **Treating Crescendo as social-engineering theory only** — the social-engineering analog is real, but Crescendo is a *measurable, automatable* attack. Skipping it because "it's just social engineering" leaves a measurable production-robustness gap. [CONFIRMED]
+- **Assuming Crescendo coverage implies multi-agent pipeline safety** — Context-Fractured Decomposition (2606.09084) breaks contiguous-trace assumptions; harm can compose via artifacts across sessions/instances. See @concepts/context-fractured-decomposition-attacks.md.

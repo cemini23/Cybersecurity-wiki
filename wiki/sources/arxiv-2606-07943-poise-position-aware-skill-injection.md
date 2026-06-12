@@ -13,11 +13,13 @@ related:
   - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - concepts/context-fractured-decomposition-attacks.md
   - "@ccc-wiki/concepts/skill-vetting.md"
 maturity: draft
 read_status: read
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations

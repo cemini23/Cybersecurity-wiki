@@ -15,10 +15,12 @@ related:
   - concepts/agent-execution-provenance.md
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/concepts/seclaw-agent-security-evaluation.md"
+  - "@ccc-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-07
+updated: 2026-06-11
 ---
 
 # SeClaw — trajectory-aware agent security evaluation

@@ -14,10 +14,12 @@ related:
   - entities/threat-actors/lazarus.md
   - entities/tools/wazuh.md
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
+  - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
+  - entities/tools/autosut.md
 maturity: draft
 read_status: read
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations

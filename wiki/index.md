@@ -19,8 +19,8 @@
 | Page | Maturity | Topic |
 |------|----------|-------|
 | @concepts/red-team-operations.md | validated | Red Team vs Pentest distinction; engagement model |
-| @concepts/adversary-emulation.md | validated | APT-emulation plan + LLM persona convergence (2606.07158) |
-| @concepts/threat-intelligence.md | validated | CTI 3-tier model + TTP attribution limits under AI emulation |
+| @concepts/adversary-emulation.md | validated | APT-emulation plan + AutoSUT environment gap + LLM persona convergence |
+| @concepts/threat-intelligence.md | validated | CTI 3-tier model + STIX SUT limits + TTP attribution under AI emulation |
 | @concepts/purple-team-operations.md | draft | Red + blue collaborative engagements |
 | @concepts/soc-operations.md | validated | Security Operations Center tooling + tiers + 5 pillars |
 | @concepts/incident-response.md | validated | NIST / SANS IR lifecycle |
@@ -30,7 +30,7 @@
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
 | @concepts/bug-bounty.md | draft | Public bounty programs + career path |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
-| @concepts/agent-execution-provenance.md | draft | Evidence tracing + execution provenance — process accountability for LLM agents (2606.04990) |
+| @concepts/agent-execution-provenance.md | draft | Evidence tracing + execution provenance — CFD artifact gap (2606.09084) |
 | @concepts/agent-vm-sandboxing.md | validated | LLM-driven agent-VM sandboxing; pairs with Docker allowlist proxy (K102) |
 | @concepts/docker-agent-sandbox-allowlist-proxy.md | draft | Docker/gVisor agent sandbox + vp-internal egress allowlist (K102) |
 
@@ -80,8 +80,9 @@
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; provenance eval hygiene (2606.04990) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
-| @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE runtime metrics + cross-session SPI |
-| @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI (9.93%), cross-session SPI, WebMCP MSTI, lazy-tool checklist |
+| @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + cross-session SPI |
+| @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
+| @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI, SPI, WebMCP MSTI, CFD artifact lineage |
 | @concepts/neuro-symbolic-auditable-reasoning.md | validated | K100 — NeuroLog-style Datalog+SMT auditable vuln chains |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
@@ -168,6 +169,7 @@
 | @entities/tools/iron-proxy.md | draft | Egress firewall for untrusted workloads (Apache-2.0; Adopt-eligible Phase-0) |
 | @entities/tools/cryptex-oss.md | draft | LLM red-teaming transforms/mutators toolkit — 162 transforms (MIT; Adopt-eligible Phase-0) |
 | @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
+| @entities/tools/autosut.md | draft | STIX environment-semantics gap measurement for adversary emulation (Reference) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
 | @entities/tools/netviz.md | draft | Browser network-architecture graph visualizer — D3.js + Socket.IO (MIT; Adopt, K93) |

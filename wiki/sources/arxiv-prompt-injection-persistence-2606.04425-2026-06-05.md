@@ -12,10 +12,12 @@ related:
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - concepts/context-fractured-decomposition-attacks.md
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations

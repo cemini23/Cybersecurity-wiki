@@ -14,10 +14,11 @@ related:
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-07
+updated: 2026-06-11
 ---
 
 ## Relations

@@ -20,10 +20,13 @@ related:
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - concepts/context-fractured-decomposition-attacks.md
 maturity: draft
 read_status: read
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-11
 ---
 
 ## Relations

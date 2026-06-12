@@ -39,9 +39,10 @@ related:
   - entities/tools/grex.md
   - entities/tools/cve-mcp-server.md
   - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
+  - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations

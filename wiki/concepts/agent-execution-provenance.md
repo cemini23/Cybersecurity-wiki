@@ -21,9 +21,12 @@ related:
   - entities/tools/cua.md
   - entities/tools/defenseclaw.md
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - concepts/context-fractured-decomposition-attacks.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations
@@ -78,6 +81,7 @@ When scoping agent copilots (pentest, SOC, Cemini lazy-tool):
 | Unsafe trajectory hidden by polite answer | @concepts/seclaw-agent-security-evaluation.md |
 | Detection gap without traceback | @sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md |
 | Symbolic vuln chain audit | @concepts/neuro-symbolic-auditable-reasoning.md |
+| Artifact provenance gap (CFD) | @concepts/context-fractured-decomposition-attacks.md — lineage tagging (2606.09084) |
 
 ### Evaluation hygiene [CONFIRMED per survey]
 

@@ -43,9 +43,12 @@ related:
   - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
   - entities/tools/malskillbench.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - concepts/context-fractured-decomposition-attacks.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -130,6 +133,8 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 - Score **provenance completeness** (trace + claim attribution), not final-answer politeness alone. [Source: arXiv:2606.04990]
 - For **skill packages**: report CI vs PI recall separately; avoid wild-only vendor benchmarks (up to 66-point swing). [Source: arXiv:2606.07131]
 - Test **task-verifier-pass + payload-execute** (ASR), not payload alone — POISE-style stealth. [Source: arXiv:2606.07943]
+- Test **artifact-mediated cross-session composition** (CFD), not only contiguous multi-turn jailbreaks. [Source: arXiv:2606.09084]
+- Report **compositional defense coverage** across layers — 247-paper survey finds single-family defenses weakly compositional. [Source: arXiv:2606.10749]
 
 ### Pentest / engagement implications
 

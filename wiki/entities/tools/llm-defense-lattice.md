@@ -15,6 +15,7 @@ related:
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
 maturity: draft
 created: 2026-06-04
 updated: 2026-06-06

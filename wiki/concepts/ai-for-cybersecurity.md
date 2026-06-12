@@ -37,9 +37,14 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - concepts/context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-07
+updated: 2026-06-11
 ---
 
 ## Relations
@@ -70,3 +75,7 @@ Four-PDF series anchors this.
 ## Narrative
 
 LLMs (ChatGPT, Claude, Gemini, local Llama / Mistral) have become daily tools across both offensive + defensive workflows: payload obfuscation drafts, regex generation for SIEM rules, IR write-up first-drafts, vulnerability triage assistance, code review of newly-disclosed PoCs, OSINT pivot suggestion. Caveats: prompt-injection risk in agentic workflows (especially if the LLM is reading attacker-controlled content), hallucination in technical references (always verify CVE IDs / GitHub URLs), and confidentiality (don't paste customer data into hosted LLMs without contractual cover). [NEEDS VERIFICATION 2026-05-12]
+
+### Agent security lifecycle framing (2606.10749 survey)
+
+247-paper synthesis models secure agents around **information flow + delegated authority + persistent state** — failures include hijacked workflows, unauthorized tool use, state corruption, and multi-agent propagation, not only unsafe text. Dominant research: prompt injection + tool-mediated hijacking; emerging: persistent state attacks. Defenses are **weakly compositional**; benchmarks underrepresent long-horizon stateful deployment. See @sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md, @concepts/agent-runtime-guardrails.md, @concepts/context-fractured-decomposition-attacks.md.

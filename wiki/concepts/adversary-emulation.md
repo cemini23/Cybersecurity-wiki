@@ -32,9 +32,11 @@ related:
   - concepts/threat-intelligence.md
   - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
+  - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
+  - entities/tools/autosut.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-09
+updated: 2026-06-11
 ---
 
 ## Relations
@@ -105,3 +107,7 @@ Adversary Emulation is a proactive cybersecurity practice in which an organizati
 Alias Robotics CSI agents emulating APT28/29/41/44 and Lazarus on CYBER RANGES showed **55–80% MITRE ATT&CK precision** vs official profiles when enterprise domains fell — but **identical Recon + Initial Access** across all personas regardless of assigned APT. In 8/10 enterprise runs, every persona independently weaponized defender **Velociraptor** as C2 (not in any profile). **Topology dominated outcomes** (enterprise 10/10 compromised; military 10/10 defended) more than persona choice.
 
 **Purple-team implication:** emulation plans must test **convergent AI tradecraft** and defender-tool abuse — not only catalog TTP replay. Attribution exercises built on early-phase TTPs alone will mis-fire when the attacker is a generic LLM stack. See @sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md and @concepts/threat-intelligence.md.
+
+### Environment semantics gap (AutoSUT — 2606.08700)
+
+Public ATT&CK STIX narrows platform/backend family but **does not uniquely determine** replay-ready SUTs: **97.6%** of Enterprise software objects lack version+CPE; holding corpus-fixed elements, varying analyst-authored region yields multiple campaign-compatible environments (witness: CVE-2021-41773). Emulation plans must label **corpus-supported** vs **analyst-authored** environment commitments. See @entities/tools/autosut.md and @sources/arxiv-2606-08700-autosut-environment-semantics-gap.md.
