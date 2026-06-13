@@ -57,12 +57,13 @@ The full operations spec lives in `CLAUDE.md`. Quick reference:
 
 ## Cemini wiki federation
 
-**Seven** wikis + private **Cemini Financial Suite**. Cross-links: `@<alias>/path/to/page.md` (`CLAUDE.md` → Related Wikis).
+**Eight** wikis + private **Cemini Financial Suite**. Cross-links: `@<alias>/path/to/page.md` (`CLAUDE.md` → Related Wikis).
 
 | Alias | Repository | Visibility | Focus |
 |-------|------------|------------|--------|
 | **`cybersecurity-wiki`** | **This repo** ([Cybersecurity-wiki](https://github.com/cemini23/Cybersecurity-wiki)) | **Public** | Pentest, red team, SOC, certifications |
 | `gambling-wiki` | [Gambling-wiki](https://github.com/cemini23/Gambling-wiki) | **Public** | Sports betting, casino, poker, DFS |
+| `game-dev-wiki` | [Game-Dev-wiki](https://github.com/cemini23/Game-Dev-wiki) | **Public** | Hobby game dev — castle/RTS, Godot evals |
 | `ccc-wiki` | [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC) | **Public** | Agent orchestration, MCP, skill security patterns |
 | `osint-wiki` | `llm-wiki-by-cemini` *(private)* | **Private** | OSINT tradecraft overlap |
 | `image-gen-wiki` | [uncensored-image-gen-wiki](https://github.com/cemini23/uncensored-image-gen-wiki) | Public | Deepfakes, adversarial-image attacks |
