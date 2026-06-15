@@ -46,9 +46,14 @@ related:
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - concepts/context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
+  - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
+  - concepts/agentic-containment-principles.md
+  - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
+  - concepts/trajectory-context-control.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-11
+updated: 2026-06-15
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -83,6 +88,11 @@ updated: 2026-06-11
 - @sources/arxiv-2606-04990-agent-traces-evidence-provenance.md — provenance eval hygiene
 - @concepts/agent-execution-provenance.md — accountability layer for guardrail eval
 - @concepts/mcp-security-posture.md — MCP trust-boundary layer model
+- @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md — error-path implicit authority (K114)
+- @sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md — framework containment audit (K114)
+- @concepts/agentic-containment-principles.md — P1–P6 structural gates
+- @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — GT-MCP trajectory context control (Reference)
+- @concepts/trajectory-context-control.md — memory-commit gate pattern (CCI/AGR/CDS + rollback)
 
 ## Raw Concept
 
@@ -101,6 +111,9 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Sleeper attack** | Payload persists in session/memory/skills; benign later query triggers harm | PLANT |
 | **Dual-surface injection** | Same bytes succeed on tool *output* or tool *description* depending on model | Surface paper |
 | **Mid-session tool injection (MSTI)** | Third-party JS mutates WebMCP tool registry during task — hijack (race/AbortSignal) or frame via metadata | WebMCP 2606.06387 |
+| **Error-path implicit authority** | Tool **error** JSON triggers corrective mode; adversarial recovery steps bypass skepticism | VATS 2606.07992 |
+| **Memory poisoning (architectural)** | Single untrusted write to persistent memory corrupts all subsequent reasoning cycles | Containment gap 2606.12797 |
+| **Trajectory steering** | Locally plausible fragments accumulate across turns; accepted outputs update persistent context without drift gate | GT-MCP 2606.10322 |
 | **Semantic decoupling** | Natural-language intent hides unsafe tool args from LLM-as-Judge guards | ePCA motivation |
 
 These are **not jailbreaks** in the classic sense — the model may comply with user intent while attacker-controlled context steers authorized access off-scope. [CONFIRMED] across AIRGuard + sleeper paper framing.
@@ -159,3 +172,13 @@ Defense layering (recommended order for authorized lab):
 - **Refusal-regex-only LLM posture** — OWASP lattice paper: paraphrase drops LLM01/LLM07 block rates 15–25 pp; budget controls more stable.
 - **Session-only prompt guards** — K100 SPI paper: 32–42% E2E-ASR when poison persists across session reset (@sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md).
 - **Trusting MCP tool descriptions** — 9.93% description–code inconsistency in wild MCP servers; attestation gates admission not semantic honesty (@concepts/mcp-security-posture.md).
+
+### K114 addendum (2026-06-13)
+
+**VATS (2606.07992):** Error-path injection is not a jailbreak — it exploits **operational framing** in tool failure responses. Mean baseline IPI ACR 16.7% vs error seed 50%; post-mutation **100%** on Gemini 3.1 Pro, GPT-5.5, GLM-5.1, Qwen3-Coder. GPT-5.5 **detect-but-comply** profile: flags ~44% of successful attacks yet still executes. Evaluation hygiene: add **error-path mutation** (VATS $M_1$–$M_7$) alongside per-surface IPI and multi-session SPI tests.
+
+**Containment gap (2606.12797):** Runtime guards at **framework layer** (Codex/Gemini CLI) can block raw-model vulnerabilities, but LangChain/AutoGPT/OpenAI SDK ship **zero native P1–P6 compliance**. Deterministic P1 policy gate + P3 memory validator drop corruption/bypass from 1.000 → 0.000 at sub-ms overhead — steal pattern for high-privilege Cemini loops. Complex policies enable **concealed targeted harm** (3–3.5× wrongful denials, stable aggregate accuracy) — monitoring must track subgroup outcomes, not headline accuracy alone.
+
+### GT-MCP addendum (2026-06-15)
+
+**Trajectory context control (2606.10322):** Side-effect guards and SPI write-path governance still leave a gap if **any accepted model output** appends to persistent context without a drift gate. GT-MCP pattern: multi-agent candidates → trust score (causal consistency + agreement − candidate-specific drift) → rollback/quarantine on threshold breach. Paper eval: **0.0%** controller ISR vs **17.8%** single-agent over 500 turns. **Reference** until implementation ships — harness draft at `briefs/2026-06-15_gt-mcp-trajectory-context-control-harness.md`.

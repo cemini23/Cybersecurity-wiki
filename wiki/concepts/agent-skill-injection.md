@@ -22,9 +22,12 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - concepts/context-fractured-decomposition-attacks.md
   - "@ccc-wiki/concepts/skill-vetting.md"
+  - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
+  - concepts/agentic-containment-principles.md
+  - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-11
+updated: 2026-06-13
 ---
 
 ## Relations
@@ -57,3 +60,11 @@ Hybrid skills need **joint** reasoning over code + instructions. MalSkillBench (
 ### Stealth body injection (POISE — 2606.07943)
 
 **Attack Success Rate** = payload executes **and** user task passes verifier — models hidden compromise. POISE achieves **89.3% ASR** on Skill-Inject (codex+gpt-5.2) via one benign-looking body line at a feasible numbered-step position; YAML-only placement still **86.7%**. LLM scanner panels false-flag **74.6%** of clean skills; POISE adds only **5.6%** new high-risk alerts. Install-time YAML review + static scanners miss this — add authorized **runtime canary + task verifier** tests. See @sources/arxiv-2606-07943-poise-position-aware-skill-injection.md.
+
+### K114 addendum — architectural memory gap (2606.12797)
+
+Install-time skill vetting addresses **supply-chain SPI** but not **runtime memory integrity (P3)**. Containment-gap audit: LangChain, AutoGPT, and OpenAI Agents SDK all score ✗ on P3 — a single adversarial memory write (fake policy note, poisoned `AGENTS.md` fragment) achieves **100% corruption** on targeted decisions post-write, generalizing to GPT-4o and Claude Haiku. Under complex policies, aggregate accuracy can stay stable while targeted wrongful outcomes rise **3–3.5×** — evading monitors that only track headline accuracy.
+
+**Mitigation pattern:** provenance-tagged memory validator (reject external policy overrides + demographic targeting patterns) + P1 tool policy gate — deterministic, sub-ms. Maps to Cemini: audit write paths to stash, session cache, and wiki-backed agent instructions, not only skill install. See @concepts/agentic-containment-principles.md.
+
+**Adjacent channel — error-path IPI (2606.07992):** MCP tool **errors** (not skill files) can trigger exfil via corrective reasoning; complements skill/MCP description injection in red-team coverage. See @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md.

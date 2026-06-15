@@ -13,10 +13,13 @@ related:
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - entities/tools/defenseclaw.md
   - entities/tools/chaincaps.md
+  - concepts/trajectory-context-control.md
+  - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
+  - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-15
 ---
 
 ## Relations

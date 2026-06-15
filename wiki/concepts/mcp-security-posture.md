@@ -25,9 +25,14 @@ related:
   - concepts/context-fractured-decomposition-attacks.md
   - concepts/enterprise-mcp-adoption-interviews.md
   - entities/tools/ai-research-skills.md
+  - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
+  - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
+  - concepts/agentic-containment-principles.md
+  - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
+  - concepts/trajectory-context-control.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations
@@ -45,6 +50,11 @@ updated: 2026-06-12
 - @entities/tools/chaincaps.md — composition-safe MCP proxy
 - @entities/tools/nvidia-skillspector.md — pre-install skill/MCP scan
 - @ccc-wiki/concepts/skill-vetting.md — Phase-0 install gate
+- @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md — error-path implicit authority (K114)
+- @sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md — framework containment gap (K114)
+- @concepts/agentic-containment-principles.md — P1–P6 audit matrix
+- @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — GT-MCP trajectory layer (Reference)
+- @concepts/trajectory-context-control.md — memory-commit gate above MCP transport
 
 ## Raw Concept
 
@@ -63,6 +73,8 @@ MCP makes tool integration easy by exposing **metadata-only** interfaces to the 
 | **Persistence** | Injection survives session reset via memory/files/tool state | 2606.04425 SPI (32–42% E2E-ASR) | Write-path governance; treat `AGENTS.md`/memory/tool artifacts as strong-persistence channels |
 | **Eval realism** | Pentest agents never face live defense | 2606.05567 ZERO-APT | Benchmark Tier-2 agents against configurable Defender — see @concepts/llm-pentest-automation.md |
 | **Runtime surface** | Mid-session tool list mutation in browser WebMCP | 2606.06387 MSTI | OBAC + origin-bound registration; freeze tool catalog after task start; log registration events |
+| **Error-path IPI** | Tool **error** responses trigger corrective mode; implicit authority bypasses skepticism | 2606.07992 VATS | Split error code vs help text; verify error provenance; red-team error-path mutations; human gate on error-triggered writes |
+| **Trajectory evolution** | Accepted tool/RAG/agent outputs merge into persistent context without drift gate | 2606.10322 GT-MCP | Multi-model probe + CCI/AGR/CDS trust gate before memory commit; checkpoint rollback on high drift |
 
 ### Confused deputy chain
 
@@ -99,3 +111,11 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 
 - **Attestation alone** — does not prove description–code alignment or block SPI writes to agent memory.
 - **Scanner-only posture** — pre-connect scan misses runtime description drift until re-scan cadence enforced.
+
+### K114 addendum (2026-06-13)
+
+**VATS (2606.07992)** isolates the MCP **error-handling loop** as a distinct injection channel: error-path IPI achieves **3×** baseline tool-response IPI ACR; one mutation generation reaches **100% ACR** on four frontier models. **$M_4 \rightarrow$ middle** (instruction sandwiched in error context) is the only universal exploit. Production CLI frameworks (Gemini CLI, Codex) blocked exfil via repo guardrails + functional redundancy — raw API layer remains fully vulnerable. Add error-path cases to lazy-tool / prod-mcp red-team alongside DCI and MSTI.
+
+**Containment gap (2606.12797)** complements MCP-layer controls with **architectural P1–P6 audit**: zero native ✓ on any principle across LangChain / AutoGPT / OpenAI Agents SDK; universal P3 (memory integrity) failure. See @concepts/agentic-containment-principles.md.
+
+**GT-MCP (2606.10322)** adds a **trajectory layer** above passive MCP routing: trust-weighted multi-agent selection + causal graph + drift-triggered rollback before persistent context merge (0.0% controller ISR vs 17.8% single-agent in paper eval). Reference only until code ships — see @concepts/trajectory-context-control.md and `briefs/2026-06-15_gt-mcp-trajectory-context-control-harness.md`.

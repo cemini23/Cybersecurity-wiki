@@ -591,3 +591,26 @@ Brief marked `processed: 2026-06-01`.
 - **Source** — `sources/brief-k113-cybersec-ai-research-skills-2026-06-12.md`
 - **Updated** — `seclaw-agent-security-evaluation`, `google-discovery-document-api-fuzzing`, `index.md`
 - **Trial** — 98 SKILL.md counted on laptop clone; full npx install operator-gated
+
+## [2026-06-13] ingest | K114 — VATS + containment gap
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-13 sweep); federation K114 cross-wiki ingest.
+
+- **NEW** `@sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md` (read, **GO**) — error-path MCP IPI; 3× baseline ACR; $M_4$ middle universal exploit; framework vs model alignment gap
+- **NEW** `@sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md` (read, **GO**) — P1–P6 framework audit; zero native compliance; memory poison 88.9% targeted denial; sub-ms deterministic gates
+- **NEW** `@concepts/agentic-containment-principles.md` — P1–P6 matrix + LangChain/AutoGPT/OpenAI SDK compliance table
+- **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `agent-skill-injection`, `index.md`
+- **PDFs** remain in inbox pending `raw-sources/` move — operator-gated per ingest ritual
+- **Inbox** — 2/2 files wiki-ingested (PDF move deferred)
+
+## [2026-06-15] ingest | GT-MCP trajectory context control (2606.10322)
+
+**Source**: `research to be indexed/arxiv-2606.10322-game-theoretic-multi-agent-control-for-robust-co.pdf` — daily digest sweep.
+
+- **NEW** `@sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md` (read, **Reference** — no public code artifact)
+- **NEW** `@concepts/trajectory-context-control.md` — GT-MCP control loop, trust signals, layer placement vs K100
+- **Brief** `briefs/2026-06-15_gt-mcp-trajectory-context-control-harness.md` — prod-mcp memory-commit gate draft
+- **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `ai-for-cybersecurity`, `agentic-containment-principles`, `context-fractured-decomposition-attacks`, `crescendo-multi-turn-jailbreak`, `arxiv-prompt-injection-persistence-2606.04425`, `index.md`
+- **Phase-0** Reference — await GT-MCP implementation + LICENSE before CONDITIONAL-GO
+- **PDF** → `raw-sources/arxiv-2606.10322-game-theoretic-multi-agent-context-control-gt-mcp.pdf`
+- **Inbox cleared** — 1/1 file ingested

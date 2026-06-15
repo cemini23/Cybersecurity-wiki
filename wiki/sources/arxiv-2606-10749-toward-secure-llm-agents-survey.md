@@ -15,10 +15,14 @@ related:
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - concepts/context-fractured-decomposition-attacks.md
+  - concepts/agentic-containment-principles.md
+  - concepts/trajectory-context-control.md
+  - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
+  - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
 maturity: draft
 read_status: read
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-15
 ---
 
 ## Relations

@@ -13,9 +13,11 @@ related:
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - concepts/context-fractured-decomposition-attacks.md
+  - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
+  - concepts/trajectory-context-control.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-11
+updated: 2026-06-15
 ---
 
 ## Relations

@@ -24,9 +24,12 @@ related:
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - concepts/context-fractured-decomposition-attacks.md
+  - concepts/agentic-containment-principles.md
+  - concepts/trajectory-context-control.md
+  - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-11
+updated: 2026-06-15
 ---
 
 ## Relations

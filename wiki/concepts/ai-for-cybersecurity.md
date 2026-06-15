@@ -43,9 +43,11 @@ related:
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
   - entities/tools/ai-research-skills.md
+  - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
+  - concepts/trajectory-context-control.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

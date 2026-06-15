@@ -12,10 +12,11 @@ related:
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-06-07
+updated: 2026-06-15
 ---
 
 ## Relations

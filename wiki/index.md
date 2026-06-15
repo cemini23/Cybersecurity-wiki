@@ -79,11 +79,13 @@
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
-| @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; provenance eval hygiene (2606.04990) |
+| @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
+| @concepts/trajectory-context-control.md | draft | GT-MCP — multi-agent memory-commit gate + drift rollback (2606.10322) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
-| @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + cross-session SPI |
+| @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
-| @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI, SPI, WebMCP MSTI, CFD artifact lineage |
+| @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI, SPI, WebMCP MSTI, VATS, GT-MCP trajectory (2606.10322) |
+| @concepts/agentic-containment-principles.md | draft | K114 — P1–P6 containment matrix; LangChain/AutoGPT/OpenAI SDK audit |
 | @concepts/neuro-symbolic-auditable-reasoning.md | validated | K100 — NeuroLog-style Datalog+SMT auditable vuln chains |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
