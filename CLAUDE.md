@@ -22,12 +22,12 @@ This is a laptop-only workspace. No remote servers, no team distribution. Everyt
 
 ## Architecture — three layers
 
-1. **Raw sources** — immutable. You read them, never modify them. Live locally in `raw-sources/` (gitignored — PDFs, slide decks, video transcripts, repo snapshots).
+1. **Raw sources** — immutable. Canonical archive: `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/` via OSINT `archive_raw_to_egress.sh`.
    - PDFs (e-books, vendor whitepapers, conference talks — much of the seed corpus is from [Joas A Santos](wiki/entities/people/joas-a-santos.md), a prolific Brazilian cybersecurity educator)
    - Slide decks from conference talks (RoadSec, TDC, Red Team Village, etc.)
    - GitHub repos (cloned snapshots of relevant FOSS tools — Caldera, Metasploit, Cobalt-Strike-detections, Wazuh rule packs, etc.)
    - Video transcripts saved as `.md`
-   - **Drop pattern**: drop new sources into `research to be indexed/` (transient drop zone). Ingest pipeline reads + synthesizes, then move to `raw-sources/`.
+   - **Drop pattern**: `research to be indexed/` → ingest → archive to egress-fi (local copy removed on success)
 
 2. **The wiki** — LLM-written, human-read. Lives in `wiki/`. Structured pages on certifications, tools, frameworks, threat actors, platforms, people, vendors, programming languages, and concepts.
 
@@ -172,7 +172,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
    - If no page: create a stub. Real content accumulates over subsequent ingests
 6. Update `wiki/index.md` — add rows for new pages
 7. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <source title>` with bullets of what changed
-8. **Move raw source to `raw-sources/`**: `mv "research to be indexed/<filename>" raw-sources/`. Verify with `ls raw-sources/<filename>`
+8. **Archive raw to egress-fi**: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id cybersec "research to be indexed/<filename>"` — update source page `Location`
 9. Update `ROADMAP.md` if the ingest opens new follow-ups; stage briefs in `briefs/` if the ingest produced something actionable
 10. A single ingest must touch 3-15 pages. If it touches 0 new pages, ask whether the source is worth ingesting
 
