@@ -16,9 +16,12 @@ related:
   - concepts/phishing.md
   - concepts/phishing-investigation.md
   - sources/effective-threat-investigation-soc-analysts.md
+  - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - concepts/llm-code-review-agent-security.md
+  - entities/tools/sevra-bench.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-17
+updated: 2026-06-16
 ---
 
 ## Relations

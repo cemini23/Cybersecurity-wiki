@@ -614,3 +614,16 @@ Brief marked `processed: 2026-06-01`.
 - **Phase-0** Reference — await GT-MCP implementation + LICENSE before CONDITIONAL-GO
 - **PDF** → `raw-sources/arxiv-2606.10322-game-theoretic-multi-agent-context-control-gt-mcp.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-16] ingest | SEVRA-BENCH — LLM PR review agent social engineering
+
+**Source**: `research to be indexed/arxiv-2606.13757-sevra-bench-social-engineering-of-vulnerabilitie.pdf`
+
+- **NEW** `@sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md` (read, **Reference**)
+- **NEW** `@entities/tools/sevra-bench.md` — GitHub `rufimelo99/malicious-pr-bench`; HF `RedAI4Code/SEVRA`; no LICENSE on GitHub API
+- **NEW** `@concepts/llm-code-review-agent-security.md` — merge-gate threat model + 15 framing classes
+- **Brief** `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md` — pre-rollout eval checklist
+- **Updated** `social-engineering`, `agent-runtime-guardrails`, `llm-vulnerability-discovery`, `mcp-security-posture`, `seclaw-agent-security-evaluation`, `ai-for-cybersecurity`, `npm-supply-chain-defense`, `seclaw-eval`, `index.md`
+- **Phase-0** Reference — CONDITIONAL-GO after LICENSE; Docker Gitea lab only
+- **PDF** → `raw-sources/arxiv-2606.13757-sevra-bench-social-engineering-review-agents.pdf`
+- **Inbox cleared** — 1/1 file ingested

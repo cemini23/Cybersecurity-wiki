@@ -80,6 +80,7 @@
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
+| @concepts/llm-code-review-agent-security.md | draft | SEVRA merge-gate robustness — reversed CVE PR + framing attacks (2606.13757) |
 | @concepts/trajectory-context-control.md | draft | GT-MCP — multi-agent memory-commit gate + drift rollback (2606.10322) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
@@ -174,6 +175,7 @@
 | @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
 | @entities/tools/autosut.md | draft | STIX environment-semantics gap measurement for adversary emulation (Reference) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
+| @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
 | @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
 | @entities/tools/netviz.md | draft | Browser network-architecture graph visualizer — D3.js + Socket.IO (MIT; Adopt, K93) |
 | @entities/tools/airguard.md | draft | Runtime authority control for tool/MCP agents (MIT; CONDITIONAL-GO) |
@@ -299,6 +301,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | linux-basics-for-hackers-notes | — | Reject | K88 | NO LICENSE FOUND — do not adopt |
 | Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
 | seclaw-eval | — | Reference | K98 | @entities/tools/seclaw-eval.md — trajectory-aware agent security benchmark; **no LICENSE on GitHub API 2026-06-04** |
+| sevra-bench | — | Reference | digest | @entities/tools/sevra-bench.md — LLM PR merge-gate eval; **no LICENSE on GitHub API 2026-06-16** |
 | llm-defense-lattice | NOASSERTION | Reference | digest | @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense BAS lattice; license audit pending |
 | defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
 

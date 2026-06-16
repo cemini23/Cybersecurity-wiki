@@ -18,9 +18,10 @@ related:
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@osint-wiki/sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md"
   - entities/tools/ai-research-skills.md
+  - entities/tools/sevra-bench.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-12
+updated: 2026-06-16
 phase_0_verdict: "Reference 2026-06-04 — benchmark only; repo has no LICENSE file on GitHub API [NEEDS VERIFICATION 2026-06-04]; run laptop Docker eval after license audit before any code import."
 ---
 

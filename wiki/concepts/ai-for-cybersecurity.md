@@ -45,9 +45,12 @@ related:
   - entities/tools/ai-research-skills.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
+  - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - concepts/llm-code-review-agent-security.md
+  - entities/tools/sevra-bench.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-15
+updated: 2026-06-16
 ---
 
 ## Relations

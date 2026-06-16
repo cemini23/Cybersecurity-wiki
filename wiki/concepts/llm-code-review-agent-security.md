@@ -1,0 +1,88 @@
+---
+title: LLM code review agent security — merge-gate adversarial robustness
+type: concept
+tags: [concept, agent-security, code-review, supply-chain, social-engineering, devsecops]
+keywords: [pr review agent, merge gate, sevra, refusal rate, framing attack, cve reversal]
+related:
+  - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - entities/tools/sevra-bench.md
+  - concepts/social-engineering.md
+  - concepts/agent-runtime-guardrails.md
+  - concepts/llm-vulnerability-discovery.md
+  - concepts/mcp-security-posture.md
+  - concepts/seclaw-agent-security-evaluation.md
+  - concepts/npm-supply-chain-defense.md
+  - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+maturity: draft
+created: 2026-06-16
+updated: 2026-06-16
+---
+
+## Relations
+
+- @sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md — primary eval source (SEVRA-BENCH)
+- @entities/tools/sevra-bench.md — benchmark harness entity
+- @concepts/social-engineering.md — human SE tradecraft → 15 automated PR framings
+- @concepts/npm-supply-chain-defense.md — dependency supply-chain hardening adjacent surface
+- @concepts/seclaw-agent-security-evaluation.md — trajectory eval hygiene for agent benchmarks
+
+## Raw Concept
+
+Daily digest ingest (2026-06-16): arXiv:2606.13757 — isolates **review-time** failure when adversary controls **code diff + PR text** and reviewer holds **approve/merge** authority.
+
+## Narrative
+
+LLM PR reviewers (Microsoft, Cloudflare, Datadog-class deployments) shift the merge gate from humans to agents. Security failure mode: **approved merge of a reversed CVE fix** — supply-chain path, not a missed comment [CONFIRMED].
+
+### Attack decomposition (SEVRA)
+
+| Factor | Attacker control | Held constant in ablation |
+|--------|------------------|-------------------------|
+| Vulnerability diff | Reversed real CVE patch | ✓ across 15 framings |
+| PR framing ϕ | Title, description, commit message | varies |
+| Repo context | Isolated Gitea; squashed history | no author reputation signals |
+
+### 15 framing classes (selected)
+
+| Strategy | Exploit |
+|----------|---------|
+| Fake Bug Fix | Masquerade reintroduced flaw as fix |
+| Refactoring / Unsafe Optimization | Semantic-preservation assumption |
+| Misleading Pass / False Coverage | Automation bias (green CI, coverage %) |
+| Appeal to Authority / Review Bias | Deference without independent verification |
+| Prior Approval Signal / AI Agent Authored | Trust + peer-preservation bias |
+| Build System Laundering | Reduced scrutiny on non-application diffs |
+| Evidence Dilution / Out-of-Distribution | Noise or jargon discourages close read |
+
+### Capability vs robustness gap
+
+Frontier closed-source models **saturate** CWE-wise (Opus ~98% RR) but open-weight models show **large framing variance** — peak capability ≠ robustness under narrative manipulation. Organizations preferring **local open-weight reviewers** for data sovereignty inherit this gap [CONFIRMED].
+
+### Defender controls [TENTATIVE]
+
+| Control | Rationale |
+|---------|-----------|
+| **Never routine-only security prompt** on merge bots | Paper baseline measures spontaneous detection |
+| **SEVRA-BENCH regression** before model/prompt changes | Quantify framing-specific regressions |
+| **Human gate on approve tool** | MCP `github_approve_pull_request` is terminal high-impact action |
+| **Separate security scanner in CI** | Review agent is one layer; SAST/DCI still required |
+| **Author/reputation signals** | Not in benchmark — enrich prod context carefully (privacy) |
+
+### Mapping to agent-security stack
+
+| Layer | SEVRA relevance |
+|-------|-----------------|
+| K100 MCP admission | Gitea tool subset is fixed allowlist — good pattern |
+| Trajectory context control (GT-MCP) | Orthogonal — SEVRA is single-decision merge gate, not multi-turn memory |
+| SeClaw trajectories | Complementary — SeClaw scores multi-step tool abuse; SEVRA scores merge approval |
+
+## Snippets
+
+> "This setting does not isolate the review-time failure mode in which the attacker controls both the code diff and the PR narrative, while the reviewer controls the approve-or-decline decision."
+> — [Source: arxiv-2606.13757 §1 gap statement, retrieved 2026-06-16]
+
+## Dead Ends
+
+- **Vuln-detection benchmarks alone** — high detect/fix scores do not imply safe merge-gate behavior.
+- **Single framing red-team** — open-weight models need per-strategy coverage; one successful narrative does not generalize.

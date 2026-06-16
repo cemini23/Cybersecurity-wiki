@@ -14,6 +14,7 @@ related:
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
   - entities/tools/seclaw-eval.md
+  - entities/tools/sevra-bench.md
   - entities/tools/agentredguard.md
   - entities/tools/llm-defense-lattice.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md

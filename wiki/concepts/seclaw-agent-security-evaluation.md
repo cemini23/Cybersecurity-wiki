@@ -20,9 +20,12 @@ related:
   - "@ccc-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - concepts/llm-code-review-agent-security.md
+  - entities/tools/sevra-bench.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-12
+updated: 2026-06-16
 ---
 
 # SeClaw — trajectory-aware agent security evaluation

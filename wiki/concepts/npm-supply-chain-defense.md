@@ -10,9 +10,11 @@ related:
   - "@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md"
   - entities/tools/nvidia-skillspector.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
+  - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - concepts/llm-code-review-agent-security.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-02
+updated: 2026-06-16
 ---
 
 ## Relations
