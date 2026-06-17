@@ -20,6 +20,8 @@ related:
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
   - concepts/llm-code-review-agent-security.md
 maturity: draft
 read_status: read

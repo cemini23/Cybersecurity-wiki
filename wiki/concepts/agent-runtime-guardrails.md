@@ -51,6 +51,8 @@ related:
   - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - concepts/llm-code-review-agent-security.md
   - entities/tools/sevra-bench.md

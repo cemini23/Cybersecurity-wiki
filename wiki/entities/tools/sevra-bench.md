@@ -6,6 +6,8 @@ keywords: [sevra-bench, malicious-pr-bench, gitea, inspect_ai, redai4code, pr me
 related:
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - concepts/llm-code-review-agent-security.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
   - concepts/social-engineering.md
   - concepts/agent-runtime-guardrails.md
   - concepts/seclaw-agent-security-evaluation.md
@@ -15,8 +17,8 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
-phase_0_verdict: "Reference 2026-06-16 — inspect_ai + Docker Gitea harness; HF dataset RedAI4Code/SEVRA; no LICENSE on GitHub API; lab eval only until license confirmed"
+updated: 2026-06-17
+phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API license null; inspect_ai + Docker Gitea harness; HF RedAI4Code/SEVRA; lab eval only until SPDX file"
 ---
 
 ## Relations
@@ -44,7 +46,7 @@ Daily digest ingest (2026-06-16). GitHub: [rufimelo99/malicious-pr-bench](https:
 
 | Check | Result |
 |-------|--------|
-| LICENSE | **FAIL** — GitHub API `license: null` |
+| LICENSE | **FAIL** — GitHub API `license: null`; raw `LICENSE` 404 (re-audit 2026-06-17) |
 | Maturity | Early (2★, 0 forks, 3 open issues) |
 | Failure mode | Malicious PR corpus + live approve API — **isolated Docker only** |
 | vs wiki stack | Complements SeClaw (tool trajectories) + SkillSpector (install-time); unique **merge-gate** surface |

@@ -13,12 +13,14 @@ related:
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
   - concepts/crescendo-multi-turn-jailbreak.md
 maturity: draft
 read_status: read
 created: 2026-06-15
-updated: 2026-06-15
-phase_0_verdict: "Reference 2026-06-15 — no public code artifact; architectural pattern only until GT-MCP implementation ships [NEEDS VERIFICATION 2026-06-15]"
+updated: 2026-06-17
+phase_0_verdict: "Reference 2026-06-17 — re-audit: no public GT-MCP repo on GitHub; architectural pattern only until implementation + LICENSE ships [NEEDS VERIFICATION 2026-06-17]"
 ---
 
 ## Relations

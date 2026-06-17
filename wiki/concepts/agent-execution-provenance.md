@@ -23,6 +23,8 @@ related:
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/context-fractured-decomposition-attacks.md
   - concepts/agentic-containment-principles.md
   - concepts/trajectory-context-control.md

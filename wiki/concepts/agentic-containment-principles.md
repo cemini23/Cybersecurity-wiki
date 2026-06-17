@@ -14,9 +14,11 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations
@@ -108,3 +110,7 @@ Prototype gates: **0.016 ms** (memory validator), **0.129 ms** (tool policy gate
 - **Opt-in guardrails as compliance** — ✓* scoring still fails secure-by-default bar for public-facing deployment.
 - **P3 regex validator alone** — blocks demonstrated demographic/policy-override patterns; semantic evasion remains open.
 - **Compound / trajectory attacks (P6 gap)** — paper notes harmless steps composing harm needs trajectory analysis; lightweight gates don't cover.
+
+### IoAI addendum (2026-06-17)
+
+arXiv:2606.12835 **Table 4** extends P1–P6 with **federation-scale** rows: Sybil agents, inter-agent MITM, incentive/reputation gaming. P5 (authenticated communication) is the primary bridge — still ✗ on conductor handoffs. Closed-cell operator posture: treat unknown MCP/skill as Sybil; defer open federation until ANS/DID. See @concepts/internet-of-agentic-ai-ioai.md.

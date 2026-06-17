@@ -627,3 +627,17 @@ Brief marked `processed: 2026-06-01`.
 - **Phase-0** Reference — CONDITIONAL-GO after LICENSE; Docker Gitea lab only
 - **PDF** → `raw-sources/arxiv-2606.13757-sevra-bench-social-engineering-review-agents.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-17] ingest | IoAI — Internet of Agentic AI (2606.12835)
+
+**Source**: `research to be indexed/arxiv-2606.12835-the-internet-of-agentic-ai-communication-coordin.pdf`
+
+- **NEW** `@sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md` (read, **Reference** — vision paper)
+- **NEW** `@concepts/internet-of-agentic-ai-ioai.md` — IoAI architecture + Table 4 threat taxonomy mapped to K100/K114
+- **Brief** `briefs/2026-06-17_ioai-threat-taxonomy-prod-mcp-handoff.md` → scp `cemini-prod:/opt/cemini/briefs/`
+- **Brief** `briefs/2026-06-17_ccc-handoff-ioai-containment-matrix.md` → `@ccc-wiki/briefs/`
+- **Phase-0 re-audit** SEVRA (`malicious-pr-bench`): LICENSE still null/404 — **Reference** unchanged
+- **Phase-0 re-audit** GT-MCP: no public repo — **Reference** unchanged
+- **Updated** `mcp-security-posture`, `agentic-containment-principles`, `agent-runtime-guardrails`, `ai-for-cybersecurity`, `trajectory-context-control`, `llm-code-review-agent-security`, `sevra-bench`, `arxiv-2606-13757`, `arxiv-2606-10322`, `index.md`
+- **PDF** → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2606.12835-the-internet-of-agentic-ai-communication-coordin.pdf`
+- **Inbox cleared** — 1/1 file ingested

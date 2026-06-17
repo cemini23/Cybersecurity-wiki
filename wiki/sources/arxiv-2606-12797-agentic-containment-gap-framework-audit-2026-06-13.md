@@ -11,6 +11,8 @@ related:
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
 maturity: draft
 read_status: read
 created: 2026-06-13

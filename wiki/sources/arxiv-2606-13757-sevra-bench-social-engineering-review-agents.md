@@ -15,11 +15,13 @@ related:
   - concepts/npm-supply-chain-defense.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
 maturity: draft
 read_status: read
 created: 2026-06-16
-updated: 2026-06-16
-phase_0_verdict: "Reference 2026-06-16 — benchmark repo live (malicious-pr-bench); no LICENSE on GitHub API; laptop Docker+inspect-ai eval only after license audit"
+updated: 2026-06-17
+phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API license null; laptop Docker+inspect-ai eval only after SPDX file"
 ---
 
 ## Relations

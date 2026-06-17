@@ -6,6 +6,8 @@ keywords: [pr review agent, merge gate, sevra, refusal rate, framing attack, cve
 related:
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - entities/tools/sevra-bench.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
   - concepts/social-engineering.md
   - concepts/agent-runtime-guardrails.md
   - concepts/llm-vulnerability-discovery.md

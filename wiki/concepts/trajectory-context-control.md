@@ -15,9 +15,11 @@ related:
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - concepts/agent-execution-provenance.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
+  - concepts/internet-of-agentic-ai-ioai.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations
