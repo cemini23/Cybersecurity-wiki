@@ -40,9 +40,11 @@ related:
   - entities/tools/qradar.md
   - sources/next-gen-soc-ibm-qradar.md
   - entities/tools/cve-mcp-server.md
+  - concepts/exceptional-access-risk-quantification.md
+  - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-28
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -156,3 +158,14 @@ Default Windows log path: `C:\Windows\System32\winevt\Logs`. Relocate via `HKLM\
 - @concepts/soc-operations.md — where IR teams typically live organizationally
 - @concepts/threat-hunting.md — proactive cousin of IR
 - @entities/frameworks/cyber-kill-chain.md — narrative structure for incident write-ups
+
+### Platform master-key compromise (OTT-EA analogue)
+
+When signing keys, vault encryption keys, or KMS master material is exfiltrated (Storm-0558, LastPass 2022 patterns), IR must assume **retrospective decryption** of all historical traffic/data protected under that key — not just ongoing sessions. Playbook deltas vs standard endpoint breach:
+
+1. **Immediate key revocation** — invalidate all tokens/certs derived from compromised material; assume attacker already forged credentials.
+2. **Scope as temporal, not spatial** — "what was encrypted under this key since issuance?" not "which hosts are affected?"
+3. **No clean recovery narrative** — key exfiltration is irreversible; comms to stakeholders must not imply patch-and-forget.
+4. **Cross-store correlation** — check whether data stores AND key-management layers were hit in same campaign (P3·P4 chain in EA models).
+
+See @concepts/exceptional-access-risk-quantification.md for the structured risk framework; carrier/LI incidents (Salt Typhoon) follow the T-EA variant with LI target-list exfil as primary impact.

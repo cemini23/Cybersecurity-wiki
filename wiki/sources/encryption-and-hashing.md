@@ -6,10 +6,11 @@ keywords: [encryption, hashing, symmetric, asymmetric, base64, ransomware]
 related:
   - concepts/network-security.md
   - concepts/defense-in-depth.md
+  - concepts/exceptional-access-risk-quantification.md
 maturity: draft
 read_status: unread-stub
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-18
 ---
 
 ## Raw Concept
@@ -30,3 +31,4 @@ A primer on cryptography for security work — symmetric vs asymmetric encryptio
 
 - @concepts/network-security.md
 - @concepts/defense-in-depth.md
+- @concepts/exceptional-access-risk-quantification.md

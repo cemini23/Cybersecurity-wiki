@@ -641,3 +641,15 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `mcp-security-posture`, `agentic-containment-principles`, `agent-runtime-guardrails`, `ai-for-cybersecurity`, `trajectory-context-control`, `llm-code-review-agent-security`, `sevra-bench`, `arxiv-2606-13757`, `arxiv-2606-10322`, `index.md`
 - **PDF** → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2606.12835-the-internet-of-agentic-ai-communication-coordin.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-18] ingest | EA compromise risk quantification (2606.19106)
+
+**Source**: `research to be indexed/arxiv-2606.19106-quantifying-compromise-risk-in-exceptional-acces.pdf`
+
+- **NEW** `@sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md` (read, **Reference** — decision-support framework)
+- **NEW** `@concepts/exceptional-access-risk-quantification.md` — T-EA vs OTT-EA taxonomy + four-layer framework + practitioner checklist
+- **Brief** `briefs/2026-06-18_ea-risk-framework-policy-handoff.md` — policy deliberation handoff (hands-on)
+- **Phase-0** Zenodo 20554740 (CC-BY-4.0 repro scripts) — **Reference**; no prod deployment
+- **Updated** `threat-intelligence`, `cyberwarfare`, `defense-in-depth`, `incident-response`, `ai-for-cybersecurity`, `index.md`
+- **PDF** → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2606.19106-quantifying-compromise-risk-in-exceptional-acces.pdf`
+- **Inbox cleared** — 1/1 file ingested

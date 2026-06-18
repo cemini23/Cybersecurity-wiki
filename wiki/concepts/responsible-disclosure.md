@@ -22,9 +22,10 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/neuro-symbolic-auditable-reasoning.md
   - sources/arxiv-neurolog-auditable-vuln-discovery-2606.00669-2026-06-05.md
+  - concepts/exceptional-access-risk-quantification.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-31
+updated: 2026-06-18
 ---
 
 ## Relations

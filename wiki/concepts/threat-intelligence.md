@@ -31,9 +31,11 @@ related:
   - entities/tools/autosut.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
   - concepts/6g-cps-closed-loop-security.md
+  - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
+  - concepts/exceptional-access-risk-quantification.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-06-12
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -142,6 +144,19 @@ Per @sources/open-source-soc-guide.md Ch 2, the CTI function should:
 - **TTP convergence under AI emulation** — when adversaries share LLM agent stacks, Recon + Initial Access fingerprints converge across APT profiles; convergent novel behaviors (e.g. weaponizing defender Velociraptor as C2) fall outside TTP catalogs. Early-phase TTP attribution is unsafe as sole signal; late-phase differentiation (55–80% ATT&CK precision when domain compromised) remains useful. [Source: arXiv:2606.07158] [TENTATIVE] — single lab study on CYBER RANGES.
 - **Environment semantics gap in structured CTI** — public ATT&CK STIX supports lower-bound SUT narrowing but 97.6% of Enterprise software refs lack version+CPE; replay-ready environment requires analyst-authored enrichment beyond corpus. [Source: arXiv:2606.08700] [CONFIRMED] — measurement over published bundles.
 - **Telco CDR-observable CTI (6G CPS)** — mobile-core hunts use CDR feature spaces + ATT&CK mapping distinct from enterprise EDR IOCs; slow-rate slice-hop and signalling campaigns operate on minute-to-hour baselines at MEC. [Source: arXiv:2606.08173] [TENTATIVE] — survey synthesis.
+
+### High-value infrastructure targeting (EA-adjacent CTI)
+
+Nation-state campaigns increasingly target **lawful-intercept and platform key infrastructure** — designated objectives, not opportunistic noise:
+
+| Case | Class | CTI takeaway |
+|------|-------|--------------|
+| **Salt Typhoon 2024** | T-EA analogue | Chinese state actors compromised CALEA-mandated LI at 9+ US carriers; obtained active wiretap target lists |
+| **Greek Vodafone Athens 2004–2005** | T-EA analogue | Malware on lawful-intercept infrastructure surveilled 100+ senior officials |
+| **Storm-0558 2023** | OTT-EA analogue | Microsoft consumer signing key forged → OWA access to US gov mailboxes |
+| **LastPass 2022** | OTT-EA analogue | Multi-stage: encrypted vaults + source revealing crypto details |
+
+These anchor the empirical plausibility layer in @concepts/exceptional-access-risk-quantification.md (2606.19106) — they establish **scenario plausibility**, not EA-mandated frequency (no public OTT-EA deployment yet). CTI consumers should map carrier/LI and platform KMS assets to strategic IRs when sector or jurisdiction discusses EA mandates.
 
 ## Snippets
 

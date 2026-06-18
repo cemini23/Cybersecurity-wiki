@@ -50,9 +50,11 @@ related:
   - entities/tools/sevra-bench.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
+  - concepts/exceptional-access-risk-quantification.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -91,3 +93,7 @@ LLMs (ChatGPT, Claude, Gemini, local Llama / Mistral) have become daily tools ac
 ### Telco edge AI (6G CPS — 2606.08173)
 
 Separate from LLM copilots: **federated learning + compressed deep models at MEC** for CDR/RAN anomaly detection, with LLM/XAI as analyst-assist enablers inside a closed loop (not standalone chatbots). Pairs with @concepts/6g-cps-closed-loop-security.md for OT/smart-grid/V2X defensive architecture.
+
+### Deep-uncertainty decision support (EA risk — 2606.19106)
+
+Not an LLM topic directly, but a methodological parallel for **AI-assisted policy and architecture reviews**: when evidence is sparse and adversaries disagree on priors, structured frameworks that tier claims by assumption-robustness (S1 structural → S6 calibration-dependent) beat single point estimates. Useful pattern when LLM outputs are asked to "quantify risk" for novel mandates (EA, agent federation, cross-org MCP) — force interval + tier disclosure, not one number. See @concepts/exceptional-access-risk-quantification.md.
