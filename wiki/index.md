@@ -84,6 +84,7 @@
 | @concepts/trajectory-context-control.md | draft | GT-MCP — multi-agent memory-commit gate + drift rollback (2606.10322) |
 | @concepts/internet-of-agentic-ai-ioai.md | draft | IoAI vision — federated agent ecosystems + Table 4 threat taxonomy (2606.12835) |
 | @concepts/exceptional-access-risk-quantification.md | draft | EA architecture risk framework — T-EA vs OTT-EA, deep uncertainty (2606.19106) |
+| @concepts/agent-least-privilege-tool-selection.md | draft | Over-privileged tool selection — OPUR/PED, TOOLPRIVBENCH (2606.20023) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
@@ -304,6 +305,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | Graph-R1 | CC-BY-NC-SA (eval) | Reject | K88 | K88 eval reject; gh api reports MIT 2026-05-31 — verify LICENSE before override |
 | seclaw-eval | — | Reference | K98 | @entities/tools/seclaw-eval.md — trajectory-aware agent security benchmark; **no LICENSE on GitHub API 2026-06-04** |
 | sevra-bench | — | Reference | digest | @entities/tools/sevra-bench.md — LLM PR merge-gate eval; **no LICENSE on GitHub API 2026-06-16** |
+| toolprivbench | — | Reference | digest | @entities/tools/toolprivbench.md — OPUR/PED least-privilege tool eval; **no LICENSE on GitHub API 2026-06-19** |
 | llm-defense-lattice | NOASSERTION | Reference | digest | @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense BAS lattice; license audit pending |
 | defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
 

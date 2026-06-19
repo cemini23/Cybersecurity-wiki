@@ -52,9 +52,11 @@ related:
   - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
   - concepts/exceptional-access-risk-quantification.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -97,3 +99,7 @@ Separate from LLM copilots: **federated learning + compressed deep models at MEC
 ### Deep-uncertainty decision support (EA risk — 2606.19106)
 
 Not an LLM topic directly, but a methodological parallel for **AI-assisted policy and architecture reviews**: when evidence is sparse and adversaries disagree on priors, structured frameworks that tier claims by assumption-robustness (S1 structural → S6 calibration-dependent) beat single point estimates. Useful pattern when LLM outputs are asked to "quantify risk" for novel mandates (EA, agent federation, cross-org MCP) — force interval + tier disclosure, not one number. See @concepts/exceptional-access-risk-quantification.md.
+
+### Least-privilege tool selection (2606.20023)
+
+Among **authorized** MCP tools, agents systematically prefer broader privileges when narrow tools suffice — **OPUR** up to 64.9% (Qwen3-8B) on TOOLPRIVBENCH; transient HTTP 503 on narrow tools triggers **premature escalation**. General harm-refusal alignment (AgentAlign) does not fix this. Complements K100 external controls with **internal path preference** testing. See @concepts/agent-least-privilege-tool-selection.md.

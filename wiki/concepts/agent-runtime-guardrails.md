@@ -56,9 +56,12 @@ related:
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - concepts/llm-code-review-agent-security.md
   - entities/tools/sevra-bench.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
+  - entities/tools/toolprivbench.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-16
+updated: 2026-06-19
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -119,6 +122,7 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Error-path implicit authority** | Tool **error** JSON triggers corrective mode; adversarial recovery steps bypass skepticism | VATS 2606.07992 |
 | **Memory poisoning (architectural)** | Single untrusted write to persistent memory corrupts all subsequent reasoning cycles | Containment gap 2606.12797 |
 | **Trajectory steering** | Locally plausible fragments accumulate across turns; accepted outputs update persistent context without drift gate | GT-MCP 2606.10322 |
+| **Over-privileged tool selection** | Agent picks broader **authorized** tool when narrow sufficient alternative exists; amplified by transient narrow-tool failures | TOOLPRIVBENCH 2606.20023 |
 | **Semantic decoupling** | Natural-language intent hides unsafe tool args from LLM-as-Judge guards | ePCA motivation |
 
 These are **not jailbreaks** in the classic sense — the model may comply with user intent while attacker-controlled context steers authorized access off-scope. [CONFIRMED] across AIRGuard + sleeper paper framing.
@@ -152,7 +156,7 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 - For **skill packages**: report CI vs PI recall separately; avoid wild-only vendor benchmarks (up to 66-point swing). [Source: arXiv:2606.07131]
 - Test **task-verifier-pass + payload-execute** (ASR), not payload alone — POISE-style stealth. [Source: arXiv:2606.07943]
 - Test **artifact-mediated cross-session composition** (CFD), not only contiguous multi-turn jailbreaks. [Source: arXiv:2606.09084]
-- Report **compositional defense coverage** across layers — 247-paper survey finds single-family defenses weakly compositional. [Source: arXiv:2606.10749]
+- Report **OPUR/PED** on paired narrow+broad authorized tools; inject transient failures on narrow tier — harm refusal benchmarks do not proxy least privilege. [Source: arXiv:2606.20023]
 
 ### Pentest / engagement implications
 

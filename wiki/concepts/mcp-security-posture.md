@@ -35,9 +35,12 @@ related:
   - entities/tools/sevra-bench.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
+  - entities/tools/toolprivbench.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -126,3 +129,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **GT-MCP (2606.10322)** adds a **trajectory layer** above passive MCP routing: trust-weighted multi-agent selection + causal graph + drift-triggered rollback before persistent context merge (0.0% controller ISR vs 17.8% single-agent in paper eval). Reference only until code ships — see @concepts/trajectory-context-control.md and `briefs/2026-06-15_gt-mcp-trajectory-context-control-harness.md`. Re-audit 2026-06-17: still no public GT-MCP repo.
 
 **IoAI (2606.12835)** positions MCP as an emerging **interoperability layer** for Internet-scale agent federation. Our prod-mcp stack is a **closed IoAI cell** — Table 4 threat taxonomy maps to K100 + K114 controls; federated identity/incentive rows remain open gaps. See @concepts/internet-of-agentic-ai-ioai.md and `briefs/2026-06-17_ioai-threat-taxonomy-prod-mcp-handoff.md`.
+
+**Over-privileged tool selection (2606.20023)** — even with closed allowlists, agents may pick the **broadest authorized tool** when a narrow one suffices; OPUR spikes after transient narrow-tool failures (503/timeout). Admission/DCI/SPI do not measure this — add TOOLPRIVBENCH-style paired-tool eval + runtime authority narrowing (AIRGuard). AgentHarm/refusal benchmarks are **not** a proxy. See @concepts/agent-least-privilege-tool-selection.md and `briefs/2026-06-19_toolprivbench-prod-mcp-eval-checklist.md`.

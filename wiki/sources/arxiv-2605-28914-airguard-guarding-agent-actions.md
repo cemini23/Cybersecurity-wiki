@@ -9,10 +9,12 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - entities/tools/nvidia-skillspector.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-19
 ---
 
 ## Relations

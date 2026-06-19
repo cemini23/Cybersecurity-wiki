@@ -25,9 +25,11 @@ related:
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
   - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-13
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -68,3 +70,7 @@ Install-time skill vetting addresses **supply-chain SPI** but not **runtime memo
 **Mitigation pattern:** provenance-tagged memory validator (reject external policy overrides + demographic targeting patterns) + P1 tool policy gate — deterministic, sub-ms. Maps to Cemini: audit write paths to stash, session cache, and wiki-backed agent instructions, not only skill install. See @concepts/agentic-containment-principles.md.
 
 **Adjacent channel — error-path IPI (2606.07992):** MCP tool **errors** (not skill files) can trigger exfil via corrective reasoning; complements skill/MCP description injection in red-team coverage. See @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md.
+
+### Over-privileged tool selection among authorized skills (2606.20023)
+
+SkillGuard and install-time vetting bound **which** tools/skills enter the catalog; TOOLPRIVBENCH shows agents still prefer **higher-privilege authorized tools** when lower-privilege ones suffice — especially after transient failures on narrow tools. Skill permission metadata should tag **privilege tier** and harnesses should enforce retry-at-same-tier before escalate. See @concepts/agent-least-privilege-tool-selection.md.

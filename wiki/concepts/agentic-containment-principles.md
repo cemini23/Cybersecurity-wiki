@@ -16,9 +16,11 @@ related:
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -114,3 +116,5 @@ Prototype gates: **0.016 ms** (memory validator), **0.129 ms** (tool policy gate
 ### IoAI addendum (2026-06-17)
 
 arXiv:2606.12835 **Table 4** extends P1–P6 with **federation-scale** rows: Sybil agents, inter-agent MITM, incentive/reputation gaming. P5 (authenticated communication) is the primary bridge — still ✗ on conductor handoffs. Closed-cell operator posture: treat unknown MCP/skill as Sybil; defer open federation until ANS/DID. See @concepts/internet-of-agentic-ai-ioai.md.
+
+**P2 least-privilege tool choice (2606.20023):** P2 capability scoping at framework layer (deny-all tool declaration) addresses **external** tool exposure; TOOLPRIVBENCH shows **internal** over-privilege among authorized tools — agents escalate after transient narrow-tool failures. Pair P2 allowlists with OPUR eval and runtime authority narrowing (AIRGuard). Harm-refusal alignment does not substitute. See @concepts/agent-least-privilege-tool-selection.md.

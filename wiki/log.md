@@ -653,3 +653,16 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `threat-intelligence`, `cyberwarfare`, `defense-in-depth`, `incident-response`, `ai-for-cybersecurity`, `index.md`
 - **PDF** → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2606.19106-quantifying-compromise-risk-in-exceptional-acces.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-19] ingest | Over-privileged tool selection — TOOLPRIVBENCH (2606.20023)
+
+**Source**: `research to be indexed/arxiv-2606.20023-when-lower-privileges-suffice-investigating-over.pdf`
+
+- **NEW** `@sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md` (read, **Reference**)
+- **NEW** `@concepts/agent-least-privilege-tool-selection.md` — OPUR/PED framework + mitigation ladder
+- **NEW** `@entities/tools/toolprivbench.md` — benchmark entity
+- **Brief** `briefs/2026-06-19_toolprivbench-prod-mcp-eval-checklist.md` — hands-on prod-mcp eval harness
+- **Phase-0** `AISafetyHub/agent-tool-selection-bias` — README MIT badge, gh api LICENSE null/404 — **Reference** until SPDX filed
+- **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `agent-skill-injection`, `agentic-containment-principles`, `ai-for-cybersecurity`, `zero-trust`, `airguard`, `index.md`
+- **PDF** → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2606.20023-when-lower-privileges-suffice-investigating-over.pdf`
+- **Inbox cleared** — 1/1 file ingested

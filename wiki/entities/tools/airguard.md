@@ -17,9 +17,12 @@ related:
   - entities/tools/seclaw-eval.md
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-02240-agentredbench.md
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
+  - entities/tools/toolprivbench.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-19
 phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool calls pre-execution; lab on AgentTrap/DTAP-style tasks before client copilot assessments."
 ---
 
@@ -49,6 +52,8 @@ AIRGuard operationalizes **least privilege at action time**: untrusted content m
 **Import boundary**: workstation/lab agent assessments and internal copilot hardening only until Phase-0 replay on your MCP stack confirms utility tradeoffs (paper: 76% benign utility on DTAP-150 with Haiku 4.5).
 
 **Complements**: ChainCaps (composition IFC), SkillSpector (skill supply chain), DefenseClaw (enterprise policy).
+
+**2606.20023 gap:** AIRGuard narrows authority at execution time; TOOLPRIVBENCH shows models still **prefer** broader tools before the guard fires if both remain authorized — pair runtime guards with minimal tool catalogs and OPUR eval (`briefs/2026-06-19_toolprivbench-prod-mcp-eval-checklist.md`).
 
 ## Snippets
 

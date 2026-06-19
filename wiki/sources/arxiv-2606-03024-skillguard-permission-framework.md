@@ -7,10 +7,12 @@ related:
   - concepts/agent-skill-injection.md
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
   - "@ccc-wiki/concepts/skill-vetting.md"
+  - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-least-privilege-tool-selection.md
 maturity: draft
 read_status: read
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-19
 ---
 
 ## Raw Concept
