@@ -59,9 +59,12 @@ related:
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
   - entities/tools/toolprivbench.md
+  - entities/tools/ecc.md
+  - entities/tools/skillgate.md
+  - sources/openreview-openclaw-real-world-safety-analysis.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

@@ -666,3 +666,17 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `agent-skill-injection`, `agentic-containment-principles`, `ai-for-cybersecurity`, `zero-trust`, `airguard`, `index.md`
 - **PDF** → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2606.20023-when-lower-privileges-suffice-investigating-over.pdf`
 - **Inbox cleared** — 1/1 file ingested
+
+## [2026-06-20] digest pass | Empty inbox — ECC, Skillgate, OpenClaw stub
+
+**Inbox**: empty (0 PDFs; 2606.19106 + 2606.20023 dupes skipped overnight).
+
+- **NEW** `@entities/tools/ecc.md` — Phase-0 **CONDITIONAL-GO** (`ecc-agentshield` npm MIT); full bundle Steal-from; typosquat warning at 218k★
+- **NEW** `@entities/tools/skillgate.md` — Phase-0 **Reference** (Mitiga SaaS, skillgate.mitiga.ai)
+- **NEW** `@sources/openreview-openclaw-real-world-safety-analysis.md` — unread-stub; manual OpenReview PDF fetch deferred
+- **Brief** `briefs/2026-06-20_agent-config-scan-stack-phase0.md` — Skillgate vs SkillSpector vs AgentShield ladder
+- **Updated** `mcp-security-posture`, `agent-skill-injection`, `agent-runtime-guardrails`, `nvidia-skillspector`, `defenseclaw`, `index.md`
+
+## [2026-06-20] lint | Post-digest maintenance pass
+
+- **516 pages** indexed; **0** bidirectional gaps; pre-existing cross-wiki dangling refs unchanged

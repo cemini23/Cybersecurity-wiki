@@ -16,9 +16,10 @@ related:
   - entities/tools/chaincaps.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
+  - entities/tools/ecc.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations

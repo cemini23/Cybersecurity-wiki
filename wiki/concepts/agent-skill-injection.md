@@ -27,9 +27,12 @@ related:
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
+  - entities/tools/ecc.md
+  - entities/tools/skillgate.md
+  - sources/openreview-openclaw-real-world-safety-analysis.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations
@@ -74,3 +77,12 @@ Install-time skill vetting addresses **supply-chain SPI** but not **runtime memo
 ### Over-privileged tool selection among authorized skills (2606.20023)
 
 SkillGuard and install-time vetting bound **which** tools/skills enter the catalog; TOOLPRIVBENCH shows agents still prefer **higher-privilege authorized tools** when lower-privilege ones suffice — especially after transient failures on narrow tools. Skill permission metadata should tag **privilege tier** and harnesses should enforce retry-at-same-tier before escalate. See @concepts/agent-least-privilege-tool-selection.md.
+
+### Pre-install scanner expansion (2026-06-20)
+
+| Scanner | Verdict | Notes |
+|---------|---------|-------|
+| **Skillgate** (Mitiga SaaS) | Reference | 80+ rules, OWASP Agentic AI mapping; closed source — triage public repos only |
+| **ecc-agentshield** (ECC npm) | CONDITIONAL-GO | MIT; config/hook/injection audit — official npm/github only |
+
+Layer with @entities/tools/nvidia-skillspector.md + @entities/tools/defenseclaw.md; see `briefs/2026-06-20_agent-config-scan-stack-phase0.md`. **OpenClaw** real-world safety paper stubbed pending manual PDF fetch: @sources/openreview-openclaw-real-world-safety-analysis.md.

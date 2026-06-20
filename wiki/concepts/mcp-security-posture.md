@@ -38,9 +38,12 @@ related:
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
   - entities/tools/toolprivbench.md
+  - entities/tools/ecc.md
+  - entities/tools/skillgate.md
+  - sources/openreview-openclaw-real-world-safety-analysis.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations
@@ -131,3 +134,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **IoAI (2606.12835)** positions MCP as an emerging **interoperability layer** for Internet-scale agent federation. Our prod-mcp stack is a **closed IoAI cell** — Table 4 threat taxonomy maps to K100 + K114 controls; federated identity/incentive rows remain open gaps. See @concepts/internet-of-agentic-ai-ioai.md and `briefs/2026-06-17_ioai-threat-taxonomy-prod-mcp-handoff.md`.
 
 **Over-privileged tool selection (2606.20023)** — even with closed allowlists, agents may pick the **broadest authorized tool** when a narrow one suffices; OPUR spikes after transient narrow-tool failures (503/timeout). Admission/DCI/SPI do not measure this — add TOOLPRIVBENCH-style paired-tool eval + runtime authority narrowing (AIRGuard). AgentHarm/refusal benchmarks are **not** a proxy. See @concepts/agent-least-privilege-tool-selection.md and `briefs/2026-06-19_toolprivbench-prod-mcp-eval-checklist.md`.
+
+**Pre-install scan stack (2026-06-20 digest)** — three new triage surfaces: **Skillgate** (Mitiga SaaS, Reference), **ecc-agentshield** (MIT npm, CONDITIONAL-GO), layered with SkillSpector + DefenseClaw. Scanner disagreement remains expected — no single allow/block. See `briefs/2026-06-20_agent-config-scan-stack-phase0.md`.

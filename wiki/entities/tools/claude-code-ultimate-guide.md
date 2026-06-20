@@ -9,9 +9,10 @@ related:
   - concepts/llm-pentest-automation.md
   - entities/tools/nvidia-skillspector.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
+  - entities/tools/ecc.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-02
+updated: 2026-06-20
 osint_eval_origin: doc1-url-17 (cross-routed; substantive cybersec content)
 ---
 

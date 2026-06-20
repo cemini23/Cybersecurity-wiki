@@ -20,10 +20,11 @@ related:
   - "@osint-wiki/sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md"
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
+  - sources/openreview-openclaw-real-world-safety-analysis.md
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-16
+updated: 2026-06-20
 ---
 
 ## Relations
