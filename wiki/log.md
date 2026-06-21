@@ -680,3 +680,18 @@ Brief marked `processed: 2026-06-01`.
 ## [2026-06-20] lint | Post-digest maintenance pass
 
 - **516 pages** indexed; **0** bidirectional gaps; pre-existing cross-wiki dangling refs unchanged
+
+## [2026-06-21] ingest | Probabilistic agent verification (2606.20510) + wireless tangential (2606.18734)
+
+**Inbox**: 2/2 PDFs ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md` — Google DeepMind DRO + probabilistic Datalog; Phase-0 **Reference** (no public artifact)
+- **NEW** `@concepts/agent-probabilistic-datalog-verification.md` — Layer-2 guardrail between ePCA and LLM-as-Judge
+- **NEW** `@sources/arxiv-2606-18734-point-cloud-wireless-channel-prediction.md` — skimmed tangential RF digital-twin ref
+- **Brief** `briefs/2026-06-21_probabilistic-agent-guardrail-dro-handoff.md` — prod-mcp noisy-classifier checklist
+- **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `ai-for-cybersecurity`, `neuro-symbolic-auditable-reasoning`, `wireless-pentest`, `6g-cps-closed-loop-security`, `splunk` (CVE-2026-20253 digest stub), `arxiv-2605-29251`, `index.md`
+- **Digest touch** — R1–R3 Splunk CVE-2026-20253 on `@entities/tools/splunk.md` `[NEEDS VERIFICATION 2026-06-21]`
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.20510-2606-20510v1-efficient-and-sound-probabilistic-v.pdf`
+- `cemini-egress-fi:.../arxiv-2606.18734-2606-18734v1-point-cloud-assistant-localized-sta.pdf`

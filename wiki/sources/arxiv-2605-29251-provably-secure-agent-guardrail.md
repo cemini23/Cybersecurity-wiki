@@ -10,10 +10,12 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/airguard.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
+  - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: draft
 read_status: deep-read
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-21
 ---
 
 ## Relations

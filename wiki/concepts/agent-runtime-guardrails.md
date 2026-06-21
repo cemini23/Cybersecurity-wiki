@@ -62,9 +62,11 @@ related:
   - entities/tools/ecc.md
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -104,6 +106,8 @@ updated: 2026-06-20
 - @concepts/agentic-containment-principles.md — P1–P6 structural gates
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — GT-MCP trajectory context control (Reference)
 - @concepts/trajectory-context-control.md — memory-commit gate pattern (CCI/AGR/CDS + rollback)
+- @sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md — probabilistic Datalog + DRO (2606.20510)
+- @concepts/agent-probabilistic-datalog-verification.md — noisy-classifier runtime verification layer
 
 ## Raw Concept
 
@@ -133,6 +137,8 @@ These are **not jailbreaks** in the classic sense — the model may comply with 
 ### Defense paradigms (defensive / blue-team lens)
 
 1. **Formal pre-action verification (ePCA)** — SMT/formal constraints on intended actions before execution; maps unsafe transitions to UNSAT deadlocks. Aims for deterministic lower bound under explicit assumptions. `[TENTATIVE]` — lab validation pending; complements not replaces semantic alignment.
+
+1b. **Probabilistic Datalog + DRO (2606.20510)** — when upstream PII/secret/redaction classifiers are noisy and **correlated**, sound upper bounds on policy-violation probability via distributionally robust optimization over Datalog derivation graphs (Praline/Soufflé). Complements ePCA for imperfect predicates; Phase-0 **Reference** until Google artifact ships. See @concepts/agent-probabilistic-datalog-verification.md.
 
 2. **Runtime authority control (AIRGuard)** — Action-time least privilege: task authority → step authority (narrow-only), source/target trust, side-effect simulation, cross-step audit. Prompt-only policy insufficient in paper ablation.
 

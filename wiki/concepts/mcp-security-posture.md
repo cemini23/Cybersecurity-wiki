@@ -41,9 +41,11 @@ related:
   - entities/tools/ecc.md
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 ## Relations
@@ -136,3 +138,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Over-privileged tool selection (2606.20023)** — even with closed allowlists, agents may pick the **broadest authorized tool** when a narrow one suffices; OPUR spikes after transient narrow-tool failures (503/timeout). Admission/DCI/SPI do not measure this — add TOOLPRIVBENCH-style paired-tool eval + runtime authority narrowing (AIRGuard). AgentHarm/refusal benchmarks are **not** a proxy. See @concepts/agent-least-privilege-tool-selection.md and `briefs/2026-06-19_toolprivbench-prod-mcp-eval-checklist.md`.
 
 **Pre-install scan stack (2026-06-20 digest)** — three new triage surfaces: **Skillgate** (Mitiga SaaS, Reference), **ecc-agentshield** (MIT npm, CONDITIONAL-GO), layered with SkillSpector + DefenseClaw. Scanner disagreement remains expected — no single allow/block. See `briefs/2026-06-20_agent-config-scan-stack-phase0.md`.
+
+**Probabilistic runtime verification (2606.20510)** — MCP intercept paths that rely on **noisy content classifiers** (PII/secret scan) need distributionally robust bounds when failures correlate across batched tool responses — deterministic Boolean taint + naive P(violation) thresholds under-bound leak risk. Complements admission/DCI/SPI; Phase-0 **Reference**. See @concepts/agent-probabilistic-datalog-verification.md and `briefs/2026-06-21_probabilistic-agent-guardrail-dro-handoff.md`.

@@ -11,9 +11,11 @@ related:
   - entities/tools/defending-code-reference-harness.md
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
+  - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-07
+updated: 2026-06-21
 ---
 
 ## Relations
@@ -40,6 +42,8 @@ Security findings need **reproducible evidence chains** — especially for discl
 | Validate | LLM + ASan harness | Crash input PoC |
 
 Analyst-facing report should cite: fact tuples → rule application → SMT witness → harness result — mirroring wiki `[CONFIRMED]` / citation-tag discipline.
+
+**Runtime policy Datalog (2606.20510):** same Soufflé toolchain, different job — probabilistic taint verification on agent trajectories (PII/redaction classifiers) vs NeuroLog's static vuln derivation trees. See @concepts/agent-probabilistic-datalog-verification.md.
 
 ### When to use
 

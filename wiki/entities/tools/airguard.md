@@ -20,9 +20,11 @@ related:
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
   - entities/tools/toolprivbench.md
+  - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-21
 phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool calls pre-execution; lab on AgentTrap/DTAP-style tasks before client copilot assessments."
 ---
 

@@ -15,9 +15,10 @@ related:
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/agent-least-privilege-tool-selection.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-21
 phase_0_verdict: "Reference 2026-06-01 — workshop paper + MCP proxy pattern; no canonical public repo in source; adopt pattern after manifest linter + lab replay."
 ---
 

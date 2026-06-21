@@ -54,9 +54,11 @@ related:
   - concepts/exceptional-access-risk-quantification.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
+  - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
+  - concepts/agent-probabilistic-datalog-verification.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-19
+updated: 2026-06-21
 ---
 
 ## Relations

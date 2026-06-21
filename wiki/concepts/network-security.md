@@ -51,9 +51,10 @@ related:
   - entities/tools/iron-proxy.md
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
+  - sources/arxiv-2606-18734-point-cloud-wireless-channel-prediction.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-12
+updated: 2026-06-21
 ---
 
 ## Relations

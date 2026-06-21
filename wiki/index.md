@@ -85,6 +85,7 @@
 | @concepts/internet-of-agentic-ai-ioai.md | draft | IoAI vision — federated agent ecosystems + Table 4 threat taxonomy (2606.12835) |
 | @concepts/exceptional-access-risk-quantification.md | draft | EA architecture risk framework — T-EA vs OTT-EA, deep uncertainty (2606.19106) |
 | @concepts/agent-least-privilege-tool-selection.md | draft | Over-privileged tool selection — OPUR/PED, TOOLPRIVBENCH (2606.20023) |
+| @concepts/agent-probabilistic-datalog-verification.md | draft | DRO probabilistic Datalog runtime verification — noisy classifiers (2606.20510) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |

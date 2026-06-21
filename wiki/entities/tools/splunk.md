@@ -27,7 +27,7 @@ related:
   - entities/people/rajneesh-gupta.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-05-17
+updated: 2026-06-21
 ---
 
 ## Relations
@@ -62,6 +62,10 @@ Stub originally created during the BlueTeam Kit 26-PDF ingest (2026-05-16). Prom
 **Splunk** is a commercial SIEM and machine-data analytics platform — it ingests, indexes, and searches logs and events at scale using **SPL** (Search Processing Language). In SOC work (@concepts/soc-operations.md) it underpins detection engineering, alerting, dashboards, incident-response timelines, and threat hunting (@concepts/threat-hunting.md). Detection content is written as SPL searches; the corpus's query collections are essentially reusable SPL detection libraries.
 
 Splunk sits alongside @entities/tools/qradar.md (IBM) and @entities/tools/wazuh.md (FOSS) as the standard SIEM choices in the corpus. See @concepts/siem.md for the broader platform category.
+
+### Active exploitation watch — CVE-2026-20253 `[NEEDS VERIFICATION 2026-06-21]`
+
+2026-06-21 digest (R1–R3): **CVE-2026-20253** — Splunk Enterprise RCE reportedly added to CISA KEV with in-the-wild exploitation days after disclosure. Patch Splunk Enterprise before hunting; IR engagements may encounter compromised SIEM collectors as pivot points. Details not independently verified in this wiki — confirm vendor advisory + KEV entry before client comms.
 
 ### SPL primer — pipeline mental model
 
