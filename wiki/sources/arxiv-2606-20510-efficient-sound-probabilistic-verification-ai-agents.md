@@ -11,6 +11,7 @@ related:
   - concepts/neuro-symbolic-auditable-reasoning.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
+  - entities/tools/airguard.md
 maturity: draft
 read_status: read
 created: 2026-06-21
@@ -23,6 +24,7 @@ phase_0_verdict: "Reference 2026-06-21 — Google DeepMind paper; no public arti
 - @concepts/agent-probabilistic-datalog-verification.md — synthesized DRO + probabilistic Datalog framework
 - @concepts/agent-runtime-guardrails.md — extends deterministic guardrail stack with noisy-classifier semantics
 - @sources/arxiv-2605-29251-provably-secure-agent-guardrail.md — deterministic ePCA complement (SMT vs probabilistic bounds)
+- @entities/tools/airguard.md — runtime authority layer paired with probabilistic predicate evaluation
 
 ## Raw Concept
 
