@@ -30,9 +30,11 @@ related:
   - entities/tools/ecc.md
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-20
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -53,6 +55,8 @@ K95 cluster (2026-06-03 daily digest): three papers on **agent skill / context i
 | SkillGuard | 2606.03024 | Permission framework for agent skills — steal-for skill_audit |
 
 **Cemini relevance:** extend `skill-vetting.md` + prod MCP governance (K94 brief) with permission metadata; no SkillGuard vendor install without Phase-0.
+
+**System prompt overlap (2606.18673):** skill files and `CLAUDE.md` act as **offline system prompts** — LeakBench-style exfiltration applies when users can chat against agents configured with those files. See @concepts/system-prompt-leakage.md.
 
 ### Cross-session stored prompt injection (K100 — 2606.04425)
 

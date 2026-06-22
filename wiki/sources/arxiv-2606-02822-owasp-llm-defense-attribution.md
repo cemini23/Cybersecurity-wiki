@@ -16,10 +16,12 @@ related:
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-06-22
 ---
 
 ## Relations

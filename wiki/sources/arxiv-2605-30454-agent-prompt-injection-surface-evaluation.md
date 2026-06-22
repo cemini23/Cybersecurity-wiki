@@ -12,10 +12,12 @@ related:
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - entities/tools/llm-defense-lattice.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-22
 ---
 
 ## Relations

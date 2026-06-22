@@ -64,9 +64,12 @@ related:
   - sources/openreview-openclaw-real-world-safety-analysis.md
   - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
   - concepts/agent-probabilistic-datalog-verification.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
+  - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-21
+updated: 2026-06-22
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -108,6 +111,8 @@ updated: 2026-06-21
 - @concepts/trajectory-context-control.md — memory-commit gate pattern (CCI/AGR/CDS + rollback)
 - @sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md — probabilistic Datalog + DRO (2606.20510)
 - @concepts/agent-probabilistic-datalog-verification.md — noisy-classifier runtime verification layer
+- @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — system prompt leakage measurement + AREA (2606.18673)
+- @concepts/system-prompt-leakage.md — LLM07 exfiltration vs injection distinction
 
 ## Raw Concept
 
@@ -130,6 +135,7 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Memory poisoning (architectural)** | Single untrusted write to persistent memory corrupts all subsequent reasoning cycles | Containment gap 2606.12797 |
 | **Trajectory steering** | Locally plausible fragments accumulate across turns; accepted outputs update persistent context without drift gate | GT-MCP 2606.10322 |
 | **Over-privileged tool selection** | Agent picks broader **authorized** tool when narrow sufficient alternative exists; amplified by transient narrow-tool failures | TOOLPRIVBENCH 2606.20023 |
+| **System prompt leakage** | Adversarial query exfiltrates hidden system/skill instructions — API keys, tool rules | LLM07 / 2606.18673 |
 | **Semantic decoupling** | Natural-language intent hides unsafe tool args from LLM-as-Judge guards | ePCA motivation |
 
 These are **not jailbreaks** in the classic sense — the model may comply with user intent while attacker-controlled context steers authorized access off-scope. [CONFIRMED] across AIRGuard + sleeper paper framing.

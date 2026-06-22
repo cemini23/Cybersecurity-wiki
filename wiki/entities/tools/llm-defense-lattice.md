@@ -16,9 +16,12 @@ related:
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
+  - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-06
+updated: 2026-06-22
 phase_0_verdict: "Reference 2026-06-04 — open lattice + 17-probe corpus; GitHub license NOASSERTION; laptop BAS regression only after LICENSE audit."
 ---
 

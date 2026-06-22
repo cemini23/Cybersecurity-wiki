@@ -56,9 +56,12 @@ related:
   - concepts/agent-least-privilege-tool-selection.md
   - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
   - concepts/agent-probabilistic-datalog-verification.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
+  - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-21
+updated: 2026-06-22
 ---
 
 ## Relations

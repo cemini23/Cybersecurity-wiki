@@ -695,3 +695,16 @@ Brief marked `processed: 2026-06-01`.
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.20510-2606-20510v1-efficient-and-sound-probabilistic-v.pdf`
 - `cemini-egress-fi:.../arxiv-2606.18734-2606-18734v1-point-cloud-assistant-localized-sta.pdf`
+
+## [2026-06-22] ingest | System prompt leakage + AREA (2606.18673)
+
+**Inbox**: 1/1 PDF ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-18673-prompt-leaking-attacks-area.md` — 1,200-app measurement, attention drift, AREA; Phase-0 **Reference** (NESA-Lab/AREA, no LICENSE)
+- **NEW** `@concepts/system-prompt-leakage.md` — LLM07 exfiltration vs injection
+- **NEW** `@entities/tools/leakbench-area.md` — LeakBench + AREA entity
+- **NEW** `@concepts/safeclawbench-staged-agent-security.md` — CCC K121 cross-wiki stub (bidirectional fix)
+- **Brief** `briefs/2026-06-22_system-prompt-leak-redteam-checklist.md`
+- **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `ai-for-cybersecurity`, `llm-adversarial-fuzzing`, `llm-defense-lattice`, `agent-skill-injection`, `responsible-disclosure`, `arxiv-2606-02822`, `seclaw-agent-security-evaluation`, `defenseclaw`, `index.md`
+
+**Archive**: `cemini-egress-fi:.../arxiv-2606.18673-understanding-and-mitigating-prompt-leaking-atta.pdf`

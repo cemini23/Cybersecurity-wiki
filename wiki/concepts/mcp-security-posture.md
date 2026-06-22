@@ -43,9 +43,11 @@ related:
   - sources/openreview-openclaw-real-world-safety-analysis.md
   - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
   - concepts/agent-probabilistic-datalog-verification.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-21
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -140,3 +142,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Pre-install scan stack (2026-06-20 digest)** — three new triage surfaces: **Skillgate** (Mitiga SaaS, Reference), **ecc-agentshield** (MIT npm, CONDITIONAL-GO), layered with SkillSpector + DefenseClaw. Scanner disagreement remains expected — no single allow/block. See `briefs/2026-06-20_agent-config-scan-stack-phase0.md`.
 
 **Probabilistic runtime verification (2606.20510)** — MCP intercept paths that rely on **noisy content classifiers** (PII/secret scan) need distributionally robust bounds when failures correlate across batched tool responses — deterministic Boolean taint + naive P(violation) thresholds under-bound leak risk. Complements admission/DCI/SPI; Phase-0 **Reference**. See @concepts/agent-probabilistic-datalog-verification.md and `briefs/2026-06-21_probabilistic-agent-guardrail-dro-handoff.md`.
+
+**System prompt leakage (2606.18673)** — custom GPT/copilot **hidden instructions** (including skill preambles and MCP routing rules) leak in **>80%** of measured commercial apps; prompt-append defenses fail via **attention drift**. Orthogonal to SPI/DCI but same assessment window — add LeakBench-style exfil probes. See @concepts/system-prompt-leakage.md and `briefs/2026-06-22_system-prompt-leak-redteam-checklist.md`.

@@ -11,9 +11,10 @@ related:
   - entities/tools/fuzzyai.md
   - entities/tools/llm-defense-lattice.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-06-04
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — MIT verified; queue Phase-0 alongside FuzzyAI for transform/mutator catalog comparison."
 ---

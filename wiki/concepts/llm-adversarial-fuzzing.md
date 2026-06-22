@@ -26,9 +26,12 @@ related:
   - entities/tools/seclaw-eval.md
   - entities/tools/llm-defense-lattice.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
+  - entities/tools/leakbench-area.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-22
 ---
 
 ## Relations

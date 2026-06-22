@@ -23,9 +23,11 @@ related:
   - concepts/neuro-symbolic-auditable-reasoning.md
   - sources/arxiv-neurolog-auditable-vuln-discovery-2606.00669-2026-06-05.md
   - concepts/exceptional-access-risk-quantification.md
+  - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
+  - concepts/system-prompt-leakage.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-18
+updated: 2026-06-22
 ---
 
 ## Relations
