@@ -33,9 +33,11 @@ related:
   - entities/tools/cf-hero.md
   - entities/tools/cve-mcp-server.md
   - entities/tools/netviz.md
+  - sources/arxiv-2606-20610-osint-ai-loss-of-control-detection.md
+  - concepts/ai-loss-of-control-osint-monitoring.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-01
+updated: 2026-06-23
 ---
 
 ## Relations

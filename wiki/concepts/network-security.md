@@ -52,9 +52,10 @@ related:
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
   - sources/arxiv-2606-18734-point-cloud-wireless-channel-prediction.md
+  - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-21
+updated: 2026-06-23
 ---
 
 ## Relations

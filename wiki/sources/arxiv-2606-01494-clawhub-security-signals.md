@@ -4,6 +4,8 @@ type: source
 tags: [arxiv, agent-security, skill-supply-chain, skillspector, openclaw, research-paper]
 keywords: [clawhub, skillspector, virustotal, scanner disagreement, agent skills, openclaw foundation]
 related:
+  - concepts/self-evolving-agent-security.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
   - concepts/agent-runtime-guardrails.md
   - concepts/npm-supply-chain-defense.md
   - entities/tools/nvidia-skillspector.md

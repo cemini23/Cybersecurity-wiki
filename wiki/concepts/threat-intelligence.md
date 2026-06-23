@@ -33,9 +33,11 @@ related:
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
   - concepts/exceptional-access-risk-quantification.md
+  - sources/arxiv-2606-20610-osint-ai-loss-of-control-detection.md
+  - concepts/ai-loss-of-control-osint-monitoring.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-06-18
+updated: 2026-06-23
 ---
 
 ## Relations

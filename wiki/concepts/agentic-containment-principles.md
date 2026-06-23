@@ -18,9 +18,11 @@ related:
   - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
+  - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-19
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -38,6 +40,8 @@ updated: 2026-06-19
 ## Raw Concept
 
 K114 ingest (2026-06-13): six **containment principles** from arXiv:2606.12797 operationalized as a reusable compliance matrix for LangChain, AutoGPT, and OpenAI Agents SDK — synthesized with containment-gap experiments and cross-linked to MCP/error-path work (2606.07992).
+
+**Self-evolution extension (2606.23075):** static P1–P6 audits assume **immutable anchors** (weights, tool set). Self-evolving agents violate P3/P6 by design — MLAS shows 17/25 cells critical with no effective defense. See @concepts/self-evolving-agent-security.md before certifying any "contained" agent that can modify memory, tools, or architecture.
 
 ## Narrative
 

@@ -15,6 +15,7 @@ related:
   - entities/frameworks/mitre-attack.md
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - sources/arxiv-2606-18734-point-cloud-wireless-channel-prediction.md
+  - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
 maturity: draft
 created: 2026-06-12
 updated: 2026-06-21

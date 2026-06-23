@@ -31,6 +31,8 @@ related:
   - entities/tools/ecc.md
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - concepts/self-evolving-agent-security.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
 maturity: draft
 created: 2026-05-31
 updated: 2026-06-20

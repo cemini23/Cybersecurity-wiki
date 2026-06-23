@@ -18,10 +18,12 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
+  - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
+  - concepts/prompt-injection-detector-calibration.md
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

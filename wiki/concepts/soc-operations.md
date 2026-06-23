@@ -63,9 +63,11 @@ related:
   - entities/tools/vanguard.md
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
+  - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
+  - entities/tools/defengraph.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-12
+updated: 2026-06-23
 ---
 
 ## Relations

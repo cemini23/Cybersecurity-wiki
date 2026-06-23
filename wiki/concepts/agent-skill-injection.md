@@ -32,9 +32,11 @@ related:
   - sources/openreview-openclaw-real-world-safety-analysis.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
+  - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

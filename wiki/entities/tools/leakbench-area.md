@@ -4,6 +4,7 @@ type: entity
 tags: [tool, llm-security, benchmark, prompt-leaking, area, leakbench, reference]
 keywords: [leakbench, area, attention re-anchoring, nesa-lab, 2606.18673, prompt leaking]
 related:
+  - concepts/mcp-security-posture.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
   - concepts/llm-adversarial-fuzzing.md

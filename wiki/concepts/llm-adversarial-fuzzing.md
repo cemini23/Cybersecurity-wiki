@@ -29,9 +29,12 @@ related:
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
   - entities/tools/leakbench-area.md
+  - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
+  - concepts/prompt-injection-detector-calibration.md
+  - entities/tools/picalib-research.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

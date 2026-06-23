@@ -67,9 +67,15 @@ related:
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
   - entities/tools/leakbench-area.md
+  - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
+  - concepts/prompt-injection-detector-calibration.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
+  - concepts/self-evolving-agent-security.md
+  - sources/arxiv-2606-20610-osint-ai-loss-of-control-detection.md
+  - concepts/ai-loss-of-control-osint-monitoring.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -136,6 +142,8 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Trajectory steering** | Locally plausible fragments accumulate across turns; accepted outputs update persistent context without drift gate | GT-MCP 2606.10322 |
 | **Over-privileged tool selection** | Agent picks broader **authorized** tool when narrow sufficient alternative exists; amplified by transient narrow-tool failures | TOOLPRIVBENCH 2606.20023 |
 | **System prompt leakage** | Adversarial query exfiltrates hidden system/skill instructions — API keys, tool rules | LLM07 / 2606.18673 |
+| **Confident guard misses** | PI detectors assign ~1.0 confidence to missed indirect hijacks | 2606.22659 |
+| **Self-evolution persistence** | Attacks embed across evolution cycles; scanners miss evolution path | 2606.23075 MLAS |
 | **Semantic decoupling** | Natural-language intent hides unsafe tool args from LLM-as-Judge guards | ePCA motivation |
 
 These are **not jailbreaks** in the classic sense — the model may comply with user intent while attacker-controlled context steers authorized access off-scope. [CONFIRMED] across AIRGuard + sleeper paper framing.

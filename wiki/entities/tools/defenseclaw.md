@@ -34,9 +34,11 @@ related:
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
   - concepts/safeclawbench-staged-agent-security.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
+  - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-22
+updated: 2026-06-23
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 phase_0_verdict: "CONDITIONAL-GO 2026-05-31 — CLI scanners + Codex sidecar (observe) ADOPTED on laptop; LLM judge optional via DEFENSECLAW_LLM_KEY; action mode + Splunk optional."
 ---

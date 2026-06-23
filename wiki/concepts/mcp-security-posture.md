@@ -45,9 +45,14 @@ related:
   - concepts/agent-probabilistic-datalog-verification.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
+  - entities/tools/leakbench-area.md
+  - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
+  - concepts/prompt-injection-detector-calibration.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
+  - concepts/self-evolving-agent-security.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -144,3 +149,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Probabilistic runtime verification (2606.20510)** — MCP intercept paths that rely on **noisy content classifiers** (PII/secret scan) need distributionally robust bounds when failures correlate across batched tool responses — deterministic Boolean taint + naive P(violation) thresholds under-bound leak risk. Complements admission/DCI/SPI; Phase-0 **Reference**. See @concepts/agent-probabilistic-datalog-verification.md and `briefs/2026-06-21_probabilistic-agent-guardrail-dro-handoff.md`.
 
 **System prompt leakage (2606.18673)** — custom GPT/copilot **hidden instructions** (including skill preambles and MCP routing rules) leak in **>80%** of measured commercial apps; prompt-append defenses fail via **attention drift**. Orthogonal to SPI/DCI but same assessment window — add LeakBench-style exfil probes. See @concepts/system-prompt-leakage.md and `briefs/2026-06-22_system-prompt-leak-redteam-checklist.md`.
+
+**Guard calibration under shift (2606.22659)** — ProtectAI / Prompt-Guard-2 can miss **indirect behavior-hijack** with **severity S ≈ 1.0** on false negatives. Shift-test on MCP tool-return channel; never deploy on pooled ECE alone. See @concepts/prompt-injection-detector-calibration.md and `briefs/2026-06-23_prompt-guard-severity-calibration-handoff.md`.
+
+**Self-evolving agents (2606.23075)** — MLAS matrix: evolution removes immutable anchors; Hermes case **100% attack persistence**, scanners **2.5%** on evolution path. Default deny self-modifying agents on prod-mcp. See @concepts/self-evolving-agent-security.md.

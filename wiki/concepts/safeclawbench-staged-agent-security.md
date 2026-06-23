@@ -8,9 +8,11 @@ related:
   - ccc-wiki/concepts/safeclawbench-staged-security-endpoints.md
   - concepts/seclaw-agent-security-evaluation.md
   - entities/tools/defenseclaw.md
+  - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
+  - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-06-23
 ---
 
 ## Relations

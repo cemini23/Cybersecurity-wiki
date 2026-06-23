@@ -42,9 +42,11 @@ related:
   - entities/tools/cve-mcp-server.md
   - concepts/exceptional-access-risk-quantification.md
   - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
+  - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
+  - entities/tools/defengraph.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-18
+updated: 2026-06-23
 ---
 
 ## Relations

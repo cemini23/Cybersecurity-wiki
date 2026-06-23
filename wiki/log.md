@@ -708,3 +708,17 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `ai-for-cybersecurity`, `llm-adversarial-fuzzing`, `llm-defense-lattice`, `agent-skill-injection`, `responsible-disclosure`, `arxiv-2606-02822`, `seclaw-agent-security-evaluation`, `defenseclaw`, `index.md`
 
 **Archive**: `cemini-egress-fi:.../arxiv-2606.18673-understanding-and-mitigating-prompt-leaking-atta.pdf`
+
+## [2026-06-23] ingest | 5-paper batch — OSINT LoC, DEFENGRAPH, guard calibration, CITADEL, self-evolution
+
+**Inbox**: 5/5 PDFs ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-20610-osint-ai-loss-of-control-detection.md` + `@concepts/ai-loss-of-control-osint-monitoring.md` — OSINT/CTI for AI loss of control (Reference)
+- **NEW** `@sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md` + `@entities/tools/defengraph.md` — KG+RAG SOC assistant (Reference, no repo)
+- **NEW** `@sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md` + `@concepts/prompt-injection-detector-calibration.md` + `@entities/tools/picalib-research.md` — severity S metric (Reference)
+- **NEW** `@sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md` — IIoT jamming stub (skimmed)
+- **NEW** `@sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md` + `@concepts/self-evolving-agent-security.md` — MLAS matrix + OpenClaw/Hermes case studies
+- **Briefs** `2026-06-23_prompt-guard-severity-calibration-handoff.md`, `2026-06-23_self-evolving-agent-assessment-checklist.md`, `2026-06-23_ai-loc-osint-monitoring-handoff.md`
+- **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `agentic-containment-principles`, `osint-for-cybersecurity`, `threat-intelligence`, `incident-response`, `soc-operations`, `siem`, `ai-for-cybersecurity`, `llm-adversarial-fuzzing`, `llm-defense-lattice`, `safeclawbench-staged-agent-security`, `openreview-openclaw-real-world-safety-analysis`, `network-security`, `index.md`
+
+**Archive**: 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/`
