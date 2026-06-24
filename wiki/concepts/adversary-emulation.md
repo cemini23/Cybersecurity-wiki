@@ -34,6 +34,9 @@ related:
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
   - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
   - entities/tools/autosut.md
+  - concepts/autonomous-defense-agent-transferability.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+
 maturity: validated
 created: 2026-05-12
 updated: 2026-06-11

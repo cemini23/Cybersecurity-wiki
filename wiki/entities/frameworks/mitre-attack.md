@@ -37,6 +37,9 @@ related:
   - entities/tools/autosut.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
   - concepts/6g-cps-closed-loop-security.md
+  - concepts/autonomous-defense-agent-transferability.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+
 maturity: validated
 created: 2026-05-12
 updated: 2026-06-12

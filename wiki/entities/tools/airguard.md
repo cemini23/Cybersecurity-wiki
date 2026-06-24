@@ -22,6 +22,11 @@ related:
   - entities/tools/toolprivbench.md
   - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
   - concepts/agent-probabilistic-datalog-verification.md
+  - concepts/intent-governed-tool-authorization.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+  - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-21

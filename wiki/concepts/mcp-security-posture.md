@@ -50,9 +50,19 @@ related:
   - concepts/prompt-injection-detector-calibration.md
   - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
   - concepts/self-evolving-agent-security.md
+  - sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
+  - concepts/cross-tool-description-poisoning.md
+  - entities/tools/tool-guard.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+  - concepts/intent-governed-tool-authorization.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+  - concepts/local-agent-runtime-audit.md
+  - entities/tools/clawaudit.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -153,3 +163,11 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Guard calibration under shift (2606.22659)** — ProtectAI / Prompt-Guard-2 can miss **indirect behavior-hijack** with **severity S ≈ 1.0** on false negatives. Shift-test on MCP tool-return channel; never deploy on pooled ECE alone. See @concepts/prompt-injection-detector-calibration.md and `briefs/2026-06-23_prompt-guard-severity-calibration-handoff.md`.
 
 **Self-evolving agents (2606.23075)** — MLAS matrix: evolution removes immutable anchors; Hermes case **100% attack persistence**, scanners **2.5%** on evolution path. Default deny self-modifying agents on prod-mcp. See @concepts/self-evolving-agent-security.md.
+
+**Cross-tool description poisoning (2606.20922)** — poisoned metadata on tool A steers planner toward tool B without invoking A; PI defenses leave **19–43%** ASR on AgentDojo vs **2.06%** under Tool-Guard **isolated planning** (influenced-list quarantine). Orthogonal to DCI/MSTI. Phase-0 **CONDITIONAL-GO** on `shishishi123/Tool-Guard` (MIT). See @concepts/cross-tool-description-poisoning.md and `briefs/2026-06-24_tool-guard-isolated-planning-prod-mcp-handoff.md`.
+
+**Lingering authority (2606.22504)** — planner-interface exposure after subgoal closure; PORTICO revokes epoch-bound handles (**10/10** post-closure replay blocked). Complements OPUR/AIRGuard temporal gap. **Reference** until artifact ships. See @concepts/lingering-authority-revocable-capabilities.md and `briefs/2026-06-24_portico-lingering-authority-coding-agent-handoff.md`.
+
+**IGAC (2606.22916)** — server-side intent certificates + manifest narrowing; static OpenPort still allowed **85.71%** of high-risk requests. Sits above admission, before planner. **Reference**. See @concepts/intent-governed-tool-authorization.md and `briefs/2026-06-24_igac-intent-governed-tool-auth-handoff.md`.
+
+**Local runtime audit (2606.21071)** — CLAWAUDIT Semgrep/CodeQL on OpenClaw source (**66.8% / 75.1%** recall vs baselines); complements scanner-only posture. Phase-0 **CONDITIONAL-GO** (`SRestLabUB/ClawAudit`, no LICENSE file). See @concepts/local-agent-runtime-audit.md and `briefs/2026-06-24_clawaudit-openclaw-runtime-audit-checklist.md`.

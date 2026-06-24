@@ -13,10 +13,13 @@ related:
   - entities/tools/defenseclaw.md
   - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
   - concepts/self-evolving-agent-security.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+  - concepts/local-agent-runtime-audit.md
+  - entities/tools/clawaudit.md
 maturity: draft
 read_status: unread-stub
 created: 2026-06-20
-updated: 2026-06-23
+updated: 2026-06-24
 phase_0_verdict: "Defer 2026-06-20 — OpenReview PDF not auto-fetched; recurring digest hit (P2 lane); manual fetch to research to be indexed/ before deep-read"
 ---
 

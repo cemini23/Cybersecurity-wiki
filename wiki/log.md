@@ -722,3 +722,17 @@ Brief marked `processed: 2026-06-01`.
 - **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `agentic-containment-principles`, `osint-for-cybersecurity`, `threat-intelligence`, `incident-response`, `soc-operations`, `siem`, `ai-for-cybersecurity`, `llm-adversarial-fuzzing`, `llm-defense-lattice`, `safeclawbench-staged-agent-security`, `openreview-openclaw-real-world-safety-analysis`, `network-security`, `index.md`
 
 **Archive**: 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/`
+
+## [2026-06-24] ingest | 6-paper batch — Tool-Guard, CLAWAUDIT, ARENA, PORTICO, IGAC (+ legal routed)
+
+**Inbox**: 5/6 cybersecurity PDFs ingested + archived; 1 off-topic legal AI PDF archived only.
+
+- **NEW** `@sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md` + `@concepts/cross-tool-description-poisoning.md` + `@entities/tools/tool-guard.md` — cross-tool metadata poisoning; Phase-0 **CONDITIONAL-GO** (MIT)
+- **NEW** `@sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md` + `@concepts/local-agent-runtime-audit.md` + `@entities/tools/clawaudit.md` — OpenClaw runtime static audit; Phase-0 **CONDITIONAL-GO** (no LICENSE)
+- **NEW** `@sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md` + `@concepts/autonomous-defense-agent-transferability.md` — SOC agent transferability gap; **Reference**
+- **NEW** `@sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md` + `@concepts/lingering-authority-revocable-capabilities.md` — revocable planner capabilities; **Reference**
+- **NEW** `@sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md` + `@concepts/intent-governed-tool-authorization.md` — IGAC intent certificates; **Reference**
+- **Skipped wiki** `arxiv-2606.23913` legal AI formal verification — off-topic; archived to egress only
+- **Briefs** `2026-06-24_tool-guard-*`, `clawaudit-*`, `portico-*`, `igac-*`, `arena-*`, `ccc-handoff-agent-security-ingest-batch.md`
+- **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `agent-skill-injection`, `agent-least-privilege-tool-selection`, `soc-operations`, `ai-for-cybersecurity`, `openreview-openclaw-real-world-safety-analysis`, `defenseclaw`, `index.md`
+- **Inbox cleared** — 6/6 files archived

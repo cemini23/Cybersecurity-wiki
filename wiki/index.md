@@ -90,6 +90,11 @@
 | @concepts/prompt-injection-detector-calibration.md | draft | Guard-model severity S under shift — confident FN on indirect hijack (2606.22659) |
 | @concepts/self-evolving-agent-security.md | draft | MLAS matrix — self-evolving agents, attack persistence (2606.23075) |
 | @concepts/ai-loss-of-control-osint-monitoring.md | draft | OSINT vectors for AI loss-of-control detection (2606.20610) |
+| @concepts/cross-tool-description-poisoning.md | draft | Cross-tool MCP metadata steering + Tool-Guard isolated planning (2606.20922) |
+| @concepts/local-agent-runtime-audit.md | draft | CLAWAUDIT static runtime audit — OpenClaw source (2606.21071) |
+| @concepts/autonomous-defense-agent-transferability.md | draft | ARENA — SOC agent transferability gap (2606.21377) |
+| @concepts/lingering-authority-revocable-capabilities.md | draft | PORTICO revocable planner capabilities (2606.22504) |
+| @concepts/intent-governed-tool-authorization.md | draft | IGAC — session intent narrowing (2606.22916) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
@@ -312,6 +317,8 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | sevra-bench | — | Reference | digest | @entities/tools/sevra-bench.md — LLM PR merge-gate eval; **no LICENSE on GitHub API 2026-06-16** |
 | toolprivbench | — | Reference | digest | @entities/tools/toolprivbench.md — OPUR/PED least-privilege tool eval; **no LICENSE on GitHub API 2026-06-19** |
 | leakbench-area | — | Reference | digest | @entities/tools/leakbench-area.md — LeakBench + AREA soft-prompt defense; **no LICENSE on GitHub API 2026-06-22** |
+| clawaudit | — | CONDITIONAL-GO | digest | @entities/tools/clawaudit.md — OpenClaw runtime Semgrep/CodeQL audit; **no LICENSE on GitHub API 2026-06-24** |
+| tool-guard | MIT | CONDITIONAL-GO | digest | @entities/tools/tool-guard.md — isolated planning vs cross-tool description poisoning (ICML 2026) |
 | defengraph | — | Reference | digest | @entities/tools/defengraph.md — KG+RAG blue-team assistant; no public repo 2026-06-23 |
 | picalib-research | — | Reference | digest | @entities/tools/picalib-research.md — PI guard severity metric artifacts; **no LICENSE 2026-06-23** |
 | ecc | MIT | Steal-from / CONDITIONAL-GO | digest | @entities/tools/ecc.md — cross-harness operator system; **ecc-agentshield** npm for config audit |
@@ -327,7 +334,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 
 ## Sources
 
-276 source pages live in `sources/`:
+281 source pages live in `sources/`:
 
 - **226** from the Joas A Santos seed corpus (shared Drive folder `ebooks Joas`)
 - **22** from the Redteam Kit shared Drive folder (English-language security books + field manuals)

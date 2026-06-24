@@ -11,6 +11,9 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/seclaw-agent-security-evaluation.md
   - entities/tools/nvidia-skillspector.md
+  - entities/tools/clawaudit.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+  - concepts/local-agent-runtime-audit.md
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
   - entities/tools/seclaw-eval.md
@@ -38,7 +41,7 @@ related:
   - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-23
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 phase_0_verdict: "CONDITIONAL-GO 2026-05-31 — CLI scanners + Codex sidecar (observe) ADOPTED on laptop; LLM judge optional via DEFENSECLAW_LLM_KEY; action mode + Splunk optional."
 ---

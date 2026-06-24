@@ -17,9 +17,13 @@ related:
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
   - entities/tools/ecc.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+  - concepts/intent-governed-tool-authorization.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-20
+updated: 2026-06-24
 ---
 
 ## Relations

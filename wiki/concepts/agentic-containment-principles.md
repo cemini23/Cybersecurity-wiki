@@ -20,6 +20,9 @@ related:
   - concepts/agent-least-privilege-tool-selection.md
   - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
   - concepts/self-evolving-agent-security.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+
 maturity: draft
 created: 2026-06-13
 updated: 2026-06-23

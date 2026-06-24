@@ -10,6 +10,9 @@ related:
   - concepts/siem.md
   - concepts/threat-hunting.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/autonomous-defense-agent-transferability.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+
 maturity: draft
 read_status: read
 created: 2026-06-23

@@ -42,6 +42,9 @@ related:
   - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
   - entities/tools/defengraph.md
   - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
+  - concepts/autonomous-defense-agent-transferability.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+
 maturity: validated
 created: 2026-05-12
 updated: 2026-06-11

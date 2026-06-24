@@ -67,9 +67,19 @@ related:
   - concepts/ai-loss-of-control-osint-monitoring.md
   - entities/tools/defengraph.md
   - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
+  - sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
+  - concepts/cross-tool-description-poisoning.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+  - concepts/local-agent-runtime-audit.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+  - concepts/intent-governed-tool-authorization.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+  - concepts/autonomous-defense-agent-transferability.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

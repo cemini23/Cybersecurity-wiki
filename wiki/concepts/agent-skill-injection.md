@@ -30,13 +30,16 @@ related:
   - entities/tools/ecc.md
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+  - concepts/local-agent-runtime-audit.md
+  - entities/tools/clawaudit.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
   - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
   - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -91,4 +94,4 @@ SkillGuard and install-time vetting bound **which** tools/skills enter the catal
 | **Skillgate** (Mitiga SaaS) | Reference | 80+ rules, OWASP Agentic AI mapping; closed source — triage public repos only |
 | **ecc-agentshield** (ECC npm) | CONDITIONAL-GO | MIT; config/hook/injection audit — official npm/github only |
 
-Layer with @entities/tools/nvidia-skillspector.md + @entities/tools/defenseclaw.md; see `briefs/2026-06-20_agent-config-scan-stack-phase0.md`. **OpenClaw** real-world safety paper stubbed pending manual PDF fetch: @sources/openreview-openclaw-real-world-safety-analysis.md.
+Layer with @entities/tools/nvidia-skillspector.md + @entities/tools/defenseclaw.md; see `briefs/2026-06-20_agent-config-scan-stack-phase0.md`. **OpenClaw** runtime source audit: @concepts/local-agent-runtime-audit.md (CLAWAUDIT 2606.21071). Real-world safety paper stubbed: @sources/openreview-openclaw-real-world-safety-analysis.md.

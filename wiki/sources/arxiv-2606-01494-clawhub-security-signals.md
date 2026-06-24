@@ -15,6 +15,10 @@ related:
   - sources/arxiv-2606-07131-malskillbench-runtime-verified-malicious-skills.md
   - entities/tools/skillgate.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - concepts/local-agent-runtime-audit.md
+  - entities/tools/clawaudit.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+
 maturity: draft
 read_status: read
 created: 2026-06-02

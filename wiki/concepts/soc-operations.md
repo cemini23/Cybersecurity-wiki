@@ -65,9 +65,11 @@ related:
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
   - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
   - entities/tools/defengraph.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+  - concepts/autonomous-defense-agent-transferability.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

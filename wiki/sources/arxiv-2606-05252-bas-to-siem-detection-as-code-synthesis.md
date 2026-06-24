@@ -17,6 +17,9 @@ related:
   - sources/arxiv-2606-08700-autosut-environment-semantics-gap.md
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
+  - concepts/autonomous-defense-agent-transferability.md
+  - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+
 maturity: draft
 read_status: read
 created: 2026-06-06

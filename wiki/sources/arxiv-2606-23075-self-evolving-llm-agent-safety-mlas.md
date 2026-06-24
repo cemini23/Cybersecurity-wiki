@@ -15,6 +15,8 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
   - concepts/safeclawbench-staged-agent-security.md
+  - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+
 maturity: draft
 read_status: read
 created: 2026-06-23

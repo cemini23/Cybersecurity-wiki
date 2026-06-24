@@ -16,6 +16,9 @@ related:
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
+  - concepts/cross-tool-description-poisoning.md
+  - sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
+
 maturity: draft
 read_status: read
 created: 2026-06-06

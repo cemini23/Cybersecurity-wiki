@@ -13,6 +13,9 @@ related:
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
+  - concepts/cross-tool-description-poisoning.md
+  - sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
+
 maturity: draft
 read_status: read
 created: 2026-06-05

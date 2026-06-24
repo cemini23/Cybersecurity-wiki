@@ -16,6 +16,9 @@ related:
   - entities/tools/chaincaps.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+
 maturity: draft
 read_status: read
 created: 2026-06-19

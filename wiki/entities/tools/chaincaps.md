@@ -16,6 +16,11 @@ related:
   - concepts/agent-least-privilege-tool-selection.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-probabilistic-datalog-verification.md
+  - concepts/intent-governed-tool-authorization.md
+  - concepts/lingering-authority-revocable-capabilities.md
+  - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+  - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-21

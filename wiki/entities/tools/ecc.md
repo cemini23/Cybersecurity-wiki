@@ -13,6 +13,8 @@ related:
   - entities/tools/claude-code-ultimate-guide.md
   - entities/tools/skillgate.md
   - "@ccc-wiki/entities/tools/claude-code-ultimate-guide.md"
+  - concepts/local-agent-runtime-audit.md
+
 maturity: draft
 created: 2026-06-20
 updated: 2026-06-20
