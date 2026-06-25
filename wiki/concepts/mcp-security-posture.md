@@ -60,9 +60,11 @@ related:
   - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
   - concepts/local-agent-runtime-audit.md
   - entities/tools/clawaudit.md
+  - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
+  - concepts/agentic-offensive-security-kill-chain.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations
@@ -171,3 +173,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **IGAC (2606.22916)** — server-side intent certificates + manifest narrowing; static OpenPort still allowed **85.71%** of high-risk requests. Sits above admission, before planner. **Reference**. See @concepts/intent-governed-tool-authorization.md and `briefs/2026-06-24_igac-intent-governed-tool-auth-handoff.md`.
 
 **Local runtime audit (2606.21071)** — CLAWAUDIT Semgrep/CodeQL on OpenClaw source (**66.8% / 75.1%** recall vs baselines); complements scanner-only posture. Phase-0 **CONDITIONAL-GO** (`SRestLabUB/ClawAudit`, no LICENSE file). See @concepts/local-agent-runtime-audit.md and `briefs/2026-06-24_clawaudit-openclaw-runtime-audit-checklist.md`.
+
+**Agentic red-team reverse-audit (2606.24496)** — 10/12 OSS pentest agents compromised via **agent-phishing** (97.8% honeypot success, no prompt injection). Worker-as-malicious architecture required: secrets on orchestrator, no docker.sock/`--network=host`. See @concepts/agentic-offensive-security-kill-chain.md and `briefs/2026-06-25_agentic-red-team-secure-architecture-handoff.md`.

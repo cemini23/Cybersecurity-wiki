@@ -16,9 +16,11 @@ related:
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - entities/tools/defending-code-reference-harness.md
+  - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
+  - concepts/agentic-offensive-security-kill-chain.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-06-25
 ---
 
 ## Relations

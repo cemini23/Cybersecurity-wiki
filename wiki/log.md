@@ -736,3 +736,15 @@ Brief marked `processed: 2026-06-01`.
 - **Briefs** `2026-06-24_tool-guard-*`, `clawaudit-*`, `portico-*`, `igac-*`, `arena-*`, `ccc-handoff-agent-security-ingest-batch.md`
 - **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `agent-skill-injection`, `agent-least-privilege-tool-selection`, `soc-operations`, `ai-for-cybersecurity`, `openreview-openclaw-real-world-safety-analysis`, `defenseclaw`, `index.md`
 - **Inbox cleared** — 6/6 files archived
+
+## [2026-06-25] ingest | Agentic red-team security audit (2606.24496)
+
+**Inbox**: 1/1 PDF ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md` + `@concepts/agentic-offensive-security-kill-chain.md` — agent-phishing + worker/orchestrator kill chain (Reference meta-audit)
+- **Briefs** `2026-06-25_agentic-red-team-secure-architecture-handoff.md`, `2026-06-25_agent-phishing-tier2-eval-checklist.md`
+- **Brief audit** — 38 wiki `briefs/` refs; 37 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror — not wiki-linked)
+- **Updated** `llm-pentest-automation`, `agent-runtime-guardrails`, `red-team-operations`, `agent-vm-sandboxing`, `ai-for-cybersecurity`, `mcp-security-posture`, `airecon`, `index.md`
+- **Phase-0** Cracken paper Reference; AIRecon flagged CONDITIONAL-GO pending docker cap re-audit
+
+**Archive**: `cemini-egress-fi:.../arxiv-2606.24496-red-teaming-the-agentic-red-team.pdf`

@@ -95,6 +95,7 @@
 | @concepts/autonomous-defense-agent-transferability.md | draft | ARENA — SOC agent transferability gap (2606.21377) |
 | @concepts/lingering-authority-revocable-capabilities.md | draft | PORTICO revocable planner capabilities (2606.22504) |
 | @concepts/intent-governed-tool-authorization.md | draft | IGAC — session intent narrowing (2606.22916) |
+| @concepts/agentic-offensive-security-kill-chain.md | draft | Agentic pentest agent kill chain + agent-phishing (2606.24496) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
@@ -334,7 +335,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 
 ## Sources
 
-281 source pages live in `sources/`:
+282 source pages live in `sources/`:
 
 - **226** from the Joas A Santos seed corpus (shared Drive folder `ebooks Joas`)
 - **22** from the Redteam Kit shared Drive folder (English-language security books + field manuals)

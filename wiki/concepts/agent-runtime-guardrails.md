@@ -83,9 +83,11 @@ related:
   - concepts/lingering-authority-revocable-capabilities.md
   - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
   - concepts/intent-governed-tool-authorization.md
+  - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
+  - concepts/agentic-offensive-security-kill-chain.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -158,6 +160,8 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Lingering authority** | Subgoal-closed capability still visible in planner manifest | PORTICO 2606.22504 |
 | **Intent-scope mismatch** | Static credential authorizes tool call unjustified by current user request | IGAC 2606.22916 |
 | **Runtime implementation flaws** | Parser/dispatcher/memory-writer bugs in local agent source | CLAWAUDIT 2606.21071 |
+| **Agent-phishing (offensive agent)** | Trojanized target artifact → download+execute without prompt injection | 2606.24496 |
+| **Worker→orchestrator escalation** | Compromised worker reaches orchestrator secrets/APIs | 2606.24496 |
 | **Semantic decoupling** | Natural-language intent hides unsafe tool args from LLM-as-Judge guards | ePCA motivation |
 
 These are **not jailbreaks** in the classic sense — the model may comply with user intent while attacker-controlled context steers authorized access off-scope. [CONFIRMED] across AIRGuard + sleeper paper framing.

@@ -12,6 +12,8 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/exploit-development.md
   - concepts/agent-skill-injection.md
+  - concepts/agentic-offensive-security-kill-chain.md
+
 maturity: draft
 created: 2026-06-06
 updated: 2026-06-06

@@ -80,9 +80,11 @@ related:
   - entities/tools/osmedeus.md
   - entities/tools/offensive-claude.md
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
+  - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
+  - concepts/agentic-offensive-security-kill-chain.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-31
+updated: 2026-06-25
 ---
 
 ## Relations
