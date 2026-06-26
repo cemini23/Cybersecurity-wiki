@@ -32,9 +32,10 @@ related:
   - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
   - concepts/prompt-injection-detector-calibration.md
   - entities/tools/picalib-research.md
+  - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-23
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -99,6 +100,10 @@ This methodology is dual-use by definition. Acceptable contexts:
 - Academic / CTF / lab
 
 **Not acceptable**: arbitrary jailbreaking of third-party production LLMs. See @concepts/responsible-disclosure.md.
+
+### Quality-diversity + parallel search (2606.24166)
+
+**ToxSearch-S** applies speciated quality-diversity optimization to toxicity prompt discovery: maintains diverse behavioral niches (DBSCAN cluster count) while matching peak toxicity of ToxSearch/RainbowPlus with a **less toxic best-so-far trajectory** — useful when red-team budget should explore **breadth of failure modes** without over-concentrating on one jailbreak lineage. MPI workers give ~**3.2×** wall-clock at 4 workers with Best@B statistically equal to sequential. Phase-0 **Reference** (no public code); informs campaign design for @entities/tools/fuzzyai.md sweeps. See @sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md and `briefs/2026-06-26_toxsearch-s-adversarial-fuzzing-handoff.md`.
 
 ## Dead Ends
 

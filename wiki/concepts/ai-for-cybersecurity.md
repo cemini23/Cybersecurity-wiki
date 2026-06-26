@@ -79,9 +79,12 @@ related:
   - concepts/autonomous-defense-agent-transferability.md
   - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
   - concepts/agentic-offensive-security-kill-chain.md
+  - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
+  - concepts/multi-tool-threshold-mcp-poisoning.md
+  - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 ## Relations

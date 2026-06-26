@@ -96,6 +96,7 @@
 | @concepts/lingering-authority-revocable-capabilities.md | draft | PORTICO revocable planner capabilities (2606.22504) |
 | @concepts/intent-governed-tool-authorization.md | draft | IGAC — session intent narrowing (2606.22916) |
 | @concepts/agentic-offensive-security-kill-chain.md | draft | Agentic pentest agent kill chain + agent-phishing (2606.24496) |
+| @concepts/multi-tool-threshold-mcp-poisoning.md | draft | ShareLock Shamir multi-tool MCP poisoning (2606.27027) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |

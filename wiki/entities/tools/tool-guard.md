@@ -8,9 +8,11 @@ related:
   - concepts/cross-tool-description-poisoning.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/multi-tool-threshold-mcp-poisoning.md
+  - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-26
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/shishishi123/Tool-Guard MIT, 0★, last push 2026-05-25; ICML 2026 artifact — lab-validate ASR/utility on prod-mcp tool catalog before enforcement"
 ---
 

@@ -10,10 +10,12 @@ related:
   - concepts/agent-runtime-guardrails.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
+  - concepts/multi-tool-threshold-mcp-poisoning.md
+  - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -33,7 +35,10 @@ Ingest 2026-06-24: arXiv:2606.20922 — attack class where **poisoned tool metad
 ```
 Preference poisoning → self-select poisoned tool
 Cross-tool poisoning → corrupt metadata influences OTHER tool choices (poisoned tool never called)
+Multi-tool threshold (ShareLock) → Shamir shares across {T1…Tn}; <t shares reveal nothing; trigger reconstructs payload
 ```
+
+ShareLock (2606.27027) extends this class: average ASR **93.3%** vs monolithic TPA **75.3%**; per-tool review and entropy heuristics fail via **information-theoretic secrecy** + **entropy dilution**. See @concepts/multi-tool-threshold-mcp-poisoning.md.
 
 Poisoned descriptions **persist in planning context** across steps — unlike one-shot tool-output injection. Prompt-injection defenses (repeat prompt, drift, Progent) transfer poorly; AgentDojo ASR stays **19–43%** under those defenses vs **2.06%** under Tool-Guard (GPT-4o).
 
@@ -50,6 +55,7 @@ Poisoned descriptions **persist in planning context** across steps — unlike on
 | DCI (2606.04769) | Authorized tool's description ≠ code |
 | MSTI (2606.06387) | Mid-session registry mutation |
 | **Cross-tool poisoning** | Metadata on tool A steers selection of tool B |
+| **Multi-tool threshold** | Payload split across tools; cooperative reconstruction (2606.27027) |
 | SPI (2606.04425) | Poison persists in memory across sessions |
 
 ### prod-mcp checklist `[TENTATIVE]`

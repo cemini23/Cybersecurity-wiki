@@ -85,9 +85,11 @@ related:
   - concepts/intent-governed-tool-authorization.md
   - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
   - concepts/agentic-offensive-security-kill-chain.md
+  - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
+  - concepts/multi-tool-threshold-mcp-poisoning.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -157,6 +159,7 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Confident guard misses** | PI detectors assign ~1.0 confidence to missed indirect hijacks | 2606.22659 |
 | **Self-evolution persistence** | Attacks embed across evolution cycles; scanners miss evolution path | 2606.23075 MLAS |
 | **Cross-tool description poisoning** | Poisoned metadata on tool A steers planner toward tool B; poisoned tool never invoked | Tool-Guard 2606.20922 |
+| **Multi-tool threshold poisoning** | Shamir shares across tools; cooperative reconstruction; per-tool review reveals nothing | ShareLock 2606.27027 |
 | **Lingering authority** | Subgoal-closed capability still visible in planner manifest | PORTICO 2606.22504 |
 | **Intent-scope mismatch** | Static credential authorizes tool call unjustified by current user request | IGAC 2606.22916 |
 | **Runtime implementation flaws** | Parser/dispatcher/memory-writer bugs in local agent source | CLAWAUDIT 2606.21071 |

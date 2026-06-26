@@ -748,3 +748,18 @@ Brief marked `processed: 2026-06-01`.
 - **Phase-0** Cracken paper Reference; AIRecon flagged CONDITIONAL-GO pending docker cap re-audit
 
 **Archive**: `cemini-egress-fi:.../arxiv-2606.24496-red-teaming-the-agentic-red-team.pdf`
+
+## [2026-06-26] ingest | ShareLock MCP + ToxSearch-S (2606.27027 + 2606.24166)
+
+**Inbox**: 2/2 PDFs ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md` + `@concepts/multi-tool-threshold-mcp-poisoning.md` — Shamir multi-tool MCP threshold poisoning; Phase-0 **Reference** (no artifact)
+- **NEW** `@sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md` — speciated QD toxicity search + MPI; Phase-0 **Reference**
+- **Briefs** `2026-06-26_sharelock-multi-tool-threshold-mcp-redteam-checklist.md`, `2026-06-26_toxsearch-s-adversarial-fuzzing-handoff.md`
+- **CCC brief** `2026-06-26_ccc-handoff-sharelock-toxicity-ingest.md`
+- **Updated** `mcp-security-posture`, `cross-tool-description-poisoning`, `agent-runtime-guardrails`, `agent-skill-injection`, `llm-adversarial-fuzzing`, `ai-for-cybersecurity`, `red-team-operations`, `responsible-disclosure`, `fuzzyai`, `tool-guard`, `index.md`
+- **Inbox cleared** — 2/2 files archived
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.27027-sharelock-a-stealthy-multi-tool-threshold-poison.pdf`
+- `cemini-egress-fi:.../arxiv-2606.24166-2606-24166v1-distributed-quality-diversity-searc.pdf`

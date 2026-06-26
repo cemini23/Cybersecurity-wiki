@@ -11,10 +11,12 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
+  - concepts/multi-tool-threshold-mcp-poisoning.md
+  - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-26
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/shishishi123/Tool-Guard MIT, 0★, ICML 2026 artifact; lab-validate on prod-mcp before enforcement"
 ---
 
