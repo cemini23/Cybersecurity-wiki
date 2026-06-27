@@ -18,9 +18,11 @@ related:
   - entities/tools/defending-code-reference-harness.md
   - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
   - concepts/agentic-offensive-security-kill-chain.md
+  - entities/tools/aohp.md
+  - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 ## Relations

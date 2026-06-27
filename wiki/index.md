@@ -97,6 +97,8 @@
 | @concepts/intent-governed-tool-authorization.md | draft | IGAC — session intent narrowing (2606.22916) |
 | @concepts/agentic-offensive-security-kill-chain.md | draft | Agentic pentest agent kill chain + agent-phishing (2606.24496) |
 | @concepts/multi-tool-threshold-mcp-poisoning.md | draft | ShareLock Shamir multi-tool MCP poisoning (2606.27027) |
+| @concepts/tool-environment-unreliability-eval.md | draft | ToolBench-X recoverable tool hazards + diagnosis gap (2606.25819) |
+| @concepts/crypter-as-a-service.md | draft | CraaS underground market — exploit.in longitudinal study (2606.24226) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
@@ -321,6 +323,8 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | leakbench-area | — | Reference | digest | @entities/tools/leakbench-area.md — LeakBench + AREA soft-prompt defense; **no LICENSE on GitHub API 2026-06-22** |
 | clawaudit | — | CONDITIONAL-GO | digest | @entities/tools/clawaudit.md — OpenClaw runtime Semgrep/CodeQL audit; **no LICENSE on GitHub API 2026-06-24** |
 | tool-guard | MIT | CONDITIONAL-GO | digest | @entities/tools/tool-guard.md — isolated planning vs cross-tool description poisoning (ICML 2026) |
+| aohp | Apache-2.0 | CONDITIONAL-GO | digest | @entities/tools/aohp.md — AOSP agent-native OS harness (2606.23449) |
+| toolbench-x | — | Reference | digest | @entities/tools/toolbench-x.md — tool-environment unreliability benchmark; **no LICENSE 2026-06-27** |
 | defengraph | — | Reference | digest | @entities/tools/defengraph.md — KG+RAG blue-team assistant; no public repo 2026-06-23 |
 | picalib-research | — | Reference | digest | @entities/tools/picalib-research.md — PI guard severity metric artifacts; **no LICENSE 2026-06-23** |
 | ecc | MIT | Steal-from / CONDITIONAL-GO | digest | @entities/tools/ecc.md — cross-harness operator system; **ecc-agentshield** npm for config audit |

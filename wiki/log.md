@@ -763,3 +763,20 @@ Brief marked `processed: 2026-06-01`.
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.27027-sharelock-a-stealthy-multi-tool-threshold-poison.pdf`
 - `cemini-egress-fi:.../arxiv-2606.24166-2606-24166v1-distributed-quality-diversity-searc.pdf`
+
+## [2026-06-27] ingest | AOHP + ToolBench-X + CraaS (2606.23449 + 2606.25819 + 2606.24226)
+
+**Inbox**: 3/3 PDFs ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-23449-aohp-os-level-agent-harness.md` + `@entities/tools/aohp.md` — AOSP agent-native OS harness; Phase-0 **CONDITIONAL-GO** (Apache-2.0, ~93★)
+- **NEW** `@sources/arxiv-2606-25819-toolbench-x-tool-environment-unreliability.md` + `@concepts/tool-environment-unreliability-eval.md` + `@entities/tools/toolbench-x.md` — tool P_h unreliability benchmark; Phase-0 **Reference** (no LICENSE, release pending)
+- **NEW** `@sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md` + `@concepts/crypter-as-a-service.md` — exploit.in CraaS ecosystem; Phase-0 **Reference**
+- **Briefs** `2026-06-27_aohp-agent-native-os-harness-handoff.md`, `2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md`, `2026-06-27_craas-exploit-in-threat-intel-handoff.md`
+- **CCC brief** `2026-06-27_ccc-handoff-aohp-toolbench-craas-ingest.md`
+- **Updated** `agent-runtime-guardrails`, `agent-vm-sandboxing`, `mcp-security-posture`, `seclaw-agent-security-evaluation`, `llm-pentest-automation`, `av-edr-bypass`, `threat-intelligence`, `osint-for-cybersecurity`, `mobile-pentest`, `ai-for-cybersecurity`, `index.md`
+- **Inbox cleared** — 3/3 files archived
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.23449-2606-23449v1-aohp-an-open-source-os-level-agent.pdf`
+- `cemini-egress-fi:.../arxiv-2606.25819-2606-25819v1-beyond-function-calling-benchmarkin.pdf`
+- `cemini-egress-fi:.../arxiv-2606.24226-2606-24226v1-inside-crypter-as-a-service-an-ecos.pdf`

@@ -35,9 +35,11 @@ related:
   - concepts/exceptional-access-risk-quantification.md
   - sources/arxiv-2606-20610-osint-ai-loss-of-control-detection.md
   - concepts/ai-loss-of-control-osint-monitoring.md
+  - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
+  - concepts/crypter-as-a-service.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-06-23
+updated: 2026-06-27
 ---
 
 ## Relations
@@ -159,6 +161,10 @@ Nation-state campaigns increasingly target **lawful-intercept and platform key i
 | **LastPass 2022** | OTT-EA analogue | Multi-stage: encrypted vaults + source revealing crypto details |
 
 These anchor the empirical plausibility layer in @concepts/exceptional-access-risk-quantification.md (2606.19106) — they establish **scenario plausibility**, not EA-mandated frequency (no public OTT-EA deployment yet). CTI consumers should map carrier/LI and platform KMS assets to strategic IRs when sector or jurisdiction discusses EA mandates.
+
+### Underground service markets (CraaS — 2606.24226)
+
+Longitudinal exploit.in analysis frames **Crypter-as-a-Service** as subscription stub-renewal infrastructure (491 threads, 2020–2025), not static packer IOCs. CTI should track **seller/broker graphs** and renewal SLAs alongside malware hashes. See @concepts/crypter-as-a-service.md and `briefs/2026-06-27_craas-exploit-in-threat-intel-handoff.md`.
 
 ## Snippets
 

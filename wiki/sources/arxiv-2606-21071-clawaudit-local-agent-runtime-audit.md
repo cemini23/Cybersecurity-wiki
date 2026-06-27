@@ -15,11 +15,13 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
+  - entities/tools/aohp.md
 
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-27
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/SRestLabUB/ClawAudit artifact, 0★, gh api LICENSE null/404; Semgrep/CodeQL rules usable after manual triage + license check"
 ---
 

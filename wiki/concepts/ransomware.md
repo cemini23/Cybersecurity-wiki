@@ -18,9 +18,11 @@ related:
   - concepts/threat-intelligence.md
   - entities/tools/splunk.md
   - sources/100-splunk-queries-soc-analyst.md
+  - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
+  - concepts/crypter-as-a-service.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-27
 ---
 
 ## Relations

@@ -24,9 +24,12 @@ related:
   - concepts/llm-code-review-agent-security.md
   - entities/tools/sevra-bench.md
   - concepts/safeclawbench-staged-agent-security.md
+  - sources/arxiv-2606-25819-toolbench-x-tool-environment-unreliability.md
+  - concepts/tool-environment-unreliability-eval.md
+  - entities/tools/toolbench-x.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-22
+updated: 2026-06-27
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
@@ -66,6 +69,8 @@ Canonical cybersec-wiki concept from K98 + `@ccc-wiki/briefs/2026-06-04_cybersec
 | **defenseclaw** | Runtime gate — MCP/skill scanners + Codex sidecar (observe) | ADOPTED on laptop 2026-05-31 |
 
 Use SkillSpector/defenseclaw **before** expanding MCP surface; use SeClaw **after** code ships to regression-test trajectory safety.
+
+**ToolBench-X (2606.25819)** complements SeClaw: benchmarks **benign tool-environment unreliability** (spec drift, execution failure, output drift) vs SeClaw's **security trajectories**. Pair both before Tier-2 MCP promotion. See @concepts/tool-environment-unreliability-eval.md.
 
 ### Adoption posture
 

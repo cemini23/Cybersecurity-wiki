@@ -87,9 +87,14 @@ related:
   - concepts/agentic-offensive-security-kill-chain.md
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
   - concepts/multi-tool-threshold-mcp-poisoning.md
+  - sources/arxiv-2606-25819-toolbench-x-tool-environment-unreliability.md
+  - concepts/tool-environment-unreliability-eval.md
+  - entities/tools/toolbench-x.md
+  - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
+  - entities/tools/aohp.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -165,6 +170,7 @@ Tool-using agents (MCP, shell, APIs, email) shift the security problem from **re
 | **Runtime implementation flaws** | Parser/dispatcher/memory-writer bugs in local agent source | CLAWAUDIT 2606.21071 |
 | **Agent-phishing (offensive agent)** | Trojanized target artifact → download+execute without prompt injection | 2606.24496 |
 | **Worker→orchestrator escalation** | Compromised worker reaches orchestrator secrets/APIs | 2606.24496 |
+| **Tool-environment unreliability** | Clean P₀ tool assumptions break; agent fails to diagnose/recover | ToolBench-X 2606.25819 |
 | **Semantic decoupling** | Natural-language intent hides unsafe tool args from LLM-as-Judge guards | ePCA motivation |
 
 These are **not jailbreaks** in the classic sense — the model may comply with user intent while attacker-controlled context steers authorized access off-scope. [CONFIRMED] across AIRGuard + sleeper paper framing.

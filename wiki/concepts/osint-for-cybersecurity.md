@@ -35,9 +35,11 @@ related:
   - entities/tools/netviz.md
   - sources/arxiv-2606-20610-osint-ai-loss-of-control-detection.md
   - concepts/ai-loss-of-control-osint-monitoring.md
+  - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
+  - concepts/crypter-as-a-service.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-23
+updated: 2026-06-27
 ---
 
 ## Relations

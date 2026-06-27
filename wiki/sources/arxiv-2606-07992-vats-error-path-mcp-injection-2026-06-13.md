@@ -11,10 +11,11 @@ related:
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/agentic-containment-principles.md
+  - concepts/tool-environment-unreliability-eval.md
 maturity: draft
 read_status: read
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-27
 ---
 
 ## Relations

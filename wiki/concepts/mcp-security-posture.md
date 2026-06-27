@@ -64,9 +64,14 @@ related:
   - concepts/agentic-offensive-security-kill-chain.md
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
   - concepts/multi-tool-threshold-mcp-poisoning.md
+  - sources/arxiv-2606-25819-toolbench-x-tool-environment-unreliability.md
+  - concepts/tool-environment-unreliability-eval.md
+  - entities/tools/toolbench-x.md
+  - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
+  - entities/tools/aohp.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 ## Relations
@@ -179,3 +184,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Agentic red-team reverse-audit (2606.24496)** — 10/12 OSS pentest agents compromised via **agent-phishing** (97.8% honeypot success, no prompt injection). Worker-as-malicious architecture required: secrets on orchestrator, no docker.sock/`--network=host`. See @concepts/agentic-offensive-security-kill-chain.md and `briefs/2026-06-25_agentic-red-team-secure-architecture-handoff.md`.
 
 **Multi-tool threshold poisoning (2606.27027)** — ShareLock splits malicious MCP instructions via **Shamir shares** across tool descriptions; **93.3%** avg ASR vs **75.3%** monolithic TPA; entropy dilution defeats per-tool Shannon heuristics; Llama-Guard-class detectors score lower hazard than TPA. Per-tool review insufficient — audit **catalog as a set**. Phase-0 **Reference** (no artifact). See @concepts/multi-tool-threshold-mcp-poisoning.md and `briefs/2026-06-26_sharelock-multi-tool-threshold-mcp-redteam-checklist.md`.
+
+**Tool-environment unreliability (2606.25819)** — ToolBench-X: agents scoring well on clean **P₀** tools drop to **<0.51** under recoverable hazards (spec drift, invocation errors, output drift, cross-source conflict). **Hint-after-failure recovers 60–80%** of lost accuracy — diagnosis bottleneck for prod MCP. Phase-0 **Reference** until repo ships. See @concepts/tool-environment-unreliability-eval.md and `briefs/2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md`.

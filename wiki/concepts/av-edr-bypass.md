@@ -23,9 +23,11 @@ related:
   - concepts/agent-vm-sandboxing.md
   - concepts/endpoint-detection-response.md
   - entities/tools/nidhogg.md
+  - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
+  - concepts/crypter-as-a-service.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-24
+updated: 2026-06-27
 ---
 
 ## Relations
@@ -67,6 +69,8 @@ Bypassing AV/EDR requires understanding (1) how the solution works, (2) the OS i
 **2. Encryption (crypters)** — encrypt the payload and ship a decryption stub. Two variants:
 - *Scantime crypters* — decrypt, drop to disk, execute. Naive — disk drop is detected.
 - *Runtime crypters* — decrypt + execute in memory, never touching disk. Standard for modern implants.
+
+**Crypter-as-a-Service (CraaS)** — underground markets (e.g., exploit.in, 2606.24226) sell crypters as **subscription services** with **daily stub renewal**, not static one-shot tools. Detection must assume **rapid hash rotation** on active campaigns. See @concepts/crypter-as-a-service.md.
 
 **3. NTDLL Unhooking** — most EDRs hook ntdll.dll (the Windows API gateway) at process start. Unhooking replaces the in-memory hooked ntdll.dll with a fresh copy from disk → the EDR is blind. Re-hooking at end of op covers tracks. [Source: AV and EDR Bypass Techniques.pdf]
 
