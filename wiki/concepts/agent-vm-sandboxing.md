@@ -69,6 +69,10 @@ This matters for cybersec for two specific reasons:
 
 The agent cannot reach the host. No shared filesystem mounts beyond a read-only `/host-input/` and write-only `/host-output/`. No host-network bridging beyond a NAT'd guest with explicit egress rules. This is non-negotiable; the moment an agent has unfiltered host-network access, the sandbox is theatre.
 
+### OS-level mobile harness (AOHP — 2606.23449)
+
+For **Android agent-native** workflows, @entities/tools/aohp.md provides an AOSP fork with OS-level **information-flow** enforcement (+21.12% completion, −51.55% token cost vs stock Android in paper eval). Complements disposable VM pattern for **lab phones** — not a replacement for Docker worker isolation on prod-mcp. See `briefs/2026-06-27_aohp-agent-native-os-harness-handoff.md`.
+
 ## Snippets
 
 ```bash

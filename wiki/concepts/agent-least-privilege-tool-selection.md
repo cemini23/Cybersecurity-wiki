@@ -95,6 +95,8 @@ The second mode is especially relevant for **flaky MCP servers**, rate limits, a
 - [ ] Do not treat AgentHarm / refusal benchmarks as proxy for least-privilege compliance
 - [ ] Phase-0 TOOLPRIVBENCH repo before automated eval import — LICENSE unverified 2026-06-19
 
+See `briefs/2026-06-19_toolprivbench-prod-mcp-eval-checklist.md` for paired-tool eval harness on prod-mcp.
+
 ## Snippets
 
 [Source: arxiv-2606.20023 §4.1 Finding I]

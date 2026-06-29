@@ -184,6 +184,7 @@
 | @entities/tools/reconftw.md | draft | Apex recon automation — subdomain+web+vulns+osint+Axiom fleet distribution (MIT, 7.5k stars) |
 | @entities/tools/evilsocket-audit.md | draft | 8-stage vuln-discovery agent — Glasswing pattern, reachability gating (MIT) |
 | @entities/tools/offensive-claude.md | draft | Offensive-security Claude Code workstation — 25 skill modules, 8 classifications |
+| @entities/tools/reverse-skill.md | draft | MIT skill router pack for authorized pentest methodology routing (K129) |
 | @entities/tools/cf-hero.md | draft | Cloudflare origin-IP discovery via DNS + Shodan hashing (Go, ~2.4k stars) — Defer pending LICENSE audit |
 | @entities/tools/pentest-ai.md | draft | MCP offensive-security server — 205 tools, 17 agents, MIT (`ptai` CLI; distinct from pentest-ai-agents) |
 | @entities/tools/nidhogg.md | draft | Windows kernel rootkit reference — DKOM/ActiveProcessLinks tradecraft (GPL-3.0; Steal-from, no deploy) |

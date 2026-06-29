@@ -18,7 +18,7 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-27
 ---
 
 ## Relations
@@ -88,3 +88,5 @@ Frontier closed-source models **saturate** CWE-wise (Opus ~98% RR) but open-weig
 
 - **Vuln-detection benchmarks alone** — high detect/fix scores do not imply safe merge-gate behavior.
 - **Single framing red-team** — open-weight models need per-strategy coverage; one successful narrative does not generalize.
+
+See `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md` for pre-rollout eval checklist.

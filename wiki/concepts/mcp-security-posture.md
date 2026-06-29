@@ -69,6 +69,7 @@ related:
   - entities/tools/toolbench-x.md
   - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
   - entities/tools/aohp.md
+  - entities/tools/reverse-skill.md
 maturity: validated
 created: 2026-06-05
 updated: 2026-06-27

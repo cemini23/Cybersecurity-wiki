@@ -9,9 +9,10 @@ related:
   - entities/tools/pentest-ai-agents.md
   - entities/tools/kali-linux.md
   - concepts/ai-for-cybersecurity.md
+  - entities/tools/reverse-skill.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-06-27
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 

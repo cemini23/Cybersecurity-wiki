@@ -41,6 +41,8 @@ Executable benchmark injecting **five recoverable hazard types** into determinis
 
 **Verdict: Reference** until LICENSE + benchmark tarball ship. Track repo for **CONDITIONAL-GO** re-audit.
 
+See `briefs/2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md` for prod-mcp hazard-injection regression gates.
+
 ## Snippets
 
 [Source: github.com/Foreverskyou/ToolBench-X + arxiv-2606.25819]

@@ -55,6 +55,8 @@ Daily digest ingest (2026-06-16). GitHub: [rufimelo99/malicious-pr-bench](https:
 
 **Not** an attack toolkit for unauthorized repos — defensive eval only.
 
+See `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md` for pre-rollout merge-gate checklist.
+
 ## Snippets
 
 ```bash

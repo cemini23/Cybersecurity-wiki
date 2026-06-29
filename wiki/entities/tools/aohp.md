@@ -45,6 +45,8 @@ AOHP extends Android into an **agent-native harness**: agents as first-class OS 
 
 +21.12% task completion, −51.55% token cost vs conventional Android agent execution on overlapping benchmarks.
 
+See `briefs/2026-06-27_aohp-agent-native-os-harness-handoff.md` for lab checklist (dedicated device, information-flow mapping, AOSP merge re-audit).
+
 ## Snippets
 
 [Source: arxiv-2606.23449 + github.com/aohp-os/aohp]

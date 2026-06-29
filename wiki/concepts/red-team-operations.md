@@ -85,6 +85,7 @@ related:
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
   - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
   - concepts/crypter-as-a-service.md
+  - entities/tools/reverse-skill.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-06-27

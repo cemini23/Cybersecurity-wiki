@@ -6,10 +6,11 @@ keywords: [claude-red, snailsploit, offensive skills, SKILL.md, sparse checkout,
 related:
   - concepts/web-pentest-methodology.md
   - concepts/llm-pentest-automation.md
+  - entities/tools/reverse-skill.md
   - "@osint-wiki/entities/tools/claude-red-offensive-skills.md"
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-06-27
 cross-wiki-source: "@osint-wiki/entities/tools/claude-red-offensive-skills.md"
 ---
 

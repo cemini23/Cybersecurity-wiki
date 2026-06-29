@@ -780,3 +780,9 @@ Brief marked `processed: 2026-06-01`.
 - `cemini-egress-fi:.../arxiv-2606.23449-2606-23449v1-aohp-an-open-source-os-level-agent.pdf`
 - `cemini-egress-fi:.../arxiv-2606.25819-2606-25819v1-beyond-function-calling-benchmarkin.pdf`
 - `cemini-egress-fi:.../arxiv-2606.24226-2606-24226v1-inside-crypter-as-a-service-an-ecos.pdf`
+
+## [2026-06-27] lint | Brief audit + backlink fill
+
+- **Brief audit** — 45 wiki `briefs/` refs; 44 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror — not wiki-linked)
+- **NEW** `@entities/tools/reverse-skill.md` — K129 Adopt stub (primary home; OSINT cross-route)
+- **Filled** brief backlinks on `aohp`, `toolbench-x`, `agent-vm-sandboxing`, `agent-least-privilege-tool-selection`, `sevra-bench`, `llm-code-review-agent-security`, `mobile-pentest`, `llm-pentest-automation`, `offensive-claude`, `claude-red-offensive-skills`

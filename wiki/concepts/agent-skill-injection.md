@@ -39,9 +39,10 @@ related:
   - concepts/self-evolving-agent-security.md
   - concepts/multi-tool-threshold-mcp-poisoning.md
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
+  - entities/tools/reverse-skill.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 ## Relations
