@@ -41,7 +41,7 @@ related:
   - concepts/self-evolving-agent-security.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-24
+updated: 2026-06-30
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 phase_0_verdict: "CONDITIONAL-GO 2026-05-31 — CLI scanners + Codex sidecar (observe) ADOPTED on laptop; LLM judge optional via DEFENSECLAW_LLM_KEY; action mode + Splunk optional."
 ---
@@ -66,7 +66,7 @@ phase_0_verdict: "CONDITIONAL-GO 2026-05-31 — CLI scanners + Codex sidecar (ob
 
 ## Raw Concept
 
-Routed from K42 OSINT-wiki tool eval (2026-05-15). Deepened from `@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md` (2026-06-04). `cisco-ai-defense/defenseclaw` — Apache-2.0, ~712★ (2026-06-04).
+Routed from K42 OSINT-wiki tool eval (2026-05-15). Deepened from `briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md` (CCC mirror: `@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md`, 2026-06-04). `cisco-ai-defense/defenseclaw` — Apache-2.0, ~712★ (2026-06-04).
 
 ## Narrative
 

@@ -29,7 +29,7 @@ related:
   - entities/tools/toolbench-x.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-27
+updated: 2026-06-30
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
@@ -50,7 +50,7 @@ updated: 2026-06-27
 
 ## Raw Concept
 
-Canonical cybersec-wiki concept from K98 + `@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md`. arXiv:2606.02302 — **spec-driven security task synthesis** + Docker testbed scoring **unsafe tool trajectories**, not final-answer politeness alone.
+Canonical cybersec-wiki concept from K98 + `@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md` (local mirror: `briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md`). arXiv:2606.02302 — **spec-driven security task synthesis** + Docker testbed scoring **unsafe tool trajectories**, not final-answer politeness alone.
 
 ## Narrative
 

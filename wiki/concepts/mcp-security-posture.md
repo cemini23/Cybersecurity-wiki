@@ -72,7 +72,7 @@ related:
   - entities/tools/reverse-skill.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-27
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -187,3 +187,5 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Multi-tool threshold poisoning (2606.27027)** — ShareLock splits malicious MCP instructions via **Shamir shares** across tool descriptions; **93.3%** avg ASR vs **75.3%** monolithic TPA; entropy dilution defeats per-tool Shannon heuristics; Llama-Guard-class detectors score lower hazard than TPA. Per-tool review insufficient — audit **catalog as a set**. Phase-0 **Reference** (no artifact). See @concepts/multi-tool-threshold-mcp-poisoning.md and `briefs/2026-06-26_sharelock-multi-tool-threshold-mcp-redteam-checklist.md`.
 
 **Tool-environment unreliability (2606.25819)** — ToolBench-X: agents scoring well on clean **P₀** tools drop to **<0.51** under recoverable hazards (spec drift, invocation errors, output drift, cross-source conflict). **Hint-after-failure recovers 60–80%** of lost accuracy — diagnosis bottleneck for prod MCP. Phase-0 **Reference** until repo ships. See @concepts/tool-environment-unreliability-eval.md and `briefs/2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md`.
+
+**Batch handoff index (2026-06-24)** — CCC routing for Tool-Guard / CLAWAUDIT / PORTICO / IGAC ingest: `briefs/2026-06-24_ccc-handoff-agent-security-ingest-batch.md`.

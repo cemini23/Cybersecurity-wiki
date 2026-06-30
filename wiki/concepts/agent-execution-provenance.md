@@ -31,7 +31,7 @@ related:
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-15
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -116,3 +116,7 @@ Representative observability: AgentOps, AgentTrace, TRAIL — [Source: arxiv-260
 - **Citation-only RAG eval** — ALCE/RAGAS do not cover tool-parameter or memory-lineage provenance.
 - **Full trace retention on prod** — survey flags privacy-aware audit as open; redact secrets before centralizing traces.
 - **Unified schema today** — fragmented; no single W3C-PROV-for-agents standard shipped [NEEDS VERIFICATION 2026-06-07].
+
+### Fleet shared memory (CCC K125 — MemClaw)
+
+Governed multi-agent memory (arXiv:2606.24535) raises **scope-tag + provenance-on-write** requirements for any fleet store agents read. Pre-trial checklist: `briefs/2026-06-25_k125-memclaw-fleet-memory-governance-handoff.md` (CCC primary; `@ccc-wiki/concepts/governed-fleet-shared-memory.md`).

@@ -786,3 +786,11 @@ Brief marked `processed: 2026-06-01`.
 - **Brief audit** — 45 wiki `briefs/` refs; 44 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror — not wiki-linked)
 - **NEW** `@entities/tools/reverse-skill.md` — K129 Adopt stub (primary home; OSINT cross-route)
 - **Filled** brief backlinks on `aohp`, `toolbench-x`, `agent-vm-sandboxing`, `agent-least-privilege-tool-selection`, `sevra-bench`, `llm-code-review-agent-security`, `mobile-pentest`, `llm-pentest-automation`, `offensive-claude`, `claude-red-offensive-skills`
+
+## [2026-06-30] ingest | No new PDFs — brief audit + sweep
+
+**Inbox**: 0/0 — overnight digest fetched 0 PDFs (dupes + non-arXiv only).
+
+- **Brief audit** — 47 wiki `briefs/` refs; 44 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror)
+- **Filled** brief backlinks: `defenseclaw`, `seclaw-agent-security-evaluation`, `agent-execution-provenance` (K125 MemClaw), `mcp-security-posture` (CCC batch index)
+- **Sweep** `wiki/sweeps/2026-06-30-daily.md` committed
