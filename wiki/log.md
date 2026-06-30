@@ -791,6 +791,6 @@ Brief marked `processed: 2026-06-01`.
 
 **Inbox**: 0/0 — overnight digest fetched 0 PDFs (dupes + non-arXiv only).
 
-- **Brief audit** — 47 wiki `briefs/` refs; 44 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror)
+- **Brief audit** — 48 wiki `briefs/` refs; 44 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror)
 - **Filled** brief backlinks: `defenseclaw`, `seclaw-agent-security-evaluation`, `agent-execution-provenance` (K125 MemClaw), `mcp-security-posture` (CCC batch index)
 - **Sweep** `wiki/sweeps/2026-06-30-daily.md` committed
