@@ -36,10 +36,13 @@ related:
   - concepts/local-agent-runtime-audit.md
   - entities/tools/clawaudit.md
   - sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - entities/tools/ai-infra-guard.md
 
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-20
+updated: 2026-07-01
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 

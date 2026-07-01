@@ -15,10 +15,13 @@ related:
   - entities/tools/nvidia-skillspector.md
   - entities/tools/ecc.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - entities/tools/ai-infra-guard.md
 
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -57,10 +60,11 @@ Marketplace scanners (SkillSpector, DefenseClaw) and behavioral benches (SeClaw,
 
 1. Pre-install skill/MCP scan (SkillSpector + DefenseClaw)
 2. **Runtime source audit** (CLAWAUDIT-class on agent fork)
-3. Behavioral trajectory eval (SeClaw)
-4. Runtime authority guard (AIRGuard) on dispatched actions
+3. **Layer-paradigm breadth scan** — AI-Infra-Guard M1–M4 external Docker pass (infra rules → MCP-Scan → Agent-Scan → jailbreak harness) per @concepts/layer-paradigm-agent-red-teaming.md
+4. Behavioral trajectory eval (SeClaw)
+5. Runtime authority guard (AIRGuard) on dispatched actions
 
-See `briefs/2026-06-24_clawaudit-openclaw-runtime-audit-checklist.md`.
+See `briefs/2026-06-24_clawaudit-openclaw-runtime-audit-checklist.md` and `briefs/2026-07-01_ai-infra-guard-external-scanner-lab-checklist.md`.
 
 `[TENTATIVE]` — OpenClaw advisories only; Nanobot/other stacks not measured.
 

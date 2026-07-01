@@ -6,9 +6,18 @@ tags: [entity, tool, ai-red-team, vulnerability-fingerprinting, ai-infrastructur
 keywords: [ai-infra-guard, tencent, vllm-vuln, ollama-vuln, comfyui-vuln, swagger-docs, mandatory-attribution-section-4d, telemetry-opt-out-default-on, NEVER-vendor-source, external-container-scanner-only]
 related:
   - concepts/llm-pentest-automation.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - concepts/mcp-security-posture.md
+  - concepts/agent-skill-injection.md
+  - concepts/local-agent-runtime-audit.md
+  - concepts/agent-runtime-guardrails.md
+  - entities/tools/clawaudit.md
+  - entities/tools/defenseclaw.md
+  - entities/tools/nvidia-skillspector.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-16
+updated: 2026-07-01
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -17,9 +26,16 @@ cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 - @image-gen-wiki/entities/custom-nodes/ai-infra-guard.md — cross-route stub (ComfyUI vuln detection)
 - @concepts/llm-pentest-automation.md — AI-infra vuln scanning is an applied LLM/AI-pentest-automation tool
+- @sources/arxiv-2606-31227-ai-infra-guard-technical-report.md — official technical report (2606.31227)
+- @concepts/layer-paradigm-agent-red-teaming.md — M1–M4 layer-paradigm model
+- @concepts/mcp-security-posture.md — MCP-Scan complements admission/DCI stack
+- @concepts/agent-skill-injection.md — Agent-Scan skill supply-chain lane
+
+**Briefs:** `briefs/2026-07-01_ai-infra-guard-layer-paradigm-red-team-handoff.md`, `briefs/2026-07-01_ai-infra-guard-external-scanner-lab-checklist.md`
+
 ## Raw Concept
 
-A Tencent Zhuque Lab AI red-team scanner in Go + Python that fingerprints vulnerabilities across 64 AI components (v4.1.8). Stack: Go core + Python (AIG-PromptSecurity, mcp-scan, agent-scan), Docker Compose. **Apache-2.0 verbatim BUT with Mandatory Attribution NOTICE (§4(d)) that contaminates derivatives — 3,690 stars verified, 44 contributors, 1,458 commits, pushed 2026-05-14 (today)**. K44 verdict needs refinement: SAFE as external Docker scanner; POISON-PILL if vendored.
+A Tencent Zhuque Lab AI red-team scanner in Go + Python. Technical report (2606.31227) documents **four modules** — Infra-Scan (75+ components, 1,400+ rules), MCP-Scan, Agent-Scan (skills), jailbreak harness — under a **layer-paradigm matching** model (@concepts/layer-paradigm-agent-red-teaming.md). Stack: Go core + Python (AIG-PromptSecurity, mcp-scan, agent-scan), Docker Compose. **Apache-2.0 verbatim BUT with Mandatory Attribution NOTICE (§4(d)) that contaminates derivatives — ~4,018★, pushed 2026-07-01**. K44 + report verdict: SAFE as external Docker scanner; POISON-PILL if vendored.
 
 ## Narrative
 
@@ -29,7 +45,7 @@ A Tencent Zhuque Lab AI red-team scanner in Go + Python that fingerprints vulner
 |---|------|--------|---------|
 | G0 | License verbatim Apache-2.0 | **PASS** | Apache-2.0 unmodified text |
 | G1 | NOTICE file generic | **FAIL — VENDOR-POISON** | NOTICE adds **Mandatory Attribution Requirement (§4(d))** forcing derivatives to state "Based on Tencent Zhuque Lab AI-Infra-Guard" in product docs / About page / release notes + link the original repo. Apache-2.0 §4(d) makes this legally enforceable on derivative works |
-| G2 | Maturity | **PASS** | 3,690★ (vs claimed 3,700, near-exact), 44 contributors, pushed today |
+| G2 | Maturity | **PASS** | ~4,018★ (2026-07-01 gh api), active maintenance; technical report 2606.31227 |
 | G3 | Rule freshness | **PASS** | Rule files dated 2026-05; LiteLLM supply-chain CVE shipped 2026-03; active maintenance |
 | G4 | Functionality matches K44 claim | **PASS** | AI red-team scanner covering Agent/MCP/Skills/AI-infra/jailbreak |
 | G5 | Telemetry phone-home | **PASS — NEUTERED** | `DEEPTEAM_TELEMETRY_OPT_OUT` default `"YES"`; Sentry DSN empty, PostHog host `localhost:0`, New Relic key `dummy_key` — all stubbed |

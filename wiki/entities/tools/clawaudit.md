@@ -13,10 +13,13 @@ related:
   - concepts/agent-skill-injection.md
   - concepts/mcp-security-posture.md
   - sources/openreview-openclaw-real-world-safety-analysis.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - entities/tools/ai-infra-guard.md
 
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-01
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/SRestLabUB/ClawAudit 0★, gh api LICENSE null + LICENSE 404; Semgrep/CodeQL rules + OPENCLAWBENCH usable for audit methodology after manual triage gate"
 ---
 

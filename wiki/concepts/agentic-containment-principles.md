@@ -22,10 +22,12 @@ related:
   - concepts/self-evolving-agent-security.md
   - concepts/lingering-authority-revocable-capabilities.md
   - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
 
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-23
+updated: 2026-07-01
 ---
 
 ## Relations

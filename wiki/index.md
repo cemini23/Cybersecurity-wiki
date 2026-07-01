@@ -332,6 +332,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | skillgate | closed-source SaaS | Reference | digest | @entities/tools/skillgate.md — Mitiga free skill/hook/MCP config scanner |
 | llm-defense-lattice | NOASSERTION | Reference | digest | @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense BAS lattice; license audit pending |
 | defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
+| ai-infra-guard | Apache-2.0 + NOTICE §4(d) | CONDITIONAL-GO | digest | @entities/tools/ai-infra-guard.md — multi-layer agent red team (2606.31227); **external Docker only** |
 
 ## Meta
 

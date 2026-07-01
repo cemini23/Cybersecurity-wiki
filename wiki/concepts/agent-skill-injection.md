@@ -40,9 +40,12 @@ related:
   - concepts/multi-tool-threshold-mcp-poisoning.md
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
   - entities/tools/reverse-skill.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - entities/tools/ai-infra-guard.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-27
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -85,6 +88,10 @@ Install-time skill vetting addresses **supply-chain SPI** but not **runtime memo
 **Mitigation pattern:** provenance-tagged memory validator (reject external policy overrides + demographic targeting patterns) + P1 tool policy gate — deterministic, sub-ms. Maps to Cemini: audit write paths to stash, session cache, and wiki-backed agent instructions, not only skill install. See @concepts/agentic-containment-principles.md.
 
 **Adjacent channel — error-path IPI (2606.07992):** MCP tool **errors** (not skill files) can trigger exfil via corrective reasoning; complements skill/MCP description injection in red-team coverage. See @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md.
+
+### Supply-chain breadth scan (AI-Infra-Guard Agent-Scan — 2606.31227)
+
+Technical report positions **Agent-Scan** as black-box runtime probing plus **agent-skill package** auditing — one of few open-source frameworks claiming end-to-end skill supply-chain coverage alongside MCP-Scan. Use as **external Docker breadth pass** after SkillSpector/SkillGuard static review; does not replace MalSkillBench-style verified eval or POISE runtime canaries. See @entities/tools/ai-infra-guard.md and `briefs/2026-07-01_ai-infra-guard-external-scanner-lab-checklist.md`.
 
 ### Over-privileged tool selection among authorized skills (2606.20023)
 

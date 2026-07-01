@@ -92,9 +92,12 @@ related:
   - entities/tools/toolbench-x.md
   - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
   - entities/tools/aohp.md
+  - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - concepts/layer-paradigm-agent-red-teaming.md
+  - entities/tools/ai-infra-guard.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-27
+updated: 2026-07-01
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

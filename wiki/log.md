@@ -794,3 +794,17 @@ Brief marked `processed: 2026-06-01`.
 - **Brief audit** — 48 wiki `briefs/` refs; 44 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror)
 - **Filled** brief backlinks: `defenseclaw`, `seclaw-agent-security-evaluation`, `agent-execution-provenance` (K125 MemClaw), `mcp-security-posture` (CCC batch index)
 - **Sweep** `wiki/sweeps/2026-06-30-daily.md` committed
+
+## [2026-07-01] ingest | AI-Infra-Guard technical report (2606.31227)
+
+**Inbox**: 1/1 PDF ingested + archived (digest pick R7 — overnight inbox was empty).
+
+- **NEW** `@sources/arxiv-2606-31227-ai-infra-guard-technical-report.md` + `@concepts/layer-paradigm-agent-red-teaming.md`
+- **Updated** `@entities/tools/ai-infra-guard.md` — technical report M1–M4, ~4,018★ refresh; Phase-0 **CONDITIONAL-GO** (external Docker)
+- **Briefs** `2026-07-01_ai-infra-guard-layer-paradigm-red-team-handoff.md`, `2026-07-01_ai-infra-guard-external-scanner-lab-checklist.md`
+- **CCC brief** `2026-07-01_ccc-handoff-ai-infra-guard-technical-report-ingest.md`
+- **Updated** `mcp-security-posture`, `agent-skill-injection`, `llm-pentest-automation`, `local-agent-runtime-audit`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-01-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.31227-ai-infra-guard-technical-report.pdf`
