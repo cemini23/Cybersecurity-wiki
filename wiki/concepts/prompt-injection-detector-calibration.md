@@ -12,9 +12,11 @@ related:
   - entities/tools/llm-defense-lattice.md
   - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-02
 ---
 
 ## Relations

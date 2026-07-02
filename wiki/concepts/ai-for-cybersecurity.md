@@ -88,9 +88,11 @@ related:
   - concepts/tool-environment-unreliability-eval.md
   - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
   - concepts/crypter-as-a-service.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 ## Relations

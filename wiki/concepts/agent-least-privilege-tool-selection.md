@@ -21,9 +21,11 @@ related:
   - concepts/lingering-authority-revocable-capabilities.md
   - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
   - concepts/intent-governed-tool-authorization.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-24
+updated: 2026-07-02
 ---
 
 ## Relations

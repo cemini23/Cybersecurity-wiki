@@ -73,9 +73,11 @@ related:
   - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - entities/tools/ai-infra-guard.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -192,5 +194,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Layer-paradigm red teaming (2606.31227)** — AI-Infra-Guard **MCP-Scan** (protocol/tool layer) complements admission + DCI gates here; does not replace attested allowlists or closed tool catalogs. Use as **breadth audit** after admission, before runtime agent probes. External Docker only (@entities/tools/ai-infra-guard.md). See @concepts/layer-paradigm-agent-red-teaming.md and `briefs/2026-07-01_ai-infra-guard-layer-paradigm-red-team-handoff.md`.
 
 **Tool-environment unreliability (2606.25819)** — ToolBench-X: agents scoring well on clean **P₀** tools drop to **<0.51** under recoverable hazards (spec drift, invocation errors, output drift, cross-source conflict). **Hint-after-failure recovers 60–80%** of lost accuracy — diagnosis bottleneck for prod MCP. Phase-0 **Reference** until repo ships. See @concepts/tool-environment-unreliability-eval.md and `briefs/2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md`.
+
+**Confidence-aware orchestration (2606.26904)** — Robust-TO **Blind Trust Problem**: agents act on degraded tool/perception outputs without downgrading confidence. Steal `(result, confidence)` MCP wrappers + tiered evidence fusion before high-impact tool chains. Phase-0 **Reference** (CV paper; code pending). See @concepts/confidence-aware-tool-orchestration.md and `briefs/2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`.
 
 **Batch handoff index (2026-06-24)** — CCC routing for Tool-Guard / CLAWAUDIT / PORTICO / IGAC ingest: `briefs/2026-06-24_ccc-handoff-agent-security-ingest-batch.md`.

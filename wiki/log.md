@@ -808,3 +808,16 @@ Brief marked `processed: 2026-06-01`.
 
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.31227-ai-infra-guard-technical-report.pdf`
+
+## [2026-07-02] ingest | Robust-TO confidence-aware tool orchestration (2606.26904)
+
+**Inbox**: 1/1 PDF ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md` + `@concepts/confidence-aware-tool-orchestration.md` — Blind Trust Problem + (result, confidence) pattern; Phase-0 **Reference** (no code repo)
+- **Briefs** `2026-07-02_robust-to-confidence-aware-tool-routing-handoff.md`, `2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`
+- **CCC brief** `2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md`
+- **Updated** `tool-environment-unreliability-eval`, `agent-runtime-guardrails`, `llm-pentest-automation`, `seclaw-agent-security-evaluation`, `mcp-security-posture`, `ai-for-cybersecurity`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-02-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.26904-confidence-aware-tool-orchestration-robust-to.pdf`

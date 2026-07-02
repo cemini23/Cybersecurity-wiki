@@ -27,9 +27,11 @@ related:
   - sources/arxiv-2606-25819-toolbench-x-tool-environment-unreliability.md
   - concepts/tool-environment-unreliability-eval.md
   - entities/tools/toolbench-x.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-30
+updated: 2026-07-02
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
@@ -71,6 +73,8 @@ Canonical cybersec-wiki concept from K98 + `@ccc-wiki/briefs/2026-06-04_cybersec
 Use SkillSpector/defenseclaw **before** expanding MCP surface; use SeClaw **after** code ships to regression-test trajectory safety.
 
 **ToolBench-X (2606.25819)** complements SeClaw: benchmarks **benign tool-environment unreliability** (spec drift, execution failure, output drift) vs SeClaw's **security trajectories**. Pair both before Tier-2 MCP promotion. See @concepts/tool-environment-unreliability-eval.md.
+
+**Robust-TO (2606.26904)** adds **confidence calibration** axis — whether agents downgrade trust when tool/perception quality degrades (Blind Trust Problem). Not a security benchmark; use as orchestration design pattern alongside eval stack. See @concepts/confidence-aware-tool-orchestration.md.
 
 ### Adoption posture
 

@@ -12,9 +12,11 @@ related:
   - concepts/llm-pentest-automation.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -58,6 +60,10 @@ Hint-after-failure recovers **60–80%** of accuracy lost to hazards; extra inte
 4. Pair with VATS error-path red-team (@sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md) — adversarial errors ≠ benign faults but share recovery gap
 
 See `briefs/2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md`.
+
+### Confidence propagation (Robust-TO — 2606.26904)
+
+ToolBench-X measures **whether agents recover** from hazards; Robust-TO adds **whether agents know they should distrust** degraded inputs — the **Blind Trust Problem** (accuracy drops while confidence stays flat). Steal: require MCP wrappers to return `(result, confidence)` and tier evidence before Tier-2 actions. Phase-0 **Reference** (video CV paper; code pending). See @concepts/confidence-aware-tool-orchestration.md and `briefs/2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`.
 
 ## Snippets
 

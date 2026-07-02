@@ -95,9 +95,11 @@ related:
   - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - entities/tools/ai-infra-guard.md
+  - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
