@@ -16,8 +16,10 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-02
+updated: 2026-07-03
 ---
+
+**Briefs:** `briefs/2026-07-02_robust-to-confidence-aware-tool-routing-handoff.md`, `briefs/2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`
 
 ## Relations
 

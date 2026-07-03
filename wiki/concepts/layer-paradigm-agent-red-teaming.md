@@ -17,13 +17,15 @@ related:
   - entities/tools/clawaudit.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-03
 ---
 
 ## Relations
 
 - @sources/arxiv-2606-31227-ai-infra-guard-technical-report.md — AI-Infra-Guard technical report (2606.31227)
 - @entities/tools/ai-infra-guard.md — reference implementation + Phase-0
+
+**Briefs:** `briefs/2026-07-01_ai-infra-guard-layer-paradigm-red-team-handoff.md`, `briefs/2026-07-01_ai-infra-guard-external-scanner-lab-checklist.md`
 
 ## Raw Concept
 

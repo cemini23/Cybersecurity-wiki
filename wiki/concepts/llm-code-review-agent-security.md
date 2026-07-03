@@ -31,6 +31,8 @@ updated: 2026-07-03
 - @concepts/npm-supply-chain-defense.md — dependency supply-chain hardening adjacent surface
 - @concepts/seclaw-agent-security-evaluation.md — trajectory eval hygiene for agent benchmarks
 
+**Briefs:** `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md`, `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`
+
 ## Raw Concept
 
 Daily digest ingest (2026-06-16): arXiv:2606.13757 — isolates **review-time** failure when adversary controls **code diff + PR text** and reviewer holds **approve/merge** authority.

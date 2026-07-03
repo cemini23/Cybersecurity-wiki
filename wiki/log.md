@@ -834,3 +834,10 @@ Brief marked `processed: 2026-06-01`.
 
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.30587-words-speak-louder-cognitive-heuristics-llm-vuln-detection.pdf`
+
+## [2026-07-03] lint | Brief audit + backlink fill
+
+**Inbox**: 0/0 — no new PDFs.
+
+- **Brief audit** — 54 wiki `briefs/` refs; 67 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror)
+- **Filled** brief backlinks: `llm-code-review-agent-security`, `sevra-bench`, `layer-paradigm-agent-red-teaming`, `defending-code-reference-harness`, `llm-vulnerability-discovery`, `tool-environment-unreliability-eval`

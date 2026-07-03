@@ -31,6 +31,8 @@ phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API li
 - @entities/tools/seclaw-eval.md — sibling Reference-tier agent benchmark
 - @entities/tools/defenseclaw.md — governance scanner; does not replace PR-review robustness eval
 
+**Briefs:** `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md`, `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`
+
 ## Raw Concept
 
 Daily digest ingest (2026-06-16). GitHub: [rufimelo99/malicious-pr-bench](https://github.com/rufimelo99/malicious-pr-bench) (~2 stars, pushed 2026-06-01). Dataset: [Hugging Face RedAI4Code/SEVRA](https://huggingface.co/datasets/RedAI4Code/SEVRA). arXiv:2606.13757.
