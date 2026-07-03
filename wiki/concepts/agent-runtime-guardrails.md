@@ -97,9 +97,11 @@ related:
   - entities/tools/ai-infra-guard.md
   - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
   - concepts/confidence-aware-tool-orchestration.md
+  - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

@@ -15,9 +15,11 @@ related:
   - entities/tools/seclaw-eval.md
   - entities/tools/defenseclaw.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-17
+updated: 2026-07-03
 phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API license null; inspect_ai + Docker Gitea harness; HF RedAI4Code/SEVRA; lab eval only until SPDX file"
 ---
 

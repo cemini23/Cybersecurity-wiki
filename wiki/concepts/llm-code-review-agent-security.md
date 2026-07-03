@@ -16,9 +16,11 @@ related:
   - concepts/npm-supply-chain-defense.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-27
+updated: 2026-07-03
 ---
 
 ## Relations
@@ -90,3 +92,16 @@ Frontier closed-source models **saturate** CWE-wise (Opus ~98% RR) but open-weig
 - **Single framing red-team** — open-weight models need per-strategy coverage; one successful narrative does not generalize.
 
 See `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md` for pre-rollout eval checklist.
+
+### Cognitive heuristics on fixed code (2606.30587)
+
+SEVRA varies **diff + PR narrative**; Shahriar et al. hold **code fixed** and vary halo/framing/anchoring context only. Combined attack surface for CI scanners:
+
+| Vector | SEVRA | Cognitive heuristics |
+|--------|-------|----------------------|
+| Code change | Adversarial reversed CVE | **Held constant** |
+| Author reputation | Excluded | **Halo** — junior vs principal engineer |
+| Task framing | 15 PR strategies | **Framing** — routine vs security-critical |
+| Prior signals | Fake CI/coverage | **Anchoring** — prior SAFE/VULNERABLE verdict |
+
+Black-box cognitive attack suppresses **up to 97%** of neutral-prompt detections. Pair SEVRA regression with heuristic perturbation suite before promoting LLM merge bots. See @concepts/cognitive-heuristics-llm-vuln-detection.md and `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`.

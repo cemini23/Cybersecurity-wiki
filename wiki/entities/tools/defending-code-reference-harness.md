@@ -13,9 +13,11 @@ related:
   - entities/tools/cua.md
   - entities/tools/iron-proxy.md
   - "@osint-wiki/entities/tools/defending-code-reference-harness.md"
+  - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-07-03
 phase_0_verdict: "CONDITIONAL-GO 2026-06-06 — laptop Docker/gVisor only; Apache-2.0 LICENSE file; not for cemini-prod trading path."
 ---
 

@@ -821,3 +821,16 @@ Brief marked `processed: 2026-06-01`.
 
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.26904-confidence-aware-tool-orchestration-robust-to.pdf`
+
+## [2026-07-03] ingest | Cognitive heuristics in LLM vuln detection (2606.30587)
+
+**Inbox**: 1/1 PDF ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md` + `@concepts/cognitive-heuristics-llm-vuln-detection.md` — halo/framing/anchoring; 97% suppression PoC; Phase-0 **Reference**
+- **Briefs** `2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`
+- **CCC brief** `2026-07-03_ccc-handoff-cognitive-heuristics-vuln-detection-ingest.md`
+- **Updated** `llm-code-review-agent-security`, `llm-vulnerability-discovery`, `social-engineering`, `ai-for-cybersecurity`, `agent-runtime-guardrails`, `sevra-bench`, `defending-code-reference-harness`, `arxiv-2606-13757`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-03-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.30587-words-speak-louder-cognitive-heuristics-llm-vuln-detection.pdf`

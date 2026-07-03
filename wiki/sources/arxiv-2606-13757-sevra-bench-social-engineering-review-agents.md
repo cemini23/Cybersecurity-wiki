@@ -17,10 +17,12 @@ related:
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 read_status: read
 created: 2026-06-16
-updated: 2026-06-17
+updated: 2026-07-03
 phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API license null; laptop Docker+inspect-ai eval only after SPDX file"
 ---
 
