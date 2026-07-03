@@ -163,6 +163,7 @@
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
+| @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
 | @entities/tools/jadx-mcp-server.md | draft | Android RE + live debugging via MCP (JADX decompiler) |
@@ -369,3 +370,4 @@ When this wiki references a sibling wiki's page, the citation uses `@<alias>/pat
 - `3d-printing-wiki` — FDM/FFF, Bambu, slicers, print farms
 
 Bidirectional invariant: if this wiki cites `@osint-wiki/...`, the matching page in the OSINT wiki should cite `@cybersecurity-wiki/...` back. Run `python3 scripts/wiki_lint.py` to check.
+
