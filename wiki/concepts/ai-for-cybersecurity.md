@@ -26,6 +26,7 @@ related:
   - entities/tools/cryptex-oss.md
   - entities/tools/iron-proxy.md
   - entities/tools/nvidia-skillspector.md
+  - entities/tools/ifixai.md
   - concepts/agent-runtime-guardrails.md
   - entities/tools/airguard.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
@@ -117,6 +118,8 @@ updated: 2026-07-03
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/llm-pentest-automation.md
 - @concepts/agent-runtime-guardrails.md — runtime side-effect guards vs prompt-only safety (2026 arXiv cluster)
+
+- @entities/tools/ifixai.md — K142 agent deception/manipulation diagnostic harness
 
 ## Raw Concept
 

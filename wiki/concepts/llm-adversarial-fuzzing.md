@@ -25,6 +25,7 @@ related:
   - sources/arxiv-2606-02302-seclaw-spec-driven-agent-security.md
   - entities/tools/seclaw-eval.md
   - entities/tools/llm-defense-lattice.md
+  - entities/tools/ifixai.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
@@ -35,7 +36,7 @@ related:
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-26
+updated: 2026-07-03
 ---
 
 ## Relations
@@ -55,6 +56,8 @@ updated: 2026-06-26
 - @entities/tools/seclaw-eval.md — benchmark harness for trajectory scoring
 - @entities/tools/llm-defense-lattice.md — OWASP LLM BAS lattice; paraphrase brittleness on refusal filters
 - @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — refusal-regex brittleness under LLM paraphrase
+
+- @entities/tools/ifixai.md — diagnostic harness for manipulation/deception checks beyond refusal fuzzing
 
 ## Raw Concept
 
