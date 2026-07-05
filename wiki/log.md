@@ -854,3 +854,13 @@ Brief marked `processed: 2026-06-01`.
 
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.29073-hcp-mcp-execution-control-invariants.pdf`
+
+## [2026-07-05] cross-wiki route | tl;dr sec — [tl;dr sec] #335 - Prompt Injection as Role Confusion, PHP Ecosystem Security, New MCP Spec
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335---prompt-injection-as-role-confusio.md`.
+- Created wiki/sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335---prompt-injection-as-role-confusio.md (stub)
+
+## [2026-07-05] cross-wiki route | Packt SecPro — Identity Became the New Perimeter
+
+Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md`.
+- Created wiki/sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md (stub)
