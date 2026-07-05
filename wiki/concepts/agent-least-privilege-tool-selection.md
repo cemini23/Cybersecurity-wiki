@@ -23,9 +23,12 @@ related:
   - concepts/intent-governed-tool-authorization.md
   - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
   - concepts/confidence-aware-tool-orchestration.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 ## Relations

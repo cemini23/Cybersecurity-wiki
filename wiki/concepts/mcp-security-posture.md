@@ -75,9 +75,12 @@ related:
   - entities/tools/ai-infra-guard.md
   - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
   - concepts/confidence-aware-tool-orchestration.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -120,6 +123,7 @@ MCP makes tool integration easy by exposing **metadata-only** interfaces to the 
 | **Runtime surface** | Mid-session tool list mutation in browser WebMCP | 2606.06387 MSTI | OBAC + origin-bound registration; freeze tool catalog after task start; log registration events |
 | **Error-path IPI** | Tool **error** responses trigger corrective mode; implicit authority bypasses skepticism | 2606.07992 VATS | Split error code vs help text; verify error provenance; red-team error-path mutations; human gate on error-triggered writes |
 | **Trajectory evolution** | Accepted tool/RAG/agent outputs merge into persistent context without drift gate | 2606.10322 GT-MCP | Multi-model probe + CCI/AGR/CDS trust gate before memory commit; checkpoint rollback on high drift |
+| **Execution control** | Connection-layer approvals insufficient; metadata grants hidden invokes | 2606.29073 HCP | Eight invariants (I1–I8): grant-backed approval, principal binding, data-pipe auth, deny-path audit |
 
 ### Confused deputy chain
 
@@ -196,5 +200,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Tool-environment unreliability (2606.25819)** — ToolBench-X: agents scoring well on clean **P₀** tools drop to **<0.51** under recoverable hazards (spec drift, invocation errors, output drift, cross-source conflict). **Hint-after-failure recovers 60–80%** of lost accuracy — diagnosis bottleneck for prod MCP. Phase-0 **Reference** until repo ships. See @concepts/tool-environment-unreliability-eval.md and `briefs/2026-06-27_toolbench-x-prod-mcp-reliability-eval-checklist.md`.
 
 **Confidence-aware orchestration (2606.26904)** — Robust-TO **Blind Trust Problem**: agents act on degraded tool/perception outputs without downgrading confidence. Steal `(result, confidence)` MCP wrappers + tiered evidence fusion before high-impact tool chains. Phase-0 **Reference** (CV paper; code pending). See @concepts/confidence-aware-tool-orchestration.md and `briefs/2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`.
+
+**Execution-control invariants (2606.29073)** — HCP: connection-layer mitigations (metadata lint + per-call approval) permit **6/10** modeled attacks; execution-control runtime blocks **10/10** with deny-path audit. Eight invariants I1–I8 cover metadata non-authority, grant-backed approval, data-pipe auth. Phase-0 **CONDITIONAL-GO** (MIT, 0★). See @concepts/mcp-execution-control-invariants.md and `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`.
 
 **Batch handoff index (2026-06-24)** — CCC routing for Tool-Guard / CLAWAUDIT / PORTICO / IGAC ingest: `briefs/2026-06-24_ccc-handoff-agent-security-ingest-batch.md`.

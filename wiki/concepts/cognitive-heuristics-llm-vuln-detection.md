@@ -14,6 +14,7 @@ related:
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - entities/tools/sevra-bench.md
   - entities/tools/defending-code-reference-harness.md
+  - "@ccc-wiki/concepts/cognitive-heuristics-llm-vuln-detection.md"
 maturity: draft
 created: 2026-07-03
 updated: 2026-07-03

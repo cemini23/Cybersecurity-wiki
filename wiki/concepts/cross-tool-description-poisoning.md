@@ -13,9 +13,12 @@ related:
   - concepts/multi-tool-threshold-mcp-poisoning.md
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-07-04
 ---
 
 ## Relations

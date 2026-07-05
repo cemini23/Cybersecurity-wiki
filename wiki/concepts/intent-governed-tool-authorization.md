@@ -12,9 +12,12 @@ related:
   - entities/tools/chaincaps.md
   - entities/tools/airguard.md
   - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-04
 ---
 
 ## Relations

@@ -26,10 +26,13 @@ related:
   - concepts/lingering-authority-revocable-capabilities.md
   - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
   - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-21
+updated: 2026-07-04
 phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool calls pre-execution; lab on AgentTrap/DTAP-style tasks before client copilot assessments."
 ---
 

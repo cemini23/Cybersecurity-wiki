@@ -29,9 +29,12 @@ related:
   - concepts/agentic-containment-principles.md
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-30
+updated: 2026-07-04
 ---
 
 ## Relations

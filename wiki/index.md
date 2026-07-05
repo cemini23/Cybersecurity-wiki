@@ -100,6 +100,7 @@
 | @concepts/tool-environment-unreliability-eval.md | draft | ToolBench-X recoverable tool hazards + diagnosis gap (2606.25819) |
 | @concepts/confidence-aware-tool-orchestration.md | draft | Robust-TO Blind Trust + (result, confidence) tool routing (2606.26904) |
 | @concepts/cognitive-heuristics-llm-vuln-detection.md | draft | Halo/framing/anchoring bias in LLM vuln scanners (2606.30587) |
+| @concepts/mcp-execution-control-invariants.md | draft | HCP eight invariants — execution control beyond MCP connection (2606.29073) |
 | @concepts/crypter-as-a-service.md | draft | CraaS underground market — exploit.in longitudinal study (2606.24226) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
@@ -201,6 +202,7 @@
 | @entities/tools/netviz.md | draft | Browser network-architecture graph visualizer — D3.js + Socket.IO (MIT; Adopt, K93) |
 | @entities/tools/airguard.md | draft | Runtime authority control for tool/MCP agents (MIT; CONDITIONAL-GO) |
 | @entities/tools/chaincaps.md | draft | MCP proxy — composition-safe tool chains via monotonic capability budgets (Reference) |
+| @entities/tools/handle-capability-protocol.md | draft | HCP reference runtime — MCP execution-control invariants + 10-case benchmark (MIT; CONDITIONAL-GO) |
 | @entities/tools/agentredguard.md | draft | Integration-aware guard for SaaS LLM agents — AgentRedBench paper (Reference) |
 | @entities/tools/seclaw-eval.md | draft | Trajectory-aware agent security benchmark — SeClaw Docker testbed (Reference, K98) |
 | @entities/tools/ai-research-skills.md | draft | Orchestra ML skills library — cybersec cherry-pick subset (K113 CONDITIONAL-GO) |
@@ -336,6 +338,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | llm-defense-lattice | NOASSERTION | Reference | digest | @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense BAS lattice; license audit pending |
 | defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
 | ai-infra-guard | Apache-2.0 + NOTICE §4(d) | CONDITIONAL-GO | digest | @entities/tools/ai-infra-guard.md — multi-layer agent red team (2606.31227); **external Docker only** |
+| handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 
 ## Meta
 

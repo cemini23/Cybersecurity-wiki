@@ -841,3 +841,16 @@ Brief marked `processed: 2026-06-01`.
 
 - **Brief audit** — 54 wiki `briefs/` refs; 67 on disk; 1 missing (`2026-05-31_prod-mcp-allowlist-draft-k100-from-cybersec.md`, log-only OSINT mirror)
 - **Filled** brief backlinks: `llm-code-review-agent-security`, `sevra-bench`, `layer-paradigm-agent-red-teaming`, `defending-code-reference-harness`, `llm-vulnerability-discovery`, `tool-environment-unreliability-eval`
+
+## [2026-07-04] ingest | HCP MCP execution-control invariants (2606.29073)
+
+**Inbox**: 1/1 PDF ingested + archived.
+
+- **NEW** `@sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md` + `@concepts/mcp-execution-control-invariants.md` + `@entities/tools/handle-capability-protocol.md` — eight invariants I1–I8; B0 10/10, B1 6/10, B2 0/10 attacks; Phase-0 **CONDITIONAL-GO** (MIT, 0★)
+- **Briefs** `2026-07-04_hcp-mcp-execution-control-handoff.md`, `2026-07-04_prod-mcp-eight-invariants-checklist.md`
+- **CCC brief** `2026-07-04_ccc-handoff-hcp-execution-control-ingest.md`
+- **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `agent-execution-provenance`, `intent-governed-tool-authorization`, `cross-tool-description-poisoning`, `agent-least-privilege-tool-selection`, `ai-for-cybersecurity`, `chaincaps`, `airguard`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-04-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2606.29073-hcp-mcp-execution-control-invariants.pdf`

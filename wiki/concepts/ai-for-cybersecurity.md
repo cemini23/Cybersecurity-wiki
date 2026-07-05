@@ -93,9 +93,12 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
+  - concepts/mcp-execution-control-invariants.md
+  - entities/tools/handle-capability-protocol.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 ## Relations
