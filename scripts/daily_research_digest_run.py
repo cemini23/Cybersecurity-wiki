@@ -27,17 +27,26 @@ except ImportError:
     print("ERROR: PyYAML required — pip install pyyaml", file=sys.stderr)
     sys.exit(1)
 
+from agent_reach_daily_social import run_agent_reach_social_pass  # noqa: E402
+from arxiv_api_search import arxiv_search  # noqa: E402
 from daily_research_fetch import FetchOutcome, fetch_papers  # noqa: E402
 
 
 def load_exa_key() -> str:
+    key = load_exa_key_optional()
+    if not key:
+        print("ERROR: set EXA_API_KEY or write ~/.cemini/exa-api-key", file=sys.stderr)
+        sys.exit(1)
+    return key
+
+
+def load_exa_key_optional() -> str | None:
     if os.environ.get("EXA_API_KEY"):
         return os.environ["EXA_API_KEY"].strip()
     path = Path.home() / ".cemini" / "exa-api-key"
     if path.is_file():
         return path.read_text().strip()
-    print("ERROR: set EXA_API_KEY or write ~/.cemini/exa-api-key", file=sys.stderr)
-    sys.exit(1)
+    return None
 
 
 def normalize_url(url: str) -> str:
@@ -134,7 +143,7 @@ def load_config(repo: Path) -> dict:
 
 
 def run_queries(
-    api_key: str,
+    api_key: str | None,
     query_defs: list[dict],
     from_date: str,
     default_per_query: int,
@@ -142,6 +151,13 @@ def run_queries(
 ) -> tuple[list[tuple[str, str, str | None, list[dict]]], bool]:
     sections: list[tuple[str, str, str | None, list[dict]]] = []
     partial = False
+    if not api_key:
+        for q in query_defs:
+            query = q.get("query", "")
+            if query:
+                sections.append((q.get("cluster", "unknown"), query, q.get("category"), []))
+        return sections, True
+
     for q in query_defs:
         cluster = q.get("cluster", "unknown")
         query = q.get("query", "")
@@ -173,6 +189,79 @@ def run_queries(
     return sections, partial
 
 
+def run_paper_queries(
+    api_key: str | None,
+    query_defs: list[dict],
+    from_date: str,
+    default_per_query: int,
+    seen_urls: set[str],
+    arxiv_cfg: dict,
+) -> tuple[list[tuple[str, str, str | None, list[dict], str]], bool, int]:
+    """Paper lane: Exa first, arXiv API fallback per cluster when Exa fails or returns empty."""
+    sections: list[tuple[str, str, str | None, list[dict], str]] = []
+    partial = False
+    arxiv_fallback_count = 0
+    fallback_enabled = bool(arxiv_cfg.get("enabled", True))
+    interval = float(arxiv_cfg.get("request_interval_seconds", 3))
+    max_terms = int(arxiv_cfg.get("max_terms_per_query", 6))
+
+    for q in query_defs:
+        cluster = q.get("cluster", "unknown")
+        query = q.get("query", "")
+        category = q.get("category")
+        per_query = int(q.get("num_results", default_per_query))
+        if not query:
+            continue
+
+        raw: list[dict] = []
+        source = "exa"
+        exa_failed = False
+
+        if api_key:
+            try:
+                data = exa_search(api_key, query, from_date, category, per_query)
+                raw = data.get("results") or []
+            except urllib.error.HTTPError as e:
+                exa_failed = True
+                partial = True
+                print(f"WARNING: {cluster} HTTP {e.code}", file=sys.stderr)
+            except Exception as e:
+                exa_failed = True
+                partial = True
+                print(f"WARNING: {cluster} {e}", file=sys.stderr)
+        else:
+            exa_failed = True
+            partial = True
+
+        if not raw and fallback_enabled and (exa_failed or not api_key):
+            raw = arxiv_search(
+                query,
+                from_date,
+                max_results=per_query,
+                request_interval_seconds=interval,
+                max_terms=max_terms,
+            )
+            if raw:
+                source = "arxiv-api"
+                arxiv_fallback_count += 1
+                print(
+                    f"INFO: {cluster} arXiv API fallback ({len(raw)} hits)",
+                    file=sys.stderr,
+                )
+
+        deduped: list[dict] = []
+        for r in raw:
+            url = r.get("url") or ""
+            key = normalize_url(url)
+            if not key or key in seen_urls:
+                continue
+            seen_urls.add(key)
+            deduped.append(r)
+        sections.append((cluster, query, category, deduped, source))
+
+    return sections, partial, arxiv_fallback_count
+
+
 def render_fetch_table(outcomes: list[FetchOutcome]) -> list[str]:
     lines = [
         "| Status | arXiv | Title | File / reason |",
@@ -186,8 +275,17 @@ def render_fetch_table(outcomes: list[FetchOutcome]) -> list[str]:
     return lines
 
 
+def repo_root() -> Path:
+    """Wiki repo root — env set by ~/bin LaunchAgent wrappers (not Desktop script path)."""
+    for key in ("CEMINI_WIKI_ROOT", "WIKI_ROOT"):
+        val = os.environ.get(key)
+        if val:
+            return Path(val)
+    return Path(__file__).resolve().parent.parent
+
+
 def main() -> int:
-    repo = Path(__file__).resolve().parent.parent
+    repo = repo_root()
     cfg = load_config(repo)
     loop = cfg.get("loop") or {}
     fetch_cfg = cfg.get("fetch") or {}
@@ -201,26 +299,45 @@ def main() -> int:
     report = repo / out_tpl.format(date=today.isoformat())
     report.parent.mkdir(parents=True, exist_ok=True)
 
-    api_key = load_exa_key()
+    api_key = load_exa_key_optional()
+    if not api_key:
+        print(
+            "WARNING: no Exa API key — paper lane uses arXiv API; news lane empty",
+            file=sys.stderr,
+        )
     paper_defs = cfg.get("paper_queries") or []
     news_defs = cfg.get("queries") or []
+    arxiv_cfg = cfg.get("arxiv_fallback") or {}
     active_topics = cfg.get("active_topics") or []
+    brief_note = (cfg.get("brief_routing_note") or "").strip()
     social = cfg.get("social") or {}
+    agent_reach_social = run_agent_reach_social_pass(repo, cfg, today)
 
     seen_urls: set[str] = set()
-    paper_sections, paper_partial = run_queries(
-        api_key, paper_defs, from_date, per_paper, seen_urls
+    paper_sections, paper_partial, arxiv_fallback_clusters = run_paper_queries(
+        api_key,
+        paper_defs,
+        from_date,
+        per_paper,
+        seen_urls,
+        arxiv_cfg,
     )
     news_sections, news_partial = run_queries(
         api_key, news_defs, from_date, per_query, seen_urls
     )
     partial = paper_partial or news_partial
 
+    # fetch_papers expects 4-tuple sections (no source field)
+    paper_sections_for_fetch = [
+        (cluster, query, category, results)
+        for cluster, query, category, results, _source in paper_sections
+    ]
+
     fetch_outcomes: list[FetchOutcome] = []
-    if fetch_cfg.get("enabled", True) and paper_sections:
+    if fetch_cfg.get("enabled", True) and paper_sections_for_fetch:
         fetch_outcomes = fetch_papers(
             repo,
-            paper_sections,
+            paper_sections_for_fetch,
             max_downloads=int(fetch_cfg.get("max_downloads", 8)),
             fetch_likely=bool(fetch_cfg.get("fetch_likely", False)),
         )
@@ -233,13 +350,27 @@ def main() -> int:
     n_skipped_dup = sum(1 for o in fetch_outcomes if o.status == "skipped-dup")
     fetched_names = {o.path for o in fetch_outcomes if o.status == "fetched" and o.path}
 
+    paper_lane_note = (
+        f"Paper lane: {len(paper_defs)} queries (Exa + arXiv API fallback when Exa fails)."
+        if arxiv_cfg.get("enabled", True)
+        else f"Paper lane: {len(paper_defs)} Exa queries (research paper, wiki-deduped)."
+    )
     lines = [
         f"# Daily Research Digest — {today.isoformat()}",
         "",
         f"Window: `{from_date}` → `{today.isoformat()}` ({window} days). "
-        f"Paper lane: {len(paper_defs)} Exa queries (research paper, wiki-deduped). "
+        f"{paper_lane_note} "
         f"News lane: {len(news_defs)} queries (digest only).",
         "",
+    ]
+    if arxiv_fallback_clusters:
+        lines.append(
+            f"_Paper discovery: **{arxiv_fallback_clusters}** cluster(s) used free arXiv API "
+            f"(Exa unavailable or empty)._"
+        )
+        lines.append("")
+    lines.extend(
+        [
         "Reference: `@scripts/daily_research_config.yaml`. "
         "**Does NOT ingest wiki** — fetched arXiv PDFs go to `research to be indexed/`.",
         "",
@@ -247,9 +378,21 @@ def main() -> int:
         "",
         "## Active topics (sync from ROADMAP)",
         "",
-    ]
+        ]
+    )
     for t in active_topics:
         lines.append(f"- {t}")
+    if brief_note:
+        lines.extend(
+            [
+                "",
+                "### Brief routing",
+                "",
+                brief_note.strip(),
+                "",
+                "Canonical: `scripts/active_project_brief_targets.yaml` · @concepts/active-project-research-routing.md",
+            ]
+        )
     lines.extend(["", "---", ""])
 
     lines.extend(["## Inbox (`research to be indexed/`)", ""])
@@ -280,11 +423,12 @@ def main() -> int:
         lines.extend(render_fetch_table(fetch_outcomes))
         lines.append("")
 
-    lines.extend(["---", "", "## Paper candidates (Exa research paper)", ""])
+    lines.extend(["---", "", "## Paper candidates", ""])
     paper_total = 0
-    for i, (cluster, query, category, results) in enumerate(paper_sections, 1):
+    for i, (cluster, query, category, results, source) in enumerate(paper_sections, 1):
         cat_label = category or "research paper"
-        lines.append(f"### P{i}: {cluster} ({len(results)} hits)")
+        src_label = "arXiv API" if source == "arxiv-api" else "Exa"
+        lines.append(f"### P{i}: {cluster} ({len(results)} hits · {src_label})")
         lines.append("")
         lines.append(f"Query: `{query}` · category: `{cat_label}`")
         lines.append("")
@@ -331,6 +475,9 @@ def main() -> int:
     lines.append("")
 
     manual = social.get("manual_pass") or []
+    if agent_reach_social.enabled:
+        lines.extend(agent_reach_social.lines)
+
     if manual:
         lines.extend(["---", "", "## Social pass (Cursor session — not automated)", ""])
         for item in manual:
@@ -348,6 +495,8 @@ def main() -> int:
             "```",
             "Full ingest — process everything in research to be indexed/ and any checked rows above.",
             "- preingest_check → discuss takeaways → 3–15 wiki pages → lint → ingest_session_gate → commit",
+            "- Briefs: co-primary per scripts/active_project_brief_targets.yaml (poker · ceminidfs · xsp-killer · castle-sim); secondary: wc-ticket-monitor · pm-kalshi",
+            "- Do NOT auto-scp generic quant-finance / MAPPO / Riskfolio briefs to cemini-prod",
             "```",
             "",
             "---",
@@ -357,6 +506,7 @@ def main() -> int:
             "| Metric | Count |",
             "|--------|-------|",
             f"| Paper hits (deduped) | {paper_total} |",
+            f"| arXiv API fallback clusters | {arxiv_fallback_clusters} |",
             f"| PDFs fetched to inbox | {n_fetched} |",
             f"| Dupes skipped | {n_skipped_dup} |",
             f"| News hits (digest only) | {news_total} |",

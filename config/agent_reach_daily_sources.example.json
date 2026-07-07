@@ -1,0 +1,14 @@
+{
+  "allowed_sources": [
+    "manual_snapshot"
+  ],
+  "allowed_domains": [
+    "x.com",
+    "reddit.com",
+    "instagram.com"
+  ],
+  "allowed_author_or_channel": [
+    "*"
+  ],
+  "notes": "Daily Agent Reach/OpenCLI social pass. Domains are constrained (www. stripped at match time), authors are wildcarded because discovery search returns arbitrary public accounts. Output stays under .local/ and requires operator review."
+}

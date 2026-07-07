@@ -1,67 +1,56 @@
-# Daily research digest — Cybersecurity wiki (federated install K93)
-# Read by: scripts/daily_research_digest_run.py
-# Update active_topics when ROADMAP.md workstreams shift.
-
 loop:
   recency_window_days: 7
   max_results_per_query: 3
-
 fetch:
   enabled: true
   max_downloads: 5
   fetch_likely: false
   max_results_per_paper_query: 5
-
+arxiv_fallback:
+  enabled: true
+  request_interval_seconds: 3
+  max_terms_per_query: 6
 active_topics:
-  - "Offensive OSINT — recon tradecraft, attack-surface mapping, breach intel"
-  - "MCP red-team skills — agent tooling, skill supply-chain, Claude Code offensive modules"
-  - "CVE feeds — EPSS/KEV enrichment, vuln triage, responsible disclosure"
-  - "Wireless — WPA enterprise, evil twin, BLE/Zigbee pentest tradecraft"
-
+- Offensive OSINT — recon tradecraft, attack-surface mapping, breach intel
+- MCP red-team skills — agent tooling, skill supply-chain, Claude Code offensive modules
+- CVE feeds — EPSS/KEV enrichment, vuln triage, responsible disclosure
+- Wireless — WPA enterprise, evil twin, BLE/Zigbee pentest tradecraft
 paper_queries:
-  - cluster: offensive-security-paper
-    query: "research paper penetration testing red team adversary emulation MITRE ATT&CK"
-    category: research paper
-
-  - cluster: llm-security-paper
-    query: "research paper LLM agent security prompt injection MCP tool poisoning"
-    category: research paper
-
-  - cluster: wireless-security-paper
-    query: "research paper Wi-Fi WPA3 Bluetooth BLE wireless penetration testing"
-    category: research paper
-
+- cluster: offensive-security-paper
+  query: research paper penetration testing red team adversary emulation MITRE ATT&CK
+  category: research paper
+- cluster: llm-security-paper
+  query: research paper LLM agent security prompt injection MCP tool poisoning
+  category: research paper
+- cluster: wireless-security-paper
+  query: research paper Wi-Fi WPA3 Bluetooth BLE wireless penetration testing
+  category: research paper
 queries:
-  - cluster: cve-threat-intel
-    query: '"CVE" OR "CISA KEV" OR EPSS vulnerability disclosure exploit PoC'
-    category: news
-
-  - cluster: offensive-osint
-    query: '"OSINT" pentest recon subdomain enumeration threat actor infrastructure'
-    category: news
-
-  - cluster: mcp-agent-security
-    query: '"MCP server" OR "Claude Code skill" OR agent red team security audit'
-    category: news
-
-  - cluster: wireless-pentest
-    query: '"Wi-Fi pentest" OR WPA3 OR "evil twin" OR BLE security assessment'
-    category: news
-
+- cluster: cve-threat-intel
+  query: '"CVE" OR "CISA KEV" OR EPSS vulnerability disclosure exploit PoC'
+  category: news
+- cluster: offensive-osint
+  query: '"OSINT" pentest recon subdomain enumeration threat actor infrastructure'
+  category: news
+- cluster: mcp-agent-security
+  query: '"MCP server" OR "Claude Code skill" OR agent red team security audit'
+  category: news
+- cluster: wireless-pentest
+  query: '"Wi-Fi pentest" OR WPA3 OR "evil twin" OR BLE security assessment'
+  category: news
 monokern_pipeline:
   enabled: true
   cadence: weekly
   default_deliverable: none
   source_modules:
-    - yt-dlp
-    - inbox_pdf
-    - web_url
-  skill_notes: "Use notebooklm-osint-bridge + skill-creator; laptop auth only."
-
+  - yt-dlp
+  - inbox_pdf
+  - web_url
+  skill_notes: Use notebooklm-osint-bridge + skill-creator; laptop auth only.
 social:
   manual_pass:
-    - tool: opencli-reader
-      prompt: "HackerNews / arXiv frontpage for offensive security + agent tooling last 24h"
-
+  - tool: opencli-reader
+    prompt: HackerNews / arXiv frontpage for offensive security + agent tooling last
+      24h
 output:
-  path_template: "wiki/sweeps/{date}-daily.md"
+  path_template: wiki/sweeps/{date}-daily.md
