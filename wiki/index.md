@@ -101,6 +101,7 @@
 | @concepts/confidence-aware-tool-orchestration.md | draft | Robust-TO Blind Trust + (result, confidence) tool routing (2606.26904) |
 | @concepts/cognitive-heuristics-llm-vuln-detection.md | draft | Halo/framing/anchoring bias in LLM vuln scanners (2606.30587) |
 | @concepts/mcp-execution-control-invariants.md | draft | HCP eight invariants — execution control beyond MCP connection (2606.29073) |
+| @concepts/substrate-constraints-coding-agent-oversight.md | draft | Steerability via constraints — substrate + docs CLI for coding-agent oversight (2607.02389) |
 | @concepts/crypter-as-a-service.md | draft | CraaS underground market — exploit.in longitudinal study (2606.24226) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
@@ -364,6 +365,7 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 ---
 - [tl;dr sec — [tl;dr sec] #335 - Prompt Injection as Role Confusion, PHP Ecosystem Security, New MCP Spec](sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335---prompt-injection-as-role-confusio.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Packt SecPro — Identity Became the New Perimeter](sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [The Engineering Club — Security Edition — How I’d Respond in the First Hour After a Package I Use Got Hacked](sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Cross-wiki anchors
 

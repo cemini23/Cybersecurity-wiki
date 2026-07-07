@@ -29,9 +29,11 @@ related:
   - entities/tools/toolbench-x.md
   - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
   - concepts/confidence-aware-tool-orchestration.md
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-02
+updated: 2026-07-07
 ---
 
 # SeClaw — trajectory-aware agent security evaluation

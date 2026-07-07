@@ -15,9 +15,11 @@ related:
   - entities/tools/sevra-bench.md
   - entities/tools/defending-code-reference-harness.md
   - "@ccc-wiki/concepts/cognitive-heuristics-llm-vuln-detection.md"
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-07
 ---
 
 **Briefs:** `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`

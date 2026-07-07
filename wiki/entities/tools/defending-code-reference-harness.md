@@ -15,9 +15,11 @@ related:
   - "@osint-wiki/entities/tools/defending-code-reference-harness.md"
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-07-03
+updated: 2026-07-07
 phase_0_verdict: "CONDITIONAL-GO 2026-06-06 — laptop Docker/gVisor only; Apache-2.0 LICENSE file; not for cemini-prod trading path."
 ---
 

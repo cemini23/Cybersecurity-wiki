@@ -20,9 +20,11 @@ related:
   - concepts/agentic-offensive-security-kill-chain.md
   - entities/tools/aohp.md
   - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-27
+updated: 2026-07-07
 ---
 
 ## Relations

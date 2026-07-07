@@ -102,9 +102,11 @@ related:
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
   - concepts/mcp-execution-control-invariants.md
   - entities/tools/handle-capability-protocol.md
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-04
+updated: 2026-07-07
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

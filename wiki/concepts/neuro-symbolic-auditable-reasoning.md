@@ -13,9 +13,11 @@ related:
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md
   - concepts/agent-probabilistic-datalog-verification.md
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-21
+updated: 2026-07-07
 ---
 
 ## Relations

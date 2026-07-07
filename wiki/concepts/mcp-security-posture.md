@@ -78,9 +78,11 @@ related:
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
   - concepts/mcp-execution-control-invariants.md
   - entities/tools/handle-capability-protocol.md
+  - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-04
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -202,5 +204,7 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Confidence-aware orchestration (2606.26904)** — Robust-TO **Blind Trust Problem**: agents act on degraded tool/perception outputs without downgrading confidence. Steal `(result, confidence)` MCP wrappers + tiered evidence fusion before high-impact tool chains. Phase-0 **Reference** (CV paper; code pending). See @concepts/confidence-aware-tool-orchestration.md and `briefs/2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`.
 
 **Execution-control invariants (2606.29073)** — HCP: connection-layer mitigations (metadata lint + per-call approval) permit **6/10** modeled attacks; execution-control runtime blocks **10/10** with deny-path audit. Eight invariants I1–I8 cover metadata non-authority, grant-backed approval, data-pipe auth. Phase-0 **CONDITIONAL-GO** (MIT, 0★). See @concepts/mcp-execution-control-invariants.md and `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`.
+
+**Substrate oversight (2607.02389)** — For **local owned code**, MCP-mediated retrieval can saturate reviewer context; ~200 LoC AST `docs` CLI + enforceable substrate (linters/types/contracts) lifts small-reviewer backdoor recall **54.5% → 90.9%**. Complements connection/execution layers — does not replace untrusted MCP admission. Phase-0 **Reference**. See @concepts/substrate-constraints-coding-agent-oversight.md and `briefs/2026-07-07_harness-substrate-constraints-checklist.md`.
 
 **Batch handoff index (2026-06-24)** — CCC routing for Tool-Guard / CLAWAUDIT / PORTICO / IGAC ingest: `briefs/2026-06-24_ccc-handoff-agent-security-ingest-batch.md`.

@@ -855,6 +855,19 @@ Brief marked `processed: 2026-06-01`.
 **Archive**:
 - `cemini-egress-fi:.../arxiv-2606.29073-hcp-mcp-execution-control-invariants.pdf`
 
+## [2026-07-07] ingest | Steerability via constraints — coding-agent oversight (2607.02389)
+
+**Inbox**: 1/1 PDF ingested + archived.
+
+- **NEW** `@sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md` + `@concepts/substrate-constraints-coding-agent-oversight.md` — substrate + docs CLI; reviewer recall **54.5% → 90.9%**; Phase-0 **Reference**
+- **Briefs** `2026-07-07_steerability-substrate-coding-agent-oversight-handoff.md`, `2026-07-07_harness-substrate-constraints-checklist.md`
+- **CCC brief** `2026-07-07_ccc-handoff-steerability-substrate-ingest.md` + CCC concept stub
+- **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `llm-code-review-agent-security`, `local-agent-runtime-audit`, `agent-vm-sandboxing`, `ai-for-cybersecurity`, `neuro-symbolic-auditable-reasoning`, `seclaw-agent-security-evaluation`, `defending-code-reference-harness`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-07-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2607.02389-steerability-constraints-coding-agent-oversight.pdf`
+
 ## [2026-07-05] cross-wiki route | tl;dr sec — [tl;dr sec] #335 - Prompt Injection as Role Confusion, PHP Ecosystem Security, New MCP Spec
 
 Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335---prompt-injection-as-role-confusio.md`.
@@ -864,3 +877,8 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-tldrsec-2026-07-
 
 Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md`.
 - Created wiki/sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md (stub)
+
+## [2026-07-07] cross-wiki route | The Engineering Club — Security Edition — How I’d Respond in the First Hour After a Package I Use Got Hacked
+
+Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md`.
+- Created wiki/sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md (stub)
