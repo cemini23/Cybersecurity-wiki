@@ -860,7 +860,7 @@ Brief marked `processed: 2026-06-01`.
 **Inbox**: 1/1 PDF ingested + archived.
 
 - **NEW** `@sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md` + `@concepts/substrate-constraints-coding-agent-oversight.md` — substrate + docs CLI; reviewer recall **54.5% → 90.9%**; Phase-0 **Reference**
-- **Briefs** `2026-07-07_steerability-substrate-coding-agent-oversight-handoff.md`, `2026-07-07_harness-substrate-constraints-checklist.md`
+- **Briefs** `2026-07-07_steerability-substrate-coding-agent-oversight-handoff.md`, `2026-07-07_harness-substrate-constraints-checklist.md` (David adoption → `tipdrop-workspace-kit/briefs/2026-07-07_k138-substrate-constraints-agent-oversight-adopt.md`)
 - **CCC brief** `2026-07-07_ccc-handoff-steerability-substrate-ingest.md` + CCC concept stub
 - **Updated** `agent-runtime-guardrails`, `mcp-security-posture`, `llm-code-review-agent-security`, `local-agent-runtime-audit`, `agent-vm-sandboxing`, `ai-for-cybersecurity`, `neuro-symbolic-auditable-reasoning`, `seclaw-agent-security-evaluation`, `defending-code-reference-harness`, `index.md`
 - **Sweep** `wiki/sweeps/2026-07-07-daily.md` committed
