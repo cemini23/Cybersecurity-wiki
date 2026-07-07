@@ -15,6 +15,8 @@ related:
   - concepts/cross-tool-description-poisoning.md
   - concepts/agent-least-privilege-tool-selection.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/security-tool-orchestration-determinants.md
+  - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
 maturity: draft
 created: 2026-07-04
 updated: 2026-07-04

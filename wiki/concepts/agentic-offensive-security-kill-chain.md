@@ -17,6 +17,8 @@ related:
   - entities/tools/iron-proxy.md
   - sources/arxiv-zero-apt-llm-pentest-2606.05567-2026-06-05.md
   - concepts/mcp-security-posture.md
+  - concepts/security-tool-orchestration-determinants.md
+  - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
 
 maturity: draft
 created: 2026-06-25

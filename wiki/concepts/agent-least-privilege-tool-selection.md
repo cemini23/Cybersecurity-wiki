@@ -26,6 +26,8 @@ related:
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
   - concepts/mcp-execution-control-invariants.md
   - entities/tools/handle-capability-protocol.md
+  - concepts/security-tool-orchestration-determinants.md
+  - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
 maturity: draft
 created: 2026-06-19
 updated: 2026-07-04

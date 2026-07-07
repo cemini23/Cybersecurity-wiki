@@ -102,6 +102,7 @@
 | @concepts/cognitive-heuristics-llm-vuln-detection.md | draft | Halo/framing/anchoring bias in LLM vuln scanners (2606.30587) |
 | @concepts/mcp-execution-control-invariants.md | draft | HCP eight invariants — execution control beyond MCP connection (2606.29073) |
 | @concepts/substrate-constraints-coding-agent-oversight.md | draft | Steerability via constraints — substrate + docs CLI for coding-agent oversight (2607.02389) |
+| @concepts/security-tool-orchestration-determinants.md | draft | Client is first-order (2.1× gap); reasoning-bound residuals — HexStrike study (2607.02873) |
 | @concepts/crypter-as-a-service.md | draft | CraaS underground market — exploit.in longitudinal study (2606.24226) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |

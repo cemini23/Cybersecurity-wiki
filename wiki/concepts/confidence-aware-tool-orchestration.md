@@ -13,6 +13,7 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/llm-pentest-automation.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/security-tool-orchestration-determinants.md
 maturity: draft
 created: 2026-07-02
 updated: 2026-07-02

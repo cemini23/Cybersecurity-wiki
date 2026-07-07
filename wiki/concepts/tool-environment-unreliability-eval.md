@@ -14,6 +14,8 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
   - concepts/confidence-aware-tool-orchestration.md
+  - concepts/security-tool-orchestration-determinants.md
+  - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
 maturity: draft
 created: 2026-06-27
 updated: 2026-07-03

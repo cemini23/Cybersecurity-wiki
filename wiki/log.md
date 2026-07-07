@@ -882,3 +882,11 @@ Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-secpro-2026-07-03-
 
 Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md`.
 - Created wiki/sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md (stub)
+
+## [2026-07-07] ingest | HexStrike-AI security-tool orchestration study (2607.02873)
+
+Cross-wiki ingest from CCC full-ingest batch (K140). arXiv 2607.02873 (USTC) — 774 picoCTF trials over HexStrike-AI (150+ tools/MCP).
+- Created `sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md`, `concepts/security-tool-orchestration-determinants.md`, `briefs/2026-07-07_hexstrike-client-first-order-orchestration-checklist.md`.
+- Key finding: **driving client is first-order** (2.1× gap, same model); solve 55.4%→72.0% via tool/agent fixes; residual failures reasoning-bound not missing-tool.
+- Verdict **REFERENCE** — eval methodology + least-privilege corroboration; HexStrike-AI MIT (lab-only).
+- Cross-wiki: `@ccc-wiki/concepts/client-as-first-order-harness-factor.md` (bidirectional).
