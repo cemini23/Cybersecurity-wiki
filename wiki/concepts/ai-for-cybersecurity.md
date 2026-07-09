@@ -98,9 +98,14 @@ related:
   - entities/tools/handle-capability-protocol.md
   - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
+  - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
+  - concepts/mcp-taint-style-vulnerabilities.md
+  - entities/tools/spellsmith.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations

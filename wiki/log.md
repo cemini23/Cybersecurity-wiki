@@ -890,3 +890,23 @@ Cross-wiki ingest from CCC full-ingest batch (K140). arXiv 2607.02873 (USTC) —
 - Key finding: **driving client is first-order** (2.1× gap, same model); solve 55.4%→72.0% via tool/agent fixes; residual failures reasoning-bound not missing-tool.
 - Verdict **REFERENCE** — eval methodology + least-privilege corroboration; HexStrike-AI MIT (lab-only).
 - Cross-wiki: `@ccc-wiki/concepts/client-as-first-order-harness-factor.md` (bidirectional).
+
+## [2026-07-09] ingest | ADI + SpellSmith MCP taint (2607.05120, 2607.07461)
+
+**Inbox**: 2/2 PDFs ingested + archived.
+
+- **NEW** `@sources/arxiv-2607-05120-agent-data-injection-attacks.md` + `@concepts/agent-data-injection-attacks.md` — ADI trusted/untrusted isolation; **50%** ASR vs **<1%** II on guardrails; Phase-0 **CONDITIONAL-GO** (`compsec-snu/adi`)
+- **NEW** `@sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md` + `@concepts/mcp-taint-style-vulnerabilities.md` + `@entities/tools/spellsmith.md` — **81.13%** MCP vulns taint-style; SpellSmith **0.13%** case ASR; Phase-0 **Reference**
+- **Briefs** `2026-07-09_adi-trusted-untrusted-data-handoff.md`, `2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`, `2026-07-09_spellsmith-mcp-taint-mitigation-handoff.md`
+- **David (tipdrop)** `2026-07-09_k139-agent-data-injection-harness-adopt.md`
+- **CCC brief** `2026-07-09_ccc-handoff-adi-spellsmith-ingest.md`
+- **Updated** `mcp-security-posture`, `agent-runtime-guardrails`, `mcp-execution-control-invariants`, `cross-tool-description-poisoning`, `llm-code-review-agent-security`, `ai-for-cybersecurity`, `agent-execution-provenance`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-09-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2607.05120-agent-data-injection-attacks.pdf`
+- `cemini-egress-fi:.../arxiv-2607.07461-spellsmith-mcp-taint-style-vulnerabilities.pdf`
+
+## [2026-07-08] cross-wiki | K149 cyber
+
+- CyberChef context brief

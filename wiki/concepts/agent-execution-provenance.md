@@ -34,9 +34,11 @@ related:
   - entities/tools/handle-capability-protocol.md
   - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations

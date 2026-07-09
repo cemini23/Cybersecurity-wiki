@@ -43,9 +43,11 @@ related:
   - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - entities/tools/ai-infra-guard.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-07-01
+updated: 2026-07-09
 ---
 
 ## Relations

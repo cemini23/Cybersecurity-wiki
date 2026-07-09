@@ -16,9 +16,14 @@ related:
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
   - concepts/mcp-execution-control-invariants.md
   - entities/tools/handle-capability-protocol.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
+  - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
+  - concepts/mcp-taint-style-vulnerabilities.md
+  - entities/tools/spellsmith.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 
 ## Relations

@@ -104,9 +104,15 @@ related:
   - entities/tools/handle-capability-protocol.md
   - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - "@osint-wiki/concepts/reviewer-passive-injection-corpus.md"
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
+  - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
+  - concepts/mcp-taint-style-vulnerabilities.md
+  - entities/tools/spellsmith.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -150,6 +156,7 @@ updated: 2026-07-07
 - @concepts/agent-probabilistic-datalog-verification.md — noisy-classifier runtime verification layer
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — system prompt leakage measurement + AREA (2606.18673)
 - @concepts/system-prompt-leakage.md — LLM07 exfiltration vs injection distinction
+- @osint-wiki/concepts/reviewer-passive-injection-corpus.md — K37 XSP reviewer passive-injection bundle (failure modes excerpt)
 
 ## Raw Concept
 

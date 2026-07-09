@@ -20,9 +20,11 @@ related:
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -33,7 +35,7 @@ updated: 2026-07-07
 - @concepts/npm-supply-chain-defense.md — dependency supply-chain hardening adjacent surface
 - @concepts/seclaw-agent-security-evaluation.md — trajectory eval hygiene for agent benchmarks
 
-**Briefs:** `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md`, `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`, `briefs/2026-07-07_harness-substrate-constraints-checklist.md`
+**Briefs:** `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md`, `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`, `briefs/2026-07-07_harness-substrate-constraints-checklist.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`
 
 ## Raw Concept
 

@@ -102,6 +102,8 @@
 | @concepts/cognitive-heuristics-llm-vuln-detection.md | draft | Halo/framing/anchoring bias in LLM vuln scanners (2606.30587) |
 | @concepts/mcp-execution-control-invariants.md | draft | HCP eight invariants — execution control beyond MCP connection (2606.29073) |
 | @concepts/substrate-constraints-coding-agent-oversight.md | draft | Steerability via constraints — substrate + docs CLI for coding-agent oversight (2607.02389) |
+| @concepts/agent-data-injection-attacks.md | draft | ADI — trusted/untrusted data isolation in agent context (2607.05120) |
+| @concepts/mcp-taint-style-vulnerabilities.md | draft | MCP server taint-style vulns + SpellSmith description defense (2607.07461) |
 | @concepts/security-tool-orchestration-determinants.md | draft | Client is first-order (2.1× gap); reasoning-bound residuals — HexStrike study (2607.02873) |
 | @concepts/crypter-as-a-service.md | draft | CraaS underground market — exploit.in longitudinal study (2606.24226) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
@@ -205,6 +207,7 @@
 | @entities/tools/airguard.md | draft | Runtime authority control for tool/MCP agents (MIT; CONDITIONAL-GO) |
 | @entities/tools/chaincaps.md | draft | MCP proxy — composition-safe tool chains via monotonic capability budgets (Reference) |
 | @entities/tools/handle-capability-protocol.md | draft | HCP reference runtime — MCP execution-control invariants + 10-case benchmark (MIT; CONDITIONAL-GO) |
+| @entities/tools/spellsmith.md | draft | MCP taint mitigation via security-aware tool descriptions + reflection (Reference; 2607.07461) |
 | @entities/tools/agentredguard.md | draft | Integration-aware guard for SaaS LLM agents — AgentRedBench paper (Reference) |
 | @entities/tools/seclaw-eval.md | draft | Trajectory-aware agent security benchmark — SeClaw Docker testbed (Reference, K98) |
 | @entities/tools/ai-research-skills.md | draft | Orchestra ML skills library — cybersec cherry-pick subset (K113 CONDITIONAL-GO) |

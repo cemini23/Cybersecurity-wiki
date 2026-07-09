@@ -82,9 +82,14 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - concepts/security-tool-orchestration-determinants.md
   - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
+  - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
+  - concepts/mcp-taint-style-vulnerabilities.md
+  - entities/tools/spellsmith.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -208,5 +213,9 @@ Attestation blocks **unauthorized tools** before `tools/call`. DCI asks whether 
 **Execution-control invariants (2606.29073)** — HCP: connection-layer mitigations (metadata lint + per-call approval) permit **6/10** modeled attacks; execution-control runtime blocks **10/10** with deny-path audit. Eight invariants I1–I8 cover metadata non-authority, grant-backed approval, data-pipe auth. Phase-0 **CONDITIONAL-GO** (MIT, 0★). See @concepts/mcp-execution-control-invariants.md and `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`.
 
 **Substrate oversight (2607.02389)** — For **local owned code**, MCP-mediated retrieval can saturate reviewer context; ~200 LoC AST `docs` CLI + enforceable substrate (linters/types/contracts) lifts small-reviewer backdoor recall **54.5% → 90.9%**. Complements connection/execution layers — does not replace untrusted MCP admission. Phase-0 **Reference**. See @concepts/substrate-constraints-coding-agent-oversight.md and `briefs/2026-07-07_harness-substrate-constraints-checklist.md`.
+
+**Agent data injection (2607.05120)** — ADI forges **trusted** fields inside tool responses (metadata, delimiters, fake tool blocks); bypasses instruction-injection defenses (**50%** ADI ASR vs **<1%** II on same guardrails). Affects Claude Code, Codex, Gemini CLI. Phase-0 **CONDITIONAL-GO** (`compsec-snu/adi`). See @concepts/agent-data-injection-attacks.md and `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`.
+
+**MCP taint-style + SpellSmith (2607.07461)** — **81.13%** of MCP server CVEs are taint-style; only **7%** tool descriptions security-aware. SpellSmith augments `description` + invoke reflection → case ASR **0.13%**. Phase-0 **Reference**. See @concepts/mcp-taint-style-vulnerabilities.md and `briefs/2026-07-09_spellsmith-mcp-taint-mitigation-handoff.md`.
 
 **Batch handoff index (2026-06-24)** — CCC routing for Tool-Guard / CLAWAUDIT / PORTICO / IGAC ingest: `briefs/2026-06-24_ccc-handoff-agent-security-ingest-batch.md`.

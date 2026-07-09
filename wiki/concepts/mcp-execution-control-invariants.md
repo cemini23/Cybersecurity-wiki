@@ -14,12 +14,18 @@ related:
   - entities/tools/airguard.md
   - concepts/cross-tool-description-poisoning.md
   - concepts/agent-least-privilege-tool-selection.md
+  - "@osint-wiki/concepts/reviewer-passive-injection-corpus.md"
   - concepts/ai-for-cybersecurity.md
   - concepts/security-tool-orchestration-determinants.md
   - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
+  - sources/arxiv-2607-05120-agent-data-injection-attacks.md
+  - concepts/agent-data-injection-attacks.md
+  - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
+  - concepts/mcp-taint-style-vulnerabilities.md
+  - entities/tools/spellsmith.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 
 **Briefs:** `briefs/2026-07-04_hcp-mcp-execution-control-handoff.md`, `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`
@@ -28,6 +34,7 @@ updated: 2026-07-04
 
 - @sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md — HCP paper + 10-case benchmark (2606.29073)
 - @entities/tools/handle-capability-protocol.md — reference implementation
+- @osint-wiki/concepts/reviewer-passive-injection-corpus.md — XSP K37 reviewer bundle cites eight invariants
 
 ## Raw Concept
 
