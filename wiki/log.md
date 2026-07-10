@@ -891,6 +891,22 @@ Cross-wiki ingest from CCC full-ingest batch (K140). arXiv 2607.02873 (USTC) —
 - Verdict **REFERENCE** — eval methodology + least-privilege corroboration; HexStrike-AI MIT (lab-only).
 - Cross-wiki: `@ccc-wiki/concepts/client-as-first-order-harness-factor.md` (bidirectional).
 
+## [2026-07-10] ingest | CAGE-1 + PolyWorkBench (2607.03510, 2607.06008)
+
+**Inbox**: 2/2 PDFs ingested + archived.
+
+- **NEW** `@sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md` + `@concepts/cage-1-enterprise-agent-governance-eval.md` — Prebind Assurance + 12-dimension enterprise eval; Phase-0 **Reference**
+- **NEW** `@sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md` + `@concepts/multilingual-long-horizon-agent-evaluation.md` + `@entities/platforms/polyworkbench.md` — 67-task multilingual benchmark; harness disclosure; Phase-0 **Reference**
+- **Briefs** `2026-07-10_cage-1-prebind-assurance-handoff.md`, `2026-07-10_prod-mcp-prebind-assurance-checklist.md`, `2026-07-10_polyworkbench-multilingual-eval-handoff.md`, K151/K152 prod briefs
+- **David (tipdrop)** `2026-07-10_k151-prebind-assurance-adopt.md`
+- **CCC brief** `2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md`
+- **Updated** `mcp-execution-control-invariants`, `agent-runtime-guardrails`, `agent-execution-provenance`, `intent-governed-tool-authorization`, `agentic-containment-principles`, `mcp-security-posture`, `seclaw-agent-security-evaluation`, `security-tool-orchestration-determinants`, `ai-for-cybersecurity`, `agent-data-injection-attacks`, `index.md`
+- **Sweep** `wiki/sweeps/2026-07-10-daily.md` committed
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2607.03510-2607-03510v1-cage-1-control-assurance-and-govern.pdf`
+- `cemini-egress-fi:.../arxiv-2607.06008-2607-06008v1-polyworkbench-benchmarking-multilin.pdf`
+
 ## [2026-07-09] ingest | ADI + SpellSmith MCP taint (2607.05120, 2607.07461)
 
 **Inbox**: 2/2 PDFs ingested + archived.

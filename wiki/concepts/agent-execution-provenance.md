@@ -36,9 +36,11 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-2607-05120-agent-data-injection-attacks.md
   - concepts/agent-data-injection-attacks.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 ## Relations

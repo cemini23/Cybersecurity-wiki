@@ -23,9 +23,11 @@ related:
   - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
   - concepts/mcp-taint-style-vulnerabilities.md
   - entities/tools/spellsmith.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 **Briefs:** `briefs/2026-07-04_hcp-mcp-execution-control-handoff.md`, `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`

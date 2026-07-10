@@ -10,6 +10,7 @@ related:
   - sources/hackthebox-e-vulnhub-dicas-e-truques.md
   - sources/red-team-and-blue-team-labs-and-ctf.md
   - entities/people/joas-a-santos.md
+  - entities/platforms/polyworkbench.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-12

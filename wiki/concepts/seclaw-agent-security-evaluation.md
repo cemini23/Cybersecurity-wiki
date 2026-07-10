@@ -31,9 +31,14 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md
+  - concepts/multilingual-long-horizon-agent-evaluation.md
+  - entities/platforms/polyworkbench.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-07
+updated: 2026-07-10
 ---
 
 # SeClaw — trajectory-aware agent security evaluation

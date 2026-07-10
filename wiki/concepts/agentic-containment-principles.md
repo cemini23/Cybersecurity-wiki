@@ -24,10 +24,12 @@ related:
   - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 
 maturity: draft
 created: 2026-06-13
-updated: 2026-07-01
+updated: 2026-07-10
 ---
 
 ## Relations

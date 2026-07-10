@@ -12,9 +12,12 @@ related:
   - concepts/tool-environment-unreliability-eval.md
   - concepts/confidence-aware-tool-orchestration.md
   - "@ccc-wiki/concepts/client-as-first-order-harness-factor.md"
+  - sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md
+  - concepts/multilingual-long-horizon-agent-evaluation.md
+  - entities/platforms/polyworkbench.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-10
 ---
 
 **Briefs:** `briefs/2026-07-07_hexstrike-client-first-order-orchestration-checklist.md`

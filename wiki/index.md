@@ -104,6 +104,8 @@
 | @concepts/substrate-constraints-coding-agent-oversight.md | draft | Steerability via constraints — substrate + docs CLI for coding-agent oversight (2607.02389) |
 | @concepts/agent-data-injection-attacks.md | draft | ADI — trusted/untrusted data isolation in agent context (2607.05120) |
 | @concepts/mcp-taint-style-vulnerabilities.md | draft | MCP server taint-style vulns + SpellSmith description defense (2607.07461) |
+| @concepts/cage-1-enterprise-agent-governance-eval.md | draft | CAGE-1 Prebind Assurance + 12-dimension enterprise agent eval (2607.03510) |
+| @concepts/multilingual-long-horizon-agent-evaluation.md | draft | PolyWorkBench hybrid multilingual long-horizon agent eval (2607.06008) |
 | @concepts/security-tool-orchestration-determinants.md | draft | Client is first-order (2.1× gap); reasoning-bound residuals — HexStrike study (2607.02873) |
 | @concepts/crypter-as-a-service.md | draft | CraaS underground market — exploit.in longitudinal study (2606.24226) |
 | @concepts/seclaw-agent-security-evaluation.md | draft | Trajectory-aware agent security eval — SeClaw methodology (Reference until code ships) |
@@ -230,6 +232,7 @@
 | Page | Maturity |
 |------|----------|
 | @entities/platforms/hackthebox.md | draft |
+| @entities/platforms/polyworkbench.md | draft | Multilingual long-horizon workplace agent benchmark (Reference; 2607.06008) |
 
 ### Programming languages
 

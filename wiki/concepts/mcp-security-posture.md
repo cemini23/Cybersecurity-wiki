@@ -87,9 +87,11 @@ related:
   - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
   - concepts/mcp-taint-style-vulnerabilities.md
   - entities/tools/spellsmith.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 ## Relations

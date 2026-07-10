@@ -110,9 +110,12 @@ related:
   - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md
   - concepts/mcp-taint-style-vulnerabilities.md
   - entities/tools/spellsmith.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/multilingual-long-horizon-agent-evaluation.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

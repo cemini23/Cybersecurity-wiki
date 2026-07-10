@@ -15,9 +15,11 @@ related:
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
   - concepts/mcp-execution-control-invariants.md
   - entities/tools/handle-capability-protocol.md
+  - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-04
+updated: 2026-07-10
 ---
 
 ## Relations
