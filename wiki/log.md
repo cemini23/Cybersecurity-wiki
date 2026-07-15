@@ -926,3 +926,8 @@ Cross-wiki ingest from CCC full-ingest batch (K140). arXiv 2607.02873 (USTC) —
 ## [2026-07-08] cross-wiki | K149 cyber
 
 - CyberChef context brief
+
+## [2026-07-15] cross-wiki route | Firewall3D: Hardware Firewall for Defending 3D Printers Against Firmware Attacks
+
+Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-asgar-firewall3d-firmware-hardware.md`.
+- Created wiki/sources/2026-asgar-firewall3d-firmware-hardware.md (stub)

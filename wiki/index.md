@@ -373,6 +373,7 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [tl;dr sec — [tl;dr sec] #335 - Prompt Injection as Role Confusion, PHP Ecosystem Security, New MCP Spec](sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335---prompt-injection-as-role-confusio.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Packt SecPro — Identity Became the New Perimeter](sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [The Engineering Club — Security Edition — How I’d Respond in the First Hour After a Package I Use Got Hacked](sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Firewall3D: Hardware Firewall for Defending 3D Printers Against Firmware Attacks](sources/2026-asgar-firewall3d-firmware-hardware.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Cross-wiki anchors
 
