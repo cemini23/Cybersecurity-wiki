@@ -55,15 +55,27 @@ def normalize_url(url: str) -> str:
     return u
 
 
-def exa_search(api_key: str, query: str, from_date: str, category: str | None, num: int) -> dict:
+def exa_search(
+    api_key: str,
+    query: str,
+    from_date: str,
+    category: str | None,
+    num: int,
+    *,
+    include_domains: list[str] | None = None,
+    search_type: str = "auto",
+) -> dict:
+    """Exa /search — billed per request (~$7/1k). Keep type=auto; never deep-* for digest."""
     payload: dict = {
         "query": query,
         "startPublishedDate": from_date,
         "numResults": num,
-        "type": "auto",
+        "type": search_type or "auto",
     }
     if category:
         payload["category"] = category
+    if include_domains:
+        payload["includeDomains"] = list(include_domains)
     body = json.dumps(payload).encode()
     req = urllib.request.Request(
         "https://api.exa.ai/search",
@@ -76,6 +88,25 @@ def exa_search(api_key: str, query: str, from_date: str, category: str | None, n
     )
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode())
+
+
+def normalize_exa_cfg(cfg: dict) -> dict:
+    """Cost-control defaults after free Exa credits.
+
+    Modes (paper_mode):
+      arxiv-only  — free Atom API only (default; zero Exa for papers)
+      arxiv-first — arXiv first; Exa only when empty (includeDomains apply)
+      exa-first   — legacy Exa then arXiv fallback
+      exa-only    — Exa only (no arXiv)
+    """
+    exa = dict(cfg.get("exa") or {})
+    exa.setdefault("news_enabled", False)
+    exa.setdefault("paper_mode", "arxiv-only")
+    exa.setdefault("search_type", "auto")
+    domains = exa.get("include_domains")
+    if domains is None:
+        exa["include_domains"] = ["arxiv.org"]
+    return exa
 
 
 def title_from_result(r: dict) -> str:
@@ -148,6 +179,9 @@ def run_queries(
     from_date: str,
     default_per_query: int,
     seen_urls: set[str],
+    *,
+    include_domains: list[str] | None = None,
+    search_type: str = "auto",
 ) -> tuple[list[tuple[str, str, str | None, list[dict]]], bool]:
     sections: list[tuple[str, str, str | None, list[dict]]] = []
     partial = False
@@ -166,7 +200,15 @@ def run_queries(
         if not query:
             continue
         try:
-            data = exa_search(api_key, query, from_date, category, per_query)
+            data = exa_search(
+                api_key,
+                query,
+                from_date,
+                category,
+                per_query,
+                include_domains=include_domains,
+                search_type=search_type,
+            )
             raw = data.get("results") or []
         except urllib.error.HTTPError as e:
             partial = True
@@ -189,6 +231,20 @@ def run_queries(
     return sections, partial
 
 
+def _dedupe_results(
+    raw: list[dict], seen_urls: set[str]
+) -> list[dict]:
+    deduped: list[dict] = []
+    for r in raw:
+        url = r.get("url") or ""
+        key = normalize_url(url)
+        if not key or key in seen_urls:
+            continue
+        seen_urls.add(key)
+        deduped.append(r)
+    return deduped
+
+
 def run_paper_queries(
     api_key: str | None,
     query_defs: list[dict],
@@ -196,14 +252,18 @@ def run_paper_queries(
     default_per_query: int,
     seen_urls: set[str],
     arxiv_cfg: dict,
+    exa_cfg: dict,
 ) -> tuple[list[tuple[str, str, str | None, list[dict], str]], bool, int]:
-    """Paper lane: Exa first, arXiv API fallback per cluster when Exa fails or returns empty."""
+    """Paper lane — mode-driven (default arxiv-only to avoid Exa burn)."""
     sections: list[tuple[str, str, str | None, list[dict], str]] = []
     partial = False
-    arxiv_fallback_count = 0
+    arxiv_used_count = 0
     fallback_enabled = bool(arxiv_cfg.get("enabled", True))
     interval = float(arxiv_cfg.get("request_interval_seconds", 3))
     max_terms = int(arxiv_cfg.get("max_terms_per_query", 6))
+    paper_mode = str(exa_cfg.get("paper_mode") or "arxiv-only").strip().lower()
+    include_domains = exa_cfg.get("include_domains") or None
+    search_type = str(exa_cfg.get("search_type") or "auto")
 
     for q in query_defs:
         cluster = q.get("cluster", "unknown")
@@ -213,53 +273,95 @@ def run_paper_queries(
         if not query:
             continue
 
+        # Per-query overrides (rare paid enrichment clusters)
+        q_mode = str(q.get("paper_mode") or paper_mode).strip().lower()
+        q_domains = q.get("include_domains")
+        if q_domains is None:
+            q_domains = include_domains
+
         raw: list[dict] = []
-        source = "exa"
+        source = "none"
         exa_failed = False
 
-        if api_key:
-            try:
-                data = exa_search(api_key, query, from_date, category, per_query)
-                raw = data.get("results") or []
-            except urllib.error.HTTPError as e:
-                exa_failed = True
-                partial = True
-                print(f"WARNING: {cluster} HTTP {e.code}", file=sys.stderr)
-            except Exception as e:
-                exa_failed = True
-                partial = True
-                print(f"WARNING: {cluster} {e}", file=sys.stderr)
-        else:
-            exa_failed = True
-            partial = True
-
-        if not raw and fallback_enabled and (exa_failed or not api_key):
-            raw = arxiv_search(
+        def _call_arxiv() -> list[dict]:
+            nonlocal arxiv_used_count
+            if not fallback_enabled and q_mode not in ("arxiv-only", "arxiv-first"):
+                return []
+            aq = (q.get("arxiv_query") or "").strip() or None
+            hits = arxiv_search(
                 query,
                 from_date,
                 max_results=per_query,
                 request_interval_seconds=interval,
                 max_terms=max_terms,
+                arxiv_query=aq,
             )
-            if raw:
-                source = "arxiv-api"
-                arxiv_fallback_count += 1
+            if hits:
+                arxiv_used_count += 1
+                via = "arxiv_query" if aq else "nl-map"
                 print(
-                    f"INFO: {cluster} arXiv API fallback ({len(raw)} hits)",
+                    f"INFO: {cluster} arXiv API ({len(hits)} hits) [{q_mode}/{via}]",
                     file=sys.stderr,
                 )
+            return hits
 
-        deduped: list[dict] = []
-        for r in raw:
-            url = r.get("url") or ""
-            key = normalize_url(url)
-            if not key or key in seen_urls:
-                continue
-            seen_urls.add(key)
-            deduped.append(r)
+        def _call_exa() -> list[dict]:
+            nonlocal exa_failed, partial
+            if not api_key:
+                exa_failed = True
+                partial = True
+                return []
+            try:
+                data = exa_search(
+                    api_key,
+                    query,
+                    from_date,
+                    category,
+                    per_query,
+                    include_domains=q_domains,
+                    search_type=search_type,
+                )
+                return data.get("results") or []
+            except urllib.error.HTTPError as e:
+                exa_failed = True
+                partial = True
+                print(f"WARNING: {cluster} HTTP {e.code}", file=sys.stderr)
+                return []
+            except Exception as e:
+                exa_failed = True
+                partial = True
+                print(f"WARNING: {cluster} {e}", file=sys.stderr)
+                return []
+
+        if q_mode == "arxiv-only":
+            raw = _call_arxiv()
+            source = "arxiv-api" if raw else "none"
+        elif q_mode == "arxiv-first":
+            raw = _call_arxiv()
+            if raw:
+                source = "arxiv-api"
+            else:
+                raw = _call_exa()
+                source = "exa" if raw else ("exa-empty" if not exa_failed else "exa-failed")
+                if not raw and not exa_failed:
+                    source = "none"
+        elif q_mode == "exa-only":
+            raw = _call_exa()
+            source = "exa" if raw else ("exa-failed" if exa_failed else "none")
+        else:  # exa-first (legacy)
+            raw = _call_exa()
+            if raw:
+                source = "exa"
+            elif fallback_enabled and (exa_failed or not api_key or not raw):
+                raw = _call_arxiv()
+                source = "arxiv-api" if raw else ("exa-failed" if exa_failed else "none")
+            else:
+                source = "exa-failed" if exa_failed else "none"
+
+        deduped = _dedupe_results(raw, seen_urls)
         sections.append((cluster, query, category, deduped, source))
 
-    return sections, partial, arxiv_fallback_count
+    return sections, partial, arxiv_used_count
 
 
 def render_fetch_table(outcomes: list[FetchOutcome]) -> list[str]:
@@ -289,6 +391,7 @@ def main() -> int:
     cfg = load_config(repo)
     loop = cfg.get("loop") or {}
     fetch_cfg = cfg.get("fetch") or {}
+    exa_cfg = normalize_exa_cfg(cfg)
     window = int(loop.get("recency_window_days", 7))
     per_query = int(loop.get("max_results_per_query", 3))
     per_paper = int(fetch_cfg.get("max_results_per_paper_query", 5))
@@ -299,14 +402,19 @@ def main() -> int:
     report = repo / out_tpl.format(date=today.isoformat())
     report.parent.mkdir(parents=True, exist_ok=True)
 
+    paper_mode = str(exa_cfg.get("paper_mode") or "arxiv-only").lower()
+    news_enabled = bool(exa_cfg.get("news_enabled"))
+    needs_exa = news_enabled or paper_mode in ("exa-first", "arxiv-first", "exa-only")
+
     api_key = load_exa_key_optional()
-    if not api_key:
+    if needs_exa and not api_key:
         print(
-            "WARNING: no Exa API key — paper lane uses arXiv API; news lane empty",
+            "WARNING: no Exa API key — paper lane uses arXiv where allowed; news lane skipped",
             file=sys.stderr,
         )
     paper_defs = cfg.get("paper_queries") or []
-    news_defs = cfg.get("queries") or []
+    news_defs = (cfg.get("queries") or []) if news_enabled else []
+    news_defs_configured = len(cfg.get("queries") or [])
     arxiv_cfg = cfg.get("arxiv_fallback") or {}
     active_topics = cfg.get("active_topics") or []
     brief_note = (cfg.get("brief_routing_note") or "").strip()
@@ -321,10 +429,19 @@ def main() -> int:
         per_paper,
         seen_urls,
         arxiv_cfg,
+        exa_cfg,
     )
-    news_sections, news_partial = run_queries(
-        api_key, news_defs, from_date, per_query, seen_urls
-    )
+    if news_enabled:
+        news_sections, news_partial = run_queries(
+            api_key,
+            news_defs,
+            from_date,
+            per_query,
+            seen_urls,
+            search_type=str(exa_cfg.get("search_type") or "auto"),
+        )
+    else:
+        news_sections, news_partial = [], False
     partial = paper_partial or news_partial
 
     # fetch_papers expects 4-tuple sections (no source field)
@@ -350,23 +467,41 @@ def main() -> int:
     n_skipped_dup = sum(1 for o in fetch_outcomes if o.status == "skipped-dup")
     fetched_names = {o.path for o in fetch_outcomes if o.status == "fetched" and o.path}
 
-    paper_lane_note = (
-        f"Paper lane: {len(paper_defs)} queries (Exa + arXiv API fallback when Exa fails)."
-        if arxiv_cfg.get("enabled", True)
-        else f"Paper lane: {len(paper_defs)} Exa queries (research paper, wiki-deduped)."
+    paper_lane_note = {
+        "arxiv-only": (
+            f"Paper lane: {len(paper_defs)} queries via **free arXiv API** "
+            f"(exa.paper_mode=arxiv-only; zero Exa paper calls)."
+        ),
+        "arxiv-first": (
+            f"Paper lane: {len(paper_defs)} queries (arXiv first; Exa only when empty, "
+            f"domains={exa_cfg.get('include_domains')})."
+        ),
+        "exa-first": (
+            f"Paper lane: {len(paper_defs)} queries (Exa first; arXiv fallback when Exa fails)."
+        ),
+        "exa-only": f"Paper lane: {len(paper_defs)} Exa-only queries (wiki-deduped).",
+    }.get(
+        paper_mode,
+        f"Paper lane: {len(paper_defs)} queries (mode={paper_mode}).",
     )
+    if news_enabled:
+        news_lane_note = f"News lane: {len(news_defs)} Exa queries (digest only)."
+    else:
+        news_lane_note = (
+            f"News lane: **disabled** (`exa.news_enabled=false`; "
+            f"{news_defs_configured} queries retained in config)."
+        )
     lines = [
         f"# Daily Research Digest — {today.isoformat()}",
         "",
         f"Window: `{from_date}` → `{today.isoformat()}` ({window} days). "
         f"{paper_lane_note} "
-        f"News lane: {len(news_defs)} queries (digest only).",
+        f"{news_lane_note}",
         "",
     ]
     if arxiv_fallback_clusters:
         lines.append(
-            f"_Paper discovery: **{arxiv_fallback_clusters}** cluster(s) used free arXiv API "
-            f"(Exa unavailable or empty)._"
+            f"_Paper discovery: **{arxiv_fallback_clusters}** cluster(s) used free arXiv API._"
         )
         lines.append("")
     lines.extend(
@@ -427,7 +562,12 @@ def main() -> int:
     paper_total = 0
     for i, (cluster, query, category, results, source) in enumerate(paper_sections, 1):
         cat_label = category or "research paper"
-        src_label = "arXiv API" if source == "arxiv-api" else "Exa"
+        if source == "arxiv-api":
+            src_label = "arXiv API"
+        elif source in ("exa", "exa-empty", "exa-failed"):
+            src_label = "Exa"
+        else:
+            src_label = source or "none"
         lines.append(f"### P{i}: {cluster} ({len(results)} hits · {src_label})")
         lines.append("")
         lines.append(f"Query: `{query}` · category: `{cat_label}`")
@@ -443,6 +583,12 @@ def main() -> int:
         paper_total += len(results)
 
     lines.extend(["---", "", "## News & links (not auto-downloaded)", ""])
+    if not news_enabled:
+        lines.append(
+            "_Skipped — `exa.news_enabled: false` (set true to spend Exa credits on digest-only news)._ "
+            f"Config still lists **{news_defs_configured}** news queries."
+        )
+        lines.append("")
     news_total = 0
     row_id = 0
     for i, (cluster, query, category, results) in enumerate(news_sections, 1):
@@ -495,7 +641,7 @@ def main() -> int:
             "```",
             "Full ingest — process everything in research to be indexed/ and any checked rows above.",
             "- preingest_check → discuss takeaways → 3–15 wiki pages → lint → ingest_session_gate → commit",
-            "- Briefs: co-primary per scripts/active_project_brief_targets.yaml (poker · ceminidfs · xsp-killer · castle-sim); secondary: wc-ticket-monitor · pm-kalshi",
+            "- Briefs: co-primary per scripts/active_project_brief_targets.yaml (poker · ceminidfs · xsp-killer · family-tree); secondary: wc-ticket-monitor · pm-kalshi · castle-sim (legacy)",
             "- Do NOT auto-scp generic quant-finance / MAPPO / Riskfolio briefs to cemini-prod",
             "```",
             "",
@@ -519,7 +665,7 @@ def main() -> int:
             "2. Optional: check news rows `R1`… for URLs worth manual fetch.",
             "3. Optional: social pass tools above.",
             "",
-            f"### Discard",
+            "### Discard",
             "",
             f"`rm wiki/sweeps/{today.isoformat()}-daily.md` if nothing worth acting on.",
             "",

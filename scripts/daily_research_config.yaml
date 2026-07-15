@@ -1,15 +1,21 @@
 loop:
-  recency_window_days: 7
+  recency_window_days: 14
   max_results_per_query: 3
 fetch:
   enabled: true
   max_downloads: 5
   fetch_likely: false
-  max_results_per_paper_query: 5
+  max_results_per_paper_query: 3
 arxiv_fallback:
   enabled: true
   request_interval_seconds: 3
-  max_terms_per_query: 6
+  max_terms_per_query: 4
+exa:
+  news_enabled: false
+  paper_mode: arxiv-only
+  include_domains:
+  - arxiv.org
+  search_type: auto
 active_topics:
 - Offensive OSINT — recon tradecraft, attack-surface mapping, breach intel
 - MCP red-team skills — agent tooling, skill supply-chain, Claude Code offensive modules
@@ -19,12 +25,17 @@ paper_queries:
 - cluster: offensive-security-paper
   query: research paper penetration testing red team adversary emulation MITRE ATT&CK
   category: research paper
+  arxiv_query: (all:"offensive security" OR all:pentest OR all:"red team") AND (all:attack OR all:exploit
+    OR all:adversarial)
 - cluster: llm-security-paper
   query: research paper LLM agent security prompt injection MCP tool poisoning
   category: research paper
+  arxiv_query: (all:LLM OR all:"large language") AND (all:jailbreak OR all:prompt OR all:security OR all:guardrail)
 - cluster: wireless-security-paper
   query: research paper Wi-Fi WPA3 Bluetooth BLE wireless penetration testing
   category: research paper
+  arxiv_query: (all:WiFi OR all:802.11 OR all:wireless OR all:Bluetooth) AND (all:security OR all:attack
+    OR all:exploit)
 queries:
 - cluster: cve-threat-intel
   query: '"CVE" OR "CISA KEV" OR EPSS vulnerability disclosure exploit PoC'
@@ -50,7 +61,6 @@ monokern_pipeline:
 social:
   manual_pass:
   - tool: opencli-reader
-    prompt: HackerNews / arXiv frontpage for offensive security + agent tooling last
-      24h
+    prompt: HackerNews / arXiv frontpage for offensive security + agent tooling last 24h
 output:
   path_template: wiki/sweeps/{date}-daily.md

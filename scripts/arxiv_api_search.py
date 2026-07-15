@@ -26,9 +26,26 @@ ARXIV_STOPWORDS = {
 _LAST_REQUEST_AT = 0.0
 
 
-def natural_query_to_arxiv_search(query: str, *, max_terms: int = 6) -> str:
-    """Map a natural-language digest query to arXiv API search_query syntax."""
-    q = (query or "").strip().lower()
+def natural_query_to_arxiv_search(query: str, *, max_terms: int = 4) -> str:
+    """Map a natural-language digest query to arXiv API search_query syntax.
+
+    Exa-style AND of 6+ tokens almost never hits within a short window. Prefer:
+    - explicit Atomic queries already containing ``all:`` / ``ti:`` / ``abs:``
+    - otherwise: (core1 AND core2) OR specialty_terms  (sparse OR, not dense AND)
+    """
+    q = (query or "").strip()
+    if not q:
+        return ""
+
+    # Already Atom/API syntax — pass through (strip leading "arxiv " noise only)
+    low = q.lower()
+    if re.search(r"\b(all|ti|abs|au|cat):", low) or "site:arxiv.org" in low:
+        q2 = re.sub(r"(?i)\bsite:arxiv\.org\b", " ", q)
+        q2 = re.sub(r"(?i)\barxiv\b", " ", q2)
+        q2 = re.sub(r"\s+", " ", q2).strip()
+        return q2
+
+    q = low
     q = re.sub(r"\bresearch\s+paper\b", " ", q)
     q = re.sub(r"\barxiv\b", " ", q)
     q = re.sub(r"\s+", " ", q).strip()
@@ -37,7 +54,9 @@ def natural_query_to_arxiv_search(query: str, *, max_terms: int = 6) -> str:
 
     branches = re.split(r"\s+or\s+", q, flags=re.I)
     branch_queries: list[str] = []
-    for branch in branches[:2]:
+    max_terms = max(2, min(int(max_terms), 6))
+
+    for branch in branches[:3]:
         phrases = re.findall(r'"([^"]+)"', branch)
         branch = re.sub(r'"[^"]+"', " ", branch)
         tokens = [
@@ -59,8 +78,17 @@ def natural_query_to_arxiv_search(query: str, *, max_terms: int = 6) -> str:
             terms.append(f"all:{token}")
             if len(terms) >= max_terms:
                 break
-        if terms:
-            branch_queries.append(" AND ".join(terms[:max_terms]))
+        if not terms:
+            continue
+        # Dense AND of every token is too tight — use core AND + OR of the rest.
+        if len(terms) == 1:
+            branch_queries.append(terms[0])
+        elif len(terms) == 2:
+            branch_queries.append(" AND ".join(terms))
+        else:
+            core = " AND ".join(terms[:2])
+            extras = " OR ".join(terms[2:])
+            branch_queries.append(f"({core}) OR ({extras})")
 
     if not branch_queries:
         return ""
@@ -137,10 +165,16 @@ def arxiv_search(
     *,
     max_results: int = 5,
     request_interval_seconds: float = 3.0,
-    max_terms: int = 6,
+    max_terms: int = 4,
+    arxiv_query: str | None = None,
 ) -> list[dict]:
-    """Run one arXiv API query; returns Exa-shaped hits (url, title, publishedDate)."""
-    search_query = natural_query_to_arxiv_search(natural_query, max_terms=max_terms)
+    """Run one arXiv API query; returns Exa-shaped hits (url, title, publishedDate).
+
+    Prefer ``arxiv_query`` (raw Atom syntax) when provided — NL mapping is best-effort.
+    """
+    search_query = (arxiv_query or "").strip() or natural_query_to_arxiv_search(
+        natural_query, max_terms=max_terms
+    )
     if not search_query:
         return []
 
@@ -148,7 +182,8 @@ def arxiv_search(
         {
             "search_query": search_query,
             "start": 0,
-            "max_results": max(1, min(max_results, 30)),
+            # Over-fetch then date-filter: short windows otherwise starve after AND/OR map.
+            "max_results": max(1, min(max(max_results * 5, 25), 50)),
             "sortBy": "submittedDate",
             "sortOrder": "descending",
         }
@@ -164,5 +199,4 @@ def arxiv_search(
         return []
 
     parsed = parse_arxiv_atom(xml_text, from_date=from_date)
-    # API may return older papers before cutoff — keep client-side filter, cap count.
     return parsed[:max_results]
