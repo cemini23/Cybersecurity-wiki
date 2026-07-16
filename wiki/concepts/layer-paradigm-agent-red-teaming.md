@@ -15,9 +15,16 @@ related:
   - entities/tools/nvidia-skillspector.md
   - entities/tools/defenseclaw.md
   - entities/tools/clawaudit.md
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
+  - concepts/skillsec-lifecycle-agent-skill-security.md
+  - entities/tools/aha-auto-research-red-teaming.md
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-03
+updated: 2026-07-16
 ---
 
 ## Relations

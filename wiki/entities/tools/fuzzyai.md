@@ -15,9 +15,12 @@ related:
   - "@osint-wiki/entities/tools/fuzzyai.md"
   - entities/tools/cryptex-oss.md
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
+  - entities/tools/aha-auto-research-red-teaming.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-26
+updated: 2026-07-16
 ---
 
 ## Relations

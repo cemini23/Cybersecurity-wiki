@@ -17,9 +17,12 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md
   - "@ccc-wiki/concepts/cage-1-enterprise-agent-governance-eval.md"
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
+  - entities/tools/aha-auto-research-red-teaming.md
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 **Briefs:** `briefs/2026-07-10_cage-1-prebind-assurance-handoff.md`, `briefs/2026-07-10_prod-mcp-prebind-assurance-checklist.md`

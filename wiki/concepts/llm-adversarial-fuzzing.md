@@ -34,9 +34,13 @@ related:
   - concepts/prompt-injection-detector-calibration.md
   - entities/tools/picalib-research.md
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/gflowrl-distribution-matching-attacker-rl.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-03
+updated: 2026-07-16
 ---
 
 ## Relations

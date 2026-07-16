@@ -89,9 +89,11 @@ related:
   - entities/tools/spellsmith.md
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
+  - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
+  - concepts/skillsec-lifecycle-agent-skill-security.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 ## Relations

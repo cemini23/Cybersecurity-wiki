@@ -19,9 +19,12 @@ related:
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - "@ccc-wiki/concepts/agent-data-injection-attacks.md"
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
+  - entities/tools/aha-auto-research-red-teaming.md
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 **Briefs:** `briefs/2026-07-09_adi-trusted-untrusted-data-handoff.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`

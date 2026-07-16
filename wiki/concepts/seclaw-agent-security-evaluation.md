@@ -36,9 +36,14 @@ related:
   - entities/platforms/polyworkbench.md
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
+  - entities/tools/aha-auto-research-red-teaming.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 # SeClaw — trajectory-aware agent security evaluation

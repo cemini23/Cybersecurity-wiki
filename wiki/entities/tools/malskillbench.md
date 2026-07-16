@@ -12,9 +12,11 @@ related:
   - sources/arxiv-2606-01494-clawhub-security-signals.md
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
   - "@ccc-wiki/concepts/skill-vetting.md"
+  - concepts/skillsec-lifecycle-agent-skill-security.md
+  - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-16
 phase_0_verdict: "Reference 2026-06-09 — open dataset + baselines; verify LICENSE on GitHub before code import; lab Docker only."
 ---
 

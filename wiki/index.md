@@ -78,6 +78,10 @@
 | @concepts/llm-adversarial-fuzzing.md | draft | Adversarial LLM testing methodology (FuzzyAI umbrella) |
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
+| @concepts/amt-x-phase-structured-multi-turn-red-teaming.md | draft | AMT-X dual overall/full ASR + phase state machine (2607.11151) |
+| @concepts/vulnerability-concept-graph-production-agent-red-teaming.md | draft | AHA VCG — enabling-condition red-team knowledge (2607.11698) |
+| @concepts/skillsec-lifecycle-agent-skill-security.md | draft | SkillSec lifecycle beyond execution (2607.13987) |
+| @concepts/gflowrl-distribution-matching-attacker-rl.md | draft | GFlowRL attacker-diversity RL slice; repo NO-GO (2607.13394) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
 | @concepts/llm-code-review-agent-security.md | draft | SEVRA merge-gate robustness — reversed CVE PR + framing attacks (2606.13757) |
@@ -170,6 +174,7 @@
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
+| @entities/tools/aha-auto-research-red-teaming.md | draft | AHA autoresearch prod-agent red-team + VCG (MIT; CONDITIONAL-GO lab) |
 | @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
@@ -346,6 +351,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | llm-defense-lattice | NOASSERTION | Reference | digest | @entities/tools/llm-defense-lattice.md — OWASP LLM Top 10 per-defense BAS lattice; license audit pending |
 | defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
 | ai-infra-guard | Apache-2.0 + NOTICE §4(d) | CONDITIONAL-GO | digest | @entities/tools/ai-infra-guard.md — multi-layer agent red team (2606.31227); **external Docker only** |
+| aha-auto-research-red-teaming | MIT | CONDITIONAL-GO | K176 | @entities/tools/aha-auto-research-red-teaming.md — VCG autoresearch for Claude Code/Codex (2607.11698); **lab sandbox only**; local clone ~169MB |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 
 ## Meta

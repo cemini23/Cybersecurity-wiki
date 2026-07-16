@@ -15,9 +15,13 @@ related:
   - concepts/context-fractured-decomposition-attacks.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/gflowrl-distribution-matching-attacker-rl.md
+  - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -85,3 +89,7 @@ fuzzyai run \
 - **Hard turn-budget cutoffs without back-off** — Crescendo's success rate increases nonmonotonically with turn budget if back-off is implemented (try smaller increment after refusal). Without back-off, raising the budget plateaus quickly. [TENTATIVE — practitioner observation, not in paper]
 - **Treating Crescendo as social-engineering theory only** — the social-engineering analog is real, but Crescendo is a *measurable, automatable* attack. Skipping it because "it's just social engineering" leaves a measurable production-robustness gap. [CONFIRMED]
 - **Assuming Crescendo coverage implies multi-agent pipeline safety** — Context-Fractured Decomposition (2606.09084) breaks contiguous-trace assumptions; harm can compose via artifacts across sessions/instances. See @concepts/context-fractured-decomposition-attacks.md.
+
+### Related — AMT-X (2026-07-16)
+
+AMT-X (@concepts/amt-x-phase-structured-multi-turn-red-teaming.md) makes multi-turn attacks an explicit phase state machine and splits **overall vs full ASR** (up to 33 pp gap). Prefer AMT-X-style dual metrics when scoring Crescendo-class runs. [Source: arXiv 2607.11151]

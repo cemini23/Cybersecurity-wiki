@@ -45,9 +45,13 @@ related:
   - entities/tools/ai-infra-guard.md
   - sources/arxiv-2607-05120-agent-data-injection-attacks.md
   - concepts/agent-data-injection-attacks.md
+  - concepts/skillsec-lifecycle-agent-skill-security.md
+  - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-07-09
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -107,3 +111,7 @@ SkillGuard and install-time vetting bound **which** tools/skills enter the catal
 | **ecc-agentshield** (ECC npm) | CONDITIONAL-GO | MIT; config/hook/injection audit — official npm/github only |
 
 Layer with @entities/tools/nvidia-skillspector.md + @entities/tools/defenseclaw.md; see `briefs/2026-06-20_agent-config-scan-stack-phase0.md`. **OpenClaw** runtime source audit: @concepts/local-agent-runtime-audit.md (CLAWAUDIT 2606.21071). Real-world safety paper stubbed: @sources/openreview-openclaw-real-world-safety-analysis.md.
+
+### SkillSec lifecycle (2607.13987 — 2026-07-16)
+
+SkillSec-Eval extends skill security past execution into **admission → retrieval → selection → execution → evolution**. See @concepts/skillsec-lifecycle-agent-skill-security.md. Install-time MalSkillBench scans are necessary but not sufficient. [Source: arXiv 2607.13987]

@@ -8,9 +8,11 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-07-16
 ---
 
 ## Relations

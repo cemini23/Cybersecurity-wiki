@@ -107,9 +107,18 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md
   - concepts/multilingual-long-horizon-agent-evaluation.md
+  - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
+  - concepts/skillsec-lifecycle-agent-skill-security.md
+  - entities/tools/aha-auto-research-red-teaming.md
+  - concepts/gflowrl-distribution-matching-attacker-rl.md
+  - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
+  - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
+  - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 ## Relations

@@ -931,3 +931,24 @@ Cross-wiki ingest from CCC full-ingest batch (K140). arXiv 2607.02873 (USTC) —
 
 Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-asgar-firewall3d-firmware-hardware.md`.
 - Created wiki/sources/2026-asgar-firewall3d-firmware-hardware.md (stub)
+
+## [2026-07-16] ingest | AMT-X + AHA + SkillSec + GFlowRL (K175–K178)
+
+**Inbox**: 6 PDFs (5 digest + 1 manual fetch 2607.13987); 4 core ingested; 2 OOD brief-only.
+
+- **NEW** `@sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md` + `@concepts/amt-x-phase-structured-multi-turn-red-teaming.md` — dual overall/full ASR; Phase-0 **REFERENCE**
+- **NEW** `@sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md` + `@concepts/vulnerability-concept-graph-production-agent-red-teaming.md` + `@entities/tools/aha-auto-research-red-teaming.md` — VCG; Phase-0 **CONDITIONAL-GO**; local clone `raw-sources/repos/Auto-research-red-teaming` (~169MB)
+- **NEW** `@sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md` + `@concepts/skillsec-lifecycle-agent-skill-security.md` — 5-stage lifecycle; Phase-0 **REFERENCE**
+- **NEW** `@sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md` + `@concepts/gflowrl-distribution-matching-attacker-rl.md` — attacker-diversity slice; Phase-0 **NO-GO** (repo 404)
+- **OOD** PAT translation (2607.14040) + Deep Interaction (2607.14049) — `briefs/2026-07-16_ood-pat-translation-deep-interaction-route.md` (no source stubs)
+- **Briefs** K175–K178 handoffs + prod; CCC handoff; David tipdrop K176/K177; poker K176 light steal
+- **Updated** crescendo, pair, llm-adversarial-fuzzing, agent-skill-injection, layer-paradigm, seclaw, cage-1, ADI, ai-for-cybersecurity, fuzzyai, malskillbench, index.md
+- **Sweeps** `wiki/sweeps/2026-07-11-daily.md` … `2026-07-16-daily.md` present (uncommitted until user asks)
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2607.11151-amt-x-phase-structured-multi-turn-red-teaming-wi.pdf`
+- `cemini-egress-fi:.../arxiv-2607.11698-agent-hacks-agent-autoresearch-for-production-ag.pdf`
+- `cemini-egress-fi:.../arxiv-2607.13394-gflowrl-scaling-distribution-matching-rl-to-larg.pdf`
+- `cemini-egress-fi:.../arxiv-2607.13987-agent-skill-security-threat-models-attacks-defenses.pdf`
+- `cemini-egress-fi:.../arxiv-2607.14040-can-an-old-dog-be-taught-new-tricks-taking-llms.pdf`
+- `cemini-egress-fi:.../arxiv-2607.14049-deep-interaction-an-efficient-human-ai-interacti.pdf`

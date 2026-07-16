@@ -17,9 +17,11 @@ related:
   - entities/tools/defending-code-reference-harness.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - "@ccc-wiki/concepts/substrate-constraints-coding-agent-oversight.md"
+  - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
+  - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-16
 ---
 
 **Briefs:** `briefs/2026-07-07_steerability-substrate-coding-agent-oversight-handoff.md`, `briefs/2026-07-07_harness-substrate-constraints-checklist.md`

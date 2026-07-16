@@ -11,9 +11,11 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
+  - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
+  - concepts/skillsec-lifecycle-agent-skill-security.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-16
 phase_0_verdict: "Reference 2026-06-20 — free SaaS at skillgate.mitiga.ai; closed source; use for third-party skill triage, not prod allowlist automation without export audit"
 ---
 
