@@ -952,3 +952,23 @@ Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-asgar-firewall3d-fir
 - `cemini-egress-fi:.../arxiv-2607.13987-agent-skill-security-threat-models-attacks-defenses.pdf`
 - `cemini-egress-fi:.../arxiv-2607.14040-can-an-old-dog-be-taught-new-tricks-taking-llms.pdf`
 - `cemini-egress-fi:.../arxiv-2607.14049-deep-interaction-an-efficient-human-ai-interacti.pdf`
+
+## [2026-07-17] ingest | DataShield + PRISM + hard-example synthesis + self-consistency (K184–K187)
+
+**Inbox**: 5 digest PDFs; 4 core ingested; 1 OOD brief-only (wireless localization).
+
+- **NEW** `@sources/arxiv-2607-15081-datashield-risky-finetune-data.md` + `@concepts/datashield-risky-finetune-data-filtering.md` + `@entities/tools/datashield.md` — consensus subspace FT filter; Phase-0 **CONDITIONAL-GO**; local clone ~3MB
+- **NEW** `@sources/arxiv-2607-15218-prism-physical-vs-content-danger.md` + `@concepts/physical-vs-content-danger-embodied-agents.md` — CD vs PD; Phase-0 **REFERENCE**
+- **NEW** `@sources/arxiv-2607-14256-agentic-hard-example-synthesis.md` + `@concepts/agentic-hard-example-synthesis-content-safety.md` — FNR 41.2→24.5%; Phase-0 **REFERENCE**
+- **NEW** `@sources/arxiv-2607-15277-partition-prompt-aggregate-self-consistency.md` + `@concepts/llm-statistical-self-consistency-macro-fallacy.md` — macro fallacy; CCC primary
+- **OOD** 2607.14938 wireless localization — `briefs/2026-07-17_ood-wireless-localization-survey-route.md`
+- **Briefs** K184–K187 handoffs + prod; CCC handoff; David K184/K185; poker K185
+- **Updated** llm-adversarial-fuzzing, agent-runtime-guardrails, cage-1, VCG, AMT-X, crescendo, self-evolving-agent-security, ai-for-cybersecurity, index.md
+- **Sweep** `wiki/sweeps/2026-07-17-daily.md`
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2607.14256-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.14938-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.15081-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.15218-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.15277-…pdf`

@@ -17,9 +17,12 @@ related:
   - entities/tools/nvidia-skillspector.md
   - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
   - concepts/skillsec-lifecycle-agent-skill-security.md
+  - concepts/datashield-risky-finetune-data-filtering.md
+  - entities/tools/datashield.md
+  - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

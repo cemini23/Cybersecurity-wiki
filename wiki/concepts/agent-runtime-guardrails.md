@@ -113,9 +113,14 @@ related:
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/multilingual-long-horizon-agent-evaluation.md
+  - concepts/physical-vs-content-danger-embodied-agents.md
+  - concepts/datashield-risky-finetune-data-filtering.md
+  - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
+  - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
+  - entities/tools/datashield.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-10
+updated: 2026-07-17
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

@@ -15,9 +15,13 @@ related:
   - entities/tools/fuzzyai.md
   - concepts/gflowrl-distribution-matching-attacker-rl.md
   - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
+  - concepts/agentic-hard-example-synthesis-content-safety.md
+  - concepts/physical-vs-content-danger-embodied-agents.md
+  - sources/arxiv-2607-14256-agentic-hard-example-synthesis.md
+  - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

@@ -82,6 +82,10 @@
 | @concepts/vulnerability-concept-graph-production-agent-red-teaming.md | draft | AHA VCG — enabling-condition red-team knowledge (2607.11698) |
 | @concepts/skillsec-lifecycle-agent-skill-security.md | draft | SkillSec lifecycle beyond execution (2607.13987) |
 | @concepts/gflowrl-distribution-matching-attacker-rl.md | draft | GFlowRL attacker-diversity RL slice; repo NO-GO (2607.13394) |
+| @concepts/datashield-risky-finetune-data-filtering.md | draft | DataShield — consensus subspace filter for risky FT data (2607.15081) |
+| @concepts/physical-vs-content-danger-embodied-agents.md | draft | PRISM — CD vs PD for embodied/tool agents (2607.15218) |
+| @concepts/agentic-hard-example-synthesis-content-safety.md | draft | Agentic multimodal hard-example synthesis (2607.14256) |
+| @concepts/llm-statistical-self-consistency-macro-fallacy.md | draft | Partition–prompt–aggregate macro fallacy (2607.15277) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
 | @concepts/llm-code-review-agent-security.md | draft | SEVRA merge-gate robustness — reversed CVE PR + framing attacks (2606.13757) |
@@ -175,6 +179,7 @@
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
 | @entities/tools/aha-auto-research-red-teaming.md | draft | AHA autoresearch prod-agent red-team + VCG (MIT; CONDITIONAL-GO lab) |
+| @entities/tools/datashield.md | draft | DataShield risky FT filter (MIT; CONDITIONAL-GO ~3MB) |
 | @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
@@ -352,6 +357,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | defending-code-reference-harness | Apache-2.0 | Reference | K102 | @entities/tools/defending-code-reference-harness.md — Docker/gVisor agent vuln pipeline; laptop lab only |
 | ai-infra-guard | Apache-2.0 + NOTICE §4(d) | CONDITIONAL-GO | digest | @entities/tools/ai-infra-guard.md — multi-layer agent red team (2606.31227); **external Docker only** |
 | aha-auto-research-red-teaming | MIT | CONDITIONAL-GO | K176 | @entities/tools/aha-auto-research-red-teaming.md — VCG autoresearch for Claude Code/Codex (2607.11698); **lab sandbox only**; local clone ~169MB |
+| datashield | MIT | CONDITIONAL-GO | K184 | @entities/tools/datashield.md — risky fine-tune filter (2607.15081); local clone ~3MB |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 
 ## Meta

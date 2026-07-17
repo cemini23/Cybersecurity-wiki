@@ -20,9 +20,11 @@ related:
   - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
   - entities/tools/aha-auto-research-red-teaming.md
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
+  - concepts/physical-vs-content-danger-embodied-agents.md
+  - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 **Briefs:** `briefs/2026-07-10_cage-1-prebind-assurance-handoff.md`, `briefs/2026-07-10_prod-mcp-prebind-assurance-checklist.md`

@@ -19,9 +19,12 @@ related:
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/gflowrl-distribution-matching-attacker-rl.md
   - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
+  - concepts/agentic-hard-example-synthesis-content-safety.md
+  - sources/arxiv-2607-14256-agentic-hard-example-synthesis.md
+  - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations
