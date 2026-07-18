@@ -992,3 +992,15 @@ Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-asgar-firewall3d-fir
 - `cemini-egress-fi:.../arxiv-2607.14938-…pdf` (re-archive ok)
 - `cemini-egress-fi:.../arxiv-2607.15143-…pdf`
 - `cemini-egress-fi:.../arxiv-2607.15246-…pdf`
+
+## [2026-07-18] adoption | CONDITIONAL-GO / Adopt local clones + CLIs (<500MB)
+
+Cleared the Phase-0 local-adoption backlog for tools with public repos under the space budget. `raw-sources/repos/` now **~305MB** total (gitignored).
+
+**Shallow clones added:** Tool-Guard, handle-capability-protocol, ClawAudit (no LICENSE — methodology only), defending-code-reference-harness, pentest-ai, pentest-ai-agents, cve-mcp-server, netviz, reverse-skill, SkillSpector, adi, FuzzyAI, iron-proxy, cryptex-oss, AIRGuard, agentshield.
+
+**CLIs installed:** `skillspector` v2.3.13 (`uv tool`), `agentshield` via `ecc-agentshield@1.4.0` npm (`~/.local/bin/agentshield`).
+
+**Skipped (not needed / out of policy):** Sentinel 404; ARMOR++/FlowGuard/SpellSmith no public code; AOHP AOSP-lab; cua ~269MB (would blow headroom vs AHA already at 169MB); AI-Infra-Guard source vendor-poison (external Docker only); GFlowRL 404.
+
+**Updated** entity pages with Local clone/adoption stamps + `@concepts/agent-data-injection-attacks.md`.

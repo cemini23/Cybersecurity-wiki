@@ -42,7 +42,7 @@ related:
 
 maturity: draft
 created: 2026-05-31
-updated: 2026-07-01
+updated: 2026-07-18
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
 ---
 
@@ -68,6 +68,9 @@ phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--
 Routed from K88 brief (`briefs/2026-05-31_k88-skillspector-cybersec-from-osint.md`, 2026-05-31). `nvidia/skillspector` — Apache-2.0, ~429 stars, Python. Security scanner for AI agent skills: prompt injection, tool poisoning, malicious patterns.
 
 ## Narrative
+
+**Local adoption (2026-07-18):** clone `raw-sources/repos/SkillSpector` (~3.9MB); CLI `skillspector` v2.3.13 via `uv tool install` → `~/.local/bin/skillspector`.
+
 
 SkillSpector is the **Adopt-tier** defensive tool for auditing agent/MCP skill supply chains before they enter a pentest or SOC copilot workflow. It targets the gap between "we installed a Claude Code skill" and "we verified what that skill can actually do."
 

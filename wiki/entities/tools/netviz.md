@@ -13,7 +13,7 @@ related:
   - "@osint-wiki/entities/tools/shadowarcanist-netviz.md"
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-07-18
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md"
 phase_0_verdict: "Adopt 2026-06-01 — MIT verified; upgraded from K53 Steal-from after K93 re-eval."
 ---
@@ -35,6 +35,9 @@ phase_0_verdict: "Adopt 2026-06-01 — MIT verified; upgraded from K53 Steal-fro
 Routed from K93 brief (`briefs/2026-06-01_k93-cybersec-digest-netviz-from-osint.md`, 2026-06-01). `ShadowArcanist/netviz` — MIT, ~392 stars, Python + D3.js + Socket.IO. K53 was **Steal-from**; K93 re-eval promotes to **Adopt** for pentest recon graph tooling.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/netviz` (~1.3MB, shallow). Analyst laptop + brief export only.
+
 
 netviz is a browser-based app for designing and visualizing network architectures. In cybersec workflows it supports **relationship mapping** during offensive recon (subdomain/host/service graphs) and defensive CTI (actor/infrastructure link charts) without Maltego licensing overhead.
 

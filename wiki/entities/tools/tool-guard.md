@@ -12,7 +12,7 @@ related:
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-07-18
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/shishishi123/Tool-Guard MIT, 0★, last push 2026-05-25; ICML 2026 artifact — lab-validate ASR/utility on prod-mcp tool catalog before enforcement"
 ---
 
@@ -32,6 +32,9 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/shishishi123/Tool-Gua
 | Stars | 0 (2026-06-24) |
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/Tool-Guard` (~6.2MB, shallow). Lab-only until ASR/utility validated on prod-mcp catalog.
+
 
 System-level defense implementing **isolated planning** against cross-tool description poisoning. Flagged tools move to an **influenced list** — excluded from planning context, still invokable if needed.
 

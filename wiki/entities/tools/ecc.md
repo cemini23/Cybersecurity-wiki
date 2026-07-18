@@ -17,7 +17,7 @@ related:
 
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-18
 phase_0_verdict: "CONDITIONAL-GO 2026-06-20 — MIT verified (repo + ecc-agentshield npm); install ecc-agentshield only from official npm/github; full ECC bundle Steal-from patterns; typosquat risk at 218k★ scale"
 ---
 
@@ -34,6 +34,9 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-20 — MIT verified (repo + ecc-agentsh
 Digest pass 2026-06-20 (R8/R9). [github.com/affaan-m/ecc](https://github.com/affaan-m/ecc) — **Everything Claude Code** v2.0.0 cross-harness operator system (Claude Code, Cursor, Codex, OpenCode, Gemini). Security-relevant sub-package: **`ecc-agentshield`** (npm, MIT) — scans agent configs for vulns, misconfigs, injection risks.
 
 ## Narrative
+
+**Local adoption (2026-07-18):** `npm i -g ecc-agentshield@1.4.0` → `~/.local/bin/agentshield` (v1.5.0 runtime); source `raw-sources/repos/agentshield` (~5.2MB). Full ECC bundle still Steal-from / skill_audit required.
+
 
 ECC is a **harness-native workflow layer**: shared `SKILL.md`, rules, hooks, MCP configs, install manifests — adapted per harness at the edge. v2.0.0 (2026-06) adds Hermes operator story + cross-harness architecture docs. [TENTATIVE] — viral repo (~218k★); project warns install only from verified channels (official GitHub, `ecc-universal` / `ecc-agentshield` npm, GitHub App `ecc-tools`, ecc.tools).
 

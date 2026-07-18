@@ -14,7 +14,7 @@ related:
   - "@osint-wiki/entities/tools/reverse-skill.md"
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-18
 phase_0_verdict: "GO 2026-06-25 — github.com/zhaoxuya520/reverse-skill MIT, ~6.2k★; authorized pentest skill routing before MCP tool invocation"
 ---
 
@@ -29,6 +29,9 @@ phase_0_verdict: "GO 2026-06-25 — github.com/zhaoxuya520/reverse-skill MIT, ~6
 K129 Adopt (`briefs/2026-06-25_k129-reverse-skill-adopt.md`, 2026-06-25). Repo: [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill), **MIT**, ~6.2k★.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/reverse-skill` (~12MB, shallow).
+
 
 **reverse-skill** is a **skill router pack** for authorized penetration testing and reverse-engineering workflows. Classifies offensive tasks and routes to optimal AI methodology (RULES.md → Skill Router → MCP execution) before broad tool invocation.
 

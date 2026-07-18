@@ -32,7 +32,7 @@ related:
 
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-04
+updated: 2026-07-18
 phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool calls pre-execution; lab on AgentTrap/DTAP-style tasks before client copilot assessments."
 ---
 
@@ -56,6 +56,9 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool call
 Ingested from arXiv:2605.28914 (2026-06-01 daily digest). `Sophie508/AIRGuard` — MIT, runtime guard for heterogeneous tool/MCP calls.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/AIRGuard` (~5.1MB, shallow; `Sophie508/AIRGuard`, MIT).
+
 
 AIRGuard operationalizes **least privilege at action time**: untrusted content may inform reasoning but cannot authorize side effects. Normalizes tool calls, narrows task authority to step authority, tracks source/target trust pools, simulates sensitive effects, audits cross-step sequences, blocks before execution.
 

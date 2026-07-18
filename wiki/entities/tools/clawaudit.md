@@ -19,7 +19,7 @@ related:
 
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-01
+updated: 2026-07-18
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/SRestLabUB/ClawAudit 0★, gh api LICENSE null + LICENSE 404; Semgrep/CodeQL rules + OPENCLAWBENCH usable for audit methodology after manual triage gate"
 ---
 
@@ -39,6 +39,9 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/SRestLabUB/ClawAudit 
 | License (verified) | **None on GitHub API 2026-06-24** — LICENSE 404 |
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/ClawAudit` (~1.0MB, shallow). **No LICENSE file** — methodology/rules only; no code import into prod without SPDX.
+
 
 Static auditing framework for **local LLM agent runtime source** — STRIDE-derived rules targeting prompt builder, parser, dispatcher, skill loader, memory writer, network client, permission gate boundaries.
 

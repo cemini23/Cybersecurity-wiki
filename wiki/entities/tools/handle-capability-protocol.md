@@ -17,7 +17,7 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-18
 phase_0_verdict: "CONDITIONAL-GO 2026-07-04 — MIT; github.com/SymbolicLight-AGI/handle-capability-protocol 0★; benchmark + reference runtime for invariant eval"
 ---
 
@@ -39,6 +39,9 @@ phase_0_verdict: "CONDITIONAL-GO 2026-07-04 — MIT; github.com/SymbolicLight-AG
 | Stars | 0 (2026-07-04) |
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/handle-capability-protocol` (~3.9MB, shallow). Reference runtime for I1–I8 invariant eval.
+
 
 ### Phase-0 audit verdict (2026-07-04): CONDITIONAL-GO
 

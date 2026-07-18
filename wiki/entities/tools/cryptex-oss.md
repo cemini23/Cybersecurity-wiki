@@ -14,7 +14,7 @@ related:
   - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-06-22
+updated: 2026-07-18
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — MIT verified; queue Phase-0 alongside FuzzyAI for transform/mutator catalog comparison."
 ---
@@ -34,6 +34,9 @@ phase_0_verdict: "Adopt-eligible 2026-05-26 — MIT verified; queue Phase-0 alon
 Routed from K68 OSINT-wiki brief (`briefs/2026-05-26_k68-cybersec-tool-eval-from-osint.md`, 2026-05-26). TypeScript LLM red-teaming toolkit: **162 transforms**, **36 mutators**, **25 tool surfaces**. MIT, ~66 stars. **Adopt-eligible** — Phase-0 queue.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/cryptex-oss` (~11MB, shallow). Compare transform catalog vs FuzzyAI in lab.
+
 
 `m4xx101/cryptex-oss` catalogs **prompt transforms and mutators** for LLM red-teaming — a composable technique library rather than a single end-to-end fuzz loop. Overlaps @entities/tools/fuzzyai.md (18 named attack methods + PAIR/Crescendo) but emphasizes breadth of encoding/obfuscation/surface variants.
 

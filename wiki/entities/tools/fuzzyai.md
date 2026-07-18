@@ -20,7 +20,7 @@ related:
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -41,6 +41,9 @@ updated: 2026-07-16
 Phase-0 audit completed 2026-05-13 via `briefs/2026-05-13_fuzzyai-adoption.md` (gitignored). Verdict: **GO** for cybersec-wiki primary adoption as the standard LLM-adversarial testing framework. Source repo: [github.com/cyberark/FuzzyAI](https://github.com/cyberark/FuzzyAI), Apache-2.0, ~1.3k stars, CyberArk Labs backing.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/FuzzyAI` (~42MB, shallow).
+
 
 FuzzyAI is a structured framework for **attacking LLMs**. Not for using LLMs to attack other targets — for that, see @concepts/llm-vulnerability-discovery.md. The repo ships 18 attack methods, of which two are research-anchored and most-cited: **PAIR** (Prompt Automated Iterative Refinement, [arXiv:2310.08419](https://arxiv.org/abs/2310.08419)) and **Crescendo** ([arXiv:2404.01833](https://arxiv.org/abs/2404.01833)). The remaining 16 are a curated catalog of DAN-class, role-play, context-injection, and encoding-trick patterns. [CONFIRMED]
 

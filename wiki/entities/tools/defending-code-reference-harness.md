@@ -19,7 +19,7 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-07-07
+updated: 2026-07-18
 phase_0_verdict: "CONDITIONAL-GO 2026-06-06 — laptop Docker/gVisor only; Apache-2.0 LICENSE file; not for cemini-prod trading path."
 ---
 
@@ -42,6 +42,9 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-06 — laptop Docker/gVisor only; Apach
 K102 brief (`briefs/2026-06-06_k102-cybersec-defending-code-harness-from-osint.md`, 2026-06-06). GitHub: [anthropics/defending-code-reference-harness](https://github.com/anthropics/defending-code-reference-harness) — Apache-2.0 LICENSE file (~3.9k★ at Phase-0). Reference only — repo **not maintained**, not accepting contributions.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/defending-code-reference-harness` (~2.8MB, shallow). Laptop Docker/gVisor only.
+
 
 Anthropic open reference for **autonomous vulnerability discovery + remediation** with Claude: recon → find → ASAN verify → report → patch on C/C++ targets. Ships Claude Code skills (`/quickstart`, `/vuln-scan`, `/triage`, `/patch`) plus `harness/` autonomous pipeline and **`bin/vp-sandboxed`** gVisor wrapper.
 

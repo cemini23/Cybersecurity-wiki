@@ -24,7 +24,7 @@ related:
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 **Briefs:** `briefs/2026-07-09_adi-trusted-untrusted-data-handoff.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`
@@ -39,6 +39,9 @@ updated: 2026-07-16
 Ingest 2026-07-09: arXiv 2607.05120 — **agent data injection** bypasses instruction-injection defenses by forging **trusted** fields (sender, tool names, delimiters) inside agent data, not by injecting new instructions.
 
 ## Narrative
+
+**Local clone (2026-07-18):** `raw-sources/repos/adi` (~5.1MB, shallow; `compsec-snu/adi`). Lab reproduction of trusted/untrusted isolation only.
+
 
 ### Trust model inside agent data
 
