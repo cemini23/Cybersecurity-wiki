@@ -265,6 +265,10 @@ Before adopting any external security tool into the workflow, run a Phase-0 sour
    - SOC / SIEM tools: ingestion-rate ceiling + alert false-positive rate
 5. Compare against existing wiki coverage (don't adopt parallel implementations)
 6. Decide GO / CONDITIONAL-GO / NO-GO and record in the entity page
+7. **If GO / CONDITIONAL-GO: actually adopt and use** — clone under `raw-sources/repos/` (space budget soft-cap **~2GB** for the tree; raise when needed for GO tools like cua), install CLIs onto `~/.local/bin`, stamp the entity page with Local adoption, then:
+   - **Agent-side:** wire into `scripts/adopted_security_preflight.sh` (or equivalent) and **run** it; do not leave clones unused
+   - **User-side:** write a short brief listing anything only a human can do (Lume VM install, API keys, Codex hook consent, etc.)
+8. Space discipline: prefer shallow clones; skip AOSP-class trees unless there is an immediate lab device; Prefer REFERENCE over clone when no public code exists
 
 The reusable prompt for evaluating a list of GitHub repos is at `prompts/github-repo-eval.md`.
 
@@ -292,9 +296,15 @@ ls -1 "research to be indexed/" 2>/dev/null | grep -v '^\.'
 
 If items exist that the user hasn't asked you to address, mention briefly: "Btw, you have N items in `research to be indexed/`. Want me to triage them?"
 
-### 2. (Future ritual hooks land here.)
+### 2. Adopted-tool use (when adopting or before third-party skill/MCP install)
 
-Keep each check under 60 seconds.
+```bash
+bash scripts/adopted_security_preflight.sh
+```
+
+Agent runs this (not the user) when: (a) finishing a local-adoption batch, or (b) about to enable a new third-party skill / MCP. Reports land in `.scratch/adopted-tool-preflight/` (gitignored). Summarize HIGH/CRITICAL to the user; do not silently ignore CRITICAL.
+
+Keep each check under 60 seconds unless an adoption/preflight run was requested.
 
 ## Related — environment + secrets
 

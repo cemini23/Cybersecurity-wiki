@@ -1004,3 +1004,14 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 **Skipped (not needed / out of policy):** Sentinel 404; ARMOR++/FlowGuard/SpellSmith no public code; AOHP AOSP-lab; cua ~269MB (would blow headroom vs AHA already at 169MB); AI-Infra-Guard source vendor-poison (external Docker only); GFlowRL 404.
 
 **Updated** entity pages with Local clone/adoption stamps + `@concepts/agent-data-injection-attacks.md`.
+
+## [2026-07-18] adoption | raise cap + actually use adopted tools
+
+- **Cap:** soft ~2GB for `raw-sources/repos/` (was informal 500MB/tool) so GO tools are not skipped
+- **NEW clones:** `cua` (~387MB), `defenseclaw` (~704MB) + isolated `raw-sources/defenseclaw-home`
+- **Fixed:** dead `defenseclaw` symlink (`/tmp/...`); CLI + `skill-scanner` / `mcp-scanner` restored to `~/.local/bin`
+- **NEW** `scripts/adopted_security_preflight.sh` — agent runs skillspector + agentshield + skill-scanner
+- **Ran preflight:** federation skills SAFE/LOW; `~/.claude` agentshield medium (marketplace deny-list gaps); reverse-skill pack CRITICAL as wholesale install
+- **Schema:** `CLAUDE.md` Phase-0 §7–8 + session ritual §2 (adopt ⇒ use)
+- **Brief:** `briefs/2026-07-18_adopted-tools-use-it-checklist.md` (you vs agent)
+- **Still USER:** Lume/cua VM; optional Codex sidecar; review ~/.claude marketplace plugin

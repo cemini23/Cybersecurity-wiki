@@ -44,7 +44,7 @@ related:
   - entities/tools/ai-infra-guard.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-07-01
+updated: 2026-07-18
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 phase_0_verdict: "CONDITIONAL-GO 2026-05-31 — CLI scanners + Codex sidecar (observe) ADOPTED on laptop; LLM judge optional via DEFENSECLAW_LLM_KEY; action mode + Splunk optional."
 ---
@@ -87,10 +87,10 @@ Primary cybersec fit: blue-team governance for pentest agents, SOC copilots, and
 
 | Component | Status |
 |-----------|--------|
-| `make all` → `~/.local/bin/defenseclaw` | **ADOPTED** |
-| `skill-scanner scan` / `mcp-scanner` | **ADOPTED** — Phase-0 skill/MCP pre-screen |
+| `make all` → `~/.local/bin/defenseclaw` | **ADOPTED** — 2026-07-18 rebuilt to stable `raw-sources/repos/defenseclaw` (prior `/tmp` symlink was dead) |
+| `skill-scanner scan` / `mcp-scanner` | **ADOPTED** — on PATH; wired into `scripts/adopted_security_preflight.sh` |
 | `defenseclaw agent discover` | **ADOPTED** — inventory claudecode/cursor/codex/geminicli |
-| Sidecar on `:18970` + Codex hooks | **ADOPTED (observe, on-demand)** — start when using Codex + defenseclaw telemetry; not required for CLI-only scans or Cursor workflow |
+| Sidecar on `:18970` + Codex hooks | **USER** — optional; run `defenseclaw setup codex --yes --restart` only if you want Codex observe telemetry |
 | `DEFENSECLAW_LLM_KEY` + LLM judge | **OPTIONAL** — doctor still fails until set; local YARA scanners work without |
 | `OPENCLAW_GATEWAY_TOKEN` | **N/A (Codex standalone)** — only for OpenClaw fleet upstream |
 | Splunk/OTel Docker bundles | **OPTIONAL** — enterprise observability only |

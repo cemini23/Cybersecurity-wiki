@@ -19,7 +19,7 @@ related:
   - "@osint-wiki/entities/tools/cua.md"
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -40,6 +40,10 @@ updated: 2026-06-07
 Phase-0 audit completed 2026-05-13 via `briefs/2026-05-13_cua-adoption.md` (gitignored). Verdict: **GO** for cybersec-wiki primary adoption. Source repo: [github.com/trycua/cua](https://github.com/trycua/cua), MIT, 16,381 stars, 60 contributors.
 
 ## Narrative
+
+**Local adoption (2026-07-18):** shallow clone `raw-sources/repos/cua` (~387MB). Cap raised so GO tools are not skipped for size alone.
+
+**Use status:** clone only — **you** still install Lume + lab VM (see `briefs/2026-07-18_adopted-tools-use-it-checklist.md`). Agent cannot complete Apple Virtualization setup unattended.
 
 cua (`trycua/cua`) is an agent-VM-sandbox framework purpose-built for M-series Macs. Architecture: **Lume** (a thin wrapper around Apple's Virtualization.Framework — no QEMU overhead) provides the VM substrate, the Python SDK + `cuabot` CLI orchestrate agent execution, and an MCP server exposes the whole stack to any MCP-compatible client (Claude Desktop, Claude Code, etc.). [CONFIRMED]
 
