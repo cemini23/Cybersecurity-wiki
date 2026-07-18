@@ -12,9 +12,11 @@ related:
   - sources/arxiv-2606-01494-clawhub-security-signals.md
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - concepts/llm-code-review-agent-security.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-16
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -24,6 +26,8 @@ updated: 2026-06-16
 - `@osint-wiki/concepts/npm-supply-chain-defense.md` — full concept page (origin, distilled)
 - `@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md` — original prompt source
 - @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanning (extends npm-style defense to skills)
+- @concepts/coding-agent-supply-chain-install-gap.md — agent auto-install needs pre-install gate beyond cooldown
+- @sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md — install-gap empirics (2607.15143)
 
 ## Raw Concept
 

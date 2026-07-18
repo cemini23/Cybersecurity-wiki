@@ -22,9 +22,11 @@ related:
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
   - concepts/physical-vs-content-danger-embodied-agents.md
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 **Briefs:** `briefs/2026-07-10_cage-1-prebind-assurance-handoff.md`, `briefs/2026-07-10_prod-mcp-prebind-assurance-checklist.md`
@@ -34,6 +36,8 @@ updated: 2026-07-17
 - @sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md — provenance (2607.03510)
 - @concepts/mcp-execution-control-invariants.md — execution-control layer complements Prebind boundary
 - @concepts/agent-data-injection-attacks.md — ADI forges trusted fields; Prebind catches before bind
+- @concepts/coding-agent-supply-chain-install-gap.md — package install = Prebind-class bind (K179)
+- @sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md — install-gap empirics
 
 ## Raw Concept
 

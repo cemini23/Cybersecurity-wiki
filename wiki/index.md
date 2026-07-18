@@ -86,6 +86,9 @@
 | @concepts/physical-vs-content-danger-embodied-agents.md | draft | PRISM — CD vs PD for embodied/tool agents (2607.15218) |
 | @concepts/agentic-hard-example-synthesis-content-safety.md | draft | Agentic multimodal hard-example synthesis (2607.14256) |
 | @concepts/llm-statistical-self-consistency-macro-fallacy.md | draft | Partition–prompt–aggregate macro fallacy (2607.15277) |
+| @concepts/coding-agent-supply-chain-install-gap.md | draft | Coding-agent install gap + pre-install gate (2607.15143 / K179) |
+| @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md | draft | ARMOR++ agentic deepfake-detector transfer attacks (2607.15246 / K188) |
+| @concepts/mcp-security-evidence-grounded-detection.md | draft | FlowGuard — evidence-grounded MCP detection (2607.14754 / K189 route) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
 | @concepts/llm-code-review-agent-security.md | draft | SEVRA merge-gate robustness — reversed CVE PR + framing attacks (2606.13757) |

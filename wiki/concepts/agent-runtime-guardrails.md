@@ -118,9 +118,11 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - entities/tools/datashield.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

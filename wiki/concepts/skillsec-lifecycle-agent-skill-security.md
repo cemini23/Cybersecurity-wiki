@@ -13,9 +13,11 @@ related:
   - concepts/layer-paradigm-agent-red-teaming.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/skill-vetting.md"
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -23,6 +25,7 @@ updated: 2026-07-16
 - @sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md — SkillSec-Eval paper
 - @concepts/agent-skill-injection.md — K95 cluster; this page adds lifecycle stages
 - @ccc-wiki/concepts/skill-vetting.md — Cemini Phase-0 skill audit (extend stages)
+- @concepts/coding-agent-supply-chain-install-gap.md — sibling supply-chain admission (package install vs skill artifact)
 
 ## Raw Concept
 

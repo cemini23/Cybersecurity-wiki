@@ -972,3 +972,23 @@ Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-asgar-firewall3d-fir
 - `cemini-egress-fi:.../arxiv-2607.15081-…pdf`
 - `cemini-egress-fi:.../arxiv-2607.15218-…pdf`
 - `cemini-egress-fi:.../arxiv-2607.15277-…pdf`
+
+## [2026-07-18] ingest | install-gap deepen + ARMOR++ (K188) + wireless OOD
+
+**Inbox**: 5 PDFs (3 wireless digest OOD; 2 deepen/manual — 2607.15143, 2607.15246).
+
+- **DEEPEN** `@sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md` + `@concepts/coding-agent-supply-chain-install-gap.md` — harness×model; Sentinel **404**; reinforces CCC **K179** ADOPT (no new K)
+- **NEW** `@sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md` + `@concepts/armor-plusplus-agentic-deepfake-detector-attacks.md` — AADD-LQ ViT ASR 0.443; Phase-0 **REFERENCE** (**K188**); no local adopt (weights >500MB)
+- **OOD** 2607.14775 OFDM-ISAC + 2607.14778 UAV sensing + 2607.14938 localization — `briefs/2026-07-18_ood-wireless-isac-uav-sensing-route.md`
+- **ROUTE** `@sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md` + `@concepts/mcp-security-evidence-grounded-detection.md` — CCC **K189** primary; cybersec REFERENCE stub
+- **Briefs** install-gap + ARMOR handoffs; prod K188; CCC handoff; David Sentinel-404 reinforce; poker K179 light steal
+- **Updated** npm-supply-chain, cage-1, agent-runtime-guardrails, skillsec, llm-code-review, VCG, llm-adversarial-fuzzing, ai-for-cybersecurity, agentic-hard-example, index.md; CCC backlinks
+- **Local adopts**: none this batch
+- **Sweep** `wiki/sweeps/2026-07-18-daily.md`
+
+**Archive**:
+- `cemini-egress-fi:.../arxiv-2607.14775-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.14778-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.14938-…pdf` (re-archive ok)
+- `cemini-egress-fi:.../arxiv-2607.15143-…pdf`
+- `cemini-egress-fi:.../arxiv-2607.15246-…pdf`

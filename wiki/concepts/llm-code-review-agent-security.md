@@ -22,9 +22,11 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-2607-05120-agent-data-injection-attacks.md
   - concepts/agent-data-injection-attacks.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-09
+updated: 2026-07-18
 ---
 
 ## Relations

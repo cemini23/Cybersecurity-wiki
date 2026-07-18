@@ -43,9 +43,11 @@ related:
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - sources/arxiv-2607-14256-agentic-hard-example-synthesis.md
   - entities/tools/datashield.md
+  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
+  - sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations

@@ -125,9 +125,13 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
   - sources/arxiv-2607-14256-agentic-hard-example-synthesis.md
   - sources/arxiv-2607-15277-partition-prompt-aggregate-self-consistency.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
+  - sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations

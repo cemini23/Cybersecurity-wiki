@@ -13,9 +13,11 @@ related:
   - concepts/agent-data-injection-attacks.md
   - sources/arxiv-2607-05120-agent-data-injection-attacks.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/mcp-security-evidence-grounded-detection.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-18
 ---
 
 **Briefs:** `briefs/2026-07-09_spellsmith-mcp-taint-mitigation-handoff.md`

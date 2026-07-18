@@ -91,9 +91,11 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
   - concepts/skillsec-lifecycle-agent-skill-security.md
+  - concepts/mcp-security-evidence-grounded-detection.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
