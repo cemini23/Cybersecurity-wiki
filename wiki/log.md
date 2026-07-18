@@ -1015,3 +1015,10 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 - **Schema:** `CLAUDE.md` Phase-0 §7–8 + session ritual §2 (adopt ⇒ use)
 - **Brief:** `briefs/2026-07-18_adopted-tools-use-it-checklist.md` (you vs agent)
 - **Still USER:** Lume/cua VM; optional Codex sidecar; review ~/.claude marketplace plugin
+
+## [2026-07-18] ops | federation Cursor security preflight
+
+- Canon: `CCC/scripts/cursor_security_preflight_federation.sh` → `~/.local/bin/cursor-security-preflight`
+- Cybersec wrapper `scripts/adopted_security_preflight.sh` now defaults to **all** workspaces
+- Rule synced to all federation `.cursor/rules/` + `~/.cursor/rules/` via `sync_federation_cursor_skills.sh`
+- Ran `--quick` across 20 roots (41 scan units). Note: federation `super-audit` skill scores CRITICAL under SkillSpector static (dual-use audit content) — expected; do not treat as malware install

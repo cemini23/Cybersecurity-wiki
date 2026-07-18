@@ -296,13 +296,17 @@ ls -1 "research to be indexed/" 2>/dev/null | grep -v '^\.'
 
 If items exist that the user hasn't asked you to address, mention briefly: "Btw, you have N items in `research to be indexed/`. Want me to triage them?"
 
-### 2. Adopted-tool use (when adopting or before third-party skill/MCP install)
+### 2. Adopted-tool / Cursor security use
+
+Prefer the **federation** scanner so every Open Folder root stays covered:
 
 ```bash
-bash scripts/adopted_security_preflight.sh
+cursor-security-preflight              # all workspaces + ~/.cursor
+# or: bash scripts/adopted_security_preflight.sh   # wrapper → same CCC canon
+cursor-security-preflight --local      # this wiki only
 ```
 
-Agent runs this (not the user) when: (a) finishing a local-adoption batch, or (b) about to enable a new third-party skill / MCP. Reports land in `.scratch/adopted-tool-preflight/` (gitignored). Summarize HIGH/CRITICAL to the user; do not silently ignore CRITICAL.
+Agent runs this (not the user) when: (a) finishing a local-adoption batch, (b) about to enable a new third-party Cursor skill / MCP, or (c) after `sync_federation_cursor_skills.sh`. Reports: `~/.cursor/security-preflight/latest/`. Summarize HIGH/CRITICAL to the user; do not silently ignore CRITICAL.
 
 Keep each check under 60 seconds unless an adoption/preflight run was requested.
 

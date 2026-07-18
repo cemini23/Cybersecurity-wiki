@@ -1,0 +1,27 @@
+---
+description: Federation Cursor security preflight — scan .cursor across all workspaces
+alwaysApply: true
+---
+
+# Cursor security preflight (federation)
+
+When adopting tools, enabling third-party Cursor skills/MCP, or the user asks to harden Cursor configs:
+
+1. Prefer the **federation** scanner (all Open Folder roots), not a single-repo script:
+   ```bash
+   cursor-security-preflight
+   # or: bash "/Users/claudiobarone/Projects/Cemini claude code CCC/scripts/cursor_security_preflight_federation.sh"
+   ```
+2. Single workspace only when explicitly scoped:
+   ```bash
+   cursor-security-preflight --local
+   cursor-security-preflight --root "/path/to/repo"
+   ```
+3. Reports: `~/.cursor/security-preflight/latest/` (gitignored home cache).
+4. After editing federation skills in CCC, re-sync then re-scan:
+   ```bash
+   bash "/Users/claudiobarone/Projects/Cemini claude code CCC/scripts/sync_federation_cursor_skills.sh"
+   cursor-security-preflight --quick
+   ```
+
+Agent runs this (not the user) for Cursor-related security checks. Summarize HIGH/CRITICAL findings; do not silently ignore CRITICAL.
