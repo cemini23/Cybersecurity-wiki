@@ -1022,3 +1022,15 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 - Cybersec wrapper `scripts/adopted_security_preflight.sh` now defaults to **all** workspaces
 - Rule synced to all federation `.cursor/rules/` + `~/.cursor/rules/` via `sync_federation_cursor_skills.sh`
 - Ran `--quick` across 20 roots (41 scan units). Note: federation `super-audit` skill scores CRITICAL under SkillSpector static (dual-use audit content) — expected; do not treat as malware install
+
+## [2026-07-19] ingest | wireless OOD re-drop (digest) + query tighten
+
+**Inbox**: same 3 PDFs as 2026-07-18 OOD (digest re-fetch; arXiv IDs were not stubbed so skip-dup missed).
+
+- **OOD stubs** (block future re-fetch): `@sources/arxiv-ood-wireless-ofdm-isac-2607.14775.md`, `@sources/arxiv-ood-wireless-uav-sensing-2607.14778.md`, `@sources/arxiv-ood-wireless-localization-survey-2607.14938.md`
+- **Brief** `briefs/2026-07-19_ood-wireless-isac-uav-sensing-route.md`
+- **Config** tightened `daily_research_config.yaml` wireless `arxiv_query` (Wi-Fi/WPA/BLE/evil-twin; ANDNOT ISAC/localization/OFDM)
+- **No** Phase-0 / David / poker / prod / local adopt
+- **Sweep** `wiki/sweeps/2026-07-19-daily.md`
+
+**Archive**: re-verified on egress; local inbox cleared.
