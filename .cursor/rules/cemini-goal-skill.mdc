@@ -1,0 +1,17 @@
+---
+description: /goal slash skill — single-shot meta-prompt envelope (Cemini)
+alwaysApply: true
+---
+
+# /goal skill
+
+When the user message starts with **`/goal`** (or asks for a "full prompt goal" session):
+
+1. Read and follow **`.cursor/skills/goal/SKILL.md`** in this project.
+2. If missing, use **`~/.cursor/skills/goal/SKILL.md`** (user-global copy).
+3. Expand into the 5-section envelope (context · success criteria · operating rules · quality bar · deliverable), **plan first**, then execute until all success criteria pass or user redirects.
+4. Before ending the turn, re-read success criteria (rule 10). Do not claim done with unchecked items.
+
+Wiki canon (CCC): `@wiki/entities/patterns/full-prompt-goal-template.md`.
+
+Pair with **`/loop`** only when the user explicitly wants recurring execution.
