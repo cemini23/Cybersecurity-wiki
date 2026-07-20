@@ -129,9 +129,15 @@ related:
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md
+  - concepts/llm-cve-to-stix-generation.md
+  - concepts/rubric-capability-tree-diagnosis.md
+  - concepts/llm-research-competency-model.md
+  - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
+  - sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
+  - sources/arxiv-2607-16083-llm-research-competencies.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-18
+updated: 2026-07-20
 ---
 
 ## Relations
@@ -156,6 +162,12 @@ updated: 2026-07-18
 - @concepts/agent-runtime-guardrails.md — runtime side-effect guards vs prompt-only safety (2026 arXiv cluster)
 
 - @entities/tools/ifixai.md — K142 agent deception/manipulation diagnostic harness
+- @concepts/llm-cve-to-stix-generation.md — open-weight CVE→STIX
+- @concepts/rubric-capability-tree-diagnosis.md — CRAFT-style capability diagnosis for FT
+- @concepts/llm-research-competency-model.md — human oversight competencies
+- @sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
+- @sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
+- @sources/arxiv-2607-16083-llm-research-competencies.md
 
 ## Raw Concept
 
@@ -180,3 +192,7 @@ Not an LLM topic directly, but a methodological parallel for **AI-assisted polic
 ### Least-privilege tool selection (2606.20023)
 
 Among **authorized** MCP tools, agents systematically prefer broader privileges when narrow tools suffice — **OPUR** up to 64.9% (Qwen3-8B) on TOOLPRIVBENCH; transient HTTP 503 on narrow tools triggers **premature escalation**. General harm-refusal alignment (AgentAlign) does not fix this. Complements K100 external controls with **internal path preference** testing. See @concepts/agent-least-privilege-tool-selection.md.
+
+### CTI structuring + FT diagnosis (2607.16175 / 2607.16122)
+
+Open-weight LLMs can draft STIX from CVE text (strong SDO/CWE, weak SRO/ATT&CK) — @concepts/llm-cve-to-stix-generation.md. For model iteration, diagnose weak **rubric criteria** (CRAFT) before collecting FT data, then risk-filter with DataShield — @concepts/rubric-capability-tree-diagnosis.md. Researchers still need domain oversight competency — @concepts/llm-research-competency-model.md.

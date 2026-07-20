@@ -39,10 +39,13 @@ related:
   - concepts/6g-cps-closed-loop-security.md
   - concepts/autonomous-defense-agent-transferability.md
   - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+  - concepts/llm-cve-to-stix-generation.md
+  - entities/tools/cav-stixgen.md
+  - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-12
+updated: 2026-07-20
 ---
 
 ## Relations
@@ -77,6 +80,9 @@ updated: 2026-06-12
 - @entities/tools/splunk.md
 - @sources/100-splunk-queries-soc-analyst.md
 - @entities/tools/nidhogg.md — T1014 rootkit / DKOM tradecraft reference (GPL-3.0; defensive mapping)
+- @concepts/llm-cve-to-stix-generation.md — LLM ATT&CK mapping from CVE text remains hard (Match@All)
+- @entities/tools/cav-stixgen.md
+- @sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 
 ## Raw Concept
 
@@ -99,6 +105,8 @@ MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) is a global
 **Relation to other frameworks:** ATT&CK is **not** a kill chain — it's an unordered matrix. When ordering matters (e.g., for narrative incident write-ups), defenders typically pair ATT&CK with the Cyber Kill Chain (see @entities/frameworks/cyber-kill-chain.md). The Diamond Model is a complementary intrusion-analysis framework (adversary / capability / infrastructure / victim). [Sources: Mitre Att&ck Study Overview.pdf, Introdução ao Mitre Att&ck e ao Cyber Kill Chain.pdf]
 
 **STIX environment semantics (AutoSUT — 2606.08700):** Public ATT&CK STIX bundles excel at TTP cataloging but leave replay-ready SUT detail underspecified — 97.6% of Enterprise software objects lack version+CPE in structured fields. Emulation consumers must enrich beyond corpus. See @sources/arxiv-2606-08700-autosut-environment-semantics-gap.md.
+
+**LLM CVE→ATT&CK (CAV-STIXGen — 2607.16175):** Open-weight models often hit Match@1 but fail Match@All on multi-technique CVEs; pair auto-mapping with analyst review. See @concepts/llm-cve-to-stix-generation.md.
 
 ## Snippets
 

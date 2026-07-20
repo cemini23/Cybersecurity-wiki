@@ -20,7 +20,7 @@
 |------|----------|-------|
 | @concepts/red-team-operations.md | validated | Red Team vs Pentest distinction; engagement model |
 | @concepts/adversary-emulation.md | validated | APT-emulation plan + AutoSUT environment gap + LLM persona convergence |
-| @concepts/threat-intelligence.md | validated | CTI 3-tier model + STIX SUT limits + TTP attribution under AI emulation |
+| @concepts/threat-intelligence.md | validated | CTI 3-tier model + STIX SUT limits + LLM CVE→STIX gates |
 | @concepts/purple-team-operations.md | draft | Red + blue collaborative engagements |
 | @concepts/soc-operations.md | validated | Security Operations Center tooling + tiers + 5 pillars |
 | @concepts/incident-response.md | validated | NIST / SANS IR lifecycle |
@@ -42,7 +42,8 @@
 | @concepts/windows-pentest.md | draft | Windows + Active Directory + O365 |
 | @concepts/cloud-pentest.md | draft | AWS / Azure / GCP / O365 pentest |
 | @concepts/mobile-pentest.md | draft | Android + iOS app pentest |
-| @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT / 6G CPS closed-loop |
+| @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT / prEN 50742 safety-security |
+| @concepts/industrial-safety-security-convergence.md | draft | prEN 50742 / IO-Link Wireless crypto capacity collapse (2607.15840) |
 | @concepts/6g-cps-closed-loop-security.md | draft | 6G CPS edge-to-network AI-native security loop (2606.08173) |
 | @concepts/exploit-development.md | draft | Buffer overflow → ROP → kernel exploits |
 | @concepts/buffer-overflow.md | draft | Stack/heap overflow fundamentals + shellcode |
@@ -74,6 +75,9 @@
 | Page | Maturity | Topic |
 |------|----------|-------|
 | @concepts/ai-for-cybersecurity.md | draft | LLM use in red + blue workflows |
+| @concepts/llm-cve-to-stix-generation.md | draft | Open-weight CVE→STIX (CAV-STIXGen); gate on SRO/ATT&CK |
+| @concepts/rubric-capability-tree-diagnosis.md | draft | CRAFT — rubric-criterion capability trees for targeted SFT |
+| @concepts/llm-research-competency-model.md | draft | Eight competencies for LLM-literate researchers (2607.16083) |
 | @concepts/llm-vulnerability-discovery.md | draft | LLM-driven vuln-discovery pipeline (Detect→Attack); defending-code ASAN verify |
 | @concepts/llm-adversarial-fuzzing.md | draft | Adversarial LLM testing methodology (FuzzyAI umbrella) |
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
@@ -215,6 +219,7 @@
 | @entities/tools/cryptex-oss.md | draft | LLM red-teaming transforms/mutators toolkit — 162 transforms (MIT; Adopt-eligible Phase-0) |
 | @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
 | @entities/tools/autosut.md | draft | STIX environment-semantics gap measurement for adversary emulation (Reference) |
+| @entities/tools/cav-stixgen.md | draft | CAV CVE→STIX benchmark (figshare REFERENCE; no local clone) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
 | @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
@@ -361,6 +366,8 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | ai-infra-guard | Apache-2.0 + NOTICE §4(d) | CONDITIONAL-GO | digest | @entities/tools/ai-infra-guard.md — multi-layer agent red team (2606.31227); **external Docker only** |
 | aha-auto-research-red-teaming | MIT | CONDITIONAL-GO | K176 | @entities/tools/aha-auto-research-red-teaming.md — VCG autoresearch for Claude Code/Codex (2607.11698); **lab sandbox only**; local clone ~169MB |
 | datashield | MIT | CONDITIONAL-GO | K184 | @entities/tools/datashield.md — risky fine-tune filter (2607.15081); local clone ~3MB |
+| cav-stixgen | — | Reference | K196 | @entities/tools/cav-stixgen.md — CAV CVE→STIX; figshare share unverified license |
+| llm-research-competencies-zenodo | CC-BY-4.0 | Reference/ADOPT-ARTIFACT | digest | Zenodo 21313656 pack ~396KB at `raw-sources/repos/llm-research-competencies-zenodo` |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 
 ## Meta

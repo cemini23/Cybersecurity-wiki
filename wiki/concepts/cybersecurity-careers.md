@@ -45,13 +45,17 @@ related:
   - concepts/llm-pentest-automation.md
   - sources/top-50-cybersecurity-interview-questions.md
   - sources/soc-top-30-interview-questions.md
+  - concepts/llm-research-competency-model.md
+  - sources/arxiv-2607-16083-llm-research-competencies.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-07-20
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-16083-llm-research-competencies.md
+- @concepts/llm-research-competency-model.md
 - @entities/certifications/ceh.md
 - @entities/certifications/comptia-pentest-plus.md
 - @entities/certifications/comptia-security-plus.md

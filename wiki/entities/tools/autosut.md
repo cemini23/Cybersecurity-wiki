@@ -9,9 +9,12 @@ related:
   - concepts/threat-intelligence.md
   - entities/frameworks/mitre-attack.md
   - sources/arxiv-2606-07158-synthetic-apts-ttp-attribution-collapse.md
+  - concepts/llm-cve-to-stix-generation.md
+  - entities/tools/cav-stixgen.md
+  - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-07-20
 phase_0_verdict: "Reference 2026-06-11 — reproducibility artifact on GitHub; measurement-only pipeline, no runtime deploy."
 ---
 
@@ -20,6 +23,9 @@ phase_0_verdict: "Reference 2026-06-11 — reproducibility artifact on GitHub; m
 - @sources/arxiv-2606-08700-autosut-environment-semantics-gap.md — paper + RQ definitions
 - @concepts/adversary-emulation.md — declare corpus-supported vs analyst-authored SUT commitments
 - @entities/frameworks/mitre-attack.md — STIX bundle inputs (Enterprise v18.1 primary)
+- @concepts/llm-cve-to-stix-generation.md — complementary LLM STIX generation limits
+- @entities/tools/cav-stixgen.md
+- @sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 
 ## Raw Concept
 

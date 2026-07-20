@@ -37,9 +37,12 @@ related:
   - concepts/ai-loss-of-control-osint-monitoring.md
   - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
   - concepts/crypter-as-a-service.md
+  - concepts/llm-cve-to-stix-generation.md
+  - entities/tools/cav-stixgen.md
+  - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-06-27
+updated: 2026-07-20
 ---
 
 ## Relations
@@ -64,6 +67,9 @@ updated: 2026-06-27
 - @entities/tools/cve-mcp-server.md — CVE/EPSS/KEV/ATT&CK enrichment MCP for analyst triage
 - @entities/tools/netviz.md — infrastructure/actor relationship graphs for CTI briefings
 - @meta/daily-research-digest-cadence.md — federated daily digest (CVE/OSINT/wireless topics; K93)
+- @concepts/llm-cve-to-stix-generation.md — open-weight CVE→STIX (gate on SRO/ATT&CK)
+- @entities/tools/cav-stixgen.md — CAV-STIXGen benchmark
+- @sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 
 ## Raw Concept
 
@@ -147,6 +153,7 @@ Per @sources/open-source-soc-guide.md Ch 2, the CTI function should:
 - **Attribution overreach** — naming an actor in an exec report demands evidence quality on par with the named-actor risk. Most intrusions cannot be confidently attributed; "consistent with X cluster" is usually the right frame.
 - **TTP convergence under AI emulation** — when adversaries share LLM agent stacks, Recon + Initial Access fingerprints converge across APT profiles; convergent novel behaviors (e.g. weaponizing defender Velociraptor as C2) fall outside TTP catalogs. Early-phase TTP attribution is unsafe as sole signal; late-phase differentiation (55–80% ATT&CK precision when domain compromised) remains useful. [Source: arXiv:2606.07158] [TENTATIVE] — single lab study on CYBER RANGES.
 - **Environment semantics gap in structured CTI** — public ATT&CK STIX supports lower-bound SUT narrowing but 97.6% of Enterprise software refs lack version+CPE; replay-ready environment requires analyst-authored enrichment beyond corpus. [Source: arXiv:2606.08700] [CONFIRMED] — measurement over published bundles.
+- **LLM CVE→STIX automation** — open-weight models reach ~0.94 SDO / ~0.99 CWE F1 with dynamic few-shot but SRO peaks ~0.63 and full ATT&CK Match@All stays weak; do not auto-promote to TIP without review. [Source: arXiv:2607.16175] [CONFIRMED] — CAV-STIXGen. See @concepts/llm-cve-to-stix-generation.md.
 - **Telco CDR-observable CTI (6G CPS)** — mobile-core hunts use CDR feature spaces + ATT&CK mapping distinct from enterprise EDR IOCs; slow-rate slice-hop and signalling campaigns operate on minute-to-hour baselines at MEC. [Source: arXiv:2606.08173] [TENTATIVE] — survey synthesis.
 
 ### High-value infrastructure targeting (EA-adjacent CTI)

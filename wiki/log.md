@@ -1034,3 +1034,27 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 - **Sweep** `wiki/sweeps/2026-07-19-daily.md`
 
 **Archive**: re-verified on egress; local inbox cleared.
+
+## [2026-07-20] ingest | daily digest 5 arXiv (CAV-STIX + CRAFT + IO-Link + competencies + EvoOMG OOD)
+
+**Inbox**: 5 PDFs from `wiki/sweeps/2026-07-20-daily.md` (all NEW).
+
+- **OOD** 2607.07045 EvoOMG Wi-Fi MLO MAC RL — stub `@sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md`; brief `briefs/2026-07-20_ood-wireless-evoomg-mlo-route.md`; wireless `arxiv_query` ANDNOT MLO/EDCA/goodput/MADDPG
+- **NEW** `@sources/arxiv-2607-15840-io-link-wireless-pren-50742.md` + `@concepts/industrial-safety-security-convergence.md` — prEN 50742; IOLW 8→2; REFERENCE
+- **NEW** `@sources/arxiv-2607-16083-llm-research-competencies.md` + `@concepts/llm-research-competency-model.md` — Zenodo CC-BY pack **adopted** `raw-sources/repos/llm-research-competencies-zenodo` (~396KB)
+- **NEW** `@sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md` + `@concepts/rubric-capability-tree-diagnosis.md` — **K195** REFERENCE (no code)
+- **NEW** `@sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md` + `@concepts/llm-cve-to-stix-generation.md` + `@entities/tools/cav-stixgen.md` — **K196** REFERENCE (figshare WAF/unverified license)
+- **Updated** threat-intelligence, mitre-attack, network-security, wireless-pentest, ai-for-cybersecurity, datashield concept, autosut, index.md
+- **Briefs**: OOD + OT handoff + competencies handoff; prod K195/K196 → `cemini-prod:/opt/cemini/briefs/`; CCC handoffs; poker K195 steal + K196 no-fit
+- **David / TipDrop**: skipped (no image/persona install path)
+- **Phase-0**: `scripts/adopt_k195_k196_phase0.sh` PASS
+- **Local adopts**: Zenodo pack only (<500MB). No CAV-STIX clone.
+- **Sweep**: `wiki/sweeps/2026-07-20-daily.md`
+
+**Archive** (egress-fi cybersec/):
+- `arxiv-2607.07045-…pdf`
+- `arxiv-2607.15840-…pdf`
+- `arxiv-2607.16083-…pdf`
+- `arxiv-2607.16122-…pdf`
+- `arxiv-2607.16175-…pdf`
+

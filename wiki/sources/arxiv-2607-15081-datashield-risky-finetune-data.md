@@ -11,10 +11,12 @@ related:
   - concepts/self-evolving-agent-security.md
   - concepts/ai-for-cybersecurity.md
   - concepts/crescendo-multi-turn-jailbreak.md
+  - concepts/rubric-capability-tree-diagnosis.md
+  - sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-20
 phase_0_verdict: "CONDITIONAL-GO 2026-07-17 — github.com/ZJU-LLM-Safety/DataShield MIT ~3MB; lab fine-tune filtering only"
 ---
 
@@ -22,6 +24,8 @@ phase_0_verdict: "CONDITIONAL-GO 2026-07-17 — github.com/ZJU-LLM-Safety/DataSh
 
 ## Relations
 
+- @sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
+- @concepts/rubric-capability-tree-diagnosis.md
 - @concepts/datashield-risky-finetune-data-filtering.md — synthesis
 - @entities/tools/datashield.md — Phase-0 + local clone
 

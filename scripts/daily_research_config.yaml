@@ -35,7 +35,7 @@ paper_queries:
   query: research paper Wi-Fi WPA3 Bluetooth BLE wireless penetration testing
   category: research paper
   # Prefer RF pentest surfaces; bare "wireless"+security pulls ISAC/localization sensing papers (OOD 14775/14778/14938).
-  arxiv_query: (all:WiFi OR all:"Wi-Fi" OR all:802.11 OR all:WPA OR all:WPA2 OR all:WPA3 OR all:Bluetooth OR all:BLE OR all:"evil twin" OR all:deauth) AND (all:attack OR all:pentest OR all:exploit OR all:security) ANDNOT (all:ISAC OR all:localization OR all:OFDM OR all:"range-Doppler" OR all:"point cloud")
+  arxiv_query: (all:WiFi OR all:"Wi-Fi" OR all:802.11 OR all:WPA OR all:WPA2 OR all:WPA3 OR all:Bluetooth OR all:BLE OR all:"evil twin" OR all:deauth) AND (all:attack OR all:pentest OR all:exploit OR all:security) ANDNOT (all:ISAC OR all:localization OR all:OFDM OR all:"range-Doppler" OR all:"point cloud" OR all:MLO OR all:"multi-link" OR all:EDCA OR all:goodput OR all:MADDPG)
 queries:
 - cluster: cve-threat-intel
   query: '"CVE" OR "CISA KEV" OR EPSS vulnerability disclosure exploit PoC'

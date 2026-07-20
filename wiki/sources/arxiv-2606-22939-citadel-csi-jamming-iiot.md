@@ -7,15 +7,19 @@ related:
   - concepts/network-security.md
   - concepts/wireless-pentest.md
   - concepts/6g-cps-closed-loop-security.md
+  - concepts/industrial-safety-security-convergence.md
+  - sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-20
 phase_0_verdict: "Archive-only 2026-06-23 — IIoT defensive RF ML; no GitHub artifact Phase-0'd; tangential to offensive wireless tradecraft"
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
+- @concepts/industrial-safety-security-convergence.md
 - @concepts/network-security.md — IIoT / OT wireless availability threats
 - @concepts/wireless-pentest.md — jamming as offensive vector (orthogonal defensive ML paper)
 

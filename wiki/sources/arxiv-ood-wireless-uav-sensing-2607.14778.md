@@ -6,10 +6,11 @@ keywords: [2607.14778, AUGUST, UAV sensing, point cloud, generative]
 related:
   - sources/arxiv-ood-wireless-ofdm-isac-2607.14775.md
   - sources/arxiv-ood-wireless-localization-survey-2607.14938.md
+  - sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md
 maturity: draft
 read_status: skimmed
 created: 2026-07-19
-updated: 2026-07-19
+updated: 2026-07-20
 phase_0_verdict: "OOD 2026-07-19 — UAV wireless sensing/tracking; not wireless pentest. Brief-only; no adopt."
 ---
 
@@ -17,6 +18,7 @@ phase_0_verdict: "OOD 2026-07-19 — UAV wireless sensing/tracking; not wireless
 
 ## Relations
 
+- @sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md
 - Sibling OOD wireless digest false-positives (same batch)
 
 ## Raw Concept

@@ -16,13 +16,17 @@ related:
   - sources/arxiv-2606-05252-bas-to-siem-detection-as-code-synthesis.md
   - sources/arxiv-2606-18734-point-cloud-wireless-channel-prediction.md
   - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
+  - concepts/industrial-safety-security-convergence.md
+  - sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-21
+updated: 2026-07-20
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
+- @concepts/industrial-safety-security-convergence.md
 - @sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md — PRISMA survey anchor (128 studies)
 - @concepts/network-security.md — IoT/OT/wireless parent category
 - @concepts/soc-operations.md — distributed MEC SOC vs monolithic tier model

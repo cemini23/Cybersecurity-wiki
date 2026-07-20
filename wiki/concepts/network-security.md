@@ -53,9 +53,12 @@ related:
   - sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md
   - sources/arxiv-2606-18734-point-cloud-wireless-channel-prediction.md
   - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
+  - concepts/industrial-safety-security-convergence.md
+  - sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
+  - sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-23
+updated: 2026-07-20
 ---
 
 ## Relations
@@ -104,6 +107,9 @@ updated: 2026-06-23
 - @entities/tools/gopacket.md — Go packet-decoding library for network-layer analysis (Mandiant, Apache-2.0)
 - @entities/tools/openvpn-install.md — Bash OpenVPN deployment automation; refined NAT detection + IPv6-routing handling
 - @entities/tools/vpn-self-hosted.md — VPN tool hub page; WireGuard/OpenVPN/Tailscale catalog + protocol decision matrix
+- @concepts/industrial-safety-security-convergence.md — prEN 50742 / IO-Link Wireless safety-security
+- @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
+- @sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md — OOD MLO MAC RL stub
 
 ## Raw Concept
 
@@ -116,3 +122,7 @@ Network security = traditional network-layer + perimeter topics (firewalls, IDS/
 ### 6G CPS closed-loop security (2606.08173)
 
 Next-gen **6G cyber-physical** stacks (V2X, smart grid, remote surgery, Industry 4.0 over URLLC slices) collapse breach-to-physical-harm latency to milliseconds — perimeter SOCs cannot meet slice tail bounds. Defensive pattern: **MEC sense/detect** (CDR + RAN telemetry) → **O-RAN/SDN mitigate** → **FL/digital-twin retrain**, with ZTA per slice. See @concepts/6g-cps-closed-loop-security.md — distinct from WiFi/BLE offensive tradecraft in @concepts/wireless-pentest.md.
+
+### Industrial safety–security wireless (2607.15840)
+
+prEN 50742 pushes crypto into the safety path; IO-Link Wireless device capacity can collapse 8→2 under high SRSL. Private 5G preferred over Wi-Fi 6 for watchdog-critical paths. See @concepts/industrial-safety-security-convergence.md.
