@@ -45,13 +45,21 @@ related:
   - entities/tools/datashield.md
   - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md
+  - concepts/defender-centric-jailbreak-utility.md
+  - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+  - concepts/llm-biosecurity-red-teaming.md
+  - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-18
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
+- @concepts/llm-biosecurity-red-teaming.md
+- @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+- @concepts/defender-centric-jailbreak-utility.md
 - @entities/tools/fuzzyai.md — current canonical framework
 - @entities/tools/cryptex-oss.md — transform/mutator catalog alternative (K68 Adopt-eligible)
 - @concepts/pair-prompt-pattern.md — PAIR technique detail

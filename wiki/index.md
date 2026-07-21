@@ -44,6 +44,7 @@
 | @concepts/mobile-pentest.md | draft | Android + iOS app pentest |
 | @concepts/network-security.md | draft | Network / firewall / wireless / IoT / OT / prEN 50742 safety-security |
 | @concepts/industrial-safety-security-convergence.md | draft | prEN 50742 / IO-Link Wireless crypto capacity collapse (2607.15840) |
+| @concepts/solver-grounded-agentic-ot.md | draft | Smart-grid/OT agents: solver + verify before setpoints (2607.18147) |
 | @concepts/6g-cps-closed-loop-security.md | draft | 6G CPS edge-to-network AI-native security loop (2606.08173) |
 | @concepts/exploit-development.md | draft | Buffer overflow → ROP → kernel exploits |
 | @concepts/buffer-overflow.md | draft | Stack/heap overflow fundamentals + shellcode |
@@ -78,8 +79,12 @@
 | @concepts/llm-cve-to-stix-generation.md | draft | Open-weight CVE→STIX (CAV-STIXGen); gate on SRO/ATT&CK |
 | @concepts/rubric-capability-tree-diagnosis.md | draft | CRAFT — rubric-criterion capability trees for targeted SFT |
 | @concepts/llm-research-competency-model.md | draft | Eight competencies for LLM-literate researchers (2607.16083) |
+| @concepts/coding-agent-context-pruning.md | draft | SWE-Pruner Pro internal-rep tool-output prune (2607.18213) |
+| @concepts/llm-belief-expression-robustness.md | draft | EoBench — belief framing vs prior knowledge (2607.18232) |
 | @concepts/llm-vulnerability-discovery.md | draft | LLM-driven vuln-discovery pipeline (Detect→Attack); defending-code ASAN verify |
 | @concepts/llm-adversarial-fuzzing.md | draft | Adversarial LLM testing methodology (FuzzyAI umbrella) |
+| @concepts/defender-centric-jailbreak-utility.md | draft | A-MESS/AttackSHAP — rank jailbreaks by safety-train utility (2607.17152) |
+| @concepts/llm-biosecurity-red-teaming.md | draft | Dual-use bio early-warning posture (Intern-BioBreaker 2607.18056) |
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/amt-x-phase-structured-multi-turn-red-teaming.md | draft | AMT-X dual overall/full ASR + phase state machine (2607.11151) |
@@ -220,6 +225,8 @@
 | @entities/tools/cve-mcp-server.md | draft | Security-intel MCP server — CVE/EPSS/KEV/ATT&CK enrichment (Apache-2.0; CONDITIONAL-GO) |
 | @entities/tools/autosut.md | draft | STIX environment-semantics gap measurement for adversary emulation (Reference) |
 | @entities/tools/cav-stixgen.md | draft | CAV CVE→STIX benchmark (figshare REFERENCE; no local clone) |
+| @entities/tools/swe-pruner-pro.md | draft | SWE-Pruner Pro (Apache-2.0 pyproject; CONDITIONAL-GO ~8.7MB) |
+| @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
 | @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
@@ -368,6 +375,8 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | datashield | MIT | CONDITIONAL-GO | K184 | @entities/tools/datashield.md — risky fine-tune filter (2607.15081); local clone ~3MB |
 | cav-stixgen | — | Reference | K196 | @entities/tools/cav-stixgen.md — CAV CVE→STIX; figshare share unverified license |
 | llm-research-competencies-zenodo | CC-BY-4.0 | Reference/ADOPT-ARTIFACT | digest | Zenodo 21313656 pack ~396KB at `raw-sources/repos/llm-research-competencies-zenodo` |
+| swe-pruner-pro | Apache-2.0 (pyproject) | CONDITIONAL-GO | K200 | @entities/tools/swe-pruner-pro.md — ~8.7MB shallow; no LICENSE file |
+| llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 
 ## Meta

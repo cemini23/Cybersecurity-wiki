@@ -26,13 +26,17 @@ related:
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
+  - concepts/llm-biosecurity-red-teaming.md
+  - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-26
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
+- @concepts/llm-biosecurity-red-teaming.md
 - @concepts/bug-bounty.md
 - @entities/people/joas-a-santos.md
 - @entities/threat-actors/lockbit.md

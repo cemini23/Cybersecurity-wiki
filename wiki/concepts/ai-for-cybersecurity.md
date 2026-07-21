@@ -135,13 +135,35 @@ related:
   - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
   - sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
   - sources/arxiv-2607-16083-llm-research-competencies.md
+  - concepts/defender-centric-jailbreak-utility.md
+  - concepts/llm-biosecurity-red-teaming.md
+  - concepts/solver-grounded-agentic-ot.md
+  - concepts/coding-agent-context-pruning.md
+  - concepts/llm-belief-expression-robustness.md
+  - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+  - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
+  - sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+  - sources/arxiv-2607-18213-swe-pruner-pro.md
+  - sources/arxiv-2607-18232-eobench-expressions-of-belief.md
+  - entities/tools/swe-pruner-pro.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @entities/tools/swe-pruner-pro.md
+- @sources/arxiv-2607-18232-eobench-expressions-of-belief.md
+- @sources/arxiv-2607-18213-swe-pruner-pro.md
+- @sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+- @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
+- @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+- @concepts/llm-belief-expression-robustness.md
+- @concepts/coding-agent-context-pruning.md
+- @concepts/solver-grounded-agentic-ot.md
+- @concepts/llm-biosecurity-red-teaming.md
+- @concepts/defender-centric-jailbreak-utility.md
 - @concepts/red-team-operations.md
 - @concepts/soc-operations.md
 - @sources/chatgpt-for-cybersecurity-1.md

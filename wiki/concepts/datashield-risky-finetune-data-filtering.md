@@ -12,13 +12,17 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/rubric-capability-tree-diagnosis.md
   - sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
+  - concepts/defender-centric-jailbreak-utility.md
+  - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+- @concepts/defender-centric-jailbreak-utility.md
 - @sources/arxiv-2607-15081-datashield-risky-finetune-data.md — paper
 - @entities/tools/datashield.md — implementation
 - @concepts/rubric-capability-tree-diagnosis.md — diagnose capability gaps then filter FT risk

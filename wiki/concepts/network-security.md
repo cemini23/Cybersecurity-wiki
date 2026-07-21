@@ -56,13 +56,19 @@ related:
   - concepts/industrial-safety-security-convergence.md
   - sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
   - sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md
+  - concepts/solver-grounded-agentic-ot.md
+  - sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+  - entities/tools/llms-agents-smartgrids-code.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @entities/tools/llms-agents-smartgrids-code.md
+- @sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+- @concepts/solver-grounded-agentic-ot.md
 - @concepts/red-team-operations.md
 - @concepts/zero-trust.md
 - @entities/people/joas-a-santos.md

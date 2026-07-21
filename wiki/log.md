@@ -1058,3 +1058,20 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 - `arxiv-2607.16122-…pdf`
 - `arxiv-2607.16175-…pdf`
 
+## [2026-07-21] ingest | daily digest 5 arXiv (A-MESS, BioBreaker, smart-grid, SWE-Pruner, EoBench)
+
+**Inbox**: 5 PDFs from `wiki/sweeps/2026-07-21-daily.md` (all NEW).
+
+- **NEW** `@sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md` + `@concepts/defender-centric-jailbreak-utility.md` — **K197** REFERENCE
+- **NEW** `@sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md` + `@concepts/llm-biosecurity-red-teaming.md` — **K198** REFERENCE (no operational bio content)
+- **NEW** `@sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md` + `@concepts/solver-grounded-agentic-ot.md` + `@entities/tools/llms-agents-smartgrids-code.md` — **K199** REFERENCE (NO LICENSE)
+- **NEW** `@sources/arxiv-2607-18213-swe-pruner-pro.md` + `@concepts/coding-agent-context-pruning.md` + `@entities/tools/swe-pruner-pro.md` — **K200** CONDITIONAL-GO; local clone ~8.7MB
+- **NEW** `@sources/arxiv-2607-18232-eobench-expressions-of-belief.md` + `@concepts/llm-belief-expression-robustness.md` — REFERENCE (EoB unlicensed)
+- **Updated** llm-adversarial-fuzzing, crescendo, pair, datashield, ai-for-cybersecurity, responsible-disclosure, network-security, 6g-cps, industrial-safety, social-engineering, index.md
+- **Briefs**: K197–K200 → prod; CCC handoff; poker K197/K200 steal + K198/K199 no-fit
+- **David / TipDrop**: skipped (no persona/image install path)
+- **Phase-0**: `scripts/adopt_k197_k200_phase0.sh` PASS
+- **Sweep**: `wiki/sweeps/2026-07-21-daily.md`
+
+**Archive**: five PDFs → egress-fi cybersec/
+

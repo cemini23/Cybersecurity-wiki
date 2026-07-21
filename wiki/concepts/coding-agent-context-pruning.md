@@ -1,0 +1,27 @@
+---
+title: Coding-agent context pruning (SWE-Pruner Pro pattern)
+type: concept
+tags: [coding-agent, context-management, efficiency]
+keywords: [tool-output pruning, internal representations, SWE-Bench tokens]
+related:
+  - sources/arxiv-2607-18213-swe-pruner-pro.md
+  - entities/tools/swe-pruner-pro.md
+  - concepts/ai-for-cybersecurity.md
+maturity: draft
+created: 2026-07-21
+updated: 2026-07-21
+---
+
+## Relations
+
+- @sources/arxiv-2607-18213-swe-pruner-pro.md
+- @entities/tools/swe-pruner-pro.md
+- @concepts/ai-for-cybersecurity.md
+
+## Raw Concept
+
+Multi-turn coding agents drown in tool stdout. Pruning from the **agent's own hidden states** can cut tokens (~39%) without a separate classifier — and sometimes improve resolve rates.
+
+## Narrative
+
+Use when trajectories are tool-output heavy. Measure resolve/quality + latency overhead of the prune head. Lab-only until LICENSE file lands alongside pyproject Apache-2.0 claim.

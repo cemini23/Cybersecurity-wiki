@@ -18,13 +18,17 @@ related:
   - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
   - concepts/industrial-safety-security-convergence.md
   - sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
+  - concepts/solver-grounded-agentic-ot.md
+  - sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+- @concepts/solver-grounded-agentic-ot.md
 - @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
 - @concepts/industrial-safety-security-convergence.md
 - @sources/arxiv-2606-08173-ai-native-closed-loop-6g-cps-security.md — PRISMA survey anchor (128 studies)

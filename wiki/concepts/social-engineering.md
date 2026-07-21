@@ -21,13 +21,17 @@ related:
   - entities/tools/sevra-bench.md
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - concepts/llm-belief-expression-robustness.md
+  - sources/arxiv-2607-18232-eobench-expressions-of-belief.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-03
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-18232-eobench-expressions-of-belief.md
+- @concepts/llm-belief-expression-robustness.md
 - @concepts/red-team-operations.md
 - @concepts/osint-for-cybersecurity.md
 - @concepts/cyber-for-kids.md

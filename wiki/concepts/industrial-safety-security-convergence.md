@@ -9,13 +9,17 @@ related:
   - concepts/wireless-pentest.md
   - concepts/6g-cps-closed-loop-security.md
   - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
+  - concepts/solver-grounded-agentic-ot.md
+  - sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+- @concepts/solver-grounded-agentic-ot.md
 - @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md — empirical SRSL latency/capacity study
 - @concepts/network-security.md — OT/IIoT umbrella
 - @concepts/wireless-pentest.md — RF access vs safety-fieldbus crypto

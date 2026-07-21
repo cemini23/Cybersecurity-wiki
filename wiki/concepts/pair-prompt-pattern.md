@@ -10,13 +10,17 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/defender-centric-jailbreak-utility.md
+  - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-21
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+- @concepts/defender-centric-jailbreak-utility.md
 - @entities/tools/fuzzyai.md — reference implementation (CLI flag `-a pair`)
 - @concepts/llm-adversarial-fuzzing.md — methodology umbrella; PAIR is one pattern under it
 - @concepts/crescendo-multi-turn-jailbreak.md — companion multi-turn pattern; PAIR is single-turn
