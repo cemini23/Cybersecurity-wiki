@@ -93,13 +93,17 @@ related:
   - concepts/skillsec-lifecycle-agent-skill-security.md
   - concepts/mcp-security-evidence-grounded-detection.md
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/authority-framing-agentic-cicd.md
+  - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-18
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+- @concepts/authority-framing-agentic-cicd.md
 - @sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md — mcp-attested clearance + allowlist
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — cross-session stored SPI
 - @sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md — DCI measurement (9.93%)

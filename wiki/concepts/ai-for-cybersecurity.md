@@ -146,13 +146,35 @@ related:
   - sources/arxiv-2607-18213-swe-pruner-pro.md
   - sources/arxiv-2607-18232-eobench-expressions-of-belief.md
   - entities/tools/swe-pruner-pro.md
+  - concepts/authority-framing-agentic-cicd.md
+  - concepts/quantum-vqe-adversarial-robustness.md
+  - concepts/off-context-privileged-rlvr.md
+  - concepts/evidence-aware-long-context-grounding.md
+  - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+  - sources/arxiv-2607-19318-vqe-advbench-quantum-red-teaming.md
+  - sources/arxiv-2607-19313-oc-grpo-off-context.md
+  - sources/arxiv-2607-19345-gear-evidence-aware-rl.md
+  - entities/tools/senthex-research.md
+  - entities/tools/oc-grpo.md
+  - concepts/biosecbench-surveillance-verifiable-agent-eval.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @concepts/biosecbench-surveillance-verifiable-agent-eval.md
+- @entities/tools/oc-grpo.md
+- @entities/tools/senthex-research.md
+- @sources/arxiv-2607-19345-gear-evidence-aware-rl.md
+- @sources/arxiv-2607-19313-oc-grpo-off-context.md
+- @sources/arxiv-2607-19318-vqe-advbench-quantum-red-teaming.md
+- @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+- @concepts/evidence-aware-long-context-grounding.md
+- @concepts/off-context-privileged-rlvr.md
+- @concepts/quantum-vqe-adversarial-robustness.md
+- @concepts/authority-framing-agentic-cicd.md
 - @entities/tools/swe-pruner-pro.md
 - @sources/arxiv-2607-18232-eobench-expressions-of-belief.md
 - @sources/arxiv-2607-18213-swe-pruner-pro.md

@@ -24,13 +24,19 @@ related:
   - concepts/agent-data-injection-attacks.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/authority-framing-agentic-cicd.md
+  - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+  - entities/tools/senthex-research.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-18
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @entities/tools/senthex-research.md
+- @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+- @concepts/authority-framing-agentic-cicd.md
 - @sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md — primary eval source (SEVRA-BENCH)
 - @entities/tools/sevra-bench.md — benchmark harness entity
 - @concepts/social-engineering.md — human SE tradecraft → 15 automated PR framings

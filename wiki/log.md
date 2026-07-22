@@ -1,5 +1,16 @@
 # Cybersecurity Wiki — Operations Log
 
+
+## [2026-07-22] ingest | arXiv K202–K205 + BioSecBench stub
+
+- **Sources:** 2607.19267 authority framing / Senthex RELAY; 2607.19313 OC-GRPO; 2607.19318 VQE-AdvBench; 2607.19345 GEAR; BioSecBench 2607.19262 cross-wiki stub (CCC K203)
+- **Concepts:** authority-framing-agentic-cicd; off-context-privileged-rlvr; quantum-vqe-adversarial-robustness; evidence-aware-long-context-grounding; biosecbench-surveillance-verifiable-agent-eval
+- **Entities:** senthex-research (GO clone ~672KB); oc-grpo (GO clone ~24MB)
+- **Phase-0:** `scripts/adopt_k202_k205_phase0.sh` PASS; local adopts <500MB
+- **Briefs:** K202–K205 → cemini-prod:/opt/cemini/briefs/; poker steals K202/K204; no David/TipDrop
+- **Archive:** 4 PDFs → egress-fi cybersec; inbox empty
+- **Lint:** CI-strict `--fail-on-dangling --fail-on-bidirectional` exit 0
+
 Append-only chronological log of ingests, queries, and lint passes. Newest entries at the bottom.
 
 ---

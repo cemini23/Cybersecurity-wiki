@@ -7,13 +7,17 @@ related:
   - sources/arxiv-2607-18213-swe-pruner-pro.md
   - entities/tools/swe-pruner-pro.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/evidence-aware-long-context-grounding.md
+  - sources/arxiv-2607-19345-gear-evidence-aware-rl.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-19345-gear-evidence-aware-rl.md
+- @concepts/evidence-aware-long-context-grounding.md
 - @sources/arxiv-2607-18213-swe-pruner-pro.md
 - @entities/tools/swe-pruner-pro.md
 - @concepts/ai-for-cybersecurity.md

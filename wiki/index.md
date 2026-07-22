@@ -80,11 +80,15 @@
 | @concepts/rubric-capability-tree-diagnosis.md | draft | CRAFT — rubric-criterion capability trees for targeted SFT |
 | @concepts/llm-research-competency-model.md | draft | Eight competencies for LLM-literate researchers (2607.16083) |
 | @concepts/coding-agent-context-pruning.md | draft | SWE-Pruner Pro internal-rep tool-output prune (2607.18213) |
+| @concepts/evidence-aware-long-context-grounding.md | draft | GEAR — evidence reward vs distractor copy (2607.19345) |
+| @concepts/off-context-privileged-rlvr.md | draft | OC-GRPO privileged guidance for hard RLVR (2607.19313) |
+| @concepts/quantum-vqe-adversarial-robustness.md | draft | Cloud VQE red-team SoK / VQE-AdvBench (2607.19318) |
 | @concepts/llm-belief-expression-robustness.md | draft | EoBench — belief framing vs prior knowledge (2607.18232) |
 | @concepts/llm-vulnerability-discovery.md | draft | LLM-driven vuln-discovery pipeline (Detect→Attack); defending-code ASAN verify |
 | @concepts/llm-adversarial-fuzzing.md | draft | Adversarial LLM testing methodology (FuzzyAI umbrella) |
 | @concepts/defender-centric-jailbreak-utility.md | draft | A-MESS/AttackSHAP — rank jailbreaks by safety-train utility (2607.17152) |
 | @concepts/llm-biosecurity-red-teaming.md | draft | Dual-use bio early-warning posture (Intern-BioBreaker 2607.18056) |
+| @concepts/biosecbench-surveillance-verifiable-agent-eval.md | draft | BioSecBench surveillance agent eval (2607.19262; CCC K203) |
 | @concepts/pair-prompt-pattern.md | draft | PAIR — single-turn LLM jailbreak (arXiv 2310.08419) |
 | @concepts/crescendo-multi-turn-jailbreak.md | draft | Multi-turn LLM escalation attack (arXiv 2404.01833) |
 | @concepts/amt-x-phase-structured-multi-turn-red-teaming.md | draft | AMT-X dual overall/full ASR + phase state machine (2607.11151) |
@@ -101,6 +105,7 @@
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
 | @concepts/llm-code-review-agent-security.md | draft | SEVRA merge-gate robustness — reversed CVE PR + framing attacks (2606.13757) |
+| @concepts/authority-framing-agentic-cicd.md | draft | Authority laundering in multi-agent CI/CD (2607.19267) |
 | @concepts/trajectory-context-control.md | draft | GT-MCP — multi-agent memory-commit gate + drift rollback (2606.10322) |
 | @concepts/internet-of-agentic-ai-ioai.md | draft | IoAI vision — federated agent ecosystems + Table 4 threat taxonomy (2606.12835) |
 | @concepts/exceptional-access-risk-quantification.md | draft | EA architecture risk framework — T-EA vs OTT-EA, deep uncertainty (2606.19106) |
@@ -226,6 +231,8 @@
 | @entities/tools/autosut.md | draft | STIX environment-semantics gap measurement for adversary emulation (Reference) |
 | @entities/tools/cav-stixgen.md | draft | CAV CVE→STIX benchmark (figshare REFERENCE; no local clone) |
 | @entities/tools/swe-pruner-pro.md | draft | SWE-Pruner Pro (Apache-2.0 pyproject; CONDITIONAL-GO ~8.7MB) |
+| @entities/tools/senthex-research.md | draft | Senthex RELAY/ATLAS harness (MIT; GO ~672KB) |
+| @entities/tools/oc-grpo.md | draft | OC-GRPO (Apache-2.0; GO ~24MB) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -376,6 +383,8 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | cav-stixgen | — | Reference | K196 | @entities/tools/cav-stixgen.md — CAV CVE→STIX; figshare share unverified license |
 | llm-research-competencies-zenodo | CC-BY-4.0 | Reference/ADOPT-ARTIFACT | digest | Zenodo 21313656 pack ~396KB at `raw-sources/repos/llm-research-competencies-zenodo` |
 | swe-pruner-pro | Apache-2.0 (pyproject) | CONDITIONAL-GO | K200 | @entities/tools/swe-pruner-pro.md — ~8.7MB shallow; no LICENSE file |
+| senthex-research | MIT | GO | K202 | @entities/tools/senthex-research.md — RELAY/ATLAS ~672KB |
+| oc-grpo | Apache-2.0 | GO | K204 | @entities/tools/oc-grpo.md — ~24MB |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 

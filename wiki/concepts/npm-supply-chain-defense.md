@@ -14,13 +14,17 @@ related:
   - concepts/llm-code-review-agent-security.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/authority-framing-agentic-cicd.md
+  - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-18
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+- @concepts/authority-framing-agentic-cicd.md
 - @concepts/defense-in-depth.md — package-manager hardening as one layer of a layered defensive strategy
 - @concepts/system-hardening.md — release-age cooldown + version pinning as attack-surface reduction
 - `@osint-wiki/concepts/npm-supply-chain-defense.md` — full concept page (origin, distilled)

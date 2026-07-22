@@ -120,15 +120,19 @@ related:
   - entities/tools/datashield.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/authority-framing-agentic-cicd.md
+  - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-18
+updated: 2026-07-22
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
 
 ## Relations
 
+- @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+- @concepts/authority-framing-agentic-cicd.md
 - @concepts/ai-for-cybersecurity.md — LLM agents in offensive/defensive workflows
 - @concepts/llm-adversarial-fuzzing.md — jailbreak/refusal testing vs agent side-effect attacks
 - @concepts/llm-pentest-automation.md — Tier-2 agents with MCP tools need runtime guards

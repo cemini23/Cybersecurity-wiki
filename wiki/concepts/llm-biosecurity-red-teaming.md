@@ -8,13 +8,16 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/responsible-disclosure.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/biosecbench-surveillance-verifiable-agent-eval.md
+  - sources/arxiv-biosecbench-surveillance-2607.19262.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @concepts/biosecbench-surveillance-verifiable-agent-eval.md
 - @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/responsible-disclosure.md
