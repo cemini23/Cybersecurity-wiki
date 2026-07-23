@@ -8,9 +8,10 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/mcp-taint-style-vulnerabilities.md
   - "@ccc-wiki/concepts/mcp-security-signals-vs-runtime-evidence.md"
+  - concepts/chainwatch-mcp-kill-chain-detection.md
 maturity: draft
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 ---
 
 ## Relations

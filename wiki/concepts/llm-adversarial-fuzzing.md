@@ -49,13 +49,17 @@ related:
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
   - concepts/llm-biosecurity-red-teaming.md
   - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
+  - concepts/agent-reconnaissance-ipi-pentesting.md
+  - sources/arxiv-2607-19837-know-your-agent-recon.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-21
+updated: 2026-07-23
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-19837-know-your-agent-recon.md
+- @concepts/agent-reconnaissance-ipi-pentesting.md
 - @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
 - @concepts/llm-biosecurity-red-teaming.md
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md

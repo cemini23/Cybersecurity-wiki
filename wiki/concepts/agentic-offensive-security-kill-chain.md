@@ -19,14 +19,19 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/security-tool-orchestration-determinants.md
   - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
+  - concepts/chainwatch-mcp-kill-chain-detection.md
+  - concepts/ethics-autonomous-offensive-ai-agents.md
 
+  - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-07-23
 ---
 
 ## Relations
 
+- @sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
+- @concepts/ethics-autonomous-offensive-ai-agents.md
 - @sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md — primary audit (2606.24496)
 - @concepts/llm-pentest-automation.md — Tier-2 deployment methodology
 - @concepts/agent-vm-sandboxing.md — substrate isolation complement

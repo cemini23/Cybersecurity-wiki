@@ -28,13 +28,17 @@ related:
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
   - concepts/llm-biosecurity-red-teaming.md
   - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
+  - concepts/ethics-autonomous-offensive-ai-agents.md
+  - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-21
+updated: 2026-07-23
 ---
 
 ## Relations
 
+- @sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
+- @concepts/ethics-autonomous-offensive-ai-agents.md
 - @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
 - @concepts/llm-biosecurity-red-teaming.md
 - @concepts/bug-bounty.md

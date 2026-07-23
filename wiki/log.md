@@ -1,6 +1,16 @@
 # Cybersecurity Wiki — Operations Log
 
 
+
+## [2026-07-23] ingest | arXiv K210–K214 (KYA, ethics, Schwartz, safety bounds, Notes-to-self)
+
+- **Sources:** 2607.19837 Know Your Agent; 2607.20255 ethics (deepen CCC stub); 2607.20270 Schwartz recognition; 2607.20286 probabilistic safety bounds; 2607.20372 Notes-to-self
+- **Concepts:** agent-reconnaissance-ipi-pentesting; ethics-autonomous-offensive-ai-agents (deepen); llm-schwartz-value-recognition; llm-probabilistic-safety-bounds; experiential-abstraction-memory
+- **Entities:** know-your-agent (REFERENCE/wait); notes-to-self (CONDITIONAL-GO clone ~16MB)
+- **Phase-0:** `scripts/adopt_k210_k214_phase0.sh`; KYA public code not found
+- **Briefs:** K210–K214 → prod; poker steals K210/K211; no David/TipDrop
+- **Archive:** 5 PDFs → egress-fi cybersec
+
 ## [2026-07-22] ingest | arXiv K202–K205 + BioSecBench stub
 
 - **Sources:** 2607.19267 authority framing / Senthex RELAY; 2607.19313 OC-GRPO; 2607.19318 VQE-AdvBench; 2607.19345 GEAR; BioSecBench 2607.19262 cross-wiki stub (CCC K203)

@@ -157,13 +157,28 @@ related:
   - entities/tools/senthex-research.md
   - entities/tools/oc-grpo.md
   - concepts/biosecbench-surveillance-verifiable-agent-eval.md
+  - concepts/agent-reconnaissance-ipi-pentesting.md
+  - concepts/ethics-autonomous-offensive-ai-agents.md
+  - concepts/llm-schwartz-value-recognition.md
+  - concepts/llm-probabilistic-safety-bounds.md
+  - concepts/experiential-abstraction-memory.md
+  - sources/arxiv-2607-19837-know-your-agent-recon.md
+  - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
+  - sources/arxiv-2607-20270-schwartz-value-recognition.md
+  - sources/arxiv-2607-20286-probabilistic-llm-safety-bounds.md
+  - sources/arxiv-2607-20372-notes-to-self-experiential.md
+  - concepts/slm-ensemble-malware-analysis-orchestration.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations
 
+- @concepts/slm-ensemble-malware-analysis-orchestration.md
+- @concepts/llm-schwartz-value-recognition.md
+- @concepts/ethics-autonomous-offensive-ai-agents.md
+- @concepts/agent-reconnaissance-ipi-pentesting.md
 - @concepts/biosecbench-surveillance-verifiable-agent-eval.md
 - @entities/tools/oc-grpo.md
 - @entities/tools/senthex-research.md

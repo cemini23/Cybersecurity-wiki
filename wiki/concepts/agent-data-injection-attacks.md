@@ -22,15 +22,19 @@ related:
   - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
   - entities/tools/aha-auto-research-red-teaming.md
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
+  - concepts/agent-reconnaissance-ipi-pentesting.md
+  - sources/arxiv-2607-19837-know-your-agent-recon.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-18
+updated: 2026-07-23
 ---
 
 **Briefs:** `briefs/2026-07-09_adi-trusted-untrusted-data-handoff.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`
 
 ## Relations
 
+- @sources/arxiv-2607-19837-know-your-agent-recon.md
+- @concepts/agent-reconnaissance-ipi-pentesting.md
 - @sources/arxiv-2607-05120-agent-data-injection-attacks.md — ADI paper + benchmark (2607.05120)
 - @concepts/mcp-execution-control-invariants.md — HCP I1/I4 principal binding complements DT/DU isolation
 

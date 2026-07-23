@@ -122,15 +122,22 @@ related:
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/authority-framing-agentic-cicd.md
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+  - concepts/agent-reconnaissance-ipi-pentesting.md
+  - concepts/llm-probabilistic-safety-bounds.md
+  - sources/arxiv-2607-19837-know-your-agent-recon.md
+  - sources/arxiv-2607-20286-probabilistic-llm-safety-bounds.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
 
 ## Relations
 
+- @sources/arxiv-2607-19837-know-your-agent-recon.md
+- @concepts/llm-probabilistic-safety-bounds.md
+- @concepts/agent-reconnaissance-ipi-pentesting.md
 - @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 - @concepts/authority-framing-agentic-cicd.md
 - @concepts/ai-for-cybersecurity.md — LLM agents in offensive/defensive workflows

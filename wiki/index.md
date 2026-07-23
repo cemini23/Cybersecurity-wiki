@@ -102,6 +102,18 @@
 | @concepts/coding-agent-supply-chain-install-gap.md | draft | Coding-agent install gap + pre-install gate (2607.15143 / K179) |
 | @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md | draft | ARMOR++ agentic deepfake-detector transfer attacks (2607.15246 / K188) |
 | @concepts/mcp-security-evidence-grounded-detection.md | draft | FlowGuard — evidence-grounded MCP detection (2607.14754 / K189 route) |
+| @sources/arxiv-2607-19837-know-your-agent-recon.md | draft | KYA recon-driven IPI pentest (2607.19837; K210) |
+| @sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md | draft | Ethics of autonomous offensive AI agents (2607.20255; K211) |
+| @sources/arxiv-2607-20270-schwartz-value-recognition.md | draft | Schwartz value recognition confusions (2607.20270; K212) |
+| @sources/arxiv-2607-20286-probabilistic-llm-safety-bounds.md | draft | Sound PAC safety bounds for LLMs (2607.20286; K213) |
+| @sources/arxiv-2607-20372-notes-to-self-experiential.md | draft | Experiential abstractions Notes-to-self (2607.20372; K214) |
+| @concepts/agent-reconnaissance-ipi-pentesting.md | draft | Agent recon loop for IPI pentesting (KYA) |
+| @concepts/llm-schwartz-value-recognition.md | draft | Schwartz Acc@1/directed confusions |
+| @concepts/llm-probabilistic-safety-bounds.md | draft | Clopper-Pearson PAC harm lower bounds |
+| @concepts/experiential-abstraction-memory.md | draft | Score-gated experiential abstraction memory |
+| @concepts/ethics-autonomous-offensive-ai-agents.md | draft | Three indeterminacies — autonomous offensive agents |
+| @entities/tools/know-your-agent.md | draft | KYA framework (CONDITIONAL-GO wait for release) |
+| @entities/tools/notes-to-self.md | draft | Notes-to-self clone ~16MB Apache/verl (CONDITIONAL-GO) |
 | @concepts/llm-pentest-automation.md | draft | Tier 1/2 LLM pentest automation + scope-enforcement model |
 | @concepts/agent-runtime-guardrails.md | draft | Agent side-effect attacks + runtime guards; GT-MCP trajectory layer (2606.10322) |
 | @concepts/llm-code-review-agent-security.md | draft | SEVRA merge-gate robustness — reversed CVE PR + framing attacks (2606.13757) |
@@ -425,4 +437,6 @@ When this wiki references a sibling wiki's page, the citation uses `@<alias>/pat
 - `3d-printing-wiki` — FDM/FFF, Bambu, slicers, print farms
 
 Bidirectional invariant: if this wiki cites `@osint-wiki/...`, the matching page in the OSINT wiki should cite `@cybersecurity-wiki/...` back. Run `python3 scripts/wiki_lint.py` to check.
-
+| @concepts/slm-ensemble-malware-analysis-orchestration.md | draft | Hybrid SLM ensemble malware orchestration (CCC cross-wiki) |
+| @concepts/chainwatch-mcp-kill-chain-detection.md | draft | ChainWatch MCP sequential kill-chain detection (CCC) |
+| @sources/arxiv-chainwatch-mcp-sequential-detection-2607.19432.md | draft | ChainWatch arXiv 2607.19432 stub |

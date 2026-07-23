@@ -9,13 +9,19 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/evidence-aware-long-context-grounding.md
   - sources/arxiv-2607-19345-gear-evidence-aware-rl.md
+  - concepts/experiential-abstraction-memory.md
+  - entities/tools/notes-to-self.md
+  - sources/arxiv-2607-20372-notes-to-self-experiential.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-20372-notes-to-self-experiential.md
+- @entities/tools/notes-to-self.md
+- @concepts/experiential-abstraction-memory.md
 - @sources/arxiv-2607-19345-gear-evidence-aware-rl.md
 - @concepts/evidence-aware-long-context-grounding.md
 - @sources/arxiv-2607-18213-swe-pruner-pro.md
