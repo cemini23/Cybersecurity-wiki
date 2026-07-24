@@ -2,6 +2,15 @@
 
 
 
+
+## [2026-07-24] ingest | arXiv K215–K219 (drone FL, CodeMonitor, PATS, Thinkink, RFFI)
+
+- **Sources:** 2607.20280 drone FL chained deauth/impersonation; 2607.20852 Code Monitor Red Teaming; 2607.21419 PATS; 2607.21468 Thinkink; 2607.21564 RF fingerprint probe points
+- **Concepts:** drone-fl-chained-deauth-impersonation; code-monitor-red-teaming-public-tests; pats-policy-aware-agent-rl-scaffold; thinkink-ink-native-llm-canvas; rf-fingerprint-probe-point-benchmark
+- **Phase-0:** all REFERENCE — no public repos <500MB to adopt; `scripts/adopt_k215_k219_phase0.sh`
+- **Briefs:** K215–K219 → prod; poker steals K215/K216; no David/TipDrop
+- **Archive:** 5 PDFs → egress-fi cybersec
+
 ## [2026-07-23] ingest | arXiv K210–K214 (KYA, ethics, Schwartz, safety bounds, Notes-to-self)
 
 - **Sources:** 2607.19837 Know Your Agent; 2607.20255 ethics (deepen CCC stub); 2607.20270 Schwartz recognition; 2607.20286 probabilistic safety bounds; 2607.20372 Notes-to-self

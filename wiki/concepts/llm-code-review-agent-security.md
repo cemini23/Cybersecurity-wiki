@@ -27,13 +27,17 @@ related:
   - concepts/authority-framing-agentic-cicd.md
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
   - entities/tools/senthex-research.md
+  - concepts/code-monitor-red-teaming-public-tests.md
+  - sources/arxiv-2607-20852-code-monitor-red-teaming.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-20852-code-monitor-red-teaming.md
+- @concepts/code-monitor-red-teaming-public-tests.md
 - @entities/tools/senthex-research.md
 - @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 - @concepts/authority-framing-agentic-cicd.md

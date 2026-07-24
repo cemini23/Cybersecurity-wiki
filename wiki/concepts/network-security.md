@@ -59,13 +59,17 @@ related:
   - concepts/solver-grounded-agentic-ot.md
   - sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
   - entities/tools/llms-agents-smartgrids-code.md
+  - concepts/rf-fingerprint-probe-point-benchmark.md
+  - sources/arxiv-2607-21564-rf-fingerprint-probe.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-21
+updated: 2026-07-24
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-21564-rf-fingerprint-probe.md
+- @concepts/rf-fingerprint-probe-point-benchmark.md
 - @entities/tools/llms-agents-smartgrids-code.md
 - @sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
 - @concepts/solver-grounded-agentic-ot.md

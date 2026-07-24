@@ -168,13 +168,33 @@ related:
   - sources/arxiv-2607-20286-probabilistic-llm-safety-bounds.md
   - sources/arxiv-2607-20372-notes-to-self-experiential.md
   - concepts/slm-ensemble-malware-analysis-orchestration.md
+  - concepts/drone-fl-chained-deauth-impersonation.md
+  - concepts/code-monitor-red-teaming-public-tests.md
+  - concepts/pats-policy-aware-agent-rl-scaffold.md
+  - concepts/thinkink-ink-native-llm-canvas.md
+  - concepts/rf-fingerprint-probe-point-benchmark.md
+  - sources/arxiv-2607-20280-drone-fl-chained-attacks.md
+  - sources/arxiv-2607-20852-code-monitor-red-teaming.md
+  - sources/arxiv-2607-21419-pats-agentic-rl.md
+  - sources/arxiv-2607-21468-thinkink.md
+  - sources/arxiv-2607-21564-rf-fingerprint-probe.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-21564-rf-fingerprint-probe.md
+- @sources/arxiv-2607-21468-thinkink.md
+- @sources/arxiv-2607-21419-pats-agentic-rl.md
+- @sources/arxiv-2607-20852-code-monitor-red-teaming.md
+- @sources/arxiv-2607-20280-drone-fl-chained-attacks.md
+- @concepts/rf-fingerprint-probe-point-benchmark.md
+- @concepts/thinkink-ink-native-llm-canvas.md
+- @concepts/pats-policy-aware-agent-rl-scaffold.md
+- @concepts/code-monitor-red-teaming-public-tests.md
+- @concepts/drone-fl-chained-deauth-impersonation.md
 - @concepts/slm-ensemble-malware-analysis-orchestration.md
 - @concepts/llm-schwartz-value-recognition.md
 - @concepts/ethics-autonomous-offensive-ai-agents.md

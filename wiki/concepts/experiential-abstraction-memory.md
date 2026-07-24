@@ -8,13 +8,17 @@ related:
   - entities/tools/notes-to-self.md
   - concepts/coding-agent-context-pruning.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/pats-policy-aware-agent-rl-scaffold.md
+  - sources/arxiv-2607-21419-pats-agentic-rl.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-21419-pats-agentic-rl.md
+- @concepts/pats-policy-aware-agent-rl-scaffold.md
 - @sources/arxiv-2607-20372-notes-to-self-experiential.md
 - @entities/tools/notes-to-self.md
 - @concepts/coding-agent-context-pruning.md

@@ -11,13 +11,17 @@ related:
   - sources/arxiv-2606-22939-citadel-csi-jamming-iiot.md
   - concepts/solver-grounded-agentic-ot.md
   - sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
+  - concepts/drone-fl-chained-deauth-impersonation.md
+  - sources/arxiv-2607-20280-drone-fl-chained-attacks.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-21
+updated: 2026-07-24
 ---
 
 ## Relations
 
+- @sources/arxiv-2607-20280-drone-fl-chained-attacks.md
+- @concepts/drone-fl-chained-deauth-impersonation.md
 - @sources/arxiv-2607-18147-llms-agents-smart-grids-tutorial.md
 - @concepts/solver-grounded-agentic-ot.md
 - @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md — empirical SRSL latency/capacity study

@@ -1,0 +1,29 @@
+---
+title: RF fingerprint probe-point benchmark (open-set)
+type: concept
+tags: [concept, wireless, rf-fingerprint, rffi]
+keywords: [RFFI, probe point, timing recovery, open-set, BPSK, 2607.21564]
+related:
+  - sources/arxiv-2607-21564-rf-fingerprint-probe.md
+  - concepts/wireless-pentest.md
+  - concepts/network-security.md
+  - concepts/ai-for-cybersecurity.md
+maturity: draft
+created: 2026-07-24
+updated: 2026-07-24
+---
+
+## Relations
+
+- @sources/arxiv-2607-21564-rf-fingerprint-probe.md
+- @concepts/wireless-pentest.md
+- @concepts/network-security.md
+- @concepts/ai-for-cybersecurity.md
+
+## Raw Concept
+
+Where you tap the RX chain dominates open-set RFFI performance.
+
+## Narrative
+
+Five BPSK probe points; timing recovery best for low false-acceptance. Always report probe stage in RFFI claims. [CONFIRMED abstract]

@@ -56,6 +56,16 @@
 | @concepts/phishing.md | draft | Spear phishing + MFA bypass + infrastructure |
 | @concepts/osint-for-cybersecurity.md | validated | Pre-engagement + threat-intel OSINT |
 | @concepts/linux-pentest.md | draft | Linux enumeration + privesc (GTFOBins, SUID, capabilities) |
+| @sources/arxiv-2607-20280-drone-fl-chained-attacks.md | draft | Drone FL deauth→impersonation chain (2607.20280; K215) |
+| @sources/arxiv-2607-20852-code-monitor-red-teaming.md | draft | CodeMonitorBench public-test residual bugs (2607.20852; K216) |
+| @sources/arxiv-2607-21419-pats-agentic-rl.md | draft | PATS policy-aware agent RL scaffold (2607.21419; K217) |
+| @sources/arxiv-2607-21468-thinkink.md | draft | Thinkink ink-native LLM canvas HCI (2607.21468; K218) |
+| @sources/arxiv-2607-21564-rf-fingerprint-probe.md | draft | RFFI probe-point open-set benchmark (2607.21564; K219) |
+| @concepts/drone-fl-chained-deauth-impersonation.md | draft | Wi-Fi deauth enables FL client impersonation |
+| @concepts/code-monitor-red-teaming-public-tests.md | draft | Weak monitors miss hidden bugs after public tests |
+| @concepts/pats-policy-aware-agent-rl-scaffold.md | draft | Fade training scaffolds for agentic RL |
+| @concepts/thinkink-ink-native-llm-canvas.md | draft | Ink-native multimodal LLM canvas (HCI light) |
+| @concepts/rf-fingerprint-probe-point-benchmark.md | draft | RFFI performance depends on RX probe point |
 | @concepts/wireless-pentest.md | draft | WiFi / WPS / Bluetooth / RFID attacks |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
 | @concepts/dns-server-discovery-vs-subdomain-enumeration.md | draft | DNS recon distinction (server discovery vs subdomain enum) |
