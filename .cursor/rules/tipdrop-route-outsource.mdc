@@ -1,0 +1,43 @@
+---
+description: Cemini route — outsource + always-approve (skill contract). Base case for all projects.
+alwaysApply: true
+---
+
+# Route outsource + always-approve (skill contract)
+
+**Canon:** `.cursor/skills/route/SKILL.md` (CCC / user-global).
+
+Always-approve is the default on **every** executor on **every** machine. This is the **base-case task router for all Cemini work** (Atto, CCC, OSINT, TipDrop, wikis) — not a TipDrop-only workflow. TipDrop kit merely hosts the scripts.
+
+## Goal
+
+Minimize Cursor Agent spend. Prefer Grok / DeepSeek (`claude-ds`) / OpenRouter / (David) Ollama.
+
+## When user says `/route`, `route this`, or asks to outsource a hard/money task
+
+1. Announce lane (easy/mid/hard/money) in one line.
+2. **Shell out** to `route-task` / kit `scripts/route-task.ps1` from the **current project** (or `-WorkDir`). Do **not** implement the task in Cursor.
+3. Summarize executor results only. Cursor implements **only** if the chain prints all executors failed.
+
+## WorkDir
+
+Default = current project directory. TipDrop scanner only when the task is clearly scanner/TipDrop work. Never assume TipDrop cwd for Atto/CCC/OSINT/etc.
+
+## Always-approve defaults (all profiles / all hosts)
+
+- Grok: `--always-approve` (opt out `-NoApprove` on that run only)
+- claude-ds: `--dangerously-skip-permissions` (opt out `CLAUDE_DS_ASK=1` / `-NoSkipPermissions`)
+- Cursor Agent: Auto-run enabled when last resort — still no LIVE Discord / no secret paste
+- One-time machine adopt: kit `scripts/adopt-route-always-approve.ps1`
+- **Grok login/auth failure:** stop and tell the operator to run `grok login` (or set `XAI_API_KEY`). Do **not** bypass to claude-ds/Cursor.
+
+## Profiles
+
+- `david` — easy starts Ollama
+- `claudio` — easy starts DeepSeek (no local model required)
+- Env: `ROUTE_PROFILE` (aliases `CEMINI_ROUTE_PROFILE`, `TIPDROP_ROUTE_PROFILE`)
+- Always-approve does **not** vary by profile
+
+## Safety unchanged
+
+No secrets in handoffs. No LIVE Discord without LIVE OK.
