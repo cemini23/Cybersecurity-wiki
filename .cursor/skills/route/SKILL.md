@@ -6,8 +6,9 @@ description: >-
   is the skill default. Use when the user says /route, "route this", or asks
   to auto-pick Ollama, DeepSeek, Grok, or Cursor. Sibling habit to "hand it
   to grok". Base case for all Cemini projects — not TipDrop-specific.
+license: MIT
 metadata.author: cemini23
-metadata.version: "1.1.0"
+metadata.version: "1.1.1"
 ---
 
 # /route — task sorter (easy · mid · hard · money)
@@ -52,9 +53,11 @@ When this skill runs **inside Cursor Agent**:
 Preferred operator habit (cheapest): run `route-task` in a terminal from the project — not `/route` in Agent.
 
 ```bash
-# Mac (shim) — cwd = project
+# Mac (shims on PATH) — cwd = project
+# route-task -> kit route-task.ps1; claude-ds -> pwsh claude-ds.ps1 (-PromptFile OK)
 cd ~/Projects/atto
 route-task -Profile claudio "hard: fix allowlist drift"
+# Refresh shims once: pwsh -File ~/Desktop/projects/tipdrop-workspace-kit/scripts/adopt-route-always-approve.ps1
 ```
 
 ```powershell

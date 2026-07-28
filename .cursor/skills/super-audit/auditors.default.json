@@ -1,0 +1,22 @@
+{
+  "slots": [
+    {
+      "label": "api-adversarial",
+      "role": "api-adversarial",
+      "base_url_env": "OPENROUTER_BASE_URL",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "model": "openrouter/fusion",
+      "extra": { "plugins": [{ "id": "fusion" }] },
+      "system": "Super audit — adversarial readonly reviewer (OpenRouter Fusion panel). Follow required output format exactly."
+    },
+    {
+      "label": "api-deep-reasoning",
+      "role": "api-deep-reasoning",
+      "base_url_env": "OPENROUTER_BASE_URL",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "model_env": "OPENROUTER_PREMIUM_MODEL",
+      "model": "z-ai/glm-5.2",
+      "system": "Super audit — deep reasoning readonly reviewer (OpenRouter premium). Follow required output format exactly."
+    }
+  ]
+}
