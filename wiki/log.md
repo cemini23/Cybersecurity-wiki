@@ -1105,3 +1105,8 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 
 **Archive**: five PDFs → egress-fi cybersec/
 
+
+## [2026-07-29] cross-wiki route | Optimistic Verifiable Claims — confidential G-code bidding (arXiv:2607.25517)
+
+Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-corn-optimistic-verifiable-claims.md`.
+- Created wiki/sources/2026-corn-optimistic-verifiable-claims.md (stub)

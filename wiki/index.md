@@ -436,6 +436,7 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [Packt SecPro — Identity Became the New Perimeter](sources/substack-rss-secpro-2026-07-03-identity-became-the-new-perimeter.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [The Engineering Club — Security Edition — How I’d Respond in the First Hour After a Package I Use Got Hacked](sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Firewall3D: Hardware Firewall for Defending 3D Printers Against Firmware Attacks](sources/2026-asgar-firewall3d-firmware-hardware.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Optimistic Verifiable Claims — confidential G-code bidding (arXiv:2607.25517)](sources/2026-corn-optimistic-verifiable-claims.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Cross-wiki anchors
 
