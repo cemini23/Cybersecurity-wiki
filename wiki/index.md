@@ -66,6 +66,16 @@
 | @concepts/pats-policy-aware-agent-rl-scaffold.md | draft | Fade training scaffolds for agentic RL |
 | @concepts/thinkink-ink-native-llm-canvas.md | draft | Ink-native multimodal LLM canvas (HCI light) |
 | @concepts/rf-fingerprint-probe-point-benchmark.md | draft | RFFI performance depends on RX probe point |
+| @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md | draft | Evidential ceiling for AI red-team evals (2607.21735; K220) |
+| @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md | draft | Concept2Scenario refusal-suppression priors (2607.23496; K221) |
+| @sources/arxiv-2607-25379-cyber-capable-agent-containment.md | draft | Cyber-capable agent eval containment (2607.25379; K222) |
+| @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md | draft | IH-Benchmark S≻U vs U≻T (2607.25987; K223) |
+| @sources/arxiv-2607-25995-kutie-topology-k8s-patches.md | draft | KuTIE topology-aware K8s patches (2607.25995; K224) |
+| @concepts/ai-redteam-evidential-ceiling.md | draft | What fixed-budget red-team evals can prove |
+| @concepts/concept2scenario-refusal-suppression.md | draft | SAE→scenario jailbreak priors |
+| @concepts/cyber-capable-agent-evaluation-containment.md | draft | Contain capability eval environments |
+| @concepts/instruction-hierarchy-conflict-benchmark.md | draft | S≻U ≠ U≻T hierarchy robustness |
+| @concepts/topology-aware-k8s-llm-remediation.md | draft | Call-graph context for KSPM LLM patches |
 | @concepts/wireless-pentest.md | draft | WiFi / WPS / Bluetooth / RFID attacks |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
 | @concepts/dns-server-discovery-vs-subdomain-enumeration.md | draft | DNS recon distinction (server discovery vs subdomain enum) |
@@ -255,6 +265,9 @@
 | @entities/tools/swe-pruner-pro.md | draft | SWE-Pruner Pro (Apache-2.0 pyproject; CONDITIONAL-GO ~8.7MB) |
 | @entities/tools/senthex-research.md | draft | Senthex RELAY/ATLAS harness (MIT; GO ~672KB) |
 | @entities/tools/oc-grpo.md | draft | OC-GRPO (Apache-2.0; GO ~24MB) |
+| @entities/tools/ai-redteam-evidential-limits.md | draft | Evidential-ceiling math (MIT; GO ~528KB) |
+| @entities/tools/vulncare.md | draft | VulnCare K8s remediation lab (Apache-2.0; GO ~2.6MB) |
+| @entities/tools/kutie-artifacts.md | draft | KuTIE artifacts (Dynatrace lab CONDITIONAL ~2.9MB) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -407,6 +420,9 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | swe-pruner-pro | Apache-2.0 (pyproject) | CONDITIONAL-GO | K200 | @entities/tools/swe-pruner-pro.md — ~8.7MB shallow; no LICENSE file |
 | senthex-research | MIT | GO | K202 | @entities/tools/senthex-research.md — RELAY/ATLAS ~672KB |
 | oc-grpo | Apache-2.0 | GO | K204 | @entities/tools/oc-grpo.md — ~24MB |
+| ai-redteam-evidential-limits | MIT | GO | K220 | @entities/tools/ai-redteam-evidential-limits.md — ~528KB |
+| vulncare | Apache-2.0 | GO | K224 | @entities/tools/vulncare.md — ~2.6MB |
+| kutie-artifacts | Dynatrace proprietary | CONDITIONAL-GO | K224 | @entities/tools/kutie-artifacts.md — lab-view only ~2.9MB |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 

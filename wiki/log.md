@@ -2,6 +2,15 @@
 
 
 
+## [2026-07-29] ingest | arXiv K220–K224 (evidential ceiling, Concept2Scenario, agent containment, IH-B, KuTIE)
+
+- **Sources:** 2607.21735 evidential ceiling; 2607.23496 Concept2Scenario; 2607.25379 cyber-capable agent containment; 2607.25987 IH-Benchmark; 2607.25995 KuTIE/VulnCare
+- **Concepts:** ai-redteam-evidential-ceiling; concept2scenario-refusal-suppression; cyber-capable-agent-evaluation-containment; instruction-hierarchy-conflict-benchmark; topology-aware-k8s-llm-remediation
+- **Entities:** ai-redteam-evidential-limits (GO MIT ~528KB); vulncare (GO Apache ~2.6MB); kutie-artifacts (CONDITIONAL Dynatrace lab ~2.9MB)
+- **Phase-0:** `scripts/adopt_k220_k224_phase0.sh`; Concept2Scenario + IH-B REFERENCE (no public code)
+- **Briefs:** K220–K224 → prod; poker steals K220/K222/K223; TipDrop/David K222/K223; Atto K222/K223
+- **Archive:** 5 PDFs → egress-fi cybersec
+
 
 ## [2026-07-24] ingest | arXiv K215–K219 (drone FL, CodeMonitor, PATS, Thinkink, RFFI)
 

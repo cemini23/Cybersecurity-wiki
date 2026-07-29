@@ -51,9 +51,14 @@ related:
   - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
   - concepts/agent-reconnaissance-ipi-pentesting.md
   - sources/arxiv-2607-19837-know-your-agent-recon.md
+  - concepts/ai-redteam-evidential-ceiling.md
+  - concepts/concept2scenario-refusal-suppression.md
+  - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
+  - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
+  - entities/tools/ai-redteam-evidential-limits.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-23
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -81,6 +86,11 @@ updated: 2026-07-23
 - @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — refusal-regex brittleness under LLM paraphrase
 
 - @entities/tools/ifixai.md — diagnostic harness for manipulation/deception checks beyond refusal fuzzing
+- @concepts/ai-redteam-evidential-ceiling.md
+- @concepts/concept2scenario-refusal-suppression.md
+- @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
+- @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
+- @entities/tools/ai-redteam-evidential-limits.md
 
 ## Raw Concept
 

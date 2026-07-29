@@ -16,9 +16,11 @@ related:
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
+  - concepts/instruction-hierarchy-conflict-benchmark.md
+  - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-06-22
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — primary source (2606.18673)
 - @entities/tools/leakbench-area.md — LeakBench eval harness + AREA defense (Reference)
 - @entities/tools/llm-defense-lattice.md — OWASP LLM07 attribution probes
+- @concepts/instruction-hierarchy-conflict-benchmark.md
+- @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 
 ## Raw Concept
 

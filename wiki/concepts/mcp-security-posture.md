@@ -95,9 +95,11 @@ related:
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
   - concepts/authority-framing-agentic-cicd.md
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+  - concepts/instruction-hierarchy-conflict-benchmark.md
+  - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-22
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -122,6 +124,8 @@ updated: 2026-07-22
 - @concepts/agentic-containment-principles.md — P1–P6 audit matrix
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — GT-MCP trajectory layer (Reference)
 - @concepts/trajectory-context-control.md — memory-commit gate above MCP transport
+- @concepts/instruction-hierarchy-conflict-benchmark.md
+- @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 
 ## Raw Concept
 

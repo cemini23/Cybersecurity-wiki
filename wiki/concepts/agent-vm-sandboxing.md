@@ -22,9 +22,11 @@ related:
   - sources/arxiv-2606-23449-aohp-os-level-agent-harness.md
   - sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - concepts/cyber-capable-agent-evaluation-containment.md
+  - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-07
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -39,6 +41,8 @@ updated: 2026-07-07
 - @concepts/agent-runtime-guardrails.md — substrate isolation complements runtime side-effect guards
 - @concepts/docker-agent-sandbox-allowlist-proxy.md — Docker/gVisor + egress allowlist pattern (K102)
 - @entities/tools/defending-code-reference-harness.md — Anthropic reference pipeline
+- @concepts/cyber-capable-agent-evaluation-containment.md
+- @sources/arxiv-2607-25379-cyber-capable-agent-containment.md
 
 ## Raw Concept
 

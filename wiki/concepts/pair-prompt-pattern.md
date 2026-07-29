@@ -12,9 +12,13 @@ related:
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/defender-centric-jailbreak-utility.md
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+  - concepts/ai-redteam-evidential-ceiling.md
+  - concepts/concept2scenario-refusal-suppression.md
+  - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
+  - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-21
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -25,6 +29,10 @@ updated: 2026-07-21
 - @concepts/llm-adversarial-fuzzing.md — methodology umbrella; PAIR is one pattern under it
 - @concepts/crescendo-multi-turn-jailbreak.md — companion multi-turn pattern; PAIR is single-turn
 - @concepts/ai-for-cybersecurity.md — LLM × security context
+- @concepts/ai-redteam-evidential-ceiling.md
+- @concepts/concept2scenario-refusal-suppression.md
+- @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
+- @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 
 ## Raw Concept
 

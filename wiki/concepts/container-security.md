@@ -9,9 +9,13 @@ related:
   - sources/kubernetes-exploitation-introduction-cheatsheet.md
   - entities/people/joas-a-santos.md
   - entities/tools/iron-proxy.md
+  - concepts/topology-aware-k8s-llm-remediation.md
+  - sources/arxiv-2607-25995-kutie-topology-k8s-patches.md
+  - entities/tools/kutie-artifacts.md
+  - entities/tools/vulncare.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-26
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -21,6 +25,10 @@ updated: 2026-05-26
 - @sources/kubernetes-exploitation-introduction-cheatsheet.md
 - @entities/people/joas-a-santos.md
 - @entities/tools/iron-proxy.md — default-deny egress for containerized / untrusted workloads
+- @concepts/topology-aware-k8s-llm-remediation.md
+- @sources/arxiv-2607-25995-kutie-topology-k8s-patches.md
+- @entities/tools/kutie-artifacts.md
+- @entities/tools/vulncare.md
 
 ## Raw Concept
 

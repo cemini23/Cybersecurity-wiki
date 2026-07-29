@@ -126,9 +126,13 @@ related:
   - concepts/llm-probabilistic-safety-bounds.md
   - sources/arxiv-2607-19837-know-your-agent-recon.md
   - sources/arxiv-2607-20286-probabilistic-llm-safety-bounds.md
+  - concepts/cyber-capable-agent-evaluation-containment.md
+  - concepts/instruction-hierarchy-conflict-benchmark.md
+  - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
+  - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-23
+updated: 2026-07-29
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -178,6 +182,10 @@ updated: 2026-07-23
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — system prompt leakage measurement + AREA (2606.18673)
 - @concepts/system-prompt-leakage.md — LLM07 exfiltration vs injection distinction
 - @osint-wiki/concepts/reviewer-passive-injection-corpus.md — K37 XSP reviewer passive-injection bundle (failure modes excerpt)
+- @concepts/cyber-capable-agent-evaluation-containment.md
+- @concepts/instruction-hierarchy-conflict-benchmark.md
+- @sources/arxiv-2607-25379-cyber-capable-agent-containment.md
+- @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 
 ## Raw Concept
 

@@ -178,9 +178,22 @@ related:
   - sources/arxiv-2607-21419-pats-agentic-rl.md
   - sources/arxiv-2607-21468-thinkink.md
   - sources/arxiv-2607-21564-rf-fingerprint-probe.md
+  - concepts/ai-redteam-evidential-ceiling.md
+  - concepts/concept2scenario-refusal-suppression.md
+  - concepts/cyber-capable-agent-evaluation-containment.md
+  - concepts/instruction-hierarchy-conflict-benchmark.md
+  - concepts/topology-aware-k8s-llm-remediation.md
+  - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
+  - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
+  - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
+  - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+  - sources/arxiv-2607-25995-kutie-topology-k8s-patches.md
+  - entities/tools/ai-redteam-evidential-limits.md
+  - entities/tools/kutie-artifacts.md
+  - entities/tools/vulncare.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-24
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -247,6 +260,19 @@ updated: 2026-07-24
 - @sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 - @sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
 - @sources/arxiv-2607-16083-llm-research-competencies.md
+- @concepts/ai-redteam-evidential-ceiling.md
+- @concepts/concept2scenario-refusal-suppression.md
+- @concepts/cyber-capable-agent-evaluation-containment.md
+- @concepts/instruction-hierarchy-conflict-benchmark.md
+- @concepts/topology-aware-k8s-llm-remediation.md
+- @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
+- @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
+- @sources/arxiv-2607-25379-cyber-capable-agent-containment.md
+- @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+- @sources/arxiv-2607-25995-kutie-topology-k8s-patches.md
+- @entities/tools/ai-redteam-evidential-limits.md
+- @entities/tools/kutie-artifacts.md
+- @entities/tools/vulncare.md
 
 ## Raw Concept
 

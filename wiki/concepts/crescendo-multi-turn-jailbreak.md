@@ -24,9 +24,11 @@ related:
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - concepts/defender-centric-jailbreak-utility.md
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
+  - concepts/concept2scenario-refusal-suppression.md
+  - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-21
+updated: 2026-07-29
 ---
 
 ## Relations
@@ -39,6 +41,8 @@ updated: 2026-07-21
 - @concepts/social-engineering.md — Crescendo is structurally a social-engineering attack against the model
 - @concepts/ai-for-cybersecurity.md — LLM × security context
 - @concepts/agent-runtime-guardrails.md — multi-turn jailbreak vs sleeper persist-and-trigger (distinct classes)
+- @concepts/concept2scenario-refusal-suppression.md
+- @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 
 ## Raw Concept
 

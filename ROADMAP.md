@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-07-29 | Full ingest K220–K224 (evidential ceiling, Concept2Scenario, agent containment, IH-B, KuTIE/VulnCare) — 5 sources, 5 concepts, 3 entities; GO clones ~6MB; prod+poker+TipDrop+Atto briefs | Inbox cleared; agent-eval + K8s remediation coverage |
 | 2026-05-12 | Workspace forked from `wiki-template/` (SEO wiki) | Reused proven schema instead of re-deriving |
 | 2026-05-12 | Inventoried 227 PDFs from `ebooks Joas` Drive folder via Playwright DOM scrape | Drive API search did not return contents of shared folders; Playwright extraction got every file ID |
 | 2026-05-12 | Cross-linked to 4 sibling wikis (OSINT, image-gen, SEO, 3d-printing) | Cybersecurity intersects all four — OSINT tradecraft, deepfakes, web-app sec, physical-pentest hardware |
