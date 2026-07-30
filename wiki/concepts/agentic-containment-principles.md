@@ -26,10 +26,11 @@ related:
   - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/agent-decoy-defense-autonomous-pentest.md
 
 maturity: draft
 created: 2026-06-13
-updated: 2026-07-10
+updated: 2026-07-30
 ---
 
 ## Relations
