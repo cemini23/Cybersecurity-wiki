@@ -9,6 +9,7 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/llm-pentest-automation.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/agent-decoy-defense-autonomous-pentest.md
 maturity: draft
 created: 2026-07-29
 updated: 2026-07-29

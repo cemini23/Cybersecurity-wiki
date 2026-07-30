@@ -21,6 +21,7 @@ related:
   - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
   - concepts/chainwatch-mcp-kill-chain-detection.md
   - concepts/ethics-autonomous-offensive-ai-agents.md
+  - concepts/agent-decoy-defense-autonomous-pentest.md
 
   - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 maturity: draft

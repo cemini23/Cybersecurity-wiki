@@ -1,3 +1,10 @@
+## [2026-07-30] ingest | AgentSnare decoy defense (from CCC K227)
+
+- Concept `@concepts/agent-decoy-defense-autonomous-pentest.md` + source stub 2607.26998
+- CCC cross-wiki stub; **NO-GO** decoy stack install
+
+---
+
 # Cybersecurity Wiki — Operations Log
 
 

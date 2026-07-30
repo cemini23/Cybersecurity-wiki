@@ -11,6 +11,7 @@ related:
   - concepts/llm-schwartz-value-recognition.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2607-20270-schwartz-value-recognition.md
+  - concepts/agent-decoy-defense-autonomous-pentest.md
 maturity: draft
 created: 2026-07-23
 updated: 2026-07-23
