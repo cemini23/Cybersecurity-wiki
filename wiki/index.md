@@ -76,6 +76,16 @@
 | @concepts/cyber-capable-agent-evaluation-containment.md | draft | Contain capability eval environments |
 | @concepts/instruction-hierarchy-conflict-benchmark.md | draft | S≻U ≠ U≻T hierarchy robustness |
 | @concepts/topology-aware-k8s-llm-remediation.md | draft | Call-graph context for KSPM LLM patches |
+| @sources/arxiv-2607-25070-rffi-device-temperature.md | draft | RFFI temperature drift (2607.25070; K225) |
+| @sources/arxiv-2607-26115-gpt-red-self-play.md | draft | GPT-Red self-play red teaming (2607.26115; K226) |
+| @sources/arxiv-2607-27090-inferscale-kv-injection.md | draft | InferScale KV injection serving (2607.27090; K227) |
+| @sources/arxiv-2607-27136-kamr-multihop-retrieval.md | draft | KAMR multi-hop KG retrieval (2607.27136; K228) |
+| @sources/arxiv-2607-27145-bydeway-v2-spatial.md | draft | ByDeWay-V2 explainable spatial MLLM (2607.27145; K229) |
+| @concepts/rf-fingerprint-temperature-drift.md | draft | Temperature shifts RF fingerprints |
+| @concepts/gpt-red-self-play-red-teaming.md | draft | Self-play automated prompt-injection discovery |
+| @concepts/inferscale-kv-injection-personalized-serving.md | draft | Privileged KV injection for persona memory |
+| @concepts/kamr-knowledge-aligned-multihop-retrieval.md | draft | Anchor-then-expand multi-hop GRAG |
+| @concepts/bydeway-v2-explainable-spatial-reasoning.md | draft | Auditable spatial predicates for MLLMs |
 | @concepts/wireless-pentest.md | draft | WiFi / WPS / Bluetooth / RFID attacks |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
 | @concepts/dns-server-discovery-vs-subdomain-enumeration.md | draft | DNS recon distinction (server discovery vs subdomain enum) |
@@ -268,6 +278,7 @@
 | @entities/tools/ai-redteam-evidential-limits.md | draft | Evidential-ceiling math (MIT; GO ~528KB) |
 | @entities/tools/vulncare.md | draft | VulnCare K8s remediation lab (Apache-2.0; GO ~2.6MB) |
 | @entities/tools/kutie-artifacts.md | draft | KuTIE artifacts (Dynatrace lab CONDITIONAL ~2.9MB) |
+| @entities/tools/inferscale.md | draft | InferScale KV injection (BSD-3; GO ~1.4MB) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -423,6 +434,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | ai-redteam-evidential-limits | MIT | GO | K220 | @entities/tools/ai-redteam-evidential-limits.md — ~528KB |
 | vulncare | Apache-2.0 | GO | K224 | @entities/tools/vulncare.md — ~2.6MB |
 | kutie-artifacts | Dynatrace proprietary | CONDITIONAL-GO | K224 | @entities/tools/kutie-artifacts.md — lab-view only ~2.9MB |
+| InferScale | BSD-3-Clause | GO | K227 | @entities/tools/inferscale.md — ~1.4MB |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 

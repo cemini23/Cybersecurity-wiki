@@ -2,6 +2,15 @@
 
 
 
+## [2026-07-30] ingest | arXiv K225–K229 (RFFI temperature, GPT-Red, InferScale, KAMR, ByDeWay-V2)
+
+- **Sources:** 2607.25070 RFFI temperature; 2607.26115 GPT-Red; 2607.27090 InferScale; 2607.27136 KAMR; 2607.27145 ByDeWay-V2
+- **Concepts:** rf-fingerprint-temperature-drift; gpt-red-self-play-red-teaming; inferscale-kv-injection-personalized-serving; kamr-knowledge-aligned-multihop-retrieval; bydeway-v2-explainable-spatial-reasoning
+- **Entities:** InferScale (GO BSD-3 ~1.4MB)
+- **Phase-0:** `scripts/adopt_k225_k229_phase0.sh`; GPT-Red/KAMR/ByDeWay/RFFI dataset REFERENCE
+- **Briefs:** K225–K229 → prod; poker K226/K227; TipDrop/David K226/K227; Atto K227/K228
+- **Archive:** 5 PDFs → egress-fi cybersec
+
 ## [2026-07-29] ingest | arXiv K220–K224 (evidential ceiling, Concept2Scenario, agent containment, IH-B, KuTIE)
 
 - **Sources:** 2607.21735 evidential ceiling; 2607.23496 Concept2Scenario; 2607.25379 cyber-capable agent containment; 2607.25987 IH-Benchmark; 2607.25995 KuTIE/VulnCare

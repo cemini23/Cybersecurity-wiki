@@ -26,9 +26,11 @@ related:
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
   - concepts/concept2scenario-refusal-suppression.md
   - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
+  - concepts/gpt-red-self-play-red-teaming.md
+  - sources/arxiv-2607-26115-gpt-red-self-play.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## Relations
@@ -43,6 +45,8 @@ updated: 2026-07-29
 - @concepts/agent-runtime-guardrails.md — multi-turn jailbreak vs sleeper persist-and-trigger (distinct classes)
 - @concepts/concept2scenario-refusal-suppression.md
 - @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
+- @concepts/gpt-red-self-play-red-teaming.md
+- @sources/arxiv-2607-26115-gpt-red-self-play.md
 
 ## Raw Concept
 

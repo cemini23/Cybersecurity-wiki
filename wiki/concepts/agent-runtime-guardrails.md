@@ -130,9 +130,12 @@ related:
   - concepts/instruction-hierarchy-conflict-benchmark.md
   - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
   - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+  - concepts/inferscale-kv-injection-personalized-serving.md
+  - sources/arxiv-2607-27090-inferscale-kv-injection.md
+  - entities/tools/inferscale.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -186,6 +189,9 @@ updated: 2026-07-29
 - @concepts/instruction-hierarchy-conflict-benchmark.md
 - @sources/arxiv-2607-25379-cyber-capable-agent-containment.md
 - @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+- @concepts/inferscale-kv-injection-personalized-serving.md
+- @sources/arxiv-2607-27090-inferscale-kv-injection.md
+- @entities/tools/inferscale.md
 
 ## Raw Concept
 

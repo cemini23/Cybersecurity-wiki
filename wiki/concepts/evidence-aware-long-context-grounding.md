@@ -7,9 +7,11 @@ related:
   - sources/arxiv-2607-19345-gear-evidence-aware-rl.md
   - concepts/coding-agent-context-pruning.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/kamr-knowledge-aligned-multihop-retrieval.md
+  - sources/arxiv-2607-27136-kamr-multihop-retrieval.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-30
 ---
 
 ## Relations
@@ -17,6 +19,8 @@ updated: 2026-07-22
 - @sources/arxiv-2607-19345-gear-evidence-aware-rl.md
 - @concepts/coding-agent-context-pruning.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/kamr-knowledge-aligned-multihop-retrieval.md
+- @sources/arxiv-2607-27136-kamr-multihop-retrieval.md
 
 ## Raw Concept
 

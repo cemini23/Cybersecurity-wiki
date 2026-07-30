@@ -56,9 +56,11 @@ related:
   - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
   - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
   - entities/tools/ai-redteam-evidential-limits.md
+  - concepts/gpt-red-self-play-red-teaming.md
+  - sources/arxiv-2607-26115-gpt-red-self-play.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## Relations
@@ -91,6 +93,8 @@ updated: 2026-07-29
 - @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
 - @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 - @entities/tools/ai-redteam-evidential-limits.md
+- @concepts/gpt-red-self-play-red-teaming.md
+- @sources/arxiv-2607-26115-gpt-red-self-play.md
 
 ## Raw Concept
 

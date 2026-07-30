@@ -191,9 +191,20 @@ related:
   - entities/tools/ai-redteam-evidential-limits.md
   - entities/tools/kutie-artifacts.md
   - entities/tools/vulncare.md
+  - concepts/rf-fingerprint-temperature-drift.md
+  - concepts/gpt-red-self-play-red-teaming.md
+  - concepts/inferscale-kv-injection-personalized-serving.md
+  - concepts/kamr-knowledge-aligned-multihop-retrieval.md
+  - concepts/bydeway-v2-explainable-spatial-reasoning.md
+  - sources/arxiv-2607-25070-rffi-device-temperature.md
+  - sources/arxiv-2607-26115-gpt-red-self-play.md
+  - sources/arxiv-2607-27090-inferscale-kv-injection.md
+  - sources/arxiv-2607-27136-kamr-multihop-retrieval.md
+  - sources/arxiv-2607-27145-bydeway-v2-spatial.md
+  - entities/tools/inferscale.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## Relations
@@ -273,6 +284,17 @@ updated: 2026-07-29
 - @entities/tools/ai-redteam-evidential-limits.md
 - @entities/tools/kutie-artifacts.md
 - @entities/tools/vulncare.md
+- @concepts/rf-fingerprint-temperature-drift.md
+- @concepts/gpt-red-self-play-red-teaming.md
+- @concepts/inferscale-kv-injection-personalized-serving.md
+- @concepts/kamr-knowledge-aligned-multihop-retrieval.md
+- @concepts/bydeway-v2-explainable-spatial-reasoning.md
+- @sources/arxiv-2607-25070-rffi-device-temperature.md
+- @sources/arxiv-2607-26115-gpt-red-self-play.md
+- @sources/arxiv-2607-27090-inferscale-kv-injection.md
+- @sources/arxiv-2607-27136-kamr-multihop-retrieval.md
+- @sources/arxiv-2607-27145-bydeway-v2-spatial.md
+- @entities/tools/inferscale.md
 
 ## Raw Concept
 

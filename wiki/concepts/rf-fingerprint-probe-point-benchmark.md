@@ -8,9 +8,11 @@ related:
   - concepts/wireless-pentest.md
   - concepts/network-security.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/rf-fingerprint-temperature-drift.md
+  - sources/arxiv-2607-25070-rffi-device-temperature.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-07-24
 - @concepts/wireless-pentest.md
 - @concepts/network-security.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/rf-fingerprint-temperature-drift.md
+- @sources/arxiv-2607-25070-rffi-device-temperature.md
 
 ## Raw Concept
 

@@ -97,9 +97,11 @@ related:
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
   - concepts/instruction-hierarchy-conflict-benchmark.md
   - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+  - concepts/inferscale-kv-injection-personalized-serving.md
+  - sources/arxiv-2607-27090-inferscale-kv-injection.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## Relations
@@ -126,6 +128,8 @@ updated: 2026-07-29
 - @concepts/trajectory-context-control.md — memory-commit gate above MCP transport
 - @concepts/instruction-hierarchy-conflict-benchmark.md
 - @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+- @concepts/inferscale-kv-injection-personalized-serving.md
+- @sources/arxiv-2607-27090-inferscale-kv-injection.md
 
 ## Raw Concept
 
