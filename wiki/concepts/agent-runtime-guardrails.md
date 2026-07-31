@@ -138,6 +138,8 @@ related:
 maturity: draft
 created: 2026-06-01
 updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms

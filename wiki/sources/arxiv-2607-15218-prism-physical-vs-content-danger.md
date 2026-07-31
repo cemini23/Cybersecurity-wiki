@@ -13,8 +13,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-17 — no public code found; steal CD/PD separability + probe-before-execute pattern"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-17_prism-physical-vs-content-danger-handoff.md`, `briefs/2026-07-17_k185-prism-physical-vs-content-danger-prod.md`

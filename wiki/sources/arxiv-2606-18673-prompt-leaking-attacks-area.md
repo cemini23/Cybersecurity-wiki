@@ -18,8 +18,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-22 — github.com/NESA-Lab/AREA: LeakBench + AREA artifacts, 0★, gh api license null/404; ACM CCS 2026 paper — methodology/benchmark only until SPDX filed"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

@@ -13,8 +13,10 @@ related:
   - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-17
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+wire_status: wont_wire
+wire_target: "STEAL-FROM-PATTERNS-ONLY — GPL poison pill"
 ---
 
 ## Relations

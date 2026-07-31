@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-22 — method paper (Peking/Alibaba); no public code at ingest; steal GEAR reward shape"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** CCC handoff; `briefs/2026-07-22_k205-gear-evidence-grounding-prod.md`

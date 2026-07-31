@@ -24,8 +24,10 @@ related:
   - entities/tools/picalib-research.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-23
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-04 — open lattice + 17-probe corpus; GitHub license NOASSERTION; laptop BAS regression only after LICENSE audit."
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 # llm-defense-lattice — OWASP LLM Top 10 defense attribution benchmark

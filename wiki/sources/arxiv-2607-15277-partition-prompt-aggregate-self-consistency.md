@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-17 — eval criterion; primary home CCC; cybersec light note only"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-17_statistical-self-consistency-ood-note.md`, `briefs/2026-07-17_k187-statistical-self-consistency-prod.md`

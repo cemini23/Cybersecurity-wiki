@@ -15,8 +15,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-21 — Google DeepMind paper; no public artifact URL in PDF; Praline prior art (OOPSLA2 2025 doi:10.1145/3763058) also Reference until artifact located"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

@@ -21,7 +21,9 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-17
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE methodology — dual-ASR in lab-redteam rule"
 ---
 
 ## Relations

@@ -14,8 +14,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-23 — paper promises open-source KYA + baselines; public GitHub not found yet; REFERENCE until release"
+wire_status: deferred
+wire_target: "Await public KYA repo"
 ---
 
 **Briefs:** `briefs/2026-07-23_k210-know-your-agent-recon-prod.md`

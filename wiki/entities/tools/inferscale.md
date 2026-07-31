@@ -11,8 +11,10 @@ related:
   - concepts/agent-runtime-guardrails.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-30 — BSD-3-Clause; ~1.4MB; github.com/saltsystemslab/InferScale"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

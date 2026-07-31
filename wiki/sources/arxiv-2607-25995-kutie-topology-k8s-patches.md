@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-31
 phase_0_verdict: "SPLIT 2026-07-29 — vulncare Apache-2.0 GO ~2.6MB; kutie-artifacts Dynatrace internal-lab CONDITIONAL-GO ~2.9MB"
+wire_status: wont_wire
+wire_target: "Source artifact — pattern covered by thematic rules or REFERENCE"
 ---
 
 **Briefs:** `briefs/2026-07-29_k224-kutie-topology-k8s-prod.md`

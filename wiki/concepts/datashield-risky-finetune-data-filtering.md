@@ -16,7 +16,9 @@ related:
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-21
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

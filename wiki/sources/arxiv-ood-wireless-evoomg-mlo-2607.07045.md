@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-31
 phase_0_verdict: "OOD 2026-07-20 — WLAN MAC/throughput RL for legacy+MLO coexistence; not wireless pentest. Brief-only; no adopt."
+wire_status: wont_wire
+wire_target: "OOD — not cybersec harness wire"
 ---
 
 **Briefs:** `briefs/2026-07-20_ood-wireless-evoomg-mlo-route.md`

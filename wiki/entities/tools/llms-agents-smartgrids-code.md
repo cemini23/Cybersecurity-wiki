@@ -10,8 +10,10 @@ related:
   - concepts/network-security.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-21 — github.com/d2rojas/LLMs-Agents-For-SmartGrids-Code NO LICENSE; no local clone"
+wire_status: wont_wire
+wire_target: "NO LICENSE — no local clone"
 ---
 
 ## Relations

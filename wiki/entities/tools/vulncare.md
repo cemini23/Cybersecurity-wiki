@@ -12,8 +12,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-29 — Apache-2.0; ~2.6MB; github.com/dynatrace-research/vulncare"
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 ## Relations

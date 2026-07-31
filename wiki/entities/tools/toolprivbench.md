@@ -11,8 +11,10 @@ related:
   - entities/tools/airguard.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-19 — github.com/AISafetyHub/agent-tool-selection-bias: 0★, README MIT badge, gh api LICENSE null + LICENSE 404; use methodology until SPDX verified"
+wire_status: wont_wire
+wire_target: "REFERENCE — SPDX unverified"
 ---
 
 ## Relations

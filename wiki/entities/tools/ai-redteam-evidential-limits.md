@@ -11,8 +11,10 @@ related:
   - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-29 — MIT; ~528KB; github.com/hackwither/ai-redteam-evidential-limits"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

@@ -17,8 +17,10 @@ related:
 
 maturity: draft
 created: 2026-06-20
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-20 — MIT verified (repo + ecc-agentshield npm); install ecc-agentshield only from official npm/github; full ECC bundle Steal-from patterns; typosquat risk at 218k★ scale"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations

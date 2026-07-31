@@ -19,7 +19,9 @@ related:
   - "@osint-wiki/entities/tools/cua.md"
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations

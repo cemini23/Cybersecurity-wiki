@@ -14,8 +14,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-07-09 — no public repo at ingest; adopt description-augmentation + reflection pattern in prod-mcp proxy; not drop-in product"
+wire_status: wont_wire
+wire_target: "Phase-0 NO-GO"
 ---
 
 **Briefs:** `briefs/2026-07-09_spellsmith-mcp-taint-mitigation-handoff.md`

@@ -27,7 +27,9 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-10
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-04_hcp-mcp-execution-control-handoff.md`, `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`

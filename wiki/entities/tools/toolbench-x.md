@@ -13,8 +13,10 @@ related:
   - concepts/mcp-security-posture.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-27 — github.com/Foreverskyou/ToolBench-X 0★, LICENSE absent, README: full release organizing; re-audit on artifact drop"
+wire_status: wont_wire
+wire_target: "REFERENCE — LICENSE/artifact pending"
 ---
 
 ## Relations

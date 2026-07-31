@@ -16,8 +16,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/shishishi123/Tool-Guard MIT, 0★, ICML 2026 artifact; lab-validate on prod-mcp before enforcement"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 ## Relations

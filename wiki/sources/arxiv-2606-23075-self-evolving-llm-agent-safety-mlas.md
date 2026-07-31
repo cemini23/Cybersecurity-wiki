@@ -20,8 +20,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-23 — framework analysis paper; case studies cite github.com/openclaw/openclaw + github.com/NousResearch/hermes-agent (separate Phase-0 on those repos)"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

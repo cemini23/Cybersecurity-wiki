@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-07-31
 phase_0_verdict: "Archive-only 2026-06-21 — RF propagation / telco optimization paper; no security claims; ingested for wireless digital-twin cross-ref only"
+wire_status: wont_wire
+wire_target: "OOD wireless research"
 ---
 
 ## Relations

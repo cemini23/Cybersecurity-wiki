@@ -24,6 +24,8 @@ related:
 maturity: draft
 created: 2026-06-22
 updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations

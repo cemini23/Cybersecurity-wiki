@@ -14,7 +14,9 @@ related:
   - entities/tools/tool-guard.md
 maturity: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 ## Relations

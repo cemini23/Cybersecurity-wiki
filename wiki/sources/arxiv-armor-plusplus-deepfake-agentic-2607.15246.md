@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-18 — no public code; steal agentic orchestration of attack primitives + residual detector reliability gap"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-18_armor-plusplus-deepfake-handoff.md`, `briefs/2026-07-18_k188-armor-plusplus-deepfake-prod.md`

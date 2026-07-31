@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-21 — github.com/clarakuempel/EoB ~71MB NO LICENSE; HF dataset kdu4108/EoBench; steal typology only"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** CCC handoff; cyber `briefs/2026-07-21_eobench-belief-expression-handoff.md`

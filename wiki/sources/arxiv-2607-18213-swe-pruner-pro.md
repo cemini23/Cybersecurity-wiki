@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-21 — github.com/Ayanami1314/swe-pruner-pro Apache-2.0 in pyproject (~8.7MB shallow); no LICENSE file — lab only"
+wire_status: deferred
+wire_target: "LICENSE file watch"
 ---
 
 **Briefs:** `briefs/2026-07-21_k200-swe-pruner-pro-prod.md`

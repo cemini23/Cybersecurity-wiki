@@ -15,8 +15,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-10 — 67-task benchmark paper; ClaudeCode/OpenClaw/Hermes/Codex harness matrix; no public GitHub at Phase-0; steal hybrid eval rubric + client-disclosure discipline"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-10_polyworkbench-multilingual-eval-handoff.md`, `briefs/2026-07-10_k152-polyworkbench-multilingual-eval-prod.md`

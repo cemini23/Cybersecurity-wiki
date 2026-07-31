@@ -17,8 +17,10 @@ related:
   - entities/tools/nvidia-skillspector.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-07-01
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+wire_status: deferred
+wire_target: "External Docker only — ask before runtime"
 ---
 
 ## Relations

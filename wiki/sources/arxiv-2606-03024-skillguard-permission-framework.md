@@ -12,7 +12,9 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-03
-updated: 2026-06-19
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "Phase-0 NO-GO"
 ---
 
 ## Raw Concept

@@ -9,8 +9,10 @@ related:
   - concepts/system-hardening.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-16
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 ## Relations

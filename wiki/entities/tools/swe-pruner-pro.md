@@ -10,8 +10,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-21 — Apache-2.0 in pyproject; shallow clone ~8.7MB; no LICENSE file; 1★"
+wire_status: deferred
+wire_target: "LICENSE file watch; shallow clone lab-only until clear"
 ---
 
 ## Relations

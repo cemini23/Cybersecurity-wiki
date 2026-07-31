@@ -22,8 +22,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-16
-updated: 2026-07-03
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API license null; laptop Docker+inspect-ai eval only after SPDX file"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

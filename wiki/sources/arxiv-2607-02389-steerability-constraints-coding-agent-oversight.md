@@ -19,8 +19,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-07-07 — ICML DL4Code workshop; no canonical public repo at ingest (BACKDOORS.md promised with code); adopt substrate + docs-CLI methodology"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-07_steerability-substrate-coding-agent-oversight-handoff.md`, `briefs/2026-07-07_harness-substrate-constraints-checklist.md`

@@ -12,7 +12,9 @@ related:
 maturity: draft
 hub: true
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-07-31
+wire_status: deferred
+wire_target: "Component Phase-0 not complete"
 ---
 
 ## Relations

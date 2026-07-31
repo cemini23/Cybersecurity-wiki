@@ -26,7 +26,9 @@ related:
   - sources/arxiv-2607-19837-know-your-agent-recon.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-23
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-09_adi-trusted-untrusted-data-handoff.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`

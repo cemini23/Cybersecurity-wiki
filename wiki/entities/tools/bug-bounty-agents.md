@@ -10,8 +10,10 @@ related:
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-07-31
 osint_eval_origin: doc2-url-22 (cross-routed; cybersec primary)
+wire_status: deferred
+wire_target: "Phase-0 audit pending"
 ---
 
 ## Relations

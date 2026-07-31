@@ -13,6 +13,8 @@ maturity: draft
 created: 2026-07-31
 updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-31 — github.com/XiangningLin/SystemPromptIndex ~11MB; NO LICENSE — do not clone"
+wire_status: wont_wire
+wire_target: "NO LICENSE — do not clone; browse only"
 ---
 
 ## Relations

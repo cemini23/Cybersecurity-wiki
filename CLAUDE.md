@@ -251,6 +251,26 @@ When in doubt, prefer the conservative interpretation and ask the user.
 - File insights into wiki pages or briefs before they disappear from chat
 - For real-world actions (running a tool against a live target, posting a CVE, advising a kid about a safety incident), be extra rigorous about provenance and authorization — wrong calls have real-world consequences
 
+## Phase-1 adopt-wire (agent-security harness)
+
+Phase-0 audits; Phase-1 wires. Cybersec owns **agent-security** operational wires for the federation.
+
+Always-apply Cursor rules (this wiki):
+
+| Theme | Rule |
+|-------|------|
+| MCP / tool control | `.cursor/rules/cemini-cybersec-mcp-tool-control.mdc` |
+| Agent runtime / skill audit | `.cursor/rules/cemini-cybersec-agent-audit.mdc` |
+| Agent containment | `.cursor/rules/cemini-cybersec-agent-containment.mdc` |
+| Lab red-team only | `.cursor/rules/cemini-cybersec-lab-redteam.mdc` |
+| Federation K230–K233 | `.cursor/rules/cemini-phase1-policy-wires.mdc` |
+
+**Runtime (optional):** `cve-mcp` in `.cursor/mcp.json` → `raw-sources/repos/cve-mcp-server` (`uv run`). Keys stay in the clone `.env`, never in MCP JSON.
+
+Entity/source pages carry `wire_status` / `wire_target`. Prefer policy wires; ask once before MCP/`settings.json` runtime installs. Skip Image-gen / 3D local wire backlogs. No GRPO trainers, Harbor/Modal fleets, or curl\|sh as “wired”.
+
+Canon: `@ccc-wiki/concepts/phase1-adopt-wire.md` · skill `.cursor/skills/phase1-wire/SKILL.md`.
+
 ## Phase-0 audit pattern (before adopting an external tool)
 
 Before adopting any external security tool into the workflow, run a Phase-0 source audit (~30 min):

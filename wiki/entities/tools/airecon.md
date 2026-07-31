@@ -12,9 +12,11 @@ related:
   - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-25
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-25 — 2606.24496 flags --network=host worker + orchestrator API abuse; re-audit before Tier-2 adoption"
 osint_eval_origin: doc2-url-6 (cross-routed from OSINT eval as cybersec-primary)
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations

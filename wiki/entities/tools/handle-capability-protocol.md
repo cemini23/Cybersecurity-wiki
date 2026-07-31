@@ -17,8 +17,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-04 — MIT; github.com/SymbolicLight-AGI/handle-capability-protocol 0★; benchmark + reference runtime for invariant eval"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-04_hcp-mcp-execution-control-handoff.md`, `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`

@@ -14,8 +14,10 @@ related:
   - "@osint-wiki/entities/tools/reverse-skill.md"
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-06-25 — github.com/zhaoxuya520/reverse-skill MIT, ~6.2k★; authorized pentest skill routing before MCP tool invocation"
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 ## Relations

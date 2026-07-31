@@ -15,9 +15,11 @@ related:
   - "@osint-wiki/sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md"
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-07-31
 phase_0_verdict: CONDITIONAL-GO 2026-06-12 — 98 SKILL.md inventory; cherry-pick only; skill_audit before harness
 license_verified: MIT
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations

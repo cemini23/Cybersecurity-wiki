@@ -16,7 +16,9 @@ related:
 
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE — PORTICO artifact pending"
 ---
 
 ## Relations

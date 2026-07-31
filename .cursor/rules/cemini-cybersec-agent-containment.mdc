@@ -1,0 +1,25 @@
+---
+description: Agent containment — CUA VM, no host-network workers, Docker/gVisor lab sandboxes (Cybersec Phase-1)
+alwaysApply: true
+---
+
+# Agent containment (Cybersec Phase-1)
+
+Keep offensive/agent workers off the host trust boundary. Human installs Lume/CUA VM when needed.
+
+## Architecture
+
+- Prefer **VM/OS sandbox** (CUA / Lume) for Tier-2 browser or OS-control agents; do not run untrusted agent workers on the host desktop session.
+- Secrets and orchestrator API keys stay on the **orchestrator**; workers get least privilege and no `docker.sock`.
+- Ban `--network=host` (and equivalent) for agent workers — AIRecon / agent-phishing kill-chain finding.
+
+## Lab sandboxes
+
+- Defending-code / gVisor / Docker reference harnesses: **laptop lab only** — not cemini-prod deploy.
+- AOHP (AOSP agent-native OS): lab-validate security-policy hooks before any production agent use; treat as large REFERENCE tree unless explicitly scoped.
+- Autoresearch / red-team victim containers: owned Docker sandboxes with written authorization only.
+
+## Human gates
+
+- Lume/CUA VM install and Codex sidecar consent are operator-only — agents document, do not pretend installed.
+- No curl|sh bootstrap for containment stacks.

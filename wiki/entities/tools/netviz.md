@@ -13,9 +13,11 @@ related:
   - "@osint-wiki/entities/tools/shadowarcanist-netviz.md"
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-18
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md"
 phase_0_verdict: "Adopt 2026-06-01 — MIT verified; upgraded from K53 Steal-from after K93 re-eval."
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 # netviz — browser-based network architecture visualizer (MIT)

@@ -12,8 +12,10 @@ related:
   - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-06-02
-updated: 2026-06-04
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-02 — paper-reported guard; compare vs AIRGuard on integration-diverse lab replay before adopt."
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 # AgentRedGuard — integration-aware guard for SaaS LLM agents

@@ -11,8 +11,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-22 — MIT; ~672KB; github.com/senthex-security/senthex-research"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

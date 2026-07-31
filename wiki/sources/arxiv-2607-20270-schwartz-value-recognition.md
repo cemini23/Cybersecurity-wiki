@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-23 — evaluation study; no code artifact located"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-23_k212-schwartz-value-recognition-prod.md`

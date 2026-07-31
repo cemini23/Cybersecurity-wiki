@@ -10,8 +10,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-22 — Apache-2.0; ~24MB shallow; github.com/AgPriyank/OC-GRPO"
+wire_status: wont_wire
+wire_target: "GRPO trainer — do not install as harness wire"
 ---
 
 ## Relations

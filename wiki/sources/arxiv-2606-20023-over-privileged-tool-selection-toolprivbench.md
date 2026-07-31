@@ -22,8 +22,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-19 — TOOLPRIVBENCH repo AISafetyHub/agent-tool-selection-bias: README claims MIT, gh api LICENSE null/404; benchmark methodology only until SPDX filed"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

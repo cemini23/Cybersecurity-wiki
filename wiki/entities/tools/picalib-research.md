@@ -10,8 +10,10 @@ related:
   - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-23 — github.com/anasbiswas1/picalib-research: 0★, LICENSE null/404; reproduce severity S eval only after license audit"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

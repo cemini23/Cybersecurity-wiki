@@ -26,7 +26,9 @@ related:
   - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-07-23
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations

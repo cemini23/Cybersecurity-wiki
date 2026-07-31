@@ -9,8 +9,10 @@ related:
   - "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 # xullexer/PYDNS-Scanner — async DNS recon (Slipstream + SlipNet)

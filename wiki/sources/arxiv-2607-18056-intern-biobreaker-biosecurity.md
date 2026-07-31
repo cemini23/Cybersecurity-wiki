@@ -11,8 +11,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-21 — dual-use bio red-team paper; no standalone public attack-tool adopt; steal early-warning + synthesis-screening posture only"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-21_k198-biosecurity-llm-early-warning-prod.md`

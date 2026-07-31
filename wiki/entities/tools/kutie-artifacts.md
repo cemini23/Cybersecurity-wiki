@@ -12,8 +12,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-29 — Dynatrace proprietary lab-view; internal non-prod only; ~2.9MB"
+wire_status: wont_wire
+wire_target: "Dynatrace proprietary internal-lab view"
 ---
 
 ## Relations

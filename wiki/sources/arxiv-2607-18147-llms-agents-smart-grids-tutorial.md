@@ -13,8 +13,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-21 — github.com/d2rojas/LLMs-Agents-For-SmartGrids-Code ~15MB, NO LICENSE file/API; steal solver-grounded pattern only"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-21_k199-solver-grounded-smart-grid-agents-prod.md`

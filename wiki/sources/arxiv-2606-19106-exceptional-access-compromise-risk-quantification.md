@@ -13,8 +13,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-18 — decision-support framework; Zenodo CC-BY-4.0 repro scripts only, no prod deployment"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

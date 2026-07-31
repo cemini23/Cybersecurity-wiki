@@ -9,7 +9,9 @@ related:
   - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-31
+wire_status: deferred
+wire_target: "Await public repo; re-run Phase-0"
 ---
 
 ## Relations

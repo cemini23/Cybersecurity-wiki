@@ -10,7 +10,9 @@ related:
   - "@ccc-wiki/sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md"
 maturity: draft
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

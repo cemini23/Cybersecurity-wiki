@@ -11,8 +11,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-23 — github.com/ChangLiu-DrPatient/Notes-to-self ~16MB; Apache-2.0 via vendored verl/LICENSE; root LICENSE absent"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-23_k214-notes-to-self-experiential-prod.md`

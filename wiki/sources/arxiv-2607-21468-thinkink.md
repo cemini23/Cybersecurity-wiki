@@ -9,8 +9,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-24 — HCI tool paper; no cyber code artifact; cross-wiki HCI/image light only"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-24_k218-thinkink-hci-light-prod.md`

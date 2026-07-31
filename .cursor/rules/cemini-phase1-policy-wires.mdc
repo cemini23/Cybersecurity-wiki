@@ -1,0 +1,38 @@
+---
+description: Phase-1 policy wires — reconstruct memory, model build/use/bypass, async multi-agent inbox, claim-unit answers (K230–K233)
+alwaysApply: true
+---
+
+# Phase-1 policy wires (K230–K233)
+
+Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
+
+## Reconstruct before inject (MemHarness / K230)
+
+- Before pasting prior `hot.md`, Discord, or trajectory snippets into a new turn: **rewrite for the current state** or drop them.
+- Do not inject verbatim “temp” rules that outlived their context (negative transfer).
+- Trainer stack `.local/adopts/MemHarness` = paper repro only — **not** a Cursor install.
+
+## Build / use / bypass models (Tycho / K231)
+
+- Do not auto-build solvers, simulators, or world-models on every verify failure.
+- Prefer **actor-requested** (or advantage-gated) model construction; otherwise bypass and act.
+- Sim transition-match ≠ next-action value. `.local/adopts/Tycho` = ARC eval REFERENCE.
+
+## Passive multi-agent inbox (AgentRadio / K232)
+
+- Parallel Task/subagents need a **non-blocking inbox** (file, thread, or MCP), not only phase-boundary handoffs.
+- Mid-execution findings must be shareable without stopping foreground work.
+- Harbor/Modal multi-agent fleet in `.local/adopts/AgentRadio` = paper repro — **not** wired to Modal.
+
+## Claim-unit answers (AskChem pattern / K233 + K210)
+
+- Prefer **claim + source locator** (DOI/URL/quote or wiki `@path`) over document dumps.
+- If unsupported: say **NO_EVIDENCE** (Traceable Scholarship).
+- Do **not** add AskChem chemistry MCP unless the operator explicitly asks. `.local/adopts/askchem` = REFERENCE client.
+
+## Phase-1 meta
+
+- After ingest ADOPT/GO: propose `/phase1` wire before claiming done.
+- Inventory: `python3 scripts/phase1_adopt_inventory.py --write-brief`
+- Skip Image-gen / 3D local wire backlogs.

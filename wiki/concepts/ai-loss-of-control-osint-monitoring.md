@@ -11,7 +11,9 @@ related:
   - concepts/agent-runtime-guardrails.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE / OSINT-adjacent — not harness wire"
 ---
 
 ## Relations

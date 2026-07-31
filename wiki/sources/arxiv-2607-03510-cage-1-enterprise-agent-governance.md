@@ -19,8 +19,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-10 — independent technical report (Roopam W. Sure); no installable product repo; steal Prebind Assurance + 12-dimension eval checklist; NOT lahlfors/cybernetic-governance-engine CAGE"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-10_cage-1-prebind-assurance-handoff.md`, `briefs/2026-07-10_prod-mcp-prebind-assurance-checklist.md`, `briefs/2026-07-10_k151-cage-1-prebind-assurance-prod.md`

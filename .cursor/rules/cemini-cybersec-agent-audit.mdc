@@ -1,0 +1,26 @@
+---
+description: Agent runtime + skill audit stack — ClawAudit, SkillSpector, DefenseClaw, SkillSec, ecc-agentshield (Cybersec Phase-1)
+alwaysApply: true
+---
+
+# Agent runtime / skill audit (Cybersec Phase-1)
+
+Pre-install and local-runtime checks. Scanner disagreement is expected — no single allow/block oracle.
+
+## Before enabling a skill / MCP / agent config
+
+- Run federation `cursor-security-preflight` (or `--local`) after skill sync / before third-party Cursor skill or MCP enable.
+- Prefer static SkillSpector-style `--no-llm` preingest when available; do not treat SaaS Skillgate alone as a production allowlist.
+- Layer DefenseClaw **observe** (or equivalent) before any action/enforcement mode; optional LLM judge only with explicit operator key.
+
+## Local runtime audit
+
+- Complement catalog scanners with **source/runtime** audit methodology (ClawAudit Semgrep/CodeQL patterns) on agent harness code you own or fork.
+- Do not clone or redistribute ClawAudit until LICENSE is verified; methodology steal-from is fine.
+- SkillSec lifecycle: treat skills as five-stage (author → pack → install → invoke → evolve) — re-audit on evolution/self-modify paths.
+
+## Defaults
+
+- Default **deny** self-modifying / self-evolving agents on write-capable MCP surfaces.
+- `ecc-agentshield` npm is CONDITIONAL — install only when operator asks; full ECC marketplace bundle stays Steal-from.
+- Typosquat / star-inflated security CLIs: verify package name + LICENSE before `npm i` / PATH install.

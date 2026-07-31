@@ -32,8 +32,10 @@ related:
 
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-01 — MIT verified; wrap MCP/tool calls pre-execution; lab on AgentTrap/DTAP-style tasks before client copilot assessments."
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 # AIRGuard — runtime authority control for tool-using agents (MIT)

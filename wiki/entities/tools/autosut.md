@@ -14,8 +14,10 @@ related:
   - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-07-20
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-11 — reproducibility artifact on GitHub; measurement-only pipeline, no runtime deploy."
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

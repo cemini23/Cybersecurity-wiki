@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-22 — SoK/benchmark paper; no public code at ingest; steal cloud VQE-as-a-service threat model"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-22_k203-vqe-advbench-quantum-redteam-prod.md`

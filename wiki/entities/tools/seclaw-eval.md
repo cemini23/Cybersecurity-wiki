@@ -22,8 +22,10 @@ related:
   - entities/tools/toolbench-x.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-27
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-04 — benchmark only; repo has no LICENSE file on GitHub API [NEEDS VERIFICATION 2026-06-04]; run laptop Docker eval after license audit before any code import."
+wire_status: wont_wire
+wire_target: "REFERENCE eval — CCC owns harness meta"
 ---
 
 # SeClaw — spec-driven agent security benchmark harness

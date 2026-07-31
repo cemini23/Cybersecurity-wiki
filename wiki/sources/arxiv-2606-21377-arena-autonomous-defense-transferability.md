@@ -15,8 +15,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-24 — architecture paper from ITA Brazil; no public ARENA artifact repo; methodology for SOC agent eval design"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

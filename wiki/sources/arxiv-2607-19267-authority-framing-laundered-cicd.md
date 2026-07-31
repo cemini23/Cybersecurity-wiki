@@ -14,8 +14,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-22 — github.com/senthex-security/senthex-research MIT ~672KB; lab reproduction harness"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-22_k202-authority-framing-agentic-cicd-prod.md`

@@ -16,8 +16,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-16 — github.com/henrymao2004/Auto-research-red-teaming MIT ~169MB; Docker-sandboxed victims; lab-only authorized use"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-16_aha-vcg-production-agent-red-team-handoff.md`, `briefs/2026-07-16_k176-aha-vcg-production-agent-red-team-prod.md`

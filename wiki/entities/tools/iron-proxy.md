@@ -18,9 +18,11 @@ related:
 
 maturity: draft
 created: 2026-05-26
-updated: 2026-07-18
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — Apache-2.0 verified; Phase-0 queue if egress-policy hardening is prioritized."
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 # ironsh/iron-proxy — egress firewall for untrusted workloads

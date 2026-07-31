@@ -10,9 +10,11 @@ related:
   - "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-22
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-05-16 — Apache-2.0 verified (LICENSE file is the full Apache-2.0 text), all declared deps permissive (FastMCP Apache-2.0 / Javalin Apache-2.0 / httpx BSD-3 / SLF4J MIT; no GPL bundling, no .jar files in repo), actively maintained (last commit 2026-04-20, multi-contributor), Mseep.ai badge confirmed real in README."
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
+wire_status: deferred
+wire_target: "Ask operator before MCP/runtime install"
 ---
 
 # jadx-mcp-server — Android Reverse Engineering + Live Debugging via MCP

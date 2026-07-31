@@ -16,8 +16,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-07-09 — Tongji University; no canonical public repo at ingest; steal description-augmentation + reflection pattern for prod-mcp metadata hardening"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-09_spellsmith-mcp-taint-mitigation-handoff.md`

@@ -14,7 +14,9 @@ related:
   - "@ccc-wiki/concepts/multilingual-long-horizon-agent-eval.md"
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE eval — PolyWorkbench methodology"
 ---
 
 **Briefs:** `briefs/2026-07-10_polyworkbench-multilingual-eval-handoff.md`

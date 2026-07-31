@@ -11,7 +11,9 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE — see entity gates"
 ---
 
 ## Relations

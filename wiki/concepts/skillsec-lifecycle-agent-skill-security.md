@@ -17,7 +17,9 @@ related:
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations

@@ -26,8 +26,10 @@ related:
 
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-04
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-01 — workshop paper + MCP proxy pattern; no canonical public repo in source; adopt pattern after manifest linter + lab replay."
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 # ChainCaps — MCP proxy for composition-safe tool chains

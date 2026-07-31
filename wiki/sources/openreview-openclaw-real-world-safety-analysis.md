@@ -19,8 +19,10 @@ related:
 maturity: draft
 read_status: unread-stub
 created: 2026-06-20
-updated: 2026-06-24
+updated: 2026-07-31
 phase_0_verdict: "Defer 2026-06-20 — OpenReview PDF not auto-fetched; recurring digest hit (P2 lane); manual fetch to research to be indexed/ before deep-read"
+wire_status: deferred
+wire_target: "Phase-0 defer — see entity gates"
 ---
 
 ## Relations

@@ -16,8 +16,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-23 — IEEE TIFS submission; no public repo located on GitHub search 2026-06-23"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

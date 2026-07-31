@@ -14,9 +14,11 @@ related:
   - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-07-18
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — MIT verified; queue Phase-0 alongside FuzzyAI for transform/mutator catalog comparison."
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 # m4xx101/cryptex-oss — LLM red-teaming technique toolkit

@@ -10,8 +10,10 @@ related:
   - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

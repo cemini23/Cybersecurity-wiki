@@ -19,8 +19,10 @@ related:
 
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/SRestLabUB/ClawAudit 0★, gh api LICENSE null + LICENSE 404; Semgrep/CodeQL rules + OPENCLAWBENCH usable for audit methodology after manual triage gate"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations

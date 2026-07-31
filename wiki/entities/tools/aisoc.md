@@ -10,8 +10,10 @@ related:
   - concepts/defense-in-depth.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-07-31
 osint_eval_origin: doc2-url-26 (cross-routed; cybersec defensive-ops primary)
+wire_status: deferred
+wire_target: "Phase-0 audit pending"
 ---
 
 ## Relations

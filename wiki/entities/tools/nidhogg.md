@@ -13,9 +13,11 @@ related:
   - "@osint-wiki/entities/tools/nidhogg.md"
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 phase_0_verdict: "Steal-from 2026-05-24 — GPL-3.0; document DKOM/process-hiding for blue-team MITRE mapping only; no binary import or production deployment."
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 # Idov31/Nidhogg — Windows kernel rootkit (reference tradecraft)

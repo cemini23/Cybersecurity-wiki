@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "codebase-memory-mcp": {
+      "type": "stdio",
+      "disabled": false,
+      "command": "/Users/claudiobarone/.local/bin/codebase-memory-mcp",
+      "args": [],
+      "env": {}
+    },
+    "cve-mcp": {
+      "type": "stdio",
+      "disabled": false,
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/claudiobarone/Projects/Cybersecurity wiki/raw-sources/repos/cve-mcp-server",
+        "cve-mcp"
+      ],
+      "env": {}
+    }
+  }
+}

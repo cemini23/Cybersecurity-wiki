@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE/ADOPT-ARTIFACT 2026-07-20 — Zenodo CC-BY-4.0 replication pack ~396KB; methodology not a runtime tool"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** CCC handoff `../Cemini claude code CCC/briefs/2026-07-20_ccc-handoff-llm-research-competencies.md`; cyber `briefs/2026-07-20_llm-research-competencies-handoff.md`

@@ -16,7 +16,9 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations

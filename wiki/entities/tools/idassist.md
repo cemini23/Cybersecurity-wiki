@@ -9,8 +9,10 @@ related:
   - concepts/llm-vulnerability-discovery.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-07-31
 osint_eval_origin: doc2-url-12 (cross-routed from OSINT eval as cybersec-primary)
+wire_status: deferred
+wire_target: "Phase-0 audit pending"
 ---
 
 ## Relations

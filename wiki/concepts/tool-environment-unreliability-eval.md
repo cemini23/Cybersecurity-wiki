@@ -18,7 +18,9 @@ related:
   - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-03
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE — ToolBench-X artifact pending"
 ---
 
 **Briefs:** `briefs/2026-07-02_robust-to-confidence-aware-tool-routing-handoff.md`, `briefs/2026-07-02_prod-mcp-tool-confidence-contract-checklist.md`

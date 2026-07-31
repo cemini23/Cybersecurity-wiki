@@ -14,8 +14,10 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-22 — github.com/NESA-Lab/AREA: LeakBench/AREA code present, 0★, no LICENSE file on GitHub API; use benchmark methodology until SPDX verified"
+wire_status: wont_wire
+wire_target: "REFERENCE — LeakBench methodology"
 ---
 
 ## Relations

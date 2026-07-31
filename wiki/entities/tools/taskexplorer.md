@@ -9,8 +9,10 @@ related:
   - concepts/malware-analysis.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-16
+updated: 2026-07-31
 osint_eval_origin: doc1-url-7 (cross-routed; cybersec primary)
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

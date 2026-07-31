@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-29 — review/taxonomy paper; no companion repo"
+wire_status: wont_wire
+wire_target: "REFERENCE review/taxonomy — no companion repo"
 ---
 
 **Briefs:** `briefs/2026-07-29_k222-cyber-capable-agent-containment-prod.md`

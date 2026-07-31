@@ -16,8 +16,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-18 — no public attack harness; claimed github.com/cardwizard/Sentinel 404; ADOPT pre-install gate pattern (CCC K179)"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-18_coding-agent-install-gap-handoff.md`, `briefs/2026-07-18_k179-coding-agent-preinstall-gate-cybersec-prod.md`

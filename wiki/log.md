@@ -18,6 +18,13 @@
 - **Briefs:** K230–K232 → prod; poker K231/K232; TipDrop/David K231/K232; Atto K230/K232
 - **Archive:** 3 PDFs → egress-fi cybersec
 
+## [2026-07-31] phase1 | Cybersec agent-security backlog clear
+
+- **Policy rules (alwaysApply):** `cemini-cybersec-mcp-tool-control.mdc`, `cemini-cybersec-agent-audit.mdc`, `cemini-cybersec-agent-containment.mdc`, `cemini-cybersec-lab-redteam.mdc` + CLAUDE.md Phase-1 section
+- **Stamps:** ~65 `policy_wired` · ~113 `wont_wire` (REFERENCE/OOD/trainers/NO LICENSE) · deferred remainder (LICENSE/Docker/Phase-0 watches)
+- **Runtime:** `cve-mcp` in `.cursor/mcp.json` → `raw-sources/repos/cve-mcp-server` (`uv run`); entity `runtime_wired`
+- **Skipped MCP:** jadx-mcp-server, pentest-ai (still deferred); Image-gen / 3D / GRPO / Harbor/Modal
+
 ## [2026-07-30] ingest | arXiv K225–K229 (RFFI temperature, GPT-Red, InferScale, KAMR, ByDeWay-V2)
 
 - **Sources:** 2607.25070 RFFI temperature; 2607.26115 GPT-Red; 2607.27090 InferScale; 2607.27136 KAMR; 2607.27145 ByDeWay-V2

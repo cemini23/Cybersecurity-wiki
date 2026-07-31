@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-30 — BSD-3-Clause; github.com/saltsystemslab/InferScale ~1.4MB"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-30_k227-inferscale-prod.md`

@@ -16,7 +16,9 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

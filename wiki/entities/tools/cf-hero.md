@@ -9,9 +9,11 @@ related:
   - entities/tools/reconftw.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/tool-eval-50urls-polymarket-kalshi-license-false-negative-2026-05-21.md"
 phase_0_verdict: "Defer 2026-05-22 — gh api reports no SPDX license; verify LICENSE file before adoption."
+wire_status: deferred
+wire_target: "LICENSE/SPDX watch before adopt"
 ---
 
 # musana/CF-Hero — Cloudflare origin-IP discovery

@@ -22,7 +22,9 @@ related:
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-07-17
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations

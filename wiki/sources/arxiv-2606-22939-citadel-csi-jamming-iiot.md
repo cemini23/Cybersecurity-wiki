@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-06-23
-updated: 2026-07-20
+updated: 2026-07-31
 phase_0_verdict: "Archive-only 2026-06-23 — IIoT defensive RF ML; no GitHub artifact Phase-0'd; tangential to offensive wireless tradecraft"
+wire_status: wont_wire
+wire_target: "OOD / OT research REFERENCE"
 ---
 
 ## Relations

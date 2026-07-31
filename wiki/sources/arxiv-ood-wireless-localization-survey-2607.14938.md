@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-19
-updated: 2026-07-20
+updated: 2026-07-31
 phase_0_verdict: "OOD 2026-07-17/19 — localization survey; not wireless pentest. Brief-only; no adopt."
+wire_status: wont_wire
+wire_target: "OOD — not cybersec harness wire"
 ---
 
 **Briefs:** `briefs/2026-07-19_ood-wireless-isac-uav-sensing-route.md`, `briefs/2026-07-17_ood-wireless-localization-survey-route.md`

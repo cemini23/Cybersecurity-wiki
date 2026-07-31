@@ -13,9 +13,11 @@ related:
   - "@ccc-wiki/entities/tools/osmedeus-acp-orchestration.md"
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-17
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-05-16 — MIT verified (LICENSE file is the full MIT text, Copyright 2020 j3ssie), Go dependency surface permissive (no GPL/AGPL in go.mod direct deps), mature (6,314 stars, 8yr-old project, active multi-contributor commits through 2026-05-12). Cloud runaway-compute concern RESOLVED: --auto-destroy, `cloud destroy all --force`, and max_hourly_spend / max_total_spend cost limits are first-class documented features."
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
+wire_status: policy_wired
+wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 # Osmedeus — Orchestration Engine for Security Scanning

@@ -19,7 +19,9 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-10
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE — IGAC artifact pending"
 ---
 
 ## Relations

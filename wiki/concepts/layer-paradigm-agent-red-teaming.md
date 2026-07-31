@@ -24,7 +24,9 @@ related:
   - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-16
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

@@ -12,8 +12,10 @@ related:
   - sources/arxiv-2606-27027-sharelock-multi-tool-threshold-mcp-poisoning.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-24 — github.com/shishishi123/Tool-Guard MIT, 0★, last push 2026-05-25; ICML 2026 artifact — lab-validate ASR/utility on prod-mcp tool catalog before enforcement"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 ## Relations

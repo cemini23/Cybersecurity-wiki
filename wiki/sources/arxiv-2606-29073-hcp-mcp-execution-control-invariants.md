@@ -18,8 +18,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-04 — MIT, github.com/SymbolicLight-AGI/handle-capability-protocol 0★; reference runtime + benchmark artifact"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-04_hcp-mcp-execution-control-handoff.md`, `briefs/2026-07-04_prod-mcp-eight-invariants-checklist.md`

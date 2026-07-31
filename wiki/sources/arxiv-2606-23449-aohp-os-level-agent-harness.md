@@ -14,8 +14,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-27 — github.com/aohp-os/aohp Apache-2.0, ~93★; AOSP fork — lab-validate security-policy hooks before production agent deployment"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations

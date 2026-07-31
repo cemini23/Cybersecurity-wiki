@@ -9,8 +9,10 @@ related:
   - entities/tools/karma.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-07-31
 osint_eval_origin: doc2-url-18 (cross-routed; cybersec primary for secure-doc-handling)
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

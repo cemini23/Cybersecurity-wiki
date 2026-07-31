@@ -10,8 +10,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 phase_0_verdict: "GO 2026-07-22 — github.com/AgPriyank/OC-GRPO Apache-2.0 ~24MB shallow; Meta/Columbia reference impl"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 **Briefs:** `briefs/2026-07-22_k204-oc-grpo-prod.md`

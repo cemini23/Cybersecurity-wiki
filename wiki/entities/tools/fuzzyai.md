@@ -20,7 +20,9 @@ related:
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

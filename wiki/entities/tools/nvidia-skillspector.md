@@ -42,8 +42,10 @@ related:
 
 maturity: draft
 created: 2026-05-31
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: CONDITIONAL-GO 2026-05-31 — mirrors OSINT Phase-0; static `--no-llm` laptop preingest; OSV air-gap probe pending on lab VLAN
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 # NVIDIA SkillSpector — agent/MCP skill supply-chain scanner

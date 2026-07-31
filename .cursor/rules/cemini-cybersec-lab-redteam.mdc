@@ -1,0 +1,26 @@
+---
+description: Authorized lab red-team only — FuzzyAI/AHA/cryptex/evidential/DataShield/InferScale (Cybersec Phase-1)
+alwaysApply: true
+---
+
+# Lab red-team policy (Cybersec Phase-1)
+
+Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord, no unauthorized targets.
+
+## Authorization
+
+- Written scope (owned lab, bug-bounty rules, or engagement letter) before running FuzzyAI, AHA, cryptex, Senthex, or similar.
+- Prefer Docker-sandboxed victims; never point autoresearch red-team loops at third-party production.
+- Kid-safety / social-engineering pages are for parent/teacher/LE context — not offensive grooming research.
+
+## Eval discipline
+
+- Report dual metrics where relevant (overall ASR vs full/phase ASR); do not optimize a single ASR number.
+- Respect evidential ceilings — stop claiming more certainty than the eval design supports (`ai-redteam-evidential-limits`).
+- InferScale / KV-injection: treat shared-prefix or cache-poison findings as security bugs in agent infra, not as free speedups to ship unchecked.
+
+## Training data / fine-tune
+
+- Run DataShield-class risky-finetune filters in lab before any Cemini/TipDrop fine-tune on scraped corpora.
+- Do **not** install OC-GRPO or other GRPO trainer stacks as “wired” harness — REFERENCE/paper repro only.
+- Notes-to-self / experiential memory clones: lab only; reconstruct before inject (see federation MemHarness rule).

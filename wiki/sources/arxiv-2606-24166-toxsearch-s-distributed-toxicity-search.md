@@ -12,8 +12,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-26 — no public code artifact; methodology complements FuzzyAI-class fuzzers"
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

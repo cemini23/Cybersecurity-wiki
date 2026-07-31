@@ -12,8 +12,10 @@ related:
   - entities/tools/ecc.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-06-20
+updated: 2026-07-31
 osint_eval_origin: doc1-url-17 (cross-routed; substantive cybersec content)
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

@@ -18,8 +18,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-09 — github.com/compsec-snu/adi artifacts + AgentDojo ADI benchmark; responsible disclosure to Anthropic/OpenAI/Google; adopt eval harness after license audit"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 **Briefs:** `briefs/2026-07-09_adi-trusted-untrusted-data-handoff.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`

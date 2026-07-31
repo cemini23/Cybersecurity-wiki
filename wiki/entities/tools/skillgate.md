@@ -15,8 +15,10 @@ related:
   - concepts/skillsec-lifecycle-agent-skill-security.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-07-16
+updated: 2026-07-31
 phase_0_verdict: "Reference 2026-06-20 — free SaaS at skillgate.mitiga.ai; closed source; use for third-party skill triage, not prod allowlist automation without export audit"
+wire_status: wont_wire
+wire_target: "REFERENCE SaaS — closed source; methodology only"
 ---
 
 ## Relations

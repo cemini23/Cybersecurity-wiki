@@ -13,8 +13,10 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-31
 phase_0_verdict: "NO-GO 2026-07-16 — github.com/microsoft/gflowrl 404 (promised release); REFERENCE for ASR attacker-diversity claims only"
+wire_status: wont_wire
+wire_target: "Phase-0 NO-GO"
 ---
 
 **Briefs:** `briefs/2026-07-16_gflowrl-attacker-diversity-ood-note.md`, `briefs/2026-07-16_k178-gflowrl-attacker-rl-reference-prod.md`

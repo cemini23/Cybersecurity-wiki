@@ -15,8 +15,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-16 — methodology paper; no public attack harness repo in abstract; steal dual-metric ASR + phase state machine"
+wire_status: wont_wire
+wire_target: "REFERENCE — no public harness"
 ---
 
 **Briefs:** `briefs/2026-07-16_amt-x-checklist-gated-asr-handoff.md`, `briefs/2026-07-16_k175-amt-x-checklist-gated-asr-prod.md`

@@ -16,8 +16,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-16 — SkillSec-Eval taxonomy + 327-skill empirical study; no standalone installable product; steal lifecycle checklist"
+wire_status: wont_wire
+wire_target: "REFERENCE taxonomy — policy in agent-audit rule"
 ---
 
 **Briefs:** `briefs/2026-07-16_skillsec-lifecycle-skill-security-handoff.md`, `briefs/2026-07-16_k177-skillsec-lifecycle-skill-security-prod.md`

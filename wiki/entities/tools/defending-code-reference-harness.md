@@ -19,8 +19,10 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-07-18
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-06 — laptop Docker/gVisor only; Apache-2.0 LICENSE file; not for cemini-prod trading path."
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 **Briefs:** `briefs/2026-06-06_k102-cybersec-defending-code-harness-from-osint.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`, `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`

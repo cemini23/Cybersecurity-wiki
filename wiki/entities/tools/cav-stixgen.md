@@ -12,8 +12,10 @@ related:
   - entities/tools/autosut.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-31
 phase_0_verdict: "REFERENCE 2026-07-20 — figshare share-link only; license/size unverified; no local clone"
+wire_status: deferred
+wire_target: "figshare license check before any download"
 ---
 
 ## Relations

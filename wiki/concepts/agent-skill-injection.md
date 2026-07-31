@@ -51,7 +51,9 @@ related:
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-07-16
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations

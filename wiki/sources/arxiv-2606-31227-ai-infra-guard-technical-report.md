@@ -18,8 +18,10 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-07-01 — Apache-2.0 + NOTICE §4(d); external Docker only; github.com/Tencent/AI-Infra-Guard ~4018★"
+wire_status: deferred
+wire_target: "External Docker only — ask before runtime"
 ---
 
 ## Relations
