@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-07-31 | Full ingest K230–K232 (TCA-SIR, CoGate, AISPA) — all REFERENCE; SystemPromptIndex LICENSE watch; prod+poker+TipDrop+Atto briefs | Inbox cleared; secure codegen + system-prompt governance |
 | 2026-07-30 | Full ingest K225–K229 (RFFI temperature, GPT-Red, InferScale, KAMR, ByDeWay-V2) — InferScale GO ~1.4MB; prod+poker+TipDrop+Atto briefs | Inbox cleared; wireless auth + self-play red-team + KV-injection security |
 | 2026-07-29 | Full ingest K220–K224 (evidential ceiling, Concept2Scenario, agent containment, IH-B, KuTIE/VulnCare) — 5 sources, 5 concepts, 3 entities; GO clones ~6MB; prod+poker+TipDrop+Atto briefs | Inbox cleared; agent-eval + K8s remediation coverage |
 | 2026-05-12 | Workspace forked from `wiki-template/` (SEO wiki) | Reused proven schema instead of re-deriving |

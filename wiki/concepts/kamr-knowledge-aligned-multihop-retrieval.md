@@ -7,9 +7,11 @@ related:
   - sources/arxiv-2607-27136-kamr-multihop-retrieval.md
   - concepts/ai-for-cybersecurity.md
   - concepts/evidence-aware-long-context-grounding.md
+  - concepts/tca-sir-target-conditioned-inspiration-retrieval.md
+  - sources/arxiv-2607-28498-tca-sir-scientific-inspiration.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -17,6 +19,8 @@ updated: 2026-07-30
 - @sources/arxiv-2607-27136-kamr-multihop-retrieval.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/evidence-aware-long-context-grounding.md
+- @concepts/tca-sir-target-conditioned-inspiration-retrieval.md
+- @sources/arxiv-2607-28498-tca-sir-scientific-inspiration.md
 
 ## Raw Concept
 

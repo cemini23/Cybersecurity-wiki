@@ -9,6 +9,15 @@
 
 
 
+## [2026-07-31] ingest | arXiv K230–K232 (TCA-SIR, CoGate, AISPA)
+
+- **Sources:** 2607.28498 TCA-SIR; 2607.28529 CoGate; 2607.28617 AISPA/SystemPromptIndex
+- **Concepts:** tca-sir-target-conditioned-inspiration-retrieval; cogate-confidence-gated-secure-code; aispa-system-prompt-assurance-audit
+- **Entities:** system-prompt-index (REFERENCE — NO LICENSE)
+- **Phase-0:** `scripts/adopt_k230_k232_phase0.sh` — no local clones
+- **Briefs:** K230–K232 → prod; poker K231/K232; TipDrop/David K231/K232; Atto K230/K232
+- **Archive:** 3 PDFs → egress-fi cybersec
+
 ## [2026-07-30] ingest | arXiv K225–K229 (RFFI temperature, GPT-Red, InferScale, KAMR, ByDeWay-V2)
 
 - **Sources:** 2607.25070 RFFI temperature; 2607.26115 GPT-Red; 2607.27090 InferScale; 2607.27136 KAMR; 2607.27145 ByDeWay-V2

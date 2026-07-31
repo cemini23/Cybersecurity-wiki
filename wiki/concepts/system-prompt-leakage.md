@@ -18,9 +18,12 @@ related:
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - concepts/instruction-hierarchy-conflict-benchmark.md
   - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+  - concepts/aispa-system-prompt-assurance-audit.md
+  - sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
+  - entities/tools/system-prompt-index.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-07-29
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -30,6 +33,9 @@ updated: 2026-07-29
 - @entities/tools/llm-defense-lattice.md — OWASP LLM07 attribution probes
 - @concepts/instruction-hierarchy-conflict-benchmark.md
 - @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
+- @concepts/aispa-system-prompt-assurance-audit.md
+- @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
+- @entities/tools/system-prompt-index.md
 
 ## Raw Concept
 

@@ -202,9 +202,16 @@ related:
   - sources/arxiv-2607-27136-kamr-multihop-retrieval.md
   - sources/arxiv-2607-27145-bydeway-v2-spatial.md
   - entities/tools/inferscale.md
+  - concepts/tca-sir-target-conditioned-inspiration-retrieval.md
+  - concepts/cogate-confidence-gated-secure-code.md
+  - concepts/aispa-system-prompt-assurance-audit.md
+  - sources/arxiv-2607-28498-tca-sir-scientific-inspiration.md
+  - sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
+  - sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
+  - entities/tools/system-prompt-index.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -295,6 +302,13 @@ updated: 2026-07-30
 - @sources/arxiv-2607-27136-kamr-multihop-retrieval.md
 - @sources/arxiv-2607-27145-bydeway-v2-spatial.md
 - @entities/tools/inferscale.md
+- @concepts/tca-sir-target-conditioned-inspiration-retrieval.md
+- @concepts/cogate-confidence-gated-secure-code.md
+- @concepts/aispa-system-prompt-assurance-audit.md
+- @sources/arxiv-2607-28498-tca-sir-scientific-inspiration.md
+- @sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
+- @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
+- @entities/tools/system-prompt-index.md
 
 ## Raw Concept
 

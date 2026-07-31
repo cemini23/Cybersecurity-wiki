@@ -133,9 +133,11 @@ related:
   - concepts/inferscale-kv-injection-personalized-serving.md
   - sources/arxiv-2607-27090-inferscale-kv-injection.md
   - entities/tools/inferscale.md
+  - concepts/aispa-system-prompt-assurance-audit.md
+  - sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 # Agent runtime guardrails — attack surfaces + enforcement paradigms
@@ -192,6 +194,8 @@ updated: 2026-07-30
 - @concepts/inferscale-kv-injection-personalized-serving.md
 - @sources/arxiv-2607-27090-inferscale-kv-injection.md
 - @entities/tools/inferscale.md
+- @concepts/aispa-system-prompt-assurance-audit.md
+- @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
 
 ## Raw Concept
 

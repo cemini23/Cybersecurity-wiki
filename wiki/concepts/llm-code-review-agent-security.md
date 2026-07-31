@@ -29,9 +29,11 @@ related:
   - entities/tools/senthex-research.md
   - concepts/code-monitor-red-teaming-public-tests.md
   - sources/arxiv-2607-20852-code-monitor-red-teaming.md
+  - concepts/cogate-confidence-gated-secure-code.md
+  - sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-24
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -48,6 +50,8 @@ updated: 2026-07-24
 - @concepts/seclaw-agent-security-evaluation.md — trajectory eval hygiene for agent benchmarks
 
 **Briefs:** `briefs/2026-06-16_sevra-bench-pr-review-agent-eval.md`, `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`, `briefs/2026-07-07_harness-substrate-constraints-checklist.md`, `briefs/2026-07-09_prod-mcp-trusted-untrusted-data-isolation-checklist.md`
+- @concepts/cogate-confidence-gated-secure-code.md
+- @sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
 
 ## Raw Concept
 

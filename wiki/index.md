@@ -86,6 +86,12 @@
 | @concepts/inferscale-kv-injection-personalized-serving.md | draft | Privileged KV injection for persona memory |
 | @concepts/kamr-knowledge-aligned-multihop-retrieval.md | draft | Anchor-then-expand multi-hop GRAG |
 | @concepts/bydeway-v2-explainable-spatial-reasoning.md | draft | Auditable spatial predicates for MLLMs |
+| @sources/arxiv-2607-28498-tca-sir-scientific-inspiration.md | draft | TCA-SIR remote-analogy SIR (2607.28498; K230) |
+| @sources/arxiv-2607-28529-cogate-secure-code-codecoding.md | draft | CoGate confidence-gated secure codegen (2607.28529; K231) |
+| @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md | draft | AISPA system-prompt auditing (2607.28617; K232) |
+| @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
+| @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
+| @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |
 | @concepts/wireless-pentest.md | draft | WiFi / WPS / Bluetooth / RFID attacks |
 | @concepts/container-security.md | draft | Docker + Kubernetes attack/defense |
 | @concepts/dns-server-discovery-vs-subdomain-enumeration.md | draft | DNS recon distinction (server discovery vs subdomain enum) |
@@ -279,6 +285,7 @@
 | @entities/tools/vulncare.md | draft | VulnCare K8s remediation lab (Apache-2.0; GO ~2.6MB) |
 | @entities/tools/kutie-artifacts.md | draft | KuTIE artifacts (Dynatrace lab CONDITIONAL ~2.9MB) |
 | @entities/tools/inferscale.md | draft | InferScale KV injection (BSD-3; GO ~1.4MB) |
+| @entities/tools/system-prompt-index.md | draft | SystemPromptIndex AISPA corpus (REFERENCE; NO LICENSE) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -435,6 +442,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | vulncare | Apache-2.0 | GO | K224 | @entities/tools/vulncare.md — ~2.6MB |
 | kutie-artifacts | Dynatrace proprietary | CONDITIONAL-GO | K224 | @entities/tools/kutie-artifacts.md — lab-view only ~2.9MB |
 | InferScale | BSD-3-Clause | GO | K227 | @entities/tools/inferscale.md — ~1.4MB |
+| SystemPromptIndex | — | REFERENCE | K232 | @entities/tools/system-prompt-index.md — NO LICENSE ~11MB |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 
