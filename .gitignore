@@ -17,6 +17,8 @@ raw-sources/*
 # --- Outputs staged for distribution -----------------------------------------
 briefs/*
 !briefs/.gitkeep
+# Friend-facing operator playbook (intentionally public in-repo)
+!briefs/2026-08-02_friend-operator-lab-playbook.md
 
 # --- Claude Code per-project state -------------------------------------------
 .claude/

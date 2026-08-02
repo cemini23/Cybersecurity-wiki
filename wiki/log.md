@@ -1,3 +1,12 @@
+## [2026-08-02] phase0 | CyberStrike (CyberStrikeus/CyberStrike)
+
+- **Verdict:** CONDITIONAL-GO — AGPL-3.0; OpenCode fork; **no sandbox**; `scope_check` advisory-only
+- **Clone:** `raw-sources/repos/CyberStrike` (~219MB shallow `dev` @ `93a51658`) — host CLI **not** installed
+- **NEW:** `@entities/tools/cyberstrike.md` + `@sources/github-cyberstrike.md`
+- **Brief (gitignored):** `briefs/2026-08-02_cyberstrike-phase0.md` — VM-only human gates
+- **Wire:** deferred (ask before npm -g / MCP); linked from operator-lab-playbook + llm-pentest-automation
+- **Compare:** prefer MIT `@entities/tools/pentest-ai-agents.md` / `pentest-ai` when AGPL or host risk unacceptable
+
 ## [2026-08-02] playbook | Friend operator lab coverage hub
 
 - **Hub:** `@concepts/operator-lab-playbook.md` — start-here path (local AI → owned lab → product pentest → bounty)
