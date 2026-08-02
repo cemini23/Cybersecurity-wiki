@@ -1,8 +1,8 @@
 ---
 title: "GitHub — usestrix/strix"
 type: source
-tags: [github, strix, ai-pentest, harness, apache]
-keywords: [usestrix/strix, Strix, Apache-2.0, Docker sandbox, PoC validation]
+tags: [github, strix, ai-pentest, harness, apache, phase0]
+keywords: [usestrix/strix, Strix, Apache-2.0, Docker sandbox, PoC validation, strix-agent, OmniSecure]
 related:
   - entities/tools/strix.md
   - concepts/ai-pentest-harness-landscape.md
@@ -10,46 +10,61 @@ related:
   - sources/github-cyberstrike.md
   - concepts/llm-pentest-automation.md
   - concepts/agent-vm-sandboxing.md
+  - sources/github-strix-omlx.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
+read_status: skimmed
 ---
 
 ## Relations
 
-- @entities/tools/strix.md — tool entity (CONDITIONAL-GO / REFERENCE; no clone)
+- @entities/tools/strix.md — tool entity (CONDITIONAL-GO; clone done)
 - @concepts/ai-pentest-harness-landscape.md — landscape synthesis citing this source
 - @entities/tools/cyberstrike.md — sibling harness for contrast
-- @sources/github-cyberstrike.md — CyberStrike source snapshot
+- @sources/github-cyberstrike.md — CyberStrike Phase-0 source snapshot
 - @concepts/llm-pentest-automation.md — methodology umbrella
 - @concepts/agent-vm-sandboxing.md — containment context for sandbox claims
+- @sources/github-strix-omlx.md — Apple MLX/Ollama wrapper peer
 
 ## Raw Concept
 
 | Field | Value |
 |-------|--------|
 | Title | usestrix/strix |
-| Author / org | usestrix |
+| Author / org | usestrix (OmniSecure Inc. copyright in LICENSE) |
 | Type | GitHub repository |
-| Location | https://github.com/usestrix/strix (no local clone) |
+| Location | https://github.com/usestrix/strix · local `raw-sources/repos/strix` |
 | Retrieved | 2026-08-02 |
+| SHA | `dbc427d8162008edd9e175224b6d1156577fb094` (shallow `main`) |
 | Pages | n/a (repo) |
-| Read-status | unread-stub |
+| Read-status | skimmed |
 
 ## Narrative
 
-Thin source stub for the Strix AI pentest harness repository. Opened to support the 2026-08-02 harness landscape write-up without a local clone. Full Phase-0 (LICENSE SPDX, README, sandbox design, last commits) is deferred; entity remains **REFERENCE** until then.
+Phase-0 source snapshot for the Strix AI pentest harness. Shallow clone completed 2026-08-02 under `raw-sources/repos/strix` (~11MB). Verified **Apache-2.0**, Docker sandbox runtime (`strix/runtime/docker_client.py`, Kali image via `STRIX_IMAGE`), soft instruction-based scope, and **telemetry default-on** (PostHog + Scarf; `STRIX_TELEMETRY=0` opt-out). Install docs include curl\|bash — not used; PyPI package `strix-agent` noted for operator pipx/uv later.
 
-Do **not** archive or clone until Phase-0 is ordered.
+Host CLI was **not** installed during Phase-0. See entity for verdict + human gates; brief `briefs/2026-08-02_strix-phase0.md` (gitignored) for checklist.
 
 ## Snippets
 
 ```text
 URL: https://github.com/usestrix/strix
-Retrieved: 2026-08-02
-Local: none (operator no-clone gate)
+SPDX: Apache-2.0
+Local: raw-sources/repos/strix @ dbc427d (main, depth=1)
+Package: strix-agent==1.4.1
+Default image: ghcr.io/usestrix/strix-sandbox:1.2.0
+```
+
+```bash
+# Telemetry off (lab default)
+export STRIX_TELEMETRY=0
+
+# Optional: attach sandbox to a lab-only Docker network
+export STRIX_DOCKER_SANDBOX_NETWORK=lab-net
 ```
 
 ## Dead Ends
 
-- **Assuming desk claims without Phase-0** — re-verify license and sandbox design before any GO.
+- **Desk-only claims without clone** — superseded by this Phase-0.
+- **curl\|sh install** — rejected by federation policy; use pipx/uv after operator OK.

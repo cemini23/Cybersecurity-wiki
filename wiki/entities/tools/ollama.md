@@ -21,7 +21,7 @@ updated: 2026-08-02
 ## Relations
 
 - @sources/github-ablitafuzzer.md — AblitaFuzzer uses Ollama-hosted attacker model
-- @entities/tools/strix.md — Strix AI pentest harness stub (Apache-2.0 REFERENCE)
+- @entities/tools/strix.md — Strix AI pentest harness (Apache-2.0 CONDITIONAL-GO Phase-0)
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 

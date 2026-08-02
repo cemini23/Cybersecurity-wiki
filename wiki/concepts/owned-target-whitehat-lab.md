@@ -28,7 +28,7 @@ updated: 2026-08-02
 
 ## Relations
 - @sources/rizvi-automating-bug-bounty-recon-2026.md — anti-noise recon article (2026)
-- @entities/tools/strix.md — Strix Apache-2.0 harness stub (REFERENCE)
+- @entities/tools/strix.md — Strix Apache-2.0 harness (CONDITIONAL-GO Phase-0)
 - @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape; harness runs only against owned lab targets
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/system-hardening.md

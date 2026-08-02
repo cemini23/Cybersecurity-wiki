@@ -46,7 +46,7 @@ wire_target: "Ask before host CLI/MCP wire; lab VM + written scope required; AGP
 - @concepts/agentic-offensive-security-kill-chain.md — agent-phishing / kill-chain risk class for agentic pentest tools
 - @entities/tools/pentest-ai-agents.md — MIT Claude Code agent collection (lighter; compare before adopting both)
 - @entities/tools/pentest-ai.md — MIT MCP + `ptai` CLI sibling product
-- @entities/tools/strix.md — Apache-2.0 Docker-sandbox peer (REFERENCE; contrast containment)
+- @entities/tools/strix.md — Apache-2.0 Docker-sandbox peer (CONDITIONAL-GO Phase-0 clone; contrast containment)
 - @concepts/ai-pentest-harness-landscape.md — harness decision matrix (license / containment / lane)
 - @entities/tools/ollama.md — local inference CyberStrike can target
 - @entities/tools/iron-proxy.md — egress allowlist for lab / Bolt workers

@@ -1,3 +1,12 @@
+## [2026-08-02] phase0 | Strix (usestrix/strix)
+
+- **Verdict:** CONDITIONAL-GO — Apache-2.0 verified; real Docker sandbox; soft scope; telemetry default-on
+- **Clone:** `raw-sources/repos/strix` (~11MB shallow `main` @ `dbc427d`) — host CLI **not** installed
+- **UPDATED:** `@entities/tools/strix.md` + `@sources/github-strix.md` + landscape + playbook links
+- **Brief (gitignored):** `briefs/2026-08-02_strix-phase0.md` — pipx/uv only, `STRIX_TELEMETRY=0`, no curl|sh
+- **Friend brief:** deep-research item 7 added
+- **Compare:** prefer Strix over CyberStrike when Apache + container isolation matter; MIT agents when already on Claude Code
+
 ## [2026-08-02] polish | Friend brief + route WorkDir spaces + leftover sources
 
 - **Sources:** `@sources/github-ablitafuzzer.md`, `@sources/devto-red-team-ai-benchmark.md` (wired into local-abliterated stack)

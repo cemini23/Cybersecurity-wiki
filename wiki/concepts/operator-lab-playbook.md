@@ -34,7 +34,7 @@ updated: 2026-08-02
 - @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup
 - @sources/github-cyberstrike.md — CyberStrike Phase-0 source snapshot
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
-- @entities/tools/strix.md — Apache-2.0 Docker-sandbox harness — CONDITIONAL-GO / REFERENCE (no clone yet)
+- @entities/tools/strix.md — Apache-2.0 Docker-sandbox harness — CONDITIONAL-GO (Phase-0 clone; no host install)
 - @concepts/ai-pentest-harness-landscape.md — harness decision matrix (CyberStrike vs Strix vs MIT peers)
 - @concepts/local-abliterated-llm-pentest-stack.md — local abliterated / low-refusal text LLM stack (Linux+NVIDIA + Apple Silicon)
 - @concepts/owned-target-whitehat-lab.md — authorization + isolation for servers/VMs you own
@@ -97,7 +97,7 @@ Wire agents with the Tier-1 / Tier-2 contract in @concepts/llm-pentest-automatio
 | Job | Start here |
 |-----|------------|
 | Local inference | @entities/tools/ollama.md, @entities/tools/vllm.md |
-| Scoped agent orchestration | @entities/tools/pentest-ai-agents.md (MIT) · @entities/tools/cyberstrike.md (AGPL product — **VM only**, CONDITIONAL-GO) · @entities/tools/strix.md (Apache-2.0 Docker sandbox — REFERENCE until Phase-0) — pick matrix: @concepts/ai-pentest-harness-landscape.md |
+| Scoped agent orchestration | @entities/tools/pentest-ai-agents.md (MIT) · @entities/tools/cyberstrike.md (AGPL product — **VM only**, CONDITIONAL-GO) · @entities/tools/strix.md (Apache-2.0 Docker sandbox — CONDITIONAL-GO Phase-0) — pick matrix: @concepts/ai-pentest-harness-landscape.md |
 | AI harness landscape | @concepts/ai-pentest-harness-landscape.md |
 | Egress / containment | @entities/tools/iron-proxy.md, @concepts/agent-vm-sandboxing.md |
 | Web methodology | @concepts/web-pentest-methodology.md |

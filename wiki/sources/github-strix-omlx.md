@@ -7,6 +7,7 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - entities/tools/strix.md
   - concepts/ai-pentest-harness-landscape.md
+  - sources/github-strix.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
@@ -16,8 +17,9 @@ read_status: skimmed
 ## Relations
 
 - @concepts/local-abliterated-llm-pentest-stack.md — Apple Silicon / OMLX wiring pattern
-- @entities/tools/strix.md — Strix harness stub
+- @entities/tools/strix.md — Strix harness (CONDITIONAL-GO Phase-0 clone)
 - @concepts/ai-pentest-harness-landscape.md — harness landscape
+- @sources/github-strix.md — upstream Strix Phase-0 source snapshot
 
 ## Raw Concept
 

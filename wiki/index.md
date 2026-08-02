@@ -253,7 +253,7 @@
 | @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
 | @entities/tools/cyberstrike.md | draft | AI offensive harness — AGPL, CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02) |
-| @entities/tools/strix.md | draft | Autonomous AI pentest agents — Apache-2.0, Docker sandbox (REFERENCE until Phase-0) |
+| @entities/tools/strix.md | draft | Autonomous AI pentest agents — Apache-2.0, Docker sandbox (CONDITIONAL-GO Phase-0) |
 | @entities/tools/ollama.md | draft | Local LLM runtime — simple pull/run + API (Linux + Apple Silicon) |
 | @entities/tools/vllm.md | draft | High-throughput OpenAI-compatible LLM serving (NVIDIA) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
@@ -486,7 +486,7 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [OWASP ASVS 5.0.0](sources/owasp-asvs-5.md) — product verification standard (2025-05-30)
 - [Penligent — Bug Bounty Hunter Software in 2026](sources/penligent-bug-bounty-hunter-software-2026.md)
 - [Rizvi — Automating Bug Bounty Recon in 2026](sources/rizvi-automating-bug-bounty-recon-2026.md)
-- [GitHub — usestrix/strix](sources/github-strix.md) — Apache-2.0 AI pentest agents (REFERENCE)
+- [GitHub — usestrix/strix](sources/github-strix.md) — Apache-2.0 AI pentest agents · Phase-0 CONDITIONAL-GO 2026-08-02
 - [GitHub — sw30labs/strix-omlx](sources/github-strix-omlx.md) — Strix → local MLX/Ollama
 - [GitHub — tcpiplab/AblitaFuzzer](sources/github-ablitafuzzer.md) — abliterated local attacker LLM pattern
 - [DEV — Red Team AI Benchmark](sources/devto-red-team-ai-benchmark.md) — refusal-free ≠ accurate quiz methodology

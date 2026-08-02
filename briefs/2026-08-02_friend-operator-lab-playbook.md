@@ -90,6 +90,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@concepts/bug-bounty.md`
 - `@concepts/llm-pentest-automation.md`
 - `@entities/tools/cyberstrike.md`
+- `@entities/tools/strix.md`
 - `@sources/github-ablitafuzzer.md`
 - `@sources/devto-red-team-ai-benchmark.md`
 
@@ -109,5 +110,7 @@ Read these wiki pages in order after the checklist above:
    2026 stack table + anti-noise (tech-detect → staged Nuclei → custom templates).
 6. **CyberStrike Phase-0** — `@entities/tools/cyberstrike.md`  
    CONDITIONAL-GO; install only inside a lab VM (see local brief `briefs/2026-08-02_cyberstrike-phase0.md` if present on the operator machine).
+7. **Strix Phase-0** — `@entities/tools/strix.md`  
+   CONDITIONAL-GO; Apache-2.0 + Docker sandbox; clone at `raw-sources/repos/strix`. Prefer over CyberStrike when license/isolation matter. Human gates: no curl\|sh, `STRIX_TELEMETRY=0`, written scope (local brief `briefs/2026-08-02_strix-phase0.md`).
 
 Operator hub: `@concepts/operator-lab-playbook.md`
