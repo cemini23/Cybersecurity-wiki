@@ -36,12 +36,14 @@ related:
   - entities/tools/cyberstrike.md
   - concepts/ai-pentest-harness-landscape.md
   - entities/tools/strix.md
+  - entities/tools/strix-omlx.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-02
 ---
 
 ## Relations
+- @entities/tools/strix-omlx.md
 - @entities/tools/strix.md — Strix AI pentest harness (Apache-2.0 CONDITIONAL-GO Phase-0)
 - @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape; agent findings still follow CVD, not public dump
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)

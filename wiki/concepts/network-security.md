@@ -62,6 +62,7 @@ related:
   - concepts/rf-fingerprint-probe-point-benchmark.md
   - sources/arxiv-2607-21564-rf-fingerprint-probe.md
   - concepts/owned-target-whitehat-lab.md
+  - entities/certifications/ecppt.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-07-24

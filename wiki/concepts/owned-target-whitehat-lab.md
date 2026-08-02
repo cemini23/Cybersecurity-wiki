@@ -21,12 +21,19 @@ related:
   - concepts/ai-pentest-harness-landscape.md
   - entities/tools/strix.md
   - sources/rizvi-automating-bug-bounty-recon-2026.md
+  - entities/tools/strix-omlx.md
+  - entities/tools/pentestgpt.md
+  - entities/tools/cai-framework.md
+  - entities/tools/hexstrike-ai.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
 ---
 
 ## Relations
+- @entities/tools/cai-framework.md
+- @entities/tools/pentestgpt.md
+- @entities/tools/strix-omlx.md
 - @sources/rizvi-automating-bug-bounty-recon-2026.md — anti-noise recon article (2026)
 - @entities/tools/strix.md — Strix Apache-2.0 harness (CONDITIONAL-GO Phase-0)
 - @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape; harness runs only against owned lab targets
@@ -109,7 +116,7 @@ Isolation is both safety (containment) and ethics (hard technical barrier agains
 
 - **Minimal:** one attack VM + one target VM on a host-only/virt network.
 - **Product rehearsal:** attack VM + staging clone of *your* product (synthetic data) — @concepts/pre-release-product-pentest.md.
-- **Agentic:** attack VM runs harness (@concepts/ai-pentest-harness-landscape.md); CyberStrike only inside VM (@entities/tools/cyberstrike.md CONDITIONAL-GO); prefer sandboxed harnesses when available (@entities/tools/strix.md REFERENCE).
+- **Agentic:** attack VM runs harness (@concepts/ai-pentest-harness-landscape.md); CyberStrike only inside VM (@entities/tools/cyberstrike.md CONDITIONAL-GO); prefer sandboxed harnesses when available (@entities/tools/strix.md CONDITIONAL-GO Phase-0).
 
 ### 5b. Golden-image checklist
 
@@ -117,6 +124,8 @@ Isolation is both safety (containment) and ethics (hard technical barrier agains
 - [ ] Attack golden image: toolbelt + scoped agent config templates (empty secrets)
 - [ ] Snapshot tag before each major exercise; rebuild after messy persistence tests
 - [ ] Written self-auth memo lists the image IDs / IPs in scope
+
+Hands-on ordered form (may be local-only): `briefs/2026-08-02_owned-lab-golden-image-recon.md`.
 
 ### 5c. Practice the bounty pipeline on owned targets first
 

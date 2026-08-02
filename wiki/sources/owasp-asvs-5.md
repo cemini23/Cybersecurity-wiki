@@ -14,7 +14,7 @@ read_status: unread-stub
 
 ## Relations
 
-- @concepts/pre-release-product-pentest.md — pre-launch product test loop maps onto ASVS L1/L2/L3 assurance bars
+- @concepts/pre-release-product-pentest.md — pre-launch product test loop maps onto ASVS L1/L2/L3 assurance bars; operator L2 checklist brief `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` (may be local-only)
 - @concepts/web-pentest-methodology.md — web/API methodology; ASVS is the verification-requirements complement to WSTG
 
 ## Raw Concept

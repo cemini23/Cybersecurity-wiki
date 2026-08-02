@@ -293,6 +293,7 @@ related:
   - sources/windows-server-and-active-directory-pentest.md
   - sources/wstg-web-application-security-testing-owasp-mind-map.md
   - sources/zero-trust-testing-checklist.md
+  - concepts/buffer-overflow.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-05-12

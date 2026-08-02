@@ -15,6 +15,9 @@ related:
   - sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md
   - concepts/multilingual-long-horizon-agent-evaluation.md
   - entities/platforms/polyworkbench.md
+  - entities/tools/hexstrike-ai.md
+  - sources/github-hexstrike-ai.md
+  - concepts/ai-pentest-harness-landscape.md
 maturity: draft
 created: 2026-07-07
 updated: 2026-07-10

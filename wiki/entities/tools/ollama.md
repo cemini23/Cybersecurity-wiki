@@ -12,16 +12,24 @@ related:
   - concepts/operator-lab-playbook.md
   - entities/tools/cyberstrike.md
   - entities/tools/strix.md
+  - entities/tools/strix-omlx.md
+  - entities/tools/pentestgpt.md
+  - sources/github-strix-omlx.md
   - sources/github-ablitafuzzer.md
+  - sources/github-pentestgpt.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
 ---
 
 ## Relations
+- @sources/github-pentestgpt.md
 
 - @sources/github-ablitafuzzer.md — AblitaFuzzer uses Ollama-hosted attacker model
 - @entities/tools/strix.md — Strix AI pentest harness (Apache-2.0 CONDITIONAL-GO Phase-0)
+- @entities/tools/strix-omlx.md — setup-strix-ollama.sh wires Strix → Ollama
+- @sources/github-strix-omlx.md — wrapper source Phase-0
+- @entities/tools/pentestgpt.md — Ollama path in modernized legacy mode (REFERENCE)
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 

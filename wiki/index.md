@@ -254,6 +254,10 @@
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
 | @entities/tools/cyberstrike.md | draft | AI offensive harness — AGPL, CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02) |
 | @entities/tools/strix.md | draft | Autonomous AI pentest agents — Apache-2.0, Docker sandbox (CONDITIONAL-GO Phase-0) |
+| @entities/tools/strix-omlx.md | draft | Strix → OMLX/Ollama/SGLang wrapper — Apache-2.0 CONDITIONAL-GO clone |
+| @entities/tools/hexstrike-ai.md | draft | HexStrike MCP 150+ tools — MIT REFERENCE (desk Phase-0) |
+| @entities/tools/cai-framework.md | draft | Alias CAI multi-agent — dual-license REFERENCE (no clone) |
+| @entities/tools/pentestgpt.md | draft | PentestGPT USENIX agent — MIT REFERENCE |
 | @entities/tools/ollama.md | draft | Local LLM runtime — simple pull/run + API (Linux + Apple Silicon) |
 | @entities/tools/vllm.md | draft | High-throughput OpenAI-compatible LLM serving (NVIDIA) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
@@ -487,7 +491,10 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [Penligent — Bug Bounty Hunter Software in 2026](sources/penligent-bug-bounty-hunter-software-2026.md)
 - [Rizvi — Automating Bug Bounty Recon in 2026](sources/rizvi-automating-bug-bounty-recon-2026.md)
 - [GitHub — usestrix/strix](sources/github-strix.md) — Apache-2.0 AI pentest agents · Phase-0 CONDITIONAL-GO 2026-08-02
-- [GitHub — sw30labs/strix-omlx](sources/github-strix-omlx.md) — Strix → local MLX/Ollama
+- [GitHub — sw30labs/strix-omlx](sources/github-strix-omlx.md) — Strix → OMLX/Ollama · Phase-0 CONDITIONAL-GO clone 2026-08-02
+- [GitHub — 0x4m4/hexstrike-ai](sources/github-hexstrike-ai.md) — HexStrike MCP · desk REFERENCE 2026-08-02
+- [GitHub — aliasrobotics/cai](sources/github-cai-framework.md) — CAI dual-license · REFERENCE no-clone
+- [GitHub — GreyDGL/PentestGPT](sources/github-pentestgpt.md) — MIT research agent · REFERENCE
 - [GitHub — tcpiplab/AblitaFuzzer](sources/github-ablitafuzzer.md) — abliterated local attacker LLM pattern
 - [DEV — Red Team AI Benchmark](sources/devto-red-team-ai-benchmark.md) — refusal-free ≠ accurate quiz methodology
 - [SLM ensemble malware orchestration](concepts/slm-ensemble-malware-analysis-orchestration.md) — CCC cross-wiki

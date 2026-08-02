@@ -44,6 +44,7 @@ related:
   - sources/arxiv-2606-19106-exceptional-access-compromise-risk-quantification.md
   - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
   - entities/tools/defengraph.md
+  - sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-06-23

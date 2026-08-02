@@ -40,6 +40,7 @@ related:
   - concepts/llm-cve-to-stix-generation.md
   - entities/tools/cav-stixgen.md
   - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
+  - sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-07-20

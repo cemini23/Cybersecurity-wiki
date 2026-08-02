@@ -11,6 +11,9 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/tool-environment-unreliability-eval.md
   - "@ccc-wiki/concepts/client-as-first-order-harness-factor.md"
+  - entities/tools/hexstrike-ai.md
+  - sources/github-hexstrike-ai.md
+  - concepts/ai-pentest-harness-landscape.md
 maturity: draft
 read_status: read
 created: 2026-07-07

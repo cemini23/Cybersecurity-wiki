@@ -1,17 +1,19 @@
 ---
 title: "eLearnSecurity eCPPT Notes Exam"
 type: source
-tags: [cybersecurity, joas-corpus]
-keywords: [cybersecurity, pdf]
+tags: [cybersecurity, joas-corpus, ecppt, deep-read]
+keywords: [ecppt, nmap, metasploit, ms17-010, pivoting, proxychains, buffer overflow, reporting]
 related:
   - concepts/network-security.md
   - entities/certifications/ecppt.md
   - entities/people/joas-a-santos.md
   - entities/vendors/elearnsecurity.md
+  - concepts/buffer-overflow.md
+  - concepts/exploit-development.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
-read_status: unread-stub
+updated: 2026-08-02
+read_status: deep-read
 ---
 
 ## Relations
@@ -20,19 +22,60 @@ read_status: unread-stub
 - @entities/certifications/ecppt.md
 - @entities/people/joas-a-santos.md
 - @entities/vendors/elearnsecurity.md
-
+- @concepts/buffer-overflow.md
+- @concepts/exploit-development.md
 
 ## Raw Concept
 
-- **Title:** eLearnSecurity eCPPT Notes Exam
-- **Author:** Joas A Santos (see @entities/people/joas-a-santos.md)
-- **Type:** PDF e-book / slide deck
-- **Location:** Google Drive — `ebooks Joas` folder, file ID `1H0Iq0_oU6-oUOkpzDZclUjw1EbsZWWiW` ([open in Drive](https://drive.google.com/file/d/1H0Iq0_oU6-oUOkpzDZclUjw1EbsZWWiW/view))
-- **Retrieved:** 2026-05-12
-- **Read status:** unread-stub
+- **Title:** eCPPT (eLearnSecurity Certified Professional Penetration Tester) – Notes Exam
+- **Author:** Joas A Santos (compiled exam notes)
+- **Type:** 157-page PDF notes dump
+- **Location:** Google Drive file ID `1H0Iq0_oU6-oUOkpzDZclUjw1EbsZWWiW` · local: `research to be indexed/elearnsecurity-ecppt-notes-exam.pdf` (6.9 MB, 157 pages)
+- **Retrieved:** 2026-05-12; deep-read 2026-08-02 (full PDF; systematic sample of sections)
+- **Read status:** deep-read
 
 ## Narrative
 
-Source stub. Title-derived metadata only — body has not been read end-to-end. Upgrade `read_status` to `skimmed`, `read`, or `deep-read` when the source is processed during a future ingest session.
+**Warning on p.2:** these are content notes that *may* help the exam; they are **not** a guaranteed method list to pass.
 
-The file lives in the public Google Drive folder shared by the author. The wiki cites this stub from any related entity/concept page so that downstream readers can re-verify by opening the PDF directly.
+**Lab simulation pointers:** VulnHub, HackTheBox, TryHackMe, overgrowncarrot1 eCPPT Labs CTB, CyberSecurityUP Buffer-Overflow-Labs.
+
+Major blocks observed:
+
+| Theme | Examples in notes |
+|-------|-------------------|
+| Recon | Large Nmap command catalog (SYN/FIN/version/OS, top-ports, intense scans, output `-oA`/`-oN`) |
+| Metasploit recon | `RHOSTS` ranges; `THREADS` guidance; `db_nmap` / `db_import`; built-in portscan auxiliaries |
+| Service enum | SMB version, SSH version, FTP anonymous, Dirb web content |
+| Exploitation | **MS17-010** family (`psexec` with creds, `eternalblue`, admin command module) with decision tree (domain user vs local vs validation) |
+| Priv-esc | Metasploit local exploit suggester patterns |
+| Pivoting | Meterpreter + `autoroute` + `socks_proxy` + **proxychains** nmap/smbmap into secondary nets |
+| Buffer overflow | Classic EIP overwrite narrative; lab prereqs (Kali + Windows VM, Defender off for learning labs) |
+| Reporting | Fix research per finding; strategic recommendations beyond one-off patches (monitoring, least privilege) |
+
+Treat as a **personal cram dump**, not vendor canon. Cross-check live INE/eLearnSecurity syllabus and lab rules before exam day. [CONFIRMED — PDF deep-read sampling across full 157 pages]
+
+## Snippets
+
+```text
+MS17-010 choice guidance (notes ~p.28–29):
+1. Domain user creds → want admin on host: exploit/windows/smb/ms17_010_psexec (+ creds)
+2. Local user creds → want admin: auxiliary/admin/smb/ms17_010_command path noted
+3. Validate vuln exists with stable exploit: exploit/windows/smb/ms17_010_eternalblue
+```
+
+[Source: elearnsecurity-ecppt-notes-exam.pdf ~p.28–29]
+
+```text
+Pivoting pattern: meterpreter sessions → post/multi/manage/autoroute (target subnet)
+→ auxiliary/server/socks_proxy → proxychains nmap/smbmap on next hop
+```
+
+[Source: elearnsecurity-ecppt-notes-exam.pdf ~p.32–38]
+
+```text
+Reporting close: research most efficient fix per system; add strategic recommendations
+(better monitoring if RT undetected; access control if excessive privileges)
+```
+
+[Source: elearnsecurity-ecppt-notes-exam.pdf ~p.156]

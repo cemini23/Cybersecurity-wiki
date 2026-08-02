@@ -34,6 +34,10 @@ related:
   - concepts/ai-pentest-harness-landscape.md
   - entities/tools/strix.md
   - sources/github-strix.md
+  - entities/tools/strix-omlx.md
+  - entities/tools/pentestgpt.md
+  - entities/tools/cai-framework.md
+  - entities/tools/hexstrike-ai.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-08-02
@@ -42,6 +46,9 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations
+- @entities/tools/cai-framework.md
+- @entities/tools/pentestgpt.md
+- @entities/tools/strix-omlx.md
 - @sources/github-strix.md — Strix upstream source stub
 - @entities/tools/strix.md — Strix AI pentest harness (Apache-2.0 CONDITIONAL-GO Phase-0)
 - @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape (CyberStrike / Strix / others; VM floor)

@@ -19,6 +19,10 @@ related:
   - entities/tools/pentest-ai.md
   - entities/tools/ollama.md
   - sources/github-strix-omlx.md
+  - entities/tools/strix-omlx.md
+  - entities/tools/hexstrike-ai.md
+  - entities/tools/cai-framework.md
+  - entities/tools/pentestgpt.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
@@ -28,7 +32,11 @@ wire_target: "Ask before host pipx/CLI or MCP wire; Docker + written scope requi
 ---
 
 ## Relations
-- @sources/github-strix-omlx.md — Strix local MLX/Ollama wrapper (peer path)
+- @entities/tools/strix-omlx.md — local OMLX/Ollama/SGLang setup wrapper (CONDITIONAL-GO clone)
+- @sources/github-strix-omlx.md — Strix local MLX/Ollama wrapper source
+- @entities/tools/hexstrike-ai.md — MIT MCP peer (REFERENCE)
+- @entities/tools/cai-framework.md — dual-license framework peer (REFERENCE)
+- @entities/tools/pentestgpt.md — MIT research agent peer (REFERENCE)
 - @sources/github-strix.md — Phase-0 provenance (repo snapshot + LICENSE/sandbox notes)
 - @concepts/ai-pentest-harness-landscape.md — harness pick matrix (CyberStrike vs Strix vs MIT peers)
 - @concepts/llm-pentest-automation.md — Tier-1/2 methodology umbrella

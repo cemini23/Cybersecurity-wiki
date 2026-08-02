@@ -1,3 +1,13 @@
+## [2026-08-02] research | Friend hard pack — strix-omlx + peers + ASVS/lab briefs + Joas deep-read
+
+- **D1 strix-omlx Phase-0:** CONDITIONAL-GO clone `raw-sources/repos/strix-omlx` @ `b623b9f` (~3.3MB Apache-2.0); NEW `@entities/tools/strix-omlx.md`; upgraded `@sources/github-strix-omlx.md`; brief `briefs/2026-08-02_strix-omlx-phase0.md` (no host setup)
+- **D2 harness peers desk:** NEW entities `@entities/tools/hexstrike-ai.md` (MIT REFERENCE), `@entities/tools/cai-framework.md` (dual-license REFERENCE, no clone ~207MB), `@entities/tools/pentestgpt.md` (MIT REFERENCE); sources `github-hexstrike-ai` / `github-cai-framework` / `github-pentestgpt`; landscape Peers table filled
+- **D3 ASVS L2 brief:** `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` (gitignored OK); ship-bar pointer on `@concepts/pre-release-product-pentest.md`
+- **D4 owned-lab recon brief:** `briefs/2026-08-02_owned-lab-golden-image-recon.md`; golden-image pointer on `@concepts/owned-target-whitehat-lab.md`
+- **D5 Joas deep-read batch:** Drive PDFs fetched to `research to be indexed/` — deep-read BOF intro/guide/beginners + eCPPT notes + CTH intro PT.1; enriched `@concepts/buffer-overflow.md`, `@concepts/threat-hunting.md`, `@entities/certifications/ecppt.md`
+- **Friend brief:** refreshed start-here — harness pick section, ASVS/lab/Strix/CyberStrike/strix-omlx/peers checklists, Joas deep-read item 10, local briefs inventory
+- **Lint target:** bidirectional + dangling clean
+
 ## [2026-08-02] phase0 | Strix (usestrix/strix)
 
 - **Verdict:** CONDITIONAL-GO — Apache-2.0 verified; real Docker sandbox; soft scope; telemetry default-on

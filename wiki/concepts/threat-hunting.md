@@ -47,7 +47,7 @@ related:
 
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-11
+updated: 2026-08-02
 ---
 
 ## Relations
@@ -87,11 +87,21 @@ updated: 2026-06-11
 
 ## Raw Concept
 
-Multi-source anchor. Validated deep-read of LogRhythm's *Threat Hunting 101* (@sources/threat-hunting-101.md, 2026-05-17) provided the 8-hunt skeleton + Windows Event ID / Sysmon mapping. Supporting corpus context from the eLearnSecurity threat-hunting introduction, Blue Team Handbook, and the SOC-analyst books in the BlueTeam Kit.
+Multi-source anchor. Validated deep-read of LogRhythm's *Threat Hunting 101* (@sources/threat-hunting-101.md, 2026-05-17) provided the 8-hunt skeleton + Windows Event ID / Sysmon mapping. Supporting corpus context from the eLearnSecurity threat-hunting introduction, Blue Team Handbook, and the SOC-analyst books in the BlueTeam Kit. **2026-08-02:** Joas *Threat Hunting Introduction PT.1* deep-read (@sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md) added intel / hypothesis / custom taxonomy + data-fertility framing.
 
 ## Narrative
 
 **Threat hunting** = the proactive search for adversary activity in environments where no alert has fired. It's hypothesis-driven detection — "if [adversary] were already inside, what would I expect to see?" — and complements the alert-driven SOC workflow (@concepts/soc-operations.md), not replacing it. A mature hunt program closes the gap between MTTD-on-known-IOC (good) and MTTD-on-unknown-TTPs (the gap hunters fill).
+
+### Hunt program types (Joas PT.1 taxonomy)
+
+| Type | Starts from | Notes |
+|------|-------------|--------|
+| **Intel-based** | Threat intel / IoCs | Reactive to published indicators; good entry; easy to rotate past |
+| **Hypothesis hunting** | ATT&CK-aligned hypothesis library | Uses **IoAs/TTPs**; proactive; primary mature mode |
+| **Custom / situational** | Customer need or geopolitical trigger | May blend intel + hypothesis; SIEM/EDR anomaly driven |
+
+**Data fertility:** hunting requires enterprise telemetry already collecting (SIEM/EDR/endpoint/network). Hunters complement automation — they do not replace SIEM. IoC = forensic artifacts; IoA = attacker behaviors closer to TTP hunts. Lab starters: ActiveCM threat-hunting labs, BlueTeam Labs Online. [CONFIRMED — Joas CTH intro PT.1 deep-read 2026-08-02]
 
 ### Mental model — David Bianco's Pyramid of Pain
 

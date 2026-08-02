@@ -11,6 +11,7 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/agent-vm-sandboxing.md
   - sources/github-strix-omlx.md
+  - entities/tools/strix-omlx.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
@@ -18,6 +19,7 @@ read_status: skimmed
 ---
 
 ## Relations
+- @entities/tools/strix-omlx.md
 
 - @entities/tools/strix.md — tool entity (CONDITIONAL-GO; clone done)
 - @concepts/ai-pentest-harness-landscape.md — landscape synthesis citing this source

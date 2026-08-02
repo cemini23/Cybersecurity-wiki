@@ -25,12 +25,14 @@ related:
   - sources/github-cyberstrike.md
   - concepts/ai-pentest-harness-landscape.md
   - sources/penligent-bug-bounty-hunter-software-2026.md
+  - entities/tools/strix-omlx.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
 ---
 
 ## Relations
+- @entities/tools/strix-omlx.md
 - @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup
 - @sources/github-cyberstrike.md — CyberStrike Phase-0 source snapshot
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)

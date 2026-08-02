@@ -23,6 +23,9 @@ related:
   - entities/tools/cua.md
   - concepts/ai-pentest-harness-landscape.md
   - sources/github-strix.md
+  - entities/tools/pentestgpt.md
+  - entities/tools/cai-framework.md
+  - entities/tools/hexstrike-ai.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
@@ -32,6 +35,8 @@ wire_target: "Ask before host CLI/MCP wire; lab VM + written scope required; AGP
 ---
 
 ## Relations
+- @entities/tools/cai-framework.md
+- @entities/tools/pentestgpt.md
 - @sources/github-strix.md — Strix upstream source stub
 - @sources/github-cyberstrike.md — Phase-0 provenance (repo snapshot + LICENSE/SECURITY notes)
 - @concepts/llm-pentest-automation.md — Tier-1/2 methodology; CyberStrike is a productized sibling harness
