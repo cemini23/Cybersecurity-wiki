@@ -17,15 +17,16 @@ related:
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - "@osint-wiki/entities/tools/cua.md"
+  - entities/tools/cyberstrike.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations
-
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/agent-vm-sandboxing.md — the methodology pattern this tool implements
 - @concepts/red-team-operations.md — primary use case (LLM-driven exploit testing in isolated VMs)
 - @concepts/exploit-development.md — sandboxed PoC detonation

@@ -11,6 +11,7 @@ related:
   - entities/tools/katana.md
   - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
   - concepts/operator-lab-playbook.md
+  - sources/penligent-bug-bounty-hunter-software-2026.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-08-02
@@ -20,7 +21,7 @@ wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 ## Relations
-
+- @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 
 - @concepts/bug-bounty.md — known-URL harvesting is a core passive-recon step in bounty workflows

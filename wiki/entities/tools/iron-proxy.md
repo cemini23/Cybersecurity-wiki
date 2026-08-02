@@ -19,6 +19,7 @@ related:
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
   - entities/tools/vllm.md
+  - entities/tools/cyberstrike.md
 
 maturity: draft
 created: 2026-05-26
@@ -32,7 +33,7 @@ wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 # ironsh/iron-proxy — egress firewall for untrusted workloads
 
 ## Relations
-
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist
 
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)

@@ -1,3 +1,11 @@
+## [2026-08-02] research | Friend-lab deep research pass
+
+- **Gather:** opencli arXiv + Hacker News + Reddit (netsec/bugbounty/LocalLLaMA); WebSearch (Brave MCP auth timeout; Exa keys absent)
+- **Pack:** `.scratch/friend-research-2026-08-02/` (gitignored)
+- **Deepened:** local-abliterated stack (model classes, OMLX/SGLang, benchmark caution); bug-bounty (2026 stack + anti-noise); owned-lab topologies; pre-release **ASVS 5.0.0**
+- **NEW:** `@concepts/ai-pentest-harness-landscape.md`, `@entities/tools/strix.md`, sources `owasp-asvs-5`, Penligent/Rizvi/strix-omlx/github-strix
+- **Friend brief:** enriched with deep-research checklist (tracked)
+
 ## [2026-08-02] phase0 | CyberStrike (CyberStrikeus/CyberStrike)
 
 - **Verdict:** CONDITIONAL-GO — AGPL-3.0; OpenCode fork; **no sandbox**; `scope_check` advisory-only
@@ -13,7 +21,7 @@
 - **NEW concepts:** `local-abliterated-llm-pentest-stack`, `owned-target-whitehat-lab`, `pre-release-product-pentest`
 - **NEW entities:** `ollama`, `vllm` (thin stubs)
 - **Expanded:** `@concepts/bug-bounty.md` — beefy-box ROI, recon pipeline, Tier-1/2 scope hygiene
-- **Brief (gitignored):** `briefs/2026-08-02_friend-operator-lab-playbook.md`
+- **Brief (tracked):** `briefs/2026-08-02_friend-operator-lab-playbook.md` — un-ignored 2026-08-02 so friend can read from repo
 - **Cross-wiki:** image-gen `de-censoring-techniques` for abliteration theory; cybersec page stays ops/text-LLM focused
 - **Note:** `route-task` mid chain hit WorkDir space-truncation on claude-ds; pages landed via Grok CLI implementers + parent hub integration
 

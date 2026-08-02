@@ -87,3 +87,14 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@concepts/pre-release-product-pentest.md`
 - `@concepts/bug-bounty.md`
 - `@concepts/llm-pentest-automation.md`
+
+### Deep research add-ons (2026-08-02)
+
+- [ ] Read harness pick matrix: `@concepts/ai-pentest-harness-landscape.md` (CyberStrike vs Strix vs MIT peers)
+- [ ] ASVS **5.0.0** for product ship bar: `@sources/owasp-asvs-5.md` + `@concepts/pre-release-product-pentest.md`
+- [ ] Local AI model *classes* + 11434 hardening: `@concepts/local-abliterated-llm-pentest-stack.md`
+- [ ] Bounty anti-noise (tech-detect → staged Nuclei → custom templates): `@concepts/bug-bounty.md`
+- [ ] Lab topologies + golden images before any VRP: `@concepts/owned-target-whitehat-lab.md`
+- [ ] CyberStrike only in VM: `briefs/2026-08-02_cyberstrike-phase0.md` (local) + `@entities/tools/cyberstrike.md`
+
+Social/web research pack (operator machine): `.scratch/friend-research-2026-08-02/` (opencli arXiv/HN/Reddit + web notes; not committed).

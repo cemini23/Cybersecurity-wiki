@@ -30,13 +30,22 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/pre-release-product-pentest.md
+  - entities/tools/cyberstrike.md
+  - concepts/ai-pentest-harness-landscape.md
+  - sources/penligent-bug-bounty-hunter-software-2026.md
+  - sources/rizvi-automating-bug-bounty-recon-2026.md
+  - entities/tools/strix.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-02
 ---
 
 ## Relations
-
+- @entities/tools/strix.md — Strix AI pentest harness stub (Apache-2.0 REFERENCE)
+- @sources/rizvi-automating-bug-bounty-recon-2026.md — anti-noise recon automation (Rizvi 2026)
+- @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup (Penligent)
+- @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape; bounty use only under program rules + authorization
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/web-pentest-methodology.md
 - @concepts/responsible-disclosure.md
 - @concepts/operator-lab-playbook.md — operator-facing lab playbook that maps bounty-style recon + exploit loops onto owned lab surfaces
@@ -74,16 +83,40 @@ Bug bounty = formalized public disclosure programs that pay researchers for vali
 
 A "beefy box" (multi-core CPU, 32–64 GB+ RAM, fast NVMe, optional GPU, generous bandwidth) pays off when your bottleneck is **local parallelism and large artifact sets**, not raw scan cleverness. High-ROI uses: parallel passive/active recon jobs, large URL/JS corpora in memory, hashcat/John offline cracking against *authorized* wordlists, and multi-browser headless crawl sessions. Low-ROI uses: paying for silicon to re-run the same public Nuclei templates every other hunter already ran overnight — that is cloud-burn without differentiation. Prefer a mid-tier always-on box plus short-lived Axiom-class fleets (@entities/tools/reconftw.md `axiom.sh` pattern) when you need temporary horizontal scale; keep the beefy box as the **curation surface** (dedupe, triage, Burp, report drafting). Cap spend against expected bounty velocity: if monthly infra exceeds realistic payout from your active programs, you are buying a hobby lab, not a production pipeline. Pair hardware choices with @concepts/operator-lab-playbook.md and keep practice on @concepts/owned-target-whitehat-lab.md before aiming the same firehose at live VRP scope.
 
+### 2026 stack that still matters
+
+Consensus “belongs in the bag” tools (roles, not religion) [Source: Penligent “Bug Bounty Hunter Software in 2026” (retrieved 2026-08-02)] [TENTATIVE]:
+
+| Layer | Tools (wiki-linked where present) | Job |
+|-------|-----------------------------------|-----|
+| Manual proof | @entities/tools/burp-suite.md | Session state, replay, impact proof |
+| Passive / deep recon | Subfinder, Amass, @entities/tools/gau.md | Context without loud active noise |
+| Live surface | httpx, Naabu | Hosts → typed live surface |
+| Crawl | @entities/tools/katana.md (+ browser) | JS/SPA routes archives miss |
+| Templates | Nuclei (staged) | Known exposures / fingerprints |
+| Directed fuzz | ffuf + SecLists | Hypothesis-driven content discovery |
+| Orchestration | @entities/tools/reconftw.md **or** @entities/tools/osmedeus.md | One primary orchestrator per engagement |
+
 ### Recon pipeline
 
 Default public-program recon chain (passive → active → orchestrated bulk → human):
 
-1. **Passive known URLs** — @entities/tools/gau.md (Wayback / OTX / Common Crawl). Zero (or near-zero) contact with the live target; answers "what has the internet already seen?"
+1. **Passive known URLs** — @entities/tools/gau.md (Wayback / OTX / Common Crawl). Zero (or near-zero) contact with the live target; answers "what has the internet already seen?" Historical URL harvest is **not** interchangeable with active crawl (waymore/gau class ≠ Katana).
 2. **Active crawl expansion** — seed @entities/tools/katana.md (HTTP + headless) from gau output; pull SPA-rendered routes, JS paths, and API endpoints a pure archive pass will miss. Optional secret/API-key pass with @entities/tools/cariddi.md on the expanded host set.
 3. **Bulk recon orchestration** — either @entities/tools/reconftw.md (modular Bash: subdomains / web / vulns / OSINT / Axiom distribution) **or** @entities/tools/osmedeus.md (declarative YAML workflows, master-worker). Pick one primary orchestrator per engagement to avoid double-hitting the same surface and self-generating rate-limit noise.
 4. **Manual differentiation** — @entities/tools/burp-suite.md, JS mining, auth flows, business logic, IDOR chains. Automation maps surface; payout lives in human judgment after the map is built.
 
 Only run active steps inside program-allowed assets and rate limits. Lab the pipeline first on owned targets (@concepts/owned-target-whitehat-lab.md); optional local LLM assist for triage/report drafts lives under @concepts/local-abliterated-llm-pentest-stack.md without replacing scope gates.
+
+### Anti-noise ROI (where automation actually pays)
+
+2026 community consensus: **generic full-surface Nuclei is a noise factory**. Higher ROI pattern [Source: R.H Rizvi, Medium, 2026 (retrieved 2026-08-02)] [TENTATIVE]:
+
+1. Enumerate → **tech-detect** (httpx / Wappalyzer-class fingerprints).
+2. Bucket hosts by technology; run **staged** Nuclei profiles (critical/high tags first), not “all templates.”
+3. Promote confirmed manual findings into **custom templates** — differentiation lives here.
+4. Keep scanners **one-at-a-time** on the beefy box if RAM is the bottleneck (avoid OOM thrash from parallel nuclei+dalfox+nmap).
+5. Use LLM **Tier-1** for triage/report clustering; never unscoped Tier-2 mass scan (@concepts/llm-pentest-automation.md, @concepts/ai-pentest-harness-landscape.md).
 
 ### Program selection + scope hygiene
 

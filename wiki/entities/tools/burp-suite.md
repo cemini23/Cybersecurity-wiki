@@ -10,13 +10,14 @@ related:
   - entities/people/joas-a-santos.md
   - entities/tools/kali-linux.md
   - concepts/pre-release-product-pentest.md
+  - sources/penligent-bug-bounty-hunter-software-2026.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-02
 ---
 
 ## Relations
-
+- @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup
 - @concepts/web-pentest-methodology.md
 - @concepts/bug-bounty.md
 - @concepts/pre-release-product-pentest.md — primary web/API intercept tool for owned pre-launch product tests

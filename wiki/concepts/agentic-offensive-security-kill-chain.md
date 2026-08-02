@@ -22,17 +22,18 @@ related:
   - concepts/chainwatch-mcp-kill-chain-detection.md
   - concepts/ethics-autonomous-offensive-ai-agents.md
   - concepts/agent-decoy-defense-autonomous-pentest.md
+  - entities/tools/cyberstrike.md
 
   - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-07-31
+updated: 2026-08-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations
-
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 - @concepts/ethics-autonomous-offensive-ai-agents.md
 - @sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md — primary audit (2606.24496)

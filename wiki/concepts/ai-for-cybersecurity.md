@@ -213,13 +213,14 @@ related:
   - concepts/operator-lab-playbook.md
   - entities/tools/ollama.md
   - entities/tools/vllm.md
+  - entities/tools/cyberstrike.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-02
 ---
 
 ## Relations
-
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist
 
 - @entities/tools/ollama.md — local LLM runtime used in the abliterated pentest-assist stack

@@ -10,13 +10,16 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-vm-sandboxing.md
   - concepts/operator-lab-playbook.md
+  - entities/tools/cyberstrike.md
+  - entities/tools/strix.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
 ---
 
 ## Relations
-
+- @entities/tools/strix.md — Strix AI pentest harness stub (Apache-2.0 REFERENCE)
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 
 - @concepts/local-abliterated-llm-pentest-stack.md — primary methodology: when/why to run low-refusal open weights for authorized pentest assist; VRAM tiers; host hardening

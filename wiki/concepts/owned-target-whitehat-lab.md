@@ -17,13 +17,20 @@ related:
   - concepts/pre-release-product-pentest.md
   - concepts/operator-lab-playbook.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - entities/tools/cyberstrike.md
+  - concepts/ai-pentest-harness-landscape.md
+  - entities/tools/strix.md
+  - sources/rizvi-automating-bug-bounty-recon-2026.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-02
 ---
 
 ## Relations
-
+- @sources/rizvi-automating-bug-bounty-recon-2026.md — anti-noise recon article (2026)
+- @entities/tools/strix.md — Strix Apache-2.0 harness stub (REFERENCE)
+- @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape; harness runs only against owned lab targets
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/system-hardening.md
 - @concepts/linux-security.md
 - @concepts/agent-vm-sandboxing.md
@@ -87,7 +94,35 @@ Offensive traffic must not casually egress into production LAN, guest Wi-Fi, or 
 
 Isolation is both safety (containment) and ethics (hard technical barrier against accidental out-of-scope scans).
 
-### 5. Feeds product-pentest and bounty practice without unauthorized targets
+### 5. Concrete topologies (pick one and document it)
+
+```
+[ Operator laptop ]
+        │ (SSH / WireGuard)
+        ▼
+[ Attack VM ] ── lab VLAN ── [ Target VM A: Juice Shop / DVWA-class ]
+        │                         [ Target VM B: intentional misconfig API ]
+        │
+        ├── optional [ Local AI host :11434 loopback or lab-only ]
+        └── optional [ Bolt / remote scanner VPS ] (owned only; Ed25519; VPN)
+```
+
+- **Minimal:** one attack VM + one target VM on a host-only/virt network.
+- **Product rehearsal:** attack VM + staging clone of *your* product (synthetic data) — @concepts/pre-release-product-pentest.md.
+- **Agentic:** attack VM runs harness (@concepts/ai-pentest-harness-landscape.md); CyberStrike only inside VM (@entities/tools/cyberstrike.md CONDITIONAL-GO); prefer sandboxed harnesses when available (@entities/tools/strix.md REFERENCE).
+
+### 5b. Golden-image checklist
+
+- [ ] Target golden image: OS + vulnerable app class (OWASP Juice Shop, DVWA, or your sanitized staging) — no production dumps
+- [ ] Attack golden image: toolbelt + scoped agent config templates (empty secrets)
+- [ ] Snapshot tag before each major exercise; rebuild after messy persistence tests
+- [ ] Written self-auth memo lists the image IDs / IPs in scope
+
+### 5c. Practice the bounty pipeline on owned targets first
+
+Run the same chain you will use on VRPs against **owned** lab apps: gau/wayback (optional) → @entities/tools/katana.md → staged Nuclei → Burp proof → report draft with local Tier-1 LLM. Only after the pipeline is boringly reliable do you point it at a public program (@concepts/bug-bounty.md).
+
+### 6. Feeds product-pentest and bounty practice without unauthorized targets
 
 The lab is the safe gym for skills used elsewhere:
 
@@ -97,7 +132,7 @@ The lab is the safe gym for skills used elsewhere:
 
 Never use “I’m practicing for bounty” as a reason to scan hosts outside a program or engagement.
 
-### 6. Ethics floor
+### 7. Ethics floor
 
 Non-negotiable constraints for this wiki’s whitehat lab model:
 

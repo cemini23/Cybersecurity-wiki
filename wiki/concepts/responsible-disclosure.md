@@ -33,13 +33,18 @@ related:
   - concepts/pre-release-product-pentest.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
+  - entities/tools/cyberstrike.md
+  - concepts/ai-pentest-harness-landscape.md
+  - entities/tools/strix.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-02
 ---
 
 ## Relations
-
+- @entities/tools/strix.md — Strix AI pentest harness stub (Apache-2.0 REFERENCE)
+- @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape; agent findings still follow CVD, not public dump
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 
 - @concepts/owned-target-whitehat-lab.md — lab practice floor; upstream bugs found in lab leave via responsible disclosure, not drive-by dumps

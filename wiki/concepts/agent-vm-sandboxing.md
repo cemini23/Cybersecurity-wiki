@@ -29,6 +29,11 @@ related:
   - concepts/operator-lab-playbook.md
   - entities/tools/ollama.md
   - entities/tools/vllm.md
+  - entities/tools/cyberstrike.md
+  - sources/github-cyberstrike.md
+  - concepts/ai-pentest-harness-landscape.md
+  - entities/tools/strix.md
+  - sources/github-strix.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-08-02
@@ -37,7 +42,11 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations
-
+- @sources/github-strix.md — Strix upstream source stub
+- @entities/tools/strix.md — Strix AI pentest harness stub (Apache-2.0 REFERENCE)
+- @concepts/ai-pentest-harness-landscape.md — AI pentest harness landscape (CyberStrike / Strix / others; VM floor)
+- @sources/github-cyberstrike.md — CyberStrike Phase-0 source (no-sandbox → VM required)
+- @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist
 
 - @entities/tools/ollama.md — local LLM runtime used in the abliterated pentest-assist stack

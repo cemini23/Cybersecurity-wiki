@@ -32,7 +32,8 @@
 | @concepts/operator-lab-playbook.md | draft | Start-here hub: local AI → owned lab → product pentest → bounty |
 | @concepts/local-abliterated-llm-pentest-stack.md | draft | Local abliterated/low-refusal text LLM stack (Linux+NVIDIA + Apple Silicon) |
 | @concepts/owned-target-whitehat-lab.md | draft | Authorization + isolation for whitehat on owned servers/VMs |
-| @concepts/pre-release-product-pentest.md | draft | Pre-launch product security loop (ASVS-informed → fix → retest) |
+| @concepts/pre-release-product-pentest.md | draft | Pre-launch product security loop (ASVS 5.0-informed → fix → retest) |
+| @concepts/ai-pentest-harness-landscape.md | draft | CyberStrike vs Strix vs MIT peers — license/containment decision matrix |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
 | @concepts/agent-execution-provenance.md | draft | Evidence tracing + execution provenance — CFD artifact gap (2606.09084) |
 | @concepts/agent-vm-sandboxing.md | validated | LLM-driven agent-VM sandboxing; pairs with Docker allowlist proxy (K102) |
@@ -251,6 +252,8 @@
 | @entities/tools/datashield.md | draft | DataShield risky FT filter (MIT; CONDITIONAL-GO ~3MB) |
 | @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
+| @entities/tools/cyberstrike.md | draft | AI offensive harness — AGPL, CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02) |
+| @entities/tools/strix.md | draft | Autonomous AI pentest agents — Apache-2.0, Docker sandbox (REFERENCE until Phase-0) |
 | @entities/tools/ollama.md | draft | Local LLM runtime — simple pull/run + API (Linux + Apple Silicon) |
 | @entities/tools/vllm.md | draft | High-throughput OpenAI-compatible LLM serving (NVIDIA) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
@@ -479,6 +482,12 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [The Engineering Club — Security Edition — How I’d Respond in the First Hour After a Package I Use Got Hacked](sources/substack-rss-seceng-weekly-2026-07-06-how-id-respond-in-the-first-hour-after-a-package.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Firewall3D: Hardware Firewall for Defending 3D Printers Against Firmware Attacks](sources/2026-asgar-firewall3d-firmware-hardware.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Optimistic Verifiable Claims — confidential G-code bidding (arXiv:2607.25517)](sources/2026-corn-optimistic-verifiable-claims.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [GitHub — CyberStrikeus/CyberStrike (AI offensive harness)](sources/github-cyberstrike.md) — Phase-0 2026-08-02 · AGPL · CONDITIONAL-GO lab/VM
+- [OWASP ASVS 5.0.0](sources/owasp-asvs-5.md) — product verification standard (2025-05-30)
+- [Penligent — Bug Bounty Hunter Software in 2026](sources/penligent-bug-bounty-hunter-software-2026.md)
+- [Rizvi — Automating Bug Bounty Recon in 2026](sources/rizvi-automating-bug-bounty-recon-2026.md)
+- [GitHub — usestrix/strix](sources/github-strix.md) — Apache-2.0 AI pentest agents (REFERENCE)
+- [GitHub — sw30labs/strix-omlx](sources/github-strix-omlx.md) — Strix → local MLX/Ollama
 
 ## Cross-wiki anchors
 
