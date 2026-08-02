@@ -86,9 +86,10 @@ related:
   - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
   - concepts/crypter-as-a-service.md
   - entities/tools/reverse-skill.md
+  - concepts/pre-release-product-pentest.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-27
+updated: 2026-08-02
 ---
 
 ## Relations
@@ -103,6 +104,7 @@ updated: 2026-06-27
 - @concepts/purple-team-operations.md
 - @concepts/social-engineering.md
 - @concepts/windows-pentest.md
+- @concepts/pre-release-product-pentest.md — earlier product-centric fix loop; not full adversary simulation
 - @entities/certifications/crto.md
 - @entities/certifications/ecppt.md
 - @entities/certifications/ecptx.md

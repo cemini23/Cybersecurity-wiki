@@ -13,9 +13,11 @@ related:
   - entities/tools/betterleaks.md
   - entities/tools/openvpn-install.md
   - entities/tools/vpn-self-hosted.md
+  - concepts/owned-target-whitehat-lab.md
+  - concepts/operator-lab-playbook.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-17
+updated: 2026-08-02
 ---
 
 ## Raw Concept
@@ -28,6 +30,9 @@ Process of reducing a system's attack surface by removing unnecessary services, 
 
 ## Relations
 
+- @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
+
+- @concepts/owned-target-whitehat-lab.md — harden attack box / operator host; keep deliberately weak lab targets separate
 - @concepts/linux-security.md
 - @concepts/network-security.md
 - @concepts/defense-in-depth.md

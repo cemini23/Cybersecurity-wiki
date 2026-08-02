@@ -30,18 +30,25 @@ related:
   - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
   - concepts/ethics-autonomous-offensive-ai-agents.md
   - sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
+  - concepts/pre-release-product-pentest.md
+  - concepts/owned-target-whitehat-lab.md
+  - concepts/operator-lab-playbook.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-23
+updated: 2026-08-02
 ---
 
 ## Relations
 
+- @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
+
+- @concepts/owned-target-whitehat-lab.md — lab practice floor; upstream bugs found in lab leave via responsible disclosure, not drive-by dumps
 - @sources/arxiv-ethics-autonomous-offensive-ai-2607.20255.md
 - @concepts/ethics-autonomous-offensive-ai-agents.md
 - @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
 - @concepts/llm-biosecurity-red-teaming.md
 - @concepts/bug-bounty.md
+- @concepts/pre-release-product-pentest.md — third-party deps found in pre-release product tests use CVD, not public dump
 - @entities/people/joas-a-santos.md
 - @entities/threat-actors/lockbit.md
 - @sources/dicas-como-reportar-uma-falha.md

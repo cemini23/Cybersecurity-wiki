@@ -24,15 +24,27 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - concepts/cyber-capable-agent-evaluation-containment.md
   - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
+  - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/owned-target-whitehat-lab.md
+  - concepts/operator-lab-playbook.md
+  - entities/tools/ollama.md
+  - entities/tools/vllm.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations
 
+- @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist
+
+- @entities/tools/ollama.md — local LLM runtime used in the abliterated pentest-assist stack
+
+- @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
+
+- @concepts/owned-target-whitehat-lab.md — owned whitehat lab floor; agent VMs stay on authorized lab targets only
 - @entities/tools/cua.md — current reference implementation on M-series Macs
 - @concepts/red-team-operations.md — primary consumer of this pattern
 - @concepts/exploit-development.md — PoC detonation inside the sandbox
@@ -45,6 +57,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 - @entities/tools/defending-code-reference-harness.md — Anthropic reference pipeline
 - @concepts/cyber-capable-agent-evaluation-containment.md
 - @sources/arxiv-2607-25379-cyber-capable-agent-containment.md
+- @concepts/local-abliterated-llm-pentest-stack.md — isolate tool-using agents (and optionally inference) when using local low-refusal LLMs
 
 ## Raw Concept
 

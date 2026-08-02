@@ -61,6 +61,7 @@ related:
   - entities/tools/llms-agents-smartgrids-code.md
   - concepts/rf-fingerprint-probe-point-benchmark.md
   - sources/arxiv-2607-21564-rf-fingerprint-probe.md
+  - concepts/owned-target-whitehat-lab.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-07-24
@@ -68,6 +69,7 @@ updated: 2026-07-24
 
 ## Relations
 
+- @concepts/owned-target-whitehat-lab.md — lab VLAN / isolated segments for authorized offensive practice only
 - @sources/arxiv-2607-21564-rf-fingerprint-probe.md
 - @concepts/rf-fingerprint-probe-point-benchmark.md
 - @entities/tools/llms-agents-smartgrids-code.md

@@ -209,13 +209,24 @@ related:
   - sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
   - sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
   - entities/tools/system-prompt-index.md
+  - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/operator-lab-playbook.md
+  - entities/tools/ollama.md
+  - entities/tools/vllm.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-31
+updated: 2026-08-02
 ---
 
 ## Relations
 
+- @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist
+
+- @entities/tools/ollama.md — local LLM runtime used in the abliterated pentest-assist stack
+
+- @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
+
+- @concepts/local-abliterated-llm-pentest-stack.md — local abliterated/low-refusal open-weight stack for authorized pentest assist
 - @sources/arxiv-2607-21564-rf-fingerprint-probe.md
 - @sources/arxiv-2607-21468-thinkink.md
 - @sources/arxiv-2607-21419-pats-agentic-rl.md

@@ -9,15 +9,17 @@ related:
   - sources/burp-suite-plugin-development.md
   - entities/people/joas-a-santos.md
   - entities/tools/kali-linux.md
+  - concepts/pre-release-product-pentest.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-08-02
 ---
 
 ## Relations
 
 - @concepts/web-pentest-methodology.md
 - @concepts/bug-bounty.md
+- @concepts/pre-release-product-pentest.md — primary web/API intercept tool for owned pre-launch product tests
 - @sources/burp-suite-plugin-development.md
 - @entities/people/joas-a-santos.md
 

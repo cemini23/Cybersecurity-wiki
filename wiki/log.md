@@ -1,3 +1,13 @@
+## [2026-08-02] playbook | Friend operator lab coverage hub
+
+- **Hub:** `@concepts/operator-lab-playbook.md` — start-here path (local AI → owned lab → product pentest → bounty)
+- **NEW concepts:** `local-abliterated-llm-pentest-stack`, `owned-target-whitehat-lab`, `pre-release-product-pentest`
+- **NEW entities:** `ollama`, `vllm` (thin stubs)
+- **Expanded:** `@concepts/bug-bounty.md` — beefy-box ROI, recon pipeline, Tier-1/2 scope hygiene
+- **Brief (gitignored):** `briefs/2026-08-02_friend-operator-lab-playbook.md`
+- **Cross-wiki:** image-gen `de-censoring-techniques` for abliteration theory; cybersec page stays ops/text-LLM focused
+- **Note:** `route-task` mid chain hit WorkDir space-truncation on claude-ds; pages landed via Grok CLI implementers + parent hub integration
+
 ## [2026-07-30] ingest | AgentSnare decoy defense (from CCC K227)
 
 - Concept `@concepts/agent-decoy-defense-autonomous-pentest.md` + source stub 2607.26998

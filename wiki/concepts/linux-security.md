@@ -11,6 +11,7 @@ related:
   - sources/ssh-hardening-and-offensive-mastery.md
   - concepts/defense-in-depth.md
   - sources/linux-log-analysis-wazuh.md
+  - concepts/owned-target-whitehat-lab.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-16
@@ -26,6 +27,7 @@ Linux system security hardening and defense. Covers kernel hardening (SELinux, A
 
 ## Relations
 
+- @concepts/owned-target-whitehat-lab.md — Linux attack-box / target isolation and rebuild hygiene for owned whitehat labs
 - @concepts/system-hardening.md
 - @concepts/network-security.md
 - @concepts/incident-response.md

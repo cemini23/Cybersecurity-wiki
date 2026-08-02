@@ -64,6 +64,7 @@ Steps:
 
 **Higher priority:**
 
+- Friend operator lab playbook shipped 2026-08-02 (`operator-lab-playbook` + pillars + brief) — next: Phase-0 Ollama/vLLM local install stamps only if friend adopts on a named box
 - Continue deep-reads — Buffer Overflow series (4 PDFs), eCPPT Exam Notes, OSINT Overview PT.1 (was too long for single read; need to chunk), Threat Hunting (eLearnSecurity intro PDF)
 - Add `concepts/exploration-graph-dead-ends.md`-style page for "techniques that no longer work" — defenders keep patching, exploits keep rotting (responsible-disclosure already done)
 - Stub @concepts/web-vitals.md in @seo-wiki/ so the cross-wiki ref resolves both ways (currently using @seo-wiki/concepts/local-seo-foundations.md as the anchor)

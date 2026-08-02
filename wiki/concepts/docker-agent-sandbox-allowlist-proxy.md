@@ -13,6 +13,7 @@ related:
   - concepts/exploit-development.md
   - concepts/agent-skill-injection.md
   - concepts/agentic-offensive-security-kill-chain.md
+  - concepts/owned-target-whitehat-lab.md
 
 maturity: draft
 created: 2026-06-06
@@ -21,6 +22,7 @@ updated: 2026-06-06
 
 ## Relations
 
+- @concepts/owned-target-whitehat-lab.md — Docker egress allowlist as technical barrier against unauthorized lab egress
 - @entities/tools/defending-code-reference-harness.md — reference implementation (Anthropic, Apache-2.0)
 - @entities/tools/iron-proxy.md — host-level egress firewall for non-Docker agent workloads
 - @entities/tools/cua.md — VM-substrate alternative (Apple Virtualization.Framework + tracing)

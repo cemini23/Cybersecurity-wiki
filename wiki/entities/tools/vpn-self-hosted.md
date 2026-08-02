@@ -9,6 +9,7 @@ related:
   - concepts/zero-trust.md
   - concepts/system-hardening.md
   - entities/tools/super-spr.md
+  - concepts/owned-target-whitehat-lab.md
 maturity: draft
 hub: true
 created: 2026-05-17
@@ -19,6 +20,7 @@ wire_target: "Component Phase-0 not complete"
 
 ## Relations
 
+- @concepts/owned-target-whitehat-lab.md — WireGuard/self-hosted VPN for multi-host lab isolation without full-tunneling daily traffic
 - @entities/tools/openvpn-install.md — angristan's OpenVPN deployment script (Steal-from, Unlicense)
 - @concepts/network-security.md — VPN as network-layer perimeter topic
 - @concepts/zero-trust.md — Tailscale (WireGuard-based) as Zero Trust implementation

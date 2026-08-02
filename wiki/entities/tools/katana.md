@@ -10,15 +10,18 @@ related:
   - entities/tools/gau.md
   - entities/tools/osmedeus.md
   - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
+  - concepts/operator-lab-playbook.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-31
+updated: 2026-08-02
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
 wire_status: policy_wired
 wire_target: "CLAUDE.md#hands-on-rules-ethics--legality"
 ---
 
 ## Relations
+
+- @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 
 - @concepts/web-pentest-methodology.md — crawling for URLs / JS paths / API endpoints is a core web-app recon step
 - @concepts/bug-bounty.md — deep SPA crawling expands the testable attack surface in bounty engagements

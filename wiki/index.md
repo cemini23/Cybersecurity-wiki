@@ -28,7 +28,11 @@
 | @concepts/threat-hunting.md | validated | Hypothesis-driven proactive detection |
 | @concepts/phishing-investigation.md | validated | SOC-analyst phishing triage (Yahia 5-step workflow + SPF/DKIM/DMARC) |
 | @concepts/responsible-disclosure.md | draft | Coordinated Vulnerability Disclosure + CVE process |
-| @concepts/bug-bounty.md | draft | Public bounty programs + career path |
+| @concepts/bug-bounty.md | draft | Public bounty programs + career path + beefy-box ROI |
+| @concepts/operator-lab-playbook.md | draft | Start-here hub: local AI → owned lab → product pentest → bounty |
+| @concepts/local-abliterated-llm-pentest-stack.md | draft | Local abliterated/low-refusal text LLM stack (Linux+NVIDIA + Apple Silicon) |
+| @concepts/owned-target-whitehat-lab.md | draft | Authorization + isolation for whitehat on owned servers/VMs |
+| @concepts/pre-release-product-pentest.md | draft | Pre-launch product security loop (ASVS-informed → fix → retest) |
 | @concepts/cybersecurity-careers.md | validated | Career map + certification ladder |
 | @concepts/agent-execution-provenance.md | draft | Evidence tracing + execution provenance — CFD artifact gap (2606.09084) |
 | @concepts/agent-vm-sandboxing.md | validated | LLM-driven agent-VM sandboxing; pairs with Docker allowlist proxy (K102) |
@@ -247,6 +251,8 @@
 | @entities/tools/datashield.md | draft | DataShield risky FT filter (MIT; CONDITIONAL-GO ~3MB) |
 | @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |
 | @entities/tools/pentest-ai-agents.md | validated | LLM-driven red-team automation (MIT) |
+| @entities/tools/ollama.md | draft | Local LLM runtime — simple pull/run + API (Linux + Apple Silicon) |
+| @entities/tools/vllm.md | draft | High-throughput OpenAI-compatible LLM serving (NVIDIA) |
 | @entities/tools/pydns-scanner.md | validated | DNS server discovery (ethical-use addendum) |
 | @entities/tools/jadx-mcp-server.md | draft | Android RE + live debugging via MCP (JADX decompiler) |
 | @entities/tools/osmedeus.md | draft | Orchestration engine for security scanning (recon/scan YAML workflows) |
