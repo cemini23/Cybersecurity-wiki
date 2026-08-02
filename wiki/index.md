@@ -488,6 +488,11 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [Rizvi — Automating Bug Bounty Recon in 2026](sources/rizvi-automating-bug-bounty-recon-2026.md)
 - [GitHub — usestrix/strix](sources/github-strix.md) — Apache-2.0 AI pentest agents (REFERENCE)
 - [GitHub — sw30labs/strix-omlx](sources/github-strix-omlx.md) — Strix → local MLX/Ollama
+- [GitHub — tcpiplab/AblitaFuzzer](sources/github-ablitafuzzer.md) — abliterated local attacker LLM pattern
+- [DEV — Red Team AI Benchmark](sources/devto-red-team-ai-benchmark.md) — refusal-free ≠ accurate quiz methodology
+- [SLM ensemble malware orchestration](concepts/slm-ensemble-malware-analysis-orchestration.md) — CCC cross-wiki
+- [ChainWatch MCP kill-chain detection](concepts/chainwatch-mcp-kill-chain-detection.md) — CCC cross-wiki
+- [arXiv ChainWatch MCP sequential detection](sources/arxiv-chainwatch-mcp-sequential-detection-2607.19432.md) — CCC cross-wiki stub
 
 ## Cross-wiki anchors
 
@@ -499,6 +504,3 @@ When this wiki references a sibling wiki's page, the citation uses `@<alias>/pat
 - `3d-printing-wiki` — FDM/FFF, Bambu, slicers, print farms
 
 Bidirectional invariant: if this wiki cites `@osint-wiki/...`, the matching page in the OSINT wiki should cite `@cybersecurity-wiki/...` back. Run `python3 scripts/wiki_lint.py` to check.
-| @concepts/slm-ensemble-malware-analysis-orchestration.md | draft | Hybrid SLM ensemble malware orchestration (CCC cross-wiki) |
-| @concepts/chainwatch-mcp-kill-chain-detection.md | draft | ChainWatch MCP sequential kill-chain detection (CCC) |
-| @sources/arxiv-chainwatch-mcp-sequential-detection-2607.19432.md | draft | ChainWatch arXiv 2607.19432 stub |

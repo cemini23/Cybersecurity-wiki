@@ -214,12 +214,15 @@ related:
   - entities/tools/ollama.md
   - entities/tools/vllm.md
   - entities/tools/cyberstrike.md
+  - sources/devto-red-team-ai-benchmark.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-02
 ---
 
 ## Relations
+
+- @sources/devto-red-team-ai-benchmark.md — refusal-free LLM quiz methodology
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist
 

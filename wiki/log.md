@@ -1,3 +1,10 @@
+## [2026-08-02] polish | Friend brief + route WorkDir spaces + leftover sources
+
+- **Sources:** `@sources/github-ablitafuzzer.md`, `@sources/devto-red-team-ai-benchmark.md` (wired into local-abliterated stack)
+- **Friend brief:** deep-research reading order rewritten (harness → local AI → owned lab → ASVS → bounty → CyberStrike)
+- **Route fix:** CCC `route/SKILL.md` documents spaces hygiene; `~/.local/bin/route-task` exports `ROUTE_WORKDIR`/`CLAUDE_DS_WORKDIR`; kit `test-route-workdir-spaces.ps1` green
+- **Sync:** federation skills re-synced from CCC
+
 ## [2026-08-02] research | Friend-lab deep research pass
 
 - **Gather:** opencli arXiv + Hacker News + Reddit (netsec/bugbounty/LocalLLaMA); WebSearch (Brave MCP auth timeout; Exa keys absent)

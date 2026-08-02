@@ -82,19 +82,32 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 ## Sources
 
 - `@concepts/operator-lab-playbook.md` (hub)
+- `@concepts/ai-pentest-harness-landscape.md`
 - `@concepts/local-abliterated-llm-pentest-stack.md`
 - `@concepts/owned-target-whitehat-lab.md`
 - `@concepts/pre-release-product-pentest.md`
+- `@sources/owasp-asvs-5.md`
 - `@concepts/bug-bounty.md`
 - `@concepts/llm-pentest-automation.md`
+- `@entities/tools/cyberstrike.md`
+- `@sources/github-ablitafuzzer.md`
+- `@sources/devto-red-team-ai-benchmark.md`
 
 ### Deep research add-ons (2026-08-02)
 
-- [ ] Read harness pick matrix: `@concepts/ai-pentest-harness-landscape.md` (CyberStrike vs Strix vs MIT peers)
-- [ ] ASVS **5.0.0** for product ship bar: `@sources/owasp-asvs-5.md` + `@concepts/pre-release-product-pentest.md`
-- [ ] Local AI model *classes* + 11434 hardening: `@concepts/local-abliterated-llm-pentest-stack.md`
-- [ ] Bounty anti-noise (tech-detect → staged Nuclei → custom templates): `@concepts/bug-bounty.md`
-- [ ] Lab topologies + golden images before any VRP: `@concepts/owned-target-whitehat-lab.md`
-- [ ] CyberStrike only in VM: `briefs/2026-08-02_cyberstrike-phase0.md` (local) + `@entities/tools/cyberstrike.md`
+Read these wiki pages in order after the checklist above:
 
-Social/web research pack (operator machine): `.scratch/friend-research-2026-08-02/` (opencli arXiv/HN/Reddit + web notes; not committed).
+1. **Harness pick** — `@concepts/ai-pentest-harness-landscape.md`  
+   CyberStrike (AGPL, VM-only) vs Strix (Apache, Docker sandbox, REFERENCE) vs MIT `pentest-ai-agents` / `pentest-ai`.
+2. **Local AI wealth** — `@concepts/local-abliterated-llm-pentest-stack.md`  
+   Model *classes*, Ollama `11434` harden, Apple OMLX / NVIDIA vLLM·SGLang, benchmark caution.
+3. **Owned lab topologies** — `@concepts/owned-target-whitehat-lab.md`  
+   Attack VM ≠ targets; golden images; practice gau→katana→Nuclei on Juice Shop/DVWA-class first.
+4. **Product ship bar** — `@concepts/pre-release-product-pentest.md` + `@sources/owasp-asvs-5.md`  
+   ASVS **5.0.0** L1 quick / L2 default / L3 high-assurance.
+5. **Bounty ROI** — `@concepts/bug-bounty.md`  
+   2026 stack table + anti-noise (tech-detect → staged Nuclei → custom templates).
+6. **CyberStrike Phase-0** — `@entities/tools/cyberstrike.md`  
+   CONDITIONAL-GO; install only inside a lab VM (see local brief `briefs/2026-08-02_cyberstrike-phase0.md` if present on the operator machine).
+
+Operator hub: `@concepts/operator-lab-playbook.md`

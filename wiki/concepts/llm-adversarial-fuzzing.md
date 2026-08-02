@@ -58,14 +58,17 @@ related:
   - entities/tools/ai-redteam-evidential-limits.md
   - concepts/gpt-red-self-play-red-teaming.md
   - sources/arxiv-2607-26115-gpt-red-self-play.md
+  - sources/github-ablitafuzzer.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
+
+- @sources/github-ablitafuzzer.md — AblitaFuzzer abliterated-attacker pattern
 
 - @sources/arxiv-2607-19837-know-your-agent-recon.md
 - @concepts/agent-reconnaissance-ipi-pentesting.md
