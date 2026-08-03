@@ -10,9 +10,10 @@ related:
   - entities/tools/kali-linux.md
   - concepts/ai-for-cybersecurity.md
   - entities/tools/reverse-skill.md
+  - entities/tools/black-cat.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-27
+updated: 2026-08-03
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 
@@ -20,6 +21,8 @@ cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-
 
 ## Relations
 
+
+- @entities/tools/black-cat.md — K220 hypothesis-ledger skill pattern (Steal-from; no clone)
 - @concepts/llm-pentest-automation.md — skill-module taxonomy comparison
 - @concepts/red-team-operations.md — C2 infrastructure + persistence + LOLBins modules
 - @entities/tools/pentest-ai-agents.md — competing Claude Code offensive framework

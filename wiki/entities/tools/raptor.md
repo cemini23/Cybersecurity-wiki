@@ -8,9 +8,10 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/bug-bounty.md
   - entities/tools/pentest-ai-agents.md
+  - entities/tools/black-cat.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-08-03
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.md"
 ---
 
@@ -18,6 +19,8 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.m
 
 ## Relations
 
+
+- @entities/tools/black-cat.md — K220 null-SPDX Steal-from peer (hypothesis ledger)
 - @concepts/llm-pentest-automation.md — prompt-chaining + sub-agent architecture reference
 - @concepts/ai-for-cybersecurity.md — LLM-driven static analysis pattern
 - @concepts/bug-bounty.md — autonomous vuln validation workflow

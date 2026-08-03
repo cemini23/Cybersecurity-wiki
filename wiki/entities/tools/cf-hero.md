@@ -7,9 +7,11 @@ related:
   - concepts/web-pentest-methodology.md
   - concepts/osint-for-cybersecurity.md
   - entities/tools/reconftw.md
+  - entities/tools/cloakquest3r.md
+  - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-07-31
+updated: 2026-08-03
 cross-wiki-source: "@osint-wiki/sources/tool-eval-50urls-polymarket-kalshi-license-false-negative-2026-05-21.md"
 phase_0_verdict: "Defer 2026-05-22 — gh api reports no SPDX license; verify LICENSE file before adoption."
 wire_status: deferred
@@ -19,6 +21,10 @@ wire_target: "LICENSE/SPDX watch before adopt"
 # musana/CF-Hero — Cloudflare origin-IP discovery
 
 ## Relations
+
+- @entities/tools/cloakquest3r.md — MIT peer origin-IP / reverse-proxy recon (K220)
+- @sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md — K220 parent
+
 
 - @concepts/web-pentest-methodology.md — origin-IP discovery supports WAF/CDN bypass during authorized web assessments
 - @concepts/osint-for-cybersecurity.md — DNS + passive-intel correlation tradecraft

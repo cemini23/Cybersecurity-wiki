@@ -9,9 +9,10 @@ related:
   - entities/tools/pentest-ai-agents.md
   - concepts/ai-for-cybersecurity.md
   - entities/tools/nvidia-skillspector.md
+  - entities/tools/black-cat.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-08-03
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md"
 ---
 
@@ -19,6 +20,8 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md
 
 ## Relations
 
+
+- @entities/tools/black-cat.md — K220 hypothesis-ledger skill peer (Steal-from; no clone)
 - @concepts/bug-bounty.md — SRC / bug-bounty workflow integration
 - @concepts/web-pentest-methodology.md — WAF bypass variants for web-app testing
 - @entities/tools/pentest-ai-agents.md — complementary Claude Code skill framework

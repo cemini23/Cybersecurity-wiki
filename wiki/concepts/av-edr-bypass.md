@@ -25,12 +25,18 @@ related:
   - entities/tools/nidhogg.md
   - sources/arxiv-2606-24226-crypter-as-a-service-exploit-in.md
   - concepts/crypter-as-a-service.md
+  - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
+  - entities/tools/bypassav.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-27
+updated: 2026-08-03
 ---
 
 ## Relations
+
+- @entities/tools/bypassav.md — K220 technique mindmap pointer (null SPDX)
+- @sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md — K220 register
+
 
 - @concepts/red-team-operations.md
 - @concepts/exploit-development.md

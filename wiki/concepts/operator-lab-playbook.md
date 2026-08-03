@@ -26,12 +26,15 @@ related:
   - concepts/ai-pentest-harness-landscape.md
   - sources/penligent-bug-bounty-hunter-software-2026.md
   - entities/tools/strix-omlx.md
+  - entities/tools/damn-vulnerable-drone.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-03
 ---
 
 ## Relations
+
+- @entities/tools/damn-vulnerable-drone.md — K220 optional niche owned lab (drone/MAVLink)
 - @entities/tools/strix-omlx.md
 - @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup
 - @sources/github-cyberstrike.md — CyberStrike Phase-0 source snapshot

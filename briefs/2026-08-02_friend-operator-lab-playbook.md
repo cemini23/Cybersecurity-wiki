@@ -84,6 +84,7 @@ Theory (cross-wiki): `@image-gen-wiki/concepts/de-censoring-techniques.md`
 - [ ] Snapshots / **golden images** before destructive tests; rebuild after messy runs.
 - [ ] Lab VLAN and/or WireGuard; egress allowlist (@entities/tools/iron-proxy.md).
 - [ ] Practice pipeline on owned Juice Shop/DVWA-class first: gau → katana → staged Nuclei.
+- [ ] Optional niche lab: Damn-Vulnerable-Drone (ArduPilot/MAVLink) if you care about IoT/drone — MIT, owned Docker only (`@entities/tools/damn-vulnerable-drone.md`).
 - [ ] Log what you did — learning artifact, not just loot.
 - [ ] Follow local brief: `briefs/2026-08-02_owned-lab-golden-image-recon.md` (gitignored OK).
 
@@ -105,6 +106,8 @@ Wiki: `@concepts/pre-release-product-pentest.md`, `@sources/owasp-asvs-5.md`, `@
 
 - [ ] Specialize (e.g. IDOR / JS mining / subdomain takeover) — do not spray every program.
 - [ ] Recon order: gau → katana → one orchestrator (reconftw **or** osmedeus) → manual Burp.
+- [ ] CDN / origin-IP (in-scope only): CloakQuest3r (MIT) peer to CF-Hero — `@entities/tools/cloakquest3r.md`.
+- [ ] Optional scanner study: Raccoon (MIT Reference) — `@entities/tools/raccoon.md`. Do not auto-install null-SPDX tools.
 - [ ] Cap infra spend vs realistic payout velocity.
 - [ ] Tier-1 for triage/report; Tier-2 only with pinned `allowed_targets` + rate limits.
 - [ ] Lab the full pipeline on owned targets first (section 2).
@@ -118,6 +121,8 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - [ ] Strix human gates: no curl\|sh, `STRIX_TELEMETRY=0`, written scope — `briefs/2026-08-02_strix-phase0.md`.
 - [ ] CyberStrike human gates: VM-only, AGPL — `briefs/2026-08-02_cyberstrike-phase0.md`.
 - [ ] Peers HexStrike / CAI / PentestGPT = **REFERENCE** desk only — do not host-install.
+- [ ] **Steal-from (no clone):** Black-cat hypothesis→evidence ledger (RECON ⇄ ENUMERATE ⇄ VALIDATE + JSONL + verify-before-REPORT). Null SPDX — patterns only; keep HITL on high-blast actions (`@entities/tools/black-cat.md`, K220).
+- [ ] Hard stops from K220: no auto-install null-SPDX; TorBot / BypassAV / HackTools = study or authorized lab only (`@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md`).
 
 ### 6. Daily operator loop (suggested)
 
@@ -147,6 +152,8 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@entities/tools/pentestgpt.md`
 - `@sources/github-ablitafuzzer.md`
 - `@sources/devto-red-team-ai-benchmark.md`
+- `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md` (K220 tool register)
+- `@entities/tools/black-cat.md` · `@entities/tools/cloakquest3r.md` · `@entities/tools/raccoon.md` · `@entities/tools/damn-vulnerable-drone.md`
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  
@@ -183,5 +190,7 @@ Read these wiki pages in order after the checklist above:
 11. **TokTier / agent TTFT (K235)** — `@concepts/toktier-exact-stateful-tokenization.md`  
     Under high prompt-cache hit rates, tokenization dominates TTFT for tool-loop agents. Keep exact tokenize contract on local vLLM path A; pair with InferScale KV caution.
 12. **STAIR repair plans (K234)** — light: if using coding/repair agents, abstract past trajectories into hierarchical plans before re-inject (`@concepts/stair-hierarchical-repair-plans.md`). CWEEP (K233) only if you touch RTL.
+13. **K220 tool register (2026-08-03)** — `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md`  
+    Steal Black-cat ledger pattern (no clone). Recon desk: CloakQuest3r + Raccoon (MIT). Optional lab: Damn-Vulnerable-Drone. Skip TorBot/BypassAV/HackTools installs unless license + scope clear. Catalog brief: `briefs/2026-08-03_k220-cyber-context-catalog.md`.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

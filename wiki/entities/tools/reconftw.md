@@ -10,9 +10,11 @@ related:
   - entities/tools/nmap.md
   - entities/tools/cf-hero.md
   - entities/tools/netviz.md
+  - entities/tools/cloakquest3r.md
+  - entities/tools/raccoon.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-01
+updated: 2026-08-03
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 
@@ -20,6 +22,10 @@ cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-
 
 ## Relations
 
+
+
+- @entities/tools/raccoon.md — K220 MIT recon/vuln scanner peer
+- @entities/tools/cloakquest3r.md — K220 MIT CDN/origin-IP unmask peer
 - @concepts/web-pentest-methodology.md — modular recon pipeline for web-app testing
 - @concepts/osint-for-cybersecurity.md — OSINT correlation + breach data integration
 - @concepts/bug-bounty.md — automated target scoping and enumeration

@@ -1,3 +1,13 @@
+## [2026-08-03] ingest | K220 cyber tool register from OSINT revenue eval
+
+- **Parent:** `@osint-wiki/sources/eval-url-revenue-cyber-agent-harness-2026-08-03.md` (thin brief was insufficient — promoted)
+- **NEW source:** `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md`
+- **NEW entities:** cloakquest3r · damn-vulnerable-drone · hacktools · raccoon · black-cat · bypassav · torbot
+- **Updated concepts:** osint-for-cybersecurity · web-pentest-methodology · av-edr-bypass · ai-pentest-harness-landscape (Black-cat peer row) · llm-pentest-automation · owned-target-whitehat-lab · red-team-operations · cf-hero peer
+- **Brief:** `briefs/2026-08-03_k220-cyber-context-catalog.md` expanded
+- **Posture:** Reference / Steal-from / Lab only — no Cemini product Integrate; null-SPDX = no clone; TorBot GPL-3 Reference-only
+- **friend brief:** updated 2026-08-03 evening — §2 DVD optional lab; §4 CloakQuest3r/Raccoon; §5 Black-cat steal-from + K220 hard stops; deep-research #13
+
 ## [2026-08-03] ingest | Joas archive closeout + K233–K235 (CWEEP / STAIR / TokTier)
 
 **Inbox**: 3 NEW arXiv PDFs (2607.29604 / 29658 / 29678) + Joas deep-read leftovers (PDFs already synthesized 2026-08-02).
@@ -1237,3 +1247,7 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 
 Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-corn-optimistic-verifiable-claims.md`.
 - Created wiki/sources/2026-corn-optimistic-verifiable-claims.md (stub)
+
+## [2026-08-03] brief | K220 cyber Context catalog from OSINT
+
+- Brief: `briefs/2026-08-03_k220-cyber-context-catalog.md` — Context/Pass only, no Integrate

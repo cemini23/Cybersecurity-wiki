@@ -18,13 +18,16 @@ related:
   - sources/next-gen-soc-ibm-qradar.md
   - entities/tools/vanguard.md
   - entities/tools/nidhogg.md
+  - entities/tools/bypassav.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-24
+updated: 2026-08-03
 ---
 
 ## Relations
 
+
+- @entities/tools/bypassav.md — K220 AV/EDR bypass mindmap pointer (null SPDX)
 - @concepts/soc-operations.md
 - @concepts/incident-response.md
 - @concepts/malware-analysis.md

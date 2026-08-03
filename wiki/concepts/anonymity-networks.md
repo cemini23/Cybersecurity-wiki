@@ -8,13 +8,16 @@ related:
   - sources/the-onion-router-overview-pt-1.md
   - entities/people/joas-a-santos.md
   - sources/python-ethical-hacking-masterclass.md
+  - entities/tools/torbot.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-19
+updated: 2026-08-03
 ---
 
 ## Relations
 
+
+- @entities/tools/torbot.md — K220 Tor crawler — GPL-3 Reference-only
 - @concepts/osint-for-cybersecurity.md
 - @sources/the-onion-router-overview-pt-1.md
 - @entities/people/joas-a-santos.md

@@ -35,12 +35,15 @@ related:
   - sources/penligent-bug-bounty-hunter-software-2026.md
   - sources/rizvi-automating-bug-bounty-recon-2026.md
   - entities/tools/strix.md
+  - entities/tools/hacktools.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
+
+- @entities/tools/hacktools.md — K220 browser cheatsheet (license gate)
 - @entities/tools/strix.md — Strix AI pentest harness (Apache-2.0 CONDITIONAL-GO Phase-0)
 - @sources/rizvi-automating-bug-bounty-recon-2026.md — anti-noise recon automation (Rizvi 2026)
 - @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup (Penligent)

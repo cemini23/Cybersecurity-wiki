@@ -63,13 +63,16 @@ related:
   - sources/arxiv-2607-21564-rf-fingerprint-probe.md
   - concepts/owned-target-whitehat-lab.md
   - entities/certifications/ecppt.md
+  - entities/tools/damn-vulnerable-drone.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-24
+updated: 2026-08-03
 ---
 
 ## Relations
 
+
+- @entities/tools/damn-vulnerable-drone.md — K220 intentional drone/MAVLink lab (MIT)
 - @concepts/owned-target-whitehat-lab.md — lab VLAN / isolated segments for authorized offensive practice only
 - @sources/arxiv-2607-21564-rf-fingerprint-probe.md
 - @concepts/rf-fingerprint-probe-point-benchmark.md

@@ -41,13 +41,16 @@ related:
   - entities/tools/cav-stixgen.md
   - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
   - sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
+  - entities/tools/torbot.md
 maturity: validated
 created: 2026-05-17
-updated: 2026-07-20
+updated: 2026-08-03
 ---
 
 ## Relations
 
+
+- @entities/tools/torbot.md — K220 TorBot dark-web crawler — GPL-3 Reference-only
 - @concepts/soc-operations.md
 - @concepts/threat-hunting.md
 - @concepts/incident-response.md

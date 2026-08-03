@@ -25,12 +25,18 @@ related:
   - entities/tools/pentestgpt.md
   - entities/tools/cai-framework.md
   - entities/tools/hexstrike-ai.md
+  - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
+  - entities/tools/damn-vulnerable-drone.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
+
+- @entities/tools/damn-vulnerable-drone.md — intentional drone/MAVLink lab (MIT)
+- @sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md — K220 lab notes
+
 - @entities/tools/cai-framework.md
 - @entities/tools/pentestgpt.md
 - @entities/tools/strix-omlx.md

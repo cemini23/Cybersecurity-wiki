@@ -290,6 +290,13 @@
 | @entities/tools/offensive-claude.md | draft | Offensive-security Claude Code workstation — 25 skill modules, 8 classifications |
 | @entities/tools/reverse-skill.md | draft | MIT skill router pack for authorized pentest methodology routing (K129) |
 | @entities/tools/cf-hero.md | draft | Cloudflare origin-IP discovery via DNS + Shodan hashing (Go, ~2.4k stars) — Defer pending LICENSE audit |
+| @entities/tools/cloakquest3r.md | draft | Origin-IP behind Cloudflare-like proxies (MIT; K220; peer CF-Hero) |
+| @entities/tools/damn-vulnerable-drone.md | draft | Intentional ArduPilot/MAVLink drone hacking lab (MIT; K220) |
+| @entities/tools/hacktools.md | draft | Offensive browser-extension cheatsheet (license NOT FOUND; K220) |
+| @entities/tools/raccoon.md | draft | Offensive recon / vuln scanner (MIT; K220) |
+| @entities/tools/black-cat.md | draft | Hypothesis-ledger Claude Code red-team skill — Steal-from, no clone (null SPDX; K220) |
+| @entities/tools/bypassav.md | draft | AV/EDR bypass technique mindmap → av-edr-bypass (null SPDX; K220) |
+| @entities/tools/torbot.md | draft | Dark-web OSINT crawler — GPL-3 Reference-only (K220) |
 | @entities/tools/pentest-ai.md | draft | MCP offensive-security server — 205 tools, 17 agents, MIT (`ptai` CLI; distinct from pentest-ai-agents) |
 | @entities/tools/nidhogg.md | draft | Windows kernel rootkit reference — DKOM/ActiveProcessLinks tradecraft (GPL-3.0; Steal-from, no deploy) |
 | @entities/tools/iron-proxy.md | draft | Egress firewall for untrusted workloads (Apache-2.0; Adopt-eligible Phase-0) |
@@ -503,6 +510,7 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [GitHub — 0x4m4/hexstrike-ai](sources/github-hexstrike-ai.md) — HexStrike MCP · desk REFERENCE 2026-08-02
 - [GitHub — aliasrobotics/cai](sources/github-cai-framework.md) — CAI dual-license · REFERENCE no-clone
 - [GitHub — GreyDGL/PentestGPT](sources/github-pentestgpt.md) — MIT research agent · REFERENCE
+- [OSINT K220 cyber/agent-harness eval](sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md) — cross-wiki tool register (CloakQuest3r / Black-cat / Raccoon / DVD / …)
 - [GitHub — tcpiplab/AblitaFuzzer](sources/github-ablitafuzzer.md) — abliterated local attacker LLM pattern
 - [DEV — Red Team AI Benchmark](sources/devto-red-team-ai-benchmark.md) — refusal-free ≠ accurate quiz methodology
 - [SLM ensemble malware orchestration](concepts/slm-ensemble-malware-analysis-orchestration.md) — CCC cross-wiki

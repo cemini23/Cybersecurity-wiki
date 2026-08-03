@@ -87,12 +87,21 @@ related:
   - concepts/crypter-as-a-service.md
   - entities/tools/reverse-skill.md
   - concepts/pre-release-product-pentest.md
+  - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
+  - entities/tools/black-cat.md
+  - entities/tools/bypassav.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
+
+
+- @entities/tools/bypassav.md — K220 BypassAV mindmap (study; authorized only)
+- @entities/tools/black-cat.md — hypothesis-first engagement skill pattern
+- @sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md — K220 register
+
 
 - @concepts/adversary-emulation.md
 - @concepts/ai-for-cybersecurity.md

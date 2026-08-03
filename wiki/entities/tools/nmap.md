@@ -15,13 +15,16 @@ related:
   - entities/tools/gopacket.md
   - sources/python-ethical-hacking-masterclass.md
   - entities/tools/reconftw.md
+  - entities/tools/raccoon.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-19
+updated: 2026-08-03
 ---
 
 ## Relations
 
+
+- @entities/tools/raccoon.md — K220 MIT recon/vuln scanner peer
 - @concepts/network-security.md
 - @concepts/web-pentest-methodology.md
 - @entities/people/joas-a-santos.md
