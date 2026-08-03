@@ -1,3 +1,8 @@
+## [2026-08-03] ops | Friend brief living sync after every relevant ingest
+
+- **Standing rule:** CLAUDE.md ingest step **9b** — after ingest / Phase-0 / deep-read touching local AI, owned lab, product pentest, bounty, AI harnesses, or ASVS: update `briefs/2026-08-02_friend-operator-lab-playbook.md` or log `friend brief: n/a`
+- **Also:** LESSONS.md 2026-08-03; ROADMAP backlog note; maintainer blurb on the brief; hub Raw Concept corrected (brief is tracked, not gitignored)
+
 ## [2026-08-02] research | Friend hard pack — strix-omlx + peers + ASVS/lab briefs + Joas deep-read
 
 - **D1 strix-omlx Phase-0:** CONDITIONAL-GO clone `raw-sources/repos/strix-omlx` @ `b623b9f` (~3.3MB Apache-2.0); NEW `@entities/tools/strix-omlx.md`; upgraded `@sources/github-strix-omlx.md`; brief `briefs/2026-08-02_strix-omlx-phase0.md` (no host setup)

@@ -174,6 +174,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 7. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <source title>` with bullets of what changed
 8. **Archive raw to egress-fi**: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id cybersec "research to be indexed/<filename>"` — update source page `Location`
 9. Update `ROADMAP.md` if the ingest opens new follow-ups; stage briefs in `briefs/` if the ingest produced something actionable
+9b. **Friend brief sync (standing):** After every ingest / Phase-0 / deep-read that touches local AI, owned lab, product pentest, bug bounty, AI pentest harnesses, or ASVS — check `briefs/2026-08-02_friend-operator-lab-playbook.md` (tracked allowlist). If the friend would act differently with the new info, update the checklist / deep-research add-ons / Sources, bump `updated:`, and note `friend brief:` in the `log.md` ingest bullets. If nothing friend-relevant changed, log `friend brief: n/a`. Do not let friend-facing ops die only in chat or gitignored Phase-0 briefs.
 10. A single ingest must touch 3-15 pages. If it touches 0 new pages, ask whether the source is worth ingesting
 
 ### Query (answering a question)

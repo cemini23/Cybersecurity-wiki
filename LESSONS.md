@@ -6,6 +6,14 @@ Newest entries on top.
 
 ---
 
+## [2026-08-03] Friend brief is a living start-here — update after every relevant ingest
+
+- Tracked brief: `briefs/2026-08-02_friend-operator-lab-playbook.md` (`.gitignore` allowlist). It is the friend’s ordered checklist; pillar wiki pages hold depth.
+- **Standing rule:** after each ingest / Phase-0 / deep-read that touches local AI, owned lab, product pentest, bounty, AI harnesses, or ASVS — sync the friend brief (or log `friend brief: n/a`). Canonized as ingest step **9b** in `CLAUDE.md`.
+- Gitignored Phase-0 / ASVS / lab briefs stay machine-local detail; the tracked friend brief must still point at them and carry any checklist change the friend needs without opening those files.
+
+---
+
 ## [2026-05-12] Bootstrapping the wiki from a 227-PDF Drive folder
 
 - Google Drive API's `parentId = '<id>'` query returns empty for folders that are shared-with-me (only the folder metadata itself shows up, not the contents). Workaround: Playwright over the `drive.google.com/drive/folders/<id>` URL, then `document.querySelectorAll('[data-id]')` to extract file IDs + tooltip-derived titles. 227 files in ~3 scrolls.

@@ -28,7 +28,7 @@ related:
   - entities/tools/strix-omlx.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -55,7 +55,7 @@ updated: 2026-08-02
 
 ## Raw Concept
 
-Friend-facing **start-here** hub (2026-08-02): one path covering (1) abliterated local AI setup, (2) whitehat on owned servers, (3) pre-release product pentest, (4) side bug-bounty work on a beefy paid box. Pillar pages hold depth; this page orders the path and states the authorization floor. Companion brief (gitignored): `briefs/2026-08-02_friend-operator-lab-playbook.md`.
+Friend-facing **start-here** hub (2026-08-02): one path covering (1) abliterated local AI setup, (2) whitehat on owned servers, (3) pre-release product pentest, (4) side bug-bounty work on a beefy paid box. Pillar pages hold depth; this page orders the path and states the authorization floor. Companion **tracked** brief: `briefs/2026-08-02_friend-operator-lab-playbook.md` — keep it current after every relevant ingest (CLAUDE.md step 9b).
 
 ## Narrative
 

@@ -64,7 +64,7 @@ Steps:
 
 **Higher priority:**
 
-- Friend operator lab playbook shipped 2026-08-02 (`operator-lab-playbook` + pillars + brief) — next: Phase-0 Ollama/vLLM local install stamps only if friend adopts on a named box
+- Friend operator lab playbook shipped 2026-08-02 (`operator-lab-playbook` + pillars + tracked brief `briefs/2026-08-02_friend-operator-lab-playbook.md`) — **keep brief current after every relevant ingest** (CLAUDE.md step 9b). Next: Phase-0 Ollama/vLLM local install stamps only if friend adopts on a named box
 - CyberStrike Phase-0 CONDITIONAL-GO 2026-08-02 — clone only; human VM install + lab validation before promoting maturity; no host npm -g / MCP until asked
 - Continue deep-reads — Buffer Overflow series (4 PDFs), eCPPT Exam Notes, OSINT Overview PT.1 (was too long for single read; need to chunk), Threat Hunting (eLearnSecurity intro PDF)
 - Add `concepts/exploration-graph-dead-ends.md`-style page for "techniques that no longer work" — defenders keep patching, exploits keep rotting (responsible-disclosure already done)
