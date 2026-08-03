@@ -11,9 +11,11 @@ related:
   - concepts/agent-vm-sandboxing.md
   - entities/tools/iron-proxy.md
   - concepts/operator-lab-playbook.md
+  - concepts/toktier-exact-stateful-tokenization.md
+  - sources/arxiv-2607-29678-toktier-stateful-tokenization.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-08-02
 - @concepts/ai-for-cybersecurity.md — LLM × security context
 - @concepts/agent-vm-sandboxing.md — isolate tool-using agents from the inference host when possible
 - @entities/tools/iron-proxy.md — egress control if the serving host is shared with untrusted agent workloads
+- @concepts/toktier-exact-stateful-tokenization.md
+- @sources/arxiv-2607-29678-toktier-stateful-tokenization.md
 
 ## Raw Concept
 

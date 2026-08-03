@@ -1,3 +1,31 @@
+## [2026-08-03] ingest | Joas archive closeout + K233–K235 (CWEEP / STAIR / TokTier)
+
+**Inbox**: 3 NEW arXiv PDFs (2607.29604 / 29658 / 29678) + Joas deep-read leftovers (PDFs already synthesized 2026-08-02).
+
+- **Joas closeout:** archived 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/`; source Locations updated; `@concepts/buffer-overflow.md` → **validated**; eCPPT cram `briefs/2026-08-03_ecppt-exam-cram.md`
+- **NEW** `@sources/arxiv-2607-29604-cweep-rtl-cwe-static-analysis.md` + `@concepts/cweep-rtl-cwe-early-prevention.md` + `@entities/tools/cweep.md` — **K233** CONDITIONAL-GO clone ~15MB
+- **NEW** `@sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md` + `@concepts/stair-hierarchical-repair-plans.md` — **K234** REFERENCE; Phase-1 policy wire
+- **NEW** `@sources/arxiv-2607-29678-toktier-stateful-tokenization.md` + `@concepts/toktier-exact-stateful-tokenization.md` — **K235** REFERENCE; Phase-1 policy wire
+- **Updated** experiential-abstraction, coding-agent-context-pruning, InferScale/vLLM/local-abliterated, CoGate, llm-pentest-automation, ai-for-cybersecurity, ecppt, index
+- **Briefs:** K233–K235 prod + eCPPT cram; friend brief sync (TokTier TTFT + Joas archive + eCPPT pointer)
+- **Routing:** Atto / poker / TipDrop / David — **n/a** (no genealogy/persona/poker fit). Prod SCP K234/K235 (+ K233 light).
+- **Phase-0:** cweep PASS CONDITIONAL-GO; STAIR/TokTier REFERENCE (no public code)
+- **Phase-1:** policy bullets STAIR hierarchical reconstruct + TokTier exact tokenize (`.cursor/rules/cemini-phase1-policy-wires.mdc`)
+- **Local adopts:** cweep only (<500MB). Buffer-Overflow-Labs skipped (NO LICENSE).
+- **friend brief:** TokTier + eCPPT cram + Joas egress note; CWEEP n/a unless RTL
+- **Sweep:** `wiki/sweeps/2026-08-01-daily.md` … `2026-08-03-daily.md` committed
+
+**Archive** (egress-fi cybersec/):
+- Joas 5 PDFs (already up)
+- `arxiv-2607.29604-…pdf`, `arxiv-2607.29658-…pdf`, `arxiv-2607.29678-…pdf`
+
+## [2026-08-03] query | Friend dual-model hardware preference (planner + executor)
+
+- **Not locked to one HF slug** — pick best abliterated **V4-Flash-0731** planner for path A
+- **Current default:** [cebeuq/DeepSeek-V4-Flash-0731-abliterated](https://huggingface.co/cebeuq/DeepSeek-V4-Flash-0731-abliterated) (native ~167 GB; refusal↓ + tool-call intact); alts apetersson / cyberneurova / fraserprice
+- **Path A hardware:** NVIDIA multi-GPU **~160–320 GB** or Apple **≥128/256 GB** quants; executor 7B–14B coder-abliterated; **not** single 48 GB
+- **friend brief:** planner ranking table + buy path A; note to re-pick weights as better abliterated Flash successors land
+
 ## [2026-08-03] ops | Friend brief living sync after every relevant ingest
 
 - **Standing rule:** CLAUDE.md ingest step **9b** — after ingest / Phase-0 / deep-read touching local AI, owned lab, product pentest, bounty, AI harnesses, or ASVS: update `briefs/2026-08-02_friend-operator-lab-playbook.md` or log `friend brief: n/a`

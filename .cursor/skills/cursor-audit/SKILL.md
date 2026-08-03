@@ -213,6 +213,7 @@ Optional args in the same message:
 ## Related patterns
 
 - [super-audit](../super-audit/SKILL.md) — 5-model variant (3 Cursor + 2 API via OpenRouter/DeepSeek) for pre-ship prod reviews
+- [free-audit](../free-audit/SKILL.md) — Grok-orchestrated low-cost council (0 Cursor Task; free OR + DeepSeek Flash)
 - `@ccc-wiki/entities/patterns/glasswing-deliberate-disagreement.md` — disagreement gating
 - `@ccc-wiki/concepts/subagent-orchestration.md` — parallel Task dispatch
 - `@ccc-wiki/entities/skills/cursor-audit.md` — wiki canonical page

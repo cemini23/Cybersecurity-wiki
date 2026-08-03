@@ -22,7 +22,7 @@ Steps:
 - [x] Lint clean: 0 orphans, 0 bidirectional gaps, 0 dangling refs
 - [x] Full maintenance pass 2026-05-12 evening — fixed CLAUDE.md OSINT path bug + `@@` typo + trailing-period regex boundary bug. All 8 lint checks now green; 4 cross-wiki refs resolve.
 - [x] Phase-1 adoption of 4 K42-routed tools (2026-05-13) — entity + methodology pages for cua, fuzzyai, pentest-ai-agents, pydns-scanner; 6 new concept pages (agent-vm-sandboxing, llm-adversarial-fuzzing, pair-prompt-pattern, crescendo-multi-turn-jailbreak, llm-pentest-automation, dns-server-discovery-vs-subdomain-enumeration); 17 existing pages updated with bidirectional backlinks.
-- [ ] Continue deep-reads: next batch should target Buffer Overflow, eCPPT Notes, OSINT Overview, Threat Hunting
+- [x] Continue deep-reads: Buffer Overflow series + eCPPT Notes + CTH intro PT.1 (2026-08-02/03) — OSINT Overview still open
 - [ ] Phase-2 of the 4 adoptions: synthesize PAIR + Crescendo papers into `## Snippets`; lab-validate pentest-ai-agents Tier-2 mode (currently `[TENTATIVE]`); evaluate the remaining 11 K42-routed tools.
 
 ### W2 — Public-distribution polish
@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-03 | Full ingest K233–K235 (CWEEP / STAIR / TokTier) + Joas PDF egress archive; buffer-overflow → validated; eCPPT cram brief | Inbox cleared; RTL CWE lint clone; hierarchical repair + exact tokenize policy wires |
 | 2026-07-31 | Phase-1 full sweep — 4 alwaysApply agent-security rules + CLAUDE Phase-1; stamps policy≈65 / wont≈113 / deferred≈16; zero unwired | Agent-security harness wired; REFERENCE/trainers explicitly wont_wire |
 | 2026-07-31 | Full ingest K230–K232 (TCA-SIR, CoGate, AISPA) — all REFERENCE; SystemPromptIndex LICENSE watch; prod+poker+TipDrop+Atto briefs | Inbox cleared; secure codegen + system-prompt governance |
 | 2026-07-30 | Full ingest K225–K229 (RFFI temperature, GPT-Red, InferScale, KAMR, ByDeWay-V2) — InferScale GO ~1.4MB; prod+poker+TipDrop+Atto briefs | Inbox cleared; wireless auth + self-play red-team + KV-injection security |
@@ -66,7 +67,7 @@ Steps:
 
 - Friend operator lab playbook shipped 2026-08-02 (`operator-lab-playbook` + pillars + tracked brief `briefs/2026-08-02_friend-operator-lab-playbook.md`) — **keep brief current after every relevant ingest** (CLAUDE.md step 9b). Next: Phase-0 Ollama/vLLM local install stamps only if friend adopts on a named box
 - CyberStrike Phase-0 CONDITIONAL-GO 2026-08-02 — clone only; human VM install + lab validation before promoting maturity; no host npm -g / MCP until asked
-- Continue deep-reads — Buffer Overflow series (4 PDFs), eCPPT Exam Notes, OSINT Overview PT.1 (was too long for single read; need to chunk), Threat Hunting (eLearnSecurity intro PDF)
+- Continue deep-reads — OSINT Overview PT.1 (chunked); Buffer Overflow / eCPPT / CTH intro closed 2026-08-03
 - Add `concepts/exploration-graph-dead-ends.md`-style page for "techniques that no longer work" — defenders keep patching, exploits keep rotting (responsible-disclosure already done)
 - Stub @concepts/web-vitals.md in @seo-wiki/ so the cross-wiki ref resolves both ways (currently using @seo-wiki/concepts/local-seo-foundations.md as the anchor)
 

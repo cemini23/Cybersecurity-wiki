@@ -8,9 +8,11 @@ related:
   - concepts/llm-code-review-agent-security.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
+  - concepts/cweep-rtl-cwe-early-prevention.md
+  - sources/arxiv-2607-29604-cweep-rtl-cwe-static-analysis.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-07-31
 - @concepts/llm-code-review-agent-security.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/llm-pentest-automation.md
+- @concepts/cweep-rtl-cwe-early-prevention.md
+- @sources/arxiv-2607-29604-cweep-rtl-cwe-static-analysis.md
 
 ## Raw Concept
 

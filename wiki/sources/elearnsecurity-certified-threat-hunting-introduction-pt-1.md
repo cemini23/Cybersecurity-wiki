@@ -9,9 +9,9 @@ related:
   - entities/vendors/elearnsecurity.md
   - concepts/incident-response.md
   - concepts/threat-intelligence.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 read_status: deep-read
 ---
 
@@ -28,7 +28,7 @@ read_status: deep-read
 - **Title:** Threat Hunting Introduction PT.1
 - **Author:** Joas Antonio (Joas A Santos)
 - **Type:** 59-page bilingual (EN/PT) intro deck — *not* a full eLearnSecurity CTH exam dump; title references certified-threat-hunting track as context
-- **Location:** Google Drive file ID `14DluguBRjlUt9GWTUpGIB802qnHD2Olp` · local: `research to be indexed/elearnsecurity-cth-intro-pt1.pdf` (1.5 MB, 59 pages)
+- **Location:** `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/elearnsecurity-cth-intro-pt1.pdf` (archived 2026-08-03; Drive ID retained in prior revisions)
 - **Retrieved:** 2026-05-12; deep-read 2026-08-02
 - **Read status:** deep-read
 

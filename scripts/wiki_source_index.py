@@ -80,6 +80,22 @@ def _extract_own_metadata_section(text: str) -> str:
     return fm + "\n" + rc
 
 
+def _extract_arxiv_index_text(text: str, path: Path) -> str:
+    """Text scanned for arXiv IDs belonging to this page.
+
+    Frontmatter + Raw Concept cover normal paper stubs. Reject-batch pages put
+    triaged IDs in ## Narrative tables — include that section so daily fetch
+    does not re-download already-rejected papers.
+    """
+    own = _extract_own_metadata_section(text)
+    if "inbox-arxiv-reject-batch" not in path.name:
+        return own
+    m = re.search(r"^## Narrative\s*\n(.*?)(?=^##\s|\Z)", text, re.MULTILINE | re.DOTALL)
+    if m:
+        return own + "\n" + m.group(1)
+    return own
+
+
 def build_wiki_index(sources_dir: Path) -> dict:
     idx = {
         "arxiv": defaultdict(list),
@@ -97,7 +113,7 @@ def build_wiki_index(sources_dir: Path) -> dict:
         title_raw = tm.group(1).strip() if tm else ""
         location = extract_field(text, "Location")
         own = _extract_own_metadata_section(text)
-        for m in ARXIV_RE.finditer(own):
+        for m in ARXIV_RE.finditer(_extract_arxiv_index_text(text, md)):
             idx["arxiv"][m.group(1)].append(rel)
         for m in DOI_RE.finditer(own):
             idx["doi"][m.group(1)].append(rel)

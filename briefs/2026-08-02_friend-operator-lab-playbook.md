@@ -6,6 +6,7 @@ created: 2026-08-02
 updated: 2026-08-03
 ---
 
+
 > **Maintainer note (agents):** Living start-here for the friend. After every ingest / Phase-0 / deep-read that touches local AI, owned lab, product pentest, bounty, AI harnesses, or ASVS — update this brief (checklist, deep-research add-ons, Sources) or log `friend brief: n/a`. See `CLAUDE.md` ingest step 9b + `LESSONS.md` 2026-08-03.
 
 ## Target
@@ -29,18 +30,50 @@ Wiki: `@concepts/operator-lab-playbook.md`, `@concepts/responsible-disclosure.md
 
 ### 1. Local abliterated / low-refusal AI
 
-Linux + NVIDIA (primary):
+**Dual-model pattern (friend choice 2026-08-03) — pick the best planner, not a fixed HF slug:**
 
-- [ ] Install Ollama for solo use **or** vLLM for multi-agent throughput.
+| Role | Job | Current best pick (re-check before buy) | Refusal |
+|------|-----|----------------------------------------|---------|
+| **Planner** | Attack trees, scope, “what next,” long recon dumps | **Abliterated DeepSeek-V4-Flash-0731** (see ranking below) | Low-refusal required |
+| **Executor** | Tool loops, payloads, dual-use detail | Smaller **coder-abliterated** 7B–14B Q4 | Low-refusal required |
+
+Upstream capability base (do not skip): official [`deepseek-ai/DeepSeek-V4-Flash-0731`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) — agentic jump over preview Flash. Then apply the **best abliterated rebuild** that preserves tool-calling. **Expect better planners soon** — buy for Flash-0731 *class* VRAM/serving; re-pick HF weights when a stronger abliterated 0731+/successor drops (don’t freeze on today’s slug).
+
+**Planner ranking for path A (as of 2026-08-03 — smoke-test before trusting):**
+
+| Rank | Repo | Why | Host fit |
+|------|------|-----|----------|
+| **1 — default** | [`cebeuq/DeepSeek-V4-Flash-0731-abliterated`](https://huggingface.co/cebeuq/DeepSeek-V4-Flash-0731-abliterated) | Native **FP4+FP8** (~167 GB); published refusal drop (AdvBench sample → 0%); **tool-call compliance kept at 1.0**; DSpark draft acceptance ~parity | NVIDIA multi-GPU **~160–320 GB** (vLLM) |
+| **2 — FP8 / Apple tree** | [`apetersson/DeepSeek-V4-Flash-0731-Abliterated-FP8`](https://huggingface.co/apetersson/DeepSeek-V4-Flash-0731-Abliterated-FP8) (+ MLX/DS4 quants) | Solid rank-1 abliteration of 0731; FP8 ~280 GB class; quants for **≥128 GB** Apple | Multi-GPU NVIDIA **or** 128–256 GB unified via quant |
+| **3 — cyber-smoke GGUF** | [`cyberneurova/CyberNeurova-DeepSeek-V4-Flash-abliterated-GGUF`](https://huggingface.co/cyberneurova/CyberNeurova-DeepSeek-V4-Flash-abliterated-GGUF) | Explicit hacking/bug-finding compliance numbers in card; llama.cpp path | Depends on quant; re-validate tools |
+| **4 — Blackwell throughput** | [`fraserprice/DeepSeek-V4-Flash-Abliterated`](https://huggingface.co/fraserprice/DeepSeek-V4-Flash-Abliterated) | Tuned for **2× RTX Pro 6000** (~170 GB) high tok/s | Only if buying that GPU class |
+| **Fallback (not path A)** | R1-Distill 14B–32B heretic/abliterated | Workstation-only if Flash budget slips | Single 24–48 GB |
+
+**Locked buy path A:** real Flash-class abliterated planner locally (rank 1–4), **not** a 48 GB distill as the primary plan.
+
+| Track | Hardware target | Notes |
+|-------|-----------------|-------|
+| **A1 — NVIDIA (primary)** | Multi-GPU **~160–320 GB** total (2×H200-class or 4×80 GB) | Default for **cebeuq** native ~167 GB + KV/headroom + optional executor |
+| **A2 — Apple (alt)** | **≥128 GB** unified (**256 GB** preferred) | Use apetersson/cyberneurova **quants**; re-smoke refusal after quant |
+| **Executor** | Extra **~10–24 GB** | 7B–14B coder-abliterated always hot |
+| **Do not buy for A** | Single **48 GB** as Flash host | Wrong class |
+
+Also: **2 TB+ NVMe**, **64 GB+** system RAM, lab VLAN, attack host ≠ target VMs.
+
+Linux + NVIDIA (path A1):
+
+- [ ] Provision multi-GPU for **rank-1 planner** (default cebeuq) via current vLLM/SGLang docs — verify revision before download.
 - [ ] Bind API to `127.0.0.1` (or VPN-only). Auth if anything leaves loopback.
-- [ ] Pick model by **VRAM class** (8 / 16 / 24 / 48+ GB) — see wiki table; verify weights on Hugging Face.
+- [ ] Second model: smaller coder-abliterated executor (leftover VRAM or second GPU).
+- [ ] Smoke-test **both** with in-scope dual-use + tool-call prompts (abliteration ≠ universal uncensor; quants regress).
+- [ ] Wire: plan → Flash-abliterated; tool/execute → small coder-abliterated.
 - [ ] Keep AI host egress separate from unattended bounty scanners.
 
-Apple Silicon (secondary):
+Apple Silicon (path A2):
 
-- [ ] Ollama first; MLX / OMLX if you need native efficiency beyond Ollama quants.
-- [ ] Still run Tier-2 tools in a VM/sandbox, not on the inference host alone.
-- [ ] Optional later: `@entities/tools/strix-omlx.md` wiring (CONDITIONAL-GO clone only — **ask before** setup/PATH).
+- [ ] **≥128 GB** unified (256 GB preferred); pick quant from rank 2–3; re-smoke refusal + tools.
+- [ ] Tier-2 tools in VM/sandbox, not on inference host alone.
+- [ ] Optional: `@entities/tools/strix-omlx.md` after operator OK.
 
 Wiki: `@concepts/local-abliterated-llm-pentest-stack.md`, `@entities/tools/ollama.md`, `@entities/tools/vllm.md`, `@entities/tools/strix-omlx.md`  
 Theory (cross-wiki): `@image-gen-wiki/concepts/de-censoring-techniques.md`
@@ -103,7 +136,9 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@sources/owasp-asvs-5.md`
 - `@concepts/bug-bounty.md`
 - `@concepts/llm-pentest-automation.md`
-- `@concepts/buffer-overflow.md` · `@concepts/threat-hunting.md` · `@entities/certifications/ecppt.md` (Joas deep-reads 2026-08-02)
+- `@concepts/buffer-overflow.md` · `@concepts/threat-hunting.md` · `@entities/certifications/ecppt.md` (Joas deep-reads; egress 2026-08-03)
+- `@concepts/toktier-exact-stateful-tokenization.md` · `@concepts/stair-hierarchical-repair-plans.md` (K235/K234)
+- `briefs/2026-08-03_ecppt-exam-cram.md` (gitignored OK)
 - `@entities/tools/cyberstrike.md`
 - `@entities/tools/strix.md`
 - `@entities/tools/strix-omlx.md`
@@ -143,7 +178,10 @@ Read these wiki pages in order after the checklist above:
    CONDITIONAL-GO clone `raw-sources/repos/strix-omlx` @ `b623b9f`; ask before setup/PATH (`briefs/2026-08-02_strix-omlx-phase0.md`).
 9. **Harness peers (REFERENCE)** — `@entities/tools/hexstrike-ai.md`, `@entities/tools/cai-framework.md`, `@entities/tools/pentestgpt.md`  
    Desk only; no host install; CAI dual-license restricts commercial use.
-10. **Joas deep-reads (2026-08-02)** — BOF intro/guide/beginners + eCPPT notes + CTH intro PT.1  
-    Sources upgraded to `deep-read`; wealth in `@concepts/buffer-overflow.md`, `@concepts/threat-hunting.md`, `@entities/certifications/ecppt.md`. PDFs may still sit in `research to be indexed/` pending egress archive.
+10. **Joas deep-reads (closed 2026-08-03)** — BOF intro/guide/beginners + eCPPT notes + CTH intro PT.1  
+    Wealth in `@concepts/buffer-overflow.md` (**validated**), `@concepts/threat-hunting.md`, `@entities/certifications/ecppt.md`. PDFs on egress-fi. Cram: `briefs/2026-08-03_ecppt-exam-cram.md` (gitignored OK).
+11. **TokTier / agent TTFT (K235)** — `@concepts/toktier-exact-stateful-tokenization.md`  
+    Under high prompt-cache hit rates, tokenization dominates TTFT for tool-loop agents. Keep exact tokenize contract on local vLLM path A; pair with InferScale KV caution.
+12. **STAIR repair plans (K234)** — light: if using coding/repair agents, abstract past trajectories into hierarchical plans before re-inject (`@concepts/stair-hierarchical-repair-plans.md`). CWEEP (K233) only if you touch RTL.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

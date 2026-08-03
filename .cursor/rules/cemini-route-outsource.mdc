@@ -11,13 +11,14 @@ Always-approve is the default on **every** executor on **every** machine. This i
 
 ## Goal
 
-Minimize Cursor Agent spend. Prefer Grok / DeepSeek (`claude-ds`) / OpenRouter / (David) Ollama.
+Minimize Cursor Agent spend. Prefer OpenRouter free → claude-ds; mid = Grok plan + claude-ds; hard = Cursor premium plan + Grok CLI implement.
 
-## When user says `/route`, `route this`, or asks to outsource a hard/money task
+## When user says `/route`, `route this`, `route as recommended`, or asks to outsource
 
 1. Announce lane (easy/mid/hard/money) in one line.
-2. **Shell out** to `route-task` / kit `scripts/route-task.ps1` from the **current project** (or `-WorkDir`). Do **not** implement the task in Cursor.
-3. Summarize executor results only. Cursor implements **only** if the chain prints all executors failed.
+2. **Shell out** to `route-task` / kit `scripts/route-task.ps1` from the **current project** (or `-WorkDir`). Do **not** implement in the parent Cursor session (except Cursor Grok fallback when the script says so).
+3. **Hard/money:** write the premium plan into the handoff first, then shell Grok implement.
+4. Summarize executor results only.
 
 ## WorkDir
 
@@ -27,17 +28,16 @@ Default = current project directory. TipDrop scanner only when the task is clear
 
 - Grok: `--always-approve` (opt out `-NoApprove` on that run only)
 - claude-ds: `--dangerously-skip-permissions` (opt out `CLAUDE_DS_ASK=1` / `-NoSkipPermissions`)
-- Cursor Agent: Auto-run enabled when last resort — still no LIVE Discord / no secret paste
+- Cursor Grok / Cursor Agent fallback: Auto-run — still no LIVE Discord / no secret paste
 - One-time machine adopt: kit `scripts/adopt-route-always-approve.ps1`
-- **Grok login/auth failure:** stop and tell the operator to run `grok login` (or set `XAI_API_KEY`). Do **not** bypass to claude-ds/Cursor.
+- **Grok login/auth failure:** tell operator to `grok login` (or set `XAI_API_KEY`); mid/hard may fall through to **Cursor Grok** as designed (not claude-ds for hard implement).
 
 ## Profiles
 
-- `david` — easy starts Ollama
-- `claudio` — easy starts DeepSeek (no local model required)
+- `david` / `claudio` — logging / future local opts; easy chain is OpenRouter free → claude-ds for both
 - Env: `ROUTE_PROFILE` (aliases `CEMINI_ROUTE_PROFILE`, `TIPDROP_ROUTE_PROFILE`)
 - Always-approve does **not** vary by profile
 
 ## Safety unchanged
 
-No secrets in handoffs. No LIVE Discord without LIVE OK.
+No secrets in handoffs. No secrets on free OpenRouter models. No LIVE Discord without LIVE OK.

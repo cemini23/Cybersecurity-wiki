@@ -7,9 +7,9 @@ related:
   - concepts/exploit-development.md
   - entities/people/joas-a-santos.md
   - concepts/buffer-overflow.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 read_status: deep-read
 ---
 
@@ -24,7 +24,7 @@ read_status: deep-read
 - **Title:** Introduction to Overflow Buffer 1 (English translation of Portuguese original)
 - **Author:** Joas Antonio (Joas A Santos)
 - **Type:** 66-page PDF intro book/slides
-- **Location:** Google Drive file ID `1COIloK_wynny5Jv_zDMY5m-i2ppO3CyV` · local: `research to be indexed/buffer-overflow-introduction.pdf` (1.9 MB, 66 pages)
+- **Location:** `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/buffer-overflow-introduction.pdf` (archived 2026-08-03; Drive ID retained in prior revisions)
 - **Retrieved:** 2026-05-12; deep-read 2026-08-02 (full PDF obtained; text extract focus pp.1–40 + lab/ref tail)
 - **Read status:** deep-read
 

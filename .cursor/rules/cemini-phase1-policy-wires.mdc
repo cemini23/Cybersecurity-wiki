@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — reconstruct memory, model build/use/bypass, async multi-agent inbox, claim-unit answers (K230–K233)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization (K230–K238)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K233)
+# Phase-1 policy wires (K230–K238)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -30,6 +30,49 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Prefer **claim + source locator** (DOI/URL/quote or wiki `@path`) over document dumps.
 - If unsupported: say **NO_EVIDENCE** (Traceable Scholarship).
 - Do **not** add AskChem chemistry MCP unless the operator explicitly asks. `.local/adopts/askchem` = REFERENCE client.
+
+## Local-first MCP + HITL QC (CyberNeuro pattern / K234)
+
+- Sensitive pipelines: prefer **local-first / no egress by default** and a pinned execution layer.
+- Skills as typed contracts → **validate DAG** before parallel fan-out.
+- High-blast QC: keep a **HITL verification panel** — automated metrics alone are not enough.
+- CyberNeuro neuroimaging product **wont_wire** (OOD / no public repo).
+
+## Mutation-consistency codegen tests (MCP-Tester / K235)
+
+- When testing transpiler/codegen/agent rewrites without runnable binaries: use **mutation-consistency** metamorphic relations (predictable structural output change), not crash-only fuzz.
+- Name collision: MCP-Tester here = Mutation Consistency of Programs — **not** Model Context Protocol.
+- `.local/adopts/mcp-tester-transpiler` = Zenodo CC-BY-4.0 REFERENCE — do not runtime-wire into prod.
+
+## Decision-coupled hierarchical memory (HAM-VLN / K236)
+
+- In the same turn that chooses the next action, also record progress / failures / place semantics into durable state.
+- Bound recent verbatim context; retrieve older via relevance / recency / salience (pairs K154 / K230).
+- HAM-VLN robotics code **wont_wire** (no public repo).
+
+## Agentic-engineer competencies (ACCEL / K237)
+
+- Score operator workflows on: intent framing · orchestration · verification · ethical accountability · continuous learning.
+- Watch automation bias, deskilling, superficial engagement, and felt-vs-measured speedup gaps.
+- Paper/rubric only — no curriculum product install.
+
+## Tokenization TTFT under high cache hits (TokTier / K238)
+
+- At high prompt-cache hit rates, **tokenization** can dominate TTFT — measure front-end cost, not only prefill.
+- Prefer serving stacks with **exact stateful incremental** tokenization when available; do not claim a TokTier deploy (no public artifact).
+
+
+## Hierarchical repair plans (STAIR / 2607.29658 — cybersec K234)
+
+- Before re-injecting prior repair / engagement trajectories: **abstract into hierarchical plans** (fine diagnostic steps + coarse strategy); mix levels.
+- Do **not** dump raw unabstracted trajectories — they transfer worse than multi-level plans.
+- Pairs MemHarness reconstruct-before-inject; no public STAIR install (REFERENCE pattern only).
+
+## Exact stateful tokenization (TokTier / 2607.29678 — cybersec K235)
+
+- When optimizing agent-serving TTFT under high prompt-cache hits: preserve an **exact tokenization contract** (IDs ≡ full reference tokenize).
+- Incremental splice only after a stable-boundary check; otherwise full retokenize.
+- Treat tokenizer/KV desync as a reliability/security bug (pairs InferScale KV-injection caution). No public TokTier install (REFERENCE).
 
 ## Phase-1 meta
 

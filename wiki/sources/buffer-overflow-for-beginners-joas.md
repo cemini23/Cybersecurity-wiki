@@ -7,9 +7,9 @@ related:
   - concepts/exploit-development.md
   - entities/people/joas-a-santos.md
   - concepts/buffer-overflow.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 read_status: deep-read
 ---
 
@@ -24,7 +24,7 @@ read_status: deep-read
 - **Title:** Buffer Overflow for Beginners (Joas)
 - **Author:** Joas A Santos (see @entities/people/joas-a-santos.md)
 - **Type:** 1-page PDF cheatsheet / link pack (not a long narrative book)
-- **Location:** Google Drive `ebooks Joas` file ID `1oH5TqnwVABIMm9iYl0rDcNdDV807eZbJ` · local ingest 2026-08-02: `research to be indexed/buffer-overflow-for-beginners-joas.pdf` (106 KB, 1 page)
+- **Location:** `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/buffer-overflow-for-beginners-joas.pdf` (archived 2026-08-03; Drive ID retained in prior revisions)
 - **Retrieved:** 2026-05-12; deep-read 2026-08-02
 - **Read status:** deep-read
 

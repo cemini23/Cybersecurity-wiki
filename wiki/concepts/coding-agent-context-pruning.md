@@ -12,9 +12,11 @@ related:
   - concepts/experiential-abstraction-memory.md
   - entities/tools/notes-to-self.md
   - sources/arxiv-2607-20372-notes-to-self-experiential.md
+  - concepts/stair-hierarchical-repair-plans.md
+  - sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-23
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-07-23
 - @sources/arxiv-2607-18213-swe-pruner-pro.md
 - @entities/tools/swe-pruner-pro.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/stair-hierarchical-repair-plans.md
+- @sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
 
 ## Raw Concept
 

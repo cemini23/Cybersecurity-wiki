@@ -16,9 +16,9 @@ related:
   - entities/certifications/ecppt.md
   - entities/tools/deepzero.md
   - entities/people/joas-a-santos.md
-maturity: draft
+maturity: validated
 created: 2026-05-15
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations

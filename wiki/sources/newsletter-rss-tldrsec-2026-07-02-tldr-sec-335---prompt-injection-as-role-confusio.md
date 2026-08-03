@@ -7,7 +7,8 @@ related: []
 maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
-cross-wiki-source: @osint-wiki/sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335---prompt-injection-as-role-confusio.md
+cross-wiki-source: @osint-wiki/sources/newsletter-rss-tldrsec-2026-07-02-tldr-sec-335
+---prompt-injection-as-role-confusio.md
 ---
 
 # tl;dr sec — [tl;dr sec] #335 - Prompt Injection as Role Confusion, PHP Ecosystem Security, New MCP Spec

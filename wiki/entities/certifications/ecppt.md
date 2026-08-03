@@ -13,7 +13,7 @@ related:
   - concepts/network-security.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -41,3 +41,7 @@ eLearnSecurity / INE's mid-level hands-on pentest cert. Paired with the PTP (Pen
 Operator notes emphasize: heavy **Nmap** catalog → **Metasploit** recon/aux scanners → service enum (SMB/SSH/FTP/web Dirb) → **MS17-010** exploit choice tree → Meterpreter **priv-esc** → **autoroute + socks + proxychains** pivoting → **buffer overflow** lab block → **reporting** with strategic recommendations. Treat as a community cram map; verify against current INE exam guide before sitting. [CONFIRMED — notes structure; TENTATIVE as official domain weights]
 
 Lab practice pointers commonly cited: VulnHub, HTB, TryHackMe, Buffer-Overflow-Labs repos — always authorized environments only.
+
+### Cram brief
+
+Hands-on map: `briefs/2026-08-03_ecppt-exam-cram.md` (gitignored OK) — Joas notes spine, not INE canon.

@@ -9,9 +9,11 @@ related:
   - concepts/inferscale-kv-injection-personalized-serving.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/toktier-exact-stateful-tokenization.md
+  - sources/arxiv-2607-29678-toktier-stateful-tokenization.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-31
+updated: 2026-08-03
 phase_0_verdict: "GO 2026-07-30 — BSD-3-Clause; ~1.4MB; github.com/saltsystemslab/InferScale"
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
@@ -25,6 +27,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @concepts/agent-runtime-guardrails.md
 
 **Local clone:** `raw-sources/repos/InferScale` (~1.4MB)
+- @concepts/toktier-exact-stateful-tokenization.md
+- @sources/arxiv-2607-29678-toktier-stateful-tokenization.md
 
 ## Narrative
 

@@ -7,9 +7,9 @@ related:
   - concepts/exploit-development.md
   - entities/people/joas-a-santos.md
   - concepts/buffer-overflow.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 read_status: deep-read
 ---
 
@@ -24,7 +24,7 @@ read_status: deep-read
 - **Title:** Buffer Overflow Guide 1
 - **Author:** Joas Antonio (Joas A Santos)
 - **Type:** 32-page PDF slide/guide deck
-- **Location:** Google Drive file ID `1h9U8cx8ms39_5LF9shbh1heRcIpNU08L` · local: `research to be indexed/buffer-overflow-guide-1.pdf` (660 KB, 32 pages)
+- **Location:** `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/buffer-overflow-guide-1.pdf` (archived 2026-08-03; Drive ID retained in prior revisions)
 - **Retrieved:** 2026-05-12; deep-read 2026-08-02
 - **Read status:** deep-read
 

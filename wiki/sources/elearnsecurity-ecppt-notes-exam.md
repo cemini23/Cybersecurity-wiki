@@ -10,9 +10,9 @@ related:
   - entities/vendors/elearnsecurity.md
   - concepts/buffer-overflow.md
   - concepts/exploit-development.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 read_status: deep-read
 ---
 
@@ -30,7 +30,7 @@ read_status: deep-read
 - **Title:** eCPPT (eLearnSecurity Certified Professional Penetration Tester) – Notes Exam
 - **Author:** Joas A Santos (compiled exam notes)
 - **Type:** 157-page PDF notes dump
-- **Location:** Google Drive file ID `1H0Iq0_oU6-oUOkpzDZclUjw1EbsZWWiW` · local: `research to be indexed/elearnsecurity-ecppt-notes-exam.pdf` (6.9 MB, 157 pages)
+- **Location:** `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/elearnsecurity-ecppt-notes-exam.pdf` (archived 2026-08-03; Drive ID retained in prior revisions)
 - **Retrieved:** 2026-05-12; deep-read 2026-08-02 (full PDF; systematic sample of sections)
 - **Read status:** deep-read
 

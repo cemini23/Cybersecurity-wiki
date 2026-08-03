@@ -52,7 +52,7 @@
 | @concepts/solver-grounded-agentic-ot.md | draft | Smart-grid/OT agents: solver + verify before setpoints (2607.18147) |
 | @concepts/6g-cps-closed-loop-security.md | draft | 6G CPS edge-to-network AI-native security loop (2606.08173) |
 | @concepts/exploit-development.md | draft | Buffer overflow → ROP → kernel exploits |
-| @concepts/buffer-overflow.md | draft | Stack/heap overflow fundamentals + shellcode |
+| @concepts/buffer-overflow.md | validated | Stack/heap overflow fundamentals + shellcode |
 | @concepts/av-edr-bypass.md | validated | AV/EDR evasion tradecraft |
 | @concepts/privilege-escalation.md | validated | Linux + Windows privesc |
 | @concepts/credential-access.md | draft | Credential dumping + password cracking (TA0006) |
@@ -94,6 +94,12 @@
 | @sources/arxiv-2607-28498-tca-sir-scientific-inspiration.md | draft | TCA-SIR remote-analogy SIR (2607.28498; K230) |
 | @sources/arxiv-2607-28529-cogate-secure-code-codecoding.md | draft | CoGate confidence-gated secure codegen (2607.28529; K231) |
 | @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md | draft | AISPA system-prompt auditing (2607.28617; K232) |
+| @sources/arxiv-2607-29604-cweep-rtl-cwe-static-analysis.md | draft | CWEEP RTL CWE static analysis (2607.29604; K233) |
+| @sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md | draft | STAIR hierarchical repair trajectories (2607.29658; K234) |
+| @sources/arxiv-2607-29678-toktier-stateful-tokenization.md | draft | TokTier exact stateful tokenization (2607.29678; K235) |
+| @concepts/cweep-rtl-cwe-early-prevention.md | draft | Early RTL CWE lint without full security specs |
+| @concepts/stair-hierarchical-repair-plans.md | draft | Hierarchical repair plans from agent trajectories |
+| @concepts/toktier-exact-stateful-tokenization.md | draft | Exact stateful tokenization for agent serving TTFT |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |
@@ -299,6 +305,7 @@
 | @entities/tools/kutie-artifacts.md | draft | KuTIE artifacts (Dynatrace lab CONDITIONAL ~2.9MB) |
 | @entities/tools/inferscale.md | draft | InferScale KV injection (BSD-3; GO ~1.4MB) |
 | @entities/tools/system-prompt-index.md | draft | SystemPromptIndex AISPA corpus (REFERENCE; NO LICENSE) |
+| @entities/tools/cweep.md | draft | CWEEP RTL CWE lint (Apache-2.0; CONDITIONAL-GO ~15MB) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -456,6 +463,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | kutie-artifacts | Dynatrace proprietary | CONDITIONAL-GO | K224 | @entities/tools/kutie-artifacts.md — lab-view only ~2.9MB |
 | InferScale | BSD-3-Clause | GO | K227 | @entities/tools/inferscale.md — ~1.4MB |
 | SystemPromptIndex | — | REFERENCE | K232 | @entities/tools/system-prompt-index.md — NO LICENSE ~11MB |
+| cweep | Apache-2.0 | CONDITIONAL-GO | K233 | @entities/tools/cweep.md — Verible RTL CWE lint ~15MB |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 

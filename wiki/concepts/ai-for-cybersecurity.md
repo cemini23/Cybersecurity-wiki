@@ -215,9 +215,16 @@ related:
   - entities/tools/vllm.md
   - entities/tools/cyberstrike.md
   - sources/devto-red-team-ai-benchmark.md
+  - concepts/cweep-rtl-cwe-early-prevention.md
+  - concepts/stair-hierarchical-repair-plans.md
+  - concepts/toktier-exact-stateful-tokenization.md
+  - sources/arxiv-2607-29604-cweep-rtl-cwe-static-analysis.md
+  - sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
+  - sources/arxiv-2607-29678-toktier-stateful-tokenization.md
+  - entities/tools/cweep.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -324,6 +331,13 @@ updated: 2026-08-02
 - @sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
 - @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
 - @entities/tools/system-prompt-index.md
+- @concepts/cweep-rtl-cwe-early-prevention.md
+- @concepts/stair-hierarchical-repair-plans.md
+- @concepts/toktier-exact-stateful-tokenization.md
+- @sources/arxiv-2607-29604-cweep-rtl-cwe-static-analysis.md
+- @sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
+- @sources/arxiv-2607-29678-toktier-stateful-tokenization.md
+- @entities/tools/cweep.md
 
 ## Raw Concept
 

@@ -15,6 +15,7 @@ permissions:
   - filesystem:read
   - filesystem:write
   - env
+federation: true
 ---
 
 # Super audit (5–6 model council)
@@ -169,6 +170,7 @@ Use `auditor_count` from discovery (5 or 6). Template:
 ## Related
 
 - [cursor-audit](../cursor-audit/SKILL.md)
+- [free-audit](../free-audit/SKILL.md) — cheaper Grok-orchestrated council when Cursor Task spend must stay near zero
 - [reference.md](reference.md)
 - [examples.md](examples.md)
 - Export keys in-shell, or set `CEMINI_LLM_ROUTING_ENV` to your routing file
