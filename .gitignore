@@ -19,6 +19,7 @@ briefs/*
 !briefs/.gitkeep
 # Friend-facing operator playbook (intentionally public in-repo)
 !briefs/2026-08-02_friend-operator-lab-playbook.md
+!briefs/2026-08-04_diffattack-fr-evasion-from-image-gen.md
 
 # --- Claude Code per-project state -------------------------------------------
 .claude/
