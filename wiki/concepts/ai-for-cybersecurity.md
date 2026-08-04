@@ -222,9 +222,20 @@ related:
   - sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
   - sources/arxiv-2607-29678-toktier-stateful-tokenization.md
   - entities/tools/cweep.md
+  - concepts/symbolic-art-attack-chain-granularity.md
+  - concepts/openart-environment-evolution-agent-redteam.md
+  - concepts/salami-collusive-memory-poisoning.md
+  - concepts/multi-turn-pressure-sycophancy.md
+  - concepts/gradcuit-test-time-latent-reasoning.md
+  - entities/tools/openart.md
+  - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
+  - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+  - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
+  - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
+  - sources/arxiv-2608-02585-gradcuit-test-time-latent-reasoning.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -338,6 +349,17 @@ updated: 2026-08-03
 - @sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
 - @sources/arxiv-2607-29678-toktier-stateful-tokenization.md
 - @entities/tools/cweep.md
+- @concepts/symbolic-art-attack-chain-granularity.md
+- @concepts/openart-environment-evolution-agent-redteam.md
+- @concepts/salami-collusive-memory-poisoning.md
+- @concepts/multi-turn-pressure-sycophancy.md
+- @concepts/gradcuit-test-time-latent-reasoning.md
+- @entities/tools/openart.md
+- @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
+- @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+- @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
+- @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
+- @sources/arxiv-2608-02585-gradcuit-test-time-latent-reasoning.md
 
 ## Raw Concept
 

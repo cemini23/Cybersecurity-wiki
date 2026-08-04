@@ -74,6 +74,14 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Incremental splice only after a stable-boundary check; otherwise full retokenize.
 - Treat tokenizer/KV desync as a reliability/security bug (pairs InferScale KV-injection caution). No public TokTier install (REFERENCE).
 
+
+## Collusive / salami memory poisoning (2608.01637 — cybersec K238)
+
+- Audit durable agent memory as a **set** (coalitions), not only per-record heuristics.
+- Before promoting observed/external content into persistent memory: **rewrite + validate** against the current task; reject unexplained multi-fragment consensus/authority stacks.
+- Cross-session observe→summarize pipelines are an **untrusted write path** (pairs MemHarness reconstruct-before-inject + ADI trusted/untrusted split).
+- MemCollusion-class attacks = owned-lab red-team only — no LIVE third-party agents.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.

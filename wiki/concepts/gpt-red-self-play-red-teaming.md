@@ -9,9 +9,11 @@ related:
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/openart-environment-evolution-agent-redteam.md
+  - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -21,6 +23,8 @@ updated: 2026-07-30
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/openart-environment-evolution-agent-redteam.md
+- @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
 
 ## Raw Concept
 

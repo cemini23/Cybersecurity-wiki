@@ -1,3 +1,26 @@
+## [2026-08-04] brief | DiffAttack FR evasion routed from image-gen
+
+- `briefs/2026-08-04_diffattack-fr-evasion-from-image-gen.md` — arXiv:2607.28936 LDM FR evasion (USF); defensive WATCH; no install.
+
+## [2026-08-04] ingest | K236–K240 (ART-PDDL / OpenART / Salami / MedPRESS / GradCuit)
+
+**Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-04-daily.md`.
+
+- **NEW** `@sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md` + `@concepts/symbolic-art-attack-chain-granularity.md` — **K236** REFERENCE
+- **NEW** `@sources/arxiv-2608-00677-openart-agent-redteam-evolution.md` + `@concepts/openart-environment-evolution-agent-redteam.md` + `@entities/tools/openart.md` — **K237** CONDITIONAL-GO clone ~19MB AGPL
+- **NEW** `@sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md` + `@concepts/salami-collusive-memory-poisoning.md` — **K238** REFERENCE; Phase-1 collusive-memory policy
+- **NEW** `@sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md` + `@concepts/multi-turn-pressure-sycophancy.md` — **K239** REFERENCE (ladder pattern)
+- **NEW** `@sources/arxiv-2608-02585-gradcuit-test-time-latent-reasoning.md` + `@concepts/gradcuit-test-time-latent-reasoning.md` — **K240** REFERENCE (NO LICENSE — no clone)
+- **Updated** adversary-emulation, red-team-ops, caldera, MITRE ATT&CK, GPT-Red, llm-adversarial-fuzzing, cyber-capable containment, ADI, experiential/STAIR memory, crescendo, social-engineering, InferScale, ai-for-cybersecurity, index
+- **Briefs:** K236–K240 → prod; Atto K238 light; poker K236/K237 no-fit + K238 light; GuruWatcher n/a; TipDrop/David n/a
+- **Phase-0:** OpenART PASS CONDITIONAL-GO (AGPL lab); GradCuit NO LICENSE skip; others REFERENCE
+- **Phase-1:** collusive memory bullets in `cemini-phase1-policy-wires.mdc`; OpenART noted in lab-redteam rule
+- **Local adopts:** OpenART only (~19MB). GradCuit skipped.
+- **friend brief:** OpenART lab AGPL + Salami memory coalition checklist; ART-PDDL light; MedPRESS/GradCuit n/a for friend product
+- **Sweep:** `wiki/sweeps/2026-08-04-daily.md`
+
+**Archive** (egress-fi cybersec/): five `arxiv-2608.*` PDFs
+
 ## [2026-08-03] ingest | K220 cyber tool register from OSINT revenue eval
 
 - **Parent:** `@osint-wiki/sources/eval-url-revenue-cyber-agent-harness-2026-08-03.md` (thin brief was insufficient — promoted)

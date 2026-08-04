@@ -24,9 +24,11 @@ related:
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
   - concepts/agent-reconnaissance-ipi-pentesting.md
   - sources/arxiv-2607-19837-know-your-agent-recon.md
+  - concepts/salami-collusive-memory-poisoning.md
+  - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-31
+updated: 2026-08-04
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -39,6 +41,8 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/agent-reconnaissance-ipi-pentesting.md
 - @sources/arxiv-2607-05120-agent-data-injection-attacks.md — ADI paper + benchmark (2607.05120)
 - @concepts/mcp-execution-control-invariants.md — HCP I1/I4 principal binding complements DT/DU isolation
+- @concepts/salami-collusive-memory-poisoning.md
+- @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 
 ## Raw Concept
 

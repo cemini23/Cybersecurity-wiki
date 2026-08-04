@@ -9,7 +9,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 ## Authorization
 
-- Written scope (owned lab, bug-bounty rules, or engagement letter) before running FuzzyAI, AHA, cryptex, Senthex, or similar.
+- Written scope (owned lab, bug-bounty rules, or engagement letter) before running FuzzyAI, AHA, cryptex, Senthex, OpenART/EMHA, or similar.
+- OpenART (`raw-sources/repos/OpenART`) is **AGPL-3.0** — lab sandbox only; do not network-serve or ship into prod without license review.
 - Prefer Docker-sandboxed victims; never point autoresearch red-team loops at third-party production.
 - Kid-safety / social-engineering pages are for parent/teacher/LE context — not offensive grooming research.
 

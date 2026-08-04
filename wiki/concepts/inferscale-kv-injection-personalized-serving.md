@@ -11,9 +11,10 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/toktier-exact-stateful-tokenization.md
   - sources/arxiv-2607-29678-toktier-stateful-tokenization.md
+  - concepts/gradcuit-test-time-latent-reasoning.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -25,6 +26,7 @@ updated: 2026-08-03
 - @concepts/mcp-security-posture.md
 - @concepts/toktier-exact-stateful-tokenization.md
 - @sources/arxiv-2607-29678-toktier-stateful-tokenization.md
+- @concepts/gradcuit-test-time-latent-reasoning.md
 
 ## Raw Concept
 

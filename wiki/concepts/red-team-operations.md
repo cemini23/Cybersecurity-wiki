@@ -90,9 +90,13 @@ related:
   - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
   - entities/tools/black-cat.md
   - entities/tools/bypassav.md
+  - concepts/symbolic-art-attack-chain-granularity.md
+  - concepts/openart-environment-evolution-agent-redteam.md
+  - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+  - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -180,6 +184,11 @@ updated: 2026-08-03
 - @entities/decepticon.md — autonomous multi-agent red-team framework (16 LangGraph kill-chain agents)
 - @entities/tools/red-run.md — Claude Code agent-team distributed pentest orchestrator (reference-only, GPL-3.0)
 - @entities/tools/osmedeus.md — orchestration engine automating the recon + scanning phases of an engagement
+- @concepts/symbolic-art-attack-chain-granularity.md
+- @concepts/openart-environment-evolution-agent-redteam.md
+- @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+- @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
+
 ## Raw Concept
 
 Anchor concept for the largest single sub-collection in the corpus — 16+ PDFs explicitly scope-named Red Team (Red Team Operations Concepts/Development/Toolkit, Red Team Tradecraft, Red Team Career Tips, What it takes to be a Red Team, Red Team x Blue Team, Red_Team_x_Blue_Team, Cyber Security Complete Journey – Red Team #1, etc.).

@@ -9,9 +9,11 @@ related:
   - entities/frameworks/mitre-attack.md
   - sources/adversary-simulation-with-caldera-and-mitre.md
   - entities/people/joas-a-santos.md
+  - concepts/symbolic-art-attack-chain-granularity.md
+  - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -21,6 +23,8 @@ updated: 2026-05-12
 - @entities/frameworks/mitre-attack.md
 - @sources/adversary-simulation-with-caldera-and-mitre.md
 - @entities/people/joas-a-santos.md
+- @concepts/symbolic-art-attack-chain-granularity.md
+- @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 
 ## Raw Concept
 

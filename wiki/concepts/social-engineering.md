@@ -23,9 +23,11 @@ related:
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - concepts/llm-belief-expression-robustness.md
   - sources/arxiv-2607-18232-eobench-expressions-of-belief.md
+  - concepts/multi-turn-pressure-sycophancy.md
+  - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-21
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -45,6 +47,8 @@ updated: 2026-07-21
 - @concepts/phishing.md
 - @concepts/phishing-investigation.md
 - @sources/effective-threat-investigation-soc-analysts.md
+- @concepts/multi-turn-pressure-sycophancy.md
+- @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 
 ## Raw Concept
 

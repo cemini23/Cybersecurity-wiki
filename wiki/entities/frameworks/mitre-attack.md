@@ -42,10 +42,12 @@ related:
   - concepts/llm-cve-to-stix-generation.md
   - entities/tools/cav-stixgen.md
   - sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
+  - concepts/symbolic-art-attack-chain-granularity.md
+  - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 
 maturity: validated
 created: 2026-05-12
-updated: 2026-07-20
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -83,6 +85,8 @@ updated: 2026-07-20
 - @concepts/llm-cve-to-stix-generation.md — LLM ATT&CK mapping from CVE text remains hard (Match@All)
 - @entities/tools/cav-stixgen.md
 - @sources/arxiv-2607-16175-cav-stixgen-open-weight-stix.md
+- @concepts/symbolic-art-attack-chain-granularity.md
+- @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 
 ## Raw Concept
 

@@ -100,6 +100,16 @@
 | @concepts/cweep-rtl-cwe-early-prevention.md | draft | Early RTL CWE lint without full security specs |
 | @concepts/stair-hierarchical-repair-plans.md | draft | Hierarchical repair plans from agent trajectories |
 | @concepts/toktier-exact-stateful-tokenization.md | draft | Exact stateful tokenization for agent serving TTFT |
+| @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md | draft | ART→PDDL attack-chain granularity (2608.00143; K236) |
+| @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md | draft | OpenART environment-evolution red team (2608.00677; K237) |
+| @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md | draft | Salami collusive memory poisoning (2608.01637; K238) |
+| @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md | draft | MedPRESS multi-turn medical sycophancy (2608.02520; K239) |
+| @sources/arxiv-2608-02585-gradcuit-test-time-latent-reasoning.md | draft | GradCuit test-time latent reasoning (2608.02585; K240) |
+| @concepts/symbolic-art-attack-chain-granularity.md | draft | Predicate granularity for ART symbolic chains |
+| @concepts/openart-environment-evolution-agent-redteam.md | draft | Stateful environment evolution for agent RT |
+| @concepts/salami-collusive-memory-poisoning.md | draft | Collusive benign-looking memory coalitions |
+| @concepts/multi-turn-pressure-sycophancy.md | draft | Pressure ladders induce unsafe agreement |
+| @concepts/gradcuit-test-time-latent-reasoning.md | draft | Credit-assigned test-time latents |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |
@@ -313,6 +323,7 @@
 | @entities/tools/inferscale.md | draft | InferScale KV injection (BSD-3; GO ~1.4MB) |
 | @entities/tools/system-prompt-index.md | draft | SystemPromptIndex AISPA corpus (REFERENCE; NO LICENSE) |
 | @entities/tools/cweep.md | draft | CWEEP RTL CWE lint (Apache-2.0; CONDITIONAL-GO ~15MB) |
+| @entities/tools/openart.md | draft | OpenART agent RT arena (AGPL-3.0; CONDITIONAL-GO ~19MB) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -471,6 +482,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | InferScale | BSD-3-Clause | GO | K227 | @entities/tools/inferscale.md — ~1.4MB |
 | SystemPromptIndex | — | REFERENCE | K232 | @entities/tools/system-prompt-index.md — NO LICENSE ~11MB |
 | cweep | Apache-2.0 | CONDITIONAL-GO | K233 | @entities/tools/cweep.md — Verible RTL CWE lint ~15MB |
+| OpenART | AGPL-3.0 | CONDITIONAL-GO | K237 | @entities/tools/openart.md — agent RT arena ~19MB lab only |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 

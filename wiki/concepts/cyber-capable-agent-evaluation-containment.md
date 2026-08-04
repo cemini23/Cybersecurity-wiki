@@ -10,9 +10,12 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-decoy-defense-autonomous-pentest.md
+  - concepts/openart-environment-evolution-agent-redteam.md
+  - entities/tools/openart.md
+  - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -22,6 +25,9 @@ updated: 2026-07-29
 - @concepts/agent-runtime-guardrails.md
 - @concepts/llm-pentest-automation.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/openart-environment-evolution-agent-redteam.md
+- @entities/tools/openart.md
+- @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
 
 ## Raw Concept
 

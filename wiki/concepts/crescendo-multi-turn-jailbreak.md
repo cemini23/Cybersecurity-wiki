@@ -28,9 +28,11 @@ related:
   - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
   - concepts/gpt-red-self-play-red-teaming.md
   - sources/arxiv-2607-26115-gpt-red-self-play.md
+  - concepts/multi-turn-pressure-sycophancy.md
+  - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-04
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -49,6 +51,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 - @concepts/gpt-red-self-play-red-teaming.md
 - @sources/arxiv-2607-26115-gpt-red-self-play.md
+- @concepts/multi-turn-pressure-sycophancy.md
+- @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 
 ## Raw Concept
 

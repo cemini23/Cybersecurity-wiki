@@ -12,9 +12,11 @@ related:
   - sources/arxiv-2607-21419-pats-agentic-rl.md
   - concepts/stair-hierarchical-repair-plans.md
   - sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
+  - concepts/salami-collusive-memory-poisoning.md
+  - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-08-03
 - @concepts/ai-for-cybersecurity.md
 - @concepts/stair-hierarchical-repair-plans.md
 - @sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
+- @concepts/salami-collusive-memory-poisoning.md
+- @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 
 ## Raw Concept
 

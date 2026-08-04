@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 
@@ -192,5 +192,8 @@ Read these wiki pages in order after the checklist above:
 12. **STAIR repair plans (K234)** — light: if using coding/repair agents, abstract past trajectories into hierarchical plans before re-inject (`@concepts/stair-hierarchical-repair-plans.md`). CWEEP (K233) only if you touch RTL.
 13. **K220 tool register (2026-08-03)** — `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md`  
     Steal Black-cat ledger pattern (no clone). Recon desk: CloakQuest3r + Raccoon (MIT). Optional lab: Damn-Vulnerable-Drone. Skip TorBot/BypassAV/HackTools installs unless license + scope clear. Catalog brief: `briefs/2026-08-03_k220-cyber-context-catalog.md`.
+
+13. **Salami / collusive memory (K238)** — `@concepts/salami-collusive-memory-poisoning.md`
+14. **OpenART agent RT (K237)** — `@entities/tools/openart.md` (AGPL lab only)
 
 Operator hub: `@concepts/operator-lab-playbook.md`

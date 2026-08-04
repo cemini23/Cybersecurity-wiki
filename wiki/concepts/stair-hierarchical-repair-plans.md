@@ -9,9 +9,11 @@ related:
   - concepts/coding-agent-context-pruning.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
+  - concepts/salami-collusive-memory-poisoning.md
+  - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 maturity: draft
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-04
 wire_status: policy_wired
 ---
 
@@ -22,6 +24,8 @@ wire_status: policy_wired
 - @concepts/coding-agent-context-pruning.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/llm-pentest-automation.md
+- @concepts/salami-collusive-memory-poisoning.md
+- @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 
 ## Raw Concept
 

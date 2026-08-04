@@ -36,10 +36,12 @@ related:
   - entities/tools/autosut.md
   - concepts/autonomous-defense-agent-transferability.md
   - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
+  - concepts/symbolic-art-attack-chain-granularity.md
+  - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-11
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -72,6 +74,8 @@ updated: 2026-06-11
 - @entities/tools/red-run.md — autonomous pentest-agent + Sliver C2 orchestrator (reference-only)
 - @sources/mitre-attack-framework-soc.md
 - @concepts/threat-intelligence.md
+- @concepts/symbolic-art-attack-chain-granularity.md
+- @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 
 ## Raw Concept
 

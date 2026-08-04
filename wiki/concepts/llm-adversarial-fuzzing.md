@@ -59,9 +59,13 @@ related:
   - concepts/gpt-red-self-play-red-teaming.md
   - sources/arxiv-2607-26115-gpt-red-self-play.md
   - sources/github-ablitafuzzer.md
+  - concepts/openart-environment-evolution-agent-redteam.md
+  - concepts/multi-turn-pressure-sycophancy.md
+  - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+  - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-02
+updated: 2026-08-04
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -100,6 +104,10 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @entities/tools/ai-redteam-evidential-limits.md
 - @concepts/gpt-red-self-play-red-teaming.md
 - @sources/arxiv-2607-26115-gpt-red-self-play.md
+- @concepts/openart-environment-evolution-agent-redteam.md
+- @concepts/multi-turn-pressure-sycophancy.md
+- @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+- @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 
 ## Raw Concept
 
