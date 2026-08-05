@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 
@@ -195,5 +195,9 @@ Read these wiki pages in order after the checklist above:
 
 13. **Salami / collusive memory (K238)** — `@concepts/salami-collusive-memory-poisoning.md`
 14. **OpenART agent RT (K237)** — `@entities/tools/openart.md` (AGPL lab only)
+15. **AirKey PIN side channel (K242)** — `@concepts/airkey-wifi-acoustic-pin-sidechannel.md`  
+    Nearby Wi-Fi + cheap mic can target PIN entry without joining the WLAN. Owned-lab / physical scope only; hygiene + shield PIN entry.
+16. **Adaptive TTS sampling (K243)** — `@concepts/adaptive-fuzzy-test-time-sampling.md`  
+    On path A vLLM: do not burn a fixed best-of-N on every query — scale samples with hardness/confidence. Wi-Fi expert-sharding (K241) is usually irrelevant on NVLink/PCIe boxes.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

@@ -110,6 +110,12 @@
 | @concepts/salami-collusive-memory-poisoning.md | draft | Collusive benign-looking memory coalitions |
 | @concepts/multi-turn-pressure-sycophancy.md | draft | Pressure ladders induce unsafe agreement |
 | @concepts/gradcuit-test-time-latent-reasoning.md | draft | Credit-assigned test-time latents |
+| @sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md | draft | Wi-Fi 54 Mbps broadcast cap / edge MoE (2608.02341; K241) |
+| @sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md | draft | AirKey CSI+acoustic PIN side channel (2608.03151; K242) |
+| @sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md | draft | Adaptive fuzzy TTS sampling (2608.03961; K243) |
+| @concepts/wifi-broadcast-rate-edge-moe.md | draft | 802.11 broadcast rate cap vs edge MoE |
+| @concepts/airkey-wifi-acoustic-pin-sidechannel.md | draft | Unassociated ACK-CSI + audio PIN inference |
+| @concepts/adaptive-fuzzy-test-time-sampling.md | draft | Inspectable per-query TTS sample budgets |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |

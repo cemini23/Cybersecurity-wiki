@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization (K230–K238)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost (K230–K243)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K238)
+# Phase-1 policy wires (K230–K243)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -61,26 +61,41 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - At high prompt-cache hit rates, **tokenization** can dominate TTFT — measure front-end cost, not only prefill.
 - Prefer serving stacks with **exact stateful incremental** tokenization when available; do not claim a TokTier deploy (no public artifact).
 
+## Execution fidelity for irreversible writes (K239)
 
-## Hierarchical repair plans (STAIR / 2607.29658 — cybersec K234)
+- LIVE Discord, trading egress, durable storage, or other irreversible effects: **preview/confirm before write**, pre-state check, post-state observe, **no phantom success**, scoped actor authority, **verify-then-retry** (not bare retry), idempotent external intents.
+- Preview ≠ proven user intent — it confines the unbounded intent question to a finite object.
+- Datumpont product **wont_wire** (no public repo).
 
-- Before re-injecting prior repair / engagement trajectories: **abstract into hierarchical plans** (fine diagnostic steps + coarse strategy); mix levels.
-- Do **not** dump raw unabstracted trajectories — they transfer worse than multi-level plans.
-- Pairs MemHarness reconstruct-before-inject; no public STAIR install (REFERENCE pattern only).
+## No raw LLM tabular prediction (K241)
 
-## Exact stateful tokenization (TokTier / 2607.29678 — cybersec K235)
+- Do not use a single-pass LLM over pasted CSV/feature tables as primary predictive analytics — accuracy collapses with dimensionality.
+- Prefer classical / tabular-foundation / solver tools; LLMs for narrative around tool outputs.
 
-- When optimizing agent-serving TTFT under high prompt-cache hits: preserve an **exact tokenization contract** (IDs ≡ full reference tokenize).
-- Incremental splice only after a stable-boundary check; otherwise full retokenize.
-- Treat tokenizer/KV desync as a reliability/security bug (pairs InferScale KV-injection caution). No public TokTier install (REFERENCE).
+## Telemetry + deterministic failure repair (Trajectory Sentinel / K242)
+
+- Prefer **deterministic verification** (recompute claims from tool results + required-call coverage) before LLM-as-judge for mid-run failures.
+- Cheap telemetry monitors OK when healthy-null is **recalibrated per deployment** (cold transfer fails).
+- On alarm: rollback + re-run beats blind resample. `.local/adopts/agent-trajectory-sentinel` = MIT REFERENCE — not a default MCP install.
+
+## Agentic cost estimation vocabulary (ACEM / K243)
+
+- Budget agent work as **LLM + HITL + infrastructure**; track Revision Factor (retries), Context Factor (growing context), HIS oversight level.
+- Conceptual only — calibrate locally; do not treat the related Zenodo book as ACEM code.
+
+## Robotics MCP solver (K240)
+
+- `.local/adopts/MixedComplementarityProblems.jl` = BSD-3 REFERENCE for robotics/game-dev — **wont_wire** on CCC/TipDrop/prod harness.
 
 
-## Collusive / salami memory poisoning (2608.01637 — cybersec K238)
+## Cybersec paper wires (digest K234/K235/K238 + K243)
 
-- Audit durable agent memory as a **set** (coalitions), not only per-record heuristics.
-- Before promoting observed/external content into persistent memory: **rewrite + validate** against the current task; reject unexplained multi-fragment consensus/authority stacks.
-- Cross-session observe→summarize pipelines are an **untrusted write path** (pairs MemHarness reconstruct-before-inject + ADI trusted/untrusted split).
-- MemCollusion-class attacks = owned-lab red-team only — no LIVE third-party agents.
+Federation K numbers above are CCC adopt IDs and may collide with cybersec digest IDs — follow the **rule text**, not the number alone.
+
+- **STAIR (2607.29658):** abstract prior repair/engagement trajectories into hierarchical plans before re-inject; mix fine+coarse; never dump raw trajectories (pairs MemHarness K230).
+- **TokTier exactness (2607.29678):** splice tokenization only after a stable-boundary check; tokenizer/KV desync is a reliability bug (pairs federation TokTier K238 section).
+- **Salami collusive memory (2608.01637):** audit durable memory as a **set**; rewrite+validate coalitions; observe→summarize is an untrusted write path.
+- **Adaptive TTS sampling (2608.03961 / cybersec K243):** do not use a single fixed best-of-N for every query — map complexity + confidence to an **inspectable** sample budget (pairs ACEM cost vocabulary).
 
 ## Phase-1 meta
 

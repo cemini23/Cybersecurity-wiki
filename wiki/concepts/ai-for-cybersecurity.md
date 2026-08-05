@@ -233,9 +233,15 @@ related:
   - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
   - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
   - sources/arxiv-2608-02585-gradcuit-test-time-latent-reasoning.md
+  - concepts/wifi-broadcast-rate-edge-moe.md
+  - concepts/airkey-wifi-acoustic-pin-sidechannel.md
+  - concepts/adaptive-fuzzy-test-time-sampling.md
+  - sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
+  - sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
+  - sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -360,6 +366,12 @@ updated: 2026-08-04
 - @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
 - @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 - @sources/arxiv-2608-02585-gradcuit-test-time-latent-reasoning.md
+- @concepts/wifi-broadcast-rate-edge-moe.md
+- @concepts/airkey-wifi-acoustic-pin-sidechannel.md
+- @concepts/adaptive-fuzzy-test-time-sampling.md
+- @sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
+- @sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
+- @sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
 
 ## Raw Concept
 

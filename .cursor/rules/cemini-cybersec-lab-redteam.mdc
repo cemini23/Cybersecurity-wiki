@@ -13,6 +13,7 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - OpenART (`raw-sources/repos/OpenART`) is **AGPL-3.0** — lab sandbox only; do not network-serve or ship into prod without license review.
 - Prefer Docker-sandboxed victims; never point autoresearch red-team loops at third-party production.
 - Kid-safety / social-engineering pages are for parent/teacher/LE context — not offensive grooming research.
+- AirKey-class Wi-Fi CSI + acoustic PIN inference: **authorized physical/wireless lab only** — no LIVE/unauthorized eavesdrop.
 
 ## Eval discipline
 

@@ -10,9 +10,11 @@ related:
   - entities/tools/inferscale.md
   - concepts/ai-for-cybersecurity.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/adaptive-fuzzy-test-time-sampling.md
+  - sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
 maturity: draft
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-05
 wire_status: policy_wired
 ---
 
@@ -24,6 +26,8 @@ wire_status: policy_wired
 - @entities/tools/inferscale.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/local-abliterated-llm-pentest-stack.md
+- @concepts/adaptive-fuzzy-test-time-sampling.md
+- @sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
 
 ## Raw Concept
 

@@ -8,9 +8,11 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
   - concepts/inferscale-kv-injection-personalized-serving.md
+  - concepts/adaptive-fuzzy-test-time-sampling.md
+  - sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-08-04
 - @concepts/ai-for-cybersecurity.md
 - @concepts/llm-pentest-automation.md
 - @concepts/inferscale-kv-injection-personalized-serving.md
+- @concepts/adaptive-fuzzy-test-time-sampling.md
+- @sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
 
 ## Raw Concept
 

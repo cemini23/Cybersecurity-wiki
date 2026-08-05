@@ -1,3 +1,20 @@
+## [2026-08-05] ingest | K241–K243 (Wi-Fi broadcast / AirKey / adaptive TTS) + 2 OOD
+
+**Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-05-daily.md`.
+
+- **NEW** `@sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md` + `@concepts/wifi-broadcast-rate-edge-moe.md` — **K241** REFERENCE
+- **NEW** `@sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md` + `@concepts/airkey-wifi-acoustic-pin-sidechannel.md` — **K242** REFERENCE; lab-redteam policy
+- **NEW** `@sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md` + `@concepts/adaptive-fuzzy-test-time-sampling.md` — **K243** REFERENCE; Phase-1 adaptive TTS budget
+- **OOD stubs:** `@sources/arxiv-ood-remote-sensing-unievo-rs-2608.03911.md`, `@sources/arxiv-ood-transformer-sidpp-2608.03921.md` + route brief
+- **Updated** wireless-pentest, local-abliterated, network-security, social-engineering, GradCuit, TokTier, llm-pentest-automation, ai-for-cybersecurity, index, digest ANDNOT
+- **Phase-1:** restored STAIR/Salami/TokTier exactness bullets after federation K230–K243 sync overwrite; added adaptive TTS
+- **Local adopts:** none (no public code <500MB)
+- **Briefs:** K241–K243 → prod; Atto K243 light; poker K243 light; GuruWatcher no-fit; TipDrop/David n/a
+- **friend brief:** AirKey physical risk + adaptive TTS on path A; Wi-Fi broadcast light; OOD n/a
+- **Sweep:** `wiki/sweeps/2026-08-05-daily.md`
+
+**Archive** (egress-fi cybersec/): five `arxiv-2608.02*` / `039*` PDFs
+
 ## [2026-08-04] brief | DiffAttack FR evasion routed from image-gen
 
 - `briefs/2026-08-04_diffattack-fr-evasion-from-image-gen.md` — arXiv:2607.28936 LDM FR evasion (USF); defensive WATCH; no install.

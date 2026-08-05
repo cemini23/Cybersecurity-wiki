@@ -30,7 +30,7 @@ paper_queries:
 - cluster: llm-security-paper
   query: research paper LLM agent security prompt injection MCP tool poisoning
   category: research paper
-  arxiv_query: (all:LLM OR all:"large language") AND (all:jailbreak OR all:prompt OR all:security OR all:guardrail)
+  arxiv_query: (all:LLM OR all:"large language") AND (all:jailbreak OR all:prompt OR all:security OR all:guardrail) ANDNOT (all:"remote sensing" OR all:segmentation OR all:SIDPP OR all:"output-weight")
 - cluster: wireless-security-paper
   query: research paper Wi-Fi WPA3 Bluetooth BLE wireless penetration testing
   category: research paper

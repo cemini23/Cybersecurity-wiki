@@ -25,9 +25,11 @@ related:
   - sources/arxiv-2607-18232-eobench-expressions-of-belief.md
   - concepts/multi-turn-pressure-sycophancy.md
   - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
+  - concepts/airkey-wifi-acoustic-pin-sidechannel.md
+  - sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -49,6 +51,8 @@ updated: 2026-08-04
 - @sources/effective-threat-investigation-soc-analysts.md
 - @concepts/multi-turn-pressure-sycophancy.md
 - @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
+- @concepts/airkey-wifi-acoustic-pin-sidechannel.md
+- @sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
 
 ## Raw Concept
 

@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-05 | Full ingest K241–K243 (Wi-Fi broadcast / AirKey / adaptive TTS) + UniEvo/SIDPP OOD stubs; Phase-1 cybersec bullets restored after federation sync | Inbox cleared; wireless side-channel + TTS budget coverage |
 | 2026-08-04 | Full ingest K236–K240 (ART-PDDL / OpenART / Salami / MedPRESS / GradCuit); OpenART AGPL lab clone; collusive-memory Phase-1 | Inbox cleared; agent RT + memory coalition coverage |
 | 2026-08-03 | Full ingest K233–K235 (CWEEP / STAIR / TokTier) + Joas PDF egress archive; buffer-overflow → validated; eCPPT cram brief | Inbox cleared; RTL CWE lint clone; hierarchical repair + exact tokenize policy wires |
 | 2026-07-31 | Phase-1 full sweep — 4 alwaysApply agent-security rules + CLAUDE Phase-1; stamps policy≈65 / wont≈113 / deferred≈16; zero unwired | Agent-security harness wired; REFERENCE/trainers explicitly wont_wire |

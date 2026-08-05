@@ -64,9 +64,13 @@ related:
   - concepts/owned-target-whitehat-lab.md
   - entities/certifications/ecppt.md
   - entities/tools/damn-vulnerable-drone.md
+  - concepts/wifi-broadcast-rate-edge-moe.md
+  - sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
+  - concepts/airkey-wifi-acoustic-pin-sidechannel.md
+  - sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -126,6 +130,10 @@ updated: 2026-08-03
 - @concepts/industrial-safety-security-convergence.md — prEN 50742 / IO-Link Wireless safety-security
 - @sources/arxiv-2607-15840-io-link-wireless-pren-50742.md
 - @sources/arxiv-ood-wireless-evoomg-mlo-2607.07045.md — OOD MLO MAC RL stub
+- @concepts/wifi-broadcast-rate-edge-moe.md
+- @sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
+- @concepts/airkey-wifi-acoustic-pin-sidechannel.md
+- @sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
 
 ## Raw Concept
 
