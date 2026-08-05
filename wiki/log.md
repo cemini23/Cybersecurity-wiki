@@ -1,3 +1,14 @@
+## [2026-08-05] brief | K224 AI-Surface + reverse-skill (from OSINT)
+
+- Local brief `briefs/2026-08-05_k224-ai-surface-reverse-skill.md` (gitignored) — MIT Integrate for lab PR scan + reverse-skill clone under OSINT `.local/adopts/`
+- getprism.su Watch only; authorized lab scope unchanged
+
+## [2026-08-05] routing | federation TipDrop slot → local abliterated lab
+
+- OSINT/CCC: TipDrop/David brief lane retired; **local-abliterated-lab** now an active research-queue target
+- Inbound federation briefs for abliterated LLM / owned lab / AI pentest harness → `briefs/` + `@concepts/local-abliterated-llm-pentest-stack.md` / `@concepts/operator-lab-playbook.md`
+- Links eval CCC **v10.5** scores `local-abliterated-lab overlap` (surface 10)
+
 ## [2026-08-05] ingest | K241–K243 (Wi-Fi broadcast / AirKey / adaptive TTS) + 2 OOD
 
 **Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-05-daily.md`.
