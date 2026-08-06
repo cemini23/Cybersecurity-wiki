@@ -1,3 +1,7 @@
+## [2026-08-06] brief | K225 shepherd/loopx local-abliterated-lab
+
+- Staged local brief `briefs/2026-08-06_k225-shepherd-loopx-lab.md` (gitignored briefs/). OSINT Phase-0 clones shepherd+loopx REFERENCE; L0p4Map GPL patterns-only; bountyforge NO-GO.
+
 ## [2026-08-06] ingest | K244–K248 (Trident / HoRFFI / Gradient Immunity / chiplet / PIMiner)
 
 **Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-06-daily.md`.
