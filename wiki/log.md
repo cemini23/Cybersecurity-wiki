@@ -1,3 +1,22 @@
+## [2026-08-06] ingest | K244–K248 (Trident / HoRFFI / Gradient Immunity / chiplet / PIMiner)
+
+**Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-06-daily.md`.
+
+- **NEW** `@sources/arxiv-2608-04317-trident-agentic-drl-redteam.md` + `@concepts/trident-agentic-drl-defense-redteam.md` — **K244** REFERENCE (no public code)
+- **NEW** `@sources/arxiv-2608-04881-horffi-high-openness-rffi.md` + `@concepts/horffi-high-openness-rffi.md` — **K245** REFERENCE
+- **NEW** `@sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md` + `@concepts/gradient-immunity-malicious-finetune.md` — **K246** REFERENCE; `OpenCausaLab/Gradient-Immunity` empty/no LICENSE — skip clone
+- **NEW** `@sources/arxiv-2608-05063-chiplet-llm-hardware-security.md` + `@concepts/chiplet-llm-hardware-security.md` — **K247** REFERENCE survey
+- **NEW** `@sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md` + `@concepts/piminer-agentic-prompt-injection-redteam.md` + `@entities/tools/piminer.md` — **K248** CONDITIONAL-GO MIT ~28MB lab clone
+- **Updated** openart/gpt-red/cyber-capable/adversary-emulation, RF fingerprint + wireless, DataShield + local-abliterated, CWEEP, PI calibration + llm-adversarial-fuzzing + crescendo, ai-for-cybersecurity, index, adoption table
+- **Phase-1:** restored STAIR/TokTier/Salami/adaptive-TTS bullets after federation K230–K248 sync overwrite; added PIMiner + Gradient Immunity notes (digest K# collide with federation UrbanAgent/HIVE/TurnSight — follow rule text)
+- **Lab-redteam:** PIMiner + Trident-class DRL red in authorization list
+- **Local adopts:** PIMiner only (~28MB <500MB); no Gradient-Immunity clone
+- **Briefs:** K244–K248 → prod; Atto K246/K248 light; poker K248 light / rest no-fit; GuruWatcher no-fit; TipDrop/David n/a (lane → local-abliterated-lab)
+- **friend brief:** PIMiner lab gate + Gradient Immunity vs path A + Trident/HoRFFI/chiplet light
+- **Sweep:** `wiki/sweeps/2026-08-06-daily.md`
+
+**Archive** (egress-fi cybersec/): five `arxiv-2608.04*` / `050*` / `05108` PDFs
+
 ## [2026-08-05] friend brief | day-1 Cursor /goal paste (remote call)
 
 - **NEW tracked** `briefs/2026-08-05_friend-day1-cursor-goal-paste.md` — PART A manual (accounts, Cursor Models/Auto-run, Git/Node, kit clone) + PART B pasteable `/goal` (wikis, claude-ds, route, skills, MCP github/fetch, plugins list, cheatsheet) + PART C post-call coaching

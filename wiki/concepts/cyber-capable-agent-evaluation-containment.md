@@ -13,9 +13,11 @@ related:
   - concepts/openart-environment-evolution-agent-redteam.md
   - entities/tools/openart.md
   - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+  - concepts/trident-agentic-drl-defense-redteam.md
+  - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -28,6 +30,8 @@ updated: 2026-08-04
 - @concepts/openart-environment-evolution-agent-redteam.md
 - @entities/tools/openart.md
 - @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+- @concepts/trident-agentic-drl-defense-redteam.md
+- @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 
 ## Raw Concept
 

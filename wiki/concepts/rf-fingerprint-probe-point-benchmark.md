@@ -10,9 +10,11 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/rf-fingerprint-temperature-drift.md
   - sources/arxiv-2607-25070-rffi-device-temperature.md
+  - concepts/horffi-high-openness-rffi.md
+  - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-07-30
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -23,6 +25,8 @@ updated: 2026-07-30
 - @concepts/ai-for-cybersecurity.md
 - @concepts/rf-fingerprint-temperature-drift.md
 - @sources/arxiv-2607-25070-rffi-device-temperature.md
+- @concepts/horffi-high-openness-rffi.md
+- @sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 
 ## Raw Concept
 

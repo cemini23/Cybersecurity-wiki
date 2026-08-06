@@ -30,9 +30,11 @@ related:
   - sources/arxiv-2607-26115-gpt-red-self-play.md
   - concepts/multi-turn-pressure-sycophancy.md
   - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
+  - concepts/piminer-agentic-prompt-injection-redteam.md
+  - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-04
+updated: 2026-08-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -53,6 +55,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @sources/arxiv-2607-26115-gpt-red-self-play.md
 - @concepts/multi-turn-pressure-sycophancy.md
 - @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
+- @concepts/piminer-agentic-prompt-injection-redteam.md
+- @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 
 ## Raw Concept
 

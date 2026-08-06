@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 
@@ -169,6 +169,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@concepts/llm-pentest-automation.md`
 - `@concepts/buffer-overflow.md` · `@concepts/threat-hunting.md` · `@entities/certifications/ecppt.md` (Joas deep-reads; egress 2026-08-03)
 - `@concepts/toktier-exact-stateful-tokenization.md` · `@concepts/stair-hierarchical-repair-plans.md` (K235/K234)
+- `@entities/tools/piminer.md` · `@concepts/gradient-immunity-malicious-finetune.md` · `@concepts/trident-agentic-drl-defense-redteam.md` (K248/K246/K244)
 - `briefs/2026-08-03_ecppt-exam-cram.md` (gitignored OK)
 - `@entities/tools/cyberstrike.md`
 - `@entities/tools/strix.md`
@@ -225,5 +226,10 @@ Read these wiki pages in order after the checklist above:
     Nearby Wi-Fi + cheap mic can target PIN entry without joining the WLAN. Owned-lab / physical scope only; hygiene + shield PIN entry.
 16. **Adaptive TTS sampling (K243)** — `@concepts/adaptive-fuzzy-test-time-sampling.md`  
     On path A vLLM: do not burn a fixed best-of-N on every query — scale samples with hardness/confidence. Wi-Fi expert-sharding (K241) is usually irrelevant on NVLink/PCIe boxes.
+17. **PIMiner PI red team (K248)** — `@entities/tools/piminer.md`  
+    MIT lab clone ~28MB under `raw-sources/repos/PIMiner`. Written scope + owned agents only; dual ASR; Claude Code CLI is a **human gate** — ask before host install. Pair with OpenART (AGPL) for agent RT, not as always-on.
+18. **Gradient Immunity (K246)** — `@concepts/gradient-immunity-malicious-finetune.md`  
+    Complementary to DataShield: subspace gates at open-weight release. Path A abliterated stacks intentionally weaken refusal — do not expect USG without provider tooling. No clone (empty / no LICENSE).
+19. **Trident DRL-defense RT (K244)** / **HoRFFI (K245)** — light: adaptive red vs DRL cyber defenses (REFERENCE); high-openness RFFI if you do RF auth labs. Chiplet/LLM-EDA survey (K247) desk only unless you touch RTL (then CWEEP).
 
 Operator hub: `@concepts/operator-lab-playbook.md`

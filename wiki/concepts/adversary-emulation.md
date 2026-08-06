@@ -38,10 +38,12 @@ related:
   - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
   - concepts/symbolic-art-attack-chain-granularity.md
   - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
+  - concepts/trident-agentic-drl-defense-redteam.md
+  - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -76,6 +78,8 @@ updated: 2026-08-04
 - @concepts/threat-intelligence.md
 - @concepts/symbolic-art-attack-chain-granularity.md
 - @sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
+- @concepts/trident-agentic-drl-defense-redteam.md
+- @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 
 ## Raw Concept
 

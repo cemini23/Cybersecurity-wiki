@@ -11,9 +11,11 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/self-evolving-agent-security.md
+  - concepts/gradient-immunity-malicious-finetune.md
+  - sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-31
+updated: 2026-08-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -24,6 +26,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @concepts/datashield-risky-finetune-data-filtering.md — concept
 
 **Local clone:** `raw-sources/repos/DataShield` (~3MB, gitignored under `raw-sources/`)
+- @concepts/gradient-immunity-malicious-finetune.md
+- @sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
 
 ## Raw Concept
 

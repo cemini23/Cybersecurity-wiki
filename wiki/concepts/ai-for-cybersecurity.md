@@ -239,9 +239,20 @@ related:
   - sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
   - sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
   - sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
+  - concepts/trident-agentic-drl-defense-redteam.md
+  - concepts/horffi-high-openness-rffi.md
+  - concepts/gradient-immunity-malicious-finetune.md
+  - concepts/chiplet-llm-hardware-security.md
+  - concepts/piminer-agentic-prompt-injection-redteam.md
+  - entities/tools/piminer.md
+  - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
+  - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
+  - sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
+  - sources/arxiv-2608-05063-chiplet-llm-hardware-security.md
+  - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -372,6 +383,17 @@ updated: 2026-08-05
 - @sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
 - @sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
 - @sources/arxiv-2608-03961-adaptive-fuzzy-test-time-sampling.md
+- @concepts/trident-agentic-drl-defense-redteam.md
+- @concepts/horffi-high-openness-rffi.md
+- @concepts/gradient-immunity-malicious-finetune.md
+- @concepts/chiplet-llm-hardware-security.md
+- @concepts/piminer-agentic-prompt-injection-redteam.md
+- @entities/tools/piminer.md
+- @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
+- @sources/arxiv-2608-04881-horffi-high-openness-rffi.md
+- @sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
+- @sources/arxiv-2608-05063-chiplet-llm-hardware-security.md
+- @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 
 ## Raw Concept
 

@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost (K230–K243)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input (K230–K248)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K243)
+# Phase-1 policy wires (K230–K248)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -87,15 +87,48 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 
 - `.local/adopts/MixedComplementarityProblems.jl` = BSD-3 REFERENCE for robotics/game-dev — **wont_wire** on CCC/TipDrop/prod harness.
 
+## Clarify-before-act + evidence-aligned close (UrbanAgent / K244)
 
-## Cybersec paper wires (digest K234/K235/K238 + K243)
+- Clarify missing critical inputs **before** tool fan-out.
+- Ground tool choice in live observations; final reply must align with observed evidence + task constraints.
+- Score execution quality (required-tool coverage, dependency validity, traceability), not success alone.
+- UrbanAgent product **wont_wire** (no public repo / urban OOD).
 
-Federation K numbers above are CCC adopt IDs and may collide with cybersec digest IDs — follow the **rule text**, not the number alone.
+## Hybrid GUI–MCP tool adoption gap (K245)
 
-- **STAIR (2607.29658):** abstract prior repair/engagement trajectories into hierarchical plans before re-inject; mix fine+coarse; never dump raw trajectories (pairs MemHarness K230).
-- **TokTier exactness (2607.29678):** splice tokenization only after a stable-boundary check; tokenizer/KV desync is a reliability bug (pairs federation TokTier K238 section).
-- **Salami collusive memory (2608.01637):** audit durable memory as a **set**; rewrite+validate coalitions; observe→summarize is an untrusted write path.
-- **Adaptive TTS sampling (2608.03961 / cybersec K243):** do not use a single fixed best-of-N for every query — map complexity + confidence to an **inspectable** sample budget (pairs ACEM cost vocabulary).
+- Do **not** assume MCP/tool availability helps — same tools can lift reasoning models and hurt instruction-only policies.
+- Measure the **adoption gap** (tool-reachable tasks vs actual calls), not only tool presence.
+- After a successful text-tool call, drop the next screenshot / halve image history only when train and infer share that observation rule.
+- OSWorld hybrid code **wont_wire** (no public artifact).
+
+## Geospatial computation vs parametric knowledge (MultiGlobeQA / K246)
+
+- Distances, containment, grid/shape answers need **solvers/tools**, not LLM geographic trivia (pairs K199 / K241).
+- Gold facts can still fail if computation is missing; low-income region gaps may widen with retrieval.
+- `.local/adopts/MultiGlobeQA` = MIT REFERENCE bench — **wont_wire** as a default eval harness.
+
+## Voice vs keyboard agent input (HIVE / K247)
+
+- Prefer **typed** operator input for constructive / deduced tasks; voice transcription structure (not fillers) drops accuracy.
+- Destroying question tokens hurts; adding tokens costs little. Thinking budget recovers keyboard typos, **not** speech.
+- HIVE suite **wont_wire** (no public code).
+
+## Turn-level hindsight TIR (TurnSight / K248)
+
+- Long-horizon tool RL: prefer turn-level, execution-conditioned hindsight over trajectory-only reward — **training pattern only**.
+- `quchangle1/TurnSight` **NO-GO** clone (no SPDX / no LICENSE). **wont_wire** runtime.
+
+
+## Cybersec digest paper wires (collide with federation K IDs — follow text)
+
+Federation sections above use CCC adopt IDs (K230–K248). Cybersec digest papers reuse nearby numbers — follow the **rule text**.
+
+- **STAIR (2607.29658):** abstract prior repair trajectories into hierarchical plans before re-inject; mix levels; never dump raw trajectories.
+- **TokTier exactness (2607.29678):** splice only after stable-boundary check; tokenizer/KV desync = reliability bug.
+- **Salami collusive memory (2608.01637):** audit durable memory as a **set**; observe→summarize is untrusted write.
+- **Adaptive TTS sampling (2608.03961):** inspectable per-query sample budgets (not fixed best-of-N).
+- **PIMiner / agentic PI RT (2608.05108):** lab-only transferable strategy-library red team against owned agents; written scope; dual ASR metrics; Claude Code CLI is a human gate — do not host-wire as always-on.
+- **Gradient Immunity (2608.05045):** complementary to DataShield — subspace gates at open-weight release; no clone until LICENSE+code.
 
 ## Phase-1 meta
 

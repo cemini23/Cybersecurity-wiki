@@ -17,15 +17,21 @@ related:
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - concepts/piminer-agentic-prompt-injection-redteam.md
+  - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
+  - entities/tools/piminer.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-07-03
+updated: 2026-08-06
 ---
 
 ## Relations
 
 - @sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md — primary source
 - @entities/tools/llm-defense-lattice.md — OWASP LLM01 probe attribution complement
+- @concepts/piminer-agentic-prompt-injection-redteam.md
+- @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
+- @entities/tools/piminer.md
 
 ## Narrative
 

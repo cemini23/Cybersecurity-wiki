@@ -11,9 +11,11 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/openart-environment-evolution-agent-redteam.md
   - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+  - concepts/trident-agentic-drl-defense-redteam.md
+  - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -25,6 +27,8 @@ updated: 2026-08-04
 - @concepts/ai-for-cybersecurity.md
 - @concepts/openart-environment-evolution-agent-redteam.md
 - @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
+- @concepts/trident-agentic-drl-defense-redteam.md
+- @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 
 ## Raw Concept
 

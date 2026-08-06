@@ -116,6 +116,16 @@
 | @concepts/wifi-broadcast-rate-edge-moe.md | draft | 802.11 broadcast rate cap vs edge MoE |
 | @concepts/airkey-wifi-acoustic-pin-sidechannel.md | draft | Unassociated ACK-CSI + audio PIN inference |
 | @concepts/adaptive-fuzzy-test-time-sampling.md | draft | Inspectable per-query TTS sample budgets |
+| @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md | draft | Trident agentic DRL-defense red team (2608.04317; K244) |
+| @sources/arxiv-2608-04881-horffi-high-openness-rffi.md | draft | HoRFFI high-openness RFFI (2608.04881; K245) |
+| @sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md | draft | Gradient Immunity malicious FT gate (2608.05045; K246) |
+| @sources/arxiv-2608-05063-chiplet-llm-hardware-security.md | draft | Chiplet + LLM-EDA hardware security (2608.05063; K247) |
+| @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md | draft | PIMiner prompt-injection red team (2608.05108; K248) |
+| @concepts/trident-agentic-drl-defense-redteam.md | draft | Adaptive red vs DRL cyber defenses |
+| @concepts/horffi-high-openness-rffi.md | draft | Few-shot open-set RF fingerprinting |
+| @concepts/gradient-immunity-malicious-finetune.md | draft | Null-space resistance to malicious FT |
+| @concepts/chiplet-llm-hardware-security.md | draft | Chiplet + LLM-EDA attack surfaces |
+| @concepts/piminer-agentic-prompt-injection-redteam.md | draft | Transferable PI strategy-library RT |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |
@@ -330,6 +340,7 @@
 | @entities/tools/system-prompt-index.md | draft | SystemPromptIndex AISPA corpus (REFERENCE; NO LICENSE) |
 | @entities/tools/cweep.md | draft | CWEEP RTL CWE lint (Apache-2.0; CONDITIONAL-GO ~15MB) |
 | @entities/tools/openart.md | draft | OpenART agent RT arena (AGPL-3.0; CONDITIONAL-GO ~19MB) |
+| @entities/tools/piminer.md | draft | PIMiner PI red team (MIT; CONDITIONAL-GO ~28MB) |
 | @entities/tools/llms-agents-smartgrids-code.md | draft | Smart-grid agents code (NO LICENSE — REFERENCE) |
 | @entities/tools/malskillbench.md | draft | Runtime-verified malicious agent skills benchmark — CI/PI detector eval (Reference) |
 | @entities/tools/sevra-bench.md | draft | Malicious PR benchmark for LLM review agents — inspect_ai + Gitea (Reference) |
@@ -489,6 +500,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | SystemPromptIndex | — | REFERENCE | K232 | @entities/tools/system-prompt-index.md — NO LICENSE ~11MB |
 | cweep | Apache-2.0 | CONDITIONAL-GO | K233 | @entities/tools/cweep.md — Verible RTL CWE lint ~15MB |
 | OpenART | AGPL-3.0 | CONDITIONAL-GO | K237 | @entities/tools/openart.md — agent RT arena ~19MB lab only |
+| PIMiner | MIT | CONDITIONAL-GO | K248 | @entities/tools/piminer.md — PI strategy-library RT ~28MB lab only |
 | llms-agents-smartgrids-code | — | Reference | K199 | NO LICENSE — pattern only |
 | handle-capability-protocol | MIT | CONDITIONAL-GO | digest | @entities/tools/handle-capability-protocol.md — HCP execution-control invariants + benchmark (2606.29073); 0★ reference runtime |
 

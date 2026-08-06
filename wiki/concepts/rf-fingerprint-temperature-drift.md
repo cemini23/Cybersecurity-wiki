@@ -8,9 +8,11 @@ related:
   - concepts/rf-fingerprint-probe-point-benchmark.md
   - concepts/wireless-pentest.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/horffi-high-openness-rffi.md
+  - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-07-30
 - @concepts/rf-fingerprint-probe-point-benchmark.md
 - @concepts/wireless-pentest.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/horffi-high-openness-rffi.md
+- @sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 
 ## Raw Concept
 

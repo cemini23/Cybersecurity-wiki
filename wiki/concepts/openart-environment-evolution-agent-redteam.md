@@ -11,9 +11,13 @@ related:
   - concepts/cyber-capable-agent-evaluation-containment.md
   - concepts/ai-for-cybersecurity.md
   - concepts/red-team-operations.md
+  - concepts/trident-agentic-drl-defense-redteam.md
+  - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
+  - concepts/piminer-agentic-prompt-injection-redteam.md
+  - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -25,6 +29,10 @@ updated: 2026-08-04
 - @concepts/cyber-capable-agent-evaluation-containment.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/red-team-operations.md
+- @concepts/trident-agentic-drl-defense-redteam.md
+- @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
+- @concepts/piminer-agentic-prompt-injection-redteam.md
+- @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 
 ## Raw Concept
 
