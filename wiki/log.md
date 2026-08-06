@@ -1,3 +1,16 @@
+## [2026-08-05] friend brief | day-1 Cursor /goal paste (remote call)
+
+- **NEW tracked** `briefs/2026-08-05_friend-day1-cursor-goal-paste.md` — PART A manual (accounts, Cursor Models/Auto-run, Git/Node, kit clone) + PART B pasteable `/goal` (wikis, claude-ds, route, skills, MCP github/fetch, plugins list, cheatsheet) + PART C post-call coaching
+- **friend brief:** Dual-wiki day-1 points at goal-paste; Sources updated
+- **.gitignore:** allowlist `!briefs/2026-08-05_friend-day1-cursor-goal-paste.md`
+- Novice / remote: Claudio on call only; no TipDrop product, no Ollama/Flash weights day-1
+
+## [2026-08-05] friend brief | dual-wiki start (Cyber + OSINT OPSEC)
+
+- **friend brief:** added § Dual-wiki start — Cyber primary + private OSINT OPSEC sidecar; day-1 Cursor/route/`claude-ds` vs later path-A lab; OSINT OPSEC reading order (fingerprint-suite → octobrowser → arkham → MITRE ATLAS → cua + Phase-0 habit)
+- **Updated** `@concepts/operator-lab-playbook.md` — dual-wiki pointer (no full duplicate)
+- Access note: friend needs GitHub invite to `cemini23/llm-wiki-by-cemini` before kit `install-federation-wikis.ps1` can clone OSINT
+
 ## [2026-08-05] brief | K224 AI-Surface + reverse-skill (from OSINT)
 
 - Local brief `briefs/2026-08-05_k224-ai-surface-reverse-skill.md` (gitignored) — MIT Integrate for lab PR scan + reverse-skill clone under OSINT `.local/adopts/`

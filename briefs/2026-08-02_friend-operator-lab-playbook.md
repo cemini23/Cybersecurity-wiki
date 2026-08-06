@@ -7,17 +7,42 @@ updated: 2026-08-05
 ---
 
 
-> **Maintainer note (agents):** Living start-here for the friend. After every ingest / Phase-0 / deep-read that touches local AI, owned lab, product pentest, bounty, AI harnesses, or ASVS — update this brief (checklist, deep-research add-ons, Sources) or log `friend brief: n/a`. See `CLAUDE.md` ingest step 9b + `LESSONS.md` 2026-08-03.
+> **Maintainer note (agents):** Living start-here for the friend. After every ingest / Phase-0 / deep-read that touches local AI, owned lab, product pentest, bounty, AI harnesses, ASVS, or friend dual-wiki / OPSEC onboarding — update this brief (checklist, deep-research add-ons, Sources) or log `friend brief: n/a`. See `CLAUDE.md` ingest step 9b + `LESSONS.md` 2026-08-03.
 
 ## Target
 
-hands-on — friend running owned-server whitehat, pre-release product pentest, and side bug bounty on a beefy local AI box. Canon lives in the Cybersecurity wiki; this brief is the ordered checklist.
+hands-on — friend running owned-server whitehat, pre-release product pentest, and side bug bounty on a beefy local AI box. **Primary canon:** Cybersecurity wiki. **OPSEC sidecar:** private OSINT wiki (`llm-wiki-by-cemini`). This brief is the ordered checklist.
 
 ## Summary
 
-Authorize → local AI (loopback) → owned lab → product pentest → bounty side lane. Prefer **Strix** (Apache + Docker sandbox) over **CyberStrike** (AGPL, VM-only) when license/isolation matter; MIT `pentest-ai-agents` / `pentest-ai` when you already live in Claude Code. Use Tier-1 LLM assist freely; Tier-2 tools only with declared in-scope targets. Never expose Ollama/vLLM to the public internet.
+Authorize → local AI (loopback) → owned lab → product pentest → bounty side lane. Prefer **Strix** (Apache + Docker sandbox) over **CyberStrike** (AGPL, VM-only) when license/isolation matter; MIT `pentest-ai-agents` / `pentest-ai` when you already live in Claude Code. Use Tier-1 LLM assist freely; Tier-2 tools only with declared in-scope targets. Never expose Ollama/vLLM to the public internet. Day-1 laptop = Cursor + route/`claude-ds` + both wikis; Flash-class local models wait for the lab box.
 
 ## Body
+
+### Dual-wiki start (before §0)
+
+Cyber = **what to build** (lab, local AI, harnesses, ASVS, bounty). OSINT = **how not to burn yourself** while researching / reconning (collection OPSEC, fingerprint, attribution hygiene, supply-chain discipline). Do not treat OSINT as a trading or TipDrop curriculum.
+
+| Role | Repo | Access | Open in Cursor |
+|------|------|--------|----------------|
+| **Primary** | `Cybersecurity-wiki` | Public GitHub | Daily root — this brief → `@concepts/operator-lab-playbook.md` |
+| **OPSEC sidecar** | `llm-wiki-by-cemini` (OSINT) | Private — accept `cemini23/llm-wiki-by-cemini` invite first | Second root / multi-root so `@osint-wiki/...` resolves |
+| **Harness host only** | `tipdrop-workspace-kit` | Public | Scripts: `claude-ds`, `route-task`, `adopt-route-always-approve` — not TipDrop product ops |
+
+**Install (kit umbrella):** from TipDrop kit root run `.\scripts\install-federation-wikis.ps1` (clones Cyber + private OSINT when invite is accepted). See kit `FEDERATION-WIKI-INDEX.md`.
+
+**Day-1 laptop (not the lab box):** Remote call setup — follow tracked **`briefs/2026-08-05_friend-day1-cursor-goal-paste.md`** (PART A manual checkboxes → paste PART B `/goal` into Cursor Agent). Outcome: kit + Cyber + OSINT + `claude-ds` + route + skills/MCP + `friend-day1-cheatsheet.md`. Skip Ollama/Flash weight pulls until path A hardware exists.
+
+**OSINT OPSEC reading order** (skip PM/HL bots, ICE/tickers, TipDrop compliance unless a cyber page cross-links):
+
+1. `@osint-wiki/entities/tools/fingerprint-suite.md` — browser fingerprint gen/injection  
+2. `@osint-wiki/entities/tools/octobrowser.md` — profile / antidetect separation  
+3. `@osint-wiki/entities/tools/arkham-intelligence.md` — what on-chain attribution looks like from the outside  
+4. `@osint-wiki/entities/tools/mitre-atlas.md` — AI-system adversarial taxonomy  
+5. `@osint-wiki/entities/tools/cua.md` — agent sandbox patterns (pairs cyber `@concepts/agent-vm-sandboxing.md`)  
+6. OSINT `CLAUDE.md` Phase-0 habit — don’t trust README `curl\|sh`; pairs cyber K220 hard stops  
+
+**Lab OPSEC that stays in Cyber** (read with §1–2, not as OSINT substitutes): `@concepts/agent-vm-sandboxing.md`, `@concepts/system-hardening.md`, `@entities/tools/iron-proxy.md`, `@concepts/local-abliterated-llm-pentest-stack.md` (loopback-only).
 
 ### 0. Authorization floor
 
@@ -133,6 +158,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 
 ## Sources
 
+- Dual-wiki + day-1 setup: `briefs/2026-08-05_friend-day1-cursor-goal-paste.md` · `@concepts/operator-lab-playbook.md` (hub) · TipDrop kit `FEDERATION-WIKI-INDEX.md` + `scripts/install-federation-wikis.ps1` · `@osint-wiki/entities/tools/fingerprint-suite.md` · `@osint-wiki/entities/tools/octobrowser.md` · `@osint-wiki/entities/tools/arkham-intelligence.md` · `@osint-wiki/entities/tools/mitre-atlas.md` · `@osint-wiki/entities/tools/cua.md`
 - `@concepts/operator-lab-playbook.md` (hub)
 - `@concepts/ai-pentest-harness-landscape.md`
 - `@concepts/local-abliterated-llm-pentest-stack.md`
