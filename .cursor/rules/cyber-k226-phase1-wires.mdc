@@ -1,0 +1,16 @@
+---
+description: Cyber lab Phase-1 wires from OSINT K226 (prime-agent / grok2api / celld + tldr #340)
+alwaysApply: true
+---
+
+# Cyber / local-abliterated-lab — K226 Phase-1 wires
+
+**Brief:** `briefs/2026-08-07_k226-prime-agent-grok2api-tldr.md`
+**Clones:** OSINT `.local/adopts/` (do not re-clone into this wiki)
+
+- **prime-agent** (MIT, `.local/adopts/prime-agent` ~29MB) — self-improving RLM **Integrate** for owned-target whitehat / operator lab only. No crimeware; no TipDrop; no prod trading hosts (`cemini-prod` / egress order path).
+- **grok2api** (MIT, `.local/adopts/grok2api` ~12MB) — multi-account Grok gateway **Extract**. Secrets never in handoffs or free models; respect xAI ToS; cookie/auth paths stay Watch (Agent-Reach class) — no cookie exfil to prod.
+- **celld** (Apache-2.0, `.local/adopts/celld` ~3.8MB) — SQLite-per-cell Durable Objects **Watch**. Peer HTTP may lack TLS — WireGuard/Tailscale perimeter only; V8/Workers ≠ Python-first stack (no forced Integrate).
+- **witr** (Apache-2.0) — process-ancestry telemetry refresh for lab hosts (existing OSINT entity; no mandatory re-clone).
+- **tldr #340** — Figma precision-first agent PR scan (FP labeling → adjudicator); S3-clone IAM gaps; S3 Vectors metadata injection → RAG/RCE. Prefer local-first RAG; Magika + allowlists before any vector ingest.
+- Authorized assist / pre-release product pentest only. Never TipDrop kit.
