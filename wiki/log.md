@@ -15,7 +15,7 @@
 - **Sweep:** `wiki/sweeps/2026-08-07-daily.md`
 - **CI note:** GHA Actions budget empty — local lint gates only; push still done
 
-**Archive** (egress-fi cybersec/): four `arxiv-2608.05*` / `062*` / `06301` PDFs
+**Archive** (egress-fi cybersec/): 05659 + 06287 + 06301 archived; **06246 taxonomy PDF still in inbox** (egress ProxyJump timeouts on ~3.2MB) — retry when link stable
 
 ## [2026-08-06] brief | K225 shepherd/loopx local-abliterated-lab
 
