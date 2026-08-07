@@ -20,9 +20,11 @@ related:
   - concepts/datashield-risky-finetune-data-filtering.md
   - entities/tools/datashield.md
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
+  - concepts/harnessopt-bench.md
+  - sources/arxiv-2608-06301-harnessopt-bench.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-07-31
+updated: 2026-08-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
@@ -31,6 +33,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 
 - @sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md — MLAS matrix + case studies
 - @concepts/agentic-containment-principles.md — P1–P6 static framework audit (insufficient alone)
+- @concepts/harnessopt-bench.md
+- @sources/arxiv-2608-06301-harnessopt-bench.md
 
 ## Narrative
 

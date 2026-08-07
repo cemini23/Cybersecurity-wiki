@@ -1,3 +1,22 @@
+## [2026-08-07] ingest | K249–K252 (ARIA / post-training taxonomy / NL→LTL / HarnessOpt-Bench)
+
+**Inbox**: 4 NEW arXiv PDFs from `wiki/sweeps/2026-08-07-daily.md`.
+
+- **NEW** `@sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md` + `@concepts/aria-instruction-backdoor-redteam.md` — **K249** REFERENCE (no public ARIA code)
+- **NEW** `@sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md` + `@concepts/post-training-adaptation-taxonomy.md` — **K250** REFERENCE survey
+- **NEW** `@sources/arxiv-2608-06287-nl-to-ltl-requirements.md` + `@concepts/nl-to-ltl-requirements-llm.md` — **K251** REFERENCE (HITL formalization)
+- **NEW** `@sources/arxiv-2608-06301-harnessopt-bench.md` + `@concepts/harnessopt-bench.md` — **K252** REFERENCE (Scale; no public bench code)
+- **Updated** llm-adversarial-fuzzing, PIMiner, local-abliterated, DataShield, Gradient Immunity, llm-pentest-automation, self-evolving-agent-security, ai-for-cybersecurity, index
+- **Phase-1:** restored cybersec digest bullets after federation K230–K253 sync overwrite; added ARIA / taxonomy / NL→LTL / HarnessOpt notes (digest K# collide with federation Scale-CDA/canary/RAC/ArtAnno/Argus — follow rule text)
+- **Lab-redteam:** ARIA instruction-backdoor RT in authorization list
+- **Local adopts:** none (<500MB) — no public code
+- **Briefs:** K249–K252 → prod; Atto K250/K252 light; poker K252 light; GuruWatcher no-fit; TipDrop/David n/a
+- **friend brief:** ARIA lab RT + taxonomy + HarnessOpt HITL
+- **Sweep:** `wiki/sweeps/2026-08-07-daily.md`
+- **CI note:** GHA Actions budget empty — local lint gates only; push still done
+
+**Archive** (egress-fi cybersec/): four `arxiv-2608.05*` / `062*` / `06301` PDFs
+
 ## [2026-08-06] brief | K225 shepherd/loopx local-abliterated-lab
 
 - Staged local brief `briefs/2026-08-06_k225-shepherd-loopx-lab.md` (gitignored briefs/). OSINT Phase-0 clones shepherd+loopx REFERENCE; L0p4Map GPL patterns-only; bountyforge NO-GO.

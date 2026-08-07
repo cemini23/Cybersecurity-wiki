@@ -67,9 +67,11 @@ related:
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
   - entities/tools/piminer.md
   - concepts/trident-agentic-drl-defense-redteam.md
+  - concepts/aria-instruction-backdoor-redteam.md
+  - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-06
+updated: 2026-08-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -116,6 +118,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 - @entities/tools/piminer.md
 - @concepts/trident-agentic-drl-defense-redteam.md
+- @concepts/aria-instruction-backdoor-redteam.md
+- @sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
 
 ## Raw Concept
 

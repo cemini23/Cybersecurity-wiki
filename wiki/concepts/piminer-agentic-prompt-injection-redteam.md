@@ -12,9 +12,11 @@ related:
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/aria-instruction-backdoor-redteam.md
+  - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-08-06
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/local-abliterated-llm-pentest-stack.md
+- @concepts/aria-instruction-backdoor-redteam.md
+- @sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
 
 ## Raw Concept
 

@@ -126,6 +126,14 @@
 | @concepts/gradient-immunity-malicious-finetune.md | draft | Null-space resistance to malicious FT |
 | @concepts/chiplet-llm-hardware-security.md | draft | Chiplet + LLM-EDA attack surfaces |
 | @concepts/piminer-agentic-prompt-injection-redteam.md | draft | Transferable PI strategy-library RT |
+| @sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md | draft | ARIA instruction-backdoor RT (2608.05659; K249) |
+| @sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md | draft | Post-training adaptation taxonomy (2608.06246; K250) |
+| @sources/arxiv-2608-06287-nl-to-ltl-requirements.md | draft | NL-to-LTL via LLMs (2608.06287; K251) |
+| @sources/arxiv-2608-06301-harnessopt-bench.md | draft | HarnessOpt-Bench (2608.06301; K252) |
+| @concepts/aria-instruction-backdoor-redteam.md | draft | Covert instruction backdoors on customized coding LLMs |
+| @concepts/post-training-adaptation-taxonomy.md | draft | Six-axis post-training change vocabulary |
+| @concepts/nl-to-ltl-requirements-llm.md | draft | LLM front-end for NL→LTL (HITL) |
+| @concepts/harnessopt-bench.md | draft | Budgeted harness-optimization eval protocol |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |

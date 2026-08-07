@@ -250,9 +250,17 @@ related:
   - sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
   - sources/arxiv-2608-05063-chiplet-llm-hardware-security.md
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
+  - concepts/aria-instruction-backdoor-redteam.md
+  - concepts/post-training-adaptation-taxonomy.md
+  - concepts/nl-to-ltl-requirements-llm.md
+  - concepts/harnessopt-bench.md
+  - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
+  - sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
+  - sources/arxiv-2608-06287-nl-to-ltl-requirements.md
+  - sources/arxiv-2608-06301-harnessopt-bench.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations
@@ -394,6 +402,14 @@ updated: 2026-08-06
 - @sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
 - @sources/arxiv-2608-05063-chiplet-llm-hardware-security.md
 - @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
+- @concepts/aria-instruction-backdoor-redteam.md
+- @concepts/post-training-adaptation-taxonomy.md
+- @concepts/nl-to-ltl-requirements-llm.md
+- @concepts/harnessopt-bench.md
+- @sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
+- @sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
+- @sources/arxiv-2608-06287-nl-to-ltl-requirements.md
+- @sources/arxiv-2608-06301-harnessopt-bench.md
 
 ## Raw Concept
 

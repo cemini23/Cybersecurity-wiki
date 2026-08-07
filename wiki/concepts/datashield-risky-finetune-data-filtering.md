@@ -16,9 +16,11 @@ related:
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
   - concepts/gradient-immunity-malicious-finetune.md
   - sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
+  - concepts/post-training-adaptation-taxonomy.md
+  - sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-08-06
+updated: 2026-08-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -33,6 +35,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
 - @concepts/gradient-immunity-malicious-finetune.md
 - @sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
+- @concepts/post-training-adaptation-taxonomy.md
+- @sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
 
 ## Raw Concept
 
