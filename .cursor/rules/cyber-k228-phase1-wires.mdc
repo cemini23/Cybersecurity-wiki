@@ -1,0 +1,13 @@
+---
+description: Cyber lab Phase-1 wires from OSINT K228 (Codex-Orchestration + bugbounty-lab101)
+alwaysApply: true
+---
+
+# Cyber / local-abliterated-lab — K228 Phase-1 wires
+
+**Brief:** `briefs/2026-08-08_k228-codex-bugbounty-lab.md`
+
+- **Codex-Orchestration** (MIT ~1.6MB) — multi-role planner/advisor **Extract** for authorized lab harness.
+- **bugbounty-lab101** (MIT ~1.4MB) — lab bootstrap **Extract** — owned-target whitehat only.
+- FUXA / godoxy — no clone this batch (size / NOASSERTION).
+- No TipDrop; no prod trading hosts; no crimeware.
