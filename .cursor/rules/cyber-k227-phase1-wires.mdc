@@ -1,0 +1,13 @@
+---
+description: Cyber lab Phase-1 wires from OSINT K227 (SecPro SAIF + CyberStrike Watch)
+alwaysApply: true
+---
+
+# Cyber / local-abliterated-lab — K227 Phase-1 wires
+
+**Brief:** `briefs/2026-08-08_k227-secpro-saif-cyberstrike.md`
+
+- **SecPro #246** — identity as primary attack surface; Zero Trust as architecture (NIST SP 800-207); Google SAIF for securing AI systems used in SOC/lab.
+- **CyberStrike-OffSec-35B** (HF) — **Watch only; no GGUF download** this batch (VRAM + ethics). Authorized assist only if ever evaluated later.
+- Latent Space multi-agent coordination channels (Artifactory-style shared stores) — monitor agent-to-agent messaging in lab harnesses.
+- No TipDrop; no prod trading hosts; no crimeware.
