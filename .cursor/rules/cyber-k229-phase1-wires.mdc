@@ -1,0 +1,11 @@
+---
+description: Cyber lab Phase-1 wires from OSINT K229 (airecon)
+alwaysApply: true
+---
+
+# Cyber K229 Phase-1 wires
+
+**Brief:** `briefs/2026-08-09_k229-airecon-extract.md`
+
+- **airecon** (MIT, OSINT `.local/adopts/airecon`) — HF security datasets → SQLite FTS **Extract** for local-abliterated-lab offline RAG.
+- Authorized pentest assist only; no crimeware; no TipDrop; no prod trading hosts.
