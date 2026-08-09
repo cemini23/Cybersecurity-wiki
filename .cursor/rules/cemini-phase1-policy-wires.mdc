@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC (K230–K258)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE (K230–K259)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K258)
+# Phase-1 policy wires (K230–K259)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -176,6 +176,15 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - For code-capable lanes with a sandboxed executor: prefer typed stubs + script composition for multi-tool chains and fan-out (pairs code-as-agent-harness / Code Mode).
 - Keep JSON schemas for weak models or when code exec is banned; stubs remain schema-bound / Prebind-gated.
 - No public PTC eval harness — **policy_wired** only. Entity `programmatic-tool-calling-ptc`.
+
+## MCP claim validation + NL→tool parameter grounding (CASCADE / K259)
+
+- Before LIVE/high-blast MCP exposure: validate the **claim class** the tool report repeats against ground truth or a stated proxy — membership checks are not enough (pairs K172 / Traceable Scholarship).
+- Prefer **server-side** alias/enum normalization over trusting model-filled strings.
+- Ambiguous required fields: clarify or refuse — do not silent-default; “if unset” guards miss confident wrong fills (pairs K244).
+- Small local models need stricter schema enforcement; larger models reduce schema fails but not confident-wrong defaults.
+- `.local/adopts/CASCADE` = MIT REFERENCE (cancer genomics OOD) — **wont_wire** runtime; do not download DepMap/model into the adopt shelf.
+- Entity `cascade-mcp` = `wont_wire`; concept `mcp-claim-validation-and-parameter-grounding` = `policy_wired`.
 
 ## Phase-1 meta
 

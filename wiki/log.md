@@ -1,3 +1,7 @@
+## [2026-08-07] phase1-wire | Aug 7 ARIA/taxonomy/NL-LTL/HarnessOpt → lab-redteam
+
+- policy_wired concepts aria-instruction-backdoor-redteam / post-training-adaptation-taxonomy / nl-to-ltl-requirements-llm / harnessopt-bench → `.cursor/rules/cemini-cybersec-lab-redteam.mdc` (arXiv-titled section; federation K249–K252 Scale-CDA/canary/RAC/ArtAnno untouched); lab K254/K255/K258 posture bullets; no clones/installs
+
 ## [2026-08-07] ingest | K249–K252 (ARIA / post-training taxonomy / NL→LTL / HarnessOpt-Bench)
 
 **Inbox**: 4 NEW arXiv PDFs from `wiki/sweeps/2026-08-07-daily.md`.
@@ -1357,3 +1361,9 @@ Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-corn-optimistic-veri
 ## [2026-08-03] brief | K220 cyber Context catalog from OSINT
 
 - Brief: `briefs/2026-08-03_k220-cyber-context-catalog.md` — Context/Pass only, no Integrate
+## [2026-08-09] docs | README accuracy + Support block
+- README: refreshed corpus counts (~436 sources), welcoming tone, ingest/archive wording
+- Support: thank-you + Outlier Weekly / youratto.com / guruwatcher.com / YouTube
+- CLAUDE.md Related Wikis: added game-dev-wiki row (matches federation table)
+- friend brief: n/a
+

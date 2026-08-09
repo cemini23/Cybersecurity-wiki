@@ -9,6 +9,8 @@ related:
 maturity: draft
 created: 2026-08-07
 updated: 2026-08-07
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations

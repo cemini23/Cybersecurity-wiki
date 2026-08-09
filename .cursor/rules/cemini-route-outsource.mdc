@@ -5,9 +5,10 @@ alwaysApply: true
 
 # Route outsource + always-approve (skill contract)
 
-**Canon:** `.cursor/skills/route/SKILL.md` (CCC / user-global).
+**Canon skill:** `.cursor/skills/route/SKILL.md` (CCC / user-global).
+**Canon scripts:** private `cemini23/agent-toolkit` (`~/Projects/agent-toolkit`, `ROUTE_KIT`, or `/opt/cemini/agent-toolkit` on prod). TipDrop kit redirects only.
 
-Always-approve is the default on **every** executor on **every** machine. This is the **base-case task router for all Cemini work** (Atto, CCC, OSINT, TipDrop, wikis) — not a TipDrop-only workflow. TipDrop kit merely hosts the scripts.
+Always-approve is the default on **every** executor on **every** machine. This is the **base-case task router for all Cemini work** (Atto, CCC, OSINT, TipDrop, wikis) — not a TipDrop-only workflow.
 
 ## Goal
 
@@ -16,9 +17,9 @@ Minimize Cursor Agent spend. Prefer OpenRouter free → claude-ds; mid = Grok pl
 ## When user says `/route`, `route this`, `route as recommended`, or asks to outsource
 
 1. Announce lane (easy/mid/hard/money) in one line.
-2. **Shell out** to `route-task` / kit `scripts/route-task.ps1` from the **current project** (or `-WorkDir`). Do **not** implement in the parent Cursor session (except Cursor Grok fallback when the script says so).
-3. **Hard/money:** write the premium plan into the handoff first, then shell Grok implement.
-4. Summarize executor results only.
+2. **Shell out** to `route-task` / `agent-toolkit/scripts/route-task.ps1` from the **current project** (or `-WorkDir`). Do **not** implement in the parent Cursor session (except Cursor Grok fallback when the script says so).
+3. **Hard/money:** write the premium plan into the handoff `## Plan` first (SIP), then shell Grok implement.
+4. Summarize executor results only — include verify evidence / SDR; no status-only "done".
 
 ## WorkDir
 
@@ -29,7 +30,7 @@ Default = current project directory. TipDrop scanner only when the task is clear
 - Grok: `--always-approve` (opt out `-NoApprove` on that run only)
 - claude-ds: `--dangerously-skip-permissions` (opt out `CLAUDE_DS_ASK=1` / `-NoSkipPermissions`)
 - Cursor Grok / Cursor Agent fallback: Auto-run — still no LIVE Discord / no secret paste
-- One-time machine adopt: kit `scripts/adopt-route-always-approve.ps1`
+- One-time machine adopt: `pwsh -File ~/Projects/agent-toolkit/scripts/adopt-route-always-approve.ps1`
 - **Grok login/auth failure:** tell operator to `grok login` (or set `XAI_API_KEY`); mid/hard may fall through to **Cursor Grok** as designed (not claude-ds for hard implement).
 
 ## Profiles

@@ -26,3 +26,13 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - Run DataShield-class risky-finetune filters in lab before any Cemini/TipDrop fine-tune on scraped corpora.
 - Do **not** install OC-GRPO or other GRPO trainer stacks as “wired” harness — REFERENCE/paper repro only.
 - Notes-to-self / experiential memory clones: lab only; reconstruct before inject (see federation MemHarness rule).
+
+## Aug 7 batch (ARIA 2608.05659 · taxonomy 2608.06246 · NL-LTL 2608.06287 · HarnessOpt 2608.06301)
+
+- **ARIA** — red-team system-prompt / custom-instruction surfaces (instruction backdoors), not only weight poison or prompt injection; require stealth + clean utility + ASR together; REFERENCE only (no public code); lab / written scope; no LIVE third-party customization platforms.
+- **Post-training taxonomy** — when changing local or released models, log six axes: mechanism / goal / data / persistence / scope / model-type; pair with DataShield + Gradient Immunity for open-weight release paths; survey vocabulary only.
+- **NL→LTL** — LLM drafts for security/mission-critical LTL only with human + solver verify; prefer pass@k / consistency over single-shot; no automatic policy authority.
+- **HarnessOpt-Bench** — treat harness optimization as its own metric under budgeted held-out eval + version audit; ban unbounded auto-optimize of prod/LIVE harness (HITL + rollback); no clone until public artifact + LICENSE.
+- **K254 keystores (lab)** — keep signing/SSH/API private keys out of agent-readable memory / workspace / env; PKCS#11 or OS-isolated handles; SoftHSM = repro only; authorized scope only.
+- **K255 READ (lab)** — long lab runbooks / reports → grep · outline · bounded read with citable line ranges; no opaque RAG.
+- **K258 PTC (lab)** — sandboxed abliterated agents → typed stubs + scripts for multi-tool fan-out; schema-bound / gated; no TrajDebug runtime.
