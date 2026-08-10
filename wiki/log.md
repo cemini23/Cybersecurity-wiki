@@ -1,3 +1,16 @@
+## [2026-08-10] ingest | K265–K266 (Blast Radius / ShieldAI) + OOD QNLP
+
+- **OOD** 2608.07439 DisCoCat/QNLP financial rewrite — stub `@sources/arxiv-ood-qnlp-discocat-financial-2608.07439.md`; brief `briefs/2026-08-10_ood-qnlp-discocat-financial-route.md` → OSINT; no adopt
+- **NEW** `@sources/arxiv-2608-07440-blast-radius.md` + `@concepts/blast-radius-reversible-context-eviction.md` + `@entities/tools/blast-radius-necrophoresis.md` — **K265** REFERENCE (no public Chalk SPDX); policy_wired
+- **NEW** `@sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md` + `@concepts/taxonomy-driven-oss-ai-risk-mitigation.md` + `@entities/tools/shieldai-risk-taxonomy-mapping.md` — **K266** GO Apache-2.0 clone `raw-sources/repos/ShieldAI` ~896KB
+- **Updated** coding-agent-context-pruning, trajectory-context-control, llm-adversarial-fuzzing, agent-runtime-guardrails, ai-for-cybersecurity, harnessopt-bench, post-training-adaptation-taxonomy, swe-pruner-pro, fuzzyai, index.md
+- **Phase-0**: `scripts/adopt_k265_k266_phase0.sh` PASS
+- **Phase-1**: `cemini-phase1-policy-wires.mdc` §K265 (cyber + CCC + user-global); `cemini-cybersec-lab-redteam.mdc` §K266; renumbered off CCC K260 ResidencyRL / OSINT K261–K264
+- **Briefs**: prod K265/K266 → cemini-prod; atto K265 steal + K266 nofit; GuruWatcher nofit; poker K265 steal + K266 nofit; CCC handoff; local-lab briefs
+- **friend brief:** updated (K265/K266 deep-research add-ons)
+- **Local adopts**: ShieldAI only (<500MB). No Blast Radius clone.
+- **Archive**: three PDFs → egress-fi cybersec/
+
 ## [2026-08-07] phase1-wire | Aug 7 ARIA/taxonomy/NL-LTL/HarnessOpt → lab-redteam
 
 - policy_wired concepts aria-instruction-backdoor-redteam / post-training-adaptation-taxonomy / nl-to-ltl-requirements-llm / harnessopt-bench → `.cursor/rules/cemini-cybersec-lab-redteam.mdc` (arXiv-titled section; federation K249–K252 Scale-CDA/canary/RAC/ArtAnno untouched); lab K254/K255/K258 posture bullets; no clones/installs

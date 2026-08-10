@@ -258,9 +258,16 @@ related:
   - sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
   - sources/arxiv-2608-06287-nl-to-ltl-requirements.md
   - sources/arxiv-2608-06301-harnessopt-bench.md
+  - concepts/blast-radius-reversible-context-eviction.md
+  - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
+  - sources/arxiv-2608-07440-blast-radius.md
+  - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
+  - sources/arxiv-ood-qnlp-discocat-financial-2608.07439.md
+  - entities/tools/blast-radius-necrophoresis.md
+  - entities/tools/shieldai-risk-taxonomy-mapping.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -410,6 +417,13 @@ updated: 2026-08-07
 - @sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
 - @sources/arxiv-2608-06287-nl-to-ltl-requirements.md
 - @sources/arxiv-2608-06301-harnessopt-bench.md
+- @concepts/blast-radius-reversible-context-eviction.md
+- @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
+- @sources/arxiv-2608-07440-blast-radius.md
+- @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
+- @sources/arxiv-ood-qnlp-discocat-financial-2608.07439.md
+- @entities/tools/blast-radius-necrophoresis.md
+- @entities/tools/shieldai-risk-taxonomy-mapping.md
 
 ## Raw Concept
 

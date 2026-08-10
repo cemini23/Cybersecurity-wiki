@@ -135,9 +135,12 @@ related:
   - entities/tools/inferscale.md
   - concepts/aispa-system-prompt-assurance-audit.md
   - sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
+  - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
+  - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
+  - entities/tools/shieldai-risk-taxonomy-mapping.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-31
+updated: 2026-08-10
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -198,6 +201,9 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @entities/tools/inferscale.md
 - @concepts/aispa-system-prompt-assurance-audit.md
 - @sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
+- @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
+- @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
+- @entities/tools/shieldai-risk-taxonomy-mapping.md
 
 ## Raw Concept
 

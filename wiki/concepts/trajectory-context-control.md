@@ -17,9 +17,11 @@ related:
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/internet-of-agentic-ai-ioai.md
+  - concepts/blast-radius-reversible-context-eviction.md
+  - sources/arxiv-2608-07440-blast-radius.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-17
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -30,6 +32,8 @@ updated: 2026-06-17
 - @concepts/agentic-containment-principles.md — P3 memory integrity + P4 layer-transition validation
 - @concepts/context-fractured-decomposition-attacks.md — artifact-mediated drift across instances; GT-MCP addresses in-session trajectory steering
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — stored SPI; GT-MCP rollback/quarantine as complementary control
+- @concepts/blast-radius-reversible-context-eviction.md
+- @sources/arxiv-2608-07440-blast-radius.md
 
 ## Raw Concept
 

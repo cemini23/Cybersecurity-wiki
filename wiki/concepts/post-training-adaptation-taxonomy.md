@@ -9,9 +9,10 @@ related:
   - concepts/gradient-immunity-malicious-finetune.md
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 maturity: draft
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-10
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -23,6 +24,7 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @concepts/gradient-immunity-malicious-finetune.md
 - @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 
 ## Raw Concept
 

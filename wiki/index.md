@@ -134,6 +134,11 @@
 | @concepts/post-training-adaptation-taxonomy.md | draft | Six-axis post-training change vocabulary |
 | @concepts/nl-to-ltl-requirements-llm.md | draft | LLM front-end for NL→LTL (HITL) |
 | @concepts/harnessopt-bench.md | draft | Budgeted harness-optimization eval protocol |
+| @sources/arxiv-ood-qnlp-discocat-financial-2608.07439.md | draft | OOD QNLP DisCoCat financial rewrite (2608.07439) |
+| @sources/arxiv-2608-07440-blast-radius.md | draft | Blast Radius reversible context eviction (2608.07440; K265) |
+| @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md | draft | ShieldAI OSS AI risk tool taxonomy map (2608.07446; K266) |
+| @concepts/blast-radius-reversible-context-eviction.md | draft | Reversible, gate-licensed context eviction for coding agents |
+| @concepts/taxonomy-driven-oss-ai-risk-mitigation.md | draft | Map OSS eval/guardrail tools to MIT risk taxonomy |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |
@@ -288,6 +293,8 @@
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
+| @entities/tools/blast-radius-necrophoresis.md | draft | Blast Radius / NECROPHORESIS (REFERENCE; no public code) |
+| @entities/tools/shieldai-risk-taxonomy-mapping.md | draft | ShieldAI tool×taxonomy matrices (Apache-2.0 ~896KB) |
 | @entities/tools/aha-auto-research-red-teaming.md | draft | AHA autoresearch prod-agent red-team + VCG (MIT; CONDITIONAL-GO lab) |
 | @entities/tools/datashield.md | draft | DataShield risky FT filter (MIT; CONDITIONAL-GO ~3MB) |
 | @entities/tools/ifixai.md | draft | Agent deception/manipulation diagnostic harness — Adopt (K142) |

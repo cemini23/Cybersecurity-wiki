@@ -18,9 +18,11 @@ related:
   - entities/tools/aha-auto-research-red-teaming.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
+  - entities/tools/shieldai-risk-taxonomy-mapping.md
+  - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-10
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -37,6 +39,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @entities/tools/cua.md — pair with cua to capture full trace of multi-turn jailbreak runs
 - @osint-wiki/entities/tools/fuzzyai.md — sibling-wiki Phase-0 audit notes; cross-routes to verbalized-sampling Vector 5 (news-rewriter robustness)
 - @entities/tools/cryptex-oss.md — alternative transform catalog (162 transforms); compare in Phase-0
+- @entities/tools/shieldai-risk-taxonomy-mapping.md
+- @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 
 ## Raw Concept
 

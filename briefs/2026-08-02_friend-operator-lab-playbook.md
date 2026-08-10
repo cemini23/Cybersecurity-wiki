@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 
@@ -155,6 +155,12 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 2. Owned-lab drill or product retest ticket (one finding closed > ten scanners open).
 3. If bounty hours: one program, one asset class, human validation before submit.
 4. File notes back into the wiki or your engagement folder — insights die in chat.
+
+
+### Deep-research add-ons (2026-08-10)
+
+- **K265 Blast Radius** — long Cursor/agent sessions: prefer reversible bury of concluded missions + recurring build/test chatter over lossy summarization; no unvetted Chalk fork install. See `@concepts/blast-radius-reversible-context-eviction.md`.
+- **K266 ShieldAI** — before stocking another OSS eval/guardrail scanner, open `raw-sources/repos/ShieldAI` matrices; expect governance/legal gaps tooling cannot close. See `@concepts/taxonomy-driven-oss-ai-risk-mitigation.md`.
 
 ## Sources
 

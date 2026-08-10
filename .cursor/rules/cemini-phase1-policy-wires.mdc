@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE (K230–K259)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius (K230–K265)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K259)
+# Phase-1 policy wires (K230–K265)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -185,6 +185,26 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Small local models need stricter schema enforcement; larger models reduce schema fails but not confident-wrong defaults.
 - `.local/adopts/CASCADE` = MIT REFERENCE (cancer genomics OOD) — **wont_wire** runtime; do not download DepMap/model into the adopt shelf.
 - Entity `cascade-mcp` = `wont_wire`; concept `mcp-claim-validation-and-parameter-grounding` = `policy_wired`.
+
+## Adversarial curriculum + doc fidelity (ResidencyRL / K260)
+
+- Long-horizon / multi-turn evals and red-team packs: include **adversarial** and **information-asymmetric** cases, not only cooperative happy-path.
+- Score with rubrics **plus** hard fidelity/safety penalties (fabricated durable facts, missed required checks, unsafe shortcuts).
+- Gate `done`/terminate on **required-check coverage** — resist premature closure.
+- Durable artifacts (notes, Discord, wiki claims, tool reports): **elicited/observed facts only** — never invent fields to fill a schema (pairs Traceable Scholarship / K259).
+- Required clarifications under deflection: re-ask once with rationale, then refuse/escalate — do not invent answers (pairs K244).
+- Soft autoraters OK as advisory signal; prefer execution verify when available (pairs K162). ResidencyRL code **NO-GO** (Google closed; clinical OOD) — no `.local/adopts/` shelf.
+- Entity `residencyrl` = `wont_wire`; concept `adversarial-curriculum-structured-reward-doc-fidelity` = `policy_wired`.
+
+
+## Reversible context eviction (Blast Radius / K265)
+
+- Prefer **reversible, verification-licensed** eviction over lossy truncation/summarization in long agentic coding loops.
+- Estimate prompt reach (context retention + churn-weighted code surface) before sweeping dead mass.
+- Archive buried bodies byte-exact (midden) with secret redaction; leave scent skeletons; bound exhumation cost.
+- Treat recurring build/test/VCS transcripts as **recurring dead matter** — bury recurrence classes, do not re-pay carry cost every turn.
+- Layering: gate/verification decides *whether* a record may replace context; blast-radius scoping decides *which* bodies and *how much* headroom.
+- No public Chalk/Blast Radius SPDX clone at Phase-0 — **policy_wired** pattern only; entity `blast-radius-necrophoresis` = `wont_wire`.
 
 ## Phase-1 meta
 

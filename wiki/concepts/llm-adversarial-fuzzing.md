@@ -69,9 +69,12 @@ related:
   - concepts/trident-agentic-drl-defense-redteam.md
   - concepts/aria-instruction-backdoor-redteam.md
   - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
+  - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
+  - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
+  - entities/tools/shieldai-risk-taxonomy-mapping.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-07
+updated: 2026-08-10
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -120,6 +123,9 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @concepts/trident-agentic-drl-defense-redteam.md
 - @concepts/aria-instruction-backdoor-redteam.md
 - @sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
+- @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
+- @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
+- @entities/tools/shieldai-risk-taxonomy-mapping.md
 
 ## Raw Concept
 

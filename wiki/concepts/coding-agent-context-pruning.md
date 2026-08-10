@@ -14,9 +14,12 @@ related:
   - sources/arxiv-2607-20372-notes-to-self-experiential.md
   - concepts/stair-hierarchical-repair-plans.md
   - sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
+  - concepts/blast-radius-reversible-context-eviction.md
+  - sources/arxiv-2608-07440-blast-radius.md
+  - entities/tools/blast-radius-necrophoresis.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-08-03
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -31,6 +34,9 @@ updated: 2026-08-03
 - @concepts/ai-for-cybersecurity.md
 - @concepts/stair-hierarchical-repair-plans.md
 - @sources/arxiv-2607-29658-stair-hierarchical-repair-trajectories.md
+- @concepts/blast-radius-reversible-context-eviction.md
+- @sources/arxiv-2608-07440-blast-radius.md
+- @entities/tools/blast-radius-necrophoresis.md
 
 ## Raw Concept
 

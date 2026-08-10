@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-10 | Full ingest K265–K266 (Blast Radius / ShieldAI) + OOD QNLP 07439; ShieldAI ~896KB; Phase-1 K265/K266; prod+atto+poker+GW briefs | Inbox cleared; reversible context eviction + OSS AI-risk taxonomy coverage |
 | 2026-08-07 | Full ingest K249–K252 (ARIA / post-training taxonomy / NL→LTL / HarnessOpt-Bench); all REFERENCE; Phase-1 cybersec bullets restored | Inbox cleared; instruction-backdoor + harness-opt + adaptation governance coverage |
 | 2026-08-06 | Full ingest K244–K248 (Trident / HoRFFI / Gradient Immunity / chiplet / PIMiner); PIMiner MIT lab clone ~28MB; Phase-1 cybersec bullets restored after federation sync | Inbox cleared; agent PI RT + malicious-FT gate + DRL/RFFI/chiplet coverage |
 | 2026-08-05 | Full ingest K241–K243 (Wi-Fi broadcast / AirKey / adaptive TTS) + UniEvo/SIDPP OOD stubs; Phase-1 cybersec bullets restored after federation sync | Inbox cleared; wireless side-channel + TTS budget coverage |

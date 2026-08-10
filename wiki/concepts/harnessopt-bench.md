@@ -8,9 +8,10 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/self-evolving-agent-security.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/blast-radius-reversible-context-eviction.md
 maturity: draft
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-10
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -21,6 +22,7 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @concepts/llm-pentest-automation.md
 - @concepts/self-evolving-agent-security.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/blast-radius-reversible-context-eviction.md
 
 ## Raw Concept
 

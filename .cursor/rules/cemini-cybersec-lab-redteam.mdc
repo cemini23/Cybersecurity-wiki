@@ -36,3 +36,4 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K254 keystores (lab)** — keep signing/SSH/API private keys out of agent-readable memory / workspace / env; PKCS#11 or OS-isolated handles; SoftHSM = repro only; authorized scope only.
 - **K255 READ (lab)** — long lab runbooks / reports → grep · outline · bounded read with citable line ranges; no opaque RAG.
 - **K258 PTC (lab)** — sandboxed abliterated agents → typed stubs + scripts for multi-tool fan-out; schema-bound / gated; no TrajDebug runtime.
+- **K266 ShieldAI taxonomy map (lab)** — when stocking OSS eval/guardrail/observability tools, map candidates to an explicit risk taxonomy (MIT extended / ShieldAI matrices); expect governance/legal/market gaps that tooling alone cannot close; HITL + org process required. REFERENCE clone `raw-sources/repos/ShieldAI` (~896KB Apache-2.0) — not a runtime MCP.
