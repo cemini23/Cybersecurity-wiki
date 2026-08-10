@@ -1,0 +1,11 @@
+---
+description: Cyber lab Phase-1 wires from OSINT K230
+alwaysApply: true
+---
+
+# Cyber K230 Phase-1 wires
+
+**Brief:** `briefs/2026-08-10_k230-cyberllm-forensics.md`
+
+- CyberLLM guarded multi-agent detect = HITL pattern steal for authorized lab only.
+- iLEAPP/RuView size-hold; Dopamine no-clone. No crimeware; no TipDrop.
