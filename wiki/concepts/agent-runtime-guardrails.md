@@ -138,9 +138,17 @@ related:
   - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
   - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
   - entities/tools/shieldai-risk-taxonomy-mapping.md
+  - sources/arxiv-2608-09885-she-safety-harness-evolution.md
+  - concepts/safety-harness-evolution.md
+  - entities/tools/she-safety-harness-evolution.md
+  - sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
+  - concepts/inaudible-low-frequency-audio-attacks.md
+  - entities/tools/ill-inaudible-low-frequency-lockout.md
+  - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
+  - concepts/decoding-level-taboo-diagnostic.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-10
+updated: 2026-08-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -204,6 +212,14 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 - @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
 - @entities/tools/shieldai-risk-taxonomy-mapping.md
+- @sources/arxiv-2608-09885-she-safety-harness-evolution.md — harness as evolvable safety object (trajectory-driven)
+- @concepts/safety-harness-evolution.md — attribution-guided bounded evolution + validity check
+- @entities/tools/she-safety-harness-evolution.md — local Apache-2.0 adopt (lab shelf)
+- @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md — audio-side guard input (DRG requery filter)
+- @concepts/inaudible-low-frequency-audio-attacks.md — LF spectral-descriptor detection at the frontend
+- @entities/tools/ill-inaudible-low-frequency-lockout.md — black-box LALM red-team method (REFERENCE)
+- @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md — refusal-surface audit at decoding time
+- @concepts/decoding-level-taboo-diagnostic.md — guardrail robustness vs surface-level refusals
 
 ## Raw Concept
 

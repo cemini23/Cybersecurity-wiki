@@ -5,32 +5,32 @@ description: >-
   chain (OpenRouter free, Grok CLI, claude-ds / DeepSeek, Cursor Grok). Always-approve
   is the skill default. Use when the user says /route, "route this", "route as
   recommended", or asks to auto-pick cheap executors. Sibling habit to "hand it
-  to grok" — handoff-to-grok is under-the-hood, not a separate workflow. Base case
-  for all Cemini projects — not TipDrop-specific.
+  to grok" - handoff-to-grok is under-the-hood, not a separate workflow. Base case
+  for all Cemini projects - not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.1.0"
+metadata.version: "2.2.0"
 federation: true
 ---
 
-# /route — unified task sorter (easy · mid · hard · money)
+# /route - unified task sorter (easy · mid · hard · money)
 
-**Cemini base-case task router.** Say **route as recommended** / `/route` / `route this`. Works for Atto, CCC, OSINT, TipDrop, wikis — whatever the current project WorkDir is.
+**Cemini base-case task router.** Say **route as recommended** / `/route` / `route this`. Works for Atto, CCC, OSINT, TipDrop, wikis - whatever the current project WorkDir is.
 
-**Canon script host:** private repo [`cemini23/agent-toolkit`](https://github.com/cemini23/agent-toolkit) (`~/Projects/agent-toolkit`, or `/opt/cemini/agent-toolkit` on prod). Set `ROUTE_KIT` if needed. TipDrop workspace-kit only has deprecated redirect stubs. `handoff-to-grok.ps1` is an implementation helper called by `route-task` — operators should not maintain a separate "handoff vs route" habit.
+**Canon script host:** private repo [`cemini23/agent-toolkit`](https://github.com/cemini23/agent-toolkit) (`~/Projects/agent-toolkit`, or `/opt/cemini/agent-toolkit` on prod). Set `ROUTE_KIT` if needed. TipDrop workspace-kit only has deprecated redirect stubs. `handoff-to-grok.ps1` is an implementation helper called by `route-task` - operators should not maintain a separate "handoff vs route" habit.
 
 ## Skill contract (non-negotiable)
 
-**Always-approve is the default on every route executor — all machines, all profiles.**
+**Always-approve is the default on every route executor - all machines, all profiles.**
 
 | Executor | Default (MUST) | Opt out only when operator asks |
 |----------|----------------|----------------------------------|
 | **Grok CLI** (plan mid / implement hard) | `--always-approve` via `handoff-to-grok.ps1` | `-NoApprove` |
 | **claude-ds** (easy fallback + mid execute) | `--dangerously-skip-permissions` via `claude-ds.ps1` / `claude-ds.sh` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
 | **Cursor Grok** (fallback plan/implement) | Auto-run / full tool approve | UI Auto-run off / ask mode |
-| Easy API scripts | no tool sandbox — N/A | — |
+| Easy API scripts | no tool sandbox - N/A | - |
 
-**DeepSeek Claude names (all hosts):** prefer **`claude-ds`**. On cemini-prod / older Linux the same tool may be **`deepseek-claude`** (`~/.deepseek-claude` on PATH). Resolve either — do not fail the chain if only one exists. Order: `claude-ds` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude` → `agent-toolkit/scripts/claude-ds.ps1` / `claude-ds.sh`.
+**DeepSeek Claude names (all hosts):** prefer **`claude-ds`**. On cemini-prod / older Linux the same tool may be **`deepseek-claude`** (`~/.deepseek-claude` on PATH). Resolve either - do not fail the chain if only one exists. Order: `claude-ds` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude` → `agent-toolkit/scripts/claude-ds.ps1` / `claude-ds.sh`.
 
 Without always-approve, headless tools cancel → chain falls through to Cursor → burns quota. That is a skill bug, not an operator preference.
 
@@ -51,14 +51,14 @@ When this skill runs **inside Cursor Agent**:
 
 1. Announce lane + one-line why.
 2. **Easy:** shell `route-task` (OpenRouter free → claude-ds). Do not draft in Cursor.
-3. **Mid:** pack repo/task context into the handoff (or let `route-task` auto-pack), then shell `route-task` so **Grok CLI plans** and **claude-ds executes**. If Grok CLI is out of usage/auth: launch Task `grok-implementer` for **plan only**, then re-run execute via `route-task` / claude-ds. If claude-ds/DeepSeek is out: script picks **best live OpenRouter free** model for chat execute fallback.
-4. **Hard/money:** write the **plan** in this session with a **premium** model (Fable / Opus / session premium) into the handoff `## Plan` section, then shell `route-task` / `handoff-to-grok` so **Grok CLI implements**. On Grok failure: Task `grok-implementer` to **implement**.
-5. Summarize executor results only (lane, executor chain, verify evidence, residual risk from `_route_runs/`). Re-implement in the parent Cursor session **only** when the script prints Cursor Grok fallback and points at a handoff file.
+3. **Mid:** pack repo/task context into the handoff (or let `route-task` auto-pack), then shell `route-task` so **Grok CLI plans** and **claude-ds executes**. **Grok out** (`ROUTE_GROK_OUT=1` / `-SkipGrokPlan`) or reusable handoff with a usable `## Plan`: skip Grok plan → claude-ds. Else if Grok CLI usage/auth fails: fill Plan (Cursor premium / Task `grok-implementer` plan-only), then `route-task -SkipGrokPlan -HandoffPath …`. If claude-ds/DeepSeek is out: script picks **best live OpenRouter free** model for chat execute fallback.
+4. **Hard/money:** write the **plan** in this session with a **premium** model (Fable / Opus / session premium) into the handoff `## Plan` section, then shell `route-task` / `handoff-to-grok` so **Grok CLI implements**. **Grok out + usable Plan:** claude-ds implements (not Cursor by default). On Grok failure with Plan present: same claude-ds path; else Task `grok-implementer` / Cursor Grok implement.
+5. Summarize executor results only (lane, executor chain, verify evidence, residual risk from `_route_runs/`). Re-implement in the parent Cursor session when the script prints **Cursor Grok fallback** or **claude-ds HANG - Cursor parent takeover** (watchdog). Verify evidence still required - no status-only "done".
 
-Preferred operator habit: `route-task` from a project terminal — or `/route` in Agent when Cursor context/premium plan is needed.
+Preferred operator habit: `route-task` from a project terminal - or `/route` in Agent when Cursor context/premium plan is needed.
 
 ```bash
-# Mac (shims on PATH) — cwd = project
+# Mac (shims on PATH) - cwd = project
 cd ~/Projects/atto
 route-task -Profile claudio "route as recommended: fix allowlist drift"
 # Refresh shims once:
@@ -99,21 +99,34 @@ After implement, `## Verify` commands run in WorkDir; failure fails the route. O
 
 Mid tasks that look like multi-file/tests/LIVE/secrets auto-escalate to hard/money unless forced with `mid:` / `deepseek:`.
 
-Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must include verify evidence — no status-only "done".
+Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must include verify evidence - no status-only "done".
+
+## Grok-out + hang watchdog (v2.2)
+
+| Knob | Meaning |
+|------|---------|
+| `-SkipGrokPlan` / `ROUTE_GROK_OUT=1` | Skip Grok plan/implement; require usable `## Plan` then **claude-ds** |
+| `-HandoffPath path.md` | Reuse SIP handoff (after premium plan or hang resume) |
+| `ROUTE_CLAUDE_DS_HANG_SECONDS` | Stall kill (default **360**) - no stdout/WorkDir mtime progress |
+| `ROUTE_CLAUDE_DS_MAX_SECONDS` | Hard wall (default **2700**) |
+
+Usable Plan = filled section (≥80 chars), not the empty hard-lane placeholder. Resume: `route-task -SkipGrokPlan -HandoffPath <handoff> "mid: execute handoff <handoff>"`.
+
+When watchdog fires, parent Cursor **may** implement from the SIP handoff; still run Verify / claim evidence.
 
 ## Lanes (must follow)
 
 | Lane | Meaning | Action |
 |------|---------|--------|
 | **easy** | Words / drafts / rewrite / wiki notes | **OpenRouter free** (`openrouter/free`) → **claude-ds** (DeepSeek tools) |
-| **mid** | Plan then cheap tool execute | Cursor context pack → **Grok CLI plan** (`-PlanOnly`) → **claude-ds** execute. Fallbacks: Cursor Grok plan; best live OR free execute |
-| **hard** | Code / tests / multi-file | **Cursor premium plan** → **Grok CLI implement** → Cursor Grok implement |
+| **mid** | Plan then cheap tool execute | Context pack → **Grok CLI plan** → **claude-ds**. Grok-out / usable Plan → skip plan → claude-ds. Hang → parent takeover. Fallbacks: Cursor Grok plan; best live OR free execute |
+| **hard** | Code / tests / multi-file | **Cursor premium plan** → **Grok CLI implement**. Grok-out + Plan → **claude-ds**. Else Cursor Grok implement |
 | **money** | Scoring, Stripe, Greeks, P&L, LIVE / ship | **Same as hard** + stricter money guardrails. Do not auto-LIVE. |
 | **ambiguous** | Unclear | Ask: easy / mid / hard / money? |
 
-**Fallbacks:** never hard-stop on first provider credit/usage failure — walk the chain. Grok **auth** on hard still prints `grok login` and offers Cursor Grok implement.
+**Fallbacks:** never hard-stop on first provider credit/usage failure - walk the chain. Grok **auth** on hard still prints `grok login`; with usable Plan prefer claude-ds before Cursor Grok.
 
-Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:` (first line of multi-line prompts). Bare mentions of "DeepSeek" in NEVER lists do **not** force mid — use `use deepseek` or `deepseek:` prefix.
+Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:` (first line of multi-line prompts). Bare mentions of "DeepSeek" in NEVER lists do **not** force mid - use `use deepseek` or `deepseek:` prefix.
 
 ## Profiles
 
@@ -124,14 +137,14 @@ Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:` (first line of 
 ## Operating rules
 
 1. Announce lane + one-line why before acting.
-2. Hard **and money**: Cursor premium writes plan; Grok CLI implements — parent Cursor only as Cursor Grok fallback.
+2. Hard **and money**: Cursor premium writes plan; Grok CLI implements - parent Cursor only as Cursor Grok fallback.
 3. Money: same execute path as hard; require LIVE OK for live flips.
 4. On provider credit/auth failure: try next fallback leg **and notify** (console banner + Desktop `ROUTE-FALLBACK-NOTICE.txt` with top-up link).
 5. No secrets in handoff files. No LIVE Discord unless user says LIVE OK. **Do not send secrets to free OpenRouter models** (they may log prompts).
 6. **Always pass always-approve** on Grok + claude-ds unless the operator explicitly requested ask mode (`-NoApprove` / `CLAUDE_DS_ASK=1`).
 7. K172 carve-out: only the reviewed handoff path (`handoff-to-grok.ps1` / `route-task`) with scoped `--cwd`, secret deny rules, and optional `--sandbox workspace`. No free-form `grok` against home trees.
-8. Mid Grok auth/usage failure → **Cursor Grok plan** (do not invent a plan in the parent session). Hard Grok failure → **Cursor Grok implement**.
-9. Do not claim done without verify evidence (or explicit SDR/block).
+8. Mid Grok auth/usage failure → fill Plan (Cursor premium) then `-SkipGrokPlan`, or **Cursor Grok plan**. Hard Grok failure → claude-ds if Plan usable, else **Cursor Grok implement**.
+9. Do not claim done without verify evidence (or explicit SDR/block). Hang takeover still requires Verify.
 
 ## PowerShell one-liners
 
@@ -143,13 +156,16 @@ cd ~/Projects/agent-toolkit
 .\scripts\route-task.ps1 -Interactive "hard: Fix the allowlist drift"
 .\scripts\route-task.ps1 -DryClassify "Is this Stripe soft-gate safe to ship?"
 .\scripts\route-task.ps1 -NoApprove "…"   # rare: ask mode for this run only
+.\scripts\route-task.ps1 -SkipGrokPlan -HandoffPath ~/path/handoff.md "mid: execute handoff ~/path/handoff.md"
+$env:ROUTE_GROK_OUT = "1"   # session: skip Grok; require usable Plan
 .\scripts\select-openrouter-free-model.ps1  # print best live free model id
 ```
 
 ## Related
 
-- `~/Projects/agent-toolkit/scripts/adopt-route-always-approve.ps1` — machine adopt
-- `.../handoff-to-grok.ps1` — Grok CLI plan (`-PlanOnly`) or implement
-- `.../ask-openrouter.ps1` / `claude-ds.ps1` — easy / mid execute
-- `.../lib/Test-RouteHandoffSip.ps1` — SIP contract
-- `.cursor/rules/cemini-route-outsource.mdc` — always-on outsource + always-approve (`tipdrop-route-outsource.mdc` is a filename alias)
+- `~/Projects/agent-toolkit/scripts/adopt-route-always-approve.ps1` - machine adopt
+- `.../handoff-to-grok.ps1` - Grok CLI plan (`-PlanOnly`) or implement
+- `.../ask-openrouter.ps1` / `claude-ds.ps1` - easy / mid execute
+- `.../lib/Test-RouteHandoffSip.ps1` - SIP contract
+- `.../lib/Test-RoutePlanPresent.ps1` - usable Plan + Grok-out helpers
+- `.cursor/rules/cemini-route-outsource.mdc` - always-on outsource + always-approve (`tipdrop-route-outsource.mdc` is a filename alias)

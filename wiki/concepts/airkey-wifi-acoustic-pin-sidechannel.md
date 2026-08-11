@@ -9,9 +9,10 @@ related:
   - concepts/network-security.md
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/inaudible-low-frequency-audio-attacks.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-11
 wire_status: policy_wired
 ---
 
@@ -22,6 +23,7 @@ wire_status: policy_wired
 - @concepts/network-security.md
 - @concepts/social-engineering.md
 - @concepts/ai-for-cybersecurity.md
+- @concepts/inaudible-low-frequency-audio-attacks.md — cross-modal sensing sibling: inaudible LF audio exfiltration/red-team on LALM targets
 
 ## Raw Concept
 

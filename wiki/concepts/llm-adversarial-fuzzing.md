@@ -72,9 +72,14 @@ related:
   - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
   - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
   - entities/tools/shieldai-risk-taxonomy-mapping.md
+  - sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
+  - concepts/inaudible-low-frequency-audio-attacks.md
+  - entities/tools/ill-inaudible-low-frequency-lockout.md
+  - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
+  - concepts/decoding-level-taboo-diagnostic.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-10
+updated: 2026-08-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -126,6 +131,11 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 - @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
 - @entities/tools/shieldai-risk-taxonomy-mapping.md
+- @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md — LALM audio surface as an adversarial-fuzz domain (inaudible LF)
+- @concepts/inaudible-low-frequency-audio-attacks.md — audio red-team surface + DRG requery defense
+- @entities/tools/ill-inaudible-low-frequency-lockout.md — REFERENCE: ILL method detail + authorized-lab operator floor
+- @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md — decoding-time stress, not input fuzzing
+- @concepts/decoding-level-taboo-diagnostic.md — logit-space off-path robustness diagnostic
 
 ## Raw Concept
 

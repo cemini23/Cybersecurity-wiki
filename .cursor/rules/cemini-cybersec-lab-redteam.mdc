@@ -1,5 +1,5 @@
 ---
-description: Authorized lab red-team only — FuzzyAI/AHA/cryptex/evidential/DataShield/InferScale (Cybersec Phase-1)
+description: Authorized lab red-team only — FuzzyAI/AHA/cryptex/evidential/DataShield/InferScale/ILL/SHE/Taboo (Cybersec Phase-1)
 alwaysApply: true
 ---
 
@@ -9,7 +9,7 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 ## Authorization
 
-- Written scope (owned lab, bug-bounty rules, or engagement letter) before running FuzzyAI, AHA, cryptex, Senthex, OpenART/EMHA, PIMiner, ARIA instruction-backdoor RT, Trident-class DRL red, or similar.
+- Written scope (owned lab, bug-bounty rules, or engagement letter) before running FuzzyAI, AHA, cryptex, Senthex, OpenART/EMHA, PIMiner, ARIA instruction-backdoor RT, Trident-class DRL red, ILL inaudible-LF audio, Taboo decoding-time diagnostic, or similar.
 - OpenART (`raw-sources/repos/OpenART`) is **AGPL-3.0** — lab sandbox only; do not network-serve or ship into prod without license review.
 - Prefer Docker-sandboxed victims; never point autoresearch red-team loops at third-party production.
 - Kid-safety / social-engineering pages are for parent/teacher/LE context — not offensive grooming research.
@@ -37,3 +37,9 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K255 READ (lab)** — long lab runbooks / reports → grep · outline · bounded read with citable line ranges; no opaque RAG.
 - **K258 PTC (lab)** — sandboxed abliterated agents → typed stubs + scripts for multi-tool fan-out; schema-bound / gated; no TrajDebug runtime.
 - **K266 ShieldAI taxonomy map (lab)** — when stocking OSS eval/guardrail/observability tools, map candidates to an explicit risk taxonomy (MIT extended / ShieldAI matrices); expect governance/legal/market gaps that tooling alone cannot close; HITL + org process required. REFERENCE clone `raw-sources/repos/ShieldAI` (~896KB Apache-2.0) — not a runtime MCP.
+
+## Aug 11 batch (ILL 2608.09158 · SHE 2608.09885 · Taboo 2608.09900)
+
+- **K267 ILL (lab)** — inaudible low-frequency (5–20 Hz) audio is a real red-team surface against LALM-equipped devices (perception-boundary mismatch); **authorized acoustic lab only on owned devices** — no LIVE/unauthorized eavesdrop. Prefer DRG (Distributional Requery Guard) + requery as the defensive counterpart. REFERENCE only (no public code).
+- **K268 SHE (lab)** — harness-evolution runs **lab/offline only** with validity check + safety–utility selection; HITL before mutating any prod Cursor/Claude harness. `.local/adopts/SHE` Apache-2.0 REFERENCE (~5MB) — do **not** unattended auto-evolve; rollback path required.
+- **K269 Taboo (lab)** — decoding-time taboo diagnostic stays a **scoped eval/audit primitive** in the authorized lab (refusal-surface audit, structured-output stress, synthetic CoT diversity); **not** a generic pass/fail safety benchmark — require the negative-control HumanEval + MCQ-floor controls. REFERENCE (Zenodo CC-BY-4.0, ~234KB).

@@ -22,9 +22,12 @@ related:
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - concepts/harnessopt-bench.md
   - sources/arxiv-2608-06301-harnessopt-bench.md
+  - sources/arxiv-2608-09885-she-safety-harness-evolution.md
+  - concepts/safety-harness-evolution.md
+  - entities/tools/she-safety-harness-evolution.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-08-07
+updated: 2026-08-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
@@ -35,6 +38,9 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 - @concepts/agentic-containment-principles.md — P1–P6 static framework audit (insufficient alone)
 - @concepts/harnessopt-bench.md
 - @sources/arxiv-2608-06301-harnessopt-bench.md
+- @sources/arxiv-2608-09885-she-safety-harness-evolution.md — bounded self-evolution of the *harness* (validity check + safety-utility selection)
+- @concepts/safety-harness-evolution.md — SHE answers "which artifacts may evolve, under what validation"
+- @entities/tools/she-safety-harness-evolution.md — local Apache-2.0 adopt (lab shelf) implementing the SHE loop
 
 ## Narrative
 

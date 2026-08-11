@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius (K230–K265)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius/SHE (K230–K268)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K265)
+# Phase-1 policy wires (K230–K268)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -205,6 +205,35 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Treat recurring build/test/VCS transcripts as **recurring dead matter** — bury recurrence classes, do not re-pay carry cost every turn.
 - Layering: gate/verification decides *whether* a record may replace context; blast-radius scoping decides *which* bodies and *how much* headroom.
 - No public Chalk/Blast Radius SPDX clone at Phase-0 — **policy_wired** pattern only; entity `blast-radius-necrophoresis` = `wont_wire`.
+
+
+## Scaffold over tool interface (K262)
+
+- When measuring MCP vs CLI (or any transport): treat **agent scaffolding** as the primary axis — prompts, control flow, memory, verification — not the interface brand.
+- Prefer completion checks via **external state** (repo/tests/prod observe), not agent self-report.
+- MCP is not required for every task class; CLI-only scaffolds can be complete (paper 2608.08654).
+
+## Versioned model–harness continual adaptation (Macaron / K263)
+
+- Prefer **versioned model+harness pairs** with parent/data/eval provenance when iterating agent stacks.
+- Successor construction under an **external** eval contract — no closed loop that rewrites its own pass criteria (pairs K162).
+- Mixture-of-LoRA / specialist adapters = vocabulary only — **no** Macaron/Venti weight downloads; `hcp-sdk` null SPDX **NO-GO** clone.
+
+## LLM verification layer accept/reject/escalate (K264)
+
+- High-blast plans: gate with ternary **accept / reject / escalate** before irreversible MCP/tool effects (pairs K239/K244).
+- Prefer independent review of judge **reasoning quality** under disagreement — do not silent-accept.
+- Robot `verification_layers` repo **404** — pattern only; entity `wont_wire`.
+
+## Trajectory-driven safety harness evolution (SHE / K268)
+
+- Name the owning harness artifact before edits: **System Prompt / Rule Bank / Safety Memory / Tool Policy**.
+- Attribution-guided, artifact-local edits + safety–utility validation; **HITL** before mutating prod Cursor/Claude harnesses.
+- `.local/adopts/SHE` Apache-2.0 REFERENCE (~5MB) — **do not** unattended auto-evolve prod. Entity `she-safety-harness` = `wont_wire` runtime; concept `policy_wired`.
+
+## VectraYX cyber VLM (K261)
+
+- Spanish/LATAM cyber imagery VLM with MCP tool tokens — **cybersec-primary**; CCC awareness only. **NO-GO** weights/runtime.
 
 ## Phase-1 meta
 

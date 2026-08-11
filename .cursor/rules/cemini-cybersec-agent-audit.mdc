@@ -18,6 +18,7 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - Complement catalog scanners with **source/runtime** audit methodology (ClawAudit Semgrep/CodeQL patterns) on agent harness code you own or fork.
 - Do not clone or redistribute ClawAudit until LICENSE is verified; methodology steal-from is fine.
 - SkillSec lifecycle: treat skills as five-stage (author → pack → install → invoke → evolve) — re-audit on evolution/self-modify paths.
+- **K269 Taboo (audit)** — decoding-time taboo diagnostic (2608.09900) as a **pre-deployment refusal-surface audit**: mask top refusal tokens on an adversarial prompt; immediate policy-violating output ⇒ shallow top-token alignment, not latent safety. Keep as a scoped eval; do not use as a generic safety benchmark without negative controls (HumanEval, MCQ floor). REFERENCE (Zenodo CC-BY-4.0).
 
 ## Defaults
 

@@ -1,3 +1,20 @@
+## [2026-08-11] ingest | K267–K269 (ILL / SHE / Taboo) + 2 OOD routes
+
+**Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-11-daily.md`.
+
+- **OOD** 2608.06866 DoDTrack Wi-Fi Doppler sensing/localization — stub `@sources/arxiv-2608-06866-ood-dodtrack-wifi-doppler-tracking.md`; brief `briefs/2026-08-11_ood-dodtrack-wifi-doppler-route.md`; no adopt (`wont_wire`)
+- **OOD** 2608.09930 Beyond-Naturalness TTS eval — stub `@sources/arxiv-2608-09930-ood-beyond-naturalness-tts-eval.md`; brief `briefs/2026-08-11_ood-beyond-naturalness-tts-route.md` → image-gen or skip; no adopt (`wont_wire`)
+- **NEW** `@sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md` + `@concepts/inaudible-low-frequency-audio-attacks.md` + `@entities/tools/ill-inaudible-low-frequency-lockout.md` — **K267** ILL inaudible-LF audio red team vs LALMs + DRG requery defense; REFERENCE (no public code); policy_wired
+- **NEW** `@sources/arxiv-2608-09885-she-safety-harness-evolution.md` + `@concepts/safety-harness-evolution.md` + `@entities/tools/she-safety-harness-evolution.md` — **K268** SHE four-artifact harness evolution + validity + safety-utility selection; **GO** Apache-2.0 clone `raw-sources/repos/SHE` @ `0c656460` ~4.4MB; policy_wired + lab adopt
+- **NEW** `@sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md` + `@concepts/decoding-level-taboo-diagnostic.md` — **K269** Taboo word-boundary logit-masking diagnostic; REFERENCE (Zenodo CC-BY-4.0 ~234KB, no clone); policy_wired
+- **Updated** llm-adversarial-fuzzing, agent-runtime-guardrails, ai-for-cybersecurity, llm-pentest-automation, harnessopt-bench, self-evolving-agent-security, blast-radius-reversible-context-eviction, airkey-wifi-acoustic-pin-sidechannel, wireless-pentest, safety-harness-evolution, index.md
+- **Phase-0**: `scripts/adopt_k267_k269_phase0.sh` PASS (asserts pages + SHE clone SHA/size + K267–K269 wire bullets)
+- **Phase-1**: `cemini-cybersec-lab-redteam.mdc` §K267/§K268/§K269; `cemini-phase1-policy-wires.mdc` §K268 (renumbered SHE off duplicate K265; canon CCC + cyber + user-global synced via `sync_federation_cursor_skills.sh`); `cemini-cybersec-agent-audit.mdc` §K269; CCC `ccc-k266-k269-phase1-wires.mdc` awareness
+- **Briefs**: K267/K268/K269 + 2 OOD routes → prod `cemiini-prod:/opt/cemini/briefs/`; atto K268/K269; GuruWatcher K269/K268; poker (OSINT + Gambling) K269/K268; CCC `docs/briefs/`
+- **friend brief:** updated (K268 harness hygiene + K269 refusal-surface audit + K267 audio-lane add-ons)
+- **Local adopts**: SHE only (<500MB). No ILL/Taboo clone (no public code / CC-BY-4.0 REFERENCE).
+- **Archive**: five PDFs → egress-fi cybersec/ (local copies removed)
+
 ## [2026-08-10] ingest | K265–K266 (Blast Radius / ShieldAI) + OOD QNLP
 
 - **OOD** 2608.07439 DisCoCat/QNLP financial rewrite — stub `@sources/arxiv-ood-qnlp-discocat-financial-2608.07439.md`; brief `briefs/2026-08-10_ood-qnlp-discocat-financial-route.md` → OSINT; no adopt

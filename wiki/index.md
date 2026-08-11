@@ -139,6 +139,16 @@
 | @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md | draft | ShieldAI OSS AI risk tool taxonomy map (2608.07446; K266) |
 | @concepts/blast-radius-reversible-context-eviction.md | draft | Reversible, gate-licensed context eviction for coding agents |
 | @concepts/taxonomy-driven-oss-ai-risk-mitigation.md | draft | Map OSS eval/guardrail tools to MIT risk taxonomy |
+| @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md | draft | ILL inaudible LF audio vs LALMs (2608.09158; K267) |
+| @concepts/inaudible-low-frequency-audio-attacks.md | draft | Perception-boundary mismatch audio red team + DRG requery |
+| @entities/tools/ill-inaudible-low-frequency-lockout.md | draft | ILL method (REFERENCE; K267) |
+| @sources/arxiv-2608-09885-she-safety-harness-evolution.md | draft | SHE trajectory-driven harness evolution (2608.09885; K268) |
+| @concepts/safety-harness-evolution.md | draft | Four-artifact harness evolution + validity + safety-utility selection |
+| @entities/tools/she-safety-harness-evolution.md | draft | SHE harness-evolution (GO clone Apache-2.0; K268) |
+| @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md | draft | Taboo decoding-time logit-space diagnostic (2608.09900; K269) |
+| @concepts/decoding-level-taboo-diagnostic.md | draft | Word-boundary logit masking off-path robustness stress test |
+| @sources/arxiv-2608-06866-ood-dodtrack-wifi-doppler-tracking.md | draft | OOD DoDTrack Wi-Fi Doppler tracking (2608.06866) |
+| @sources/arxiv-2608-09930-ood-beyond-naturalness-tts-eval.md | draft | OOD Beyond-Naturalness TTS eval (2608.09930) |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |

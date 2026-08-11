@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 
@@ -157,10 +157,13 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 4. File notes back into the wiki or your engagement folder — insights die in chat.
 
 
-### Deep-research add-ons (2026-08-10)
+### Deep-research add-ons (2026-08-11)
 
 - **K265 Blast Radius** — long Cursor/agent sessions: prefer reversible bury of concluded missions + recurring build/test chatter over lossy summarization; no unvetted Chalk fork install. See `@concepts/blast-radius-reversible-context-eviction.md`.
 - **K266 ShieldAI** — before stocking another OSS eval/guardrail scanner, open `raw-sources/repos/ShieldAI` matrices; expect governance/legal gaps tooling cannot close. See `@concepts/taxonomy-driven-oss-ai-risk-mitigation.md`.
+- **K268 SHE (harness hygiene)** — before editing a prod Cursor/Claude harness, **name the owning artifact** (System Prompt / Rule Bank / Safety Memory / Tool Policy) and make the edit artifact-local; HITL + rollback before mutating a live harness; `.local/adopts/SHE` Apache-2.0 REFERENCE only — do not unattended auto-evolve. See `@concepts/safety-harness-evolution.md`.
+- **K269 Taboo (refusal-surface audit)** — for any local abliterated / low-refusal lane you ship: mask the top refusal tokens at decode; if policy-violating output appears immediately, alignment is shallow top-token preference, not latent safety. Keep it a scoped eval, not a pass/fail bench. See `@concepts/decoding-level-taboo-diagnostic.md`.
+- **K267 ILL (audio lane only)** — only if your box runs audio-enabled LLM lanes (LALM/speech-to-text-first): inaudible 5–20 Hz audio is a real red-team surface; deploy DRG requery on spectral shift. Authorized acoustic lab only, owned devices. See `@concepts/inaudible-low-frequency-audio-attacks.md`.
 
 ## Sources
 
@@ -188,6 +191,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@sources/devto-red-team-ai-benchmark.md`
 - `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md` (K220 tool register)
 - `@entities/tools/black-cat.md` · `@entities/tools/cloakquest3r.md` · `@entities/tools/raccoon.md` · `@entities/tools/damn-vulnerable-drone.md`
+- `@concepts/safety-harness-evolution.md` · `@concepts/decoding-level-taboo-diagnostic.md` · `@concepts/inaudible-low-frequency-audio-attacks.md` (K268/K269/K267; briefs 2026-08-11_k26*)
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  

@@ -11,9 +11,10 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/harnessopt-bench.md
   - entities/tools/swe-pruner-pro.md
+  - concepts/safety-harness-evolution.md
 maturity: draft
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 ---
@@ -27,6 +28,7 @@ wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 - @concepts/ai-for-cybersecurity.md
 - @concepts/harnessopt-bench.md
 - @entities/tools/swe-pruner-pro.md
+- @concepts/safety-harness-evolution.md — SHE decides which harness artifact *learns* a new boundary; blast radius decides which context may be evicted/replaced
 
 ## Raw Concept
 
