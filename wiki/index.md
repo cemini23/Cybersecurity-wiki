@@ -149,6 +149,15 @@
 | @concepts/decoding-level-taboo-diagnostic.md | draft | Word-boundary logit masking off-path robustness stress test |
 | @sources/arxiv-2608-06866-ood-dodtrack-wifi-doppler-tracking.md | draft | OOD DoDTrack Wi-Fi Doppler tracking (2608.06866) |
 | @sources/arxiv-2608-09930-ood-beyond-naturalness-tts-eval.md | draft | OOD Beyond-Naturalness TTS eval (2608.09930) |
+| @sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md | draft | GFlowNet automated LLM attack generation (2608.10171; K270) |
+| @concepts/gflownet-automated-redteam-attack-generation.md | draft | GFlowNet attacker-victim-evaluator attack-gen concept |
+| @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md | draft | REDAgentBench executable RT + faithful ASR (2608.10669; K271) |
+| @concepts/faithful-agent-asr-measurement.md | draft | Exposure/execution/observation/adjudication ASR decomposition |
+| @entities/tools/redagentbench.md | draft | REDAgentBench benchmark (REFERENCE; K271) |
+| @sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md | draft | Cross-lingual safety transfer illusion LRLs (2608.11146; K272) |
+| @concepts/cross-lingual-safety-transfer-lrl.md | draft | English-only safety ≠ LRL safety; localized prompts |
+| @sources/arxiv-2608-11044-ood-teammix-htc.md | draft | OOD TEAMMix hierarchical text classification (2608.11044) |
+| @sources/arxiv-2608-11121-ood-genai-statistical-research.md | draft | OOD GenAI in statistical research (2608.11121) |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |

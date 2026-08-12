@@ -26,9 +26,11 @@ related:
   - sources/arxiv-2607-19837-know-your-agent-recon.md
   - concepts/salami-collusive-memory-poisoning.md
   - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
+  - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
+  - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-08-04
+updated: 2026-08-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -43,6 +45,8 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/mcp-execution-control-invariants.md — HCP I1/I4 principal binding complements DT/DU isolation
 - @concepts/salami-collusive-memory-poisoning.md
 - @sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
+- @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md — data/RAG-poisoning surface measured via state-confirmed violations (K271)
+- @concepts/faithful-agent-asr-measurement.md — state-grounded ASR for ADI/poisoning surfaces (K271)
 
 ## Raw Concept
 

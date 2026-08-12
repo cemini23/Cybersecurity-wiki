@@ -1,3 +1,20 @@
+## [2026-08-12] ingest | K270–K272 (GFlowNet / REDAgentBench / Cross-lingual safety) + 2 OOD routes
+
+**Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-12-daily.md`.
+
+- **OOD** 2608.11044 TEAMMix hierarchical text classification — stub `@sources/arxiv-2608-11044-ood-teammix-htc.md`; brief `briefs/2026-08-12_ood-teammix-htc-route.md`; no adopt (`wont_wire`)
+- **OOD** 2608.11121 GenAI in statistical research (dWOLS/DTR) — stub `@sources/arxiv-2608-11121-ood-genai-statistical-research.md`; brief `briefs/2026-08-12_ood-genai-statistical-research-route.md`; no adopt (`wont_wire`)
+- **NEW** `@sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md` + `@concepts/gflownet-automated-redteam-attack-generation.md` — **K270** GFlowNet attacker–victim–evaluator attack generation (Turkcell); SFT→GFN→MLE staging, SR 0.08→0.79, first Turkish attacker; REFERENCE (no public code); policy_wired
+- **NEW** `@sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md` + `@concepts/faithful-agent-asr-measurement.md` + `@entities/tools/redagentbench.md` — **K271** executable agent RT + faithful ASR (exposure/execution/observation/adjudication), REG gap + action-time reminder; REFERENCE (benchmark unreleased); policy_wired
+- **NEW** `@sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md` + `@concepts/cross-lingual-safety-transfer-lrl.md` — **K272** English-only safety ≠ LRL safety (LoDNA: <10% refusal-signal retention Twi/Hausa/Amharic/Swahili); REFERENCE (LoDNA not yet public); policy_wired
+- **Updated** gflowrl-distribution-matching-attacker-rl, llm-adversarial-fuzzing, local-abliterated-llm-pentest-stack, agent-runtime-guardrails, ai-redteam-evidential-ceiling, agent-data-injection-attacks, safety-harness-evolution, multilingual-long-horizon-agent-evaluation, ai-for-cybersecurity, index.md (bidirectional backlinks)
+- **Phase-0**: `scripts/adopt_k270_k272_phase0.sh` PASS (asserts 9 pages + K270–K272 wire bullets + no clones)
+- **Phase-1**: `cemini-cybersec-lab-redteam.mdc` §K270/§K271/§K272; `cemini-cybersec-agent-audit.mdc` §K271 (no policy-wires change — all three REFERENCE patterns, do not clobber K260–K269)
+- **Briefs**: K270/K271/K272 + 2 OOD routes → prod `cemiini-prod:/opt/cemini/briefs/`; atto K271 agent-eval steal; GuruWatcher nofit; poker (OSINT + Gambling) K271 agent-eval steal
+- **friend brief:** updated (K271 faithful-ASR discipline + K270 GFlowNet lab pattern + K272 LRL eval scope add-ons)
+- **Local adopts**: none — all three in-scope papers REFERENCE (no public code at Phase-0; under 500MB N/A)
+- **Archive**: five PDFs → egress-fi cybersec/ (local copies removed); inbox empty
+
 ## [2026-08-11] ingest | K267–K269 (ILL / SHE / Taboo) + 2 OOD routes
 
 **Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-11-daily.md`.

@@ -275,9 +275,15 @@ related:
   - concepts/decoding-level-taboo-diagnostic.md
   - entities/tools/ill-inaudible-low-frequency-lockout.md
   - entities/tools/she-safety-harness-evolution.md
+  - sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md
+  - concepts/gflownet-automated-redteam-attack-generation.md
+  - concepts/faithful-agent-asr-measurement.md
+  - concepts/cross-lingual-safety-transfer-lrl.md
+  - sources/arxiv-2608-11044-ood-teammix-htc.md
+  - sources/arxiv-2608-11121-ood-genai-statistical-research.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -434,6 +440,12 @@ updated: 2026-08-11
 - @sources/arxiv-ood-qnlp-discocat-financial-2608.07439.md
 - @entities/tools/blast-radius-necrophoresis.md
 - @entities/tools/shieldai-risk-taxonomy-mapping.md
+- @sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md — GFlowNet attacker generation (K270)
+- @concepts/gflownet-automated-redteam-attack-generation.md — automated attack-gen concept (K270)
+- @concepts/faithful-agent-asr-measurement.md — faithful agent ASR measurement (K271)
+- @concepts/cross-lingual-safety-transfer-lrl.md — LRL safety transfer illusion (K272)
+- @sources/arxiv-2608-11044-ood-teammix-htc.md — OOD HTC classification contrast
+- @sources/arxiv-2608-11121-ood-genai-statistical-research.md — OOD statistics methodology contrast
 
 ## Raw Concept
 

@@ -77,9 +77,13 @@ related:
   - entities/tools/ill-inaudible-low-frequency-lockout.md
   - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
   - concepts/decoding-level-taboo-diagnostic.md
+  - sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md
+  - concepts/gflownet-automated-redteam-attack-generation.md
+  - sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md
+  - concepts/cross-lingual-safety-transfer-lrl.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-11
+updated: 2026-08-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
@@ -136,6 +140,10 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @entities/tools/ill-inaudible-low-frequency-lockout.md — REFERENCE: ILL method detail + authorized-lab operator floor
 - @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md — decoding-time stress, not input fuzzing
 - @concepts/decoding-level-taboo-diagnostic.md — logit-space off-path robustness diagnostic
+- @sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md — GFlowNet-trained attacker generation (K270; diversity-seeking)
+- @concepts/gflownet-automated-redteam-attack-generation.md — K270 automated attack-gen concept
+- @sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md — cross-lingual LRL jailbreak surface (K272)
+- @concepts/cross-lingual-safety-transfer-lrl.md — K272 English-only safety ≠ LRL safety
 
 ## Raw Concept
 

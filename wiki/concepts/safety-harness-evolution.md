@@ -13,9 +13,10 @@ related:
   - concepts/blast-radius-reversible-context-eviction.md
   - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
   - concepts/decoding-level-taboo-diagnostic.md
+  - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (K268)"
 ---
@@ -33,6 +34,7 @@ wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (K268)"
 - @concepts/blast-radius-reversible-context-eviction.md — layering: what may be *replaced* in context (gate/verification) vs which harness artifact *learns* a new boundary
 - @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md — taboo-guided alignment as an active robustness regularizer for evolved harnesses
 - @concepts/decoding-level-taboo-diagnostic.md — decoding-time robustness diagnostic pairs with harness evolution to keep safety boundaries learned, not hard-coded
+- @concepts/faithful-agent-asr-measurement.md — harness-dependent ASR makes harness-evolution gains measurable only under a stated measuring tuple (K271)
 
 ## Raw Concept
 

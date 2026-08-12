@@ -6,18 +6,22 @@ keywords: [evidential ceiling, null result, harm rate, certification claim, 2607
 related:
   - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
   - entities/tools/ai-redteam-evidential-limits.md
+  - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
+  - concepts/faithful-agent-asr-measurement.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-12
 ---
 
 ## Relations
 
 - @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
 - @entities/tools/ai-redteam-evidential-limits.md
+- @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md — faithful ASR as a measurement-condition tuple (K271)
+- @concepts/faithful-agent-asr-measurement.md — exposure/execution/observation/adjudication decomposition (K271)
 - @concepts/ai-for-cybersecurity.md
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/pair-prompt-pattern.md

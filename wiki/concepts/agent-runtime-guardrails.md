@@ -146,9 +146,12 @@ related:
   - entities/tools/ill-inaudible-low-frequency-lockout.md
   - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
   - concepts/decoding-level-taboo-diagnostic.md
+  - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
+  - concepts/faithful-agent-asr-measurement.md
+  - entities/tools/redagentbench.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-11
+updated: 2026-08-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -220,6 +223,9 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @entities/tools/ill-inaudible-low-frequency-lockout.md — black-box LALM red-team method (REFERENCE)
 - @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md — refusal-surface audit at decoding time
 - @concepts/decoding-level-taboo-diagnostic.md — guardrail robustness vs surface-level refusals
+- @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md — executable agent RT benchmark (K271)
+- @concepts/faithful-agent-asr-measurement.md — state-grounded ASR + Recognition-Execution Gap (K271)
+- @entities/tools/redagentbench.md — harness/evidence-view-sensitive ASR reference (K271)
 
 ## Raw Concept
 

@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 
@@ -165,6 +165,12 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - **K269 Taboo (refusal-surface audit)** — for any local abliterated / low-refusal lane you ship: mask the top refusal tokens at decode; if policy-violating output appears immediately, alignment is shallow top-token preference, not latent safety. Keep it a scoped eval, not a pass/fail bench. See `@concepts/decoding-level-taboo-diagnostic.md`.
 - **K267 ILL (audio lane only)** — only if your box runs audio-enabled LLM lanes (LALM/speech-to-text-first): inaudible 5–20 Hz audio is a real red-team surface; deploy DRG requery on spectral shift. Authorized acoustic lab only, owned devices. See `@concepts/inaudible-low-frequency-audio-attacks.md`.
 
+### Deep-research add-ons (2026-08-12)
+
+- **K271 REDAgentBench (agent ASR discipline)** — for any agent-safety claim on the lab box: never quote a bare attack-success number; report `(harness, judging configuration, evaluation cue, judge backbone)` and verify harm from **service receipts / final-state diffs**, not the transcript (transcript-only judging missed 7.7–11.7 pp and re-labeled 13–21% of rollouts). If an agent *states the rule then violates it* (Recognition–Execution Gap, ~18% of confirmed violations), wire an **action-time policy reminder** at the action boundary (>70 pp confirmed-violation cut in replay). See `@concepts/faithful-agent-asr-measurement.md`.
+- **K270 GFlowNet attack-gen (lab-only)** — if you want automated, diversity-preserving LLM attack generation in the lab: GFlowNet attacker–victim–evaluator beats reward-max RL on attack diversity; report ASR **with the evaluator classifier** (swapping Qwen3Guard ↔ LlamaGuard flipped which attacker "won"). Authorized victims only; no public code → pattern REFERENCE. See `@concepts/gflownet-automated-redteam-attack-generation.md`.
+- **K272 Cross-lingual safety (eval scope)** — English-only safety eval ≠ low-resource-language safety (English refusal signal retains <10% in Twi/Hausa/Amharic/Swahili on 7B–8B models). If you deploy any local model to non-English users, eval in the target languages with **culturally localized** prompts, not literal translations; probing refusal directions needs weights (not API-only). See `@concepts/cross-lingual-safety-transfer-lrl.md`.
+
 ## Sources
 
 - Dual-wiki + day-1 setup: `briefs/2026-08-05_friend-day1-cursor-goal-paste.md` · `@concepts/operator-lab-playbook.md` (hub) · TipDrop kit `FEDERATION-WIKI-INDEX.md` + `scripts/install-federation-wikis.ps1` · `@osint-wiki/entities/tools/fingerprint-suite.md` · `@osint-wiki/entities/tools/octobrowser.md` · `@osint-wiki/entities/tools/arkham-intelligence.md` · `@osint-wiki/entities/tools/mitre-atlas.md` · `@osint-wiki/entities/tools/cua.md`
@@ -192,6 +198,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md` (K220 tool register)
 - `@entities/tools/black-cat.md` · `@entities/tools/cloakquest3r.md` · `@entities/tools/raccoon.md` · `@entities/tools/damn-vulnerable-drone.md`
 - `@concepts/safety-harness-evolution.md` · `@concepts/decoding-level-taboo-diagnostic.md` · `@concepts/inaudible-low-frequency-audio-attacks.md` (K268/K269/K267; briefs 2026-08-11_k26*)
+- `@concepts/faithful-agent-asr-measurement.md` · `@concepts/gflownet-automated-redteam-attack-generation.md` · `@concepts/cross-lingual-safety-transfer-lrl.md` (K271/K270/K272; briefs 2026-08-12_k27*)
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  

@@ -12,9 +12,11 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/multilingual-long-horizon-agent-eval.md"
+  - sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md
+  - concepts/cross-lingual-safety-transfer-lrl.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-31
+updated: 2026-08-12
 wire_status: wont_wire
 wire_target: "REFERENCE eval — PolyWorkbench methodology"
 ---
@@ -26,6 +28,8 @@ wire_target: "REFERENCE eval — PolyWorkbench methodology"
 - @sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md — PolyWorkBench (2607.06008)
 - @concepts/security-tool-orchestration-determinants.md — client harness is first-order for long-horizon scores
 - @entities/platforms/polyworkbench.md — benchmark entity
+- @sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md — cross-lingual safety-transfer illusion in LRLs (K272)
+- @concepts/cross-lingual-safety-transfer-lrl.md — English-only safety eval ≠ LRL safety; localized prompts (K272)
 
 ## Raw Concept
 
