@@ -9,11 +9,12 @@
 - **NEW** `@sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md` + `@concepts/cross-lingual-safety-transfer-lrl.md` — **K272** English-only safety ≠ LRL safety (LoDNA: <10% refusal-signal retention Twi/Hausa/Amharic/Swahili); REFERENCE (LoDNA not yet public); policy_wired
 - **Updated** gflowrl-distribution-matching-attacker-rl, llm-adversarial-fuzzing, local-abliterated-llm-pentest-stack, agent-runtime-guardrails, ai-redteam-evidential-ceiling, agent-data-injection-attacks, safety-harness-evolution, multilingual-long-horizon-agent-evaluation, ai-for-cybersecurity, index.md (bidirectional backlinks)
 - **Phase-0**: `scripts/adopt_k270_k272_phase0.sh` PASS (asserts 9 pages + K270–K272 wire bullets + no clones)
-- **Phase-1**: `cemini-cybersec-lab-redteam.mdc` §K270/§K271/§K272; `cemini-cybersec-agent-audit.mdc` §K271 (no policy-wires change — all three REFERENCE patterns, do not clobber K260–K269)
-- **Briefs**: K270/K271/K272 + 2 OOD routes → prod `cemiini-prod:/opt/cemini/briefs/`; atto K271 agent-eval steal; GuruWatcher nofit; poker (OSINT + Gambling) K271 agent-eval steal
+- **Phase-1**: `cemini-cybersec-lab-redteam.mdc` §K270/§K271/§K272; `cemini-cybersec-agent-audit.mdc` §K271. Shared `cemini-phase1-policy-wires.mdc` later synced CCC K270–K273 (MCP/ACM) with dual-ID note — Cybersec K270–K272 stay in domain rules; resolve by file+wiki
+- **Briefs**: K270/K271/K272 + 2 OOD routes → prod `cemini-prod:/opt/cemini/briefs/`; atto K271 agent-eval steal; GuruWatcher nofit; poker Arena (OSINT + Gambling) K271 agent-eval steal
 - **friend brief:** updated (K271 faithful-ASR discipline + K270 GFlowNet lab pattern + K272 LRL eval scope add-ons)
 - **Local adopts**: none — all three in-scope papers REFERENCE (no public code at Phase-0; under 500MB N/A)
 - **Archive**: five PDFs → egress-fi cybersec/ (local copies removed); inbox empty
+- **Sweep**: `wiki/sweeps/2026-08-12-daily.md` retained (ingest spent)
 
 ## [2026-08-11] ingest | K267–K269 (ILL / SHE / Taboo) + 2 OOD routes
 

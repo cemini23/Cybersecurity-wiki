@@ -3,7 +3,7 @@ description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K268)
+# Phase-1 policy wires (K230–K273)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -234,6 +234,34 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 ## VectraYX cyber VLM (K261)
 
 - Spanish/LATAM cyber imagery VLM with MCP tool tokens — **cybersec-primary**; CCC awareness only. **NO-GO** weights/runtime.
+
+
+## CCC wave K270–K273 (shared policy file — dual-ID note)
+
+Same-day Cybersec batch used **K270–K272** for GFlowNet / REDAgentBench / Cross-lingual safety in `cemini-cybersec-lab-redteam.mdc` + `cemini-cybersec-agent-audit.mdc`. Numbers below are **CCC** MCP/ACM-wave meanings in this shared federation file (also `ccc-k270-k273-phase1-wires.mdc`). Resolve by file+wiki, not bare K# alone.
+
+## LLM-assisted writing hygiene (CCC K270)
+
+- Treat LLM-writing detection as advisory for wiki/brief hygiene — prefer claim+locator (Traceable Scholarship).
+- Do not overclaim human-only authorship. `kobaklab/llm-usage-in-pmc` null SPDX **NO-GO** clone.
+
+## Enterprise MCP auth gateway (CCC K271)
+
+- Prefer a **central auth aggregation layer** when many MCP servers proliferate (prod/enterprise).
+- Classify callers on **persona** (user vs non-user/service) × **credential** path before exposure.
+- Plan fleet offboarding / token revocation across servers — not per-server snowflakes.
+- Industry paper only — no mandatory gateway product install from this source.
+
+## Domain solvers as MCP + Skills (CCC K272)
+
+- Prefer wrapping verified domain solvers as **MCP tools + SKILL.md** rather than asking the LLM to recompute science.
+- Pass skill-vetting / preflight before enable. `.local/adopts/agent4binary` MIT REFERENCE (~185MB) — astronomy runtime **wont_wire**.
+
+## Agentic Configuration Management / ACM (CCC K273)
+
+- Treat harness configs (rules, skills, MCP allowlists, settings) as **configuration items** with baselines + provenance.
+- Prefer deterministic validation and dependency-aware impact before blast-radius harness edits.
+- No ACM product install until a clear SPDX'd artifact exists.
 
 ## Phase-1 meta
 
