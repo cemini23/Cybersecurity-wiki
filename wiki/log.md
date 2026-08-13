@@ -1,3 +1,21 @@
+## [2026-08-12] ingest | metadata / traffic analysis / censorship PT / spyware defense / account-recovery OPSEC
+
+Operator-requested batch (borderline, architecture). Defense + freedom-of-information framing (journalists / dissidents / operators / product users in hostile networks). **Not** kits: no SIM-swap how-tos, no working Tor-bridge runbooks, no spyware/stalkerware installers, no warrant-evasion.
+
+- **NEW** `@concepts/metadata-traffic-analysis-anonymity.md` — path encryption ≠ metadata privacy; an AS/global observer links circuits via timing/volume (Murdoch & Danezis; Tor entry guards; Signal sealed sender); MAC rand / VPN ≠ unlinkability
+- **NEW** `@concepts/censorship-circumvention-pluggable-transports.md` — DPI/IP blocking ≠ traffic confirmation; obfs4 / meek / Snowflake / WebTunnel / FTE as PT class; uTLS / JA3 TLS-fingerprint class; domain-fronting as a Dead End (architecture, not a current recipe)
+- **NEW** `@concepts/commercial-spyware-stalkerware-defense.md` — mercenary spyware (NSO-class) + consumer stalkerware are **endpoint compromise**, not a Tor failure; defense class: Lockdown Mode, Amnesty MVT triage, assume-burn + hardware replacement for high-confidence infection; product steal: don't ship a telemetry implant
+- **NEW** `@concepts/account-recovery-deanonymization.md` — anonymity dies at **recovery** (SIM, email, SSO, passkeys, backup codes); SIM swap as canonical recovery-takeover vector (IC3 + FCC 2023 port-out rules); product steal: recovery flows are an authz-bypass class
+- **NEW sources (10):** Tor support entry guards; Murdoch & Danezis *Low-Cost Traffic Analysis of Tor* (PDF → egress-fi); Tor Snowflake; Tor pluggable-transports doc; Apple Lockdown Mode; Amnesty Mobile Verification Toolkit (README; custom license → **REFERENCE** `wont_wire`, no clone); Amnesty Pegasus forensic methodology; FBI IC3 SIM-swap PSA (I-020822-PSA); Google Advanced Protection; Signal sealed sender
+- **Updated** anonymity-networks, hardware-id-masking-opsec, system-hardening, operator-lab-playbook, osint-for-cybersecurity, owned-target-whitehat-lab, pre-release-product-pentest, index.md (bidirectional backlinks)
+- **Phase-0:** all REFERENCE; no clones (MVT custom license deliberately anti-surveillance → REFERENCE not clone)
+- **Phase-1:** none — no ADOPT/GO runtime
+- **Briefs:** friend playbook add-on 26 (metadata/recovery/spyware inventory; Snowflake/Tor PT for *censorship* not crime; Lockdown Mode / MVT as defense)
+- **friend brief:** updated
+- **Local adopts:** none
+- **Archive:** 2 PDFs (murdoch-danezis-low-cost-traffic-analysis.pdf, fcc-sim-swap-port-out-rules-2023.pdf) → egress-fi cybersec/ (local copies removed on success)
+- **Deferred follow-up:** `concepts/endpoint-encryption-deniable-storage.md` (VeraCrypt hidden volume as a *class*, no procedures) — new-file budget at cap (14/15); flagged for a future ingest
+
 ## [2026-08-12] ingest | license-bind / anti-tamper / Windows CI / Joas / mobile attestation
 
 Lanes 1–5 of the "cracking research" handoff, kept to product-pentest / authorized-lab **architecture** (classes not kits). No keygens, unpackers, DRM bypasses, or ban-evasion material.

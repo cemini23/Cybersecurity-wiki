@@ -28,6 +28,8 @@ related:
   - sources/tails-mac-address-anonymization.md
   - sources/android-aosp-wifi-mac-randomization.md
   - "@osint-wiki/entities/tools/fingerprint-suite.md"
+  - concepts/metadata-traffic-analysis-anonymity.md
+  - concepts/account-recovery-deanonymization.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -61,6 +63,8 @@ wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls
 - @sources/tails-mac-address-anonymization.md
 - @sources/android-aosp-wifi-mac-randomization.md
 - @osint-wiki/entities/tools/fingerprint-suite.md — browser fingerprint gen/injection (OSINT primary); not host HWID
+- @concepts/metadata-traffic-analysis-anonymity.md — hardware IDs are a separate plane from network-path metadata
+- @concepts/account-recovery-deanonymization.md — hardware keys / TPM-backed identity are a recovery-identity plane
 
 ## Raw Concept
 

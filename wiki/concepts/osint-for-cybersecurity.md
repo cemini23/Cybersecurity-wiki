@@ -42,6 +42,8 @@ related:
   - entities/tools/raccoon.md
   - entities/tools/torbot.md
   - concepts/hardware-id-masking-opsec.md
+  - concepts/metadata-traffic-analysis-anonymity.md
+  - concepts/account-recovery-deanonymization.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-08-12
@@ -54,6 +56,8 @@ updated: 2026-08-12
 - @entities/tools/raccoon.md — MIT recon/vuln scanner
 - @entities/tools/torbot.md — Tor crawler Reference-only (GPL-3)
 - @concepts/hardware-id-masking-opsec.md — host HWID / MAC OPSEC for collection anonymity (not browser fingerprint-suite)
+- @concepts/metadata-traffic-analysis-anonymity.md — collection OPSEC: recon metadata is itself a leak surface
+- @concepts/account-recovery-deanonymization.md — recovery surfaces (phone/email/SSO) are what OSINT enumerates about a persona
 
 
 - @entities/tools/maltego.md

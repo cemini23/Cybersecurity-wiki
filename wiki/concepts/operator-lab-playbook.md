@@ -28,6 +28,8 @@ related:
   - entities/tools/strix-omlx.md
   - entities/tools/damn-vulnerable-drone.md
   - concepts/hardware-id-masking-opsec.md
+  - concepts/commercial-spyware-stalkerware-defense.md
+  - concepts/account-recovery-deanonymization.md
 maturity: draft
 created: 2026-08-02
 updated: 2026-08-12
@@ -57,6 +59,8 @@ updated: 2026-08-12
 - @entities/tools/ollama.md / @entities/tools/vllm.md — local inference runtimes
 - @entities/tools/iron-proxy.md — egress allowlist for untrusted lab workloads
 - @entities/tools/gau.md / @entities/tools/katana.md — front of the bounty recon pipeline
+- @concepts/commercial-spyware-stalkerware-defense.md — high-threat operator devices: Lockdown Mode default, MVT before re-trust
+- @concepts/account-recovery-deanonymization.md — dedicated numbers/emails are identity; no SMS 2FA on high-value lanes
 
 ## Raw Concept
 

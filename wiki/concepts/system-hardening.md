@@ -21,6 +21,8 @@ related:
   - sources/microsoft-elam.md
   - sources/microsoft-kernel-dma-protection.md
   - sources/microsoft-wdac-appcontrol-overview.md
+  - concepts/commercial-spyware-stalkerware-defense.md
+  - sources/apple-lockdown-mode.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-08-12
@@ -56,3 +58,5 @@ Process of reducing a system's attack surface by removing unnecessary services, 
 - @sources/microsoft-elam.md — boot-start AM driver classification (PPL)
 - @sources/microsoft-kernel-dma-protection.md — IOMMU fencing of hot-plug PCIe (Thunderbolt/USB4)
 - @sources/microsoft-wdac-appcontrol-overview.md — App Control for Business allow-list (MSRC servicing criteria)
+- @concepts/commercial-spyware-stalkerware-defense.md — Lockdown Mode is the mobile high-assurance hardening control
+- @sources/apple-lockdown-mode.md — extreme-protection mode for mercenary-spyware threat models

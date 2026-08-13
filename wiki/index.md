@@ -159,6 +159,10 @@
 | @sources/arxiv-2608-11044-ood-teammix-htc.md | draft | OOD TEAMMix hierarchical text classification (2608.11044) |
 | @sources/arxiv-2608-11121-ood-genai-statistical-research.md | draft | OOD GenAI in statistical research (2608.11121) |
 | @concepts/hardware-id-masking-opsec.md | draft | HWID layers + MAC rand ≠ unlinkability (OPSEC) |
+| @concepts/metadata-traffic-analysis-anonymity.md | draft | Metadata/traffic confirmation: AS/global observer beats path encryption |
+| @concepts/censorship-circumvention-pluggable-transports.md | draft | Bridges + PTs (obfs4/meek/Snowflake/WebTunnel); DPI vs traffic-confirmation |
+| @concepts/commercial-spyware-stalkerware-defense.md | draft | Mercenary spyware + stalkerware as endpoint compromise; Lockdown Mode / MVT |
+| @concepts/account-recovery-deanonymization.md | draft | Anonymity dies at recovery: SIM swap, SSO, recovery identity |
 | @concepts/hardware-bound-identity-anticheat-licensing.md | draft | AC/licensing HWID map (architecture; no spoof kits) |
 | @concepts/software-license-binding.md | draft | License design: bind ≥2 layers; repair paths; no keygens |
 | @concepts/anti-tamper-protection-classes.md | draft | Protection classes (integrity/pack/virtualize/heartbeat); classes not kits |

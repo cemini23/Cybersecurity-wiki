@@ -14,6 +14,13 @@ related:
   - sources/vanhoef-asiaccs2016-mac-randomization-not-enough.md
   - sources/kohno-2005-remote-physical-device-fingerprinting.md
   - sources/arxiv-1905-01051-browser-fingerprinting-survey.md
+  - concepts/metadata-traffic-analysis-anonymity.md
+  - concepts/censorship-circumvention-pluggable-transports.md
+  - sources/tor-support-entry-guards.md
+  - sources/murdoch-danezis-low-cost-traffic-analysis.md
+  - sources/tor-snowflake.md
+  - sources/tor-pluggable-transports.md
+  - sources/signal-sealed-sender.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-12
@@ -32,6 +39,13 @@ updated: 2026-08-12
 - @sources/vanhoef-asiaccs2016-mac-randomization-not-enough.md — random MAC ≠ unlinkability
 - @sources/kohno-2005-remote-physical-device-fingerprinting.md — clock skew survives IP/Tor path change
 - @sources/arxiv-1905-01051-browser-fingerprinting-survey.md — browser fingerprint lane vs host HWID
+- @concepts/metadata-traffic-analysis-anonymity.md — traffic-confirmation layer: AS/global observer still links via timing/volume
+- @concepts/censorship-circumvention-pluggable-transports.md — DPI/IP blocking is a different threat than traffic confirmation
+- @sources/tor-support-entry-guards.md — guard pinning vs a relay-controlling adversary
+- @sources/murdoch-danezis-low-cost-traffic-analysis.md — single-AS traffic confirmation (IEEE S&P 2005)
+- @sources/tor-snowflake.md — WebRTC volunteer-proxy pluggable transport
+- @sources/tor-pluggable-transports.md — PT class taxonomy (obfs4 / meek / FTE / ScrambleSuit)
+- @sources/signal-sealed-sender.md — sender hidden from service; destination + timing remain
 
 ## Raw Concept
 
