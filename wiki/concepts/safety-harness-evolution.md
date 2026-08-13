@@ -14,9 +14,10 @@ related:
   - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
   - concepts/decoding-level-taboo-diagnostic.md
   - concepts/faithful-agent-asr-measurement.md
+  - concepts/refusal-under-knowledge-withhold-contract.md
 maturity: draft
 created: 2026-08-11
-updated: 2026-08-12
+updated: 2026-08-13
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (K268)"
 ---
@@ -36,6 +37,7 @@ wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (K268)"
 - @concepts/decoding-level-taboo-diagnostic.md — decoding-time robustness diagnostic pairs with harness evolution to keep safety boundaries learned, not hard-coded
 - @concepts/faithful-agent-asr-measurement.md — harness-dependent ASR makes harness-evolution gains measurable only under a stated measuring tuple (K271)
 
+- @concepts/refusal-under-knowledge-withhold-contract.md
 ## Raw Concept
 
 Agent safety depends on the harness as much as the weights. Existing mechanisms (rules, runtime guardrails) are static after deployment; failures visible in trajectories cannot feed back into the safety boundary. This page captures the SHE pattern (2608.09885): make the harness an evolvable set of functionally decoupled artifacts and let trajectory failures drive bounded, validated refinements.

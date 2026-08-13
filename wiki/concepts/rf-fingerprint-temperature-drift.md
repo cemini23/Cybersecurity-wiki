@@ -10,9 +10,10 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/horffi-high-openness-rffi.md
   - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
+  - concepts/spectral-whitening-wireless-protocol-id.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-06
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -24,6 +25,7 @@ updated: 2026-08-06
 - @concepts/horffi-high-openness-rffi.md
 - @sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 
+- @concepts/spectral-whitening-wireless-protocol-id.md
 ## Raw Concept
 
 Hardware RF fingerprints shift with device temperature — classifiers that ignore T fail under unseen thermal conditions.

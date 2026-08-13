@@ -7,10 +7,11 @@ related:
   - concepts/hardware-id-masking-opsec.md
   - concepts/wireless-pentest.md
   - concepts/anonymity-networks.md
+  - concepts/association-inference-attack-wireless.md
 maturity: draft
 read_status: read
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-13
 phase_0_verdict: "REFERENCE 2026-08-12 — paper; no clone"
 wire_status: wont_wire
 wire_target: "REFERENCE — MAC randomization insufficiency evidence"
@@ -22,6 +23,7 @@ wire_target: "REFERENCE — MAC randomization insufficiency evidence"
 - @concepts/wireless-pentest.md — probe-request / fake-AP surfaces
 - @concepts/anonymity-networks.md — Tails MAC design is discussed in §2.1.4 of this paper
 
+- @concepts/association-inference-attack-wireless.md
 ## Raw Concept
 
 | Field | Value |

@@ -24,3 +24,10 @@ Harness behavior from Tool-Guard, HCP, AIRGuard, ADI. Clones under `raw-sources/
 - Separate **trusted** control fields from **untrusted** tool-return content; forged metadata/fake tool blocks bypass instruction-injection guards.
 - Do not let tool responses inject new tool blocks or elevate trust without an explicit harness gate.
 - Lab-validate ADI eval harnesses only against owned sandboxes; no LIVE targets.
+
+## Role specialization across tools (RSM / K277)
+
+- Assign each tool a **capability-matched responsibility domain** (Architect/Analyst/Specialist pattern) and enforce **scope boundaries** between phases — do not let one tool silently absorb all roles (e.g., a coding agent doing the audit, review, and config edit). Treat unplanned role-drift as a **coordination failure**, not a convenience.
+- Watch for the three drift drivers: absent scope boundaries, functional overlap between tools (model homogeneity increases it), and workflow inertia (context-switch cost beats restoring the plan).
+- Prompt hardening for file-system/terminal-capable agents: **explicit negative constraints** ("DO NOT run tools / create the file") when the task is pure content generation; beware constraint-density degradation as instruction count grows.
+- REFERENCE (RSM 2608.12311; Zenodo DOI not yet registered) — framework steal-from, no artifact install.

@@ -32,9 +32,11 @@ related:
   - concepts/account-recovery-deanonymization.md
   - concepts/endpoint-encryption-deniable-storage.md
   - concepts/hardened-alternative-operating-systems.md
+  - sources/arxiv-2608-11337-association-privacy-wireless-formal.md
+  - concepts/association-inference-attack-wireless.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-13
 wire_status: wont_wire
 wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls; no HWID-spoofer clones"
 ---
@@ -70,6 +72,8 @@ wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls
 - @concepts/endpoint-encryption-deniable-storage.md — at-rest confidentiality and identifier layers are separate OPSEC planes
 - @concepts/hardened-alternative-operating-systems.md — a hardened OS is not a new hardware identity (Pixel IMEI/baseband remain)
 
+- @sources/arxiv-2608-11337-association-privacy-wireless-formal.md
+- @concepts/association-inference-attack-wireless.md
 ## Raw Concept
 
 Operator asked whether the wiki covered hardware-ID masking for OPSEC/anonymity (2026-08-12). It did not. This page synthesizes academic evidence that **changing one identifier is not unlinkability**, plus first-party OS privacy controls (Android, Windows, Tails).

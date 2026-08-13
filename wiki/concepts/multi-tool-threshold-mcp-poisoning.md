@@ -12,9 +12,11 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
   - entities/tools/tool-guard.md
+  - sources/arxiv-2608-12311-rsm-role-specialization.md
+  - concepts/role-specialization-multi-tool-coordination.md
 maturity: draft
 created: 2026-06-26
-updated: 2026-07-31
+updated: 2026-08-13
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -25,6 +27,8 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/cross-tool-description-poisoning.md — prior art: metadata on tool A steers tool B (monolithic poison)
 - @concepts/mcp-security-posture.md — admission + catalog integrity layer
 
+- @sources/arxiv-2608-12311-rsm-role-specialization.md
+- @concepts/role-specialization-multi-tool-coordination.md
 ## Raw Concept
 
 Ingest 2026-06-26: arXiv:2606.27027 — **ShareLock** introduces cooperative multi-tool MCP poisoning where malicious instructions are split via **Shamir's threshold scheme** across tool descriptions; partial inspection reveals no payload.

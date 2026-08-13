@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 
@@ -171,6 +171,12 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - **K271 REDAgentBench (agent ASR discipline)** — for any agent-safety claim on the lab box: never quote a bare attack-success number; report `(harness, judging configuration, evaluation cue, judge backbone)` and verify harm from **service receipts / final-state diffs**, not the transcript (transcript-only judging missed 7.7–11.7 pp and re-labeled 13–21% of rollouts). If an agent *states the rule then violates it* (Recognition–Execution Gap, ~18% of confirmed violations), wire an **action-time policy reminder** at the action boundary (>70 pp confirmed-violation cut in replay). See `@concepts/faithful-agent-asr-measurement.md`.
 - **K270 GFlowNet attack-gen (lab-only)** — if you want automated, diversity-preserving LLM attack generation in the lab: GFlowNet attacker–victim–evaluator beats reward-max RL on attack diversity; report ASR **with the evaluator classifier** (swapping Qwen3Guard ↔ LlamaGuard flipped which attacker "won"). Authorized victims only; no public code → pattern REFERENCE. See `@concepts/gflownet-automated-redteam-attack-generation.md`.
 - **K272 Cross-lingual safety (eval scope)** — English-only safety eval ≠ low-resource-language safety (English refusal signal retains <10% in Twi/Hausa/Amharic/Swahili on 7B–8B models). If you deploy any local model to non-English users, eval in the target languages with **culturally localized** prompts, not literal translations; probing refusal directions needs weights (not API-only). See `@concepts/cross-lingual-safety-transfer-lrl.md`.
+
+### Deep-research add-ons (2026-08-13)
+
+- **K276 withhold contract (harness guardrail)** — for any agent lane that must *refuse a capability it has* (e.g., a coding agent that must not self-complete a sensitive action): enforce withholding as a **per-turn machine-checkable contract**, not a prompt — binding decision in a **non-LLM policy core fed only trusted state** (injection-proof + unit-testable), a **deterministic detector** for the forbidden output that outranks the model, and a **collusion-resistant judge** on risky turns. Calibrate with a reason-capturing loop (scripted personas → stronger auditor; record each rejection's reason — violations descend a gross→subtle ladder). Treat **over-blocking as a measured failure**; HITL before mutating a prod harness. See `@concepts/refusal-under-knowledge-withhold-contract.md`.
+- **K277 RSM (tool coordination)** — when you run several LLM tools on the box (Claude Code + Ollama local + a CLI), assign each an **explicit capability-matched role** and enforce scope boundaries; unplanned role drift (one tool silently absorbing another's job) is a coordination failure driven by absent scope boundaries + functional overlap + context-switch inertia. Prompt hardening: **explicit negative constraints** ("DO NOT run tools / create the file") for pure-content tasks. See `@concepts/role-specialization-multi-tool-coordination.md`.
+- **K275 AInf (product-pentest only)** — if a product under test has BLE or Wi-Fi Direct reconnection pairing: allowlist Association-Inference is the privacy failure class to check — any **distinguishable condition response** (ok/err, plaintext status, silent-discard, plaintext replay-counter echo) lets an observer infer device association + location via replay/relay. Mitigation pattern: condition-oblivious responses + fresh-session-key replay resistance + distance bounding. Authorized test devices only. See `@concepts/association-inference-attack-wireless.md`.
 
 ## Sources
 

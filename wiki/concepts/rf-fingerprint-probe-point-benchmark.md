@@ -13,9 +13,11 @@ related:
   - concepts/horffi-high-openness-rffi.md
   - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
   - concepts/hardware-id-masking-opsec.md
+  - sources/arxiv-2608-06581-whitenet-spectral-whitening.md
+  - concepts/spectral-whitening-wireless-protocol-id.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -30,6 +32,8 @@ updated: 2026-08-12
 - @sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 - @concepts/hardware-id-masking-opsec.md — RFFI identifies radios independent of MAC / software IDs
 
+- @sources/arxiv-2608-06581-whitenet-spectral-whitening.md
+- @concepts/spectral-whitening-wireless-protocol-id.md
 ## Raw Concept
 
 Where you tap the RX chain dominates open-set RFFI performance.

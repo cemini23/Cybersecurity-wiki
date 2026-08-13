@@ -9,9 +9,11 @@ related:
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+  - concepts/refusal-under-knowledge-withhold-contract.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -22,6 +24,8 @@ updated: 2026-07-29
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
 
+- @sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+- @concepts/refusal-under-knowledge-withhold-contract.md
 ## Raw Concept
 
 Why do some contextual framings kill refusal — and can we discover them mechanistically?

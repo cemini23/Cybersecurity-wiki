@@ -37,9 +37,11 @@ related:
   - concepts/ai-pentest-harness-landscape.md
   - entities/tools/strix.md
   - entities/tools/strix-omlx.md
+  - sources/arxiv-2608-11337-association-privacy-wireless-formal.md
+  - concepts/association-inference-attack-wireless.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -72,6 +74,8 @@ updated: 2026-08-02
 - @entities/tools/nvidia-skillspector.md — skill-poisoning findings follow vendor disclosure timelines
 - @concepts/agent-runtime-guardrails.md — agent guardrail bypass findings use same CVD process
 
+- @sources/arxiv-2608-11337-association-privacy-wireless-formal.md
+- @concepts/association-inference-attack-wireless.md
 Anchored by How to report a vulnerability + Dicas como Reportar uma Falha.
 
 ## Narrative

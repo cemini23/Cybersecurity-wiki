@@ -49,9 +49,12 @@ related:
   - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
   - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
+  - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+  - concepts/refusal-under-knowledge-withhold-contract.md
+  - concepts/role-specialization-multi-tool-coordination.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-07-31
+updated: 2026-08-13
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
@@ -63,6 +66,9 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 - @sources/arxiv-2606-03024-skillguard-permission-framework.md — SkillGuard permissions
 - @ccc-wiki/concepts/skill-vetting.md — Cemini Phase-0 skill audit (steal permission model)
 
+- @sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+- @concepts/refusal-under-knowledge-withhold-contract.md
+- @concepts/role-specialization-multi-tool-coordination.md
 ## Narrative
 
 K95 cluster (2026-06-03 daily digest): three papers on **agent skill / context injection** — platform-level confused-deputy poisoning (ChatGPT Apps), skill-file attack surfaces on coding agents, and **SkillGuard** permission framework.

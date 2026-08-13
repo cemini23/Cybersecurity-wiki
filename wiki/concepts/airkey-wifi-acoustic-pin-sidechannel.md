@@ -10,9 +10,10 @@ related:
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
   - concepts/inaudible-low-frequency-audio-attacks.md
+  - concepts/spectral-whitening-wireless-protocol-id.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-11
+updated: 2026-08-13
 wire_status: policy_wired
 ---
 
@@ -25,6 +26,7 @@ wire_status: policy_wired
 - @concepts/ai-for-cybersecurity.md
 - @concepts/inaudible-low-frequency-audio-attacks.md — cross-modal sensing sibling: inaudible LF audio exfiltration/red-team on LALM targets
 
+- @concepts/spectral-whitening-wireless-protocol-id.md
 ## Raw Concept
 
 Unauthenticated ACK-CSI plus cheap audio can recover PINs without joining the victim WLAN.

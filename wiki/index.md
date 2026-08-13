@@ -313,6 +313,15 @@
 | @concepts/zero-trust.md | draft | Identity-centric defense architecture |
 | @concepts/cyberwarfare.md | draft | Nation-state cyber operations |
 | @concepts/anonymity-networks.md | draft | Tor + I2P; hardware IDs are a separate plane |
+| @sources/arxiv-2608-06581-whitenet-spectral-whitening.md | draft | WhiteNet channel-robust overlapping 802.11 protocol ID (2608.06581; K274) |
+| @concepts/spectral-whitening-wireless-protocol-id.md | draft | Spectral whitening removes the channel envelope for RF protocol classification |
+| @sources/arxiv-2608-11337-association-privacy-wireless-formal.md | draft | Association inference / allowlist side-channel privacy (2608.11337; K275) |
+| @concepts/association-inference-attack-wireless.md | draft | Allowlist + replay/relay tracking; Tamarin-verified mitigation |
+| @sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md | draft | Tutor withhold supervisor + evidence-driven Socratic tuning (2608.12292; K276) |
+| @concepts/refusal-under-knowledge-withhold-contract.md | draft | Per-turn machine-checkable withhold contracts for LLM agents |
+| @sources/arxiv-2608-12311-rsm-role-specialization.md | draft | RSM multi-tool role coordination in agentic SE (2608.12311; K277) |
+| @concepts/role-specialization-multi-tool-coordination.md | draft | Explicit tool responsibility domains + role-drift detection |
+| @sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md | draft | OOD I2V agentic optimization (2608.12290) → image-gen |
 
 ### Education + ethics
 

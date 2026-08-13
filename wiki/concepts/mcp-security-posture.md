@@ -99,9 +99,13 @@ related:
   - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
   - concepts/inferscale-kv-injection-personalized-serving.md
   - sources/arxiv-2607-27090-inferscale-kv-injection.md
+  - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+  - concepts/refusal-under-knowledge-withhold-contract.md
+  - sources/arxiv-2608-12311-rsm-role-specialization.md
+  - concepts/role-specialization-multi-tool-coordination.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-31
+updated: 2026-08-13
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -133,6 +137,10 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/inferscale-kv-injection-personalized-serving.md
 - @sources/arxiv-2607-27090-inferscale-kv-injection.md
 
+- @sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+- @concepts/refusal-under-knowledge-withhold-contract.md
+- @sources/arxiv-2608-12311-rsm-role-specialization.md
+- @concepts/role-specialization-multi-tool-coordination.md
 ## Raw Concept
 
 K100 deep-read batch (2026-05-31): four arXiv papers defining **MCP/tool-server trust boundaries** for agent harness engineering — synthesized after arXiv HTML deep pass + PDF archive.

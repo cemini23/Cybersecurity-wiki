@@ -9,9 +9,11 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/network-security.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2608-06581-whitenet-spectral-whitening.md
+  - concepts/spectral-whitening-wireless-protocol-id.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -22,6 +24,8 @@ updated: 2026-08-05
 - @concepts/network-security.md
 - @concepts/ai-for-cybersecurity.md
 
+- @sources/arxiv-2608-06581-whitenet-spectral-whitening.md
+- @concepts/spectral-whitening-wireless-protocol-id.md
 ## Raw Concept
 
 802.11 broadcast is rate-capped (~54 Mbps) even on modern PHY — a forgotten bottleneck when spreading MoE experts across WLAN edge nodes.

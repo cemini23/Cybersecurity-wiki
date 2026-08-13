@@ -281,9 +281,10 @@ related:
   - concepts/cross-lingual-safety-transfer-lrl.md
   - sources/arxiv-2608-11044-ood-teammix-htc.md
   - sources/arxiv-2608-11121-ood-genai-statistical-research.md
+  - sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -447,6 +448,7 @@ updated: 2026-08-12
 - @sources/arxiv-2608-11044-ood-teammix-htc.md — OOD HTC classification contrast
 - @sources/arxiv-2608-11121-ood-genai-statistical-research.md — OOD statistics methodology contrast
 
+- @sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md
 ## Raw Concept
 
 Four-PDF series anchors this.

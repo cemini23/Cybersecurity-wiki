@@ -25,3 +25,5 @@ When adopting tools, enabling third-party Cursor skills/MCP, or the user asks to
    ```
 
 Agent runs this (not the user) for Cursor-related security checks. Summarize HIGH/CRITICAL findings; do not silently ignore CRITICAL.
+
+**Do not copy Cursor plugin vendor skills** (Cloudflare `turnstile-spin`, `wrangler`, …) into `~/.cursor/skills`. They load in every chat and fail federation preflight. Leave them in the plugin cache; enable the plugin when that work is in scope.

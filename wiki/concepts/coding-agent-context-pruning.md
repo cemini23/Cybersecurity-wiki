@@ -17,9 +17,11 @@ related:
   - concepts/blast-radius-reversible-context-eviction.md
   - sources/arxiv-2608-07440-blast-radius.md
   - entities/tools/blast-radius-necrophoresis.md
+  - sources/arxiv-2608-12311-rsm-role-specialization.md
+  - concepts/role-specialization-multi-tool-coordination.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -38,6 +40,8 @@ updated: 2026-08-10
 - @sources/arxiv-2608-07440-blast-radius.md
 - @entities/tools/blast-radius-necrophoresis.md
 
+- @sources/arxiv-2608-12311-rsm-role-specialization.md
+- @concepts/role-specialization-multi-tool-coordination.md
 ## Raw Concept
 
 Multi-turn coding agents drown in tool stdout. Pruning from the **agent's own hidden states** can cut tokens (~39%) without a separate classifier — and sometimes improve resolve rates.

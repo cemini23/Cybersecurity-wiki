@@ -263,6 +263,30 @@ Same-day Cybersec batch used **K270–K272** for GFlowNet / REDAgentBench / Cros
 - Prefer deterministic validation and dependency-aware impact before blast-radius harness edits.
 - No ACM product install until a clear SPDX'd artifact exists.
 
+## Convergent Detour Hijacking / CDH (CCC K274)
+
+- **Trajectory necessity is a security requirement** — final-answer correctness does not guarantee cost safety. Audit trajectories, not just outputs (pair K259 traceable scholarship).
+- Skill **selection metadata + instruction body are coupled control points** in progressive disclosure — one static skill can bridge the boundary.
+- **Pre-installation review**: routing claims must match declared skill role; body deps unrelated to role are a red flag.
+- **Runtime monitors**: flag unexplained cross-skill transitions; enforce token/invocation budgets for untrusted skills (budgets don't assume harmful behavior changes the output).
+- CDH is a text-only attack pattern — **no code/SPDX**; policy threat model only.
+
+## Multi-hop API + retrieval eval under tool-use policies (VAKRA / CCC K275)
+
+- **Eval axes**: API interaction paradigm (endpoint vs compositional), reasoning depth (2–5 hops), multi-source grounding, NL tool-use policy constraints.
+- Failures concentrate at **language-mediated reasoning** (entity disambiguation, cross-source grounding), not tool mechanics — measure those.
+- Policy-constrained / unanswerable queries are the hardest signal (2.4% frontier) — eval must include refusal/unanswerable detection.
+- Prefer **re-exec verification** against live APIs over self-report.
+- `IBM/vakra` **NO-GO clone** (CC-BY-NC-SA 4.0, verified LICENSE file) — eval axes ADOPT, HF dataset WATCH only.
+
+## Role Specialization Model / RSM (CCC K276)
+
+- **Explicit role distribution per tool** with stated responsibility domains; expect drift from absent scope boundaries, capability overlap, context-switching cost — orchestrator manages it.
+- **HITL verification of agent-generated outputs** before durable-artifact integration (no pure vibe coding).
+- **Prompt-hardening via explicit negative constraints** when agents with tool access attempt unavailable internal tools.
+- **Failure-backed instructions only** — over-detailed rule files reduce success + raise cost (pairs K273 ACM baseline discipline).
+- RSM is a case-study framework — no product install; policy pattern only.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.

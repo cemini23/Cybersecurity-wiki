@@ -1,3 +1,20 @@
+## [2026-08-13] ingest | K274–K277 full ingest (WhiteNet / wireless AInf / tutor withhold / RSM) + OOD I2V route
+
+Full ingest of 5 inbox arXiv PDFs (`wiki/sweeps/2026-08-13-daily.md`). LANE hard. All 4 in-scope papers **REFERENCE** (no public SPDX code at retrieval); OOD I2V routed to image-gen. K IDs K274–K277 (K270–K273 not reused).
+
+- **NEW** `@sources/arxiv-2608-06581-whitenet-spectral-whitening.md` + `@concepts/spectral-whitening-wireless-protocol-id.md` — **K274** REFERENCE: WhiteNet channel-robust identification of overlapping IEEE 802.11 across unseen channels (spectral whitening exploits channel-vs-modulation scale separation; synthetic overlap mixer; U-Net+NL 889K → 10K edge). Wireless spectrum-awareness / rogue-transmitter detection tradecraft
+- **NEW** `@sources/arxiv-2608-11337-association-privacy-wireless-formal.md` + `@concepts/association-inference-attack-wireless.md` — **K275** REFERENCE: allowlist-based Association Inference (AInf) attacks in BLE reconnection + Wi-Fi P2P persistent groups; Tamarin-verified mitigation (condition-oblivious responses + replay-resistance + distance bounding); Wi-Fi Alliance + Bluetooth SIG acknowledged
+- **NEW** `@sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md` + `@concepts/refusal-under-knowledge-withhold-contract.md` — **K276** REFERENCE: deployed tutor enforces answer-withholding as a per-turn machine-checkable contract (non-LLM policy core on trusted state, deterministic code detector, collusion-resistant judge, reason-capturing calibration loop → over-help ladder). Harness steal for any agent that must refuse a capability it has
+- **NEW** `@sources/arxiv-2608-12311-rsm-role-specialization.md` + `@concepts/role-specialization-multi-tool-coordination.md` — **K277** REFERENCE: Role Specialization Model coordinating Antigravity/Gemini CLI/Qwen Code (Architect/Analyst/Specialist); role-drift failure mode + prompt-hardening + ISO 25010 qualitative eval. Zenodo DOI not yet registered
+- **NEW** `@sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md` — OOD route: I2V Agentic Self-Improvement (Google) → image-gen wiki; `wont_wire`
+- **Updated** (bidirectional backlinks): wireless-pentest, wifi-broadcast-rate-edge-moe, rf-fingerprint-probe-point-benchmark, rf-fingerprint-temperature-drift, airkey-wifi-acoustic-pin-sidechannel, hardware-id-masking-opsec, responsible-disclosure, vanhoef-mac-randomization-not-enough, agent-runtime-guardrails, concept2scenario-refusal-suppression, mcp-security-posture, agent-skill-injection, safety-harness-evolution, coding-agent-context-pruning, multi-tool-threshold-mcp-poisoning, ai-for-cybersecurity, index.md
+- **Phase-0:** `scripts/adopt_k274_k277_phase0.sh` PASS — all 4 REFERENCE (no clones; WhiteNet no GitHub, 11337 pcloud-only artifact, 12292 deployed no code, 12311 Zenodo pending)
+- **Phase-1:** K274 + K275 → `cemini-cybersec-lab-redteam.mdc`; K276 → `cemini-cybersec-agent-audit.mdc`; K277 → `cemini-cybersec-mcp-tool-control.mdc`
+- **Briefs:** K274/K275/K276/K277 → prod (`scp cemini-prod:/opt/cemini/briefs/`); atto K276/K277 steal (genealogy-agent harness relevant); poker K276/K277 light steal; GuruWatcher nofit
+- **friend brief:** add-on 29 (K276 withhold-contract harness guardrail + K277 tool-coordination + K275 AInf product-pentest check)
+- **Archive:** 5 PDFs → egress-fi cybersec/
+- **Sweep:** `wiki/sweeps/2026-08-13-daily.md` retained (historical sweeps tracked)
+
 ## [2026-08-12] ingest | hardened alternative OSes (GrapheneOS / Qubes / Whonix / Kicksecure / Tails)
 
 Operator asked for more-secure alternate OSes; “Graphine” = **GrapheneOS**. Architecture + first-party docs. **Not** kits: no unofficial non-Pixel Graphene ports, no flash/unlock runbooks, no Magisk/PIF, no claiming any OS is anonymous.

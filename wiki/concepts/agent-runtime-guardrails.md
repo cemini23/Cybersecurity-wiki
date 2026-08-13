@@ -149,9 +149,13 @@ related:
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - concepts/faithful-agent-asr-measurement.md
   - entities/tools/redagentbench.md
+  - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+  - concepts/refusal-under-knowledge-withhold-contract.md
+  - sources/arxiv-2608-12311-rsm-role-specialization.md
+  - concepts/role-specialization-multi-tool-coordination.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-12
+updated: 2026-08-13
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -227,6 +231,10 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/faithful-agent-asr-measurement.md — state-grounded ASR + Recognition-Execution Gap (K271)
 - @entities/tools/redagentbench.md — harness/evidence-view-sensitive ASR reference (K271)
 
+- @sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
+- @concepts/refusal-under-knowledge-withhold-contract.md
+- @sources/arxiv-2608-12311-rsm-role-specialization.md
+- @concepts/role-specialization-multi-tool-coordination.md
 ## Raw Concept
 
 Synthesized from daily-digest inbox clusters (2026-06-01, 2026-06-02): seven arXiv papers on tool-using agent security — defensive guardrails (ePCA, AIRGuard, ChainCaps, AgentRedGuard), skill supply-chain scanning (ClawHub / SkillSpector), and attack/eval advances (sleeper attack, dual-surface injection, SaaS integration redteam).
