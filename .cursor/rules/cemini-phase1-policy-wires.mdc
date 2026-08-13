@@ -263,6 +263,10 @@ Same-day Cybersec batch used **K270–K272** for GFlowNet / REDAgentBench / Cros
 - Prefer deterministic validation and dependency-aware impact before blast-radius harness edits.
 - No ACM product install until a clear SPDX'd artifact exists.
 
+## CCC wave K274–K276 (shared policy file — dual-ID note)
+
+Same-day Cybersec batch used **K274–K277** for WhiteNet / wireless AInf / tutor-withhold / RSM in `cemini-cybersec-lab-redteam.mdc`, `cemini-cybersec-agent-audit.mdc`, and `cemini-cybersec-mcp-tool-control.mdc`. Numbers below are **CCC** harness-wave meanings (CDH / VAKRA / RSM). **RSM paper 2608.12311 = CCC K276 AND Cybersec K277** — resolve by file+wiki, not bare K#.
+
 ## Convergent Detour Hijacking / CDH (CCC K274)
 
 - **Trajectory necessity is a security requirement** — final-answer correctness does not guarantee cost safety. Audit trajectories, not just outputs (pair K259 traceable scholarship).
@@ -279,13 +283,13 @@ Same-day Cybersec batch used **K270–K272** for GFlowNet / REDAgentBench / Cros
 - Prefer **re-exec verification** against live APIs over self-report.
 - `IBM/vakra` **NO-GO clone** (CC-BY-NC-SA 4.0, verified LICENSE file) — eval axes ADOPT, HF dataset WATCH only.
 
-## Role Specialization Model / RSM (CCC K276)
+## Role Specialization Model / RSM (CCC K276 · Cybersec K277)
 
 - **Explicit role distribution per tool** with stated responsibility domains; expect drift from absent scope boundaries, capability overlap, context-switching cost — orchestrator manages it.
 - **HITL verification of agent-generated outputs** before durable-artifact integration (no pure vibe coding).
 - **Prompt-hardening via explicit negative constraints** when agents with tool access attempt unavailable internal tools.
 - **Failure-backed instructions only** — over-detailed rule files reduce success + raise cost (pairs K273 ACM baseline discipline).
-- RSM is a case-study framework — no product install; policy pattern only.
+- RSM is a case-study framework — no product install; policy pattern only. Cybersec domain wire: `cemini-cybersec-mcp-tool-control.mdc` §K277.
 
 ## Phase-1 meta
 
