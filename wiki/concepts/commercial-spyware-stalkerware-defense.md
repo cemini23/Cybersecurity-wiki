@@ -12,6 +12,8 @@ related:
   - sources/amnesty-mobile-verification-toolkit.md
   - sources/amnesty-pegasus-forensic-methodology.md
   - concepts/endpoint-encryption-deniable-storage.md
+  - concepts/hardened-alternative-operating-systems.md
+  - entities/tools/grapheneos.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -28,6 +30,8 @@ wire_status: wont_wire
 - @sources/amnesty-mobile-verification-toolkit.md — open-source forensic triage tool (IOCs; consensual use only)
 - @sources/amnesty-pegasus-forensic-methodology.md — what Pegasus-class infection actually leaves behind
 - @concepts/endpoint-encryption-deniable-storage.md — deniable storage does not beat a live implant; encryption is not a spyware defense
+- @concepts/hardened-alternative-operating-systems.md — Graphene/Qubes raise the exploit bar; they are not implant-proof
+- @entities/tools/grapheneos.md
 
 ## Raw Concept
 

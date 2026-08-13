@@ -6,6 +6,7 @@ keywords: [Tails, MAC anonymization, OUI, IMSI, IMEI, local network]
 related:
   - concepts/hardware-id-masking-opsec.md
   - concepts/anonymity-networks.md
+  - concepts/hardened-alternative-operating-systems.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -18,6 +19,7 @@ wire_status: wont_wire
 
 - @concepts/hardware-id-masking-opsec.md
 - @concepts/anonymity-networks.md — Tails is the Tor+amnesic live OS counterpart
+- @concepts/hardened-alternative-operating-systems.md — Tails = amnesic session; not Graphene/Qubes
 
 ## Raw Concept
 

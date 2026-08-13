@@ -28,6 +28,9 @@ related:
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
   - concepts/hardware-id-masking-opsec.md
+  - concepts/hardened-alternative-operating-systems.md
+  - entities/tools/qubes-os.md
+  - sources/qubes-os-intro.md
   - sources/kohno-2005-remote-physical-device-fingerprinting.md
   - entities/tools/ollama.md
   - entities/tools/vllm.md
@@ -62,6 +65,9 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 - @concepts/hardware-id-masking-opsec.md — disposable VMs are the practical HWID unlinkability control; clock skew can still fingerprint a physical host
+- @concepts/hardened-alternative-operating-systems.md — Qubes is the human workstation compartmentalization pattern; CUA/Lume is the agent sandbox
+- @entities/tools/qubes-os.md
+- @sources/qubes-os-intro.md
 - @sources/kohno-2005-remote-physical-device-fingerprinting.md — some VM clocks look unlike real hardware
 
 - @concepts/owned-target-whitehat-lab.md — owned whitehat lab floor; agent VMs stay on authorized lab targets only

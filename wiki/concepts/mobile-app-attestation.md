@@ -10,6 +10,8 @@ related:
   - sources/google-play-integrity-api.md
   - sources/apple-app-attest.md
   - concepts/secure-boot-vs-device-ownership.md
+  - concepts/hardened-alternative-operating-systems.md
+  - entities/tools/grapheneos.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -25,6 +27,8 @@ wire_target: "REFERENCE — first-party attestation APIs for owned mobile produc
 - @sources/google-play-integrity-api.md — Play Integrity verdicts + server verification
 - @sources/apple-app-attest.md — App Attest key/attestation flow + DeviceCheck bits
 - @concepts/secure-boot-vs-device-ownership.md — STRONG-tier attestation is the mobile face of the boot trust stack; custom-ROM users fail it
+- @concepts/hardened-alternative-operating-systems.md — Graphene relocks verified boot and still fails Google-certified STRONG
+- @entities/tools/grapheneos.md — if your app must serve Graphene users, do not binary-deny on STRONG
 
 ## Raw Concept
 

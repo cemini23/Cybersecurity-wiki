@@ -1,3 +1,18 @@
+## [2026-08-12] ingest | hardened alternative OSes (GrapheneOS / Qubes / Whonix / Kicksecure / Tails)
+
+Operator asked for more-secure alternate OSes; “Graphine” = **GrapheneOS**. Architecture + first-party docs. **Not** kits: no unofficial non-Pixel Graphene ports, no flash/unlock runbooks, no Magisk/PIF, no claiming any OS is anonymous.
+
+- **NEW** `@concepts/hardened-alternative-operating-systems.md` — pick by threat: Graphene (Pixel exploit/sandbox/verified-boot), Qubes (Xen containment), Kicksecure (hardened Debian, no forced Tor), Whonix (Kicksecure + Gateway/Workstation, all traffic via Tor), Tails (amnesic live), Calyx ≠ Graphene-class
+- **NEW** `@entities/tools/grapheneos.md` — official production **Pixels only**; relock bootloader (unlocked = incomplete install); sandboxed Play optional; hardened_malloc / MTE; still fails Google-certified Play Integrity STRONG
+- **NEW** `@entities/tools/qubes-os.md` — assume software will be exploited; confine to qubes; not a phone
+- **NEW sources (5):** GrapheneOS features; GrapheneOS FAQ; Qubes intro; Whonix About; Whonix vs Kicksecure. Vendor HTML, no PDF archives
+- **Updated** secure-boot-vs-device-ownership (Graphene relocks; STRONG is Google-certified-image, not merely locked bootloader), hardware-id-masking-opsec, anonymity-networks, system-hardening, agent-vm-sandboxing, commercial-spyware, mobile-app-attestation, operator-lab-playbook, tails MAC source, kali-linux (pentest suite ≠ daily-driver hardening), index.md
+- **Phase-0:** all REFERENCE `wont_wire`; no Graphene/Qubes tree clones
+- **Phase-1:** none
+- **Briefs:** friend playbook add-on 28 (OS pick by threat; Pixel Graphene; Qubes desktop; Whonix vs Kicksecure; no flash kits)
+- **friend brief:** updated
+- **Archive:** none (all sources vendor HTML)
+
 ## [2026-08-12] ingest | endpoint-encryption / deniable-storage classes + product build integrity (SLSA/sigstore) + Secure Boot vs device ownership
 
 Operator-requested follow-up batch (mid lane, Flash). Same OPSEC/product-defense floor. Architecture + first-party docs. **Not** kits: no hidden-volume / header-wipe procedures, no Secure Boot / DSE / Magisk / PIF bypass, no fake SLSA attestations.

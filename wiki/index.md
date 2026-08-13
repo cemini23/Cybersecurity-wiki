@@ -168,6 +168,7 @@
 | @concepts/anti-tamper-protection-classes.md | draft | Protection classes (integrity/pack/virtualize/heartbeat); classes not kits |
 | @concepts/mobile-app-attestation.md | draft | Play Integrity + App Attest; server verifies, client relays |
 | @concepts/secure-boot-vs-device-ownership.md | draft | Secure Boot/attestation trust stack vs device ownership (policy; no bypass) |
+| @concepts/hardened-alternative-operating-systems.md | draft | GrapheneOS / Qubes / Whonix / Kicksecure / Tails — pick by threat, not brand |
 | @concepts/endpoint-encryption-deniable-storage.md | draft | FDE ≠ anonymity; deniable-storage class (existence + limits, no how-to) |
 | @concepts/product-build-integrity-slsa-sigstore.md | draft | SLSA / Sigstore / reproducible-build release-integrity layer |
 | @sources/microsoft-hvci-memory-integrity.md | draft | HVCI / memory integrity (VBS kernel CI) |
@@ -363,6 +364,8 @@
 | @entities/tools/riot-vanguard.md | draft | Riot AC; boot-start or On-Demand (TPM EK + attestation) — not DFIR `vanguard` |
 | @entities/tools/denuvo.md | draft | Irdeto anti-tamper / kernel AC — REFERENCE |
 | @entities/tools/kali-linux.md | draft | Pentest Linux distribution (OffSec, 600+ tools) |
+| @entities/tools/grapheneos.md | draft | Hardened AOSP on Pixels (relock verified boot; not Play Integrity STRONG) |
+| @entities/tools/qubes-os.md | draft | Xen compartmentalization desktop (contain compromise; not a phone) |
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |
 | @entities/tools/fuzzyai.md | validated | LLM adversarial fuzz framework (CyberArk, Apache-2.0) |
@@ -634,6 +637,11 @@ The corpus inventory (file ID + title for every PDF) lives at `.scratch/drive_in
 - [SLM ensemble malware orchestration](concepts/slm-ensemble-malware-analysis-orchestration.md) — CCC cross-wiki
 - [ChainWatch MCP kill-chain detection](concepts/chainwatch-mcp-kill-chain-detection.md) — CCC cross-wiki
 - [arXiv ChainWatch MCP sequential detection](sources/arxiv-chainwatch-mcp-sequential-detection-2607.19432.md) — CCC cross-wiki stub
+- [GrapheneOS features](sources/grapheneos-features.md) — first-party hardening beyond AOSP 16
+- [GrapheneOS FAQ](sources/grapheneos-faq.md) — Pixel-only production; relock required
+- [Qubes OS intro](sources/qubes-os-intro.md) — Xen qubes; assume software will be exploited
+- [Whonix About](sources/whonix-about.md) — Gateway + Workstation, all traffic via Tor
+- [Whonix vs Kicksecure](sources/kicksecure-vs-whonix.md) — hardening vs forced-Tor anonymity
 
 ## Cross-wiki anchors
 

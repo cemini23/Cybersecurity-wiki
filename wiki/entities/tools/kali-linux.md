@@ -14,9 +14,10 @@ related:
   - sources/kali-for-2023-video-course.md
   - sources/python-ethical-hacking-masterclass.md
   - entities/tools/offensive-claude.md
+  - concepts/hardened-alternative-operating-systems.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-19
+updated: 2026-08-12
 ---
 
 ## Raw Concept
@@ -38,3 +39,4 @@ Debian-based Linux distribution purpose-built for penetration testing, security 
 - @sources/penetration-testing-with-kali-linux.md
 - @sources/kali-for-2023-video-course.md
 - @sources/python-ethical-hacking-masterclass.md — video course; sections 12–13 assume a Kali testing-lab + Linux-CLI environment
+- @concepts/hardened-alternative-operating-systems.md — Kali is an attack suite, not Graphene/Qubes-class daily-driver hardening

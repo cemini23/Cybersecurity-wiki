@@ -31,6 +31,7 @@ related:
   - concepts/metadata-traffic-analysis-anonymity.md
   - concepts/account-recovery-deanonymization.md
   - concepts/endpoint-encryption-deniable-storage.md
+  - concepts/hardened-alternative-operating-systems.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -67,6 +68,7 @@ wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls
 - @concepts/metadata-traffic-analysis-anonymity.md — hardware IDs are a separate plane from network-path metadata
 - @concepts/account-recovery-deanonymization.md — hardware keys / TPM-backed identity are a recovery-identity plane
 - @concepts/endpoint-encryption-deniable-storage.md — at-rest confidentiality and identifier layers are separate OPSEC planes
+- @concepts/hardened-alternative-operating-systems.md — a hardened OS is not a new hardware identity (Pixel IMEI/baseband remain)
 
 ## Raw Concept
 

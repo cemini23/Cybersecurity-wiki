@@ -23,6 +23,8 @@ related:
   - sources/signal-sealed-sender.md
   - concepts/endpoint-encryption-deniable-storage.md
   - concepts/secure-boot-vs-device-ownership.md
+  - concepts/hardened-alternative-operating-systems.md
+  - sources/whonix-about.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-12
@@ -49,7 +51,9 @@ updated: 2026-08-12
 - @sources/tor-pluggable-transports.md — PT class taxonomy (obfs4 / meek / FTE / ScrambleSuit)
 - @sources/signal-sealed-sender.md — sender hidden from service; destination + timing remain
 - @concepts/endpoint-encryption-deniable-storage.md — at-rest confidentiality is a separate plane from network-path anonymity
-- @concepts/secure-boot-vs-device-ownership.md — USB-boot anonymity (Tails) collides with Secure Boot policy
+- @concepts/secure-boot-vs-device-ownership.md — USB-boot anonymity (Tails) collides with locked Secure Boot policy
+- @concepts/hardened-alternative-operating-systems.md — Whonix/Tails vs Graphene/Qubes (different threats)
+- @sources/whonix-about.md — fail-closed Tor Gateway + Workstation
 
 ## Raw Concept
 

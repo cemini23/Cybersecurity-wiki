@@ -14,6 +14,9 @@ related:
   - sources/microsoft-hvci-memory-integrity.md
   - sources/riot-vanguard-on-demand-2026.md
   - sources/google-play-integrity-api.md
+  - concepts/hardened-alternative-operating-systems.md
+  - entities/tools/grapheneos.md
+  - sources/grapheneos-faq.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -33,6 +36,9 @@ wire_target: "REFERENCE — trust-stack vs ownership tension for product policy 
 - @sources/microsoft-hvci-memory-integrity.md — code-integrity gate (may loaded code execute)
 - @sources/riot-vanguard-on-demand-2026.md — Vanguard Pre-Check (25H2+, Secure Boot, TPM 2.0, VBS, HVCI, IOMMU)
 - @sources/google-play-integrity-api.md — MEETS_STRONG_INTEGRITY hardware-backed tier
+- @concepts/hardened-alternative-operating-systems.md — Graphene relocks verified boot; still not a Google-certified image
+- @entities/tools/grapheneos.md
+- @sources/grapheneos-faq.md — unlocked bootloader = incomplete Graphene install
 
 ## Raw Concept
 
@@ -57,7 +63,7 @@ What the stack buys: the machine you boot is the machine the OEM/vendor vouches 
 The same gates exclude the owner:
 
 - **Custom kernels / dual-boot** — booting a non-vendored OS image requires either a signed loader or disabling Secure Boot.
-- **Custom-ROM Android (GrapheneOS-class)** — a bootloader-unlocked, custom-OS device fails `MEETS_STRONG_INTEGRITY`; STRONG is designed around a locked, certified, unmodified device.
+- **Custom-ROM Android (GrapheneOS-class)** — GrapheneOS **relocks** the bootloader after install (unlocked = incomplete install). Apps that demand Play Integrity `MEETS_STRONG_INTEGRITY` still fail because STRONG is designed around a **Google-certified** stock image, not merely a locked bootloader. [CONFIRMED Graphene FAQ + Play Integrity; `@entities/tools/grapheneos.md`]
 - **Some anonymity setups** — Tails / USB-boot anonymity depends on booting an unsigned removable OS; on locked-down devices that path is closed by policy, not by user choice. (`@concepts/anonymity-networks.md` — the anonymity plane collides with the boot-trust plane.)
 - **License/attestation binding** — product bindings that lean on TPM attestation (e.g. `@concepts/software-license-binding.md`) may simply fail for owners who disabled the stack, forcing a customer-service re-bind path or a lower-trust fallback.
 
