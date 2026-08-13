@@ -8,6 +8,7 @@ related:
   - entities/tools/riot-vanguard.md
   - sources/microsoft-getruntimeattestationreport.md
   - concepts/game-hacking.md
+  - sources/microsoft-kernel-dma-protection.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -22,6 +23,7 @@ wire_status: wont_wire
 - @entities/tools/riot-vanguard.md
 - @sources/microsoft-getruntimeattestationreport.md
 - @concepts/game-hacking.md
+- @sources/microsoft-kernel-dma-protection.md — IOMMU fencing is one of the Pre-Check requirements
 
 ## Raw Concept
 

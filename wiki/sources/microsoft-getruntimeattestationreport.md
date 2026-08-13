@@ -8,6 +8,7 @@ related:
   - entities/tools/riot-vanguard.md
   - sources/riot-vanguard-on-demand-2026.md
   - concepts/windows-pentest.md
+  - sources/microsoft-hvci-memory-integrity.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -22,6 +23,7 @@ wire_status: wont_wire
 - @entities/tools/riot-vanguard.md — Vanguard On-Demand consumes this report
 - @sources/riot-vanguard-on-demand-2026.md
 - @concepts/windows-pentest.md
+- @sources/microsoft-hvci-memory-integrity.md — HVCI is the precondition for report generation
 
 ## Raw Concept
 

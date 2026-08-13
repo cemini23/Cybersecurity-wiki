@@ -9,6 +9,8 @@ related:
   - sources/microsoft-autopilot-motherboard-replacement.md
   - sources/microsoft-systemidentification-getsystemidforpublisher.md
   - sources/oofhours-autopilot-hardware-hash.md
+  - concepts/software-license-binding.md
+  - sources/microsoft-volume-activation-clients.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -24,6 +26,8 @@ wire_status: wont_wire
 - @sources/microsoft-autopilot-motherboard-replacement.md — same 4K HH used for Autopilot
 - @sources/microsoft-systemidentification-getsystemidforpublisher.md — publisher-scoped ID; distinct from OA3 hash
 - @sources/oofhours-autopilot-hardware-hash.md — OA3Tool critical-field list
+- @concepts/software-license-binding.md — the device-hash binding class this page anchors
+- @sources/microsoft-volume-activation-clients.md — the online-lease cousin (KMS/ADBA)
 
 ## Raw Concept
 

@@ -1,3 +1,21 @@
+## [2026-08-12] ingest | license-bind / anti-tamper / Windows CI / Joas / mobile attestation
+
+Lanes 1–5 of the "cracking research" handoff, kept to product-pentest / authorized-lab **architecture** (classes not kits). No keygens, unpackers, DRM bypasses, or ban-evasion material.
+
+- **NEW** `@concepts/software-license-binding.md` (lane 1) — bind to ≥2 of {account, device-hash, TPM/attestation, online lease}; repair paths (Autopilot / digital license / KMS lease); no keygens
+- **NEW** `@concepts/anti-tamper-protection-classes.md` (lane 2) — integrity / packing / virtualization / online-heartbeat / OS-trust-stack classes; Denuvo / VMProtect / Themida as class exemplars only
+- **NEW** `@concepts/mobile-app-attestation.md` (lane 5) — Play Integrity verdicts + App Attest / DeviceCheck; server verifies, client relays; no Magisk/PIF kits
+- **NEW sources:** Microsoft HVCI / memory integrity; Microsoft ELAM; Microsoft Kernel DMA Protection (IOMMU); Microsoft WDAC / App Control overview; Microsoft volume activation (KMS/ADBA/MAK); Revenera FlexNet; Irdeto Denuvo kernel AC + anti-piracy; Collberg & Thomborson IEEE TSE 2002 (skimmed — abstract elided, taxonomy details TENTATIVE); Google Play Integrity; Apple App Attest
+- **NEW entity:** Denuvo (REFERENCE, `wont_wire`)
+- **Lane 4:** Joas *Game Hacking 1* PDF fetched (Drive ID) + **read** (19 pages, link-index deck); AC component taxonomy p.12–13 ingested on anti-tamper-protection-classes; bypass-guide + UC thread titles catalog-only. Stub upgraded `unread-stub` → `read`. Archived to egress-fi.
+- **Updated** hardware-bound-identity (trust-stack subsection + lab rule 3), system-hardening (HVCI/ELAM/WDAC/IOMMU high-assurance clients), windows-pentest, mobile-pentest, game-hacking, av-edr-bypass, pre-release-product-pentest, OA3/Oofhours/Autopilot/Riot/GetRuntimeAttestationReport sources (bidirectional backlinks), index.md
+- **Phase-0:** all REFERENCE; no packer/DRM/crack clones; tuts4you/UnknownCheats unpack blogs = NO-GO existence-only (Dead Ends)
+- **Phase-1:** none — no ADOPT/GO runtime
+- **Briefs:** friend playbook add-on 25 (own license bind + mobile attestation; not cracking third-party DRM)
+- **friend brief:** updated
+- **Local adopts:** none
+- **Archive:** 1 PDF (joas-game-hacking-1.pdf) → egress-fi cybersec/ (local copy removed on success)
+
 ## [2026-08-12] ops | friend playbook harness host = agent-toolkit
 
 - Friend start-here: harness host row now `~/Projects/agent-toolkit` (TipDrop kit retired 2026-08-08; redirects only). `/route` v2.3: Flash vs Pro inside one `claude-ds`.

@@ -29,6 +29,7 @@ related:
   - entities/tools/bypassav.md
   - concepts/hardware-bound-identity-anticheat-licensing.md
   - sources/s4dbrd-kernel-anti-cheats.md
+  - concepts/anti-tamper-protection-classes.md
 maturity: validated
 created: 2026-05-12
 updated: 2026-08-12
@@ -61,6 +62,7 @@ updated: 2026-08-12
 - @entities/tools/nidhogg.md — kernel rootkit DKOM reference (GPL-3.0; defensive mapping only)
 - @concepts/hardware-bound-identity-anticheat-licensing.md — kernel AC uses the same callback surface as EDR
 - @sources/s4dbrd-kernel-anti-cheats.md — ObRegisterCallbacks / process-image callbacks shared with EDR
+- @concepts/anti-tamper-protection-classes.md — same detection surface from the protector's side
 
 ## Raw Concept
 

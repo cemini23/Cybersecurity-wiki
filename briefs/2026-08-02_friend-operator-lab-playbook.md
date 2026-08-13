@@ -202,6 +202,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@concepts/faithful-agent-asr-measurement.md` · `@concepts/gflownet-automated-redteam-attack-generation.md` · `@concepts/cross-lingual-safety-transfer-lrl.md` (K271/K270/K272; briefs 2026-08-12_k27*)
 - `@concepts/hardware-id-masking-opsec.md` (2026-08-12 ingest — identifier layers; MAC rand ≠ unlinkability; no HWID-spoofer kits)
 - `@concepts/hardware-bound-identity-anticheat-licensing.md` (2026-08-12 — AC/licensing identifier map for **owned** product / written-scope lab; not third-party unban)
+- `@concepts/software-license-binding.md` · `@concepts/anti-tamper-protection-classes.md` · `@concepts/mobile-app-attestation.md` (2026-08-12 — license-bind / anti-tamper / CI stack / mobile attestation; own product only, no kits)
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  
@@ -261,5 +262,7 @@ Read these wiki pages in order after the checklist above:
     Inventory identifier **layers** (firmware / TPM / MAC / OS install / browser / RF). Turn on OS MAC randomization; do **not** install HWID-spoofer kits. Isolation (Tails session / disposable VM) beats in-place spoof. Hands-on: `briefs/2026-08-12_hardware-id-opsec-checklist.md` (gitignored OK).
 24. **Own license / anti-cheat bind (2026-08-12)** — `@concepts/hardware-bound-identity-anticheat-licensing.md`  
     If you ship a license or AC on **your** product: bind to a multi-field hardware hash (OA3-style), not a single registry GUID; treat boot-start kernel AC as a different load-order class than demand-start; Vanguard On-Demand still uses TPM EK + driver attestation. Written scope before touching any third-party AC. Do **not** install HWID spoofers to unban someone else's title — Epic pled that as DMCA circumvention (`Epic v. Araujo`).
+25. **License bind + mobile attestation (2026-08-12)** — `@concepts/software-license-binding.md` + `@concepts/mobile-app-attestation.md` (+ `@concepts/anti-tamper-protection-classes.md`)  
+    For **your** product's license: bind to **≥2** of {account, device hash, TPM/attestation, online lease} — never a single registry GUID — and document a re-bind path the way Autopilot does. For **your** mobile app: Play Integrity (Android) + App Attest (iOS) verdicts must be verified **server-side**; never trust a client bool; don't cache verdicts (proxying). Anti-tamper is a class problem (integrity checks / packing / virtualization / server authority), not a brand problem. Out of scope: keygens, unpackers, DRM bypasses — architecture only, no kits.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

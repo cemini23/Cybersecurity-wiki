@@ -8,6 +8,7 @@ related:
   - concepts/hardware-id-masking-opsec.md
   - sources/microsoft-oa3-hardware-hash.md
   - sources/microsoft-autopilot-motherboard-replacement.md
+  - concepts/software-license-binding.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -22,6 +23,7 @@ wire_status: wont_wire
 - @concepts/hardware-id-masking-opsec.md — Autopilot hash is a composite identifier, not anonymity
 - @sources/microsoft-oa3-hardware-hash.md — first-party OA3 association
 - @sources/microsoft-autopilot-motherboard-replacement.md — official board-swap path when too many fields change at once
+- @concepts/software-license-binding.md — per-field matching is the reason one-field checks fail
 
 ## Raw Concept
 

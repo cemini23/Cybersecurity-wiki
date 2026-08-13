@@ -26,6 +26,14 @@ related:
   - entities/tools/battleye.md
   - entities/tools/easy-anti-cheat.md
   - entities/tools/riot-vanguard.md
+  - concepts/software-license-binding.md
+  - concepts/anti-tamper-protection-classes.md
+  - concepts/mobile-app-attestation.md
+  - sources/microsoft-hvci-memory-integrity.md
+  - sources/microsoft-elam.md
+  - sources/microsoft-kernel-dma-protection.md
+  - sources/irdeto-denuvo-anti-cheat-anti-tamper.md
+  - entities/tools/denuvo.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -57,6 +65,14 @@ wire_target: "REFERENCE — identifier map + AC/licensing architecture; no spoof
 - @entities/tools/battleye.md
 - @entities/tools/easy-anti-cheat.md
 - @entities/tools/riot-vanguard.md
+- @concepts/software-license-binding.md — license design consumes the same identifier map (2026-08-12 lanes 1–5)
+- @concepts/anti-tamper-protection-classes.md — protection classes AC/DRM instantiate
+- @concepts/mobile-app-attestation.md — mobile cousin: Secure Enclave / Play verdicts
+- @sources/microsoft-hvci-memory-integrity.md — hypervisor-enforced kernel CI (trust stack)
+- @sources/microsoft-elam.md — boot-start driver classification (trust stack)
+- @sources/microsoft-kernel-dma-protection.md — IOMMU fencing of hot-plug PCIe (trust stack)
+- @sources/irdeto-denuvo-anti-cheat-anti-tamper.md — vendor exemplar (kernel AC + anti-piracy)
+- @entities/tools/denuvo.md — Denuvo vendor entity (REFERENCE)
 
 ## Raw Concept
 
@@ -99,6 +115,8 @@ Three-component model (BattlEye as the public example): kernel driver + SYSTEM s
 
 ARES 2024 (arXiv 2408.00500): BattlEye and EAC showed only minor rootkit-like traits under their metrics; **FACEIT AC and Vanguard** classified as rootkit-like (boot/stealth/callback breadth). Capability ≠ malice — same Windows primitives as EDR. [CONFIRMED abstract]
 
+**The trust stack underneath (2026-08-12):** On-Demand-class AC/DRM consume a Windows trust stack, not just a driver: **ELAM** gives the OS a boot-start classifier; **HVCI** (memory integrity) enforces kernel code integrity from the hypervisor; **WDAC/App Control** is the policy allow-list; **IOMMU/Kernel DMA Protection** fences hostile peripherals. Riot Pre-Check (Secure Boot, TPM 2.0, VBS, HVCI, IOMMU) is exactly this stack. [CONFIRMED Microsoft Learn HVCI/ELAM/DMA + Riot 2026] Two consequences: (a) AC/DRM that *require* HVCI + attestation change the loader threat model — observation moves from "what loaded" to "what the secure kernel signs as loaded" (@sources/microsoft-getruntimeattestationreport.md); (b) a lab that disables these features is modelling a different, older target class.
+
 ### 3. Spoofer *classes* (adversary catalog, not a kit)
 
 Public RE describes three classes. This wiki records the class, not a procedure.
@@ -132,7 +150,7 @@ For **your** product: hash the same fields OA3 does, document a repair path like
 
 1. Written scope: owned anti-cheat, owned license server, or engagement letter. Not “I want to play on a banned Valorant account.”
 2. No clone of commercial HWID changers or mapper kits (`wont_wire`).
-3. Joas *Game Hacking 1 – Anti Cheat BYPASS* remains an **unread-stub** until the PDF is deep-read from Drive/egress.
+3. Joas *Game Hacking 1 – Anti Cheat BYPASS* upgraded 2026-08-12: PDF fetched, read (19 pages), archived to egress-fi. It is a link-index deck — only its AC-component taxonomy (p.12–13) is ingested; bypass-guide titles stay catalog-only.
 4. Pair with @concepts/av-edr-bypass.md: kernel AC callbacks look like EDR because they **are** the same APIs.
 
 ## Dead Ends

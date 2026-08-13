@@ -160,6 +160,19 @@
 | @sources/arxiv-2608-11121-ood-genai-statistical-research.md | draft | OOD GenAI in statistical research (2608.11121) |
 | @concepts/hardware-id-masking-opsec.md | draft | HWID layers + MAC rand ≠ unlinkability (OPSEC) |
 | @concepts/hardware-bound-identity-anticheat-licensing.md | draft | AC/licensing HWID map (architecture; no spoof kits) |
+| @concepts/software-license-binding.md | draft | License design: bind ≥2 layers; repair paths; no keygens |
+| @concepts/anti-tamper-protection-classes.md | draft | Protection classes (integrity/pack/virtualize/heartbeat); classes not kits |
+| @concepts/mobile-app-attestation.md | draft | Play Integrity + App Attest; server verifies, client relays |
+| @sources/microsoft-hvci-memory-integrity.md | draft | HVCI / memory integrity (VBS kernel CI) |
+| @sources/microsoft-elam.md | draft | Early Launch Anti-Malware boot classification |
+| @sources/microsoft-kernel-dma-protection.md | draft | IOMMU fencing of hot-plug PCIe (DMA) |
+| @sources/microsoft-wdac-appcontrol-overview.md | draft | App Control for Business / WDAC allow-list |
+| @sources/microsoft-volume-activation-clients.md | draft | KMS/ADBA/MAK lease activation |
+| @sources/flexera-flexnet-licensing.md | draft | FlexNet commercial entitlement stack |
+| @sources/irdeto-denuvo-anti-cheat-anti-tamper.md | draft | Denuvo kernel AC + anti-piracy vendor pages |
+| @sources/collberg-thomborson-software-protection-tools.md | draft | 2002 protection-taxonomy anchor (skimmed) |
+| @sources/google-play-integrity-api.md | draft | Play Integrity verdicts + server verification |
+| @sources/apple-app-attest.md | draft | App Attest Secure Enclave keys + DeviceCheck |
 | @sources/vanhoef-asiaccs2016-mac-randomization-not-enough.md | draft | AsiaCCS 2016 — random MAC not enough |
 | @sources/arxiv-1703-02874-mac-randomization-when-it-fails.md | draft | PETS 2017 MAC randomization failures (1703.02874) |
 | @sources/kohno-2005-remote-physical-device-fingerprinting.md | draft | Clock-skew physical device fingerprinting |
@@ -334,6 +347,7 @@
 | @entities/tools/battleye.md | draft | Third-party kernel AC (BEDaisy/BEService/BEClient) — REFERENCE |
 | @entities/tools/easy-anti-cheat.md | draft | Epic kernel AC (demand-start) — REFERENCE |
 | @entities/tools/riot-vanguard.md | draft | Riot AC; boot-start or On-Demand (TPM EK + attestation) — not DFIR `vanguard` |
+| @entities/tools/denuvo.md | draft | Irdeto anti-tamper / kernel AC — REFERENCE |
 | @entities/tools/kali-linux.md | draft | Pentest Linux distribution (OffSec, 600+ tools) |
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |

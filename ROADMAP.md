@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-12 | Ingest license-bind / anti-tamper / Windows CI stack / Joas / mobile attestation (3 concepts + 10 sources + 1 entity); Joas Game Hacking 1 read + archived; no kits | License design for owned products (bind ≥2 layers, re-bind paths); protection classes not kits; HVCI/ELAM/IOMMU/WDAC trust stack; Play Integrity + App Attest server-side verification |
 | 2026-08-12 | Ingest anti-cheat/licensing hardware-bound identity (1 concept + 11 sources + 3 entities); ARES 2408.00500 PDF to egress-fi; DeepSeek citation hunt for filtered URLs; no spoof clones | Identifier map for authorized product/lab RE; Vanguard On-Demand + TPM EK; OA3 field inventory; Epic HWID spoof as DMCA |
 | 2026-08-12 | Ingest hardware-ID masking OPSEC (11 new pages: 1 concept + 10 sources); friend playbook + checklist brief; 7 PDFs to egress-fi; no clones | Closed wiki gap for anonymity/OPSEC; MAC rand ≠ unlinkability evidenced 2016–2026 |
 | 2026-08-11 | Full ingest K267–K269 (ILL / SHE / Taboo) + OOD DoDTrack + OOD TTS-eval; SHE GO clone ~4.4MB Apache-2.0; Phase-1 K267/K268/K269 (lab-redteam + policy-wires + agent-audit); SHE renumbered off duplicate K265; prod+atto+GW+poker+CCC briefs | Inbox cleared; inaudible-LF audio attack+DRG, harness-evolution, decoding-time robustness coverage. Follow-ups: SHE headline ASR pending local repro; ILL/Taboo REFERENCE — re-check for public code before adopting as lab tools |

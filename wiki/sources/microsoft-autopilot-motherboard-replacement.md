@@ -9,6 +9,8 @@ related:
   - sources/microsoft-systemidentification-getsystemidforpublisher.md
   - sources/oofhours-autopilot-hardware-hash.md
   - concepts/windows-pentest.md
+  - concepts/software-license-binding.md
+  - sources/microsoft-volume-activation-clients.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -24,6 +26,8 @@ wire_status: wont_wire
 - @sources/microsoft-systemidentification-getsystemidforpublisher.md — publisher-scoped ID; not the Autopilot hash
 - @sources/oofhours-autopilot-hardware-hash.md — decode of the 4K HH fields
 - @concepts/windows-pentest.md
+- @concepts/software-license-binding.md — the canonical documented re-bind path
+- @sources/microsoft-volume-activation-clients.md — lease-model activation has no such hardware-change problem
 
 ## Raw Concept
 
