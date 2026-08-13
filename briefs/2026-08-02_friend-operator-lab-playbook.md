@@ -37,12 +37,13 @@ Cyber = **what to build** (lab, local AI, harnesses, ASVS, bounty). OSINT = **ho
 
 1. `@osint-wiki/entities/tools/fingerprint-suite.md` — browser fingerprint gen/injection  
 2. `@osint-wiki/entities/tools/octobrowser.md` — profile / antidetect separation  
-3. `@osint-wiki/entities/tools/arkham-intelligence.md` — what on-chain attribution looks like from the outside  
-4. `@osint-wiki/entities/tools/mitre-atlas.md` — AI-system adversarial taxonomy  
-5. `@osint-wiki/entities/tools/cua.md` — agent sandbox patterns (pairs cyber `@concepts/agent-vm-sandboxing.md`)  
-6. OSINT `CLAUDE.md` Phase-0 habit — don’t trust README `curl\|sh`; pairs cyber K220 hard stops  
+3. `@concepts/hardware-id-masking-opsec.md` — **host** HWID / MAC / TPM layers (Cyber; not the same as browser fingerprints)  
+4. `@osint-wiki/entities/tools/arkham-intelligence.md` — what on-chain attribution looks like from the outside  
+5. `@osint-wiki/entities/tools/mitre-atlas.md` — AI-system adversarial taxonomy  
+6. `@osint-wiki/entities/tools/cua.md` — agent sandbox patterns (pairs cyber `@concepts/agent-vm-sandboxing.md`)  
+7. OSINT `CLAUDE.md` Phase-0 habit — don’t trust README `curl\|sh`; pairs cyber K220 hard stops  
 
-**Lab OPSEC that stays in Cyber** (read with §1–2, not as OSINT substitutes): `@concepts/agent-vm-sandboxing.md`, `@concepts/system-hardening.md`, `@entities/tools/iron-proxy.md`, `@concepts/local-abliterated-llm-pentest-stack.md` (loopback-only).
+**Lab OPSEC that stays in Cyber** (read with §1–2, not as OSINT substitutes): `@concepts/agent-vm-sandboxing.md`, `@concepts/system-hardening.md`, `@entities/tools/iron-proxy.md`, `@concepts/local-abliterated-llm-pentest-stack.md` (loopback-only), `@concepts/hardware-id-masking-opsec.md` (identifier layers; OS MAC rand is necessary not sufficient; no HWID-spoofer kits).
 
 ### 0. Authorization floor
 
@@ -199,6 +200,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@entities/tools/black-cat.md` · `@entities/tools/cloakquest3r.md` · `@entities/tools/raccoon.md` · `@entities/tools/damn-vulnerable-drone.md`
 - `@concepts/safety-harness-evolution.md` · `@concepts/decoding-level-taboo-diagnostic.md` · `@concepts/inaudible-low-frequency-audio-attacks.md` (K268/K269/K267; briefs 2026-08-11_k26*)
 - `@concepts/faithful-agent-asr-measurement.md` · `@concepts/gflownet-automated-redteam-attack-generation.md` · `@concepts/cross-lingual-safety-transfer-lrl.md` (K271/K270/K272; briefs 2026-08-12_k27*)
+- `@concepts/hardware-id-masking-opsec.md` (2026-08-12 ingest — identifier layers; MAC rand ≠ unlinkability; no HWID-spoofer kits)
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  
@@ -254,5 +256,7 @@ Read these wiki pages in order after the checklist above:
 21. **Post-training taxonomy (K250)** — `@concepts/post-training-adaptation-taxonomy.md`  
     When documenting path-A abliteration / FT / unlearning, use the six axes. Pair with DataShield + Gradient Immunity.
 22. **HarnessOpt (K252)** — light: do not unbounded auto-optimize your agent harness; keep HITL + rollback (`@concepts/harnessopt-bench.md`). NL→LTL (K251) only if you formalize security requirements.
+23. **Hardware ID / OPSEC (2026-08-12)** — `@concepts/hardware-id-masking-opsec.md`  
+    Inventory identifier **layers** (firmware / TPM / MAC / OS install / browser / RF). Turn on OS MAC randomization; do **not** install HWID-spoofer kits. Isolation (Tails session / disposable VM) beats in-place spoof. Hands-on: `briefs/2026-08-12_hardware-id-opsec-checklist.md` (gitignored OK).
 
 Operator hub: `@concepts/operator-lab-playbook.md`

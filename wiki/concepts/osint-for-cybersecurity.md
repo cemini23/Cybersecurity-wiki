@@ -41,9 +41,10 @@ related:
   - entities/tools/cloakquest3r.md
   - entities/tools/raccoon.md
   - entities/tools/torbot.md
+  - concepts/hardware-id-masking-opsec.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -52,6 +53,7 @@ updated: 2026-08-03
 - @entities/tools/cloakquest3r.md — MIT origin-IP / reverse-proxy recon
 - @entities/tools/raccoon.md — MIT recon/vuln scanner
 - @entities/tools/torbot.md — Tor crawler Reference-only (GPL-3)
+- @concepts/hardware-id-masking-opsec.md — host HWID / MAC OPSEC for collection anonymity (not browser fingerprint-suite)
 
 
 - @entities/tools/maltego.md

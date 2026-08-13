@@ -158,6 +158,17 @@
 | @concepts/cross-lingual-safety-transfer-lrl.md | draft | English-only safety ≠ LRL safety; localized prompts |
 | @sources/arxiv-2608-11044-ood-teammix-htc.md | draft | OOD TEAMMix hierarchical text classification (2608.11044) |
 | @sources/arxiv-2608-11121-ood-genai-statistical-research.md | draft | OOD GenAI in statistical research (2608.11121) |
+| @concepts/hardware-id-masking-opsec.md | draft | HWID layers + MAC rand ≠ unlinkability (OPSEC) |
+| @sources/vanhoef-asiaccs2016-mac-randomization-not-enough.md | draft | AsiaCCS 2016 — random MAC not enough |
+| @sources/arxiv-1703-02874-mac-randomization-when-it-fails.md | draft | PETS 2017 MAC randomization failures (1703.02874) |
+| @sources/kohno-2005-remote-physical-device-fingerprinting.md | draft | Clock-skew physical device fingerprinting |
+| @sources/arxiv-1905-01051-browser-fingerprinting-survey.md | draft | Laperdrix TWEB browser-fingerprint survey |
+| @sources/arxiv-2201-09956-drawn-apart-gpu-fingerprinting.md | draft | DrawnApart GPU EU fingerprint (NDSS 2022) |
+| @sources/arxiv-2507-02478-statefi-wifi-fsm-fingerprinting.md | draft | StateFi FSM de-randomization (2507.02478) |
+| @sources/arxiv-2606-25788-ml-mac-randomization.md | draft | ML clustering vs MAC randomization (2606.25788) |
+| @sources/microsoft-systemidentification-getsystemidforpublisher.md | draft | Windows TPM/UEFI system ID persists reimage |
+| @sources/tails-mac-address-anonymization.md | draft | Tails default MAC anonymization (LAN only) |
+| @sources/android-aosp-wifi-mac-randomization.md | draft | Android 10+ per-SSID randomized MAC |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
 | @concepts/cogate-confidence-gated-secure-code.md | draft | Gate security co-decoding on expert confidence |
 | @concepts/aispa-system-prompt-assurance-audit.md | draft | Eight-dimension protective vs problematic prompt audit |
@@ -261,7 +272,7 @@
 | @concepts/game-hacking.md | draft | Anti-cheat bypass as RE practice |
 | @concepts/zero-trust.md | draft | Identity-centric defense architecture |
 | @concepts/cyberwarfare.md | draft | Nation-state cyber operations |
-| @concepts/anonymity-networks.md | draft | Tor + I2P |
+| @concepts/anonymity-networks.md | draft | Tor + I2P; hardware IDs are a separate plane |
 
 ### Education + ethics
 

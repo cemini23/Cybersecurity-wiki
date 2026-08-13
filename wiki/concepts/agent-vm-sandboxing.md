@@ -27,6 +27,8 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
+  - concepts/hardware-id-masking-opsec.md
+  - sources/kohno-2005-remote-physical-device-fingerprinting.md
   - entities/tools/ollama.md
   - entities/tools/vllm.md
   - entities/tools/cyberstrike.md
@@ -40,7 +42,7 @@ related:
   - entities/tools/hexstrike-ai.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-02
+updated: 2026-08-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
@@ -59,6 +61,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 - @entities/tools/ollama.md — local LLM runtime used in the abliterated pentest-assist stack
 
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
+- @concepts/hardware-id-masking-opsec.md — disposable VMs are the practical HWID unlinkability control; clock skew can still fingerprint a physical host
+- @sources/kohno-2005-remote-physical-device-fingerprinting.md — some VM clocks look unlike real hardware
 
 - @concepts/owned-target-whitehat-lab.md — owned whitehat lab floor; agent VMs stay on authorized lab targets only
 - @entities/tools/cua.md — current reference implementation on M-series Macs

@@ -27,14 +27,16 @@ related:
   - sources/penligent-bug-bounty-hunter-software-2026.md
   - entities/tools/strix-omlx.md
   - entities/tools/damn-vulnerable-drone.md
+  - concepts/hardware-id-masking-opsec.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-05
+updated: 2026-08-12
 ---
 
 ## Relations
 
 - @entities/tools/damn-vulnerable-drone.md — K220 optional niche owned lab (drone/MAVLink)
+- @concepts/hardware-id-masking-opsec.md — lab/collection OPSEC: identifier layers; MAC rand ≠ unlinkability
 - @entities/tools/strix-omlx.md
 - @sources/penligent-bug-bounty-hunter-software-2026.md — 2026 bounty stack roundup
 - @sources/github-cyberstrike.md — CyberStrike Phase-0 source snapshot

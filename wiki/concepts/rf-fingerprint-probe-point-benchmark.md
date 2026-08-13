@@ -12,9 +12,10 @@ related:
   - sources/arxiv-2607-25070-rffi-device-temperature.md
   - concepts/horffi-high-openness-rffi.md
   - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
+  - concepts/hardware-id-masking-opsec.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-08-06
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -27,6 +28,7 @@ updated: 2026-08-06
 - @sources/arxiv-2607-25070-rffi-device-temperature.md
 - @concepts/horffi-high-openness-rffi.md
 - @sources/arxiv-2608-04881-horffi-high-openness-rffi.md
+- @concepts/hardware-id-masking-opsec.md — RFFI identifies radios independent of MAC / software IDs
 
 ## Raw Concept
 

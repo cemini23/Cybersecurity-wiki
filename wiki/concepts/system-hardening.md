@@ -15,9 +15,11 @@ related:
   - entities/tools/vpn-self-hosted.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
+  - concepts/hardware-id-masking-opsec.md
+  - sources/microsoft-systemidentification-getsystemidforpublisher.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-08-02
+updated: 2026-08-12
 ---
 
 ## Raw Concept
@@ -42,3 +44,5 @@ Process of reducing a system's attack surface by removing unnecessary services, 
 - @entities/tools/betterleaks.md — CEL+BPE secrets scanner — pre-IP-sale codebase audit / credential-exposure hardening
 - @entities/tools/openvpn-install.md — hardened OpenVPN deployment automation; secure-defaults server config reference
 - @entities/tools/vpn-self-hosted.md — VPN tool hub; hardened VPN configs as system-hardening reference pattern
+- @concepts/hardware-id-masking-opsec.md — enable OS MAC randomization; TPM-backed Windows IDs survive reimage
+- @sources/microsoft-systemidentification-getsystemidforpublisher.md — check SystemIdentification Source (TPM/UEFI vs registry)

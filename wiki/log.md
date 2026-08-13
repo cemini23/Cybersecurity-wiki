@@ -1,3 +1,18 @@
+## [2026-08-12] ingest | hardware-ID masking for OPSEC / anonymity
+
+Operator-requested ingest (wiki gap). No daily-sweep inbox; PDFs fetched to `research to be indexed/` then archived.
+
+- **NEW** `@concepts/hardware-id-masking-opsec.md` — identifier **layers**; OS MAC rand is necessary not sufficient; isolation > in-place spoof; no HWID-spoofer kits (`wont_wire`)
+- **NEW sources:** Vanhoef AsiaCCS 2016; Martin PETS 2017 / 1703.02874; Kohno 2005 clock skew; Laperdrix 1905.01051; DrawnApart 2201.09956 (NO-GO clone); StateFi 2507.02478; Puig 2606.25788; Microsoft SystemIdentification; Tails MAC docs; Android AOSP MAC randomization
+- **Updated** anonymity-networks, osint-for-cybersecurity, wireless-pentest, agent-vm-sandboxing, system-hardening, operator-lab-playbook, game-hacking (explicit out-of-scope for ban evasion), rf-fingerprint-probe-point, windows-pentest, mobile-pentest, index.md
+- **Cross-wiki:** `@osint-wiki/entities/tools/fingerprint-suite.md` backlink (browser fingerprint ≠ host HWID)
+- **Phase-0:** all REFERENCE; no clones (DrawnApart GitHub is a tracker artifact)
+- **Phase-1:** none — no ADOPT/GO runtime
+- **Briefs:** `briefs/2026-08-12_hardware-id-opsec-checklist.md` (gitignored); friend playbook OPSEC reading order + add-on 23
+- **friend brief:** updated
+- **Local adopts:** none
+- **Archive:** 7 PDFs → egress-fi cybersec/ (local copies removed on success)
+
 ## [2026-08-12] ingest | K270–K272 (GFlowNet / REDAgentBench / Cross-lingual safety) + 2 OOD routes
 
 **Inbox**: 5 NEW arXiv PDFs from `wiki/sweeps/2026-08-12-daily.md`.
