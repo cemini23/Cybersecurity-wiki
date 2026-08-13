@@ -29,7 +29,7 @@ wire_status: wont_wire
 - **Title:** Game Hacking 1 – Anti Cheat BYPASS
 - **Author:** Joas A Santos (see @entities/people/joas-a-santos.md)
 - **Type:** PDF slide deck, 19 pages — curated **link-index** (reference lists), not a prose how-to
-- **Location:** canonical `cemeni-egress-fi:/opt/cemini-bulk/research/cybersec/joas-game-hacking-1.pdf` (archived 2026-08-12); source Google Drive — `ebooks Joas` folder, file ID `1SbpXx6D6VSVFhtMxXEAyT2VGW01x0_Pq`
+- **Location:** canonical `cemini-egress-fi:/opt/cemini-bulk/research/cybersec/joas-game-hacking-1.pdf` (archived 2026-08-12); source Google Drive — `ebooks Joas` folder, file ID `1SbpXx6D6VSVFhtMxXEAyT2VGW01x0_Pq`
 - **Retrieved:** 2026-08-12 (downloaded + full text extracted; catalogued as stub 2026-05-12)
 - **Read status:** read (19/19 pages; text extraction, no page images)
 
