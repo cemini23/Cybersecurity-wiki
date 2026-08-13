@@ -8,6 +8,7 @@ related:
   - concepts/system-hardening.md
   - sources/microsoft-hvci-memory-integrity.md
   - sources/microsoft-wdac-appcontrol-overview.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -22,6 +23,7 @@ wire_status: wont_wire
 - @concepts/system-hardening.md — pre-OS trusted boot control
 - @sources/microsoft-hvci-memory-integrity.md — sibling trust-stack layer (post-boot code integrity)
 - @sources/microsoft-wdac-appcontrol-overview.md — sibling trust-stack layer (policy allow-list)
+- @concepts/secure-boot-vs-device-ownership.md — the boot-trust stack's owner-exclusion trade-off
 
 ## Raw Concept
 

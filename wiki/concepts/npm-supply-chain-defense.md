@@ -16,6 +16,7 @@ related:
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/authority-framing-agentic-cicd.md
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
+  - concepts/product-build-integrity-slsa-sigstore.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-07-22
@@ -28,6 +29,7 @@ updated: 2026-07-22
 - @concepts/defense-in-depth.md — package-manager hardening as one layer of a layered defensive strategy
 - @concepts/system-hardening.md — release-age cooldown + version pinning as attack-surface reduction
 - `@osint-wiki/concepts/npm-supply-chain-defense.md` — full concept page (origin, distilled)
+- @concepts/product-build-integrity-slsa-sigstore.md — release-artifact layer (provenance / signatures) composes with this dependency layer
 - `@osint-wiki/sources/npm-supply-chain-defense-prompt-2026-05.md` — original prompt source
 - @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanning (extends npm-style defense to skills)
 - @concepts/coding-agent-supply-chain-install-gap.md — agent auto-install needs pre-install gate beyond cooldown

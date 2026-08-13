@@ -13,6 +13,7 @@ related:
   - sources/irdeto-denuvo-anti-cheat-anti-tamper.md
   - sources/collberg-thomborson-software-protection-tools.md
   - concepts/pre-release-product-pentest.md
+  - concepts/product-build-integrity-slsa-sigstore.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -31,6 +32,7 @@ wire_target: "REFERENCE — protection *classes* for owned-product design and la
 - @sources/irdeto-denuvo-anti-cheat-anti-tamper.md — first-party anti-piracy + kernel AC product pages
 - @sources/collberg-thomborson-software-protection-tools.md — 2002 taxonomy anchor (obfuscation / tamper-proofing / watermarking)
 - @concepts/pre-release-product-pentest.md — "strip the protection" rehearsal belongs in the pre-launch loop
+- @concepts/product-build-integrity-slsa-sigstore.md — client tamper-resistance is downstream of shipping the binary you built
 
 ## Raw Concept
 

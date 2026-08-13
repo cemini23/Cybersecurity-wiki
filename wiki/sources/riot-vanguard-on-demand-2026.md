@@ -9,6 +9,7 @@ related:
   - sources/microsoft-getruntimeattestationreport.md
   - concepts/game-hacking.md
   - sources/microsoft-kernel-dma-protection.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -24,6 +25,7 @@ wire_status: wont_wire
 - @sources/microsoft-getruntimeattestationreport.md
 - @concepts/game-hacking.md
 - @sources/microsoft-kernel-dma-protection.md — IOMMU fencing is one of the Pre-Check requirements
+- @concepts/secure-boot-vs-device-ownership.md — Pre-Check is the AC face of the boot trust stack; custom-device owners fail it
 
 ## Raw Concept
 

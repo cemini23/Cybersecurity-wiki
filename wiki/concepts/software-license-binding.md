@@ -13,6 +13,7 @@ related:
   - sources/microsoft-volume-activation-clients.md
   - sources/flexera-flexnet-licensing.md
   - sources/collberg-thomborson-software-protection-tools.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -31,6 +32,7 @@ wire_target: "REFERENCE — license-binding architecture for owned-product desig
 - @sources/microsoft-volume-activation-clients.md — the online-lease side (KMS/ADBA 180-day model)
 - @sources/flexera-flexnet-licensing.md — commercial floating/node-locked entitlement stack
 - @sources/collberg-thomborson-software-protection-tools.md — tamper-proofing is what keeps the binding check intact
+- @concepts/secure-boot-vs-device-ownership.md — TPM/attestation-backed binding rides the boot trust stack; owners who disable it may fail binding
 
 ## Raw Concept
 

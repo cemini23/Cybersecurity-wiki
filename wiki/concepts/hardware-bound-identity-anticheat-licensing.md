@@ -34,6 +34,7 @@ related:
   - sources/microsoft-kernel-dma-protection.md
   - sources/irdeto-denuvo-anti-cheat-anti-tamper.md
   - entities/tools/denuvo.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -73,6 +74,7 @@ wire_target: "REFERENCE — identifier map + AC/licensing architecture; no spoof
 - @sources/microsoft-kernel-dma-protection.md — IOMMU fencing of hot-plug PCIe (trust stack)
 - @sources/irdeto-denuvo-anti-cheat-anti-tamper.md — vendor exemplar (kernel AC + anti-piracy)
 - @entities/tools/denuvo.md — Denuvo vendor entity (REFERENCE)
+- @concepts/secure-boot-vs-device-ownership.md — Vanguard Pre-Check consumes the same boot trust stack; ownership vs attestation tension
 
 ## Raw Concept
 

@@ -11,6 +11,7 @@ related:
   - sources/apple-lockdown-mode.md
   - sources/amnesty-mobile-verification-toolkit.md
   - sources/amnesty-pegasus-forensic-methodology.md
+  - concepts/endpoint-encryption-deniable-storage.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -26,6 +27,7 @@ wire_status: wont_wire
 - @sources/apple-lockdown-mode.md — first-party extreme-protection mode
 - @sources/amnesty-mobile-verification-toolkit.md — open-source forensic triage tool (IOCs; consensual use only)
 - @sources/amnesty-pegasus-forensic-methodology.md — what Pegasus-class infection actually leaves behind
+- @concepts/endpoint-encryption-deniable-storage.md — deniable storage does not beat a live implant; encryption is not a spyware defense
 
 ## Raw Concept
 

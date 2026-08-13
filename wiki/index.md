@@ -167,8 +167,18 @@
 | @concepts/software-license-binding.md | draft | License design: bind ≥2 layers; repair paths; no keygens |
 | @concepts/anti-tamper-protection-classes.md | draft | Protection classes (integrity/pack/virtualize/heartbeat); classes not kits |
 | @concepts/mobile-app-attestation.md | draft | Play Integrity + App Attest; server verifies, client relays |
+| @concepts/secure-boot-vs-device-ownership.md | draft | Secure Boot/attestation trust stack vs device ownership (policy; no bypass) |
+| @concepts/endpoint-encryption-deniable-storage.md | draft | FDE ≠ anonymity; deniable-storage class (existence + limits, no how-to) |
+| @concepts/product-build-integrity-slsa-sigstore.md | draft | SLSA / Sigstore / reproducible-build release-integrity layer |
 | @sources/microsoft-hvci-memory-integrity.md | draft | HVCI / memory integrity (VBS kernel CI) |
 | @sources/microsoft-elam.md | draft | Early Launch Anti-Malware boot classification |
+| @sources/microsoft-secure-boot.md | draft | UEFI Secure Boot signature chain (PK/KEK/db/dbx) |
+| @sources/microsoft-bitlocker-overview.md | draft | BitLocker FDE overview (lost-disk threat model) |
+| @sources/apple-filevault.md | draft | FileVault macOS FDE (login-gated at-rest) |
+| @sources/veracrypt-hidden-volumes.md | draft | Hidden-volume architecture (deniable-storage class) |
+| @sources/slsa-supply-chain-levels.md | draft | SLSA v1.0 build track L0–L3 provenance |
+| @sources/sigstore-overview.md | draft | Keyless signing (Fulcio/Rekor/Cosign) |
+| @sources/reproducible-builds.md | draft | Deterministic build + independent verification |
 | @sources/microsoft-kernel-dma-protection.md | draft | IOMMU fencing of hot-plug PCIe (DMA) |
 | @sources/microsoft-wdac-appcontrol-overview.md | draft | App Control for Business / WDAC allow-list |
 | @sources/microsoft-volume-activation-clients.md | draft | KMS/ADBA/MAK lease activation |

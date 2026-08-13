@@ -7,6 +7,7 @@ related:
   - concepts/mobile-app-attestation.md
   - concepts/mobile-pentest.md
   - concepts/pre-release-product-pentest.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -20,6 +21,7 @@ wire_status: wont_wire
 - @concepts/mobile-app-attestation.md — the Android half of the attestation map
 - @concepts/mobile-pentest.md — client surface a mobile pentest must test server-side
 - @concepts/pre-release-product-pentest.md — attestation checks in the mobile product ship bar
+- @concepts/secure-boot-vs-device-ownership.md — STRONG-tier hardware-backed verdicts; the ownership trade-off
 
 ## Raw Concept
 

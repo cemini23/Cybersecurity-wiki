@@ -1,3 +1,18 @@
+## [2026-08-12] ingest | endpoint-encryption / deniable-storage classes + product build integrity (SLSA/sigstore) + Secure Boot vs device ownership
+
+Operator-requested follow-up batch (mid lane, Flash). Same OPSEC/product-defense floor. Architecture + first-party docs. **Not** kits: no hidden-volume / header-wipe procedures, no Secure Boot / DSE / Magisk / PIF bypass, no fake SLSA attestations.
+
+- **NEW** `@concepts/endpoint-encryption-deniable-storage.md` — FDE (BitLocker/FileVault/LUKS) protects the *lost disk*, not the running OS; TPM-only unlock is seamless; deniable-storage (VeraCrypt hidden volume) hides a second filesystem from a coerced password, exists only if usage rules hold, and does **not** beat live malware (`@concepts/commercial-spyware-stalkerware-defense.md`); FDE ≠ anonymity
+- **NEW** `@concepts/product-build-integrity-slsa-sigstore.md` — release-artifact layer vs npm dependency-pinning layer; SLSA v1.0 build track L0–L3 (L1 provenance, L2 signed hosted-build provenance, L3 hardened builds); Sigstore keyless signing (Fulcio/Rekor/Cosign, OIDC identity); reproducible-build criteria; verify on the update path
+- **NEW** `@concepts/secure-boot-vs-device-ownership.md` — the same stack that stops evil-maid/bootkits (Secure Boot PK/KEK/db/dbx, ELAM, HVCI, Play Integrity STRONG, Vanguard Pre-Check) denies the owner custom kernels / dual-boot / some anonymity setups; product policy options (lock STRONG vs allow custom at lower trust); operator: Secure Boot on for daily driver, written-scope lab exceptions
+- **NEW sources (7):** VeraCrypt hidden volumes (architecture only); Microsoft BitLocker overview; Apple FileVault; SLSA v1.0 levels; Sigstore overview; Reproducible Builds; Microsoft Secure Boot (UEFI). All vendor HTML, no PDF archives.
+- **Updated** system-hardening, hardware-id-masking-opsec, software-license-binding, mobile-app-attestation, anti-tamper-protection-classes, pre-release-product-pentest, npm-supply-chain-defense (pointer: different layer), hardware-bound-identity, anonymity-networks, commercial-spyware-stalkerware-defense, + microsoft-elam / hvci / riot-vanguard / google-play-integrity sources (bidirectional backlinks), index.md
+- **Phase-0:** all REFERENCE `wont_wire`; no VeraCrypt/LUKS setup clones, no SLSA/sigstore monorepo clones
+- **Phase-1:** none
+- **Briefs:** friend playbook add-on 27 (FDE vs deniable class; SLSA/sigstore for *your* artifacts; attestation vs owner-controlled devices — no kits)
+- **friend brief:** updated
+- **Archive:** none (all sources vendor HTML)
+
 ## [2026-08-12] ingest | metadata / traffic analysis / censorship PT / spyware defense / account-recovery OPSEC
 
 Operator-requested batch (borderline, architecture). Defense + freedom-of-information framing (journalists / dissidents / operators / product users in hostile networks). **Not** kits: no SIM-swap how-tos, no working Tor-bridge runbooks, no spyware/stalkerware installers, no warrant-evasion.

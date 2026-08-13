@@ -9,6 +9,7 @@ related:
   - concepts/hardware-bound-identity-anticheat-licensing.md
   - sources/google-play-integrity-api.md
   - sources/apple-app-attest.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
@@ -23,6 +24,7 @@ wire_target: "REFERENCE — first-party attestation APIs for owned mobile produc
 - @concepts/hardware-bound-identity-anticheat-licensing.md — hardware-bound identity's mobile cousin: TPM EK ↔ Secure Enclave / Play verdicts
 - @sources/google-play-integrity-api.md — Play Integrity verdicts + server verification
 - @sources/apple-app-attest.md — App Attest key/attestation flow + DeviceCheck bits
+- @concepts/secure-boot-vs-device-ownership.md — STRONG-tier attestation is the mobile face of the boot trust stack; custom-ROM users fail it
 
 ## Raw Concept
 

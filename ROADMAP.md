@@ -48,7 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
-| 2026-08-12 | Ingest OPSEC/anonymity/product-defense batch (4 concepts + 10 sources); 2 PDFs to egress-fi; no kits | Closed wiki gaps for metadata/traffic analysis, censorship PTs, spyware defense, account-recovery deanonymization; operator + product defense framing |
+| 2026-08-12 | Ingest endpoint-encryption/deniable-storage classes + SLSA/sigstore build integrity + Secure Boot vs device ownership (3 concepts + 7 sources); all REFERENCE vendor HTML; no kits | FDE ≠ anonymity / deniability limits; release-artifact integrity (SLSA L0–L3, Sigstore, reproducible builds) pairs with npm dependency layer; attestation-vs-ownership tension for product policy + operator boxes |
 | 2026-08-12 | Ingest license-bind / anti-tamper / Windows CI stack / Joas / mobile attestation (3 concepts + 10 sources + 1 entity); Joas Game Hacking 1 read + archived; no kits | License design for owned products (bind ≥2 layers, re-bind paths); protection classes not kits; HVCI/ELAM/IOMMU/WDAC trust stack; Play Integrity + App Attest server-side verification |
 | 2026-08-12 | Ingest anti-cheat/licensing hardware-bound identity (1 concept + 11 sources + 3 entities); ARES 2408.00500 PDF to egress-fi; DeepSeek citation hunt for filtered URLs; no spoof clones | Identifier map for authorized product/lab RE; Vanguard On-Demand + TPM EK; OA3 field inventory; Epic HWID spoof as DMCA |
 | 2026-08-12 | Ingest hardware-ID masking OPSEC (11 new pages: 1 concept + 10 sources); friend playbook + checklist brief; 7 PDFs to egress-fi; no clones | Closed wiki gap for anonymity/OPSEC; MAC rand ≠ unlinkability evidenced 2016–2026 |

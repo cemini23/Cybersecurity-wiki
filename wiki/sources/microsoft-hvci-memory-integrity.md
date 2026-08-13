@@ -11,6 +11,7 @@ related:
   - sources/microsoft-wdac-appcontrol-overview.md
   - sources/microsoft-elam.md
   - sources/microsoft-kernel-dma-protection.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -28,6 +29,7 @@ wire_status: wont_wire
 - @sources/microsoft-wdac-appcontrol-overview.md — App Control policy can enable HVCI
 - @sources/microsoft-elam.md — sibling trust-stack layer (boot-order gate)
 - @sources/microsoft-kernel-dma-protection.md — sibling trust-stack layer (IOMMU physical-access gate)
+- @concepts/secure-boot-vs-device-ownership.md — the trust stack's ownership/attestation tension (product policy)
 
 ## Raw Concept
 

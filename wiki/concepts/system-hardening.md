@@ -23,6 +23,8 @@ related:
   - sources/microsoft-wdac-appcontrol-overview.md
   - concepts/commercial-spyware-stalkerware-defense.md
   - sources/apple-lockdown-mode.md
+  - concepts/endpoint-encryption-deniable-storage.md
+  - concepts/secure-boot-vs-device-ownership.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-08-12
@@ -60,3 +62,5 @@ Process of reducing a system's attack surface by removing unnecessary services, 
 - @sources/microsoft-wdac-appcontrol-overview.md — App Control for Business allow-list (MSRC servicing criteria)
 - @concepts/commercial-spyware-stalkerware-defense.md — Lockdown Mode is the mobile high-assurance hardening control
 - @sources/apple-lockdown-mode.md — extreme-protection mode for mercenary-spyware threat models
+- @concepts/endpoint-encryption-deniable-storage.md — at-rest confidentiality layer; FDE ≠ running-OS confidentiality
+- @concepts/secure-boot-vs-device-ownership.md — pre-OS boot-trust gate; the same trust stack HVCI/ELAM/WDAC live in
