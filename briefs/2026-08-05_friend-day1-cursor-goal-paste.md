@@ -3,7 +3,7 @@ title: Friend day-1 Cursor setup — call checklist + /goal paste
 type: brief
 target: hands-on
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-12
 ---
 
 # Friend day-1 — remote Cursor setup (call + /goal)
@@ -12,6 +12,8 @@ updated: 2026-08-05
 **Claudio:** on voice/video call — does **not** touch his machine.  
 **Primary research later:** AI lab playbook (`briefs/2026-08-02_friend-operator-lab-playbook.md`).  
 **Today:** Cursor + Dual-wiki (Cyber + OSINT OPSEC) + `claude-ds` + `/route` — **not** the Flash-class lab box.
+
+> **2026-08-12:** live harness host is private `~/Projects/agent-toolkit` (TipDrop kit is redirect-only). `/route` uses one `claude-ds`: Flash for easy/mid execute, Pro when Grok CLI usage is out.
 
 ---
 
