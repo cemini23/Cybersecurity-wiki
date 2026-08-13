@@ -27,14 +27,18 @@ related:
   - entities/tools/hexstrike-ai.md
   - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
   - entities/tools/damn-vulnerable-drone.md
+  - concepts/hardware-bound-identity-anticheat-licensing.md
+  - sources/epic-games-v-araujo-hwid-spoofer-judgment.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-03
+updated: 2026-08-12
 ---
 
 ## Relations
 
 - @entities/tools/damn-vulnerable-drone.md — intentional drone/MAVLink lab (MIT)
+- @concepts/hardware-bound-identity-anticheat-licensing.md — third-party AC only with written scope; own license/AC is the product-pentest lane
+- @sources/epic-games-v-araujo-hwid-spoofer-judgment.md — HWID spoof pled as DMCA circumvention (not lab research)
 - @sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md — K220 lab notes
 
 - @entities/tools/cai-framework.md

@@ -1,3 +1,24 @@
+## [2026-08-12] ops | friend playbook harness host = agent-toolkit
+
+- Friend start-here: harness host row now `~/Projects/agent-toolkit` (TipDrop kit retired 2026-08-08; redirects only). `/route` v2.3: Flash vs Pro inside one `claude-ds`.
+- **friend brief:** updated
+
+## [2026-08-12] ingest | anti-cheat / license hardware-bound identity (authorized lab)
+
+Operator-requested ingest after OPSEC HWID pages: identifier map + AC/licensing architecture for owned-product pentest / written-scope RE. Not ban-evasion kits.
+
+- **NEW** `@concepts/hardware-bound-identity-anticheat-licensing.md` — HWID as a **bundle**; demand-start vs boot-start load order; cheap-spoof tells; OA3/Autopilot as licensed cousin; no spoof-driver clones (`wont_wire`)
+- **NEW sources:** ARES 2024 / arXiv 2408.00500 (kernel AC vs rootkit taxonomy); s4dbrd kernel-AC survey (HTML); secret.club BattlEye architecture 2019 (architecture only); Microsoft OA3 hardware hash; Autopilot motherboard-replacement 4K HH path; **DeepSeek citation hunt:** Oofhours OA3Tool fields; Check Point firmware-table API; Microsoft `GetRuntimeAttestationReport`; Riot Vanguard On-Demand (TPM EK); Epic v. Araujo (HWID spoof as DMCA); FACEIT Enhanced Verification
+- **NEW entities:** BattlEye, Easy Anti-Cheat, Riot Vanguard (all REFERENCE; distinct from DFIR `@entities/tools/vanguard.md`)
+- **Updated** hardware-id-masking-opsec (points at AC map; still no kits), game-hacking, windows-pentest, av-edr-bypass, pre-release-product-pentest, owned-target-whitehat-lab, SystemIdentification source, Joas game-hacking-1 stub, index.md
+- **Phase-0:** all REFERENCE; no HWID-changer / kdmapper / secret.club bypass clones. DeepSeek listed commercial gitbooks + GitHub spoof repos as **NO-GO** (existence only; not ingested)
+- **Phase-1:** none — no ADOPT/GO runtime
+- **Briefs:** friend playbook add-on 24 (own license/AC product pentest, not third-party unban)
+- **friend brief:** updated
+- **Local adopts:** none
+- **Archive:** 1 PDF (2408.00500) → egress-fi cybersec/ (local copy removed on success)
+- **Executor:** `claude-ds` citation hunt (architecture/policy URLs Cursor search often drops); kits still refused
+
 ## [2026-08-12] ingest | hardware-ID masking for OPSEC / anonymity
 
 Operator-requested ingest (wiki gap). No daily-sweep inbox; PDFs fetched to `research to be indexed/` then archived.

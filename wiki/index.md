@@ -159,6 +159,7 @@
 | @sources/arxiv-2608-11044-ood-teammix-htc.md | draft | OOD TEAMMix hierarchical text classification (2608.11044) |
 | @sources/arxiv-2608-11121-ood-genai-statistical-research.md | draft | OOD GenAI in statistical research (2608.11121) |
 | @concepts/hardware-id-masking-opsec.md | draft | HWID layers + MAC rand ≠ unlinkability (OPSEC) |
+| @concepts/hardware-bound-identity-anticheat-licensing.md | draft | AC/licensing HWID map (architecture; no spoof kits) |
 | @sources/vanhoef-asiaccs2016-mac-randomization-not-enough.md | draft | AsiaCCS 2016 — random MAC not enough |
 | @sources/arxiv-1703-02874-mac-randomization-when-it-fails.md | draft | PETS 2017 MAC randomization failures (1703.02874) |
 | @sources/kohno-2005-remote-physical-device-fingerprinting.md | draft | Clock-skew physical device fingerprinting |
@@ -167,6 +168,17 @@
 | @sources/arxiv-2507-02478-statefi-wifi-fsm-fingerprinting.md | draft | StateFi FSM de-randomization (2507.02478) |
 | @sources/arxiv-2606-25788-ml-mac-randomization.md | draft | ML clustering vs MAC randomization (2606.25788) |
 | @sources/microsoft-systemidentification-getsystemidforpublisher.md | draft | Windows TPM/UEFI system ID persists reimage |
+| @sources/microsoft-oa3-hardware-hash.md | draft | OEM Activation 3.0 hardware hash / association |
+| @sources/microsoft-autopilot-motherboard-replacement.md | draft | Official Autopilot 4K HH recapture after board swap |
+| @sources/arxiv-2408-00500-kernel-anticheat-rootkit-taxonomy.md | draft | ARES 2024 kernel AC vs rootkit taxonomy |
+| @sources/s4dbrd-kernel-anti-cheats.md | draft | Kernel AC architecture + identifier list (blog) |
+| @sources/secret-club-battleye-architecture-2019.md | draft | BattlEye four-entity architecture (2019) |
+| @sources/oofhours-autopilot-hardware-hash.md | draft | OA3Tool 4K HH field inventory (encoded, not a digest) |
+| @sources/checkpoint-evasions-firmware-tables.md | draft | NtQuerySystemInformation class 76 / RSMB / FIRM |
+| @sources/microsoft-getruntimeattestationreport.md | draft | Signed loaded-driver attestation (HVCI; AC consumer) |
+| @sources/riot-vanguard-on-demand-2026.md | draft | Riot first-party On-Demand + TPM EK as HWID |
+| @sources/epic-games-v-araujo-hwid-spoofer-judgment.md | draft | Epic default judgment: HWID spoof as DMCA circumvention |
+| @sources/faceit-enhanced-verification.md | draft | FACEIT multi-account checks include hardware identifiers |
 | @sources/tails-mac-address-anonymization.md | draft | Tails default MAC anonymization (LAN only) |
 | @sources/android-aosp-wifi-mac-randomization.md | draft | Android 10+ per-SSID randomized MAC |
 | @concepts/tca-sir-target-conditioned-inspiration-retrieval.md | draft | Target-conditioned transferable inspiration rank |
@@ -269,7 +281,7 @@
 | @concepts/neuro-symbolic-auditable-reasoning.md | validated | K100 — NeuroLog-style Datalog+SMT auditable vuln chains |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
 | @concepts/metaverse-security.md | draft | VR / AR / immersive platform risk |
-| @concepts/game-hacking.md | draft | Anti-cheat bypass as RE practice |
+| @concepts/game-hacking.md | draft | Anti-cheat RE practice; HWID map on hardware-bound-identity |
 | @concepts/zero-trust.md | draft | Identity-centric defense architecture |
 | @concepts/cyberwarfare.md | draft | Nation-state cyber operations |
 | @concepts/anonymity-networks.md | draft | Tor + I2P; hardware IDs are a separate plane |
@@ -319,6 +331,9 @@
 | @entities/tools/wazuh.md | draft | FOSS SIEM / host-IDS |
 | @entities/tools/nmap.md | draft | Network scanner |
 | @entities/tools/bloodhound.md | draft | AD attack-path graph |
+| @entities/tools/battleye.md | draft | Third-party kernel AC (BEDaisy/BEService/BEClient) — REFERENCE |
+| @entities/tools/easy-anti-cheat.md | draft | Epic kernel AC (demand-start) — REFERENCE |
+| @entities/tools/riot-vanguard.md | draft | Riot AC; boot-start or On-Demand (TPM EK + attestation) — not DFIR `vanguard` |
 | @entities/tools/kali-linux.md | draft | Pentest Linux distribution (OffSec, 600+ tools) |
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
 | @entities/tools/cua.md | validated | Agent-VM sandbox (Apple Virtualization + Lume) |

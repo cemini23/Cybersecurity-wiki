@@ -5,8 +5,11 @@ tags: [source, windows, hardware-id, tpm, privacy, vendor-doc]
 keywords: [SystemIdentification, GetSystemIdForPublisher, TPM, UEFI, Autopilot hardware hash]
 related:
   - concepts/hardware-id-masking-opsec.md
+  - concepts/hardware-bound-identity-anticheat-licensing.md
   - concepts/windows-pentest.md
   - concepts/system-hardening.md
+  - sources/microsoft-oa3-hardware-hash.md
+  - sources/microsoft-autopilot-motherboard-replacement.md
 maturity: draft
 read_status: read
 created: 2026-08-12
@@ -18,8 +21,11 @@ wire_status: wont_wire
 ## Relations
 
 - @concepts/hardware-id-masking-opsec.md — TPM/UEFI-backed IDs persist across clean install
+- @concepts/hardware-bound-identity-anticheat-licensing.md — AC/licensing consumers of TPM-backed IDs
 - @concepts/windows-pentest.md — Windows identifier surface
 - @concepts/system-hardening.md — know what the OS still discloses after reimage
+- @sources/microsoft-oa3-hardware-hash.md — OA3 hardware hash is a different blob
+- @sources/microsoft-autopilot-motherboard-replacement.md — Autopilot 4K HH repair path
 
 ## Raw Concept
 

@@ -27,9 +27,9 @@ Cyber = **what to build** (lab, local AI, harnesses, ASVS, bounty). OSINT = **ho
 |------|------|--------|----------------|
 | **Primary** | `Cybersecurity-wiki` | Public GitHub | Daily root — this brief → `@concepts/operator-lab-playbook.md` |
 | **OPSEC sidecar** | `llm-wiki-by-cemini` (OSINT) | Private — accept `cemini23/llm-wiki-by-cemini` invite first | Second root / multi-root so `@osint-wiki/...` resolves |
-| **Harness host only** | `tipdrop-workspace-kit` | Public | Scripts: `claude-ds`, `route-task`, `adopt-route-always-approve` — not TipDrop product ops |
+| **Harness host only** | `cemini23/agent-toolkit` (`~/Projects/agent-toolkit`) | Private | Scripts: `claude-ds`, `route-task`, `adopt-route-always-approve` — **not** TipDrop product ops. TipDrop workspace-kit is redirect-only (retired 2026-08-08). |
 
-**Install (kit umbrella):** from TipDrop kit root run `.\scripts\install-federation-wikis.ps1` (clones Cyber + private OSINT when invite is accepted). See kit `FEDERATION-WIKI-INDEX.md`.
+**Install (kit umbrella):** from `~/Projects/agent-toolkit` run `pwsh -File ./scripts/adopt-route-always-approve.ps1`. Federation wiki clone helper may still live on TipDrop kit as a redirect; day-1 Cursor paste (`briefs/2026-08-05_friend-day1-cursor-goal-paste.md`) still mentions the kit historically — use agent-toolkit as the live host.
 
 **Day-1 laptop (not the lab box):** Remote call setup — follow tracked **`briefs/2026-08-05_friend-day1-cursor-goal-paste.md`** (PART A manual checkboxes → paste PART B `/goal` into Cursor Agent). Outcome: kit + Cyber + OSINT + `claude-ds` + route + skills/MCP + `friend-day1-cheatsheet.md`. Skip Ollama/Flash weight pulls until path A hardware exists.
 
@@ -201,6 +201,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@concepts/safety-harness-evolution.md` · `@concepts/decoding-level-taboo-diagnostic.md` · `@concepts/inaudible-low-frequency-audio-attacks.md` (K268/K269/K267; briefs 2026-08-11_k26*)
 - `@concepts/faithful-agent-asr-measurement.md` · `@concepts/gflownet-automated-redteam-attack-generation.md` · `@concepts/cross-lingual-safety-transfer-lrl.md` (K271/K270/K272; briefs 2026-08-12_k27*)
 - `@concepts/hardware-id-masking-opsec.md` (2026-08-12 ingest — identifier layers; MAC rand ≠ unlinkability; no HWID-spoofer kits)
+- `@concepts/hardware-bound-identity-anticheat-licensing.md` (2026-08-12 — AC/licensing identifier map for **owned** product / written-scope lab; not third-party unban)
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  
@@ -258,5 +259,7 @@ Read these wiki pages in order after the checklist above:
 22. **HarnessOpt (K252)** — light: do not unbounded auto-optimize your agent harness; keep HITL + rollback (`@concepts/harnessopt-bench.md`). NL→LTL (K251) only if you formalize security requirements.
 23. **Hardware ID / OPSEC (2026-08-12)** — `@concepts/hardware-id-masking-opsec.md`  
     Inventory identifier **layers** (firmware / TPM / MAC / OS install / browser / RF). Turn on OS MAC randomization; do **not** install HWID-spoofer kits. Isolation (Tails session / disposable VM) beats in-place spoof. Hands-on: `briefs/2026-08-12_hardware-id-opsec-checklist.md` (gitignored OK).
+24. **Own license / anti-cheat bind (2026-08-12)** — `@concepts/hardware-bound-identity-anticheat-licensing.md`  
+    If you ship a license or AC on **your** product: bind to a multi-field hardware hash (OA3-style), not a single registry GUID; treat boot-start kernel AC as a different load-order class than demand-start; Vanguard On-Demand still uses TPM EK + driver attestation. Written scope before touching any third-party AC. Do **not** install HWID spoofers to unban someone else's title — Epic pled that as DMCA circumvention (`Epic v. Araujo`).
 
 Operator hub: `@concepts/operator-lab-playbook.md`

@@ -27,9 +27,11 @@ related:
   - concepts/crypter-as-a-service.md
   - sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md
   - entities/tools/bypassav.md
+  - concepts/hardware-bound-identity-anticheat-licensing.md
+  - sources/s4dbrd-kernel-anti-cheats.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -57,6 +59,8 @@ updated: 2026-08-03
 - @concepts/agent-vm-sandboxing.md
 - @concepts/endpoint-detection-response.md
 - @entities/tools/nidhogg.md — kernel rootkit DKOM reference (GPL-3.0; defensive mapping only)
+- @concepts/hardware-bound-identity-anticheat-licensing.md — kernel AC uses the same callback surface as EDR
+- @sources/s4dbrd-kernel-anti-cheats.md — ObRegisterCallbacks / process-image callbacks shared with EDR
 
 ## Raw Concept
 

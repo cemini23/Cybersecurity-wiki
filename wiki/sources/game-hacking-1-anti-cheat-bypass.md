@@ -5,16 +5,18 @@ tags: [cybersecurity, joas-corpus]
 keywords: [cybersecurity, pdf]
 related:
   - concepts/game-hacking.md
+  - concepts/hardware-bound-identity-anticheat-licensing.md
   - entities/people/joas-a-santos.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-08-12
 read_status: unread-stub
 ---
 
 ## Relations
 
 - @concepts/game-hacking.md
+- @concepts/hardware-bound-identity-anticheat-licensing.md — unread Joas AC PDF; architecture map lives on the concept page
 - @entities/people/joas-a-santos.md
 
 

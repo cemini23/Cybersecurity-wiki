@@ -11,6 +11,7 @@ related:
   - concepts/system-hardening.md
   - concepts/operator-lab-playbook.md
   - concepts/game-hacking.md
+  - concepts/hardware-bound-identity-anticheat-licensing.md
   - concepts/windows-pentest.md
   - concepts/mobile-pentest.md
   - concepts/rf-fingerprint-probe-point-benchmark.md
@@ -22,6 +23,8 @@ related:
   - sources/arxiv-2507-02478-statefi-wifi-fsm-fingerprinting.md
   - sources/arxiv-2606-25788-ml-mac-randomization.md
   - sources/microsoft-systemidentification-getsystemidforpublisher.md
+  - sources/microsoft-oa3-hardware-hash.md
+  - sources/oofhours-autopilot-hardware-hash.md
   - sources/tails-mac-address-anonymization.md
   - sources/android-aosp-wifi-mac-randomization.md
   - "@osint-wiki/entities/tools/fingerprint-suite.md"
@@ -40,7 +43,8 @@ wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls
 - @concepts/agent-vm-sandboxing.md — disposable VMs are the practical unlinkability control
 - @concepts/system-hardening.md — enable OS MAC randomization; do not treat third-party “HWID changers” as hardening
 - @concepts/operator-lab-playbook.md — lab OPSEC for the owned-whitehat operator
-- @concepts/game-hacking.md — anti-cheat HWID bans are a different problem; this page does not cover ban evasion
+- @concepts/game-hacking.md — anti-cheat HWID as a control, not a how-to
+- @concepts/hardware-bound-identity-anticheat-licensing.md — same identifier layers; AC/licensing consumers (owned product / written scope)
 - @concepts/windows-pentest.md — Windows identifier surface (SMBIOS / SystemIdentification)
 - @concepts/mobile-pentest.md — Android per-SSID MAC randomization
 - @concepts/rf-fingerprint-probe-point-benchmark.md — physical-layer RF fingerprints survive MAC changes
@@ -52,6 +56,8 @@ wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls
 - @sources/arxiv-2507-02478-statefi-wifi-fsm-fingerprinting.md
 - @sources/arxiv-2606-25788-ml-mac-randomization.md
 - @sources/microsoft-systemidentification-getsystemidforpublisher.md
+- @sources/microsoft-oa3-hardware-hash.md — licensed cousin of the same hardware-hash idea
+- @sources/oofhours-autopilot-hardware-hash.md — 4K HH field inventory
 - @sources/tails-mac-address-anonymization.md
 - @sources/android-aosp-wifi-mac-randomization.md
 - @osint-wiki/entities/tools/fingerprint-suite.md — browser fingerprint gen/injection (OSINT primary); not host HWID
@@ -60,7 +66,7 @@ wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls
 
 Operator asked whether the wiki covered hardware-ID masking for OPSEC/anonymity (2026-08-12). It did not. This page synthesizes academic evidence that **changing one identifier is not unlinkability**, plus first-party OS privacy controls (Android, Windows, Tails).
 
-Out of scope: anti-cheat / license HWID spoofers, kernel “ID changers,” and any procedure to forge firmware serials. Those are dual-use ban-evasion / fraud tools, not anonymity architecture.
+Anti-cheat and license **identifier maps** live on @concepts/hardware-bound-identity-anticheat-licensing.md (architecture + what is collected). Out of scope **here and there**: spoof-driver source, IOCTL-hook recipes, license keygens, and ban evasion on titles you do not own as a product under test.
 
 ## Narrative
 
@@ -121,5 +127,5 @@ Do this; do not install “HWID changer” kits.
 ### Dead Ends
 
 - **Single-ID spoof as anonymity** — contradicted by Vanhoef, Martin, StateFi, Puig. [CONFIRMED]
-- **Anti-cheat HWID spoofers as OPSEC tools** — they target vendor ban lists; they are not an anonymity architecture and are out of scope here.
+- **Anti-cheat HWID spoofers as OPSEC tools** — they target vendor ban lists; they are not an anonymity architecture. Identifier inventory for authorized AC/licensing work: @concepts/hardware-bound-identity-anticheat-licensing.md.
 - **Cloning DrawnApart / de-randomization code into the lab as “OPSEC”** — those artifacts are **trackers**. Steal the lesson (physical side channels exist); do not ship the attack. `wont_wire`.
