@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius/SHE (K230–K268)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius/SHE/measurement/InterSAGE/MARC/Vero/AutoDesign (K230–K281)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K273)
+# Phase-1 policy wires (K230–K281)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -290,6 +290,42 @@ Same-day Cybersec batch used **K274–K277** for WhiteNet / wireless AInf / tuto
 - **Prompt-hardening via explicit negative constraints** when agents with tool access attempt unavailable internal tools.
 - **Failure-backed instructions only** — over-detailed rule files reduce success + raise cost (pairs K273 ACM baseline discipline).
 - RSM is a case-study framework — no product install; policy pattern only. Cybersec domain wire: `cemini-cybersec-mcp-tool-control.mdc` §K277.
+
+## Measurement integrity in MCP security eval — labels ≠ endpoints (CCC K277)
+
+- **Labels are not behavioral endpoints.** A security-eval label ("attack") is a claim over treatment bytes, executed behavior, authorization, outcome rule, and analysis unit — bind all five before interpreting it.
+- **Treatment-blind grading**: graders must not see treatment metadata when assigning outcome classes. Treatment invariance is necessary, not sufficient — codebook ambiguity survives it (4 construct-boundary cases in K277).
+- **Seven-link Integrity Chain**: each link has a verification question, minimum evidence, and a fail-closed condition; a failed link halts the stated inference. Use the scope-bounded endpoint-integrity linter for mechanically testable measurement defects.
+- **Scope honesty**: a campaign measurement audit is not a population attack-rate, model-ranking, defense-efficacy, or causal estimate. Don't convert campaign counts into security claims they can't support.
+
+## InterSAGE trust-native IoA protocol (CCC K278 · Atto-priority)
+
+- **Agent Identity Card (AIC)** — four-dimensional identity binding (developer × code package × operator × deployment context), each dimension independently signed; one compromised dimension can't impersonate the rest.
+- **Capability-aware discovery**: skill/tool advertisements are DID-bound Verifiable Credential manifests, verified for issuer provenance, subject binding, permission alignment, freshness before interaction.
+- **Monotonic capability attenuation** + two-tier access control — least privilege is a signed structural invariant; application-level policy stays independent.
+- **Kernel-mediated cryptographic audit trails** bound usage/delegation/execution to identity without a consensus ledger.
+- No public SPDX clone (positioning paper) — **policy only**. Atto: apply AIC-style identity + capability-bound discovery + per-extract audit trails to solver callers.
+
+## MARC-v1 clinical multi-agent (CCC K279 · GO REFERENCE)
+
+- **Decomposer-from-NL** — generate the agent pipeline (roles, prompts, RAG config) from a plain-language task description; eliminate manual prompt engineering.
+- **Stage-wise failure attribution** — traceable intermediate outputs per role-specialized agent; attribute failures to the specific stage, not the pipeline.
+- **Declarative YAML agent config** — swap model/prompt/knowledge per agent with no code change.
+- `.local/adopts/MARC-v1` (MIT) = structural REFERENCE for harness pipelines. **Clinical `wont_wire`** — no clinical runtime wiring.
+
+## Repository-level verified code+proof eval (Vero / CCC K280)
+
+- **Joint impl+proof eval** — grade implementation+spec-proof together; unit tests + human review cannot rule out the bug classes formal verification captures.
+- **Unsat / incorrectness audit** — agents may prove the provided spec unsatisfiable or reference code incorrect; an eval must survive being told it's wrong.
+- **Repository scale is the unit** — multi-module coherence, not single-function; frontiers solve 27/43 and close nothing on the hardest repos.
+- `.local/adopts/vero` (Apache-2.0) = GO REFERENCE. Runtime **`wont_wire`** (Lean toolchain bench).
+
+## Meta-harness optimization with HITL / external eval contract (AutoDesign / CCC K281)
+
+- **Meta-harness loop over the harness, not the model** — improve the harness from rollout feedback; harness gains transfer across model configs (+12.4% avg in K281).
+- **External eval contract / HITL is the guardrail (pairs K162)** — pass criteria must NOT be closed self-rewritten by the optimizer; keep human design priors and external scoring authoritative.
+- `[NEEDS VERIFICATION 2026-08-14]` — paper reports the external contract; whether the shipped harness enforces it at runtime is not audited in the paper.
+- `.local/adopts/AutoDesign` (MIT on disk; gh API NOASSERTION but LICENSE file is MIT) = GO REFERENCE. Poster/Image-gen runtime **`wont_wire`**.
 
 ## Phase-1 meta
 
