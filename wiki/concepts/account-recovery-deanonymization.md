@@ -11,6 +11,7 @@ related:
   - concepts/pre-release-product-pentest.md
   - sources/fbi-ic3-sim-swap-psa.md
   - sources/google-advanced-protection.md
+  - concepts/e2ee-consumer-cloud-threat-model.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

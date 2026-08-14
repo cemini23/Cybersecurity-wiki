@@ -1535,3 +1535,21 @@ Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-corn-optimistic-veri
 - CLAUDE.md Related Wikis: added game-dev-wiki row (matches federation table)
 - friend brief: n/a
 
+
+## [2026-08-14] ingest | ATOBench (K278) + MARC v1 (K279) + YAVIN (K280) + ente Atto steal (K281) + OOD MLLM-routed (13463)
+
+Full ingest of 4 inbox arXiv PDFs (2608.12996 / 2608.13463 / 2608.13476 / 2608.13496) + operator-flagged ente (E2EE cloud) Atto steal. Grok CLI out → claude-ds Flash (`deepseek-v4-flash`).
+
+- **NEW** `@sources/arxiv-2608-12996-atobench-deceptive-observations.md` + `@concepts/atobench-verification-chain-deception.md` + `@entities/tools/atobench.md` — **K278** REFERENCE (placeholder repo, 0-byte tree). Verification-chain eval under deceptive target observations; SQLi: median +14 actions/+9 reps, no route restores supported finding → activity ≠ verification.
+- **NEW** `@sources/arxiv-2608-13476-marc-v1-clinical-multi-agent.md` + `@entities/tools/marc-v1.md` + `@concepts/deterministic-multi-agent-orchestration-failure-attribution.md` — **K279** GO clone (MIT, 20MB shallow `raw-sources/repos/MARC-v1`). Deterministic staged orchestration + Decomposer + stage-wise failure attribution; clinical runtime wont_wire.
+- **NEW** `@sources/arxiv-2608-13496-yavin-secure-edge-pim-tee.md` + `@concepts/pim-tee-untrusted-memory-bus.md` — **K280** REFERENCE (HPCA 2027, no public RTL). TEE does not cover PIM/memory bus; LightSaber + ASCON in-DRAM; bus-as-untrusted mental model.
+- **NEW** `@entities/tools/ente.md` + `@concepts/e2ee-consumer-cloud-threat-model.md` — **K281** NO clone (AGPL ~704MB > cap). Atto steal (dedicated ente E2EE brief); threat-model + UX (recovery/share/zero-knowledge) vs Atto M2/M11/M13.
+- **NEW** `@sources/arxiv-2608-13463-ood-mllm-routed-ensembles.md` — **OOD** → image-gen wiki (routed stub `@image-gen-wiki/sources/arxiv-2608-13463-mllm-routed-ensembles-routed.md`); wont_wire.
+- **Updated** llm-pentest-automation, agent-decoy-defense-autonomous-pentest, faithful-agent-asr-measurement, redagentbench, ai-redteam-evidential-ceiling, agent-execution-provenance, role-specialization-multi-tool-coordination, agent-runtime-guardrails, chiplet-llm-hardware-security, hardware-id-masking-opsec, anti-tamper-protection-classes, anonymity-networks, endpoint-encryption-deniable-storage, account-recovery-deanonymization, ai-for-cybersecurity, index.md (bidirectional backlinks)
+- **Phase-1 wires**: K278 → lab-redteam + agent-audit; K279 → mcp-tool-control (clinical wont_wire); K280 → agent-containment; K281 → Atto brief is the wire + cyber steal-from note
+- **Briefs**: prod k278–k281 + OOD route; atto `2026-08-14_ente-e2ee-cloud-steal.md` (dedicated) + harness steal; GuruWatcher nofit; poker ATOBench steal
+- **friend brief**: updated (E2EE vault + agent-eval add-ons)
+- **Phase-0**: `scripts/adopt_k278_k281_phase0.sh` PASS
+- **Sweep**: `wiki/sweeps/2026-08-14-daily.md` retained
+
+**Archive**: 4 PDFs → egress-fi cybersec/

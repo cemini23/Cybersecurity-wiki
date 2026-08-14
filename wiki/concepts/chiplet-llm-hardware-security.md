@@ -8,6 +8,8 @@ related:
   - concepts/cweep-rtl-cwe-early-prevention.md
   - entities/tools/cweep.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2608-13496-yavin-secure-edge-pim-tee.md
+  - concepts/pim-tee-untrusted-memory-bus.md
 maturity: draft
 created: 2026-08-06
 updated: 2026-08-06

@@ -11,6 +11,8 @@ related:
   - concepts/agent-data-injection-attacks.md
   - concepts/safety-harness-evolution.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2608-12996-atobench-deceptive-observations.md
+  - concepts/atobench-verification-chain-deception.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

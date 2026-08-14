@@ -11,6 +11,8 @@ related:
   - sources/veracrypt-hidden-volumes.md
   - sources/microsoft-bitlocker-overview.md
   - sources/apple-filevault.md
+  - entities/tools/ente.md
+  - concepts/e2ee-consumer-cloud-threat-model.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

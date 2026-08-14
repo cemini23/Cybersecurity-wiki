@@ -34,6 +34,10 @@ related:
   - concepts/hardened-alternative-operating-systems.md
   - sources/arxiv-2608-11337-association-privacy-wireless-formal.md
   - concepts/association-inference-attack-wireless.md
+  - sources/arxiv-2608-13496-yavin-secure-edge-pim-tee.md
+  - concepts/pim-tee-untrusted-memory-bus.md
+  - entities/tools/ente.md
+  - concepts/e2ee-consumer-cloud-threat-model.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-13

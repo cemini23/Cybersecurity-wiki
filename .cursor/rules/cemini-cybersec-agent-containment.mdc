@@ -23,3 +23,6 @@ Keep offensive/agent workers off the host trust boundary. Human installs Lume/CU
 
 - Lume/CUA VM install and Codex sidecar consent are operator-only — agents document, do not pretend installed.
 - No curl|sh bootstrap for containment stacks.
+
+- **K280 YAVIN / TEE-PIM (hardware containment)** — a TEE protects exactly its trust boundary: SGX/SEV/CCA do **not** cover the memory bus or processing-in-memory unless explicitly designed for it. When evaluating hardware keystores / TEE products, enumerate where **plaintext is materialized** and whether the trust boundary covers it; bus-as-untrusted + in-region re-encryption is the reference mental model. REFERENCE (HPCA academic; no RTL).
+- **K281 ente (steal-from, not adopt)** — AGPL E2EE cloud (~704MB, over clone cap). **Do not clone/vendor**; the Atto brief is the wire (recovery-key, share-gating, zero-knowledge threat-model). Cyber view: E2EE cloud is a legitimate product to threat-model, not a pentest kit.

@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 
@@ -177,6 +177,11 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - **K276 withhold contract (harness guardrail)** — for any agent lane that must *refuse a capability it has* (e.g., a coding agent that must not self-complete a sensitive action): enforce withholding as a **per-turn machine-checkable contract**, not a prompt — binding decision in a **non-LLM policy core fed only trusted state** (injection-proof + unit-testable), a **deterministic detector** for the forbidden output that outranks the model, and a **collusion-resistant judge** on risky turns. Calibrate with a reason-capturing loop (scripted personas → stronger auditor; record each rejection's reason — violations descend a gross→subtle ladder). Treat **over-blocking as a measured failure**; HITL before mutating a prod harness. See `@concepts/refusal-under-knowledge-withhold-contract.md`.
 - **K277 RSM (tool coordination)** — when you run several LLM tools on the box (Claude Code + Ollama local + a CLI), assign each an **explicit capability-matched role** and enforce scope boundaries; unplanned role drift (one tool silently absorbing another's job) is a coordination failure driven by absent scope boundaries + functional overlap + context-switch inertia. Prompt hardening: **explicit negative constraints** ("DO NOT run tools / create the file") for pure-content tasks. See `@concepts/role-specialization-multi-tool-coordination.md`.
 - **K275 AInf (product-pentest only)** — if a product under test has BLE or Wi-Fi Direct reconnection pairing: allowlist Association-Inference is the privacy failure class to check — any **distinguishable condition response** (ok/err, plaintext status, silent-discard, plaintext replay-counter echo) lets an observer infer device association + location via replay/relay. Mitigation pattern: condition-oblivious responses + fresh-session-key replay resistance + distance bounding. Authorized test devices only. See `@concepts/association-inference-attack-wireless.md`.
+
+### Deep-research add-ons (2026-08-14)
+
+- **K278 ATOBench (agent-verification discipline)** — for any agent claim you evaluate on the lab box (LLM agent, coding agent, automation): do **not** trust activity or a confident report as verification. An agent can stay busy (repeat probes, produce a plausible report) after its **evidence chain** has broken — in ATOBench's SQLi contract, deceptive observations added a median **14 actions + 9 repetitions** yet *no* route restored a supported finding, while JWT kept 44/45 supported reports when primary evidence survived to the report. Score **activity and grounded verification separately**; for agent-produced conclusions, ask whether the claim traces to source-level evidence, not just the transcript. Authorized-lab framing only. See `@concepts/atobench-verification-chain-deception.md`.
+- **K281 E2EE vault (product choice)** — if you're choosing an E2EE cloud for personal files/photos or auditing one: ente (Photos/Auth/Locker, Cure53/Symbolic/Fallible audited, AGPL self-host) is the reference for the **zero-knowledge + recovery-key + share-gating** UX. Remember zero-knowledge is about the *server*, not the system — client compromise, **recovery keys**, share-link recipients, and metadata are still surfaces; E2EE ≠ deniable storage. If you self-host a vault, design **recovery** (offline bearer key, multi-device re-registration) as the critical identity surface. See `@entities/tools/ente.md` · `@concepts/e2ee-consumer-cloud-threat-model.md`.
 
 ## Sources
 

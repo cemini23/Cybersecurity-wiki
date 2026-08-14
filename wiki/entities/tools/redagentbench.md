@@ -7,6 +7,9 @@ related:
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/agent-runtime-guardrails.md
+  - sources/arxiv-2608-12996-atobench-deceptive-observations.md
+  - concepts/atobench-verification-chain-deception.md
+  - entities/tools/atobench.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

@@ -282,6 +282,7 @@ related:
   - sources/arxiv-2608-11044-ood-teammix-htc.md
   - sources/arxiv-2608-11121-ood-genai-statistical-research.md
   - sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md
+  - sources/arxiv-2608-13463-ood-mllm-routed-ensembles.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-13

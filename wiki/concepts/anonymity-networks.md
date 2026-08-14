@@ -25,6 +25,8 @@ related:
   - concepts/secure-boot-vs-device-ownership.md
   - concepts/hardened-alternative-operating-systems.md
   - sources/whonix-about.md
+  - entities/tools/ente.md
+  - concepts/e2ee-consumer-cloud-threat-model.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-12

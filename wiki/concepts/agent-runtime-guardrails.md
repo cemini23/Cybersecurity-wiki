@@ -153,6 +153,9 @@ related:
   - concepts/refusal-under-knowledge-withhold-contract.md
   - sources/arxiv-2608-12311-rsm-role-specialization.md
   - concepts/role-specialization-multi-tool-coordination.md
+  - sources/arxiv-2608-13476-marc-v1-clinical-multi-agent.md
+  - entities/tools/marc-v1.md
+  - concepts/deterministic-multi-agent-orchestration-failure-attribution.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-08-13

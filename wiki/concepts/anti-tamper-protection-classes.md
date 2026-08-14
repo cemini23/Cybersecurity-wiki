@@ -14,6 +14,7 @@ related:
   - sources/collberg-thomborson-software-protection-tools.md
   - concepts/pre-release-product-pentest.md
   - concepts/product-build-integrity-slsa-sigstore.md
+  - concepts/pim-tee-untrusted-memory-bus.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

@@ -27,3 +27,5 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - Default **deny** self-modifying / self-evolving agents on write-capable MCP surfaces.
 - `ecc-agentshield` npm is CONDITIONAL — install only when operator asks; full ECC marketplace bundle stays Steal-from.
 - Typosquat / star-inflated security CLIs: verify package name + LICENSE before `npm i` / PATH install.
+
+- **K278 ATOBench (audit)** — when auditing pentest/agent-verification claims, do not treat high activity or a plausible report as evidence of grounded verification. Audit the **verification chain**: was the final claim supported by source-level evidence (not just trajectory self-report)? Pairs with faithful-ASR (K271) — ATOBench is the offensive-pentest-specific instance. REFERENCE (no code).

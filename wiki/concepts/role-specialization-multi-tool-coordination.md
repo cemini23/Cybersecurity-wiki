@@ -10,6 +10,9 @@ related:
   - concepts/coding-agent-context-pruning.md
   - concepts/multi-tool-threshold-mcp-poisoning.md
   - concepts/agent-skill-injection.md
+  - sources/arxiv-2608-13476-marc-v1-clinical-multi-agent.md
+  - entities/tools/marc-v1.md
+  - concepts/deterministic-multi-agent-orchestration-failure-attribution.md
 maturity: draft
 created: 2026-08-13
 updated: 2026-08-13

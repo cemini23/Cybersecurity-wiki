@@ -11,6 +11,8 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
+  - sources/arxiv-2608-12996-atobench-deceptive-observations.md
+  - concepts/atobench-verification-chain-deception.md
 maturity: draft
 created: 2026-07-29
 updated: 2026-08-12

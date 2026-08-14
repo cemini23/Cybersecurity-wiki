@@ -38,6 +38,7 @@ related:
   - concepts/agent-data-injection-attacks.md
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/atobench-verification-chain-deception.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-07-10

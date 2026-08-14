@@ -321,6 +321,15 @@
 | @concepts/refusal-under-knowledge-withhold-contract.md | draft | Per-turn machine-checkable withhold contracts for LLM agents |
 | @sources/arxiv-2608-12311-rsm-role-specialization.md | draft | RSM multi-tool role coordination in agentic SE (2608.12311; K277) |
 | @concepts/role-specialization-multi-tool-coordination.md | draft | Explicit tool responsibility domains + role-drift detection |
+| @sources/arxiv-2608-12996-atobench-deceptive-observations.md | draft | ATOBench deceptive-observation verification eval (2608.12996; K278) |
+| @concepts/atobench-verification-chain-deception.md | draft | Verification-chain evaluation under deceptive target observations |
+| @sources/arxiv-2608-13476-marc-v1-clinical-multi-agent.md | draft | MARC v1 clinical multi-agent orchestration (2608.13476; K279) |
+| @concepts/deterministic-multi-agent-orchestration-failure-attribution.md | draft | Deterministic staged orchestration + failure attribution (MARC) |
+| @sources/arxiv-2608-13496-yavin-secure-edge-pim-tee.md | draft | YAVIN unified TEE + PIM secure edge (2608.13496; K280) |
+| @concepts/pim-tee-untrusted-memory-bus.md | draft | TEE trust boundary vs processing-in-memory (untrusted bus) |
+| @entities/tools/ente.md | draft | ente E2EE cloud (photos/auth/locker) — Atto steal (K281) |
+| @concepts/e2ee-consumer-cloud-threat-model.md | draft | E2EE consumer-cloud threat model: recovery/share/metadata |
+| @sources/arxiv-2608-13463-ood-mllm-routed-ensembles.md | draft | OOD MLLM-routed ensembles (2608.13463) → image-gen |
 | @sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md | draft | OOD I2V agentic optimization (2608.12290) → image-gen |
 
 ### Education + ethics
@@ -373,6 +382,8 @@
 | @entities/tools/riot-vanguard.md | draft | Riot AC; boot-start or On-Demand (TPM EK + attestation) — not DFIR `vanguard` |
 | @entities/tools/denuvo.md | draft | Irdeto anti-tamper / kernel AC — REFERENCE |
 | @entities/tools/kali-linux.md | draft | Pentest Linux distribution (OffSec, 600+ tools) |
+| @entities/tools/atobench.md | draft | ATOBench deceptive-observation eval (REFERENCE; K278) |
+| @entities/tools/marc-v1.md | draft | MARC v1 clinical multi-agent framework (GO clone; K279) |
 | @entities/tools/grapheneos.md | draft | Hardened AOSP on Pixels (relock verified boot; not Play Integrity STRONG) |
 | @entities/tools/qubes-os.md | draft | Xen compartmentalization desktop (contain compromise; not a phone) |
 | @entities/tools/multi-cloud-red-team.md | draft | Multi-cloud red team operations (AWS/Azure/GCP) |
