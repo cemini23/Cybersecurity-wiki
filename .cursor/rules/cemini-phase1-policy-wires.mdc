@@ -291,6 +291,10 @@ Same-day Cybersec batch used **K274–K277** for WhiteNet / wireless AInf / tuto
 - **Failure-backed instructions only** — over-detailed rule files reduce success + raise cost (pairs K273 ACM baseline discipline).
 - RSM is a case-study framework — no product install; policy pattern only. Cybersec domain wire: `cemini-cybersec-mcp-tool-control.mdc` §K277.
 
+## CCC wave K277–K281 (shared policy file — dual-ID note)
+
+Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente in `cemini-cybersec-lab-redteam.mdc`, `cemini-cybersec-agent-audit.mdc`, `cemini-cybersec-mcp-tool-control.mdc`, and `cemini-cybersec-agent-containment.mdc`. Numbers below are **CCC** meanings. **CCC K278 = InterSAGE**, **Cybersec K278 = ATOBench**. **MARC-v1 2608.13476 = CCC K279 AND Cybersec K279** (clinical `wont_wire`, orchestration REFERENCE). Resolve by file+wiki, not bare K#.
+
 ## Measurement integrity in MCP security eval — labels ≠ endpoints (CCC K277)
 
 - **Labels are not behavioral endpoints.** A security-eval label ("attack") is a claim over treatment bytes, executed behavior, authorization, outcome rule, and analysis unit — bind all five before interpreting it.
