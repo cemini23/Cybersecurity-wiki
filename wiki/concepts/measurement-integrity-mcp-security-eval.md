@@ -21,7 +21,7 @@ wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (CCC K277 dual-ID not
 
 - @sources/arxiv-2608-12880-labels-not-endpoints.md — primary paper
 - @concepts/faithful-agent-asr-measurement.md — do not collapse exposure/execution/observation/adjudication
-- @concepts/verification-chain-pentest-agent-eval.md — ATOBench: activity ≠ verification
+- @concepts/atobench-verification-chain-deception.md — ATOBench: activity ≠ verification
 - @concepts/mcp-security-posture.md — MCP security claims inherit this measurement rule
 
 ## Raw Concept
