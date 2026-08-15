@@ -52,9 +52,11 @@ related:
   - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
   - concepts/refusal-under-knowledge-withhold-contract.md
   - concepts/role-specialization-multi-tool-coordination.md
+  - sources/arxiv-2608-12851-skill-misevolution.md
+  - concepts/skill-misevolution.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-08-13
+updated: 2026-08-15
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---

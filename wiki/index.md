@@ -282,6 +282,10 @@
 | @concepts/system-prompt-leakage.md | draft | System prompt exfiltration — attention drift, LeakBench, AREA (2606.18673) |
 | @concepts/prompt-injection-detector-calibration.md | draft | Guard-model severity S under shift — confident FN on indirect hijack (2606.22659) |
 | @concepts/self-evolving-agent-security.md | draft | MLAS matrix — self-evolving agents, attack persistence (2606.23075) |
+| @sources/arxiv-2608-12851-skill-misevolution.md | draft | Skill misevolution / SKILLMISEVO (2608.12851; OSINT K237) |
+| @concepts/skill-misevolution.md | draft | Practice can make a skill library unsafe — author/retrieve/execute gates |
+| @sources/arxiv-2608-12977-self-evolving-security.md | draft | HARD self-evolving runtime defense (2608.12977; OSINT K237) |
+| @concepts/self-evolving-runtime-defense.md | draft | Evolve gates vs policy from held-out failures (HARD) |
 | @concepts/ai-loss-of-control-osint-monitoring.md | draft | OSINT vectors for AI loss-of-control detection (2606.20610) |
 | @concepts/cross-tool-description-poisoning.md | draft | Cross-tool MCP metadata steering + Tool-Guard isolated planning (2606.20922) |
 | @concepts/local-agent-runtime-audit.md | draft | CLAWAUDIT static runtime audit — OpenClaw source (2606.21071) |
@@ -305,6 +309,10 @@
 | @concepts/agent-skill-injection.md | draft | K95 — skill injection + MalSkillBench/POISE + SPI + P3 memory gap (K114) |
 | @concepts/context-fractured-decomposition-attacks.md | draft | CFD — artifact provenance gap jailbreaks across sessions/instances (2606.09084) |
 | @concepts/mcp-security-posture.md | validated | K100 — MCP admission, DCI, SPI, WebMCP MSTI, VATS, GT-MCP trajectory (2606.10322) |
+| @sources/arxiv-2608-12880-labels-not-endpoints.md | draft | Labels ≠ endpoints in MCP security eval (2608.12880; CCC K277) |
+| @concepts/measurement-integrity-mcp-security-eval.md | draft | Bind treatment/behavior/authorization/outcome/unit before ASR claims |
+| @sources/arxiv-2608-13030-intersage.md | draft | InterSAGE trust-native IoA protocol (2608.13030; CCC K278) |
+| @concepts/intersage-trust-native-ioa-protocol.md | draft | Agent Identity Card + monotonic capability attenuation |
 | @concepts/agentic-containment-principles.md | draft | K114 — P1–P6 containment matrix; LangChain/AutoGPT/OpenAI SDK audit |
 | @concepts/neuro-symbolic-auditable-reasoning.md | validated | K100 — NeuroLog-style Datalog+SMT auditable vuln chains |
 | @concepts/blockchain-security.md | draft | Smart-contract + DeFi security |
@@ -331,6 +339,7 @@
 | @concepts/e2ee-consumer-cloud-threat-model.md | draft | E2EE consumer-cloud threat model: recovery/share/metadata |
 | @sources/arxiv-2608-13463-ood-mllm-routed-ensembles.md | draft | OOD MLLM-routed ensembles (2608.13463) → image-gen |
 | @sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md | draft | OOD I2V agentic optimization (2608.12290) → image-gen |
+| @sources/arxiv-2608-13069-ood-behavioral-reprogramming.md | draft | OOD behavioral reprogramming (2608.13069) → image-gen |
 
 ### Education + ethics
 
@@ -376,6 +385,8 @@
 | @entities/tools/maltego.md | draft | OSINT graph analysis |
 | @entities/tools/wazuh.md | draft | FOSS SIEM / host-IDS |
 | @entities/tools/nmap.md | draft | Network scanner |
+| @entities/tools/rustscan.md | draft | Fast port-scan front-end to nmap (OSINT K237; owned-lab only) |
+| @entities/tools/cyberscraper-2077.md | draft | LLM-assisted scraper — OSINT clone; cyber awareness, no second tree |
 | @entities/tools/bloodhound.md | draft | AD attack-path graph |
 | @entities/tools/battleye.md | draft | Third-party kernel AC (BEDaisy/BEService/BEClient) — REFERENCE |
 | @entities/tools/easy-anti-cheat.md | draft | Epic kernel AC (demand-start) — REFERENCE |

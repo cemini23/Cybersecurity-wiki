@@ -15,9 +15,13 @@ related:
   - concepts/decoding-level-taboo-diagnostic.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/refusal-under-knowledge-withhold-contract.md
+  - sources/arxiv-2608-12851-skill-misevolution.md
+  - concepts/skill-misevolution.md
+  - sources/arxiv-2608-12977-self-evolving-security.md
+  - concepts/self-evolving-runtime-defense.md
 maturity: draft
 created: 2026-08-11
-updated: 2026-08-13
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (K268)"
 ---

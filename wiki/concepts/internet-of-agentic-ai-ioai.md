@@ -17,9 +17,11 @@ related:
   - entities/tools/sevra-bench.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
+  - sources/arxiv-2608-13030-intersage.md
+  - concepts/intersage-trust-native-ioa-protocol.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-08-15
 ---
 
 ## Relations

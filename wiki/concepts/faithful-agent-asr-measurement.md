@@ -13,9 +13,11 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-12996-atobench-deceptive-observations.md
   - concepts/atobench-verification-chain-deception.md
+  - sources/arxiv-2608-12880-labels-not-endpoints.md
+  - concepts/measurement-integrity-mcp-security-eval.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-agent-audit.mdc (K271)"
 ---

@@ -30,9 +30,11 @@ related:
   - concepts/hardware-bound-identity-anticheat-licensing.md
   - sources/epic-games-v-araujo-hwid-spoofer-judgment.md
   - concepts/commercial-spyware-stalkerware-defense.md
+  - entities/tools/cyberscraper-2077.md
+  - entities/tools/rustscan.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-12
+updated: 2026-08-15
 ---
 
 ## Relations

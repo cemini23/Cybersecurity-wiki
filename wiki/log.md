@@ -1,4 +1,21 @@
-## [2026-08-14] ingest | ATOBench (K278) + MARC v1 (K279) + YAVIN (K280) + ente Atto steal (K281) + OOD MLLM-routed (13463)
+## [2026-08-15] brief-sync | fill inbound 08-14 wiki stubs (misevolution / HARD / scraper / labels / InterSAGE / OOD 13069)
+
+Inbound briefs pointed at wiki paths that did not exist on this wiki (primary homes: OSINT K237, CCC K277/K278, image-gen OOD). Filed synthesis stubs + bidir; no new Cybersec K IDs (do not reuse OSINT K237 or CCC K277/K278 — Cybersec K277=RSM, K278=ATOBench).
+
+- **NEW** `@sources/arxiv-2608-12851-skill-misevolution.md` + `@concepts/skill-misevolution.md` — OSINT K237; three lifecycle gates; no unattended skill auto-evolve
+- **NEW** `@sources/arxiv-2608-12977-self-evolving-security.md` + `@concepts/self-evolving-runtime-defense.md` — HARD gate vs policy evolver; HITL before prod harness mutate
+- **NEW** `@entities/tools/cyberscraper-2077.md` + `@entities/tools/rustscan.md` — awareness only; OSINT owns clones; owned-lab / written-scope
+- **NEW** `@sources/arxiv-2608-12880-labels-not-endpoints.md` + `@concepts/measurement-integrity-mcp-security-eval.md` — CCC K277; labels ≠ endpoints
+- **NEW** `@sources/arxiv-2608-13030-intersage.md` + `@concepts/intersage-trust-native-ioa-protocol.md` — CCC K278 InterSAGE (≠ Cybersec ATOBench)
+- **NEW** `@sources/arxiv-2608-13069-ood-behavioral-reprogramming.md` — OOD pointer → image-gen
+- **Updated** self-evolving-agent-security, skillsec-lifecycle, safety-harness-evolution, agent-skill-injection, mcp-security-posture, owned-target-whitehat-lab, nmap, ai-for-cybersecurity, local-abliterated, osint-for-cybersecurity, faithful-agent-asr, atobench-verification-chain, agentic-containment, internet-of-agentic-ai, harnessopt-bench, index.md
+- **Phase-1**: skill-misevolution + CCC dual-ID notes already in `cemini-phase1-policy-wires.mdc` (federation dirty file this batch)
+- **friend brief:** add-ons for misevolution/HARD, owned-lab scraper/RustScan, labels≠endpoints, InterSAGE identity
+- **Sweep:** `wiki/sweeps/2026-08-15-daily.md` retained (0 new PDFs)
+- **friend brief:** updated
+
+**Archive**: n/a (no inbox PDFs)
+
 
 Full ingest of 4 inbox arXiv PDFs (2608.12996 / 2608.13463 / 2608.13476 / 2608.13496) + operator-flagged ente (E2EE cloud) Atto steal. Grok CLI out → claude-ds Flash (`deepseek-v4-flash`).
 

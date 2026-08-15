@@ -27,10 +27,11 @@ related:
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/agent-decoy-defense-autonomous-pentest.md
-
+  - sources/arxiv-2608-13030-intersage.md
+  - concepts/intersage-trust-native-ioa-protocol.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-07-30
+updated: 2026-08-15
 ---
 
 ## Relations

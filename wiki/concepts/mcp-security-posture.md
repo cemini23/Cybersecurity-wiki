@@ -103,9 +103,13 @@ related:
   - concepts/refusal-under-knowledge-withhold-contract.md
   - sources/arxiv-2608-12311-rsm-role-specialization.md
   - concepts/role-specialization-multi-tool-coordination.md
+  - sources/arxiv-2608-12880-labels-not-endpoints.md
+  - concepts/measurement-integrity-mcp-security-eval.md
+  - sources/arxiv-2608-13030-intersage.md
+  - concepts/intersage-trust-native-ioa-protocol.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-13
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---

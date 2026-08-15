@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 
@@ -183,6 +183,14 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - **K278 ATOBench (agent-verification discipline)** — for any agent claim you evaluate on the lab box (LLM agent, coding agent, automation): do **not** trust activity or a confident report as verification. An agent can stay busy (repeat probes, produce a plausible report) after its **evidence chain** has broken — in ATOBench's SQLi contract, deceptive observations added a median **14 actions + 9 repetitions** yet *no* route restored a supported finding, while JWT kept 44/45 supported reports when primary evidence survived to the report. Score **activity and grounded verification separately**; for agent-produced conclusions, ask whether the claim traces to source-level evidence, not just the transcript. Authorized-lab framing only. See `@concepts/atobench-verification-chain-deception.md`.
 - **K281 E2EE vault (product choice)** — if you're choosing an E2EE cloud for personal files/photos or auditing one: ente (Photos/Auth/Locker, Cure53/Symbolic/Fallible audited, AGPL self-host) is the reference for the **zero-knowledge + recovery-key + share-gating** UX. Remember zero-knowledge is about the *server*, not the system — client compromise, **recovery keys**, share-link recipients, and metadata are still surfaces; E2EE ≠ deniable storage. If you self-host a vault, design **recovery** (offline bearer key, multi-device re-registration) as the critical identity surface. See `@entities/tools/ente.md` · `@concepts/e2ee-consumer-cloud-threat-model.md`.
 
+### Deep-research add-ons (2026-08-15)
+
+- **Skill misevolution (do not auto-evolve skills)** — a "successful" trajectory can write an unsafe shortcut into a persistent skill; later clean sessions retrieve it after the original attack is gone. HITL on *write* does not cover *retrieval-time* harm. Score authoring / retrieval / execution separately; prefer delete-only repair + retirement after evidenced harmful reuse. **No unattended auto-evolve** of `.cursor/skills/*`. See `@concepts/skill-misevolution.md`.
+- **HARD defense loop (lab harness only)** — improve runtime defenses from failed attack traces: gate only high-confidence, low-FP, pre-execution-matchable action shapes; else evolve policy. Held-out eval; over-restriction is a failure. HITL + rollback before mutating a live Cursor/Claude harness. See `@concepts/self-evolving-runtime-defense.md`.
+- **Scraper / RustScan (owned lab only)** — CyberScraper-2077 and RustScan live on the OSINT shelf; do **not** re-clone here. Use only against written-scope / owned targets; RustScan still hands interesting ports to nmap. See `@entities/tools/cyberscraper-2077.md` · `@entities/tools/rustscan.md`.
+- **Labels ≠ endpoints (when you read an ASR)** — a security-eval "attack" label is a claim over treatment bytes, executed behavior, authorization, outcome rule, and analysis unit. Campaign counts are not population rates or defense-efficacy. Pair with ATOBench: activity ≠ verification. See `@concepts/measurement-integrity-mcp-security-eval.md`.
+- **InterSAGE (identity for federated agents)** — if you ever expose solver/MCP callers across machines: bind developer × package × operator × deployment independently (Agent Identity Card); treat skill/tool ads as provenance-checked credentials, not grants. See `@concepts/intersage-trust-native-ioa-protocol.md`.
+
 ## Sources
 
 - Dual-wiki + day-1 setup: `briefs/2026-08-05_friend-day1-cursor-goal-paste.md` · `@concepts/operator-lab-playbook.md` (hub) · TipDrop kit `FEDERATION-WIKI-INDEX.md` + `scripts/install-federation-wikis.ps1` · `@osint-wiki/entities/tools/fingerprint-suite.md` · `@osint-wiki/entities/tools/octobrowser.md` · `@osint-wiki/entities/tools/arkham-intelligence.md` · `@osint-wiki/entities/tools/mitre-atlas.md` · `@osint-wiki/entities/tools/cua.md`
@@ -217,6 +225,8 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@concepts/metadata-traffic-analysis-anonymity.md` · `@concepts/censorship-circumvention-pluggable-transports.md` · `@concepts/commercial-spyware-stalkerware-defense.md` · `@concepts/account-recovery-deanonymization.md` (2026-08-12 — OPSEC/anonymity/product-defense batch; defense + freedom-of-information framing; no kits)
 - `@concepts/endpoint-encryption-deniable-storage.md` · `@concepts/product-build-integrity-slsa-sigstore.md` · `@concepts/secure-boot-vs-device-ownership.md` (2026-08-12 — FDE/deniable classes, SLSA/sigstore build integrity, Secure Boot vs ownership; architecture only, no kits)
 - `@concepts/hardened-alternative-operating-systems.md` · `@entities/tools/grapheneos.md` · `@entities/tools/qubes-os.md` (2026-08-12 — GrapheneOS / Qubes / Whonix / Kicksecure / Tails landscape; Pixel-only Graphene; no flash kits)
+- `@concepts/skill-misevolution.md` · `@concepts/self-evolving-runtime-defense.md` · `@entities/tools/cyberscraper-2077.md` · `@entities/tools/rustscan.md` (2026-08-15 brief-sync — no unattended skill evolve; HARD lab-only; owned-lab scraper/scan)
+- `@concepts/measurement-integrity-mcp-security-eval.md` · `@concepts/intersage-trust-native-ioa-protocol.md` · `@concepts/atobench-verification-chain-deception.md` · `@entities/tools/ente.md` (labels ≠ endpoints; InterSAGE identity; ATOBench verification chain; E2EE vault steal)
 - Local briefs (gitignored OK):  
   `briefs/2026-08-02_asvs-l2-product-ship-checklist.md` ·  
   `briefs/2026-08-02_owned-lab-golden-image-recon.md` ·  

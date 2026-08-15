@@ -15,9 +15,11 @@ related:
   - "@ccc-wiki/concepts/skill-vetting.md"
   - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - sources/arxiv-2608-12851-skill-misevolution.md
+  - concepts/skill-misevolution.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-31
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---

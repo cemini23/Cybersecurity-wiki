@@ -283,9 +283,19 @@ related:
   - sources/arxiv-2608-11121-ood-genai-statistical-research.md
   - sources/arxiv-2608-12290-ood-i2v-agentic-optimization.md
   - sources/arxiv-2608-13463-ood-mllm-routed-ensembles.md
+  - sources/arxiv-2608-12851-skill-misevolution.md
+  - concepts/skill-misevolution.md
+  - sources/arxiv-2608-12977-self-evolving-security.md
+  - concepts/self-evolving-runtime-defense.md
+  - entities/tools/cyberscraper-2077.md
+  - sources/arxiv-2608-12880-labels-not-endpoints.md
+  - concepts/measurement-integrity-mcp-security-eval.md
+  - sources/arxiv-2608-13030-intersage.md
+  - concepts/intersage-trust-native-ioa-protocol.md
+  - sources/arxiv-2608-13069-ood-behavioral-reprogramming.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-13
+updated: 2026-08-15
 ---
 
 ## Relations

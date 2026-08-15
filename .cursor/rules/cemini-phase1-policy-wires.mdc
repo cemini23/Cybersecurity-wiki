@@ -55,6 +55,7 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Score operator workflows on: intent framing · orchestration · verification · ethical accountability · continuous learning.
 - Watch automation bias, deskilling, superficial engagement, and felt-vs-measured speedup gaps.
 - Paper/rubric only — no curriculum product install.
+- **Dual-ID note**: today's meta-harness brief board also says **K237** (AutoDesign/Vero/misevolution) — resolve by arXiv id / brief path, not bare K# (see skill-misevolution subsection under SHE).
 
 ## Tokenization TTFT under high cache hits (TokTier / K238)
 
@@ -231,6 +232,13 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Attribution-guided, artifact-local edits + safety–utility validation; **HITL** before mutating prod Cursor/Claude harnesses.
 - `.local/adopts/SHE` Apache-2.0 REFERENCE (~5MB) — **do not** unattended auto-evolve prod. Entity `she-safety-harness` = `wont_wire` runtime; concept `policy_wired`.
 
+## Skill misevolution lifecycle gates (arXiv 2608.12851 · board K237)
+
+- **Skills can worsen with practice** — a terminal success-rate cannot distinguish a clean skill library from an unsafe skill never retrieved (21/21 evolved configs authored unsafe artifacts; 15 retained fresh-session harm).
+- **Govern all three lifecycle gates** — authoring (CU/UG/Stealth), retrieval (URR), execution (C-ASR). **HITL on a skill's write does not cover retrieval-time harm** — a later retrieval can activate an unsafe span; keep retrieval lineage + retirement on evidenced harm.
+- **Prefer delete-only repair + reuse-time attribution** (SAFEEVOLVE: delete-only repair critic, reuse-time attribution, retire after 2 harmful reuses, library cap); **no unattended auto-evolve of `.cursor/skills/*`** promote/refine cycles.
+- **Dual-ID note**: ACCEL is also labeled **K237** in this file; today's meta-harness brief board **K237** = AutoDesign/Vero/misevolution — resolve by arXiv id / brief path, not bare K#.
+
 ## VectraYX cyber VLM (K261)
 
 - Spanish/LATAM cyber imagery VLM with MCP tool tokens — **cybersec-primary**; CCC awareness only. **NO-GO** weights/runtime.
@@ -323,6 +331,7 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - **Unsat / incorrectness audit** — agents may prove the provided spec unsatisfiable or reference code incorrect; an eval must survive being told it's wrong.
 - **Repository scale is the unit** — multi-module coherence, not single-function; frontiers solve 27/43 and close nothing on the hardest repos.
 - `.local/adopts/vero` (Apache-2.0) = GO REFERENCE. Runtime **`wont_wire`** (Lean toolchain bench).
+- **Dual-ID note**: today's meta-harness brief board **K237** also cites Vero (2608.13522) — resolve by arXiv id / brief path; this section's CCC **K280** remains the wire id.
 
 ## Meta-harness optimization with HITL / external eval contract (AutoDesign / CCC K281)
 
@@ -330,6 +339,7 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - **External eval contract / HITL is the guardrail (pairs K162)** — pass criteria must NOT be closed self-rewritten by the optimizer; keep human design priors and external scoring authoritative.
 - `[NEEDS VERIFICATION 2026-08-14]` — paper reports the external contract; whether the shipped harness enforces it at runtime is not audited in the paper.
 - `.local/adopts/AutoDesign` (MIT on disk; gh API NOASSERTION but LICENSE file is MIT) = GO REFERENCE. Poster/Image-gen runtime **`wont_wire`**.
+- **Dual-ID note**: today's meta-harness brief board **K237** also cites AutoDesign (2608.13560) — resolve by arXiv id / brief path; this section's CCC **K281** remains the wire id.
 
 ## Phase-1 meta
 

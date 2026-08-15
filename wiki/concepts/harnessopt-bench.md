@@ -12,9 +12,10 @@ related:
   - sources/arxiv-2608-09885-she-safety-harness-evolution.md
   - concepts/safety-harness-evolution.md
   - entities/tools/she-safety-harness-evolution.md
+  - concepts/self-evolving-runtime-defense.md
 maturity: draft
 created: 2026-08-07
-updated: 2026-08-11
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---

@@ -12,9 +12,10 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/agent-execution-provenance.md
   - entities/tools/atobench.md
+  - concepts/measurement-integrity-mcp-security-eval.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-agent-audit.mdc (K278)"
 ---

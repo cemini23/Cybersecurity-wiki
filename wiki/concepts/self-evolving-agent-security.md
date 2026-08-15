@@ -25,9 +25,13 @@ related:
   - sources/arxiv-2608-09885-she-safety-harness-evolution.md
   - concepts/safety-harness-evolution.md
   - entities/tools/she-safety-harness-evolution.md
+  - sources/arxiv-2608-12851-skill-misevolution.md
+  - concepts/skill-misevolution.md
+  - sources/arxiv-2608-12977-self-evolving-security.md
+  - concepts/self-evolving-runtime-defense.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-08-11
+updated: 2026-08-15
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
