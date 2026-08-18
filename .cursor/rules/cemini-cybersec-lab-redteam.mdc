@@ -58,3 +58,9 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 ## Aug 14 batch (ATOBench 2608.12996 · MARC 2608.13476 · YAVIN 2608.13496)
 
 - **K278 ATOBench (lab + audit)** — deceptive target observations break the verification chain: an agent can stay **active** (repeat probes, produce a plausible report) after its evidence path has broken. When evaluating pentest agents on a lab, report **process-level evidence handling** (later actions → recovered evidence → stopping → report grounding), not only final findings / ASR; treat activity and verification as orthogonal. **Authorized lab targets only** — no LIVE third-party targets. REFERENCE (repo is a placeholder); pattern steal for verification-chain eval.
+
+## Aug 18 batch (ARENA-audio 2608.15578 · JailbreakSkill 2608.16465 · ESTI 2608.16806)
+
+- **K282 ARENA-audio (lab)** — audio-grounded red-teaming: text query stays safe in isolation while joint text+audio induces harm. Authorized acoustic lab / owned devices only — no LIVE eavesdrop, no attack audio in wiki. Split train-judge (MD-Judge) vs frozen eval (Llama Guard 3); report FDR and PSR separately. REFERENCE (no public SPDX URL at retrieval). Pairs ILL K267. Dual-ID: ≠ CCC K282 AgentRewind.
+- **K283 JailbreakSkill (lab)** — evolving attack-skill libraries are a **lab eval primitive**, not prod skill auto-evolve. Null SPDX → no clone; do not copy `skills/` into `.cursor/skills`. No LIVE third-party; no wiki payloads. Report dual ASR + novelty/generalization. Pairs skill-misevolution (defense). Dual-ID: ≠ CCC K283 Twin.
+- **K288 ESTI (lab)** — planner-facing environment state is an integrity boundary; schema-preserving false records can be adopted. Report **P-ASR and E-ASR separately**. Conditional on write access to one state producer — do not convert bench lifts into a probability of obtaining that access. Authorized embodied/sim lab only. REFERENCE. Same paper as CCC K288 (cyber-primary).

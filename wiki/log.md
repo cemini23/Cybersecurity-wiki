@@ -1,4 +1,25 @@
+## [2026-08-18] ingest | K282 ARENA-audio / K283 JailbreakSkill / K288 ESTI / K290 CHIVE + brief-sync (Tripwire / SVP / RA-Bench / DFI)
+
+Full ingest of 5 inbox arXiv PDFs (`wiki/sweeps/2026-08-18-daily.md`) + inbound 08-17 briefs. LANE hard. Grok CLI implement credits-out after core pages; claude-ds Pro hang → Cursor parent takeover from SIP.
+
+- **NEW** `@sources/arxiv-2608-15578-arena-audio-lalm-redteam.md` + `@concepts/audio-grounded-lalm-redteaming.md` + `@entities/tools/arena-audio-redteam.md` — **K282** REFERENCE (no public SPDX URL). Audio-grounded RT (text-safe + audio-harmful); split MD-Judge vs Llama Guard 3; FDR/PSR on four LALMs. Dual-ID ≠ CCC K282 AgentRewind. Pairs ILL K267.
+- **NEW** `@sources/arxiv-2608-16465-jailbreakskill.md` + `@concepts/evolving-attack-skill-libraries.md` + `@entities/tools/jailbreakskill.md` — **K283** NO-GO clone (null SPDX). Evolving attack-skill library; +17.5/+13.4 ASR (AdvBench/HarmBench). Dual-ID ≠ CCC K283 Twin. Pairs misevolution.
+- **NEW** `@sources/arxiv-2608-16806-esti-state-semantic-injection.md` + `@concepts/planner-state-integrity-embodied-agents.md` + `@entities/tools/esti-bench.md` — **K288** REFERENCE; **same paper as CCC K288** (cyber-primary). Planner-state integrity; P-ASR ≠ E-ASR.
+- **NEW** `@sources/arxiv-2608-16747-chive-counterfactual-explanations.md` + `@concepts/counterfactual-simulatability-llm-explanations.md` + `@entities/tools/chive.md` — **K290** GO REFERENCE clone `.local/adopts/chive` MIT ~11MB; runtime wont_wire.
+- **NEW** `@sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md` — OOD astronomy; steal = LLM-judge κ / memorized relevance ≠ foresight.
+- **NEW** `@sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md` + `@concepts/tripwire-safety-neuron-clamp.md` — inbound **K240** Watch; no clamp abliterated models without HITL. Dual-ID ≠ OSINT Talon / CCC robotics.
+- **NEW** `@sources/arxiv-2608-14529-deterministic-gapsvp-hardness.md` + `@concepts/lattice-pqc-hardness-watch.md` — SEO K159 overflow; PQC watch; no clone.
+- **NEW** `@sources/arxiv-2608-14391-ood-ra-bench-crisis-video.md` — OOD → image-gen; no 93.8GB clone.
+- **Indexed** `@concepts/differential-fault-injection-llm-code-stub.md` (CCC K284 pointer).
+- **Phase-0:** `scripts/adopt_k282_k288_phase0.sh` — CHIVE clone; no JailbreakSkill clone.
+- **Phase-1:** K282/K283/K288 → lab-redteam; K283/K290/K240 → agent-audit; K288 → mcp-tool-control; dual-ID block in `cemini-phase1-policy-wires.mdc`.
+- **friend brief:** add-on 29 (ARENA+ILL, JailbreakSkill lab-only, ESTI state integrity, Tripwire no-clamp).
+- **Sweep:** `wiki/sweeps/2026-08-16-daily.md` … `2026-08-18-daily.md` retained.
+
+**Archive**: 5 PDFs → egress-fi cybersec/
+
 ## [2026-08-15] brief-sync | fill inbound 08-14 wiki stubs (misevolution / HARD / scraper / labels / InterSAGE / OOD 13069)
+
 
 Inbound briefs pointed at wiki paths that did not exist on this wiki (primary homes: OSINT K237, CCC K277/K278, image-gen OOD). Filed synthesis stubs + bidir; no new Cybersec K IDs (do not reuse OSINT K237 or CCC K277/K278 — Cybersec K277=RSM, K278=ATOBench).
 

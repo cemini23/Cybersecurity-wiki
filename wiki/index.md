@@ -142,6 +142,9 @@
 | @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md | draft | ILL inaudible LF audio vs LALMs (2608.09158; K267) |
 | @concepts/inaudible-low-frequency-audio-attacks.md | draft | Perception-boundary mismatch audio red team + DRG requery |
 | @entities/tools/ill-inaudible-low-frequency-lockout.md | draft | ILL method (REFERENCE; K267) |
+| @sources/arxiv-2608-15578-arena-audio-lalm-redteam.md | draft | ARENA audio-grounded LALM RT (2608.15578; K282) |
+| @concepts/audio-grounded-lalm-redteaming.md | draft | Text-safe + audio-harmful LALM red team; split judges |
+| @entities/tools/arena-audio-redteam.md | draft | ARENA controller (REFERENCE; K282) |
 | @sources/arxiv-2608-09885-she-safety-harness-evolution.md | draft | SHE trajectory-driven harness evolution (2608.09885; K268) |
 | @concepts/safety-harness-evolution.md | draft | Four-artifact harness evolution + validity + safety-utility selection |
 | @entities/tools/she-safety-harness-evolution.md | draft | SHE harness-evolution (GO clone Apache-2.0; K268) |
@@ -284,6 +287,23 @@
 | @concepts/self-evolving-agent-security.md | draft | MLAS matrix — self-evolving agents, attack persistence (2606.23075) |
 | @sources/arxiv-2608-12851-skill-misevolution.md | draft | Skill misevolution / SKILLMISEVO (2608.12851; OSINT K237) |
 | @concepts/skill-misevolution.md | draft | Practice can make a skill library unsafe — author/retrieve/execute gates |
+| @sources/arxiv-2608-16465-jailbreakskill.md | draft | JailbreakSkill evolving attack skills (2608.16465; K283) |
+| @concepts/evolving-attack-skill-libraries.md | draft | Offense-side evolving skill library — lab eval only |
+| @entities/tools/jailbreakskill.md | draft | JailbreakSkill (NO-GO clone; null SPDX) |
+| @sources/arxiv-2608-16806-esti-state-semantic-injection.md | draft | ESTI planner-state injection (2608.16806; K288) |
+| @concepts/planner-state-integrity-embodied-agents.md | draft | Schema-valid env-state ≠ true; P-ASR ≠ E-ASR |
+| @concepts/esti-state-semantic-injection-stub.md | draft | Pointer to Cybersec ESTI primary (CCC dual-home) |
+| @entities/tools/esti-bench.md | draft | ESTI-Bench (REFERENCE; K288) |
+| @sources/arxiv-2608-16747-chive-counterfactual-explanations.md | draft | CHIVE counterfactual explanations (2608.16747; K290) |
+| @concepts/counterfactual-simulatability-llm-explanations.md | draft | Explanations need counterfactual tests |
+| @entities/tools/chive.md | draft | CHIVE (GO REFERENCE clone; wont_wire) |
+| @sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md | draft | Tripwire safety-neuron clamp (2608.14392; K240 Watch) |
+| @concepts/tripwire-safety-neuron-clamp.md | draft | Do not clamp abliterated lab models without HITL |
+| @sources/arxiv-2608-14529-deterministic-gapsvp-hardness.md | draft | Deterministic GapSVP NP-hardness (2608.14529; watch) |
+| @concepts/lattice-pqc-hardness-watch.md | draft | Lattice PQC hardness story — not an attack |
+| @sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md | draft | OOD astronomy backtesting — LLM-judge κ steal |
+| @sources/arxiv-2608-14391-ood-ra-bench-crisis-video.md | draft | OOD RA-Bench crisis video → image-gen |
+| @concepts/differential-fault-injection-llm-code-stub.md | draft | CCC K284 DFI stub — off-nominal paired validation |
 | @sources/arxiv-2608-12977-self-evolving-security.md | draft | HARD self-evolving runtime defense (2608.12977; OSINT K237) |
 | @concepts/self-evolving-runtime-defense.md | draft | Evolve gates vs policy from held-out failures (HARD) |
 | @concepts/ai-loss-of-control-osint-monitoring.md | draft | OSINT vectors for AI loss-of-control detection (2606.20610) |

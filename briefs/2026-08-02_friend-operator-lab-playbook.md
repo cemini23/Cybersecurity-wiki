@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-15
+updated: 2026-08-18
 ---
 
 
@@ -216,6 +216,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@sources/github-ablitafuzzer.md`
 - `@sources/devto-red-team-ai-benchmark.md`
 - `@sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md` (K220 tool register)
+- `@concepts/audio-grounded-lalm-redteaming.md` · `@concepts/evolving-attack-skill-libraries.md` · `@concepts/planner-state-integrity-embodied-agents.md` · `@concepts/tripwire-safety-neuron-clamp.md` (2026-08-18)
 - `@entities/tools/black-cat.md` · `@entities/tools/cloakquest3r.md` · `@entities/tools/raccoon.md` · `@entities/tools/damn-vulnerable-drone.md`
 - `@concepts/safety-harness-evolution.md` · `@concepts/decoding-level-taboo-diagnostic.md` · `@concepts/inaudible-low-frequency-audio-attacks.md` (K268/K269/K267; briefs 2026-08-11_k26*)
 - `@concepts/faithful-agent-asr-measurement.md` · `@concepts/gflownet-automated-redteam-attack-generation.md` · `@concepts/cross-lingual-safety-transfer-lrl.md` (K271/K270/K272; briefs 2026-08-12_k27*)
@@ -294,5 +295,7 @@ Read these wiki pages in order after the checklist above:
 27. **Endpoint encryption + build integrity + device ownership (2026-08-12)** — `@concepts/endpoint-encryption-deniable-storage.md` + `@concepts/product-build-integrity-slsa-sigstore.md` + `@concepts/secure-boot-vs-device-ownership.md`. FDE (BitLocker/FileVault) protects the **lost disk**, not the running OS — TPM-only unlock self-unlocks, so "we encrypted the disk" is not "our secrets are safe." The deniable-storage class (hidden volume) exists to answer a **coerced password** and has real limits: it does not beat a live implant on the device, and it does not hide that encryption exists. For **your product**: sign release artifacts and verify on the update path (SLSA L2 provenance + Sigstore keyless + reproducible builds) — client anti-tamper is useless if the shipped binary isn't the built binary; that's a separate layer from npm dependency pinning. Product policy: STRONG attestation (Play Integrity / Secure Boot / Vanguard Pre-Check) excludes rooted / custom-ROM / dual-boot owners — pick a lane (lock STRONG vs allow custom at lower trust) and document the user-freedom cost. Operator: Secure Boot + TPM on for the daily driver; written-scope lab exceptions. No kits — no hidden-volume how-tos, no Secure Boot / DSE / Magisk bypass.
 
 28. **Hardened alternate OSes (2026-08-12)** — `@concepts/hardened-alternative-operating-systems.md` + `@entities/tools/grapheneos.md` + `@entities/tools/qubes-os.md`. "Graphine" = **GrapheneOS**: Pixel-only official production, relock the bootloader (unlocked = incomplete install), sandboxed Play optional, exploit mitigations (hardened_malloc / MTE) — **not** anonymity and **not** Play Integrity STRONG. Desktop secrets: **Qubes** (contain compromise). Tor-forced: **Whonix** (Kicksecure + Gateway/Workstation); Kicksecure alone is hardening without Tor. Leave-no-trace session: **Tails**. Kali is the pentest suite, not a high-assurance daily driver. If **your** app must serve Graphene users, do not binary-deny on STRONG. No unofficial non-Pixel "Graphene" ports; no flash runbooks.
+
+29. **Audio LALM RT + evolving attack skills + planner-state (2026-08-18)** — `@concepts/audio-grounded-lalm-redteaming.md` (ARENA K282; pairs ILL; owned devices only) · `@concepts/evolving-attack-skill-libraries.md` (JailbreakSkill K283; lab eval only; do not auto-evolve `.cursor/skills`) · `@concepts/planner-state-integrity-embodied-agents.md` (ESTI K288; treat env-state as untrusted; P-ASR ≠ E-ASR) · `@concepts/tripwire-safety-neuron-clamp.md` — **do not** neuron-clamp path-A abliterated models without HITL; no 27B GGUF dump. CHIVE (`@entities/tools/chive.md`) is explanation-eval, not a pentest tool.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

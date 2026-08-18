@@ -13,6 +13,12 @@ related:
   - concepts/pair-prompt-pattern.md
   - sources/arxiv-2608-12996-atobench-deceptive-observations.md
   - concepts/atobench-verification-chain-deception.md
+  - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
+  - concepts/audio-grounded-lalm-redteaming.md
+  - sources/arxiv-2608-16747-chive-counterfactual-explanations.md
+  - concepts/counterfactual-simulatability-llm-explanations.md
+  - entities/tools/chive.md
+  - sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md
 maturity: draft
 created: 2026-07-29
 updated: 2026-08-12

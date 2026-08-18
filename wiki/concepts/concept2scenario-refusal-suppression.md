@@ -11,6 +11,8 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
   - concepts/refusal-under-knowledge-withhold-contract.md
+  - sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md
+  - concepts/tripwire-safety-neuron-clamp.md
 maturity: draft
 created: 2026-07-29
 updated: 2026-08-13

@@ -20,6 +20,8 @@ related:
   - concepts/piminer-agentic-prompt-injection-redteam.md
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
   - entities/tools/piminer.md
+  - sources/arxiv-2608-16806-esti-state-semantic-injection.md
+  - concepts/planner-state-integrity-embodied-agents.md
 maturity: draft
 created: 2026-06-23
 updated: 2026-08-06

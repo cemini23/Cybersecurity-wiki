@@ -10,6 +10,9 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2608-16806-esti-state-semantic-injection.md
+  - concepts/planner-state-integrity-embodied-agents.md
+  - entities/tools/esti-bench.md
 maturity: draft
 created: 2026-07-17
 updated: 2026-07-17

@@ -107,6 +107,8 @@ related:
   - concepts/measurement-integrity-mcp-security-eval.md
   - sources/arxiv-2608-13030-intersage.md
   - concepts/intersage-trust-native-ioa-protocol.md
+  - sources/arxiv-2608-16806-esti-state-semantic-injection.md
+  - concepts/planner-state-integrity-embodied-agents.md
 maturity: validated
 created: 2026-06-05
 updated: 2026-08-15

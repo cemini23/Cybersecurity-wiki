@@ -9,6 +9,9 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
+  - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
+  - concepts/audio-grounded-lalm-redteaming.md
+  - entities/tools/arena-audio-redteam.md
 maturity: draft
 created: 2026-08-11
 updated: 2026-08-11

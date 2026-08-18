@@ -12,6 +12,8 @@ related:
   - concepts/harnessopt-bench.md
   - concepts/ai-for-cybersecurity.md
   - "@osint-wiki/concepts/self-evolving-runtime-defense.md"
+  - sources/arxiv-2608-16465-jailbreakskill.md
+  - concepts/evolving-attack-skill-libraries.md
 maturity: draft
 created: 2026-08-15
 updated: 2026-08-15

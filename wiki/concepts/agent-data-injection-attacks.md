@@ -28,6 +28,7 @@ related:
   - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - concepts/faithful-agent-asr-measurement.md
+  - concepts/planner-state-integrity-embodied-agents.md
 maturity: draft
 created: 2026-07-09
 updated: 2026-08-12

@@ -156,6 +156,8 @@ related:
   - sources/arxiv-2608-13476-marc-v1-clinical-multi-agent.md
   - entities/tools/marc-v1.md
   - concepts/deterministic-multi-agent-orchestration-failure-attribution.md
+  - sources/arxiv-2608-16806-esti-state-semantic-injection.md
+  - concepts/planner-state-integrity-embodied-agents.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-08-13

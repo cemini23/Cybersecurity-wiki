@@ -15,6 +15,11 @@ related:
   - concepts/atobench-verification-chain-deception.md
   - sources/arxiv-2608-12880-labels-not-endpoints.md
   - concepts/measurement-integrity-mcp-security-eval.md
+  - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
+  - concepts/audio-grounded-lalm-redteaming.md
+  - sources/arxiv-2608-16747-chive-counterfactual-explanations.md
+  - concepts/counterfactual-simulatability-llm-explanations.md
+  - sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-15

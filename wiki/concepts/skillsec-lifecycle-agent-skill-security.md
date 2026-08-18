@@ -17,6 +17,9 @@ related:
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - sources/arxiv-2608-12851-skill-misevolution.md
   - concepts/skill-misevolution.md
+  - sources/arxiv-2608-16465-jailbreakskill.md
+  - concepts/evolving-attack-skill-libraries.md
+  - entities/tools/jailbreakskill.md
 maturity: draft
 created: 2026-07-16
 updated: 2026-08-15

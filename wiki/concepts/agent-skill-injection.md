@@ -54,6 +54,9 @@ related:
   - concepts/role-specialization-multi-tool-coordination.md
   - sources/arxiv-2608-12851-skill-misevolution.md
   - concepts/skill-misevolution.md
+  - sources/arxiv-2608-16465-jailbreakskill.md
+  - concepts/evolving-attack-skill-libraries.md
+  - entities/tools/jailbreakskill.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-08-15

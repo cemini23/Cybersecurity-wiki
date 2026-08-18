@@ -29,3 +29,6 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - Typosquat / star-inflated security CLIs: verify package name + LICENSE before `npm i` / PATH install.
 
 - **K278 ATOBench (audit)** — when auditing pentest/agent-verification claims, do not treat high activity or a plausible report as evidence of grounded verification. Audit the **verification chain**: was the final claim supported by source-level evidence (not just trajectory self-report)? Pairs with faithful-ASR (K271) — ATOBench is the offensive-pentest-specific instance. REFERENCE (no code).
+- **K283 JailbreakSkill (audit)** — do not promote/refine `.cursor/skills` from an attack-skill evolution run. HITL on a skill write does not cover retrieval-time harm (pairs misevolution). Pattern steal only (null SPDX).
+- **K290 CHIVE (audit)** — explanations of model/agent behavior (CoT, SAE write-ups, review narratives) are not evidence unless **counterfactual-tested**. Interpretability tools showed no uplift on in-the-wild behaviors. GO REFERENCE clone `.local/adopts/chive` (MIT); runtime **wont_wire**.
+- **K240 Tripwire (audit)** — do not neuron-clamp abliterated lab models without HITL. Watch only; no jailbreak PoC; no Qwen 27B abliterated / Uncensored FP8 weight download. Dual-ID: ≠ OSINT/GW Talon K240, ≠ CCC robotics K240.

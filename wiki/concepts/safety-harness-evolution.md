@@ -19,6 +19,8 @@ related:
   - concepts/skill-misevolution.md
   - sources/arxiv-2608-12977-self-evolving-security.md
   - concepts/self-evolving-runtime-defense.md
+  - sources/arxiv-2608-16465-jailbreakskill.md
+  - concepts/evolving-attack-skill-libraries.md
 maturity: draft
 created: 2026-08-11
 updated: 2026-08-15

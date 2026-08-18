@@ -87,6 +87,7 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 ## Robotics MCP solver (K240)
 
 - `.local/adopts/MixedComplementarityProblems.jl` = BSD-3 REFERENCE for robotics/game-dev — **wont_wire** on CCC/TipDrop/prod harness.
+- **OSINT/GW K240** (Talon HITL + RSSB + VIVO, alert-only) = `guruwatcher-k240-talon-rssb-phase1-wires.mdc` — do not collapse with this robotics K240.
 
 ## Clarify-before-act + evidence-aligned close (UrbanAgent / K244)
 
@@ -340,6 +341,134 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - `[NEEDS VERIFICATION 2026-08-14]` — paper reports the external contract; whether the shipped harness enforces it at runtime is not audited in the paper.
 - `.local/adopts/AutoDesign` (MIT on disk; gh API NOASSERTION but LICENSE file is MIT) = GO REFERENCE. Poster/Image-gen runtime **`wont_wire`**.
 - **Dual-ID note**: today's meta-harness brief board **K237** also cites AutoDesign (2608.13560) — resolve by arXiv id / brief path; this section's CCC **K281** remains the wire id.
+
+## CCC wave K282–K284 (shared policy file)
+
+Recoverable execution (K282) + test-time world-model validate-before-act (K283) + off-nominal differential fault injection (K284). Local REFERENCE clones only (gitignored `.local/adopts/`); no CCC runtime wiring.
+
+## Recoverable agent execution checkpoints (AgentRewind / CCC K282)
+
+- **Aligned checkpoint = context + environment.** Record the pair `(context, environment)` at each LLM decision boundary, not either alone. Environment rewind is the largest single component (ablation: 87.8 → 43.9 success without it) — discarded-suffix side effects otherwise persist.
+- **Resume-from-checkpoint, not restart-from-zero.** Restart-with-experiences discards completed work; rewind retains the validated prefix and replaces only the failing suffix.
+- **Rewind memory** — retain prior-attempt info (falsified hypotheses, alternative strategies) with the restored context, so the second attempt is informed, not blind.
+- **Recovery boundary honesty** — only the workspace directory tree is reversible; network/external-service side effects are not undone and must not be re-triggered (replay the retained prefix from the log, never re-execute).
+- Recovery after error propagation — not only plan refinement pre-error (pairs K239 execution fidelity, K242 rollback).
+- `.local/adopts/replay-agent-recorder` (MIT) + `.local/adopts/MettleBench` (Apache-2.0) = GO REFERENCE. Framework runtime **`wont_wire`**.
+
+## Test-time world model — validate-before-act (Twin / CCC K283)
+
+- **Validate-before-act is a harness gate, not agent discretion.** Block every scored/env action until the twin replays the full interaction log; a mismatch is a counterexample that invalidates the twin until repair.
+- **Counterexample-driven repair (CEGIS)** — a repaired twin must replay the *full* log, so a local fix can't break an earlier mechanic.
+- **Goal hypothesis before first reward** — propose a tentative goal predicate (must evaluate false on every logged frame; previously-reached non-goals are permanently excluded) and test the cheapest plan; a level boundary confirms.
+- **Asymmetric objective** — fit (`∀` every logged transition) is the hard precondition; reachability (`∃` one imagined route) is pursued only through search.
+- Pairs K231 Tycho — don't auto-build world models every verify-fail unless advantage-gated, but when building, require replay validation before any scored action.
+- `.local/adopts/TWIN-ARC-AGI-3` (MIT) = GO REFERENCE. ARC bench runtime **`wont_wire`**.
+
+## Differential fault injection for LLM modernization (CCC K284)
+
+- **Off-nominal paired validation, not nominal alone** — a passing test suite doesn't exercise fault/perturbation/precision response; LLM code modernization needs paired differential fault injection at shared driver sites.
+- **Differential compare original vs modernized at shared injection sites** — isolate the converted kernel as the only varying component; paired comparison (same fault → same classification/iteration/energy) is the acceptance criterion.
+- **Measurement-guided hardening loop with explicit acceptance criteria** — human defines the fault model + criteria; the agent proposes; the campaign re-measures (no new SDC/CRASH/HANG, fewer target-mechanism outcomes, no extra absorption cost).
+- **Match harness + compilation config** — a one-iteration skew was traced to -O1 vs -O2, not the code; compare per-run provenance logs.
+- Off-nominal fidelity ≠ absolute resilience (reference behavior not assumed desirable).
+- No public `ftinj` SPDX clone → **policy only**; scientific/GAMESS domain — no runtime on CCC laptop.
+
+## OSINT wave K237 (shared policy file — dual-ID note)
+
+CCC **ACCEL** is also labeled K237 (agentic-engineer competencies, above). Numbers below are the **OSINT 2026-08-14 ingest** (ente E2EE vault, CyberScraper, skill misevolution, HARD defense). Same-day Cybersec used ente as **K281**. Resolve by file+wiki, not bare K#.
+
+## E2EE vault + zero-knowledge share (ente / K237)
+
+- **Client-side encryption before upload; server stores ciphertext only.** Zero-knowledge share links (recipient URL + out-of-band key) + Shamir emergency recovery for client dossiers.
+- **AGPL isolate (hard rule):** ente is AGPL-3.0 (721MB > clone cap — README/docs only). **No AGPL library links into proprietary Atto distribution kits**; clean-room pattern extraction only. Same for rachoon (AGPL Gotenberg billing).
+- **Never put private Barone pedigree / living-person vitals in Atto fixtures or git** — Desktop/family only.
+- `.local/adopts/` has **no ente clone** (size-skip); CyberScraper-2077 / rachoon / RustScan / vero reference clones only.
+
+## CyberScraper GO cyber-lab (CyberScraper-2077 / K237)
+
+- **Authorized-target-only scraping** — local-lab eval, whitehat perimeter audits, newsletter/substack polling the operator has rights to. No mass scraping.
+- **Headless fallback required** for unattended cron runs (stealth mode attaches to a live Chrome via CDP/Patchright on localhost:9222).
+- Playwright memory-leak watch during multi-hour polling loops.
+
+## Skill misevolution SHE gate (2608.12851 / K237)
+
+- **Skills can get worse with practice** — promote/refine skills under an eval-gate with decoupled benign-utility + harm judges, clean-session reload, No-Evolution baseline.
+- **Govern at three lifecycle gates** (authoring / retrieval / execution) — a terminal success rate cannot distinguish a clean library from an unsafe skill never retrieved.
+- **HITL on a skill's write does not cover retrieval-time harm** — need retrieval lineage + retirement on evidenced harm (2 harmful reuses), delete-only repair critic, library cap.
+- Applies to `.cursor/skills/*` and CCC `/route` skill library.
+
+## Self-evolving defense guardrails (HARD / K237)
+
+- Defense evolution loop (attack → judge → route to policy/gate evolver → redeploy → held-out retest) is a **pattern for the cyber lab**, not a wired product.
+- **Literal gate rules rot** (memorize attacks, generalize poorly) — prefer anti-obfuscation/cumulative-intent abstractions; scope invariants to preserve benign utility (never blanket-refuse a capability).
+- **Over-restriction is a failure mode** — optimize ASR *and* UA jointly.
+- RustScan is **GPL-3.0 (docx claimed MIT — wrong)**; Extract pattern only, batch-size discipline `-b 10 -T 5000` on sensitive targets.
+
+## OSINT K239 — SteerBench action-boundary HITL · intent-not-form / HiRoute (2026-08-15)
+
+**Dual-ID:** this section is **OSINT K239** (SteerBench-Work 2608.12654 + WIFA/HiRoute + eval). **CCC K239** is Datumpont / execution-fidelity (section above). **Capital Flows / GW K239** = GuruWatcher bond-crash product surface (`guruwatcher-k239-bond-crash-phase1-wires.mdc`) — a third K239; do not collapse. Resolve by file+wiki, not bare K#. Federation sync: keep this block so OSINT copies are not wiped.
+
+- **Proceed vs hold at the action boundary** — state-changing tool calls (`scp` to prod, Discord LIVE, `watches.json` writes, skill mutation, AGPL/GPL vendor into Atto) default **HOLD for HITL**. Read-only wiki/query may proceed. Capability of the model is **not** a reason to drop the gate (SteerBench: over-refusal ≫ under-refusal; evidence-reversed mirrors fail).
+- **Intent, not form** — refuse/allow on intent + tool effect + authorization, not wrapper phrasing. Do not train WIFA/HiRoute; **no jailbreak PoC** in wiki. Authorized owned-lab recon ≠ public exploit writeup.
+- **No unattended auto-evolve** of `.cursor/skills/*`. Worker ≠ verifier (Osmani). `/goal` evaluator checks named metrics only — it is not taste.
+- **GO Integrate this batch: none.** fclones MIT = Extract (Atto vault CoW; no unsupervised `--delete`). openai/privacy-filter Apache-2.0 = Extract (PII strip; ≠ packyme). rachoon stays **AGPL Extract-only**; RustScan stays **GPL-3.0 Extract-only** (docx Integrate + MIT were wrong). LFM encoders = license `other` + weight skip. timesfm code cloned; **no HF checkpoints**; GuruWatcher remains alert-only.
+- **0day-Rubbish / LEAKSFORUMS** = Context only. No exploit payloads, no criminal-forum interaction.
+
+## CCC wave K285–K289 (shared policy file)
+
+Signed mandates on MCP actions (K285) + 3D world agents WATCH (K286) + black-box RL on opaque harness (K287) + planner-state semantic integrity (K288) + agentified eval evidence trees (K289). **No local clones** this batch (all null SPDX).
+
+## Signed mandate chain at MCP proxy (Mandato / CCC K285)
+
+- **Authorization is a signed artifact, not application code.** A mandate binds principal × agent workload identity × tool scope × parameter constraints × contextual conditions × TTL × delegation policy, signed by the principal (JAdES/JWS). Signing a mandate is a legal act — legible to auditors/lawyers.
+- **Enforce at a non-bypassable MCP proxy.** Terminate both sides; upstream servers accept only the proxy's mTLS workload identity. Completeness + non-bypassability are architectural, not contractual.
+- **Separated PDP/PEP, fail-closed.** Minimal in-line enforcement; decision point evaluates against mandate store + revocation view + quota counters. Escalations park via MCP task semantics → human console showing the *mandate clause* (AI Act Art. 14 "meaningful" oversight).
+- **Closed constraint language.** Equality / enumerated sets / numeric ranges / string prefixes / presence-absence — one-line-per-predicate explainability; the policy must not become an unauditable program.
+- **Monotone attenuation + deny-by-default.** A sub-mandate can only narrow scope / widen conditions / shrink validity, never weaken oversight (confirm cannot become auto downstream). Absence of mandate / expired chain / unverifiable signature / unknown tool / out-of-language constraint → DENY.
+- **Append-only hash-chained audit.** Every permit/deny chained; selective hash commitments (GDPR minimization); Merkle checkpoints under RFC 3161 → qualified timestamps (eIDAS). Ratification corrects by appending, never editing.
+- Pairs K278 InterSAGE (identity/VC trust), K271 MCP auth gateway (transport), K239 execution fidelity (deny-by-default). No public SPDX clone → **policy only**. **Atto-priority.**
+
+## 3D world agents — rubric + feasibility verifier (VibeWorlding / CCC K286)
+
+- **Unify fragmented 3D tooling under one MCP sandbox** (asset retrieve/add/rotate/translate/delete) — agent reasons over one interface.
+- **Dual-constraint verifier as backbone** — physical feasibility (collision, height) AND intent fulfillment (ecological plausibility, retrieval). Handcrafted rules or a generic LLM judge alone are insufficient.
+- **Same environment + reward for eval and training** — the rubric verifier is both benchmark scorer and RL reward service (no train/eval drift).
+- `usail-hkust/VibeWorlding-Gym` null SPDX → **NO-GO clone**. **Reference only**; **`wont_wire`** CCC/Image-gen/3D. Game-dev stub.
+
+## Black-box RL on opaque harness (ClawGym II / CCC K287)
+
+- **Treat the harness as an opaque rollout engine** — don't instrument internals; intercept at the model boundary with a **serving proxy**.
+- **Sandbox per rollout** — each task environment + harness in a temporary sandbox, provisioned on demand, destroyed on completion.
+- **Rebuild prefix trees from captured calls** — fragmented/forked/redundant traces → prefix tree; adapt PPO (critic) and GRPO (critic-free) over the recovered tree.
+- **Preserve training–inference consistency** — black-box token-in-token-out + token-level importance-sampling rollout correction, or training destabilizes.
+- **Mix-harness joint training** — each task–harness pair is a training instance; rollouts from heterogeneous harnesses (OpenClaw + Claude Code) jointly optimize one model.
+- Pairs K281 AutoDesign (optimize harness, model fixed — complementary axis), K262 scaffold>interface, K263 versioned model-harness pairs. No public SPDX repo → **policy only**.
+
+## Planner-state semantic integrity (ESTI / CCC K288)
+
+- **Planner-visible state producers are an integrity boundary** — compromise of exactly one can steer planning (objects, relations, affordances, task-stage rules, feedback).
+- **Schema-preserving false evidence beats explicit commands** — false records conform to the field's semantic role/format; audit *consistency across records*, not just injected instructions.
+- **Distinguish planning adoption (P-ASR) from execution realization (E-ASR)** — planning deviation ≠ physical attack success; measure both.
+- **Defend carrier/representation consistency, not re-grounding** — removing runtime re-grounding moves P-ASR/E-ASR only +1.92/+3.85 pts.
+- **Conditional-delivery scoping** — results are conditional on successful state delivery; don't overclaim write-access probability (pairs K259 traceable scholarship). Pairs K274 CDH trajectory audit. No public code → **policy only**; **Cybersec-primary**.
+
+## Agentified eval — evidence tree not scalar (HarnessEval-W / CCC K289)
+
+- **Eval = evidence tree, not a scalar** — deliver what was tested, which tool supplied the grounding, and the logical chain justifying the score.
+- **Route case → skills → sub-agents with tools** — no fixed rubric fits all cases; decompose into measurable subproblems delegated to tool-equipped sub-agents.
+- **Parent validates before verdict** — a verification gate between evidence collection and scoring (pairs K162: no closed self-eval).
+- **Agentic, validated case construction** — sample scene taxonomy → ground actions → validate each candidate before acceptance (pairs K277 measurement integrity).
+- `mirros-lab/harnesseval-w` null SPDX → **NO-GO clone**. **`policy_wired`**.
+
+## Cybersec wave K282 / K283 / K288 / K290 (2026-08-18) — dual-ID note
+
+CCC same-day used **K282–K284** (AgentRewind / Twin / DFI) and **K285–K289** (Mandato / VibeWorlding / ClawGym II / ESTI / HarnessEval-W, above). Resolve by file+wiki, not bare K#.
+
+- **K282 ARENA-audio** (2608.15578) — ≠ CCC K282 AgentRewind. Audio-grounded RT; acoustic lab only; split judges; FDR/PSR. Domain wire: `cemini-cybersec-lab-redteam.mdc`.
+- **K283 JailbreakSkill** (2608.16465) — ≠ CCC K283 Twin. Evolving attack-skill library; null SPDX no clone; no `.cursor/skills` copy. Domain wire: lab-redteam + agent-audit.
+- **K288 ESTI** (2608.16806) — **same paper as CCC K288** (section above); this wiki is cyber-primary. Planner-state integrity; P-ASR ≠ E-ASR. Domain wire: lab-redteam + mcp-tool-control.
+- **K290 CHIVE** (2608.16747) — counterfactual simulatability; MIT REFERENCE clone `.local/adopts/chive`; runtime wont_wire. Domain wire: agent-audit.
+- Inbound **K240 Tripwire** (2608.14392) — Watch; no clamp of abliterated models without HITL. ≠ OSINT Talon K240, ≠ CCC robotics K240.
 
 ## Phase-1 meta
 

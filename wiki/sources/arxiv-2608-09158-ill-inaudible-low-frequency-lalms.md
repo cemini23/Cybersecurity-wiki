@@ -10,6 +10,8 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
+  - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
+  - concepts/audio-grounded-lalm-redteaming.md
 maturity: draft
 read_status: read
 created: 2026-08-11

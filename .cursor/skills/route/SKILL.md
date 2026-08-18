@@ -9,7 +9,7 @@ description: >-
   for all Cemini projects - not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.3.0"
+metadata.version: "2.3.3"
 federation: true
 ---
 
@@ -26,12 +26,12 @@ federation: true
 | Executor | Default (MUST) | Opt out only when operator asks |
 |----------|----------------|----------------------------------|
 | **Grok CLI** (plan mid / implement hard) | `--always-approve` via `handoff-to-grok.ps1` | `-NoApprove` |
-| **claude-ds Flash** (`deepseek-v4-flash`; easy + mid execute) | `--dangerously-skip-permissions` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
-| **claude-ds Pro** (`deepseek-v4-pro`; Grok CLI stand-in) | `--dangerously-skip-permissions` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
+| **claude-ds Flash** (`deepseek-v4-flash`; easy + mid execute) | official `dsh` + `DSH_PERMISSION_MODE=danger-full-access` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
+| **claude-ds Pro** (`deepseek-v4-pro`; Grok CLI stand-in) | official `dsh` + `DSH_PERMISSION_MODE=danger-full-access` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
 | **Cursor Grok** (fallback plan/implement) | Auto-run / full tool approve | UI Auto-run off / ask mode |
 | Easy API scripts | no tool sandbox - N/A | - |
 
-**DeepSeek Claude names (all hosts):** prefer **`claude-ds`**. On cemini-prod / older Linux the same tool may be **`deepseek-claude`** (`~/.deepseek-claude` on PATH). Resolve either - do not fail the chain if only one exists. Order: `claude-ds` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude` → `agent-toolkit/scripts/claude-ds.ps1` / `claude-ds.sh`.
+**PATH name stays `claude-ds`.** Worker is official DeepSeek Harness (`dsh`, pin `install-dsh.ps1` → `~/.dsh-cemini`). Isolated Claude Code at `~/.deepseek-claude` is **fallback** (`CLAUDE_DS_FORCE_LEGACY=1` or dsh cannot boot). On prod, `deepseek-claude` may still exist as that fallback. Resolve: `claude-ds` → kit `claude-ds.ps1` / `claude-ds.sh` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude`. Do **not** put `dsh` on PATH as a second coding loop — the shim owns it.
 
 Without always-approve, headless tools cancel → chain falls through to Cursor → burns quota. That is a skill bug, not an operator preference.
 
@@ -102,9 +102,9 @@ Mid tasks that look like multi-file/tests/LIVE/secrets auto-escalate to hard/mon
 
 Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must include verify evidence - no status-only "done".
 
-## Grok-out + Flash vs Pro (v2.3)
+## Grok-out + Flash vs Pro (v2.3.2)
 
-**One isolated Claude Code harness** (`~/.deepseek-claude`). `-Model` selects Flash vs Pro. Do not install a second coding loop (OpenCode / Reasonix / unreleased DeepSeek Harness). Official recipe also keeps Pro as main and Flash as haiku + `CLAUDE_CODE_SUBAGENT_MODEL`.
+**Official DeepSeek Harness** (`@deepseek-ai/dsh`, pin via `install-dsh.ps1`) is the `/route` worker behind the `claude-ds` PATH name (operator GO 2026-08-14). `-Model` writes a per-job `dsh --patch` overlay (`deepseek-v4-flash` / `deepseek-v4-pro`). Always-approve is `DSH_PERMISSION_MODE=danger-full-access`. PromptFile is a file path inside the headless task (not `cat` into argv). Isolated Claude Code at `~/.deepseek-claude` remains **fallback only**. Do **not** install a second coding loop (OpenCode / Reasonix) or a global `dsh` on PATH. Wiki: `entities/tools/deepseek-harness.md`. Prod Node 20 stays; dsh uses a Node 24 sidecar.
 
 | Role | Model | When |
 |------|-------|------|
@@ -159,6 +159,7 @@ Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:` (first line of 
 7. K172 carve-out: only the reviewed handoff path (`handoff-to-grok.ps1` / `route-task`) with scoped `--cwd`, secret deny rules, and optional `--sandbox workspace`. No free-form `grok` against home trees.
 8. Mid Grok **usage** failure → **claude-ds Pro** plans then Flash executes (or fill Plan then `-SkipGrokPlan`). Mid Grok **auth** → `grok login`. Hard Grok failure + Plan → **claude-ds Pro**; else **Cursor Grok implement**.
 9. Do not claim done without verify evidence (or explicit SDR/block). Hang takeover still requires Verify.
+10. **Skill misevolution HITL** (arXiv 2608.12851): skills can worsen with practice — no unattended auto-evolve of this skill's promote/refine cycles; changes land via HITL only. On verify fail, **reconsider the Plan, not only retry** (Vero lesson: a wrong definition burns 16 failed lemma attempts). Keep the **external eval contract**: do not rewrite `## Verify` mid-run to match a failing execution.
 
 ## PowerShell one-liners
 
@@ -183,3 +184,4 @@ $env:ROUTE_GROK_OUT = "1"   # session: skip Grok; require usable Plan
 - `.../lib/Test-RouteHandoffSip.ps1` - SIP contract
 - `.../lib/Test-RoutePlanPresent.ps1` - usable Plan + Grok-out helpers
 - `.cursor/rules/cemini-route-outsource.mdc` - always-on outsource + always-approve (`tipdrop-route-outsource.mdc` is a filename alias)
+- `.cursor/rules/cemini-phase1-policy-wires.mdc` §Skill misevolution (SHE / arXiv 2608.12851) - no unattended auto-evolve of `.cursor/skills/*`; HITL on write ≠ retrieval-time safety

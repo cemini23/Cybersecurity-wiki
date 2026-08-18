@@ -81,6 +81,11 @@ related:
   - concepts/gflownet-automated-redteam-attack-generation.md
   - sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md
   - concepts/cross-lingual-safety-transfer-lrl.md
+  - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
+  - concepts/audio-grounded-lalm-redteaming.md
+  - entities/tools/arena-audio-redteam.md
+  - sources/arxiv-2608-16465-jailbreakskill.md
+  - concepts/evolving-attack-skill-libraries.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-08-12

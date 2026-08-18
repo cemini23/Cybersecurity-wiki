@@ -31,6 +31,11 @@ related:
   - sources/arxiv-2607-20852-code-monitor-red-teaming.md
   - concepts/cogate-confidence-gated-secure-code.md
   - sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
+  - concepts/esti-state-semantic-injection-stub.md
+  - sources/arxiv-2608-16747-chive-counterfactual-explanations.md
+  - concepts/counterfactual-simulatability-llm-explanations.md
+  - entities/tools/chive.md
+  - concepts/differential-fault-injection-llm-code-stub.md
 maturity: draft
 created: 2026-06-16
 updated: 2026-07-31
