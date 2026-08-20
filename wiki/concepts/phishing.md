@@ -11,6 +11,8 @@ related:
   - concepts/2026-05-13_chekusu-mails-dual-use.md
   - concepts/phishing-investigation.md
   - sources/effective-threat-investigation-soc-analysts.md
+  - sources/arxiv-2608-17361-trusted-workflow-relays.md
+  - concepts/trusted-workflow-relay-email-abuse.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-17

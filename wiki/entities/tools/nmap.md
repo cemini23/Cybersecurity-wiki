@@ -17,6 +17,7 @@ related:
   - entities/tools/reconftw.md
   - entities/tools/raccoon.md
   - entities/tools/rustscan.md
+  - entities/tools/bbot.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-08-15

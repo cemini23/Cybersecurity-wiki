@@ -17,6 +17,7 @@ related:
   - entities/tools/handle-capability-protocol.md
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/task-conditioned-excess-authority.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-07-31

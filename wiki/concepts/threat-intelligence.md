@@ -19,6 +19,8 @@ related:
   - sources/open-source-soc-guide.md
   - sources/effective-threat-investigation-soc-analysts.md
   - concepts/phishing-investigation.md
+  - sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md
+  - concepts/knowledge-driven-detection-rule-grounding.md
   - entities/people/mostafa-yahia.md
   - entities/tools/splunk.md
   - entities/tools/bluehood.md

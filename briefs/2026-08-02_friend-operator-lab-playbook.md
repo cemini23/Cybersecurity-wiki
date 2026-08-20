@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 
@@ -183,6 +183,14 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - **K278 ATOBench (agent-verification discipline)** — for any agent claim you evaluate on the lab box (LLM agent, coding agent, automation): do **not** trust activity or a confident report as verification. An agent can stay busy (repeat probes, produce a plausible report) after its **evidence chain** has broken — in ATOBench's SQLi contract, deceptive observations added a median **14 actions + 9 repetitions** yet *no* route restored a supported finding, while JWT kept 44/45 supported reports when primary evidence survived to the report. Score **activity and grounded verification separately**; for agent-produced conclusions, ask whether the claim traces to source-level evidence, not just the transcript. Authorized-lab framing only. See `@concepts/atobench-verification-chain-deception.md`.
 - **K281 E2EE vault (product choice)** — if you're choosing an E2EE cloud for personal files/photos or auditing one: ente (Photos/Auth/Locker, Cure53/Symbolic/Fallible audited, AGPL self-host) is the reference for the **zero-knowledge + recovery-key + share-gating** UX. Remember zero-knowledge is about the *server*, not the system — client compromise, **recovery keys**, share-link recipients, and metadata are still surfaces; E2EE ≠ deniable storage. If you self-host a vault, design **recovery** (offline bearer key, multi-device re-registration) as the critical identity surface. See `@entities/tools/ente.md` · `@concepts/e2ee-consumer-cloud-threat-model.md`.
 
+### Deep-research add-ons (2026-08-20)
+
+- **K295 Fool's Gold (abliterated lab)** — refusal-strip does not certify the answer. Do not ingest safety-removal recipes. See `@concepts/decoy-hardening-open-weight-abliteration.md`.
+- **K296 Trusted Workflow Relays** — product-pentest owned/written-scope email/M365 only; SPF/DKIM/DMARC pass ≠ send-authorization. See `@concepts/trusted-workflow-relay-email-abuse.md`.
+- **K242 BloodBash** — Extract-only on already-collected authorized SharpHound JSON; OSINT shelf; no path payloads. See `@entities/tools/bloodbash.md`.
+- **K241 bbot** — AGPL isolate; authorized-target recon only; never vendor Atto. See `@entities/tools/bbot.md`.
+- **Rule-blindness** — guard verdict ≠ stated rule until a crossed-rule test. See `@concepts/compliance-detector-rule-blindness.md`.
+
 ### Deep-research add-ons (2026-08-15)
 
 - **Skill misevolution (do not auto-evolve skills)** — a "successful" trajectory can write an unsafe shortcut into a persistent skill; later clean sessions retrieve it after the original attack is gone. HITL on *write* does not cover *retrieval-time* harm. Score authoring / retrieval / execution separately; prefer delete-only repair + retirement after evidenced harmful reuse. **No unattended auto-evolve** of `.cursor/skills/*`. See `@concepts/skill-misevolution.md`.
@@ -202,6 +210,12 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@sources/owasp-asvs-5.md`
 - `@concepts/bug-bounty.md`
 - `@concepts/llm-pentest-automation.md`
+- `@concepts/decoy-hardening-open-weight-abliteration.md` (K295)
+- `@concepts/trusted-workflow-relay-email-abuse.md` (K296)
+- `@entities/tools/bloodbash.md` (K242 Extract)
+- `@entities/tools/bbot.md` (K241 AGPL Extract)
+- `@concepts/compliance-detector-rule-blindness.md`
+- `@concepts/task-conditioned-excess-authority.md` (CCC K290 ≠ CHIVE)
 - `@concepts/buffer-overflow.md` · `@concepts/threat-hunting.md` · `@entities/certifications/ecppt.md` (Joas deep-reads; egress 2026-08-03)
 - `@concepts/toktier-exact-stateful-tokenization.md` · `@concepts/stair-hierarchical-repair-plans.md` (K235/K234)
 - `@entities/tools/piminer.md` · `@concepts/gradient-immunity-malicious-finetune.md` · `@concepts/trident-agentic-drl-defense-redteam.md` (K248/K246/K244)
@@ -297,5 +311,6 @@ Read these wiki pages in order after the checklist above:
 28. **Hardened alternate OSes (2026-08-12)** — `@concepts/hardened-alternative-operating-systems.md` + `@entities/tools/grapheneos.md` + `@entities/tools/qubes-os.md`. "Graphine" = **GrapheneOS**: Pixel-only official production, relock the bootloader (unlocked = incomplete install), sandboxed Play optional, exploit mitigations (hardened_malloc / MTE) — **not** anonymity and **not** Play Integrity STRONG. Desktop secrets: **Qubes** (contain compromise). Tor-forced: **Whonix** (Kicksecure + Gateway/Workstation); Kicksecure alone is hardening without Tor. Leave-no-trace session: **Tails**. Kali is the pentest suite, not a high-assurance daily driver. If **your** app must serve Graphene users, do not binary-deny on STRONG. No unofficial non-Pixel "Graphene" ports; no flash runbooks.
 
 29. **Audio LALM RT + evolving attack skills + planner-state (2026-08-18)** — `@concepts/audio-grounded-lalm-redteaming.md` (ARENA K282; pairs ILL; owned devices only) · `@concepts/evolving-attack-skill-libraries.md` (JailbreakSkill K283; lab eval only; do not auto-evolve `.cursor/skills`) · `@concepts/planner-state-integrity-embodied-agents.md` (ESTI K288; treat env-state as untrusted; P-ASR ≠ E-ASR) · `@concepts/tripwire-safety-neuron-clamp.md` — **do not** neuron-clamp path-A abliterated models without HITL; no 27B GGUF dump. CHIVE (`@entities/tools/chive.md`) is explanation-eval, not a pentest tool.
+30. **Fool's Gold vs abliteration + email-relay scope + BloodBash/bbot (2026-08-20)** — `@concepts/decoy-hardening-open-weight-abliteration.md` (K295): abliteration removes refusal, **not** truth — do not treat fluent post-strip answers as verified; no safety-removal recipes. `@concepts/trusted-workflow-relay-email-abuse.md` (K296): product-pentest **owned tenant / written scope only**; SPF/DKIM/DMARC pass ≠ send-authorization; no live phishing. `@entities/tools/bloodbash.md` (K242) Extract-only on already-collected authorized SharpHound JSON (OSINT shelf, no re-clone; no path payloads). `@entities/tools/bbot.md` (K241) **AGPL isolate** — authorized-target recon only; never vendor into Atto/prod; no mass internet scan. Bonus: `@concepts/compliance-detector-rule-blindness.md` — guard verdict ≠ stated rule until a crossed-rule test.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

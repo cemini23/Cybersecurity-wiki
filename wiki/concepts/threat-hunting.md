@@ -19,6 +19,8 @@ related:
   - sources/blue-team-handbook.md
   - sources/blue-team-notes.md
   - sources/effective-threat-investigation-soc-analysts.md
+  - sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md
+  - concepts/knowledge-driven-detection-rule-grounding.md
   - sources/mitre-attack-framework-soc.md
   - sources/open-source-soc-guide.md
   - sources/soc-analyst-book.md

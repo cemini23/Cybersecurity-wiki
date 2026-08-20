@@ -8,6 +8,8 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/concept2scenario-refusal-suppression.md
   - concepts/llm-pentest-automation.md
+  - sources/arxiv-2608-17202-fools-gold-defensive-deception.md
+  - concepts/decoy-hardening-open-weight-abliteration.md
 maturity: draft
 created: 2026-08-18
 updated: 2026-08-18

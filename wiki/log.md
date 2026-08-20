@@ -1,3 +1,23 @@
+## [2026-08-20] ingest | K295 Fool's Gold / K296 Trusted Workflow Relays / K297 TI→detection + brief-sync (BloodBash / bbot / rule-blindness / CCC excess-authority)
+
+Full ingest of 5 inbox arXiv PDFs (`wiki/sweeps/2026-08-20-daily.md`) + inbound 08-18/08-19/08-20 briefs. LANE hard. Grok CLI implement.
+
+- **NEW** `@sources/arxiv-2608-17202-fools-gold-defensive-deception.md` + `@concepts/decoy-hardening-open-weight-abliteration.md` — **K295** REFERENCE (no public SPDX; no attack recipe / no decoy payload ingest). Dual-ID ≠ CCC K290.
+- **NEW** `@sources/arxiv-2608-17361-trusted-workflow-relays.md` + `@concepts/trusted-workflow-relay-email-abuse.md` — **K296** REFERENCE; authorized email/lab only; no phishing kits.
+- **NEW** `@sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md` + `@concepts/knowledge-driven-detection-rule-grounding.md` — **K297** REFERENCE (YouTube demo only); enrich+template+judge.
+- **NEW** `@sources/arxiv-2608-17067-ood-disco-t2i-defense.md` — OOD → image-gen; no T2I weights.
+- **NEW** `@sources/arxiv-2608-19025-ood-self-prompting-literature-extraction.md` — OOD science; steal = consensus ≠ ground truth.
+- **NEW** `@entities/tools/bloodbash.md` — **K242** Extract-only; OSINT `.local/adopts/BloodBash` MIT ~104MB pointer; no cyber re-clone; Context-no-PoC cluster listed.
+- **NEW** `@entities/tools/bbot.md` — **K241** AGPL Extract-only; OSINT shelf ~15MB; never vendor Atto.
+- **NEW** `@sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md` + `@concepts/compliance-detector-rule-blindness.md` — Watch; crossed-rule audit; no FujitsuResearch clone.
+- **NEW** `@sources/arxiv-2608-18351-excess-authority-least-privilege.md` + `@concepts/task-conditioned-excess-authority.md` — CCC **K290** (≠ Cybersec CHIVE K290).
+- **Phase-0:** `scripts/adopt_k295_k297_phase0.sh` — no forbidden clones; BloodBash/bbot OSINT pointers.
+- **Phase-1:** K295/K296/K242 → lab-redteam; CCC K290 + rule-blindness + K297 → agent-audit; **restored** Cybersec dual-ID block after CCC K290–K294 in `cemini-phase1-policy-wires.mdc`.
+- **friend brief:** add-on **30** (Fool's Gold vs abliteration, email-relay scope, BloodBash Extract-only, bbot AGPL).
+- **Sweep:** `wiki/sweeps/2026-08-19-daily.md` + `2026-08-20-daily.md` retained.
+
+**Archive**: 5 PDFs → egress-fi cybersec/
+
 ## [2026-08-18] ingest | K282 ARENA-audio / K283 JailbreakSkill / K288 ESTI / K290 CHIVE + brief-sync (Tripwire / SVP / RA-Bench / DFI)
 
 Full ingest of 5 inbox arXiv PDFs (`wiki/sweeps/2026-08-18-daily.md`) + inbound 08-17 briefs. LANE hard. Grok CLI implement credits-out after core pages; claude-ds Pro hang → Cursor parent takeover from SIP.

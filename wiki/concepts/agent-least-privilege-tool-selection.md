@@ -28,6 +28,8 @@ related:
   - entities/tools/handle-capability-protocol.md
   - concepts/security-tool-orchestration-determinants.md
   - sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md
+  - sources/arxiv-2608-18351-excess-authority-least-privilege.md
+  - concepts/task-conditioned-excess-authority.md
 maturity: draft
 created: 2026-06-19
 updated: 2026-07-31

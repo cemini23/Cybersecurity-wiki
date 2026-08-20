@@ -109,6 +109,8 @@ related:
   - concepts/intersage-trust-native-ioa-protocol.md
   - sources/arxiv-2608-16806-esti-state-semantic-injection.md
   - concepts/planner-state-integrity-embodied-agents.md
+  - sources/arxiv-2608-18351-excess-authority-least-privilege.md
+  - concepts/task-conditioned-excess-authority.md
 maturity: validated
 created: 2026-06-05
 updated: 2026-08-15

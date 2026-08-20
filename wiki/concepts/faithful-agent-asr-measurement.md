@@ -20,6 +20,7 @@ related:
   - sources/arxiv-2608-16747-chive-counterfactual-explanations.md
   - concepts/counterfactual-simulatability-llm-explanations.md
   - sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md
+  - concepts/compliance-detector-rule-blindness.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-15

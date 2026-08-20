@@ -72,6 +72,7 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 
 - Do not use a single-pass LLM over pasted CSV/feature tables as primary predictive analytics — accuracy collapses with dimensionality.
 - Prefer classical / tabular-foundation / solver tools; LLMs for narrative around tool outputs.
+- **OSINT/GW K241** (Capital Flows 30y + three equity risks, alert-only) = `guruwatcher-k241-capital-flows-macro-phase1-wires.mdc` — do not collapse with this tabular K241.
 
 ## Telemetry + deterministic failure repair (Trajectory Sentinel / K242)
 
@@ -460,15 +461,55 @@ Signed mandates on MCP actions (K285) + 3D world agents WATCH (K286) + black-box
 - **Agentic, validated case construction** — sample scene taxonomy → ground actions → validate each candidate before acceptance (pairs K277 measurement integrity).
 - `mirros-lab/harnesseval-w` null SPDX → **NO-GO clone**. **`policy_wired`**.
 
-## Cybersec wave K282 / K283 / K288 / K290 (2026-08-18) — dual-ID note
+## CCC wave K290–K294 (shared policy file)
 
-CCC same-day used **K282–K284** (AgentRewind / Twin / DFI) and **K285–K289** (Mandato / VibeWorlding / ClawGym II / ESTI / HarnessEval-W, above). Resolve by file+wiki, not bare K#.
+Least-privilege learning (K290) + enterprise BI WATCH (K291) + HCL (K292) + Eureka meta-agent (K293) + SPADE self-play envs (K294). Clone: SPADE MIT REFERENCE only.
 
-- **K282 ARENA-audio** (2608.15578) — ≠ CCC K282 AgentRewind. Audio-grounded RT; acoustic lab only; split judges; FDR/PSR. Domain wire: `cemini-cybersec-lab-redteam.mdc`.
-- **K283 JailbreakSkill** (2608.16465) — ≠ CCC K283 Twin. Evolving attack-skill library; null SPDX no clone; no `.cursor/skills` copy. Domain wire: lab-redteam + agent-audit.
-- **K288 ESTI** (2608.16806) — **same paper as CCC K288** (section above); this wiki is cyber-primary. Planner-state integrity; P-ASR ≠ E-ASR. Domain wire: lab-redteam + mcp-tool-control.
-- **K290 CHIVE** (2608.16747) — counterfactual simulatability; MIT REFERENCE clone `.local/adopts/chive`; runtime wont_wire. Domain wire: agent-audit.
-- Inbound **K240 Tripwire** (2608.14392) — Watch; no clamp of abliterated models without HITL. ≠ OSINT Talon K240, ≠ CCC robotics K240.
+## Task-conditioned least-privilege learning (K290)
+
+- **Learned restraint complements gates** — post-training reduces excess-authority proposals; does **not** replace permission gates, signed mandates (K285), or sandboxing (K239).
+- **Task-relative sufficient-authority envelopes** — define per-task minimum authority; penalize/score trajectories for excess beyond envelope.
+- **Brokered pre/post audit** — deterministic six-dimensional risk vector on each terminal/MCP action; trajectory authority, not single-call classification.
+- No public code → **policy_wired** only. **Atto-priority** (pairs K285). Cybersec brief for excess-authority eval axis.
+
+## Enterprise conversational multi-agent analytics (K291)
+
+- **Sequential specialized pipeline** reduces drift vs flat multi-agent chat — reference pattern for role boundaries (pairs K276 RSM).
+- Enterprise Rakuten case study — **wont_wire** CCC/CeminiSuite runtime; no product install.
+
+## Harness Continual Learning / HCL (K292)
+
+- **Learning object = harness state** around a **frozen** foundation model (prompts, memory, skills, routing) — not only weights.
+- **Harness-level forgetting** — coupled harness updates can break earlier behavior; measure retention on held-out packs.
+- **Guarded evolution** — Optimizer proposes; Evaluator commits only after current improvement + historical retention budget + validity (pairs K162 external eval contract).
+- Version harness baselines before blast-radius edits (pairs K273 ACM). No public code → **policy_wired**.
+
+## Eureka task-conditioned meta-agent (K293)
+
+- **Obligation graphs** with explicit acceptance semantics for long-horizon tasks — compile dynamic Macro-Agent topology at runtime.
+- **Acceptance certificates** required before terminal success — no uncertified `done` (pairs K277 measurement integrity, K162).
+- **Governed architecture evolution** — cost-benefit-gated local architecture updates under constraints.
+- `manxis-contact/Eureka` null SPDX → **NO-GO clone**. **Policy only**.
+
+## SPADE self-play executable environments (K294)
+
+- **Co-evolving env designer** writes complete Gym-style Python envs (reset/step, rewards, verification) — env pool grows with agent capability.
+- **Hint-based regret** rewards frontier-difficulty solvable envs — not pure adversary or cooperative inflation.
+- Corpus grounding + environment memory for designer stability.
+- `spade-rl/spade` **MIT** → **GO REFERENCE** `.local/adopts/spade`; RL trainer **`wont_wire`** on prod harness (pairs K162 closed-loop guardrails).
+
+## Cybersec wave K282 / K283 / K288 / K290 / K295–K297 (dual-ID)
+
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI) and K285–K294 (Mandato…SPADE, above). Resolve by file+wiki, not bare K#.
+
+- K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
+- K283 JailbreakSkill (2608.16465) ≠ CCC Twin
+- K288 ESTI (2608.16806) = same paper as CCC K288; cyber-primary
+- K290 CHIVE (2608.16747) ≠ CCC K290 excess-authority (2608.18351)
+- K295 Fool's Gold (2608.17202) — defensive deception vs safety-removal; lab only
+- K296 Trusted Workflow Relays (2608.17361) — email/M365 cross-tenant initial-access awareness; authorized scope
+- K297 TI→detection (2608.19011) — knowledge-driven detection rule grounding
+- Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
 ## Phase-1 meta
 

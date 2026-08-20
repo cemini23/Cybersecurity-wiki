@@ -57,6 +57,8 @@ related:
   - entities/frameworks/cyber-kill-chain.md
   - concepts/phishing-investigation.md
   - entities/people/mostafa-yahia.md
+  - sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md
+  - concepts/knowledge-driven-detection-rule-grounding.md
   - entities/people/rajneesh-gupta.md
   - entities/people/ashish-m-kothekar.md
   - entities/tools/grex.md

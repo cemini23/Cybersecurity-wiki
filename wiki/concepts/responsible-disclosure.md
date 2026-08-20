@@ -18,6 +18,8 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
   - entities/tools/defenseclaw.md
+  - sources/arxiv-2608-17361-trusted-workflow-relays.md
+  - concepts/trusted-workflow-relay-email-abuse.md
   - entities/tools/nvidia-skillspector.md
   - concepts/agent-runtime-guardrails.md
   - concepts/neuro-symbolic-auditable-reasoning.md

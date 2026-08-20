@@ -7,6 +7,7 @@ related:
   - sources/arxiv-2608-14391-ood-ra-bench-crisis-video.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
+  - sources/arxiv-2608-19025-ood-self-prompting-literature-extraction.md
 maturity: draft
 read_status: read
 created: 2026-08-18

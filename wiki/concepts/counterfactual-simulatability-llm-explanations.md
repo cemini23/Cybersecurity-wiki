@@ -9,6 +9,7 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/llm-code-review-agent-security.md
+  - sources/arxiv-2608-18351-excess-authority-least-privilege.md
 maturity: draft
 created: 2026-08-18
 updated: 2026-08-18

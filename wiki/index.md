@@ -297,6 +297,18 @@
 | @sources/arxiv-2608-16747-chive-counterfactual-explanations.md | draft | CHIVE counterfactual explanations (2608.16747; K290) |
 | @concepts/counterfactual-simulatability-llm-explanations.md | draft | Explanations need counterfactual tests |
 | @entities/tools/chive.md | draft | CHIVE (GO REFERENCE clone; wont_wire) |
+| @sources/arxiv-2608-17202-fools-gold-defensive-deception.md | draft | Fool's Gold decoy hardening (2608.17202; K295) |
+| @concepts/decoy-hardening-open-weight-abliteration.md | draft | Abliterated-state decoys; denial of trust — no attack recipe |
+| @sources/arxiv-2608-17361-trusted-workflow-relays.md | draft | Trusted workflow relays (2608.17361; K296) |
+| @concepts/trusted-workflow-relay-email-abuse.md | draft | Service-authentic send ≠ send-authorization |
+| @sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md | draft | AUTOSIGMA CTI→Sigma (2608.19011; K297) |
+| @concepts/knowledge-driven-detection-rule-grounding.md | draft | Enrich + template-ground + judge; no raw LLM-to-rule |
+| @sources/arxiv-2608-17067-ood-disco-t2i-defense.md | draft | OOD DiSCO T2I defense → image-gen |
+| @sources/arxiv-2608-19025-ood-self-prompting-literature-extraction.md | draft | OOD literature extraction — consensus ≠ ground truth |
+| @sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md | draft | Rule blindness in compliance detectors (2608.16852; Watch) |
+| @concepts/compliance-detector-rule-blindness.md | draft | Crossed-rule audit; detector verdict ≠ stated rule |
+| @sources/arxiv-2608-18351-excess-authority-least-privilege.md | draft | Excess-authority least-privilege learning (CCC K290 ≠ CHIVE) |
+| @concepts/task-conditioned-excess-authority.md | draft | Trajectory authority envelope; complements gates |
 | @sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md | draft | Tripwire safety-neuron clamp (2608.14392; K240 Watch) |
 | @concepts/tripwire-safety-neuron-clamp.md | draft | Do not clamp abliterated lab models without HITL |
 | @sources/arxiv-2608-14529-deterministic-gapsvp-hardness.md | draft | Deterministic GapSVP NP-hardness (2608.14529; watch) |
@@ -408,6 +420,8 @@
 | @entities/tools/rustscan.md | draft | Fast port-scan front-end to nmap (OSINT K237; owned-lab only) |
 | @entities/tools/cyberscraper-2077.md | draft | LLM-assisted scraper — OSINT clone; cyber awareness, no second tree |
 | @entities/tools/bloodhound.md | draft | AD attack-path graph |
+| @entities/tools/bloodbash.md | draft | Offline SharpHound/AzureHound JSON (K242 Extract; OSINT shelf) |
+| @entities/tools/bbot.md | draft | Recursive recon scanner (K241 AGPL Extract; no Atto vendor) |
 | @entities/tools/battleye.md | draft | Third-party kernel AC (BEDaisy/BEService/BEClient) — REFERENCE |
 | @entities/tools/easy-anti-cheat.md | draft | Epic kernel AC (demand-start) — REFERENCE |
 | @entities/tools/riot-vanguard.md | draft | Riot AC; boot-start or On-Demand (TPM EK + attestation) — not DFIR `vanguard` |
@@ -605,7 +619,7 @@ These tools surfaced from OSINT-wiki K-batch evaluations. Verdicts below reflect
 | centaur | NOASSERTION | Steal-from | K68 | Paradigm secure multi-agent host — read LICENSE text before any code use |
 | cryptex-oss | MIT | Adopt-eligible | K68 | @entities/tools/cryptex-oss.md — LLM red-team transform/mutator catalog |
 | ZishanAdThandar/pentest | GPL-3.0 | Reject | K68 | Pentest/bounty notes cheatsheets — keep out of IP-sale surfaces |
-| bbot | AGPL-3.0 | Reject (copyleft) | K71, K73 | `blacklanternsecurity/bbot` recursive scanner (~9.7k stars) — **do not route into IP-sale surfaces** |
+| bbot | AGPL-3.0 | Extract-only (copyleft) | K71, K73, K241 | `blacklanternsecurity/bbot` — AGPL isolate; OSINT shelf; **never vendor Atto/prod**; no mass internet scan |
 | Hackers-Arise AI enumeration | — | Reference | K71 | AI-assisted enumeration article (no code); complements K54 Hackers-Arise MCP log row |
 | cve-mcp-server | Apache-2.0 | CONDITIONAL-GO | K73 | @entities/tools/cve-mcp-server.md — workstation CVE/KEV/EPSS intel enrichment MCP |
 | nvidia-skillspector | Apache-2.0 | Adopt | K88 | @entities/tools/nvidia-skillspector.md — agent/MCP skill supply-chain scanner |

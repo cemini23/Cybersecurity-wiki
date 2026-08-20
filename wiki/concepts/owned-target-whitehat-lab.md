@@ -19,6 +19,8 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - entities/tools/cyberstrike.md
   - concepts/ai-pentest-harness-landscape.md
+  - entities/tools/bloodbash.md
+  - entities/tools/bbot.md
   - entities/tools/strix.md
   - sources/rizvi-automating-bug-bounty-recon-2026.md
   - entities/tools/strix-omlx.md

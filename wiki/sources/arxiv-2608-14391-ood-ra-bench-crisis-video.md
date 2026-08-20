@@ -6,6 +6,7 @@ keywords: [2608.14391, RA-Bench, crisis video, LastMile, image-gen]
 related:
   - sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md
   - "@image-gen-wiki/sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md"
+  - sources/arxiv-2608-17067-ood-disco-t2i-defense.md
 maturity: draft
 read_status: read
 created: 2026-08-18

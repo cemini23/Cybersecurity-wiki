@@ -22,6 +22,8 @@ related:
   - entities/tools/piminer.md
   - sources/arxiv-2608-16806-esti-state-semantic-injection.md
   - concepts/planner-state-integrity-embodied-agents.md
+  - sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md
+  - concepts/compliance-detector-rule-blindness.md
 maturity: draft
 created: 2026-06-23
 updated: 2026-08-06

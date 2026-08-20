@@ -9,6 +9,7 @@ related:
   - concepts/owned-target-whitehat-lab.md
   - concepts/osint-for-cybersecurity.md
   - "@osint-wiki/entities/tools/rustscan.md"
+  - entities/tools/bbot.md
 maturity: draft
 created: 2026-08-15
 updated: 2026-08-15

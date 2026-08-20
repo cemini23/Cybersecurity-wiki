@@ -15,6 +15,8 @@ related:
   - sources/effective-threat-investigation-soc-analysts.md
   - entities/tools/splunk.md
   - sources/100-splunk-queries-soc-analyst.md
+  - sources/arxiv-2608-17361-trusted-workflow-relays.md
+  - concepts/trusted-workflow-relay-email-abuse.md
 maturity: validated
 created: 2026-05-17
 updated: 2026-05-17

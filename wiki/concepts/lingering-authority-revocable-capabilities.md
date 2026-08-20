@@ -13,6 +13,7 @@ related:
   - entities/tools/chaincaps.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/task-conditioned-excess-authority.md
 
 maturity: draft
 created: 2026-06-24

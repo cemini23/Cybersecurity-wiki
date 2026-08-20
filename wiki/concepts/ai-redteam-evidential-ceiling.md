@@ -19,6 +19,11 @@ related:
   - concepts/counterfactual-simulatability-llm-explanations.md
   - entities/tools/chive.md
   - sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md
+  - sources/arxiv-2608-17202-fools-gold-defensive-deception.md
+  - concepts/decoy-hardening-open-weight-abliteration.md
+  - sources/arxiv-2608-19025-ood-self-prompting-literature-extraction.md
+  - sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md
+  - concepts/compliance-detector-rule-blindness.md
 maturity: draft
 created: 2026-07-29
 updated: 2026-08-12

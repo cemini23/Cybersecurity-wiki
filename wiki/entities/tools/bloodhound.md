@@ -9,6 +9,7 @@ related:
   - entities/people/joas-a-santos.md
   - entities/tools/pentest-ai-agents.md
   - entities/tools/netviz.md
+  - entities/tools/bloodbash.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-06-01
