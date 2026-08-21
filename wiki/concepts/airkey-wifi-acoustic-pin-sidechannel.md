@@ -4,6 +4,7 @@ type: concept
 tags: [concept, wireless, side-channel, privacy]
 keywords: [AirKey, CSI, ACK harvesting, PIN inference, 2608.03151]
 related:
+  - sources/arxiv-2608-16088-ood-rainfall-csi-sensing.md
   - sources/arxiv-2608-03151-airkey-wifi-acoustic-pin-inference.md
   - concepts/wireless-pentest.md
   - concepts/network-security.md

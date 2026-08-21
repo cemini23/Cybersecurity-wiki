@@ -4,6 +4,7 @@ type: concept
 tags: [concept, llm-safety, evaluation, red-teaming]
 keywords: [evidential ceiling, null result, harm rate, certification claim, 2607.21735]
 related:
+  - concepts/agent-safety-executable-evaluation.md
   - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
   - entities/tools/ai-redteam-evidential-limits.md
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md

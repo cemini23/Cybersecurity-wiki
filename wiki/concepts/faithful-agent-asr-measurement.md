@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, red-team, evaluation, faithful-measurement]
 keywords: [ASR, exposure, execution, observation, adjudication, Recognition-Execution Gap, REG, trajectory vs state judge, harness-dependent, evaluation cue]
 related:
+  - concepts/agent-safety-executable-evaluation.md
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - entities/tools/redagentbench.md
   - concepts/agent-runtime-guardrails.md

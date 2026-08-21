@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, code-review, supply-chain, social-engineering, devsecops]
 keywords: [pr review agent, merge gate, sevra, refusal rate, framing attack, cve reversal]
 related:
+  - concepts/llm-generated-dependency-breaking-tests.md
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - entities/tools/sevra-bench.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md

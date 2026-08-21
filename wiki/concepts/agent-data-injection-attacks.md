@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, ipi, trusted-untrusted, data-injection]
 keywords: [adi, agent data injection, probabilistic delimiter, dt du isolation, 2607.05120]
 related:
+  - concepts/committee-certified-rag-provenance.md
+  - sources/arxiv-2608-20097-trustrag-committee-rag.md
   - sources/arxiv-2607-05120-agent-data-injection-attacks.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md

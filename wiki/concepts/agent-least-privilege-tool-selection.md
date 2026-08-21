@@ -4,6 +4,7 @@ type: concept
 tags: [agent-security, least-privilege, tool-selection, mcp, opur, toolprivbench]
 keywords: [over-privileged tool selection, opur, ped, premature escalation, toolprivbench, 2606.20023]
 related:
+  - concepts/agent-runtime-identity-adr.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - entities/tools/toolprivbench.md
   - concepts/mcp-security-posture.md

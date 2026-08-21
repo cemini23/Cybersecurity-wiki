@@ -4,6 +4,7 @@ type: source
 tags: [source, arxiv, ood, wireless-sensing, localization]
 keywords: [2608.06866, DoDTrack, Doppler, Wi-Fi sensing, indoor tracking, ISAC]
 related:
+  - sources/arxiv-2608-16088-ood-rainfall-csi-sensing.md
   - concepts/wireless-pentest.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft

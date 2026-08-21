@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-21 | Full ingest K298 Inadvertent Context Leakage / K299 TrustRAG committee RAG / K300 BreakGuard LLM dependency tests + OOD rainfall CSI / travel agents | Inbox 4 PDFs (rainfall+travel OOD); inbound leakage brief filed as K298 not K244 (Trident); no name-collision clones (all REFERENCE); friend add-on 31 |
 | 2026-08-20 | Full ingest K295 Fool's Gold / K296 Trusted Workflow Relays / K297 TI→detection + BloodBash/bbot/rule-blindness/excess-authority brief-sync | Inbox 5 PDFs (DiSCO+self-prompt OOD); restored Cybersec dual-ID after CCC K290–K294 overwrite; BloodBash/bbot OSINT Extract pointers |
 | 2026-08-18 | Full ingest K282 ARENA-audio / K283 JailbreakSkill / K288 ESTI / K290 CHIVE + Tripwire/SVP/RA-Bench/DFI brief-sync | Inbox 5 PDFs; CHIVE MIT ~11MB REFERENCE; JailbreakSkill null SPDX no clone; Grok credits-out then parent takeover |
 | 2026-08-12 | Ingest endpoint-encryption/deniable-storage classes + SLSA/sigstore build integrity + Secure Boot vs device ownership (3 concepts + 7 sources); all REFERENCE vendor HTML; no kits | FDE ≠ anonymity / deniability limits; release-artifact integrity (SLSA L0–L3, Sigstore, reproducible builds) pairs with npm dependency layer; attestation-vs-ownership tension for product policy + operator boxes |

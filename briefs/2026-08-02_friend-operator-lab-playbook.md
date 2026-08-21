@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 
@@ -216,6 +216,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 - `@entities/tools/bbot.md` (K241 AGPL Extract)
 - `@concepts/compliance-detector-rule-blindness.md`
 - `@concepts/task-conditioned-excess-authority.md` (CCC K290 ≠ CHIVE)
+- `@concepts/inadvertent-context-leakage.md` · `@concepts/agent-runtime-identity-adr.md` · `@concepts/agent-safety-executable-evaluation.md` · `@concepts/committee-certified-rag-provenance.md` · `@concepts/llm-generated-dependency-breaking-tests.md` (K298–K300, 2026-08-21)
 - `@concepts/buffer-overflow.md` · `@concepts/threat-hunting.md` · `@entities/certifications/ecppt.md` (Joas deep-reads; egress 2026-08-03)
 - `@concepts/toktier-exact-stateful-tokenization.md` · `@concepts/stair-hierarchical-repair-plans.md` (K235/K234)
 - `@entities/tools/piminer.md` · `@concepts/gradient-immunity-malicious-finetune.md` · `@concepts/trident-agentic-drl-defense-redteam.md` (K248/K246/K244)
@@ -312,5 +313,7 @@ Read these wiki pages in order after the checklist above:
 
 29. **Audio LALM RT + evolving attack skills + planner-state (2026-08-18)** — `@concepts/audio-grounded-lalm-redteaming.md` (ARENA K282; pairs ILL; owned devices only) · `@concepts/evolving-attack-skill-libraries.md` (JailbreakSkill K283; lab eval only; do not auto-evolve `.cursor/skills`) · `@concepts/planner-state-integrity-embodied-agents.md` (ESTI K288; treat env-state as untrusted; P-ASR ≠ E-ASR) · `@concepts/tripwire-safety-neuron-clamp.md` — **do not** neuron-clamp path-A abliterated models without HITL; no 27B GGUF dump. CHIVE (`@entities/tools/chive.md`) is explanation-eval, not a pentest tool.
 30. **Fool's Gold vs abliteration + email-relay scope + BloodBash/bbot (2026-08-20)** — `@concepts/decoy-hardening-open-weight-abliteration.md` (K295): abliteration removes refusal, **not** truth — do not treat fluent post-strip answers as verified; no safety-removal recipes. `@concepts/trusted-workflow-relay-email-abuse.md` (K296): product-pentest **owned tenant / written scope only**; SPF/DKIM/DMARC pass ≠ send-authorization; no live phishing. `@entities/tools/bloodbash.md` (K242) Extract-only on already-collected authorized SharpHound JSON (OSINT shelf, no re-clone; no path payloads). `@entities/tools/bbot.md` (K241) **AGPL isolate** — authorized-target recon only; never vendor into Atto/prod; no mass internet scan. Bonus: `@concepts/compliance-detector-rule-blindness.md` — guard verdict ≠ stated rule until a crossed-rule test.
+
+31. **Inadvertent context leakage + tool-layer secrets + TrustRAG + BreakGuard (2026-08-21)** — `@concepts/inadvertent-context-leakage.md` (K298): **never put vault/API secrets in model context when the completion can leave the box** (email drafts, Slack, PR bodies, "write a paragraph with numbers") — benign outputs are covert channels even under refusal (2-digit near-perfect; 4-digit 82% on Opus 4.6); prefer **tool-layer grants that never return the secret to the model** (1Password pattern). `@concepts/agent-runtime-identity-adr.md` (K298): ADR telemetry + SPIFFE `act=agent` (`sub=human`/`act=agent`, short-lived SVIDs, no standing key on disk) + Cloudflare task-scoped access/Trust Ratchet as the detection/identity side; SecPro: automate **gather**, not **decide**. `@concepts/committee-certified-rag-provenance.md` (K299): RAG ranking/provenance is an integrity boundary — schema-valid chunks ≠ authenticated; pin corpus version + ranking inputs for replay. **Name collision: not Zhou/HuichiZhou TrustRAG (2501.00879).** `@concepts/llm-generated-dependency-breaking-tests.md` (K300): LLM dependency tests are **candidates, not a merge gate** (30.3% BUMP BCs; crash-type > behavioral; human review before update gate). **Name collision: not ProgrammerNomad BreakGuard.**
 
 Operator hub: `@concepts/operator-lab-playbook.md`

@@ -4,6 +4,8 @@ type: concept
 tags: [concept, defensive-ops, supply-chain, npm, bun, package-manager, package-pinning]
 keywords: [npm, supply-chain attack, min-release-age, minimum-release-age, bunfig, tanstack, save-exact, version pinning, lockfile, release-age cooldown]
 related:
+  - concepts/llm-generated-dependency-breaking-tests.md
+  - sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md
   - concepts/defense-in-depth.md
   - concepts/system-hardening.md
   - "@osint-wiki/concepts/npm-supply-chain-defense.md"

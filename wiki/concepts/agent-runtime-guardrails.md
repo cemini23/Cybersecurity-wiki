@@ -4,6 +4,10 @@ type: concept
 tags: [methodology, agent-security, guardrail, mcp, prompt-injection, runtime-enforcement, formal-methods]
 keywords: [agent guardrail, authority confusion, permission laundering, sleeper attack, epca, airguard, chaincaps, adaptive attack rate, tool composition safety]
 related:
+  - concepts/inadvertent-context-leakage.md
+  - concepts/agent-runtime-identity-adr.md
+  - concepts/agent-safety-executable-evaluation.md
+  - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md

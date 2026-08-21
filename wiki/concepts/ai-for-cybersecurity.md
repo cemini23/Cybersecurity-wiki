@@ -4,6 +4,9 @@ type: concept
 tags: [ai, llm, chatgpt, automation]
 keywords: [chatgpt, ai, llm, security automation]
 related:
+  - concepts/committee-certified-rag-provenance.md
+  - concepts/llm-generated-dependency-breaking-tests.md
+  - sources/arxiv-2608-20320-ood-travel-behavior-agents.md
   - concepts/red-team-operations.md
   - concepts/soc-operations.md
   - sources/chatgpt-for-cybersecurity-1.md

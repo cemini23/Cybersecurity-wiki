@@ -4,6 +4,7 @@ type: concept
 tags: [soc, blue-team, siem, detection]
 keywords: [soc, siem, monitoring, wazuh, elk, splunk]
 related:
+  - sources/substack-rss-secpro-2026-08-21-ai-ready-soc.md
   - concepts/ai-for-cybersecurity.md
   - concepts/incident-response.md
   - concepts/purple-team-operations.md

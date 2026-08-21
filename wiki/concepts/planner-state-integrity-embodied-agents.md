@@ -4,6 +4,7 @@ type: concept
 tags: [concept, methodology, agent-security, embodied, planner-integrity, k288]
 keywords: [planner-state integrity, ESTI, schema-preserving false records, P-ASR, E-ASR, state producer]
 related:
+  - concepts/committee-certified-rag-provenance.md
   - sources/arxiv-2608-16806-esti-state-semantic-injection.md
   - concepts/esti-state-semantic-injection-stub.md
   - entities/tools/esti-bench.md

@@ -1,3 +1,27 @@
+## [2026-08-21] ingest | K298 Inadvertent Context Leakage / K299 TrustRAG committee RAG / K300 BreakGuard dependency tests + OOD CSI rainfall / travel agents
+
+Full ingest of 4 inbox arXiv PDFs (`wiki/sweeps/2026-08-21-daily.md`) + inbound brief `briefs/2026-08-21_k244-context-leakage-adr.md` (filed as **K298** — inbound wave label K244 ≠ Cybersec Trident K244 ≠ CCC UrbanAgent K244). LANE mid. DeepSeek Flash wrote pages then API-fail; Cursor parent closed archive/commit/CI.
+
+- **NEW** `@sources/arxiv-2608-19857-inadvertent-context-leakage.md` + `@concepts/inadvertent-context-leakage.md` — **K298** REFERENCE (inbound brief source, no inbox PDF). Benign-output covert channel: refusal ≠ no leak; 2-digit near-perfect / 4-digit 82% exact on Opus 4.6; suppression ρ=0.95 with leakage. Defense steal: no secrets in context with third-party-visible generation; tool-layer grants that never return the secret. **No attack prompts / no decoder PoCs** (defensive policy only).
+- **NEW** `@sources/newsletter-rss-tldrsec-2026-08-20-tldr-sec-342.md` — **K298** supporting: Uber ADR telemetry (prompts/MCP/traces/tool calls) + two-tier detector + ADR-Bench; SPIFFE `act=agent` short-lived SVIDs (`sub=human`/`act=agent`); Cloudflare task-scoped access + Trust Ratchet.
+- **NEW** `@sources/substack-rss-secpro-2026-08-21-ai-ready-soc.md` — **K298** supporting: one asset-ID map; agent least privilege; RAG runbooks; automate gather not decide.
+- **NEW** `@concepts/agent-runtime-identity-adr.md` — ADR telemetry + SPIFFE `act=agent` synthesis.
+- **NEW** `@concepts/agent-safety-executable-evaluation.md` — benign-output predicate tests, not only jailbreaks.
+- **NEW** `@sources/arxiv-2608-20097-trustrag-committee-rag.md` + `@concepts/committee-certified-rag-provenance.md` — **K299** REFERENCE (no public SPDX at hunt; **name collision** — HuichiZhou/TrustRAG 2501.00879 + gomate-community are NOT this artifact; no clone; no MP-SPDZ/blockchain clone). Committee ZK scoring + MPC aggregation + hash commitments → replayable RAG ranking.
+- **NEW** `@sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md` + `@concepts/llm-generated-dependency-breaking-tests.md` — **K300** REFERENCE (paper claims GitHub prototype; hunt found no matching repo with SPDX — ProgrammerNomad/BreakGuard is a Windows app, Tahiram32/breakguard unrelated MIT product). 27/89 (30.3%) BUMP BCs; ~$0.90/detected BC; crash-type > behavioral; **tests are candidates, not a merge gate**.
+- **NEW** `@sources/arxiv-2608-16088-ood-rainfall-csi-sensing.md` — OOD meteorology; steal: commodity Wi-Fi/LTE CSI is an environmental sensor → AirKey/DoDTrack; authorized RF lab only.
+- **NEW** `@sources/arxiv-2608-20320-ood-travel-behavior-agents.md` — OOD transportation; steal: auditable multi-agent survey→model workflow (researcher-approved revisions, no auto-mutation).
+- **Backlinks** (`related:` only): system-prompt-leakage, local-abliterated-llm-pentest-stack, mcp-security-posture, agent-runtime-guardrails, coding-agent-supply-chain-install-gap, airkey, dodtrack OOD, ai-for-cybersecurity, soc-operations, agent-least-privilege-tool-selection, agent-execution-provenance, ai-redteam-evidential-ceiling, faithful-agent-asr-measurement, agent-data-injection-attacks, planner-state-integrity-embodied-agents, npm-supply-chain-defense, llm-code-review-agent-security, wireless-pentest.
+- **Phase-0:** `scripts/adopt_k298_k300_phase0.sh` — no forbidden clones (TrustRAG / HuichiZhou / gomate / BreakGuard app / MP-SPDZ / leakage PoCs / fools-gold leftovers); no OSINT BloodBash/bbot checks (those belong to K295 script).
+- **Phase-1:** K298 → lab-redteam + agent-audit + mcp-tool-control; K299/K300 → agent-audit; dual-ID block K298–K300 appended to `cemini-phase1-policy-wires.mdc` (CCC + K295–K297 kept intact).
+- **friend brief:** add-on **31** (context leakage / tool-layer secrets / TrustRAG name collision / BreakGuard candidate-tests).
+- **Briefs:** batch `briefs/2026-08-21_k298-k300-ingest.md` + atto `briefs/2026-08-21_atto-context-leakage.md` + per-K; prod `scp` → cemini-prod:/opt/cemini/briefs/.
+- **Sweep:** `wiki/sweeps/2026-08-21-daily.md` retained + committed.
+- **Route:** mid Flash wrote pages then DeepSeek API fail → OpenRouter fail → parent close. CCC federation overwrite of shared `cemini-phase1-policy-wires.mdc` (CCC K295–K299) restored Cybersec dual-ID block (keep CCC wave; do not collapse K#).
+- **Inbound CCC Thinkingbox brief** (`briefs/2026-08-21_k296-thinkingbox-from-ccc.md`): steal already in CCC K296 section; Cybersec **K296 stays Trusted Workflow Relays** — no new Cybersec K#.
+
+**Archive**: 4 PDFs → egress-fi cybersec/ (incl. rainfall 42MB).
+
 ## [2026-08-20] ingest | K295 Fool's Gold / K296 Trusted Workflow Relays / K297 TI→detection + brief-sync (BloodBash / bbot / rule-blindness / CCC excess-authority)
 
 Full ingest of 5 inbox arXiv PDFs (`wiki/sweeps/2026-08-20-daily.md`) + inbound 08-18/08-19/08-20 briefs. LANE hard. Grok CLI implement.

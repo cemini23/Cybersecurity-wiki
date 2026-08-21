@@ -4,6 +4,8 @@ type: concept
 tags: [llm-security, prompt-leaking, system-prompt, owasp-llm07, red-team, defensive]
 keywords: [2606.18673, prompt leaking, system prompt leakage, attention drift, area, leakbench, owasp llm07]
 related:
+  - concepts/inadvertent-context-leakage.md
+  - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - entities/tools/leakbench-area.md
   - concepts/llm-adversarial-fuzzing.md

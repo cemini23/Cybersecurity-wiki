@@ -4,6 +4,9 @@ type: concept
 tags: [concept, mcp, security, k100, admission-control, spi, dci]
 keywords: [mcp, attestation, prompt-injection, description-code, stored-spi, tool-allowlist]
 related:
+  - concepts/inadvertent-context-leakage.md
+  - concepts/agent-runtime-identity-adr.md
+  - concepts/committee-certified-rag-provenance.md
   - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md

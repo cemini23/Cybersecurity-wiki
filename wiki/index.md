@@ -303,6 +303,18 @@
 | @concepts/trusted-workflow-relay-email-abuse.md | draft | Service-authentic send ≠ send-authorization |
 | @sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md | draft | AUTOSIGMA CTI→Sigma (2608.19011; K297) |
 | @concepts/knowledge-driven-detection-rule-grounding.md | draft | Enrich + template-ground + judge; no raw LLM-to-rule |
+| @sources/arxiv-2608-19857-inadvertent-context-leakage.md | draft | Inadvertent context leakage (2608.19857; K298) — benign-output covert channel |
+| @concepts/inadvertent-context-leakage.md | draft | Refusal ≠ no leak; tool-layer grants; no secrets in third-party-visible outputs |
+| @sources/newsletter-rss-tldrsec-2026-08-20-tldr-sec-342.md | draft | tl;dr sec #342 — ADR telemetry, SPIFFE act=agent, Cloudflare task-scoped access |
+| @sources/substack-rss-secpro-2026-08-21-ai-ready-soc.md | draft | SecPro #248 — AI-ready SOC foundations (asset-ID map, gather-not-decide) |
+| @concepts/agent-runtime-identity-adr.md | draft | Agent identity + ADR telemetry — sub=human / act=agent, SVIDs, Trust Ratchet |
+| @concepts/agent-safety-executable-evaluation.md | draft | Benign-output predicate tests in executable eval — not only jailbreaks |
+| @sources/arxiv-2608-20097-trustrag-committee-rag.md | draft | TrustRAG committee RAG (2608.20097; K299) — ZK + MPC + hash commitments |
+| @concepts/committee-certified-rag-provenance.md | draft | RAG ranking/provenance = integrity boundary; schema-valid ≠ authenticated |
+| @sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md | draft | BreakGuard LLM dependency tests (2608.20167; K300) — 30.3% of BUMP BCs |
+| @concepts/llm-generated-dependency-breaking-tests.md | draft | LLM dependency tests are candidates, not a merge gate; crash-type > behavioral |
+| @sources/arxiv-2608-16088-ood-rainfall-csi-sensing.md | draft | OOD rainfall CSI sensing (2608.16088) — CSI-as-environmental-sensor steal |
+| @sources/arxiv-2608-20320-ood-travel-behavior-agents.md | draft | OOD travel-behavior agentic survey (2608.20320) — workflow-governance steal |
 | @sources/arxiv-2608-17067-ood-disco-t2i-defense.md | draft | OOD DiSCO T2I defense → image-gen |
 | @sources/arxiv-2608-19025-ood-self-prompting-literature-extraction.md | draft | OOD literature extraction — consensus ≠ ground truth |
 | @sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md | draft | Rule blindness in compliance detectors (2608.16852; Watch) |

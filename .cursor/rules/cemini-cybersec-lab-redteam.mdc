@@ -71,3 +71,7 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K296 Trusted Workflow Relays (lab)** — service-authentic notification send with failed application send-authorization. **Authorized email / owned tenant / written-scope product pentest only.** No unsolicited mail, no live phishing kits, no third-party relay runbooks. SPF/DKIM/DMARC pass ≠ workflow authorization. REFERENCE (no kit).
 - **K242 BloodBash (lab)** — Extract-only offline SharpHound/AzureHound JSON on **already-collected authorized files**. OSINT shelf pointer — do not re-clone. No attack-path payloads; H.I.V.E / WireTapper / PrivFu / QUIC C2 / pwneye = Context-no-PoC.
 - **K297 TI→detection (lab, optional)** — generated Sigma is a **candidate**; human review before SIEM deploy. Ground in templates; do not raw-LLM-to-rule. REFERENCE (no public code).
+
+## Aug 21 batch (Inadvertent Context Leakage 2608.19857 · K298)
+
+- **K298 Inadvertent Context Leakage (lab)** — the benign-output covert-channel eval is **authorized-lab only**: no wiki attack prompts, no PIN/SSN extraction recipes, no decoder PoCs, no LIVE third-party secret reconstruction. Eval framing: seed-and-probe predicates on owned lab lanes. **Dual-ID: the inbound brief was labeled K244, but Cybersec K244 = Trident (2608.04317) and CCC K244 = UrbanAgent — this paper is K298.**

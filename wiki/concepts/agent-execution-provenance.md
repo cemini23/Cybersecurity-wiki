@@ -4,6 +4,9 @@ type: concept
 tags: [concept, agent-security, provenance, observability, evaluation, audit, methodology]
 keywords: [evidence tracing, execution provenance, agent traces, W3C PROV, claim attribution, trace completeness, process accountability]
 related:
+  - concepts/agent-runtime-identity-adr.md
+  - concepts/committee-certified-rag-provenance.md
+  - sources/arxiv-2608-20097-trustrag-committee-rag.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-runtime-guardrails.md
   - concepts/seclaw-agent-security-evaluation.md
