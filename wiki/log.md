@@ -20,7 +20,7 @@ Full ingest of 4 inbox arXiv PDFs (`wiki/sweeps/2026-08-21-daily.md`) + inbound 
 - **Route:** mid Flash wrote pages then DeepSeek API fail → OpenRouter fail → parent close. CCC federation overwrite of shared `cemini-phase1-policy-wires.mdc` (CCC K295–K299) restored Cybersec dual-ID block (keep CCC wave; do not collapse K#).
 - **Inbound CCC Thinkingbox brief** (`briefs/2026-08-21_k296-thinkingbox-from-ccc.md`): steal already in CCC K296 section; Cybersec **K296 stays Trusted Workflow Relays** — no new Cybersec K#.
 
-**Archive**: 4 PDFs → egress-fi cybersec/ (incl. rainfall 42MB).
+**Archive**: TrustRAG 2608.20097 + BreakGuard 2608.20167 on egress-fi cybersec/. Rainfall 2608.16088 (~40MB local; remote had a 23MB partial) and travel 2608.20320 still local — jump-host scp hung; retry when egress is healthy.
 
 ## [2026-08-20] ingest | K295 Fool's Gold / K296 Trusted Workflow Relays / K297 TI→detection + brief-sync (BloodBash / bbot / rule-blindness / CCC excess-authority)
 
