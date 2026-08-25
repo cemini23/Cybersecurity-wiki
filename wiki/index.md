@@ -315,6 +315,20 @@
 | @concepts/llm-generated-dependency-breaking-tests.md | draft | LLM dependency tests are candidates, not a merge gate; crash-type > behavioral |
 | @sources/arxiv-2608-16088-ood-rainfall-csi-sensing.md | draft | OOD rainfall CSI sensing (2608.16088) — CSI-as-environmental-sensor steal |
 | @sources/arxiv-2608-20320-ood-travel-behavior-agents.md | draft | OOD travel-behavior agentic survey (2608.20320) — workflow-governance steal |
+| @sources/arxiv-2608-21278-clear-latent-adapter-routing.md | draft | CLEAR latent adapter routing (2608.21278; K301) — conditional safety |
+| @concepts/conditional-safety-adapter-routing.md | draft | Selective safety intervention vs the alignment tax; global LoRA ≠ safety proof |
+| @sources/arxiv-2608-23028-psychjail.md | draft | PsychJail psychological jailbreaks (2608.23028; K302) — lab only |
+| @concepts/psychological-multiturn-jailbreaks.md | draft | Multi-turn persuasion surface; refusal not turn-stable; no persuasion recipes |
+| @sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md | draft | CLAUDE.md security rules vs built-in deny (2608.23550; K303) |
+| @concepts/nl-security-rules-vs-builtin-deny.md | draft | NL rule prose ≠ enforcement; prefer deny/hooks; write-only channel |
+| @sources/arxiv-2608-23497-safety-direction-penalty.md | draft | Reasoning-induced misalignment / SDP (2608.23497; K304) |
+| @concepts/reasoning-induced-misalignment.md | draft | Harmless reasoning FT can weaken safety; reasoning FT is a safety event |
+| @sources/arxiv-2608-22754-bluetooth-nft-soft-pairing.md | draft | BT access control via NFT soft pairing (2608.22754; K305) |
+| @concepts/bluetooth-nft-soft-pairing.md | draft | Pairing ≠ authorization; revocable verifiable service auth; lab only |
+| @sources/arxiv-2608-21317-llm-regulatory-compliance-artifacts.md | draft | LLM compliance artifacts (2608.21317; K306 Watch) — DPIA/DPP |
+| @concepts/llm-generated-compliance-artifacts.md | draft | LLM compliance artifacts are candidates, not deliverables; HITL |
+| @sources/arxiv-2608-21289-ood-rebite-food-journaling.md | draft | OOD Rebite food journaling (2608.21289) — goal-at-view-time steal |
+| @sources/arxiv-2608-23566-ood-critic-bpco.md | draft | OOD BPCO critic RL (2608.23566) — golden_critic REFERENCE; no trainer wiring |
 | @sources/arxiv-2608-17067-ood-disco-t2i-defense.md | draft | OOD DiSCO T2I defense → image-gen |
 | @sources/arxiv-2608-19025-ood-self-prompting-literature-extraction.md | draft | OOD literature extraction — consensus ≠ ground truth |
 | @sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md | draft | Rule blindness in compliance detectors (2608.16852; Watch) |

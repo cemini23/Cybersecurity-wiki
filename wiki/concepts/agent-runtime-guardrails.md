@@ -5,6 +5,9 @@ tags: [methodology, agent-security, guardrail, mcp, prompt-injection, runtime-en
 keywords: [agent guardrail, authority confusion, permission laundering, sleeper attack, epca, airguard, chaincaps, adaptive attack rate, tool composition safety]
 related:
   - concepts/inadvertent-context-leakage.md
+  - concepts/conditional-safety-adapter-routing.md
+  - concepts/nl-security-rules-vs-builtin-deny.md
+  - concepts/psychological-multiturn-jailbreaks.md
   - concepts/agent-runtime-identity-adr.md
   - concepts/agent-safety-executable-evaluation.md
   - sources/arxiv-2608-19857-inadvertent-context-leakage.md

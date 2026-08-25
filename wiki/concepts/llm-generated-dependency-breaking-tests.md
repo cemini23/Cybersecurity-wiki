@@ -5,6 +5,7 @@ tags: [concept, supply-chain, dependency-update, llm-tests, k300, defensive]
 keywords: [breaking changes, LLM-generated tests, focal method, BUMP, dependency update, crash-type, candidate tests]
 related:
   - sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md
+  - concepts/llm-generated-compliance-artifacts.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/llm-code-review-agent-security.md
   - concepts/npm-supply-chain-defense.md

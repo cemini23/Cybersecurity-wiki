@@ -75,3 +75,10 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 ## Aug 21 batch (Inadvertent Context Leakage 2608.19857 · K298)
 
 - **K298 Inadvertent Context Leakage (lab)** — the benign-output covert-channel eval is **authorized-lab only**: no wiki attack prompts, no PIN/SSN extraction recipes, no decoder PoCs, no LIVE third-party secret reconstruction. Eval framing: seed-and-probe predicates on owned lab lanes. **Dual-ID: the inbound brief was labeled K244, but Cybersec K244 = Trident (2608.04317) and CCC K244 = UrbanAgent — this paper is K298.**
+
+## Aug 25 batch (CLEAR 2608.21278 · PsychJail 2608.23028 · SDP 2608.23497 · BT-NFT 2608.22754)
+
+- **K302 PsychJail (lab, authorized-lab only)** — multi-turn psychological persuasion is a **lab eval surface, not a wiki payload**: no persuasion recipes, attack prompts, jailbreak scripts, or PoCs in this wiki; no LIVE third-party targets. NO-GO clone (`FengZeyugit/PsychJail` — null SPDX + ~2GB). The four susceptibility fingerprints are **conjecture** — do not harden against "profiles" as confirmed categories. Eval framing: multi-turn scripts on owned lab lanes, report per-model ASR honestly.
+- **K305 BT NFT (lab, owned devices only)** — Bluetooth NFT soft pairing decouples pairing from service authorization. **Owned-device / authorized lab only; no LIVE pairing manipulation, no unauthorized RF.** Test the service-authorization decision point (challenge-response + verifier + revocation path), not just radio pairing state. REFERENCE (no public code at hunt).
+- **K301 CLEAR (lab, optional)** — conditional safety adapter routing; do **not** treat a global LoRA/SFT as proof of safety (safety–utility tradeoff, alignment tax). No HF weight downloads. REFERENCE.
+- **K304 RIM/SDP (lab, optional)** — a reasoning fine-tune is a **safety event**: re-run safety evals after any FT of an aligned model; track safety-representation drift. No clamp recipes. REFERENCE.

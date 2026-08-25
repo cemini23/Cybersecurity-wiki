@@ -5,6 +5,9 @@ tags: [concept, llm-security, defensive-deception, abliteration, k295]
 keywords: [decoy hardening, Fool's Gold, abliterated honeypot, denial of trust]
 related:
   - sources/arxiv-2608-17202-fools-gold-defensive-deception.md
+  - concepts/conditional-safety-adapter-routing.md
+  - concepts/psychological-multiturn-jailbreaks.md
+  - concepts/reasoning-induced-misalignment.md
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/tripwire-safety-neuron-clamp.md
   - concepts/ai-redteam-evidential-ceiling.md

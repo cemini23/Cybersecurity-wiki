@@ -5,6 +5,7 @@ tags: [concept, guard-models, audit, watch]
 keywords: [rule blindness, crossed-rule benchmark, ICS, guard verdict]
 related:
   - sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md
+  - concepts/llm-generated-compliance-artifacts.md
   - concepts/prompt-injection-detector-calibration.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md

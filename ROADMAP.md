@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-25 | Full ingest K301 CLEAR / K302 PsychJail / K303 CLAUDE.md-deny / K304 SDP / K305 BT-NFT / K306 LLM-compliance + OOD Rebite/critic | Inbox 8 NEW PDFs (rainfall+travel archive-only); restored Cybersec dual-ID K282–K306 after BPS/EnvHarness/Wayfinder overwrite (CCC steal kept); golden_critic Apache-2.0 REFERENCE clone wont_wire; PsychJail NO-GO (null SPDX, 2GB); friend add-on 32 |
 | 2026-08-21 | Full ingest K298 Inadvertent Context Leakage / K299 TrustRAG committee RAG / K300 BreakGuard LLM dependency tests + OOD rainfall CSI / travel agents | Inbox 4 PDFs (rainfall+travel OOD); inbound leakage brief filed as K298 not K244 (Trident); no name-collision clones (all REFERENCE); friend add-on 31 |
 | 2026-08-20 | Full ingest K295 Fool's Gold / K296 Trusted Workflow Relays / K297 TI→detection + BloodBash/bbot/rule-blindness/excess-authority brief-sync | Inbox 5 PDFs (DiSCO+self-prompt OOD); restored Cybersec dual-ID after CCC K290–K294 overwrite; BloodBash/bbot OSINT Extract pointers |
 | 2026-08-18 | Full ingest K282 ARENA-audio / K283 JailbreakSkill / K288 ESTI / K290 CHIVE + Tripwire/SVP/RA-Bench/DFI brief-sync | Inbox 5 PDFs; CHIVE MIT ~11MB REFERENCE; JailbreakSkill null SPDX no clone; Grok credits-out then parent takeover |

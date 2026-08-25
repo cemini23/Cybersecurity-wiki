@@ -10,6 +10,7 @@ related:
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/psychological-multiturn-jailbreaks.md
   - sources/arxiv-2605-28201-plant-persist-trigger-sleeper-attack.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - concepts/context-fractured-decomposition-attacks.md

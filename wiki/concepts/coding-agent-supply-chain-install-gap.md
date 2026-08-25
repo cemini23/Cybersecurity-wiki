@@ -5,6 +5,7 @@ tags: [concept, supply-chain, coding-agent, llm, install-gap]
 keywords: [2607.15143, pre-install gate, typosquat, separator confusion, registry redirect, harness]
 related:
   - concepts/llm-generated-dependency-breaking-tests.md
+  - concepts/nl-security-rules-vs-builtin-deny.md
   - sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/npm-supply-chain-defense.md

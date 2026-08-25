@@ -5,6 +5,8 @@ tags: [concept, llm-security, refusal, watch, k240]
 keywords: [Tripwire, safety neuron clamp, abliterated, HITL, Watch]
 related:
   - sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md
+  - concepts/conditional-safety-adapter-routing.md
+  - concepts/reasoning-induced-misalignment.md
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/concept2scenario-refusal-suppression.md
   - concepts/llm-pentest-automation.md

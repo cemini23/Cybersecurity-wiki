@@ -79,11 +79,13 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Prefer **deterministic verification** (recompute claims from tool results + required-call coverage) before LLM-as-judge for mid-run failures.
 - Cheap telemetry monitors OK when healthy-null is **recalibrated per deployment** (cold transfer fails).
 - On alarm: rollback + re-run beats blind resample. `.local/adopts/agent-trajectory-sentinel` = MIT REFERENCE — not a default MCP install.
+- **OSINT/GW K242** (Capital Flows 2026-08-19 equity positioning, alert-only) = `guruwatcher-k242-capital-flows-equity-positioning-phase1-wires.mdc` — do not collapse with this Sentinel K242.
 
 ## Agentic cost estimation vocabulary (ACEM / K243)
 
 - Budget agent work as **LLM + HITL + infrastructure**; track Revision Factor (retries), Context Factor (growing context), HIS oversight level.
 - Conceptual only — calibrate locally; do not treat the related Zenodo book as ACEM code.
+- **OSINT/GW K243** (career-ops Extract + Klement no-arm + purple HOLD, alert-only) = `guruwatcher-k243-career-ops-klement-phase1-wires.mdc` — do not collapse with this ACEM K243.
 
 ## Robotics MCP solver (K240)
 
@@ -531,9 +533,17 @@ Hybrid HAI delegation (K295) + Thinkingbox terminal-state eval (K296, MIT REFERE
 - Evaluate the four atomic tool-use capabilities, not raw function-call accuracy (pairs K259 parameter grounding).
 - **`wont_wire`** runtime; **no HF `MidTool/midtool-release` download**.
 
-## Cybersec wave K282 / K283 / K288 / K290 / K295–K300 (dual-ID)
+## Skill-set budget (BPS) + wrap-don't-rebuild (EnvHarness) + Wayfinder
 
-CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), and K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above). Resolve by file+wiki, not bare K#.
+Steal-from k244 cluster (arXiv 2608.19993 / 2608.19880 + Latent Space wayfinder). **Not** CCC K244 (UrbanAgent). Skills: `.cursor/skills/{skill-set-budget,env-harness-wrap,wayfinder}/` (`federation: true`, operator-invoked). No paper-algorithm clone; no EnvRigger auto-plug-ins.
+
+- **Set, not top-k (BPS).** When several skills could apply, add only complements under a token budget; skip distractors. Do not pack by independent semantic rank (paper: Best Prefix Selection).
+- **Wrap, don't rebuild (EnvHarness).** Keep the existing verifier (`wiki_lint`, OpenSpec, route `## Verify`, tests). Adapt via wrappers; HITL before changing the scorer. EnvRigger-style trajectory→plug-in synthesis is **WATCH** — no unattended skill/harness mutation (pairs K162 / K281 / K298).
+- **Wayfinder** is opt-in fog-of-war planning (map / tickets / session). Bounded one-session paths still use `grill-with-docs`.
+
+## Cybersec wave K282 / K283 / K288 / K290 / K295–K306 (dual-ID)
+
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), and K300–K306 (CCC wave). Resolve by file+wiki, not bare K#.
 
 - K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
 - K283 JailbreakSkill (2608.16465) ≠ CCC Twin
@@ -545,6 +555,12 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K298 Inadvertent Context Leakage (2608.19857) ≠ CCC K298 Task-CoEvolve — benign-output covert channel; inbound brief used K244 ≠ Cybersec Trident K244 ≠ CCC UrbanAgent K244
 - K299 TrustRAG committee RAG (2608.20097) ≠ CCC K299 MidTool — ≠ Zhou/HuichiZhou TrustRAG 2501.00879
 - K300 BreakGuard LLM dependency tests (2608.20167) — ≠ ProgrammerNomad Windows BreakGuard
+- K301 CLEAR (2608.21278) — conditional safety adapter routing; no global LoRA as proof of safety
+- K302 PsychJail (2608.23028) — multi-turn persuasion jailbreaks; lab only; no wiki payloads; repo NO-GO clone (null SPDX + ~2GB)
+- K303 CLAUDE.md-vs-deny (2608.23550) — NL rules ≠ built-in deny; prefer deny/hooks; write-only channel
+- K304 SDP/RIM (2608.23497) — reasoning FT is a safety event; no clamp recipes
+- K305 BT-NFT (2608.22754) — pairing ≠ authorization; owned-device lab only
+- K306 LLM-compliance (2608.21317) — compliance artifacts are candidates; HITL
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
 ## Phase-1 meta
