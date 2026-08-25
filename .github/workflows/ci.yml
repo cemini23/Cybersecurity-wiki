@@ -22,6 +22,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: K303/K298 deny + dual-ID restore
+        run: |
+          python3 scripts/restore_cybersec_dual_id.py --check
+          python3 scripts/test_k303_k298_runtime.py
+
       - name: wiki_lint (strict local links + bidirectional)
         run: |
           set -o pipefail

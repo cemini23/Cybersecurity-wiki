@@ -304,7 +304,7 @@
 | @sources/arxiv-2608-19011-ti-to-detection-rule-grounding.md | draft | AUTOSIGMA CTI→Sigma (2608.19011; K297) |
 | @concepts/knowledge-driven-detection-rule-grounding.md | draft | Enrich + template-ground + judge; no raw LLM-to-rule |
 | @sources/arxiv-2608-19857-inadvertent-context-leakage.md | draft | Inadvertent context leakage (2608.19857; K298) — benign-output covert channel |
-| @concepts/inadvertent-context-leakage.md | draft | Refusal ≠ no leak; tool-layer grants; no secrets in third-party-visible outputs |
+| @concepts/inadvertent-context-leakage.md | draft | Refusal ≠ no leak; secret_grant + Cursor deny — values never return to planner |
 | @sources/newsletter-rss-tldrsec-2026-08-20-tldr-sec-342.md | draft | tl;dr sec #342 — ADR telemetry, SPIFFE act=agent, Cloudflare task-scoped access |
 | @sources/substack-rss-secpro-2026-08-21-ai-ready-soc.md | draft | SecPro #248 — AI-ready SOC foundations (asset-ID map, gather-not-decide) |
 | @concepts/agent-runtime-identity-adr.md | draft | Agent identity + ADR telemetry — sub=human / act=agent, SVIDs, Trust Ratchet |
@@ -320,7 +320,7 @@
 | @sources/arxiv-2608-23028-psychjail.md | draft | PsychJail psychological jailbreaks (2608.23028; K302) — lab only |
 | @concepts/psychological-multiturn-jailbreaks.md | draft | Multi-turn persuasion surface; refusal not turn-stable; no persuasion recipes |
 | @sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md | draft | CLAUDE.md security rules vs built-in deny (2608.23550; K303) |
-| @concepts/nl-security-rules-vs-builtin-deny.md | draft | NL rule prose ≠ enforcement; prefer deny/hooks; write-only channel |
+| @concepts/nl-security-rules-vs-builtin-deny.md | draft | NL rule prose ≠ enforcement; `.cursor/hooks.json` fail-closed deny |
 | @sources/arxiv-2608-23497-safety-direction-penalty.md | draft | Reasoning-induced misalignment / SDP (2608.23497; K304) |
 | @concepts/reasoning-induced-misalignment.md | draft | Harmless reasoning FT can weaken safety; reasoning FT is a safety event |
 | @sources/arxiv-2608-22754-bluetooth-nft-soft-pairing.md | draft | BT access control via NFT soft pairing (2608.22754; K305) |

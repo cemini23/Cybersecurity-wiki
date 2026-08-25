@@ -117,4 +117,14 @@ do
   grep -q "$slug" "$ROOT/wiki/index.md" || { echo "FAIL index missing slug: $slug"; exit 1; }
 done
 
+# 8. K303/K298 runtime deny + dual-ID overlay (operator-OK 2026-08-25)
+test -f "$ROOT/.cursor/hooks.json"
+test -f "$ROOT/scripts/k303_k298_policy.py"
+test -f "$ROOT/scripts/secret_grant.py"
+test -f "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
+test -f "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
+grep -q "failClosed" "$ROOT/.cursor/hooks.json"
+python3 "$ROOT/scripts/restore_cybersec_dual_id.py" --check
+python3 "$ROOT/scripts/test_k303_k298_runtime.py" >/dev/null
+
 echo "ALL PASS K301-K306 (no PsychJail PoC clone; no GRPO trainer runtime; no CLEAR/SDP weights; golden_critic Apache-2.0 REFERENCE wont_wire; dual-ID K282-K306 restored; CCC/BPS/Wayfinder kept)"

@@ -1,3 +1,14 @@
+## [2026-08-25] runtime | K303 fail-closed deny + K298 secret_grant + dual-ID restore
+
+Operator OK on remaining follow-ups from K301–K306 ingest.
+
+- **K303 runtime:** `.cursor/hooks.json` (`failClosed: true`) calls `python3 scripts/k303_k298_policy.py --hook` on `beforeReadFile` / `beforeTabFileRead` / `beforeShellExecution` / `preToolUse`. Denies `.env` (not `.env.example`), SSH private keys, `cat .env`, `printenv *KEY*`. Wrapper `.cursor/hooks/k303-deny.sh` kept executable; hooks.json uses python3 directly so a missing `+x` cannot lock the agent again.
+- **K298 runtime:** `scripts/secret_grant.py` loads `.env` into the child and redacts values from stdout/stderr — planner never sees the secret. `claude_settings.json.example` deny list for Claude Code (copy to gitignored `.claude/settings.json`).
+- **Dual-ID:** owned overlay `.cursor/rules/cemini-cybersec-k-dual-id.mdc` + fragment `.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc` + `scripts/restore_cybersec_dual_id.py`. CCC `sync_federation_cursor_skills.sh` re-inserts the Cybersec block after copying shared `cemini-phase1-policy-wires.mdc`. Corrected mislabel: K300–K306 are Cybersec IDs, not a CCC wave.
+- **SPDX re-hunt 2026-08-25:** CLEAR / SDP / BT-NFT / TrustRAG committee / BreakGuard LLM tests — still no public SPDX clone (name-collision repos unchanged). `golden_critic` stays REFERENCE `wont_wire`.
+- **CI:** `restore_cybersec_dual_id.py --check` + `test_k303_k298_runtime.py` before wiki_lint.
+- **friend brief:** add-on **33**.
+
 ## [2026-08-25] ingest | K301 CLEAR / K302 PsychJail / K303 CLAUDE.md-deny / K304 SDP / K305 BT-NFT / K306 LLM-compliance + OOD Rebite/critic
 
 Full ingest of 8 NEW inbox arXiv PDFs + archive-only for the 2 leftovers (rainfall 2608.16088 / travel 2608.20320 — already wiki pages). LANE mid. OpenCode Zen free → claude-ds Flash; route handoff.

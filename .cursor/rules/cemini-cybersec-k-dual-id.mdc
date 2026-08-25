@@ -1,0 +1,31 @@
+---
+description: Cybersec-owned K# dual-ID overlay — survives CCC federation overwrite of cemini-phase1-policy-wires.mdc
+alwaysApply: true
+---
+
+# Cybersec dual-ID (owned overlay)
+
+CCC `sync_federation_cursor_skills.sh` copies shared `cemini-phase1-policy-wires.mdc` and **will wipe** the Cybersec dual-ID section unless `scripts/restore_cybersec_dual_id.py` re-inserts it after BPS/Wayfinder.
+
+**Do not delete** `.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc`. **Do not put this list only in the shared federation file.**
+
+Canon fragment (keep in sync with restore):
+
+- K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
+- K283 JailbreakSkill (2608.16465) ≠ CCC Twin
+- K288 ESTI (2608.16806) = same paper as CCC K288; cyber-primary
+- K290 CHIVE (2608.16747) ≠ CCC K290 excess-authority (2608.18351)
+- K295 Fool's Gold (2608.17202) ≠ CCC K295 Hybrid HAI
+- K296 Trusted Workflow Relays (2608.17361) ≠ CCC K296 Thinkingbox
+- K297 TI→detection (2608.19011) ≠ CCC K297 RL-Trotter
+- K298 Inadvertent Context Leakage (2608.19857) ≠ CCC K298 Task-CoEvolve ≠ Trident K244 ≠ UrbanAgent K244
+- K299 TrustRAG committee RAG (2608.20097) ≠ CCC K299 MidTool ≠ Zhou/HuichiZhou 2501.00879
+- K300 BreakGuard LLM dependency tests (2608.20167) ≠ ProgrammerNomad Windows BreakGuard
+- K301 CLEAR (2608.21278) — no global LoRA as proof of safety
+- K302 PsychJail (2608.23028) — lab only; no wiki payloads; NO-GO clone
+- K303 CLAUDE.md-vs-deny (2608.23550) — NL rules ≠ built-in deny; hooks at `.cursor/hooks.json`
+- K304 SDP/RIM (2608.23497) — reasoning FT is a safety event
+- K305 BT-NFT (2608.22754) — pairing ≠ authorization; owned-device lab only
+- K306 LLM-compliance (2608.21317) — HITL; artifacts are candidates
+
+K300–K306 in this overlay are **Cybersec IDs**, not a CCC wave.

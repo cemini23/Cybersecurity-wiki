@@ -1,0 +1,21 @@
+## Cybersec wave K282 / K283 / K288 / K290 / K295–K306 (dual-ID)
+
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), and K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above). **K300–K306 in this block are Cybersec IDs, not a CCC wave.** Resolve by file+wiki, not bare K#.
+
+- K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
+- K283 JailbreakSkill (2608.16465) ≠ CCC Twin
+- K288 ESTI (2608.16806) = same paper as CCC K288; cyber-primary
+- K290 CHIVE (2608.16747) ≠ CCC K290 excess-authority (2608.18351)
+- K295 Fool's Gold (2608.17202) ≠ CCC K295 Hybrid HAI — defensive deception vs safety-removal; lab only
+- K296 Trusted Workflow Relays (2608.17361) ≠ CCC K296 Thinkingbox — email/M365 cross-tenant initial-access awareness; authorized scope
+- K297 TI→detection (2608.19011) ≠ CCC K297 RL-Trotter — knowledge-driven detection rule grounding
+- K298 Inadvertent Context Leakage (2608.19857) ≠ CCC K298 Task-CoEvolve — benign-output covert channel; inbound brief used K244 ≠ Cybersec Trident K244 ≠ CCC UrbanAgent K244
+- K299 TrustRAG committee RAG (2608.20097) ≠ CCC K299 MidTool — ≠ Zhou/HuichiZhou TrustRAG 2501.00879
+- K300 BreakGuard LLM dependency tests (2608.20167) — ≠ ProgrammerNomad Windows BreakGuard
+- K301 CLEAR (2608.21278) — conditional safety adapter routing; no global LoRA as proof of safety
+- K302 PsychJail (2608.23028) — multi-turn persuasion jailbreaks; lab only; no wiki payloads; repo NO-GO clone (null SPDX + ~2GB)
+- K303 CLAUDE.md-vs-deny (2608.23550) — NL rules ≠ built-in deny; prefer deny/hooks; write-only channel
+- K304 SDP/RIM (2608.23497) — reasoning FT is a safety event; no clamp recipes
+- K305 BT-NFT (2608.22754) — pairing ≠ authorization; owned-device lab only
+- K306 LLM-compliance (2608.21317) — compliance artifacts are candidates; HITL
+- Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract

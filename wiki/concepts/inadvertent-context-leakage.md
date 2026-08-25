@@ -15,9 +15,9 @@ related:
   - concepts/agent-runtime-guardrails.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-08-21
-wire_status: policy_wired
-wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.mdc (K298)"
+updated: 2026-08-25
+wire_status: runtime_wired
+wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + scripts/secret_grant.py (K298/K303)"
 ---
 
 **Briefs:** `briefs/2026-08-21_k244-context-leakage-adr.md` (inbound; filed as K298) · `briefs/2026-08-21_k298-k300-ingest.md` · atto brief `briefs/2026-08-21_atto-context-leakage.md`
@@ -50,7 +50,7 @@ Question this page answers: **can secrets in an LLM's context leave through norm
 
 ### Defense steal (policy + architecture)
 
-1. **Do not put secrets in context when the completion can leave the box.** Vault/API/SSN-class material goes to a *tool layer* that acts on the model's behalf and never returns the value to the planner (1Password pattern). [CONFIRMED for the pattern; [TENTATIVE] the specific paper's numbers]
+1. **Do not put secrets in context when the completion can leave the box.** Vault/API/SSN-class material goes to a *tool layer* that acts on the model's behalf and never returns the value to the planner (1Password pattern). **This wiki:** `python3 scripts/secret_grant.py -- <cmd>` loads `.env` into the child and redacts values from stdout/stderr; Cursor `beforeReadFile` denies `.env` (`scripts/k303_k298_policy.py`). [CONFIRMED for the pattern; [TENTATIVE] the specific paper's numbers]
 2. **Assume benign outputs are reviewable**: email drafts, Slack messages, PR bodies and "summarize with numbers" requests are exfiltration candidates in the model's hand.
 3. **Detect, don't just prompt**: log the *outputs* for policy-violating content (see `agent-runtime-identity-adr.md` — ADR telemetry + two-tier detector), not only inputs/jailbreaks.
 4. **Eval**: add *benign-output* predicate tests (see `agent-safety-executable-evaluation.md`) — "can the model emit the test secret in a paragraph, a table, a JSON blob" — alongside refusal tests.

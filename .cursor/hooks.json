@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeReadFile": [
+      {
+        "command": "python3 scripts/k303_k298_policy.py --hook",
+        "failClosed": true
+      }
+    ],
+    "beforeTabFileRead": [
+      {
+        "command": "python3 scripts/k303_k298_policy.py --hook",
+        "failClosed": true
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "python3 scripts/k303_k298_policy.py --hook",
+        "failClosed": true
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "python3 scripts/k303_k298_policy.py --hook",
+        "failClosed": true
+      }
+    ]
+  }
+}

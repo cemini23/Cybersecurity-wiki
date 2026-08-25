@@ -242,6 +242,8 @@ No remote server, no scp, no team distribution. Everything stays on this laptop.
 - **Kid-safety content is not a kid-grooming research aid.** Pages under that umbrella are written for parents / teachers / law-enforcement context, not for the inverse use case.
 - **Threat-actor pages document TTPs, not victims.** Avoid PII; cite published threat-intel reports rather than scraped data.
 
+- **This file is not a deny list.** `CLAUDE.md` / `.cursor/rules` prose is steering. Enforcement is `.cursor/hooks.json` (`scripts/k303_k298_policy.py`, fail-closed) plus `python3 scripts/secret_grant.py -- <cmd>` when a child process needs `.env` keys. Do not `Read` / `cat` `.env`.
+
 When in doubt, prefer the conservative interpretation and ask the user.
 
 ## Working method

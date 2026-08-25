@@ -12,8 +12,8 @@ related:
 maturity: draft
 created: 2026-08-25
 updated: 2026-08-25
-wire_status: policy_wired
-wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.mdc (K303)"
+wire_status: runtime_wired
+wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + claude_settings.json.example (K303)"
 ---
 
 ## Relations
@@ -37,7 +37,7 @@ Agent instruction files are a **write-only channel**: a developer writes "never 
 - **Model-mediated** — everything left to interpretation; enforcement quality equals the model's judgment, which prior work shows is fragile (command denylists 69.0–98.6% fragile; removing one scope sentence raises out-of-scope actions 0.0→17.1%).
 
 **Operator steal (this workspace directly):**
-1. **Do not treat CLAUDE.md / `.cursor/rules` prose as enforcement.** Rule text is steering + documentation. Real enforcement = PreToolUse deny hooks, sandbox, permission rules, verified gates (the EnvHarness "keep the verifier" principle — `wrap-don't-rebuild`).
+1. **Do not treat CLAUDE.md / `.cursor/rules` prose as enforcement.** Rule text is steering + documentation. Real enforcement = PreToolUse deny hooks, sandbox, permission rules, verified gates (the EnvHarness "keep the verifier" principle — `wrap-don't-rebuild`). **This wiki:** `.cursor/hooks.json` runs `python3 scripts/k303_k298_policy.py --hook` with `failClosed: true` (deny `.env` / key files / `cat .env`). Claude Code deny list: copy `claude_settings.json.example` → `.claude/settings.json` (gitignored).
 2. **Secrets never live in NL rules only.** A prose rule "never print the API key" is a request, not a control; the tool-layer grant (secret never returned to the model) is the control (pairs `concepts/inadvertent-context-leakage.md`).
 3. **When you write a security rule, ask which control enforces it.** If none exists deterministically, add the hook/deny or accept it as a model-mediated best-effort and say so.
 4. **Write-only feedback is a defect to engineer around**: prefer rules that name an enforceable pattern (tool, path, domain) so the gap between intent and enforcement shrinks.

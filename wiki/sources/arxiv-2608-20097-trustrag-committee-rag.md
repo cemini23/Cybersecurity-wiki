@@ -11,7 +11,7 @@ maturity: draft
 read_status: read
 created: 2026-08-21
 updated: 2026-08-21
-phase_0_verdict: "REFERENCE 2026-08-21 — no public SPDX repo at hunt for THIS paper (Fudan committee ZK/MPC TrustRAG). Name collision: HuichiZhou/TrustRAG (2501.00879) + gomate-community/TrustRAG are NOT this artifact; no clone. No MP-SPDZ / blockchain stack clone as this paper's code."
+phase_0_verdict: "REFERENCE 2026-08-21 — no public SPDX repo at hunt for THIS paper (Fudan committee ZK/MPC TrustRAG). Re-hunt 2026-08-25: still none. Name collision: HuichiZhou/TrustRAG (2501.00879) + gomate-community/TrustRAG are NOT this artifact; no clone. No MP-SPDZ / blockchain stack clone as this paper's code."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K299 RAG integrity boundary)"
 ---

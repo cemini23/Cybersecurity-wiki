@@ -201,7 +201,6 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Soft autoraters OK as advisory signal; prefer execution verify when available (pairs K162). ResidencyRL code **NO-GO** (Google closed; clinical OOD) — no `.local/adopts/` shelf.
 - Entity `residencyrl` = `wont_wire`; concept `adversarial-curriculum-structured-reward-doc-fidelity` = `policy_wired`.
 
-
 ## Reversible context eviction (Blast Radius / K265)
 
 - Prefer **reversible, verification-licensed** eviction over lossy truncation/summarization in long agentic coding loops.
@@ -210,7 +209,6 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Treat recurring build/test/VCS transcripts as **recurring dead matter** — bury recurrence classes, do not re-pay carry cost every turn.
 - Layering: gate/verification decides *whether* a record may replace context; blast-radius scoping decides *which* bodies and *how much* headroom.
 - No public Chalk/Blast Radius SPDX clone at Phase-0 — **policy_wired** pattern only; entity `blast-radius-necrophoresis` = `wont_wire`.
-
 
 ## Scaffold over tool interface (K262)
 
@@ -246,7 +244,6 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 ## VectraYX cyber VLM (K261)
 
 - Spanish/LATAM cyber imagery VLM with MCP tool tokens — **cybersec-primary**; CCC awareness only. **NO-GO** weights/runtime.
-
 
 ## CCC wave K270–K273 (shared policy file — dual-ID note)
 
@@ -543,7 +540,7 @@ Steal-from k244 cluster (arXiv 2608.19993 / 2608.19880 + Latent Space wayfinder)
 
 ## Cybersec wave K282 / K283 / K288 / K290 / K295–K306 (dual-ID)
 
-CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), and K300–K306 (CCC wave). Resolve by file+wiki, not bare K#.
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), and K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above). **K300–K306 in this block are Cybersec IDs, not a CCC wave.** Resolve by file+wiki, not bare K#.
 
 - K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
 - K283 JailbreakSkill (2608.16465) ≠ CCC Twin

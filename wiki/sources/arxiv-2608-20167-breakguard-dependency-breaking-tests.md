@@ -11,7 +11,7 @@ maturity: draft
 read_status: read
 created: 2026-08-21
 updated: 2026-08-21
-phase_0_verdict: "REFERENCE 2026-08-21 — paper claims a GitHub prototype but hunt found NO matching public repo with SPDX (only name collisions: ProgrammerNomad/BreakGuard Windows break-reminder, Tahiram32/breakguard unrelated MIT product). No clone."
+phase_0_verdict: "REFERENCE 2026-08-21 — paper claims a GitHub prototype but hunt found NO matching public repo with SPDX (only name collisions: ProgrammerNomad/BreakGuard Windows break-reminder, Tahiram32/breakguard unrelated MIT product). Re-hunt 2026-08-25: still no matching SPDX repo. No clone."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K300 dependency tests are candidates)"
 ---

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(**/.ssh/id_rsa)",
+      "Read(**/.ssh/id_ed25519)",
+      "Read(**/*.pem)",
+      "Bash(cat .env)",
+      "Bash(cat .env.*)",
+      "Bash(printenv *KEY*)",
+      "Bash(printenv *TOKEN*)",
+      "Bash(printenv *SECRET*)"
+    ],
+    "ask": []
+  }
+}
