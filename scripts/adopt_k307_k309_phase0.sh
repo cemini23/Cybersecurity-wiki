@@ -32,4 +32,6 @@ grep -q "K307 StepGuard" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
 
 python3 "$ROOT/scripts/restore_cybersec_dual_id.py" --check
 
+bash "$ROOT/scripts/stepguard_inventory.sh" check
+
 echo "ALL PASS K307-K309 Phase-0"

@@ -11,7 +11,7 @@ maturity: draft
 read_status: read
 created: 2026-08-26
 updated: 2026-08-26
-phase_0_verdict: "CONDITIONAL-GO 2026-08-26 — zheng977/StepGuard ~6MB, no LICENSE file at hunt; HF weights ninty-seven/StepGuard. Policy steal + REFERENCE eval code only after SPDX verified; no default MCP wire."
+phase_0_verdict: "CONDITIONAL-GO 2026-08-26 — zheng977/StepGuard ~6MB; LICENSE re-hunt 2026-08-26 still NO-GO (null SPDX). scripts/stepguard_inventory.sh for adopt when SPDX lands."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.mdc (K307)"
 ---

@@ -10,9 +10,9 @@ related:
 maturity: draft
 created: 2026-08-26
 updated: 2026-08-26
-phase_0_verdict: "CONDITIONAL-GO 2026-08-26 — github.com/zheng977/StepGuard ~6MB, LICENSE missing at hunt; re-check before clone. HF: ninty-seven/StepGuard. Runtime wont_wire until operator OK + SPDX."
+phase_0_verdict: "CONDITIONAL-GO 2026-08-26 — github.com/zheng977/StepGuard ~6MB; LICENSE re-hunt 2026-08-26 still missing (null SPDX, no LICENSE file). HF held. Inventory: scripts/stepguard_inventory.sh. Runtime wont_wire."
 wire_status: wont_wire
-wire_target: "REFERENCE eval only after LICENSE; no default Cursor MCP"
+wire_target: "REFERENCE via scripts/stepguard_inventory.sh adopt after LICENSE; no default Cursor MCP"
 ---
 
 ## Relations
@@ -34,7 +34,7 @@ StepGuard is a **4B step-level guard model** (Shanghai AI Lab AgentDoG team) for
 | Size | ~6 MB repo (code + assets) |
 | Verdict | **CONDITIONAL-GO** — methodology steal + optional REFERENCE clone after LICENSE verified; **no weight download** in wiki ingest; **wont_wire** as default harness MCP |
 
-**Adoption gate:** verify SPDX in repo root before `.local/adopts/StepGuard` shallow clone. Do not curl|bash install scripts. Lab eval only on owned agent harnesses.
+**Adoption gate:** run `bash scripts/stepguard_inventory.sh check` (re-hunt) then `adopt` when LICENSE appears. Do not curl|bash install scripts. Lab eval only on owned agent harnesses; **no HF weight download** in wiki automation.
 
 ## Snippets
 

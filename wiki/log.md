@@ -1,3 +1,14 @@
+## [2026-08-26] follow-up | K307 StepGuard inventory + prod brief
+
+Recommended post-ingest implementations from K307–K309 closeout.
+
+- **StepGuard LICENSE re-hunt:** `gh api repos/zheng977/StepGuard` still **null SPDX**, no LICENSE file — **NO-GO clone** unchanged.
+- **NEW** `scripts/stepguard_inventory.sh` (`check` | `adopt`) + federation skill `.cursor/skills/stepguard-inventory/` — K292 harness hash guard; no HF weights.
+- **Phase-0:** `adopt_k307_k309_phase0.sh` now calls stepguard inventory check.
+- **Entity/source:** `@entities/tools/stepguard.md` + `@sources/arxiv-2608-24777-stepguard.md` re-hunt stamps.
+- **Prod brief:** `briefs/2026-08-26_k307-k309-ingest.md` → `cemini-prod:/opt/cemini/briefs/` (1569 bytes).
+- **friend brief:** n/a
+
 ## [2026-08-26] ingest | K307 StepGuard / K308 decorative CoT / K309 prompt security redistribution
 
 Full ingest of 3 NEW inbox arXiv PDFs from daily sweep 2026-08-26. LANE easy (Cursor parent; wiki pattern).
