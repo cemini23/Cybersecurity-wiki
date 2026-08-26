@@ -6,6 +6,7 @@ keywords: [2608.20167, BreakGuard, breaking changes, BUMP dataset, LLM-generated
 related:
   - concepts/llm-generated-dependency-breaking-tests.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/llm-codegen-prompt-security-redistribution.md
   - concepts/npm-supply-chain-defense.md
 maturity: draft
 read_status: read

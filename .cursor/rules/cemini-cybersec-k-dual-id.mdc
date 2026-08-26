@@ -27,5 +27,8 @@ Canon fragment (keep in sync with restore):
 - K304 SDP/RIM (2608.23497) — reasoning FT is a safety event
 - K305 BT-NFT (2608.22754) — pairing ≠ authorization; owned-device lab only
 - K306 LLM-compliance (2608.21317) — HITL; artifacts are candidates
+- K307 StepGuard (2608.24777) ≠ CCC MediSkill-Evo K307 — step-level guard; LICENSE pending
+- K308 decorative CoT (2608.24790) ≠ CCC MetaCaster K308 — CoT ≠ evidence
+- K309 prompt security redistribution (2608.24857) ≠ CCC Prime Agent K309
 
-K300–K306 in this overlay are **Cybersec IDs**, not a CCC wave.
+K300–K309 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K309 wave.

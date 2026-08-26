@@ -8,6 +8,8 @@ related:
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - entities/tools/redagentbench.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/chain-of-thought-decorative-reasoning-audit.md
+  - concepts/step-level-agent-guardrails.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/agent-data-injection-attacks.md
   - concepts/safety-harness-evolution.md

@@ -8,6 +8,7 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/agent-decoy-defense-autonomous-pentest.md
   - concepts/faithful-agent-asr-measurement.md
+  - concepts/chain-of-thought-decorative-reasoning-audit.md
   - entities/tools/redagentbench.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/agent-execution-provenance.md

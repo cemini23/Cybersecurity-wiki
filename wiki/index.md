@@ -321,12 +321,18 @@
 | @concepts/psychological-multiturn-jailbreaks.md | draft | Multi-turn persuasion surface; refusal not turn-stable; no persuasion recipes |
 | @sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md | draft | CLAUDE.md security rules vs built-in deny (2608.23550; K303) |
 | @concepts/nl-security-rules-vs-builtin-deny.md | draft | NL rule prose ≠ enforcement; `.cursor/hooks.json` fail-closed deny |
+| @concepts/step-level-agent-guardrails.md | draft | Pre-execution step guards for tool/MCP agents (K307 StepGuard) |
+| @concepts/chain-of-thought-decorative-reasoning-audit.md | draft | CoT perturbation audit; cdr metric — rationale ≠ evidence (K308) |
+| @concepts/llm-codegen-prompt-security-redistribution.md | draft | Security prompts redistribute CWE/severity, not prevalence (K309) |
 | @sources/arxiv-2608-23497-safety-direction-penalty.md | draft | Reasoning-induced misalignment / SDP (2608.23497; K304) |
 | @concepts/reasoning-induced-misalignment.md | draft | Harmless reasoning FT can weaken safety; reasoning FT is a safety event |
 | @sources/arxiv-2608-22754-bluetooth-nft-soft-pairing.md | draft | BT access control via NFT soft pairing (2608.22754; K305) |
 | @concepts/bluetooth-nft-soft-pairing.md | draft | Pairing ≠ authorization; revocable verifiable service auth; lab only |
 | @sources/arxiv-2608-21317-llm-regulatory-compliance-artifacts.md | draft | LLM compliance artifacts (2608.21317; K306 Watch) — DPIA/DPP |
 | @concepts/llm-generated-compliance-artifacts.md | draft | LLM compliance artifacts are candidates, not deliverables; HITL |
+| @sources/arxiv-2608-24777-stepguard.md | draft | StepGuard step-level guardrails (2608.24777; K307) |
+| @sources/arxiv-2608-24790-decorative-reasoning-medical-cot.md | draft | Decorative medical CoT audit (2608.24790; K308) |
+| @sources/arxiv-2608-24857-prompt-structure-security-redistribution.md | draft | Prompt structure + codegen security (2608.24857; K309) |
 | @sources/arxiv-2608-21289-ood-rebite-food-journaling.md | draft | OOD Rebite food journaling (2608.21289) — goal-at-view-time steal |
 | @sources/arxiv-2608-23566-ood-critic-bpco.md | draft | OOD BPCO critic RL (2608.23566) — golden_critic REFERENCE; no trainer wiring |
 | @sources/arxiv-2608-17067-ood-disco-t2i-defense.md | draft | OOD DiSCO T2I defense → image-gen |
@@ -529,6 +535,7 @@
 | @entities/tools/nvidia-skillspector.md | draft | Agent/MCP skill supply-chain scanner — prompt injection + tool poisoning (Apache-2.0; Adopt) |
 | @entities/tools/netviz.md | draft | Browser network-architecture graph visualizer — D3.js + Socket.IO (MIT; Adopt, K93) |
 | @entities/tools/airguard.md | draft | Runtime authority control for tool/MCP agents (MIT; CONDITIONAL-GO) |
+| @entities/tools/stepguard.md | draft | Step-level agent guard model — pre-execution tool check (CONDITIONAL-GO; K307) |
 | @entities/tools/chaincaps.md | draft | MCP proxy — composition-safe tool chains via monotonic capability budgets (Reference) |
 | @entities/tools/handle-capability-protocol.md | draft | HCP reference runtime — MCP execution-control invariants + 10-case benchmark (MIT; CONDITIONAL-GO) |
 | @entities/tools/spellsmith.md | draft | MCP taint mitigation via security-aware tool descriptions + reflection (Reference; 2607.07461) |

@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-26 | Full ingest K307 StepGuard / K308 decorative CoT / K309 prompt security redistribution | Daily sweep 3 PDFs; pre-execution step guard policy; CoT cdr audit; codegen prompt redistributes CWE mix; StepGuard NO LICENSE — no clone; friend add-on 34 |
 | 2026-08-25 | K303 fail-closed Cursor deny + K298 secret_grant + Cybersec dual-ID restore after CCC sync | Operator OK: `.env` no longer returned to planner; federation overwrite of dual-ID is auto-restored; SPDX re-hunt still no CLEAR/SDP/BT-NFT/TrustRAG/BreakGuard clones |
 | 2026-08-25 | Full ingest K301 CLEAR / K302 PsychJail / K303 CLAUDE.md-deny / K304 SDP / K305 BT-NFT / K306 LLM-compliance + OOD Rebite/critic | Inbox 8 NEW PDFs (rainfall+travel archive-only); restored Cybersec dual-ID K282–K306 after BPS/EnvHarness/Wayfinder overwrite (CCC steal kept); golden_critic Apache-2.0 REFERENCE clone wont_wire; PsychJail NO-GO (null SPDX, 2GB); friend add-on 32 |
 | 2026-08-21 | Full ingest K298 Inadvertent Context Leakage / K299 TrustRAG committee RAG / K300 BreakGuard LLM dependency tests + OOD rainfall CSI / travel agents | Inbox 4 PDFs (rainfall+travel OOD); inbound leakage brief filed as K298 not K244 (Trident); no name-collision clones (all REFERENCE); friend add-on 31 |

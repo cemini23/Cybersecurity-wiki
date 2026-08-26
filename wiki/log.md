@@ -1,3 +1,23 @@
+## [2026-08-26] ingest | K307 StepGuard / K308 decorative CoT / K309 prompt security redistribution
+
+Full ingest of 3 NEW inbox arXiv PDFs from daily sweep 2026-08-26. LANE easy (Cursor parent; wiki pattern).
+
+- **NEW** `@sources/arxiv-2608-24777-stepguard.md` + `@concepts/step-level-agent-guardrails.md` + `@entities/tools/stepguard.md` — **K307** CONDITIONAL-GO. StepGuard: 4B step-level guard (pre-execution tool check + trajectory audit); StepGen + Balance-GRPO; ASR ↓77.3% mean on AgentDojo/AgentDyn, utility ↓2.8 pts. Repo `zheng977/StepGuard` ~6MB **no LICENSE** at hunt — no clone until SPDX; HF weights `ninty-seven/StepGuard` — no download. Dual-ID: ≠ CCC MediSkill-Evo K307.
+- **NEW** `@sources/arxiv-2608-24790-decorative-reasoning-medical-cot.md` + `@concepts/chain-of-thought-decorative-reasoning-audit.md` — **K308** REFERENCE. Medical CoT perturbation audit; cdr 72.9% on destructive edits; chain corruption ≈0 ΔAcc; CoT often decorative. Dual-ID: ≠ CCC MetaCaster K308.
+- **NEW** `@sources/arxiv-2608-24857-prompt-structure-security-redistribution.md` + `@concepts/llm-codegen-prompt-security-redistribution.md` — **K309** REFERENCE. 424 Python tasks; GPT-4o/LLaMA; structured prompts cut refusals but redistribute Bandit severity/CWE mix; dominant CWE-78/CWE-502 persist. Dual-ID: ≠ CCC Prime Agent K309.
+- **Backlinks:** agent-runtime-guardrails, nl-security-rules-vs-builtin-deny, faithful-agent-asr-measurement, atobench-verification-chain-deception, coding-agent-supply-chain-install-gap.
+- **Phase-0:** `scripts/adopt_k307_k309_phase0.sh` ALL PASS; no StepGuard clone.
+- **Phase-1:** K307 → agent-audit + mcp-tool-control (pre-execution guard); K308/K309 → agent-audit (CoT ≠ evidence; prompt ≠ SAST).
+- **Dual-ID:** K307–K309 appended to overlay + restore script check OK.
+- **friend brief:** add-on **34**.
+- **Briefs:** `briefs/2026-08-26_k307-k309-ingest.md`.
+- **Sweep:** `wiki/sweeps/2026-08-26-daily.md` committed.
+
+**Archive** (egress-fi cybersec/):
+- `arxiv-2608.24777-stepguard-learning-step-level-guardrails-with-sc.pdf`
+- `arxiv-2608.24790-right-diagnoses-decorative-reasoning-a-perturbat.pdf`
+- `arxiv-2608.24857-prompt-structure-redistributes-not-reduces-an-em.pdf`
+
 ## [2026-08-25] runtime | K303 fail-closed deny + K298 secret_grant + dual-ID restore
 
 Operator OK on remaining follow-ups from K301–K306 ingest.

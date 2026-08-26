@@ -6,6 +6,8 @@ keywords: [CLAUDE.md, AGENTS.md, deny, permission rule, sandbox, PreToolUse, wri
 related:
   - sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/llm-codegen-prompt-security-redistribution.md
+  - concepts/step-level-agent-guardrails.md
   - concepts/mcp-security-posture.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/system-prompt-leakage.md

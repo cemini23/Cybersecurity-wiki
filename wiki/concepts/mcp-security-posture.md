@@ -6,6 +6,7 @@ keywords: [mcp, attestation, prompt-injection, description-code, stored-spi, too
 related:
   - concepts/inadvertent-context-leakage.md
   - concepts/nl-security-rules-vs-builtin-deny.md
+  - concepts/step-level-agent-guardrails.md
   - concepts/agent-runtime-identity-adr.md
   - concepts/committee-certified-rag-provenance.md
   - sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md

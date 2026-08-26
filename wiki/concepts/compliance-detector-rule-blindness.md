@@ -9,6 +9,7 @@ related:
   - concepts/prompt-injection-detector-calibration.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
+  - concepts/chain-of-thought-decorative-reasoning-audit.md
 maturity: draft
 created: 2026-08-20
 updated: 2026-08-20

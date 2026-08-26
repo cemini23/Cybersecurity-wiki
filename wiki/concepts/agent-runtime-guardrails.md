@@ -7,6 +7,9 @@ related:
   - concepts/inadvertent-context-leakage.md
   - concepts/conditional-safety-adapter-routing.md
   - concepts/nl-security-rules-vs-builtin-deny.md
+  - concepts/step-level-agent-guardrails.md
+  - concepts/chain-of-thought-decorative-reasoning-audit.md
+  - concepts/llm-codegen-prompt-security-redistribution.md
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/agent-runtime-identity-adr.md
   - concepts/agent-safety-executable-evaluation.md
@@ -18,6 +21,7 @@ related:
   - concepts/agent-skill-injection.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/responsible-disclosure.md
+  - entities/tools/stepguard.md
   - entities/tools/llm-defense-lattice.md
   - concepts/seclaw-agent-security-evaluation.md
   - entities/tools/seclaw-eval.md
@@ -27,6 +31,9 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
   - entities/tools/iron-proxy.md
+  - sources/arxiv-2608-24777-stepguard.md
+  - sources/arxiv-2608-24790-decorative-reasoning-medical-cot.md
+  - sources/arxiv-2608-24857-prompt-structure-security-redistribution.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail.md
   - sources/arxiv-2605-28914-airguard-guarding-agent-actions.md
   - sources/arxiv-2605-26542-chaincaps-composition-safe-tool-using-agents.md
