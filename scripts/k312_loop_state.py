@@ -16,6 +16,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -124,9 +125,22 @@ def save_state(state: dict, path: Path | None = None) -> None:
     events = state.get("events") or []
     if len(events) > MAX_EVENTS:
         state["events"] = events[-MAX_EVENTS:]
-    tmp = p.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
-    tmp.replace(p)
+    payload = json.dumps(state, indent=2) + "\n"
+    fd, tmp_name = tempfile.mkstemp(
+        prefix="k312-", suffix=".json.tmp", dir=str(p.parent)
+    )
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            fh.write(payload)
+            fh.flush()
+            os.fsync(fh.fileno())
+        Path(tmp_name).replace(p)
+    except Exception:
+        try:
+            os.unlink(tmp_name)
+        except OSError:
+            pass
+        raise
 
 
 def cmd_hash(command: str) -> str:

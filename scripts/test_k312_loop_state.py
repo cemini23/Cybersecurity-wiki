@@ -83,6 +83,26 @@ class BoundTests(unittest.TestCase):
             self.assertEqual(st["authorized_irreversible_count"], 5)
 
 
+class PersistTests(unittest.TestCase):
+    def test_parallel_saves_do_not_race_tmp(self):
+        import concurrent.futures
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "state.json"
+            os.environ["K312_STATE_PATH"] = str(path)
+            self.addCleanup(os.environ.pop, "K312_STATE_PATH", None)
+
+            def one(i: int) -> None:
+                st = k312.empty_state()
+                st["unauthorized_count"] = i
+                k312.save_state(st, path)
+
+            with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+                list(pool.map(one, range(16)))
+            self.assertTrue(path.is_file())
+            json.loads(path.read_text(encoding="utf-8"))
+
+
 class HookTests(unittest.TestCase):
     def test_hook_json_roundtrip(self):
         with tempfile.TemporaryDirectory() as tmp:
