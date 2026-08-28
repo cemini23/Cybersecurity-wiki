@@ -12,6 +12,7 @@ related:
   - concepts/skillsec-lifecycle-agent-skill-security.md
   - concepts/agent-skill-injection.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/experience-driven-redteam-skill-evolution.md
 maturity: draft
 created: 2026-08-18
 updated: 2026-08-18

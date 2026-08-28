@@ -14,6 +14,7 @@ related:
   - concepts/agent-execution-provenance.md
   - entities/tools/atobench.md
   - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/trace-verified-ctf-agent-eval.md
 maturity: draft
 created: 2026-08-14
 updated: 2026-08-15

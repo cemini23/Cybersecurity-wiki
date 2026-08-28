@@ -1,6 +1,6 @@
-## Cybersec wave K282 / K283 / K288 / K290 / K295–K309 (dual-ID)
+## Cybersec wave K282 / K283 / K288 / K290 / K295–K313 (dual-ID)
 
-CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), and K300–K309 (AID-Guard / Prime Agent / … in shared federation file). **K300–K306 and K307–K309 Cybersec entries below are Cybersec IDs, not the CCC K300–K309 wave.** Resolve by file+wiki, not bare K#.
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), K300–K309 (AID-Guard / Prime Agent / … in shared federation file), and K310–K314 (AP2 / SCOUT / StepGuard / StarHarness / Recuris). **K300–K306, K307–K309, and K310–K313 Cybersec entries below are Cybersec IDs, not the CCC K300–K314 wave.** Resolve by file+wiki, not bare K#.
 
 - K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
 - K283 JailbreakSkill (2608.16465) ≠ CCC Twin
@@ -21,4 +21,8 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K307 StepGuard (2608.24777) ≠ CCC MediSkill-Evo K307 — step-level pre-execution guard; LICENSE pending
 - K308 decorative CoT audit (2608.24790) ≠ CCC MetaCaster K308 — CoT ≠ evidence; cdr metric
 - K309 prompt security redistribution (2608.24857) ≠ CCC Prime Agent K309 — prompt shifts CWE mix, not prevalence
+- K310 RTLGuard (2608.26049) ≠ CCC K310 AP2 — poisoned-RTL teacher-student sanitize; no public repo
+- K311 CTF-ABACUS (2608.26237) ≠ CCC K311 SCOUT — trace-verified CTF agent eval; flag ≠ exploit
+- K312 LoopHarness / safety-does-not-compose (2608.27141) ≠ CCC K312 StepGuard (Cybersec StepGuard remains K307) — non-decaying loop state
+- K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — experience-driven red-team skill evolution; lab only
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract

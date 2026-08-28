@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-26
+updated: 2026-08-28
 ---
 
 
@@ -321,5 +321,7 @@ Read these wiki pages in order after the checklist above:
 33. **K303 deny hook + K298 secret_grant are live (2026-08-25)** — this wiki now has a **fail-closed Cursor hook** (`.cursor/hooks.json` → `python3 scripts/k303_k298_policy.py --hook`) that blocks `.env` / SSH keys / `cat .env` / `printenv *KEY*` from reaching the planner. To run a command that needs API keys: `python3 scripts/secret_grant.py -- <cmd>` (values redacted from stdout). Copy `claude_settings.json.example` → `.claude/settings.json` for Claude Code deny. Dual-ID overlay (`.cursor/rules/cemini-cybersec-k-dual-id.mdc`) + `scripts/restore_cybersec_dual_id.py` so CCC federation copy cannot wipe Cybersec K#s. SPDX re-hunt: CLEAR / SDP / BT-NFT / TrustRAG / BreakGuard still **no public clone**.
 
 34. **StepGuard step guard + CoT audit + codegen prompt redistribution (2026-08-26)** — `@concepts/step-level-agent-guardrails.md` (K307): prefer **pre-execution** guards on MCP/tool actions, not trajectory-only audit; report ASR **and** benign utility; `zheng977/StepGuard` has **no LICENSE yet** — pattern steal only, no clone. `@concepts/chain-of-thought-decorative-reasoning-audit.md` (K308): agent/clinical **CoT is not evidence** unless you perturb inputs and check chain-update × answer-flip (cdr ~73% decoupling on medical panel); pairs CHIVE counterfactual rule. `@concepts/llm-codegen-prompt-security-redistribution.md` (K309): security-structured codegen prompts cut refusals but **redistribute** Bandit/CodeQL severity/CWE mix — keep SAST + human review; prompt ≠ control.
+
+35. **RTL LLM backdoors + CTF traces + loop monitors + evolving red-team skills (2026-08-28)** — `@concepts/rtl-codegen-poison-defense.md` (K310): **a third-party fine-tune is a latent backdoor** — a poisoned RTL/codegen model emits a hardware Trojan on a benign prompt; **sanitize-before-trust** (clean teacher + feature alignment/KD) before relying on codegen output; provenance alone is not a clearance. `@concepts/trace-verified-ctf-agent-eval.md` (K311): **CTF flags need traces** — recovered flags are only **62–87% trace-verified**; flag ≠ demonstrated exploit; report a trace-verified rate, not a flag count. `@concepts/non-decaying-loop-safety-state.md` (K312): **loop monitors must not reset** — a per-turn/per-trajectory guard has **TPR = FPR** against fragmented cross-iteration evidence; keep a persistent **non-decaying loop-level** safety state, and do not rely on a fixed cooling-off (the wait must scale with the horizon). `@concepts/experience-driven-redteam-skill-evolution.md` (K313): **evolving red-team skills stay lab-only** — gate every skill update on a **validation ratchet** and attribute credit to the tool; never auto-evolve `.cursor/skills` from attack runs; authorized-lab only, no attack-skill bodies in wiki.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

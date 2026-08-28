@@ -12,6 +12,7 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/inaudible-low-frequency-audio-attacks.md
   - concepts/spectral-whitening-wireless-protocol-id.md
+  - sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md
 maturity: draft
 created: 2026-08-05
 updated: 2026-08-13

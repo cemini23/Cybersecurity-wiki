@@ -9,6 +9,8 @@ related:
   - sources/arxiv-2608-20320-ood-travel-behavior-agents.md
   - sources/arxiv-2608-21289-ood-rebite-food-journaling.md
   - sources/arxiv-2608-23566-ood-critic-bpco.md
+  - sources/arxiv-2608-26103-ood-zero-wam.md
+  - sources/arxiv-2608-27420-ood-weak-model-rlvr.md
   - concepts/red-team-operations.md
   - concepts/soc-operations.md
   - sources/chatgpt-for-cybersecurity-1.md
@@ -300,7 +302,7 @@ related:
   - sources/arxiv-2608-13069-ood-behavioral-reprogramming.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-15
+updated: 2026-08-28
 ---
 
 ## Relations

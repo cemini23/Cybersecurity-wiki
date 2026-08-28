@@ -1,3 +1,31 @@
+## [2026-08-28] ingest | K310 RTLGuard / K311 CTF-ABACUS / K312 LoopHarness / K313 RedEvoAgent + OOD
+
+Full ingest of 9 NEW inbox arXiv PDFs (daily sweeps 2026-08-27 + 2026-08-28). LANE mid (OpenCode Zen free → claude-ds Flash; route handoff). Next Cybersec IDs **K310–K313** (dual-ID vs CCC K310 AP2 / K311 SCOUT / K312 StepGuard / K313 StarHarness). **No public SPDX clone this batch** (name-collision repos are NOT the papers).
+
+- **NEW** `@sources/arxiv-2608-26049-rtlguard.md` + `@concepts/rtl-codegen-poison-defense.md` — **K310** REFERENCE. Poisoned RTL fine-tunes carry hardware-Trojan backdoors triggered by benign prompts; RTLGuard sanitizes with a small clean teacher + teacher-student objective + feature alignment/KD, lowering ASR while preserving RTL functional/synthesizable. Pairs cweep + Gradient Immunity / DataShield. No public repo at hunt.
+- **NEW** `@sources/arxiv-2608-26237-ctf-abacus.md` + `@concepts/trace-verified-ctf-agent-eval.md` — **K311** REFERENCE. CTF evals overstate capability: trace-verified exploits are only 62–87% of recovered flags (1,435 attempts / 240 challenges / six models / two judge lenses). Steal: flag ≠ demonstrated exploit; report a trace-verified rate. Pairs K271 faithful ASR + K278 ATOBench. Authorized-lab eval only.
+- **NEW** `@sources/arxiv-2608-27141-safety-does-not-compose.md` + `@concepts/non-decaying-loop-safety-state.md` — **K312** REFERENCE. Trajectory-scoped safeguards re-init per loop; fragmented cross-iteration evidence ⇒ every trajectory-scoped monitor has TPR = FPR; a decaying risk score / fixed cooling-off is insufficient. LoopHarness keeps a persistent non-decaying loop-level safety state + mediated commits, bounding unauthorized irreversible actions. Pairs K307 StepGuard (StepGuard stays K307, not CCC K312). Do NOT clone getathelas/LoopHarness (Apple OS).
+- **NEW** `@sources/arxiv-2608-27439-redevoagent.md` + `@concepts/experience-driven-redteam-skill-evolution.md` — **K313** REFERENCE, lab-only. Black-box red-team agent distills trajectories into a human-readable attack skill, evolved via tool-effectiveness profiling + Deciding-Tool Attribution + a **validation ratchet** (keep only updates that improve validation). Transfers across attacker models / harnesses (Claude Code / Codex class). **Lab-only; no `.cursor/skills` evolve from attack runs; no attack-skill bodies in wiki.** Pairs K283 JailbreakSkill + misevolution.
+- **NEW OOD stubs** (wont_wire): `@sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md` (commodity-CSI sensor steal) · `@sources/arxiv-2608-26086-ood-traceml.md` (outcome benches hide process) · `@sources/arxiv-2608-26103-ood-zero-wam.md` (no cyber adopt) · `@sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md` (visual evidence can be unfaithful → pairs K308 decorative CoT) · `@sources/arxiv-2608-27420-ood-weak-model-rlvr.md` (no trainer wire).
+- **Backlinks:** cweep-rtl-cwe-early-prevention, faithful-agent-asr-measurement, atobench-verification-chain-deception, step-level-agent-guardrails, evolving-attack-skill-libraries, skill-misevolution, agent-runtime-guardrails, airkey-wifi-acoustic-pin-sidechannel, wireless-pentest, ai-redteam-evidential-ceiling, chain-of-thought-decorative-reasoning-audit.
+- **Phase-0:** `scripts/adopt_k310_k313_phase0.sh` **ALL PASS**; no clones (RTLGuardai / AbacusCTF / LoopHarness / loopharness.ai / TraceML all name-collision, not the papers).
+- **Phase-1:** K310 → agent-audit (sanitize-before-trust); K311 → agent-audit + lab-redteam (trace-verified); K312 → agent-audit + lab-redteam + mcp-tool-control (loop state); K313 → agent-audit + lab-redteam (lab-only skill evolution).
+- **Dual-ID:** K310–K313 appended to overlay + fragment + restore script; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-on **35**.
+- **Briefs:** `briefs/2026-08-28_k310-k313-ingest.md` · `briefs/2026-08-28_atto-loop-compose.md`.
+- **Sweeps:** `wiki/sweeps/2026-08-27-daily.md` + `wiki/sweeps/2026-08-28-daily.md` committed.
+
+**Archive** (egress-fi cybersec/):
+- `arxiv-2608.26049-rtlguard-a-lightweight-teacher-student-defense-f.pdf`
+- `arxiv-2608.26237-how-do-llm-agents-actually-get-the-flag-trace-le.pdf`
+- `arxiv-2608.27141-safety-does-not-compose-non-decaying-loop-state.pdf`
+- `arxiv-2608.27439-redevoagent-automatic-red-teaming-agent-with-exp.pdf`
+- `arxiv-2608.25612-a-subcarrier-aware-approach-for-robust-respirato.pdf`
+- `arxiv-2608.26086-traceml-an-empirical-analysis-of-human-agent-pla.pdf`
+- `arxiv-2608.26103-zero-wam-in-context-world-action-modeling-from-h.pdf`
+- `arxiv-2608.27417-retrieval-heads-meet-vision-uncovering-how-vlms.pdf`
+- `arxiv-2608.27420-boosting-llm-exploration-via-weak-model-guidance.pdf`
+
 ## [2026-08-26] follow-up | K307 StepGuard inventory + prod brief
 
 Recommended post-ingest implementations from K307–K309 closeout.

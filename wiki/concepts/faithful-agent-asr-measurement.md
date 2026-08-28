@@ -24,6 +24,7 @@ related:
   - concepts/counterfactual-simulatability-llm-explanations.md
   - sources/arxiv-2608-16795-ood-historical-backtesting-astronomy.md
   - concepts/compliance-detector-rule-blindness.md
+  - concepts/trace-verified-ctf-agent-eval.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-15

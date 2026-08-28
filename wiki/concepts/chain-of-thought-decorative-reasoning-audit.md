@@ -9,6 +9,7 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/atobench-verification-chain-deception.md
   - concepts/compliance-detector-rule-blindness.md
+  - sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md
 maturity: draft
 created: 2026-08-26
 updated: 2026-08-26

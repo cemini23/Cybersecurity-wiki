@@ -16,6 +16,7 @@ related:
   - sources/arxiv-2608-16465-jailbreakskill.md
   - concepts/evolving-attack-skill-libraries.md
   - entities/tools/jailbreakskill.md
+  - concepts/experience-driven-redteam-skill-evolution.md
 maturity: draft
 created: 2026-08-15
 updated: 2026-08-15

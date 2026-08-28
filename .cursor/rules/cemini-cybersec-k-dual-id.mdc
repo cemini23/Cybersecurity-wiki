@@ -30,5 +30,9 @@ Canon fragment (keep in sync with restore):
 - K307 StepGuard (2608.24777) ≠ CCC MediSkill-Evo K307 — step-level guard; LICENSE pending
 - K308 decorative CoT (2608.24790) ≠ CCC MetaCaster K308 — CoT ≠ evidence
 - K309 prompt security redistribution (2608.24857) ≠ CCC Prime Agent K309
+- K310 RTLGuard (2608.26049) ≠ CCC K310 AP2 — poisoned-RTL teacher-student sanitize; no public repo
+- K311 CTF-ABACUS (2608.26237) ≠ CCC K311 SCOUT — trace-verified CTF agent eval; flag ≠ exploit
+- K312 LoopHarness / safety-does-not-compose (2608.27141) ≠ CCC K312 StepGuard (Cybersec StepGuard remains K307) — non-decaying loop state
+- K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — experience-driven red-team skill evolution; lab only
 
-K300–K309 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K309 wave.
+K300–K313 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K314 wave.

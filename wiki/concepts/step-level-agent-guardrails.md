@@ -10,6 +10,7 @@ related:
   - concepts/nl-security-rules-vs-builtin-deny.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/mcp-security-posture.md
+  - concepts/non-decaying-loop-safety-state.md
 maturity: draft
 created: 2026-08-26
 updated: 2026-08-26

@@ -333,6 +333,19 @@
 | @sources/arxiv-2608-24777-stepguard.md | draft | StepGuard step-level guardrails (2608.24777; K307) |
 | @sources/arxiv-2608-24790-decorative-reasoning-medical-cot.md | draft | Decorative medical CoT audit (2608.24790; K308) |
 | @sources/arxiv-2608-24857-prompt-structure-security-redistribution.md | draft | Prompt structure + codegen security (2608.24857; K309) |
+| @sources/arxiv-2608-26049-rtlguard.md | draft | RTLGuard teacher-student RTL-poison defense (2608.26049; K310) — no public repo |
+| @concepts/rtl-codegen-poison-defense.md | draft | Sanitize-before-trust for poisoned RTL/codegen models; teacher-student + feature alignment |
+| @sources/arxiv-2608-26237-ctf-abacus.md | draft | CTF-ABACUS trace-verified CTF agent eval (2608.26237; K311) — flag ≠ exploit |
+| @concepts/trace-verified-ctf-agent-eval.md | draft | Trace-verified solve profiles; 62–87% of recovered flags are trace-verified |
+| @sources/arxiv-2608-27141-safety-does-not-compose.md | draft | Safety Does Not Compose / LoopHarness (2608.27141; K312) — non-decaying loop state |
+| @concepts/non-decaying-loop-safety-state.md | draft | Trajectory-scoped monitors do not compose; persistent loop-level safety state |
+| @sources/arxiv-2608-27439-redevoagent.md | draft | RedEvoAgent experience-driven red-team skill evolution (2608.27439; K313) — lab only |
+| @concepts/experience-driven-redteam-skill-evolution.md | draft | Distill trajectories into attack skills + validation ratchet; lab eval only |
+| @sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md | draft | OOD Wi-Fi CSI respiratory monitoring (2608.25612) — commodity-CSI sensor steal |
+| @sources/arxiv-2608-26086-ood-traceml.md | draft | OOD TraceML human-agent ML-dev planning (2608.26086) — outcome benches hide process |
+| @sources/arxiv-2608-26103-ood-zero-wam.md | draft | OOD Zero-WAM robot in-context world-action (2608.26103) — no cyber adopt |
+| @sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md | draft | OOD VLM visual retrieval heads (2608.27417) — visual evidence can be unfaithful |
+| @sources/arxiv-2608-27420-ood-weak-model-rlvr.md | draft | OOD weak-model guidance RLVR (2608.27420) — no trainer wire |
 | @sources/arxiv-2608-21289-ood-rebite-food-journaling.md | draft | OOD Rebite food journaling (2608.21289) — goal-at-view-time steal |
 | @sources/arxiv-2608-23566-ood-critic-bpco.md | draft | OOD BPCO critic RL (2608.23566) — golden_critic REFERENCE; no trainer wiring |
 | @sources/arxiv-2608-17067-ood-disco-t2i-defense.md | draft | OOD DiSCO T2I defense → image-gen |

@@ -10,6 +10,7 @@ related:
   - concepts/cogate-confidence-gated-secure-code.md
   - concepts/chiplet-llm-hardware-security.md
   - sources/arxiv-2608-05063-chiplet-llm-hardware-security.md
+  - concepts/rtl-codegen-poison-defense.md
 maturity: draft
 created: 2026-08-03
 updated: 2026-08-06

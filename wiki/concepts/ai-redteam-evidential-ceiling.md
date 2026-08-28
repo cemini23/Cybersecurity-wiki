@@ -26,6 +26,7 @@ related:
   - sources/arxiv-2608-16852-rule-blindness-compliance-detectors.md
   - concepts/compliance-detector-rule-blindness.md
   - concepts/psychological-multiturn-jailbreaks.md
+  - concepts/trace-verified-ctf-agent-eval.md
 maturity: draft
 created: 2026-07-29
 updated: 2026-08-12
