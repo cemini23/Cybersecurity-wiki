@@ -338,7 +338,7 @@
 | @sources/arxiv-2608-26237-ctf-abacus.md | draft | CTF-ABACUS trace-verified CTF agent eval (2608.26237; K311) — flag ≠ exploit |
 | @concepts/trace-verified-ctf-agent-eval.md | draft | Trace-verified solve profiles; 62–87% of recovered flags are trace-verified |
 | @sources/arxiv-2608-27141-safety-does-not-compose.md | draft | Safety Does Not Compose / LoopHarness (2608.27141; K312) — non-decaying loop state |
-| @concepts/non-decaying-loop-safety-state.md | draft | Trajectory-scoped monitors do not compose; persistent loop-level safety state |
+| @concepts/non-decaying-loop-safety-state.md | draft | Trajectory-scoped monitors do not compose; K312 runtime hook + grant CLI |
 | @sources/arxiv-2608-27439-redevoagent.md | draft | RedEvoAgent experience-driven red-team skill evolution (2608.27439; K313) — lab only |
 | @concepts/experience-driven-redteam-skill-evolution.md | draft | Distill trajectories into attack skills + validation ratchet; lab eval only |
 | @sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md | draft | OOD Wi-Fi CSI respiratory monitoring (2608.25612) — commodity-CSI sensor steal |

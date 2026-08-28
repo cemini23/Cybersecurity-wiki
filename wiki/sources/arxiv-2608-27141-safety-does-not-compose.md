@@ -9,9 +9,9 @@ maturity: draft
 read_status: read
 created: 2026-08-28
 updated: 2026-08-28
-phase_0_verdict: "REFERENCE 2026-08-28 — safety-state design principle; policy only. No paper repo at hunt (name-collision getathelas/LoopHarness is an Apple OS — do NOT clone)."
-wire_status: policy_wired
-wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc (K312)"
+phase_0_verdict: "REFERENCE 2026-08-28 — paper artifact still no SPDX; local accumulator runtime_wired (scripts/k312_loop_state.py). Name-collision getathelas/LoopHarness is an Apple OS — do NOT clone."
+wire_status: runtime_wired
+wire_target: ".cursor/hooks.json + scripts/k312_loop_state.py (K312)"
 ---
 
 ## Relations
@@ -40,7 +40,7 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc (K312)"
 
 **LoopHarness (K312):** restores a **persistent, non-decaying safety state at the loop level**. Under **mediated commits** and an arbiter **detection floor δM**, it bounds the expected number of **unauthorized irreversible actions**.
 
-**Why filed (K312):** this is the **loop-level** counterpart to K307 StepGuard (which is a **step-level** pre-execution guard — and in this wiki StepGuard stays **K307**, not the CCC K312). The key distinction: per-turn/per-trajectory guards (including a step guard) do not compose across iterations; you need **non-decaying loop state** that survives trajectory boundaries. Pairs K239 execution fidelity (block before irreversible effect). **No matching repo at hunt** → REFERENCE / policy only; no runtime wire; no clone.
+**Why filed (K312):** this is the **loop-level** counterpart to K307 StepGuard (which is a **step-level** pre-execution guard — and in this wiki StepGuard stays **K307**, not the CCC K312). The key distinction: per-turn/per-trajectory guards (including a step guard) do not compose across iterations; you need **non-decaying loop state** that survives trajectory boundaries. Pairs K239 execution fidelity (block before irreversible effect). **No matching paper repo at hunt** → do not clone name-collisions. **This wiki runtime:** `scripts/k312_loop_state.py` + `.cursor/hooks.json` (bound unauthorized irreversible actions; grant does not decay history).
 
 ## Snippets
 

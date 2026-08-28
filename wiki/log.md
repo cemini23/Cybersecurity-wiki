@@ -1,3 +1,15 @@
+## [2026-08-28] follow-up | K312 loop-state runtime + SPDX re-hunt HOLD
+
+Operator OK: implement leftover K312 accumulator, then lint / commit / push / federation sync.
+
+- **Runtime:** `scripts/k312_loop_state.py` + second fail-closed command on `.cursor/hooks.json` `beforeShellExecution` / `preToolUse` (after K303). Persistent non-decaying state at `.local/k312-loop-state.json` (gitignored). Bound default 3 unauthorized irreversible actions; grant does not zero history. Known mediated paths (`git push` without `--force`, archive-to-egress, prod briefs scp) logged + allowed.
+- **Tests / CI:** `scripts/test_k312_loop_state.py`; workflow step next to K303.
+- **Re-hunt HOLD:** `scripts/k307_k313_rehunt.sh` — StepGuard still null SPDX; no matching paper repos. Do not clone RTLGuardai / AbacusCTF / getathelas/LoopHarness.
+- **Phase-0:** `scripts/adopt_k310_k313_phase0.sh` now asserts k312 script + hook + tests.
+- **Federation:** `.cursor/skills/loop-safety-state/` (`federation: true`, operator-invoked); canon copied to CCC then `sync_federation_cursor_skills.sh`; `restore_cybersec_dual_id.py --check`.
+- **friend brief:** add-on **36**.
+- **Wiki:** `@concepts/non-decaying-loop-safety-state.md` + source page `wire_status: runtime_wired`.
+
 ## [2026-08-28] ingest | K310 RTLGuard / K311 CTF-ABACUS / K312 LoopHarness / K313 RedEvoAgent + OOD
 
 Full ingest of 9 NEW inbox arXiv PDFs (daily sweeps 2026-08-27 + 2026-08-28). LANE mid (OpenCode Zen free → claude-ds Flash; route handoff). Next Cybersec IDs **K310–K313** (dual-ID vs CCC K310 AP2 / K311 SCOUT / K312 StepGuard / K313 StarHarness). **No public SPDX clone this batch** (name-collision repos are NOT the papers).

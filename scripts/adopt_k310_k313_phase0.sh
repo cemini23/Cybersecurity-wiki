@@ -73,4 +73,11 @@ do
   grep -q "$slug" "$ROOT/wiki/index.md" || { echo "FAIL index missing slug: $slug"; exit 1; }
 done
 
-echo "ALL PASS K310-K313 Phase-0"
+# 6. K312 runtime (local accumulator; paper artifact still uncloned).
+test -f "$ROOT/scripts/k312_loop_state.py" || { echo "FAIL missing k312_loop_state.py"; exit 1; }
+test -f "$ROOT/scripts/test_k312_loop_state.py" || { echo "FAIL missing test_k312_loop_state.py"; exit 1; }
+grep -q "k312_loop_state.py --hook" "$ROOT/.cursor/hooks.json" || { echo "FAIL hooks.json missing K312"; exit 1; }
+grep -q "k312_loop_state.py" "$ROOT/wiki/concepts/non-decaying-loop-safety-state.md" || { echo "FAIL concept missing runtime path"; exit 1; }
+python3 "$ROOT/scripts/test_k312_loop_state.py" >/dev/null
+
+echo "ALL PASS K310-K313 Phase-0 + K312 runtime"

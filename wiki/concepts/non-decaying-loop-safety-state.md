@@ -10,8 +10,8 @@ related:
 maturity: draft
 created: 2026-08-28
 updated: 2026-08-28
-wire_status: policy_wired
-wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc (K312)"
+wire_status: runtime_wired
+wire_target: ".cursor/hooks.json + scripts/k312_loop_state.py (K312)"
 ---
 
 ## Relations
@@ -37,7 +37,8 @@ Question: **when an LLM agent runs as a long unattended loop across many tool-us
 2. **Do not treat a per-turn/per-step guard as sufficient.** A pre-execution step guard (K307 StepGuard) is the right enforcement *point*, but it is **per-invocation**; an adversary that spreads evidence over many loop iterations defeats it. Combine a step/action gate with a **loop-level accumulator**.
 3. **Persist a non-decaying safety state** for irreversible-effect tool loops (writes, sends, commits, API mutations) — not a decaying score/PID.
 4. **Do not rely on a "wait a bit" cooling-off** — a constant interval is defeated by a patient adversary. Make the required wait scale with the accumulated risk / horizon.
-5. **Do NOT clone `getathelas/LoopHarness`** (an Apple OS) or the `loopharness.ai`/`bing` name-collision repos. Policy only; no runtime wire.
+5. **Do NOT clone `getathelas/LoopHarness`** (an Apple OS) or the `loopharness.ai`/`bing` name-collision repos. Paper artifact stays REFERENCE; this wiki's accumulator is `scripts/k312_loop_state.py`.
+6. **This wiki runtime:** `.cursor/hooks.json` runs `python3 scripts/k312_loop_state.py --hook` (fail-closed) on `beforeShellExecution` / `preToolUse` after the K303 secret deny. Unauthorized irreversible actions (force-push, `curl|sh`, `ssh cemini-prod`, Docker `--network=host`, LIVE Discord, `mcp.json` / `.cursor/skills` writes) consume a bound (default 3) then deny. Known mediated paths (`git push` without `--force`, `git commit`, `archive_raw_to_egress.sh`, prod briefs scp) are logged and allowed. Grant does **not** zero history: `python3 scripts/k312_loop_state.py grant --n N --reason "…"`. State: `.local/k312-loop-state.json` (gitignored).
 
 ## Snippets
 

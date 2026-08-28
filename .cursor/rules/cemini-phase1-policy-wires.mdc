@@ -564,7 +564,7 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K310 RTLGuard (2608.26049) ≠ CCC K310 AP2 — poisoned-RTL teacher-student sanitize; no public repo
 - K311 CTF-ABACUS (2608.26237) ≠ CCC K311 SCOUT — trace-verified CTF agent eval; flag ≠ exploit
 - K312 LoopHarness / safety-does-not-compose (2608.27141) ≠ CCC K312 StepGuard (Cybersec StepGuard remains K307) — non-decaying loop state
-- K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — experience-driven red-team skill evolution; lab only
+- K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — same paper as CCC K324; lab only
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
 ## Phase-1 meta
@@ -635,13 +635,13 @@ AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + Ste
 
 - Never load the full tool catalog at turn 0. Retrieve per step (`tool_search`: BM25 + dense fused by RRF, top-k≈5) then execute (`execute_tool`). PayPal production: 140.2k → 1.3k tool tokens (99%) with zero client changes.
 - Prompt caching does not fix this — the model still attends to the whole catalog. Pairs BPS set-not-top-k + K164 lazy skill stacks.
-- No public repo → `policy_wired`. SCOUT-style meta-tools on `/route` = propose-only leftover (HITL later).
+- No public repo → `policy_wired`. SCOUT meta-tools **shipped 2026-08-28 as operator-invoked skill** `scout-tool-search` (federation, `disable-model-invocation: true`) — local SKILL.md frontmatter top-k search, not a `/route` rewrite.
 
 ## Gate the step, not only the answer (CCC K312)
 
 - Check candidate tool actions **before execution**; audit completed trajectories afterwards. Guards are tuned on an explicit safety–utility dial (StepGuard: ASR −77.3%, utility −2.8 pts) — over-defense burns utility, under-defense burns safety.
 - Context-matched supervision (safe/unsafe variants diverge only at the risky step) stops guards from keying on tool identity. Pairs K239 preview-before-effect.
-- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. PreToolUse-style gate = propose-only leftover.
+- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. Step gate **shipped 2026-08-28 as operator-invoked skill** `step-gate` (federation, `disable-model-invocation: true`) — closed proceed/hold/escalate classifier, not a Claude Code hook install.
 
 ## Stratified harness evolution (CCC K313)
 
@@ -654,3 +654,55 @@ AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + Ste
 - Working Memory tracks live task state and **picks** skills from Experiential Memory — grounding skill use in current needs instead of full history (+17.8 pp τ²-Bench GPT-5.6 Sol; failure modes −20–86%).
 - Execution traces localize failures to a specific memory component; Meta-Agent applies **validation-gated** patches; loop stays bounded. **HITL before any skill self-write** (pairs K237/K298/K307/K309).
 - `Gen-Verse/Recuris` Apache-2.0 → GO REFERENCE `.local/adopts/Recuris`; runtime `wont_wire`.
+
+## CCC wave K315–K324 (shared policy file)
+
+ToolMinimize arg rewriting (K315, policy) + LifePlanner OOD (K316) + TAU-Agent OOD (K317) + ProgRouter step-wise routing (K318, policy) + AsymSpec serving WATCH (K319) + Claude Code Handbook delta (K320, reference) + ASIL structured state (K321, policy) + MoRe role fusion WATCH (K322) + INTENT-AS-A-TOOL (K323, MIT REFERENCE clone) + RedEvoAgent validation ratchet (K324, Cybersec-primary steal). Clone: intent-as-a-tool (17MB) — REFERENCE only. **CCC-only rule** `ccc-k315-k324-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** CCC K324 RedEvoAgent = Cybersec-primary same-day PDF; CCC K285 Mandato ≠ K315 ToolMinimize.
+
+## Minimize tool-argument values, not only allow the call (CCC K315)
+
+- Allow/block and information-flow controls decide *whether* a call happens; they never rewrite *what data* the tool receives. 81–88% of tool calls over-share PSD under default prompts; privacy prompts leave 36–76%; Llama barely responds (81%→76%).
+- Middleware rewrite with schema-aware necessity + four operations (removal / generalization / substitution / truncation) cuts privacy cost 81.2–92.0% at **100% argument-level task validity** (1.77 ms median). PII detectors miss implicit PSD (a hospital name implies a diagnosis).
+- No public SPDX → `policy_wired`. No PII/PoC dumps in wiki/briefs. Pairs K259/K239 allow/block gates.
+
+## Incomplete evidence + imprecise tools, not model size (CCC K316, OOD)
+
+- LifePlanner: Pass Rate drops to **40.2%** on complex geo-planning; failures stem from incomplete evidence acquisition, imprecise tool use, weak constraint integration — not model size or reasoning length.
+- OOD trip-planning bench → short stub, `wont_wire`. Pairs K244/K246.
+
+## Retrieve evidence first, then reason (CCC K317, OOD)
+
+- TAU-Agent: a central retrieval agent selects query-relevant evidence (captions, temporal intervals, object trajectories) **then** the VLM reasons — lazy, not dump. OOD stub, `wont_wire`. Repo MIT but no clone.
+
+## Route per step from progress + difficulty + cost (CCC K318)
+
+- One-shot cascade routing picks an LLM per query and cannot adapt mid-workflow. Route **per step** with a multi-view progress scorer (outcome regimes + subtask completion + progress trends + state quality) + meta-gated progress-gain estimation under time/cost budgets.
+- Reduces operating cost vs baselines on HumanEval Plus / MBPP / MATH-500 / ASQA. Pairs `/route` quality-cost. No public SPDX → `policy_wired`.
+
+## Context-asymmetric speculative decoding (CCC K319, WATCH)
+
+- Serving-only: drafter reads full context, verifier sees compressed; δ-fusion + divergence-aware acceptance. ≈90% full-context accuracy at 1.3–1.7× throughput / 0.2–0.3× compute. Huawei; `wont_wire`; no clone.
+
+## Claude Code handbook delta (CCC K320, reference)
+
+- Control stack: 4 layers, only 2–4 constrain (advisory instruction shapes intent; permission deny→ask→allow; sandbox; isolation). Hooks cut across 1–2 but never bypass a deny.
+- Plan-as-contract (8-point minimum complete plan; approve the plan, not "any method"); measure `/usage` (allocation) vs `/context` (occupancy) separately; completion reports distinguish checks that ran from checks described; Evidence-Gated Delivery with human release gate; 21 misconception corrections (M01–M21) — e.g. `/loop` ≠ cron, workflow agents always run acceptEdits, green routine status ≠ task success. `[TENTATIVE]` vs Anthropic docs.
+
+## Structured state + semantic actions over screenshot-click (CCC K321)
+
+- Screenshots are a state-incomplete projection; GUI clicks are brittle and semantically weak. Expose JSON observations + code-executable semantic actions via the **deepest feasible access path** (API → CLI → service → accessibility → GUI).
+- ASIL >80 at <5 actions/task vs 6.6/26.6 screenshot-click strict on matched tasks. Structured modality trains better too (SFT Qwen3.5-2B 58.0→72.1). No SPDX hunt hit → `policy_wired`; GUI runtime `wont_wire` — keep cursor-ide-browser, do not add CUA.
+
+## Do not auto-spawn N agents for multi-perspective work (CCC K322, WATCH)
+
+- MoRe fuses a codebook of role steering vectors per query into one composed vector on a frozen backbone: MAS-level quality at **20× lower token cost** (+2.2% over single-agent baselines). GRPO `wont_wire`; no clone.
+
+## Intent-targeted tools = judge-free commitment signal (CCC K323)
+
+- Tools are intent-agnostic; intent tools make commitment an observable action. Call probability is a fine-grained, judge-free signal that complements CoT monitoring, expands labels into dense trajectories, and pinpoints online-intervention steps.
+- `RebeccaZhang22/intent-as-a-tool` MIT (17MB clone) → GO REFERENCE `.local/adopts/intent-as-a-tool`; runtime `wont_wire`. No attack/PoC text.
+
+## Validation ratchet for skill updates (CCC K324)
+
+- Keep a skill-memory patch only if it improves validation performance (RedEvoAgent's ratchet, taken defensively). Attribute updates to the tool that drove the outcome — never credit ambiguous/misleading experience.
+- CCC applies the same gate to any skill-memory patch (pairs K237/K313/K314); never auto-evolve `.cursor/skills`. No attack-skill clone; Cybersec-primary.

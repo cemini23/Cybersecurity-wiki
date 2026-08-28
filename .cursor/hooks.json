@@ -17,11 +17,19 @@
       {
         "command": "python3 scripts/k303_k298_policy.py --hook",
         "failClosed": true
+      },
+      {
+        "command": "python3 scripts/k312_loop_state.py --hook",
+        "failClosed": true
       }
     ],
     "preToolUse": [
       {
         "command": "python3 scripts/k303_k298_policy.py --hook",
+        "failClosed": true
+      },
+      {
+        "command": "python3 scripts/k312_loop_state.py --hook",
         "failClosed": true
       }
     ]

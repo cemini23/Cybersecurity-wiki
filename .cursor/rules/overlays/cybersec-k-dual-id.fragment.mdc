@@ -24,5 +24,5 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K310 RTLGuard (2608.26049) ≠ CCC K310 AP2 — poisoned-RTL teacher-student sanitize; no public repo
 - K311 CTF-ABACUS (2608.26237) ≠ CCC K311 SCOUT — trace-verified CTF agent eval; flag ≠ exploit
 - K312 LoopHarness / safety-does-not-compose (2608.27141) ≠ CCC K312 StepGuard (Cybersec StepGuard remains K307) — non-decaying loop state
-- K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — experience-driven red-team skill evolution; lab only
+- K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — same paper as CCC K324; lab only
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
