@@ -10,6 +10,7 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/trace-verified-ctf-agent-eval.md
+  - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/ai-pentest-harness-landscape.md
 maturity: draft
 created: 2026-08-31

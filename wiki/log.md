@@ -1,3 +1,13 @@
+## [2026-08-31] follow-up | K314 advisory runtime + IAB/StepGuard re-hunt
+
+Implemented recommended K314 follow-ups (no IAB clone — bench not public).
+
+- **Runtime (advisory):** `scripts/k314_enforcement_precheck.py` + `scripts/test_k314_enforcement_precheck.py`; CI step added. Operator checklist — not a Cursor hook.
+- **Re-hunt:** `scripts/k307_k315_rehunt.sh` (wrapper keeps `k307_k313_rehunt.sh`); `scripts/instruction_arbitration_bench_inventory.sh` — IAB not found; WATCH `junwenleong/stateful-agent-security-eval` (MIT, adjacent).
+- **Federation skill:** `.cursor/skills/external-reference-monitor/` (`federation: true`, operator-invoked) → CCC canon + sync.
+- **Phase-0:** `adopt_k314_k315_phase0.sh` asserts K314 runtime + IAB inventory.
+- **friend brief:** add-on **38**.
+
 ## [2026-08-31] ingest | K314 Recognition–enforcement gap / K315 Security-agent SLR + OOD NL2AGBench
 
 Full ingest of 3 NEW inbox arXiv PDFs (daily sweeps 2026-08-29 through 2026-08-31). Next Cybersec IDs **K314–K315** (dual-ID vs CCC K314 Recuris / K315 ToolMinimize). **No clone this batch.**

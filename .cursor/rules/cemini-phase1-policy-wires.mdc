@@ -708,3 +708,25 @@ ToolMinimize arg rewriting (K315, policy) + LifePlanner OOD (K316) + TAU-Agent O
 
 - Keep a skill-memory patch only if it improves validation performance (RedEvoAgent's ratchet, taken defensively). Attribute updates to the tool that drove the outcome — never credit ambiguous/misleading experience.
 - CCC applies the same gate to any skill-memory patch (pairs K237/K313/K314); never auto-evolve `.cursor/skills`. No attack-skill clone; Cybersec-primary.
+
+## CCC wave K325–K327 (shared policy file)
+
+Security-agent SLR bounded-authority gap (K325, Cybersec-primary steal) + Recognition Without Enforcement external monitor (K326, policy) + Logos cross-process plugin harness (K327, policy). **No clones** — no InstructionArbitrationBench (no SPDX, forthcoming), no Logos (no SPDX). **Zero attack text / no paper prompts / no PoCs anywhere.** CCC-only rule `ccc-k325-k327-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** same-day Cybersec inbox holds 2608.28490 + 2608.28502 (its own K#); CCC K285 Mandato / K310 AP2 / K312 StepGate ≠ K326 external monitor.
+
+## Bounded authority + auditable trajectories (CCC K325)
+
+- Security agents are built to **act** (91% modular, 88% planner-and-actor, 95% fully autonomous) but rarely bounded or inspected (15% critic/verifier, 13% guardrail layers, 13% human review). Outcome metrics dominate (success 51%, P/R/F1 34%); process metrics are near-absent (hallucination 11%, scope containment 5%, tool-call accuracy 1%).
+- CCC: keep **HITL on irreversible tools** (exploit execution, production remediation, disclosure, active response — pairs K239); evaluate with **evidence trees, not scalars** (pairs K289); require **evidence ledgers** per claim (source, time, producing tool/model, confidence, validation status — pairs K277). Survey: `wont_wire`.
+
+## Recognition ≠ enforcement — external reference monitor (CCC K326)
+
+- Model self-arbitration is a **capability, not a security boundary**. Models decode source-format markers (97.5–100%) and verbalize forged authority, yet still act on spoofed instructions under permissive configurations (one model detects 98.7% / executes 99.3%).
+- Fleet-mean execution under novel spoofs is **1.21% [0.5–2.1%]** but **concentrated in reproducible prompt–model cells** (40–100% deterministic) and shifts **up to 47pp across deployment windows**; restrictive policy eliminates execution on the same weights. Prompt-layer defenses do not generalize.
+- Enforcement must be **external and fail-closed**: authenticated source routing (HMAC-SHA256 per-record MACs, deterministic under EUF-CMA) + capability-gated tool execution (in-context advisory token + external execution-layer verification the model cannot bypass; single-use nonce-bound tokens). Rejects forged/tampered/replayed/unsigned by construction.
+- Residual boundary is **semantic authorization**: authentication proves who signed, not whether content carries authority (confused deputy). Gate the tool execution layer, not the model's opinion. `policy_wired`; pairs K285 Mandato, K310 pre-auth intent, K312 StepGate. **No attack text; do not clone the forthcoming bench until SPDX.**
+
+## Plugin = process, append-only transcript (CCC K327)
+
+- One process = one failure domain; a single-process plugin host is a SPOF for every co-resident session. Isolate plugins as **peer processes** on a bus (router holds only the routing table); one fault ends at one node.
+- Keep durable state in an **append-only transcript** owned by no process; recovery (**cold switching**) rebuilds the session from the transcript. Resume with **no repeated effect** at the four tool-call-cycle boundaries (during execution / after return before persistence / after persistence before announcement / after announcement) — 80/80 sessions clean; work redone = work the transcript had not recorded.
+- CCC: isolate high-blast tool surfaces; do not re-execute a retained prefix (pairs K282 AgentRewind, K239 execution fidelity). No public SPDX → policy only, no clone; runtime `wont_wire` — do not replace Cursor/`/route`.

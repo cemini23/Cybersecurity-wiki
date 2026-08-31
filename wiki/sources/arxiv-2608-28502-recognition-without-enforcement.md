@@ -29,7 +29,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.m
 | Location | cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2608.28502-recognition-without-enforcement-configuration-de.pdf |
 | Retrieved | 2026-08-31 |
 | Read status | read (abstract + central claims) |
-| Public code | InstructionArbitrationBench + middleware promised at release; **no attack templates in wiki** |
+| Public code | InstructionArbitrationBench + middleware promised at release; **no attack templates in wiki**. WATCH: `junwenleong/stateful-agent-security-eval` (MIT, adjacent — not IAB). Re-hunt: `bash scripts/instruction_arbitration_bench_inventory.sh` |
 
 ## Narrative
 

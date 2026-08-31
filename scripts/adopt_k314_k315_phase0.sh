@@ -46,4 +46,11 @@ do
   grep -q "$slug" "$ROOT/wiki/index.md" || { echo "FAIL index missing slug: $slug"; exit 1; }
 done
 
-echo "ALL PASS K314-K315 Phase-0"
+# 6. K314 advisory runtime (checklist helper; not a hook).
+test -f "$ROOT/scripts/k314_enforcement_precheck.py" || { echo "FAIL missing k314_enforcement_precheck.py"; exit 1; }
+test -f "$ROOT/scripts/test_k314_enforcement_precheck.py" || { echo "FAIL missing test_k314_enforcement_precheck.py"; exit 1; }
+test -f "$ROOT/.cursor/skills/external-reference-monitor/SKILL.md" || { echo "FAIL missing external-reference-monitor skill"; exit 1; }
+python3 "$ROOT/scripts/test_k314_enforcement_precheck.py" >/dev/null
+bash "$ROOT/scripts/instruction_arbitration_bench_inventory.sh" >/dev/null
+
+echo "ALL PASS K314-K315 Phase-0 + K314 advisory runtime"

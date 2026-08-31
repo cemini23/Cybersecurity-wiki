@@ -11,12 +11,13 @@ related:
   - concepts/step-level-agent-guardrails.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/llm-pentest-automation.md
+  - concepts/security-agent-authority-auditability-slr.md
   - concepts/agent-runtime-guardrails.md
 maturity: draft
 created: 2026-08-31
 updated: 2026-08-31
 wire_status: policy_wired
-wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.mdc (K314)"
+wire_target: "scripts/k314_enforcement_precheck.py (advisory) + .cursor/skills/external-reference-monitor (K314)"
 ---
 
 ## Relations
@@ -44,6 +45,18 @@ Question: **if an agent can identify a forged or conflicting instruction, does i
 3. **Measure with model-clustered uncertainty** — naïve trial-level bootstrap CIs underestimate fleet variance (4.5× wider with model clustering). Pairs K277 measurement integrity.
 4. **Pairs K303 + K276:** prose rules and verbalized refusal are not substitutes for deterministic deny / withhold contracts.
 5. **Authorized-lab eval only** when InstructionArbitrationBench is used; **no spoof templates or attack prompts in wiki**.
+
+## Runtime (advisory)
+
+Operator-invoked — not a Cursor hook. Before high-blast MCP wiring, run:
+
+```bash
+python3 scripts/k314_enforcement_precheck.py checklist
+python3 scripts/k314_enforcement_precheck.py selftest
+bash scripts/k307_k315_rehunt.sh
+```
+
+Federation skill: `external-reference-monitor` (`disable-model-invocation: true`). Pairs K303 hooks + K312 loop state + K307 step-gate.
 
 ## Snippets
 
