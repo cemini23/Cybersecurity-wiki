@@ -8,6 +8,7 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/llm-codegen-prompt-security-redistribution.md
   - concepts/step-level-agent-guardrails.md
+  - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/mcp-security-posture.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/system-prompt-leakage.md

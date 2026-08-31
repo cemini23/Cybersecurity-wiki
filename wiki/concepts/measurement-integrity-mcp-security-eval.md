@@ -8,6 +8,7 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/atobench-verification-chain-deception.md
+  - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/measurement-integrity-mcp-security-eval.md"
 maturity: draft

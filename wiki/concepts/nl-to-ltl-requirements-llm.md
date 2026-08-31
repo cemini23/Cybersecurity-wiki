@@ -5,10 +5,11 @@ tags: [concept, formal-methods, requirements, llm]
 keywords: [LTL, requirements engineering, formal specification, 2608.06287]
 related:
   - sources/arxiv-2608-06287-nl-to-ltl-requirements.md
+  - sources/arxiv-2608-28481-ood-nl2agbench.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-31
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---

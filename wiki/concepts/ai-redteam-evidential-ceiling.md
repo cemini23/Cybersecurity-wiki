@@ -27,9 +27,10 @@ related:
   - concepts/compliance-detector-rule-blindness.md
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/trace-verified-ctf-agent-eval.md
+  - concepts/security-agent-authority-auditability-slr.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-08-12
+updated: 2026-08-31
 ---
 
 ## Relations

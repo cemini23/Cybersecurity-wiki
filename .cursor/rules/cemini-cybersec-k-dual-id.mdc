@@ -34,5 +34,7 @@ Canon fragment (keep in sync with restore):
 - K311 CTF-ABACUS (2608.26237) ≠ CCC K311 SCOUT — trace-verified CTF agent eval; flag ≠ exploit
 - K312 LoopHarness / safety-does-not-compose (2608.27141) ≠ CCC K312 StepGuard (Cybersec StepGuard remains K307) — non-decaying loop state
 - K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — same paper as CCC K324; lab only
+- K314 Recognition–enforcement gap (2608.28502) ≠ CCC K314 Recuris — model arbitration ≠ external reference monitor; no attack templates in wiki
+- K315 Security-agent SLR (2608.28490) ≠ CCC K315 ToolMinimize — bounded authority / auditable behavior taxonomy; survey REFERENCE
 
-K300–K313 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K314 wave.
+K300–K315 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

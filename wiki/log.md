@@ -1,3 +1,23 @@
+## [2026-08-31] ingest | K314 Recognition–enforcement gap / K315 Security-agent SLR + OOD NL2AGBench
+
+Full ingest of 3 NEW inbox arXiv PDFs (daily sweeps 2026-08-29 through 2026-08-31). Next Cybersec IDs **K314–K315** (dual-ID vs CCC K314 Recuris / K315 ToolMinimize). **No clone this batch.**
+
+- **NEW** `@sources/arxiv-2608-28502-recognition-without-enforcement.md` + `@concepts/recognition-enforcement-gap-instruction-arbitration.md` — **K314** REFERENCE. Recognition–enforcement gap: models decode source-format features and verbalize forged authority yet execute conflicting tool calls under permissive configs (~99% verbal detection vs ~99% execution on GPT-4.1-mini). Fleet-mean attack success ~1.21% but concentrated in deterministic prompt–model cells; external reference monitor (authenticated routing + capability-gated tools) blocks tested channel forgery. InstructionArbitrationBench at release — **no spoof templates in wiki**. Pairs K303 + K276 + K277 + K307.
+- **NEW** `@sources/arxiv-2608-28490-llm-security-agents-survey.md` + `@concepts/security-agent-authority-auditability-slr.md` — **K315** REFERENCE. SLR of 100 papers (Jan 2023–Mar 2026): field built agents that **act** but not agents with **bounded authority** or **auditable behavior**. Three-axis taxonomy (Approach / Application / Assessment). Pairs K271 + K311.
+- **NEW OOD stub** `@sources/arxiv-2608-28481-ood-nl2agbench.md` — geometry NL→AlphaGeometry DSL; execution-based verification steal → `@concepts/nl-to-ltl-requirements-llm.md`.
+- **Backlinks:** agent-runtime-guardrails, nl-security-rules-vs-builtin-deny, refusal-under-knowledge-withhold-contract, measurement-integrity-mcp-security-eval, faithful-agent-asr-measurement, llm-pentest-automation, ai-pentest-harness-landscape, nl-to-ltl-requirements-llm.
+- **Phase-0:** `scripts/adopt_k314_k315_phase0.sh` **ALL PASS**; no clones.
+- **Phase-1:** K314 → agent-audit + mcp-tool-control + lab-redteam (external enforcement); K315 → agent-audit (assessment taxonomy).
+- **Dual-ID:** K314–K315 appended to overlay + fragment + restore script; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-on **37**.
+- **Briefs:** `briefs/2026-08-31_k314-k315-ingest.md`.
+- **Sweeps:** `wiki/sweeps/2026-08-29-daily.md` + `2026-08-30-daily.md` + `2026-08-31-daily.md` committed.
+
+**Archive** (egress-fi cybersec/):
+- `arxiv-2608.28502-recognition-without-enforcement-configuration-de.pdf`
+- `arxiv-2608.28490-llm-based-agents-for-software-and-systems-securi.pdf`
+- `arxiv-2608.28481-nl2agbench-benchmarking-llm-auto-formalization-f.pdf`
+
 ## [2026-08-28] follow-up | K312 loop-state runtime + SPDX re-hunt HOLD
 
 Operator OK: implement leftover K312 accumulator, then lint / commit / push / federation sync.

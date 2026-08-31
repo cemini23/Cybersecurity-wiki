@@ -173,9 +173,13 @@ related:
   - sources/arxiv-2608-16806-esti-state-semantic-injection.md
   - concepts/planner-state-integrity-embodied-agents.md
   - concepts/non-decaying-loop-safety-state.md
+  - concepts/recognition-enforcement-gap-instruction-arbitration.md
+  - concepts/security-agent-authority-auditability-slr.md
+  - sources/arxiv-2608-28502-recognition-without-enforcement.md
+  - sources/arxiv-2608-28490-llm-security-agents-survey.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-13
+updated: 2026-08-31
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---

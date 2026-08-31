@@ -10,6 +10,7 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/agent-skill-injection.md
   - concepts/safety-harness-evolution.md
+  - concepts/recognition-enforcement-gap-instruction-arbitration.md
 maturity: draft
 created: 2026-08-13
 updated: 2026-08-13

@@ -9,9 +9,10 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/atobench-verification-chain-deception.md
   - concepts/ai-redteam-evidential-ceiling.md
+  - concepts/security-agent-authority-auditability-slr.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-31
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K311)"
 ---

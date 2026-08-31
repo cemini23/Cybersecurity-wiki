@@ -61,8 +61,10 @@ def check(path: Path) -> list[str]:
         "K307 StepGuard (2608.24777)",
         "K310 RTLGuard (2608.26049)",
         "K313 RedEvoAgent (2608.27439)",
+        "K314 Recognition–enforcement gap (2608.28502)",
+        "K315 Security-agent SLR (2608.28490)",
         "Skill-set budget",
-        "K300–K306, K307–K309, and K310–K313 Cybersec entries",
+        "K300–K306, K307–K309, and K310–K315 Cybersec entries",
     ):
         if needle not in body:
             errs.append(f"{path} missing {needle!r}")

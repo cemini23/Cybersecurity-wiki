@@ -341,6 +341,11 @@
 | @concepts/non-decaying-loop-safety-state.md | draft | Trajectory-scoped monitors do not compose; K312 runtime hook + grant CLI |
 | @sources/arxiv-2608-27439-redevoagent.md | draft | RedEvoAgent experience-driven red-team skill evolution (2608.27439; K313) — lab only |
 | @concepts/experience-driven-redteam-skill-evolution.md | draft | Distill trajectories into attack skills + validation ratchet; lab eval only |
+| @sources/arxiv-2608-28502-recognition-without-enforcement.md | draft | Recognition–enforcement gap / instruction arbitration (2608.28502; K314) — external monitor |
+| @concepts/recognition-enforcement-gap-instruction-arbitration.md | draft | Model arbitration ≠ security boundary; verbalized detection ≠ tool execution |
+| @sources/arxiv-2608-28490-llm-security-agents-survey.md | draft | LLM security agents SLR 100 papers (2608.28490; K315) — bounded authority |
+| @concepts/security-agent-authority-auditability-slr.md | draft | Security agents act but authority unbounded / behavior unauditable |
+| @sources/arxiv-2608-28481-ood-nl2agbench.md | draft | OOD NL2AGBench geometry auto-formalization (2608.28481) — execution verify steal |
 | @sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md | draft | OOD Wi-Fi CSI respiratory monitoring (2608.25612) — commodity-CSI sensor steal |
 | @sources/arxiv-2608-26086-ood-traceml.md | draft | OOD TraceML human-agent ML-dev planning (2608.26086) — outcome benches hide process |
 | @sources/arxiv-2608-26103-ood-zero-wam.md | draft | OOD Zero-WAM robot in-context world-action (2608.26103) — no cyber adopt |
