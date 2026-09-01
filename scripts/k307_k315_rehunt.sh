@@ -20,4 +20,7 @@ done
 echo "== K314 InstructionArbitrationBench =="
 bash "$ROOT/scripts/instruction_arbitration_bench_inventory.sh"
 
-echo "OK re-hunt $(date +%F): StepGuard still null SPDX; IAB not public; no paper clones"
+echo "== K316–K319 SIR / EvoSkill / BLOOM-WILT =="
+bash "$ROOT/scripts/k316_k319_inventory.sh"
+
+echo "OK re-hunt $(date +%F): StepGuard still null SPDX; IAB/EvoSkill not public; BLOOM-WILT check above"

@@ -28,6 +28,8 @@ jobs:
           python3 scripts/test_k303_k298_runtime.py
           python3 scripts/test_k312_loop_state.py
           python3 scripts/test_k314_enforcement_precheck.py
+          python3 scripts/test_k316_cua_ipi_precheck.py
+          python3 scripts/test_k317_evoskill_pipeline_precheck.py
 
       - name: wiki_lint (strict local links + bidirectional)
         run: |

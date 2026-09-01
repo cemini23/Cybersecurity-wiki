@@ -25,7 +25,7 @@ From **Cybersecurity wiki** WorkDir:
 ```bash
 python3 scripts/k314_enforcement_precheck.py checklist
 python3 scripts/k314_enforcement_precheck.py selftest
-bash scripts/k307_k315_rehunt.sh   # IAB + StepGuard SPDX re-hunt
+bash scripts/k307_k319_rehunt.sh   # IAB + StepGuard + K316–K319 SPDX re-hunt
 ```
 
 Answer the five checklist keys in a local JSON file, then:

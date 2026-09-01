@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-01 | K316–K319 advisory runtime + SPDX re-hunt | k316/k317 precheck scripts + CI; k316_k319_inventory; k307_k319_rehunt wrapper; federation skills cua-ipi-redteam-eval + evoskill-pipeline-audit; friend add-on 40 |
 | 2026-09-01 | Full ingest K316 SIR / K317 EvoSkill / K318 J-lens / K319 BLOOM-WILT + OOD OntoLearner | Inbox 5 NEW PDFs; CUA IPI adaptive red-team + skill pipeline injection + interpretability + behaviour audit; BLOOM-WILT null SPDX HOLD; dual-ID K316–K319 vs CCC; friend add-on 39 |
 | 2026-08-31 | Full ingest K314 Recognition–enforcement gap / K315 Security-agent SLR + OOD NL2AGBench | Inbox 3 NEW PDFs; K314 external reference monitor steal; K315 bounded-authority taxonomy; dual-ID K314–K315 vs CCC Recuris/ToolMinimize; friend add-on 37 |
 | 2026-08-28 | K312 loop-state runtime hook + SPDX re-hunt HOLD | Persistent non-decaying accumulator (`scripts/k312_loop_state.py`) on shell/preToolUse after K303; grant CLI does not decay history; CI unit test; federation skill `loop-safety-state`; StepGuard / paper LoopHarness / RTLGuard / CTF-ABACUS / RedEvoAgent still no SPDX — no clones; friend add-on 36 |

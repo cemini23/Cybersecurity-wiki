@@ -1,3 +1,13 @@
+## [2026-09-01] follow-up | K316–K319 advisory runtime + SPDX re-hunt
+
+Implemented recommended K316–K319 follow-ups (no clones — BLOOM-WILT null SPDX; EvoSkillBench not public).
+
+- **Runtime (advisory):** `scripts/k316_cua_ipi_precheck.py`, `scripts/k317_evoskill_pipeline_precheck.py` + CI unit tests.
+- **Re-hunt:** `scripts/k316_k319_inventory.sh`; `scripts/k307_k319_rehunt.sh` wrapper; extended `k307_k315_rehunt.sh`.
+- **Federation skills:** `cua-ipi-redteam-eval`, `evoskill-pipeline-audit` (`federation: true`, operator-invoked) → CCC sync.
+- **Phase-0:** `adopt_k316_k319_phase0.sh` asserts K316–K319 runtime + inventory.
+- **friend brief:** add-on **40**.
+
 ## [2026-09-01] ingest | K316 SIR / K317 EvoSkill / K318 J-lens / K319 BLOOM-WILT + OOD OntoLearner
 
 Full ingest of 5 NEW inbox arXiv PDFs. Next Cybersec IDs **K316–K319** (dual-ID vs CCC LifePlanner/TAU-Agent/ProgRouter/AsymSpec). **No clone this batch** (BLOOM-WILT null SPDX HOLD).

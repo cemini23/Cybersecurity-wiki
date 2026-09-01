@@ -51,4 +51,16 @@ do
   grep -q "$slug" "$ROOT/wiki/index.md" || { echo "FAIL index missing slug: $slug"; exit 1; }
 done
 
-echo "ALL PASS K316-K319 Phase-0 + OOD OntoLearner"
+# 6. K316–K319 advisory runtime + inventory.
+test -f "$ROOT/scripts/k316_cua_ipi_precheck.py" || { echo "FAIL missing k316_cua_ipi_precheck.py"; exit 1; }
+test -f "$ROOT/scripts/k317_evoskill_pipeline_precheck.py" || { echo "FAIL missing k317_evoskill_pipeline_precheck.py"; exit 1; }
+test -f "$ROOT/scripts/test_k316_cua_ipi_precheck.py" || { echo "FAIL missing test_k316_cua_ipi_precheck.py"; exit 1; }
+test -f "$ROOT/scripts/test_k317_evoskill_pipeline_precheck.py" || { echo "FAIL missing test_k317_evoskill_pipeline_precheck.py"; exit 1; }
+test -f "$ROOT/scripts/k316_k319_inventory.sh" || { echo "FAIL missing k316_k319_inventory.sh"; exit 1; }
+test -f "$ROOT/.cursor/skills/cua-ipi-redteam-eval/SKILL.md" || { echo "FAIL missing cua-ipi-redteam-eval skill"; exit 1; }
+test -f "$ROOT/.cursor/skills/evoskill-pipeline-audit/SKILL.md" || { echo "FAIL missing evoskill-pipeline-audit skill"; exit 1; }
+python3 "$ROOT/scripts/test_k316_cua_ipi_precheck.py" >/dev/null
+python3 "$ROOT/scripts/test_k317_evoskill_pipeline_precheck.py" >/dev/null
+bash "$ROOT/scripts/k316_k319_inventory.sh" >/dev/null
+
+echo "ALL PASS K316-K319 Phase-0 + advisory runtime + OOD OntoLearner"
