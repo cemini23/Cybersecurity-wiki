@@ -11,13 +11,17 @@ related:
   - concepts/chain-of-thought-decorative-reasoning-audit.md
   - concepts/llm-codegen-prompt-security-redistribution.md
   - concepts/psychological-multiturn-jailbreaks.md
-  - concepts/agent-runtime-identity-adr.md
+  - concepts/failure-driven-cua-ipi-red-teaming.md
+  - concepts/evoskill-injection-self-evolving-agents.md
+  - concepts/multi-token-concept-readout-audit.md
+  - concepts/logit-tilting-rare-behaviour-audit.md
   - concepts/agent-safety-executable-evaluation.md
   - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/agent-vm-sandboxing.md
+  - concepts/agent-runtime-identity-adr.md
   - concepts/agent-skill-injection.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/responsible-disclosure.md

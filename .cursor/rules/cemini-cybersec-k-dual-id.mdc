@@ -36,5 +36,9 @@ Canon fragment (keep in sync with restore):
 - K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — same paper as CCC K324; lab only
 - K314 Recognition–enforcement gap (2608.28502) ≠ CCC K314 Recuris — model arbitration ≠ external reference monitor; no attack templates in wiki
 - K315 Security-agent SLR (2608.28490) ≠ CCC K315 ToolMinimize — bounded authority / auditable behavior taxonomy; survey REFERENCE
+- K316 SIR CUA IPI (2608.30207) ≠ CCC K316 LifePlanner — failure-driven adaptive IPI red-team; deterministic VM oracle
+- K317 EvoSkill Injection (2608.30429) ≠ CCC K317 TAU-Agent — skill-generation pipeline attack surface; no malicious trajectories in wiki
+- K318 J-lens (2608.31084) ≠ CCC K318 ProgRouter — multi-token SAE readout audit; not enforcement
+- K319 BLOOM-WILT (2608.31105) ≠ CCC K319 AsymSpec — logit-tilting rare-behaviour audit; repo license null HOLD
 
-K300–K315 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K319 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

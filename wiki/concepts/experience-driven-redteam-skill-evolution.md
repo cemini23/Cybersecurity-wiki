@@ -7,9 +7,11 @@ related:
   - sources/arxiv-2608-27439-redevoagent.md
   - concepts/evolving-attack-skill-libraries.md
   - concepts/skill-misevolution.md
+  - concepts/evoskill-injection-self-evolving-agents.md
+  - sources/arxiv-2608-30429-evoskill-injection.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-01
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K313)"
 ---

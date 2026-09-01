@@ -8,6 +8,7 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/atobench-verification-chain-deception.md
+  - concepts/multi-token-concept-readout-audit.md
   - concepts/compliance-detector-rule-blindness.md
   - sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md
 maturity: draft

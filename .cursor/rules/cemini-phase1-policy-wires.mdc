@@ -538,9 +538,9 @@ Steal-from k244 cluster (arXiv 2608.19993 / 2608.19880 + Latent Space wayfinder)
 - **Wrap, don't rebuild (EnvHarness).** Keep the existing verifier (`wiki_lint`, OpenSpec, route `## Verify`, tests). Adapt via wrappers; HITL before changing the scorer. EnvRigger-style trajectory→plug-in synthesis is **WATCH** — no unattended skill/harness mutation (pairs K162 / K281 / K298).
 - **Wayfinder** is opt-in fog-of-war planning (map / tickets / session). Bounded one-session paths still use `grill-with-docs`.
 
-## Cybersec wave K282 / K283 / K288 / K290 / K295–K315 (dual-ID)
+## Cybersec wave K282 / K283 / K288 / K290 / K295–K319 (dual-ID)
 
-CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), K300–K309 (AID-Guard / Prime Agent / … in shared federation file), and K310–K314 (AP2 / SCOUT / StepGuard / StarHarness / Recuris). **K300–K306, K307–K309, and K310–K315 Cybersec entries below are Cybersec IDs, not the CCC K300–K324 wave.** Resolve by file+wiki, not bare K#.
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), K300–K309 (AID-Guard / Prime Agent / … in shared federation file), and K310–K314 (AP2 / SCOUT / StepGuard / StarHarness / Recuris). **K300–K306, K307–K309, and K310–K319 Cybersec entries below are Cybersec IDs, not the CCC K300–K324 wave.** Resolve by file+wiki, not bare K#.
 
 - K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
 - K283 JailbreakSkill (2608.16465) ≠ CCC Twin
@@ -567,7 +567,13 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K313 RedEvoAgent (2608.27439) ≠ CCC K313 StarHarness — same paper as CCC K324; lab only
 - K314 Recognition–enforcement gap (2608.28502) ≠ CCC K314 Recuris — model arbitration ≠ external reference monitor; no attack templates in wiki
 - K315 Security-agent SLR (2608.28490) ≠ CCC K315 ToolMinimize — bounded authority / auditable behavior taxonomy; survey REFERENCE
+- K316 SIR CUA IPI (2608.30207) ≠ CCC K316 LifePlanner — failure-driven adaptive IPI red-team; deterministic VM oracle; HF space WATCH
+- K317 EvoSkill Injection (2608.30429) ≠ CCC K317 TAU-Agent — skill-generation pipeline attack surface; no malicious trajectories in wiki
+- K318 J-lens (2608.31084) ≠ CCC K318 ProgRouter — multi-token SAE readout audit; not enforcement
+- K319 BLOOM-WILT (2608.31105) ≠ CCC K319 AsymSpec — logit-tilting rare-behaviour audit; repo license null HOLD
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
+
+K300–K319 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
 
 ## Phase-1 meta
 
@@ -637,13 +643,13 @@ AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + Ste
 
 - Never load the full tool catalog at turn 0. Retrieve per step (`tool_search`: BM25 + dense fused by RRF, top-k≈5) then execute (`execute_tool`). PayPal production: 140.2k → 1.3k tool tokens (99%) with zero client changes.
 - Prompt caching does not fix this — the model still attends to the whole catalog. Pairs BPS set-not-top-k + K164 lazy skill stacks.
-- No public repo → `policy_wired`. SCOUT meta-tools **shipped 2026-08-28 as operator-invoked skill** `scout-tool-search` (federation, `disable-model-invocation: true`) — local SKILL.md frontmatter top-k search, not a `/route` rewrite.
+- No public repo → `policy_wired`. SCOUT meta-tools **shipped 2026-08-28 as operator-invoked skill** `scout-tool-search` (federation, `disable-model-invocation: true`) — local SKILL.md frontmatter top-k search, not a `/route` rewrite. **BM25-lite 2026-08-31**: `scripts/scout_tool_search.py` k1=1.5, b=0.75, IDF from local corpus — no pip/HF/vector DB.
 
 ## Gate the step, not only the answer (CCC K312)
 
 - Check candidate tool actions **before execution**; audit completed trajectories afterwards. Guards are tuned on an explicit safety–utility dial (StepGuard: ASR −77.3%, utility −2.8 pts) — over-defense burns utility, under-defense burns safety.
 - Context-matched supervision (safe/unsafe variants diverge only at the risky step) stops guards from keying on tool identity. Pairs K239 preview-before-effect.
-- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. Step gate **shipped 2026-08-28 as operator-invoked skill** `step-gate` (federation, `disable-model-invocation: true`) — closed proceed/hold/escalate classifier, not a Claude Code hook install.
+- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. Step gate **shipped 2026-08-28 as operator-invoked skill** `step-gate` (federation, `disable-model-invocation: true`) — closed proceed/hold/escalate classifier. **Real PreToolUse hook 2026-08-31**: `scripts/claude_pretooluse_step_gate.py` in `~/.claude/settings.local.json` (matcher `Bash|Write|Edit`, timeout 5s) — **denies only HOLD**, PROCEED/ESCALATE allow, `STEP_GATE_HOOK=0` kill switch; no Stop hook, no deny-on-ESCALATE.
 
 ## Stratified harness evolution (CCC K313)
 

@@ -346,6 +346,15 @@
 | @sources/arxiv-2608-28490-llm-security-agents-survey.md | draft | LLM security agents SLR 100 papers (2608.28490; K315) — bounded authority |
 | @concepts/security-agent-authority-auditability-slr.md | draft | Security agents act but authority unbounded / behavior unauditable |
 | @sources/arxiv-2608-28481-ood-nl2agbench.md | draft | OOD NL2AGBench geometry auto-formalization (2608.28481) — execution verify steal |
+| @sources/arxiv-2608-30207-sir-cua-self-improving-redteam.md | draft | SIR self-improving CUA IPI red-team (2608.30207; K316) — deterministic VM oracle |
+| @concepts/failure-driven-cua-ipi-red-teaming.md | draft | Adaptive IPI on computer-use agents; joint success + state oracle scoring |
+| @sources/arxiv-2608-30429-evoskill-injection.md | draft | EvoSkill Injection / SARGE (2608.30429; K317) — skill pipeline attack surface |
+| @concepts/evoskill-injection-self-evolving-agents.md | draft | Persistent malicious skills from autonomous skill evolution; lab only |
+| @sources/arxiv-2608-31084-j-lens-multi-token-readout.md | draft | J-lens multi-token concept verbalization (2608.31084; K318) — interpretability audit |
+| @concepts/multi-token-concept-readout-audit.md | draft | First-token clue for multi-token SAE labels; not an enforcement boundary |
+| @sources/arxiv-2608-31105-bloom-wilt-logit-tilting-audit.md | draft | BLOOM-WILT logit tilting behaviour audit (2608.31105; K319) — multi-turn elicitation |
+| @concepts/logit-tilting-rare-behaviour-audit.md | draft | Rare-behaviour elicitation for automated LLM auditing; repo HOLD |
+| @sources/arxiv-2608-31118-ontolearn-llm-size-ood.md | draft | OOD OntoLearner LLM size for ontology learning (2608.31118) — not cyber-primary |
 | @sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md | draft | OOD Wi-Fi CSI respiratory monitoring (2608.25612) — commodity-CSI sensor steal |
 | @sources/arxiv-2608-26086-ood-traceml.md | draft | OOD TraceML human-agent ML-dev planning (2608.26086) — outcome benches hide process |
 | @sources/arxiv-2608-26103-ood-zero-wam.md | draft | OOD Zero-WAM robot in-context world-action (2608.26103) — no cyber adopt |

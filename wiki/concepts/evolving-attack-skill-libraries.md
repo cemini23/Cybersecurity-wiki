@@ -13,9 +13,10 @@ related:
   - concepts/agent-skill-injection.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/experience-driven-redteam-skill-evolution.md
+  - concepts/evoskill-injection-self-evolving-agents.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-09-01
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemini-cybersec-agent-audit.mdc (K283)"
 ---

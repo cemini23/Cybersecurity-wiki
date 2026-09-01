@@ -11,7 +11,8 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
-  - concepts/pair-prompt-pattern.md
+  - concepts/logit-tilting-rare-behaviour-audit.md
+  - concepts/failure-driven-cua-ipi-red-teaming.md
   - sources/arxiv-2608-12996-atobench-deceptive-observations.md
   - concepts/atobench-verification-chain-deception.md
   - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
@@ -27,6 +28,7 @@ related:
   - concepts/compliance-detector-rule-blindness.md
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/trace-verified-ctf-agent-eval.md
+  - concepts/pair-prompt-pattern.md
   - concepts/security-agent-authority-auditability-slr.md
 maturity: draft
 created: 2026-07-29

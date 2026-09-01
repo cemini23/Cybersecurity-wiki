@@ -9,6 +9,8 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/llm-code-review-agent-security.md
+  - concepts/multi-token-concept-readout-audit.md
+  - sources/arxiv-2608-31084-j-lens-multi-token-readout.md
   - sources/arxiv-2608-18351-excess-authority-least-privilege.md
 maturity: draft
 created: 2026-08-18

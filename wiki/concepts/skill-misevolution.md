@@ -17,9 +17,10 @@ related:
   - concepts/evolving-attack-skill-libraries.md
   - entities/tools/jailbreakskill.md
   - concepts/experience-driven-redteam-skill-evolution.md
+  - concepts/evoskill-injection-self-evolving-agents.md
 maturity: draft
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-01
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (skill misevolution lifecycle gates)"
 ---

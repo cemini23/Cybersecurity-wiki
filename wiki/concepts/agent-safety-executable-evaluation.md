@@ -11,6 +11,7 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
+  - concepts/logit-tilting-rare-behaviour-audit.md
 maturity: draft
 created: 2026-08-21
 updated: 2026-08-21

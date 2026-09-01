@@ -16,6 +16,9 @@ related:
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-12996-atobench-deceptive-observations.md
   - concepts/atobench-verification-chain-deception.md
+  - concepts/failure-driven-cua-ipi-red-teaming.md
+  - sources/arxiv-2608-30207-sir-cua-self-improving-redteam.md
+  - concepts/trace-verified-ctf-agent-eval.md
   - sources/arxiv-2608-12880-labels-not-endpoints.md
   - concepts/measurement-integrity-mcp-security-eval.md
   - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
@@ -27,9 +30,10 @@ related:
   - concepts/trace-verified-ctf-agent-eval.md
   - concepts/security-agent-authority-auditability-slr.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
+  - concepts/logit-tilting-rare-behaviour-audit.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-15
+updated: 2026-09-01
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-agent-audit.mdc (K271)"
 ---

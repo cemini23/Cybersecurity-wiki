@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-08-28
+updated: 2026-09-01
 ---
 
 
@@ -330,5 +330,7 @@ Read these wiki pages in order after the checklist above:
 37. **Recognition ≠ enforcement + security-agent SLR (2026-08-31)** — `@concepts/recognition-enforcement-gap-instruction-arbitration.md` (K314): a model can **detect** forged authority in text and still **execute** the privileged tool under permissive system prompts — do not treat self-arbitration ("follow the most authoritative instruction") as a security boundary; prefer **external reference monitor** (authenticated source routing + capability-gated tools). Report **model-clustered bootstrap CIs**, not naïve trial-level intervals. `@concepts/security-agent-authority-auditability-slr.md` (K315): when evaluating security agents, ask whether **authority is bounded** and **behavior is auditable** — terminal success alone is not enough; classify papers on Approach / Application / Assessment axes. InstructionArbitrationBench = authorized lab only when released; **no spoof templates in wiki**.
 
 38. **K314 advisory runtime + re-hunt (2026-08-31)** — before high-blast MCP wiring run `python3 scripts/k314_enforcement_precheck.py checklist` (operator skill: `external-reference-monitor`). Monthly SPDX/IAB re-hunt: `bash scripts/k307_k315_rehunt.sh` (StepGuard still **null SPDX**; InstructionArbitrationBench **not public**; do not clone). Pairs K303 hooks + K312 loop state + K307 step-gate.
+
+39. **CUA IPI + skill pipeline + behaviour audit (2026-09-01)** — `@concepts/failure-driven-cua-ipi-red-teaming.md` (K316): red-team **computer-use agents** with **deterministic VM/state oracles** and **joint success** (adversarial + benign task); adaptive principle libraries are **authorized lab only** — no IPI payloads in wiki. `@concepts/evoskill-injection-self-evolving-agents.md` (K317): treat **autonomous skill generation/evolution** as an attack surface — measure **stored → retrieved → activated**; never poison `.cursor/skills` from red-team runs. `@concepts/multi-token-concept-readout-audit.md` (K318): SAE/J-lens labels are **hypotheses** — counterfactual-test (pairs CHIVE); not enforcement. `@concepts/logit-tilting-rare-behaviour-audit.md` (K319): multi-turn rare-behaviour elicitation for audit benches — lab only; `AdrSkapars/bloom-wilt` **HOLD** until LICENSE.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

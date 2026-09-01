@@ -8,6 +8,7 @@ related:
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/system-prompt-leakage.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/logit-tilting-rare-behaviour-audit.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/local-abliterated-llm-pentest-stack.md

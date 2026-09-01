@@ -12,6 +12,7 @@ related:
   - concepts/av-edr-bypass.md
   - entities/tools/iron-proxy.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/failure-driven-cua-ipi-red-teaming.md
   - concepts/docker-agent-sandbox-allowlist-proxy.md
   - concepts/agent-execution-provenance.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md

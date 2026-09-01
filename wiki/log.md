@@ -1,3 +1,20 @@
+## [2026-09-01] ingest | K316 SIR / K317 EvoSkill / K318 J-lens / K319 BLOOM-WILT + OOD OntoLearner
+
+Full ingest of 5 NEW inbox arXiv PDFs. Next Cybersec IDs **K316–K319** (dual-ID vs CCC LifePlanner/TAU-Agent/ProgRouter/AsymSpec). **No clone this batch** (BLOOM-WILT null SPDX HOLD).
+
+- **NEW** `@sources/arxiv-2608-30207-sir-cua-self-improving-redteam.md` + `@concepts/failure-driven-cua-ipi-red-teaming.md` — **K316** REFERENCE. SIR: failure-driven adaptive IPI red-team for computer-use agents; deterministic VM oracle + joint success. HF space `TrustSafeAI/SIR` WATCH. No IPI payloads in wiki.
+- **NEW** `@sources/arxiv-2608-30429-evoskill-injection.md` + `@concepts/evoskill-injection-self-evolving-agents.md` — **K317** REFERENCE. EvoSkill Injection / SARGE: skill generation pipeline as attack surface; persistent retrieval-time harm. No malicious trajectories in wiki.
+- **NEW** `@sources/arxiv-2608-31084-j-lens-multi-token-readout.md` + `@concepts/multi-token-concept-readout-audit.md` — **K318** WATCH. J-lens multi-token SAE verbalization for refusal-surface audit; not enforcement.
+- **NEW** `@sources/arxiv-2608-31105-bloom-wilt-logit-tilting-audit.md` + `@concepts/logit-tilting-rare-behaviour-audit.md` — **K319** REFERENCE HOLD. BLOOM-WILT multi-turn rare-behaviour elicitation; `AdrSkapars/bloom-wilt` license null.
+- **NEW OOD stub** `@sources/arxiv-2608-31118-ontolearn-llm-size-ood.md` — ontology learning scale study; not cyber-primary.
+- **Backlinks:** skill-misevolution, experience-driven-redteam-skill-evolution, evolving-attack-skill-libraries, agent-skill-injection, faithful-agent-asr-measurement, ai-redteam-evidential-ceiling, agent-runtime-guardrails, counterfactual-simulatability-llm-explanations, chain-of-thought-decorative-reasoning-audit.
+- **Phase-0:** `scripts/adopt_k316_k319_phase0.sh` **ALL PASS**; no clones.
+- **Phase-1:** K316–K319 → agent-audit + lab-redteam (K318 audit only).
+- **Dual-ID:** K316–K319 appended to overlay + fragment + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-on **39**.
+- **Briefs:** `briefs/2026-09-01_k316-k319-ingest.md`.
+- **Sweep:** `wiki/sweeps/2026-09-01-daily.md`.
+
 ## [2026-08-31] follow-up | K314 advisory runtime + IAB/StepGuard re-hunt
 
 Implemented recommended K314 follow-ups (no IAB clone — bench not public).

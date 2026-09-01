@@ -11,6 +11,8 @@ related:
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/evoskill-injection-self-evolving-agents.md
+  - sources/arxiv-2608-30429-evoskill-injection.md
   - entities/tools/defending-code-reference-harness.md
   - concepts/docker-agent-sandbox-allowlist-proxy.md
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
