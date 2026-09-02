@@ -774,3 +774,34 @@ Output attestation + delegation ancestry (K328, policy) + Domain-grounded tool o
 - Goal interpretation is the **missing search axis**. With only a vague goal + hidden eval, agents close the train/edit loops but retain little: 30 → 28 evaluated → 21 eligible → **1 retained above-base improvement**; a positive within-lineage slope can be recovery from training-induced regression.
 - **Local training success ≠ transferable capability** (proxy self-eval fails hidden eval: 8/8 on a self-built checklist, 19.32 vs 28.64 reference); **continued search can erase earlier gains** (20.10→2.78→18.17) — checkpoint selection + rollback required; **strongest evolved harness < engineered reference** (27.22 vs 28.64 Qwen-Agent). Judge progress against the **base model**, not the previous checkpoint.
 - **Treat harness self-edit as high-blast HITL (misevolution)** — **never auto-evolve `.cursor/skills`** (pairs K237 / K292 / K313 / K324). No public SPDX → no clone; runtime `wont_wire`.
+
+## CCC wave K333–K336 (shared policy file)
+
+Delegation without trust (K333, Cybersec-primary + policy) + HarnessDev harness-as-artifact eval (K334, eval-first) + Harness-of-Harness meta-wrap (K335, pattern) + CordisBench lifecycle reasoning eval (K336, eval axis). **One clone:** `Flesymeb/HarnessOfHarness` MIT (~312MB) → REFERENCE `.local/adopts/HarnessOfHarness` — runtime `wont_wire`. **CCC-only rule** `ccc-k333-k336-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** CCC K333 ≠ K285 Mandato / K310 AP2 / K326 external monitor / K328 attestation. **No PoCs / no attack templates anywhere.**
+
+## Untrusted-model delegation governance (CCC K333 · Cybersec-primary)
+
+- **Untrusted-model property:** a multi-agent system is well-governed only if a **fully prompt-injected** agent still cannot exceed explicitly delegated authority, cannot use a stolen credential off its workload, and leaves an attributable audit trail. Security that depends on the model not being hijacked is not security.
+- **External authorization broker** — never gate authority inside model reasoning; bearer credentials + model-gated sensitive actions fail all four core threats (confused deputy, token theft/replay, PI privilege escalation, compromised sub-agents). Broker confines compromised sub-agents (mean 1.5 reachable actions vs 8,100 under bearer delegation).
+- Default frameworks (LangGraph, CrewAI, AutoGen, MCP authorization) provide **no built-in confinement** or only partial; no existing standard alone covers the requirement set. VotalAI LLM Shield production reference — **no public SPDX → policy only, no clone. No PoCs.** `policy_wired`. Pairs K285/K310/K326/K328.
+
+## Harness as eval artifact — Creation + Evolution (CCC K334)
+
+- Shift unit of evaluation from **task output** to **runnable harness infrastructure** — Creation (weak seed → full harness) + Evolution (downstream feedback on own harness).
+- Generated harnesses **lag human-engineered references** on code and search/research; match/exceed on writing and ML experimentation with large cost variance. Evolution gains are **unstable**, transfer only partially to held-out tasks, and depend strongly on the **executor model**.
+- **State/memory often never fires:** state classes defined in harness code frequently never observed in formal runs (0 checkpoint events across 26,679 trajectories). Integration verify required — defining a mechanism ≠ operating mechanism.
+- Project page (`self-developing-agents.github.io`) only — **no public SPDX → policy only**. Runtime **`wont_wire`**. Pairs K281/K292/K313/K332. **Never auto-evolve `.cursor/skills`.**
+
+## Meta-harness continual improvement — wrap, don't replace (CCC K335)
+
+- **Harness-of-Harness (HoH)** operates **on existing** coding-agent harnesses; organizes executions into iterative **plan–code–test** loops with continual improvement across multi-day trajectories.
+- Balance **repair with capability growth**; scope development into **small verifiable increments**; **separate implementation-time testing from independent evaluation**; constrain verifiable outputs rather than prescribing agent workflows.
+- Progressive exposure of deliverables, role-specific tools, and skills; encourage reuse; maintain **versioned project histories**. +52.25% avg relative gain (max 82.86%) after 3 iterations across three harness–model pairs.
+- `Flesymeb/HarnessOfHarness` **MIT** (~312MB) → GO REFERENCE `.local/adopts/HarnessOfHarness`. Runtime **`wont_wire`** — do not replace Cursor/`/route`. `policy_wired`. Pairs K281/K292/K313/K318.
+
+## Harness component lifecycle reasoning — teardown order (CCC K336)
+
+- Dynamic harnesses let models add/remove/reconfigure plugins; local changes propagate through **dependencies and cleanup** whose effects depend on **teardown order** (order-sensitive cleanup with shared mutable state).
+- CordisBench (1,200 questions): localization, schedule prediction, guaranteed/reachable conditions, reconfiguration — models handle small systems but degrade as relevant interactions scale (2→32).
+- When dependencies are formally available, **deterministic reference semantics / Cordis execution** agrees on all 528 executable questions — prefer **compute or execute-verify** over LLM lifecycle anticipation at scale (≈3k reasoning tokens/question at medium effort vs avoidable with reference semantics).
+- GitHub + HF cited — **no public SPDX at Phase-0 → WATCH**, no clone this wave. Eval runtime **`wont_wire`**. Pairs K327 Logos transcript boundaries. Concept `policy_wired`.
