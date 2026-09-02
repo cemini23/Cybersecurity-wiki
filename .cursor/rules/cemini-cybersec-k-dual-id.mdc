@@ -1,15 +1,13 @@
 ---
-description: Cybersec-owned K# dual-ID overlay — survives CCC federation overwrite of cemini-phase1-policy-wires.mdc
+description: Cybersec-owned K# dual-ID map — resolve Cybersec K# vs CCC K# by arXiv id, not bare batch label
 alwaysApply: true
 ---
 
 # Cybersec dual-ID (owned overlay)
 
-CCC `sync_federation_cursor_skills.sh` copies shared `cemini-phase1-policy-wires.mdc` and **will wipe** the Cybersec dual-ID section unless `scripts/restore_cybersec_dual_id.py` re-inserts it after BPS/Wayfinder.
+Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules/`). Cybersec dual-ID collisions are listed here and in `.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc`. CI: `python3 scripts/restore_cybersec_dual_id.py --check`.
 
-**Do not delete** `.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc`. **Do not put this list only in the shared federation file.**
-
-Canon fragment (keep in sync with restore):
+**Do not delete** the fragment file. When adding a new collision, update **both** this rule and the fragment; run `--check`.
 
 - K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
 - K283 JailbreakSkill (2608.16465) ≠ CCC Twin
