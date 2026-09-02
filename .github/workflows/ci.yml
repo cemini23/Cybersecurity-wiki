@@ -30,6 +30,9 @@ jobs:
           python3 scripts/test_k314_enforcement_precheck.py
           python3 scripts/test_k316_cua_ipi_precheck.py
           python3 scripts/test_k317_evoskill_pipeline_precheck.py
+          python3 scripts/test_k320_evoflint_redteam_precheck.py
+          python3 scripts/test_k321_guardrail_construct_validity_precheck.py
+          python3 scripts/test_k322_firmware_rehost_precheck.py
 
       - name: wiki_lint (strict local links + bidirectional)
         run: |

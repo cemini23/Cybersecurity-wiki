@@ -1804,6 +1804,13 @@ Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-corn-optimistic-veri
 
 **Archive**: five PDFs → egress-fi cybersec/
 
+## [2026-09-02] follow-up | K320–K322 advisory runtime
+
+- **Runtime:** `scripts/k320_evoflint_redteam_precheck.py`, `scripts/k321_guardrail_construct_validity_precheck.py`, `scripts/k322_firmware_rehost_precheck.py` + CI unit tests
+- **Skills (federation):** `evoflint-redteam-eval`, `guardrail-construct-validity-audit`, `firmware-rehost-lab-precheck`
+- **Updated** `cemini-cybersec-agent-audit.mdc`, `adopt_k320_k322_phase0.sh`, friend add-on 42
+- **friend brief:** add-on 42 (K320–K322 precheck CLIs)
+
 ## [2026-08-03] brief | K220 cyber Context catalog from OSINT
 
 - Brief: `briefs/2026-08-03_k220-cyber-context-catalog.md` — Context/Pass only, no Integrate

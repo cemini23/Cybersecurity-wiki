@@ -39,4 +39,29 @@ done
 
 bash "$ROOT/scripts/k320_k322_inventory.sh" >/dev/null
 
+for script in \
+  k320_evoflint_redteam_precheck.py \
+  k321_guardrail_construct_validity_precheck.py \
+  k322_firmware_rehost_precheck.py
+do
+  test -f "$ROOT/scripts/$script" || { echo "FAIL missing $script"; exit 1; }
+done
+
+for test in \
+  test_k320_evoflint_redteam_precheck.py \
+  test_k321_guardrail_construct_validity_precheck.py \
+  test_k322_firmware_rehost_precheck.py
+do
+  test -f "$ROOT/scripts/$test" || { echo "FAIL missing $test"; exit 1; }
+  python3 "$ROOT/scripts/$test" >/dev/null
+done
+
+for skill in \
+  evoflint-redteam-eval \
+  guardrail-construct-validity-audit \
+  firmware-rehost-lab-precheck
+do
+  test -f "$ROOT/.cursor/skills/$skill/SKILL.md" || { echo "FAIL missing skill $skill"; exit 1; }
+done
+
 echo "ALL PASS K320-K322 Phase-0 + OOD stubs"
