@@ -1,0 +1,51 @@
+---
+description: Cyber lab Phase-1 wires from OSINT K246-K253 (authorized lab only, no PoCs)
+alwaysApply: true
+---
+
+# Cyber K246–K253 Phase-1 wires
+
+**Briefs:** `briefs/2026-08-25_k246-cyber-agent-security.md` · `briefs/2026-08-26_k247-cyber-prompt-structure-trustdabench.md` · `briefs/2026-08-28_k248-cyber-ipi-root-redevo.md` · `briefs/2026-08-29_k249-cyber-jailbreak-over-safety.md` · `briefs/2026-08-29_k250-cyber-user-scanner-mkcert.md` · `briefs/2026-08-31_k252-cyber-layered-defenses.md` · `briefs/2026-09-01_k253-cyber-auditable-mas-pattern.md`
+
+Verdict: **eval axes + policy only. Authorized lab only. 0 Integrate GO.**
+
+## K246 — aiXamine + ClawSentry
+
+- aiXamine: joint safety/security/privacy trade-off profiling (46 tests).
+- ClawSentry: four-locus risk — admission → skill → plan/action → post-action.
+- garak Apache-2.0 REFERENCE from Phase-0.
+
+## K247 — prompt structure + TrustDABench
+
+- Structured prompts **redistribute** CWE risk; they do not reduce total risk.
+- TrustDABench axes for spreadsheet/CSV agents.
+
+## K248 — IPI framing gap + context root + RedEvoAgent
+
+- Framing Gap: destination allow-lists + planner–reader split.
+- Context Gets Root: MCP/files/memory as privilege domains.
+- RedEvoAgent validation-ratchet method only (Cybersec K324). **No PoCs.**
+
+## K249 — jailbreak rule memory + over-safety
+
+- Wrapper-level rule memory after attack (K237 HARD). Literal rules rot.
+- CautiousBench: refuse on authorization miss, not scary names. NC-SA NO-GO clone.
+- SecPro six-layer SOC vocabulary.
+
+## K250 — lab utilities
+
+- user-scanner (MIT): authorized targets only. mkcert (BSD): local dev TLS only.
+- Verify licenses via `gh api` before enable.
+
+## K252 — layered defenses + accountability
+
+- Score **failure correlation** across guard tiers, not naive stack depth.
+- Offline-verifiable accountability bundles (pairs K285/K278).
+
+## K253 — auditable MAS pattern
+
+- DIASENTINEL evidence-tree pattern (pairs K289). Clinical `wont_wire`.
+
+## Rules
+
+- No attack PoCs. No payload dumps. No auto-contain on prod. No LIVE Discord.
