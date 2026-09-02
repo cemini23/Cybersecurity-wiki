@@ -9,11 +9,12 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/atobench-verification-chain-deception.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
+  - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/measurement-integrity-mcp-security-eval.md"
 maturity: draft
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (CCC K277 dual-ID note)"
 ---

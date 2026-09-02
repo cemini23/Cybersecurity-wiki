@@ -12,6 +12,8 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/logit-tilting-rare-behaviour-audit.md
+  - concepts/evoflint-multi-turn-redteam-atlas.md
+  - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/failure-driven-cua-ipi-red-teaming.md
   - sources/arxiv-2608-12996-atobench-deceptive-observations.md
   - concepts/atobench-verification-chain-deception.md

@@ -17,6 +17,7 @@ related:
   - concepts/hardened-alternative-operating-systems.md
   - entities/tools/grapheneos.md
   - sources/grapheneos-faq.md
+  - concepts/firmware-rehosting-peripheral-fidelity.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

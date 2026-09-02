@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 
@@ -334,5 +334,7 @@ Read these wiki pages in order after the checklist above:
 39. **CUA IPI + skill pipeline + behaviour audit (2026-09-01)** — `@concepts/failure-driven-cua-ipi-red-teaming.md` (K316): red-team **computer-use agents** with **deterministic VM/state oracles** and **joint success** (adversarial + benign task); adaptive principle libraries are **authorized lab only** — no IPI payloads in wiki. `@concepts/evoskill-injection-self-evolving-agents.md` (K317): treat **autonomous skill generation/evolution** as an attack surface — measure **stored → retrieved → activated**; never poison `.cursor/skills` from red-team runs. `@concepts/multi-token-concept-readout-audit.md` (K318): SAE/J-lens labels are **hypotheses** — counterfactual-test (pairs CHIVE); not enforcement. `@concepts/logit-tilting-rare-behaviour-audit.md` (K319): multi-turn rare-behaviour elicitation for audit benches — lab only; `AdrSkapars/bloom-wilt` **HOLD** until LICENSE.
 
 40. **K316–K319 advisory runtime + re-hunt (2026-09-01)** — before CUA IPI lab: `python3 scripts/k316_cua_ipi_precheck.py checklist` (skill: `cua-ipi-redteam-eval`). Before EvoSkill pipeline lab: `python3 scripts/k317_evoskill_pipeline_precheck.py checklist` (skill: `evoskill-pipeline-audit`). Monthly SPDX: `bash scripts/k307_k319_rehunt.sh` (wraps K315 script + `k316_k319_inventory.sh`). BLOOM-WILT still **null SPDX** — no clone. EvoSkillBench **not public**.
+
+41. **Multi-turn red-team atlas + guardrail validity + firmware rehost (2026-09-02)** — `@concepts/evoflint-multi-turn-redteam-atlas.md` (K320): multi-turn red-team as **quality-diversity search** over phased conversation plans — report ASR **and** peak severity; archive by risk category; **no plan payloads in wiki**; HF `reinforcelabs/EvoFlint` WATCH. `@concepts/guardrail-construct-validity-agent-eval.md` (K321): before licensing guardrail welfare/safety lifts in agent sims, run **incentive validity + protocol isolation + stochastic stability + welfare accounting** — return Invalid/Inconclusive when schema/chooser drift (pairs K277). `@concepts/firmware-rehosting-peripheral-fidelity.md` (K322): reactive **peripheral modeling** for faithful off-chip firmware dynamic analysis on **owned devices** — fidelity gaps ≠ on-device behavior; authorized hardware lab only.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

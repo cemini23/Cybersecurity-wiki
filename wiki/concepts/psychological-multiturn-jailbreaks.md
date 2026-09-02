@@ -9,12 +9,13 @@ related:
   - concepts/system-prompt-leakage.md
   - concepts/agent-runtime-guardrails.md
   - concepts/logit-tilting-rare-behaviour-audit.md
+  - concepts/evoflint-multi-turn-redteam-atlas.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/local-abliterated-llm-pentest-stack.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K302)"
 ---

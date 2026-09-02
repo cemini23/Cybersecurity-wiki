@@ -17,6 +17,7 @@ related:
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/evoflint-multi-turn-redteam-atlas.md
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/gflowrl-distribution-matching-attacker-rl.md
   - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md

@@ -1788,6 +1788,22 @@ Cleared the Phase-0 local-adoption backlog for tools with public repos under the
 Cross-wiki stub routed from `@3d-printing-wiki/sources/2026-corn-optimistic-verifiable-claims.md`.
 - Created wiki/sources/2026-corn-optimistic-verifiable-claims.md (stub)
 
+## [2026-09-02] ingest | K320 EvoFlint / K321 construct validity / K322 firmware rehost + OOD SDARE / confusion-RAG
+
+**Inbox**: 5 PDFs from daily sweep (archived to egress-fi cybersec).
+
+- **NEW** `@sources/arxiv-2609-00487-evoflint-multi-turn-redteam.md` + `@concepts/evoflint-multi-turn-redteam-atlas.md` — **K320** multi-turn evolutionary red-team atlas; HF EvoFlint WATCH; lab only
+- **NEW** `@sources/arxiv-2609-01519-guardrail-construct-validity.md` + `@concepts/guardrail-construct-validity-agent-eval.md` — **K321** construct validity before guardrail claims; pairs K277
+- **NEW** `@sources/arxiv-2608-29737-reactive-peripheral-firmware-rehosting.md` + `@concepts/firmware-rehosting-peripheral-fidelity.md` — **K322** reactive peripheral modeling; owned-device lab
+- **OOD** `@sources/arxiv-2609-01548-ood-sdare-bench.md`, `@sources/arxiv-2609-01564-ood-confusion-aware-rag.md` — stubs only
+- **Phase-0**: `scripts/adopt_k320_k322_phase0.sh`; **inventory**: `scripts/k320_k322_inventory.sh`; re-hunt wrapper extended
+- **Phase-1**: dual-ID K320–K322; `cemini-cybersec-agent-audit.mdc` (K321); `cemini-cybersec-lab-redteam.mdc` (K320, K322)
+- **Updated** psychological-multiturn-jailbreaks, crescendo, faithful-agent-asr, measurement-integrity, ai-redteam-evidential-ceiling, agent-safety-executable-evaluation, secure-boot-vs-device-ownership, index.md, ROADMAP.md
+- **friend brief:** add-on 41 (EvoFlint + construct validity + firmware rehost)
+- **Sweep**: `wiki/sweeps/2026-09-02-daily.md`
+
+**Archive**: five PDFs → egress-fi cybersec/
+
 ## [2026-08-03] brief | K220 cyber Context catalog from OSINT
 
 - Brief: `briefs/2026-08-03_k220-cyber-context-catalog.md` — Context/Pass only, no Integrate

@@ -14,6 +14,7 @@ related:
   - concepts/hardware-bound-identity-anticheat-licensing.md
   - concepts/windows-pentest.md
   - concepts/mobile-pentest.md
+  - concepts/firmware-rehosting-peripheral-fidelity.md
   - concepts/rf-fingerprint-probe-point-benchmark.md
   - sources/vanhoef-asiaccs2016-mac-randomization-not-enough.md
   - sources/arxiv-1703-02874-mac-randomization-when-it-fails.md

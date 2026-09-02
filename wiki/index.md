@@ -354,6 +354,14 @@
 | @concepts/multi-token-concept-readout-audit.md | draft | First-token clue for multi-token SAE labels; not an enforcement boundary |
 | @sources/arxiv-2608-31105-bloom-wilt-logit-tilting-audit.md | draft | BLOOM-WILT logit tilting behaviour audit (2608.31105; K319) — multi-turn elicitation |
 | @concepts/logit-tilting-rare-behaviour-audit.md | draft | Rare-behaviour elicitation for automated LLM auditing; repo HOLD |
+| @sources/arxiv-2609-00487-evoflint-multi-turn-redteam.md | draft | EvoFlint multi-turn evolutionary red-team (2609.00487; K320) — atlas search |
+| @concepts/evoflint-multi-turn-redteam-atlas.md | draft | Phased conversation plans + MAP-Elites archive; ASR and severity |
+| @sources/arxiv-2609-01519-guardrail-construct-validity.md | draft | Guardrail construct validity failures (2609.01519; K321) — protocol isolation |
+| @concepts/guardrail-construct-validity-agent-eval.md | draft | Invalid/Inconclusive before guardrail policy claims |
+| @sources/arxiv-2608-29737-reactive-peripheral-firmware-rehosting.md | draft | Reactive peripheral firmware rehosting (2608.29737; K322) — embedded lab |
+| @concepts/firmware-rehosting-peripheral-fidelity.md | draft | Peripheral fidelity for off-chip firmware dynamic analysis |
+| @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |
+| @sources/arxiv-2609-01564-ood-confusion-aware-rag.md | draft | OOD confusion-aware RAG for classification (2609.01564) — not cyber-primary |
 | @sources/arxiv-2608-31118-ontolearn-llm-size-ood.md | draft | OOD OntoLearner LLM size for ontology learning (2608.31118) — not cyber-primary |
 | @sources/arxiv-2608-25612-ood-wifi-respiratory-csi.md | draft | OOD Wi-Fi CSI respiratory monitoring (2608.25612) — commodity-CSI sensor steal |
 | @sources/arxiv-2608-26086-ood-traceml.md | draft | OOD TraceML human-agent ML-dev planning (2608.26086) — outcome benches hide process |

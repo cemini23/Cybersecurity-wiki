@@ -10,6 +10,7 @@ related:
   - concepts/llm-adversarial-fuzzing.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
+  - concepts/evoflint-multi-turn-redteam-atlas.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-16

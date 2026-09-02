@@ -1,6 +1,6 @@
-## Cybersec wave K282 / K283 / K288 / K290 / K295–K319 (dual-ID)
+## Cybersec wave K282 / K283 / K288 / K290 / K295–K322 (dual-ID)
 
-CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), K300–K309 (AID-Guard / Prime Agent / … in shared federation file), and K310–K314 (AP2 / SCOUT / StepGuard / StarHarness / Recuris). **K300–K306, K307–K309, and K310–K319 Cybersec entries below are Cybersec IDs, not the CCC K300–K324 wave.** Resolve by file+wiki, not bare K#.
+CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPADE), K295–K299 (Hybrid HAI / Thinkingbox / RL-Trotter / Task-CoEvolve / MidTool, above), K300–K309 (AID-Guard / Prime Agent / … in shared federation file), and K310–K314 (AP2 / SCOUT / StepGuard / StarHarness / Recuris). **K300–K306, K307–K309, and K310–K322 Cybersec entries below are Cybersec IDs, not the CCC K300–K324 wave.** Resolve by file+wiki, not bare K#.
 
 - K282 ARENA-audio (2608.15578) ≠ CCC AgentRewind
 - K283 JailbreakSkill (2608.16465) ≠ CCC Twin
@@ -31,6 +31,9 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K317 EvoSkill Injection (2608.30429) ≠ CCC K317 TAU-Agent — skill-generation pipeline attack surface; no malicious trajectories in wiki
 - K318 J-lens (2608.31084) ≠ CCC K318 ProgRouter — multi-token SAE readout audit; not enforcement
 - K319 BLOOM-WILT (2608.31105) ≠ CCC K319 AsymSpec — logit-tilting rare-behaviour audit; repo license null HOLD
+- K320 EvoFlint (2609.00487) ≠ CCC K320 Claude Code handbook — multi-turn evolutionary red-team atlas; HF space WATCH
+- K321 Guardrail construct validity (2609.01519) ≠ CCC K321 ASIL — protocol isolation before guardrail claims; audit pattern
+- K322 Firmware rehosting peripherals (2608.29737) ≠ CCC K322 MoRe — reactive peripheral modeling for faithful dynamic analysis; embedded lab
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
-K300–K319 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K322 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

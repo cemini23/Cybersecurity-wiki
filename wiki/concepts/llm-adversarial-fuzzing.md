@@ -36,6 +36,7 @@ related:
   - sources/arxiv-2606-24166-toxsearch-s-distributed-toxicity-search.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/gflowrl-distribution-matching-attacker-rl.md
+  - concepts/evoflint-multi-turn-redteam-atlas.md
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
   - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
   - concepts/datashield-risky-finetune-data-filtering.md

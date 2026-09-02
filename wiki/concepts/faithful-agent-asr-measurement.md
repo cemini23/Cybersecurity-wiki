@@ -18,6 +18,8 @@ related:
   - concepts/atobench-verification-chain-deception.md
   - concepts/failure-driven-cua-ipi-red-teaming.md
   - sources/arxiv-2608-30207-sir-cua-self-improving-redteam.md
+  - concepts/evoflint-multi-turn-redteam-atlas.md
+  - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/trace-verified-ctf-agent-eval.md
   - sources/arxiv-2608-12880-labels-not-endpoints.md
   - concepts/measurement-integrity-mcp-security-eval.md

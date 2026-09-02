@@ -12,9 +12,10 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/logit-tilting-rare-behaviour-audit.md
+  - concepts/guardrail-construct-validity-agent-eval.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-09-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K298 executable eval)"
 ---

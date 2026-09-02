@@ -40,5 +40,8 @@ Canon fragment (keep in sync with restore):
 - K317 EvoSkill Injection (2608.30429) ≠ CCC K317 TAU-Agent — skill-generation pipeline attack surface; no malicious trajectories in wiki
 - K318 J-lens (2608.31084) ≠ CCC K318 ProgRouter — multi-token SAE readout audit; not enforcement
 - K319 BLOOM-WILT (2608.31105) ≠ CCC K319 AsymSpec — logit-tilting rare-behaviour audit; repo license null HOLD
+- K320 EvoFlint (2609.00487) ≠ CCC K320 Claude Code handbook — multi-turn evolutionary red-team atlas
+- K321 Guardrail construct validity (2609.01519) ≠ CCC K321 ASIL — protocol isolation before guardrail claims
+- K322 Firmware rehosting peripherals (2608.29737) ≠ CCC K322 MoRe — embedded lab peripheral fidelity
 
-K300–K319 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K322 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-02 | Full ingest K320 EvoFlint / K321 construct validity / K322 firmware rehost + 2 OOD stubs | Inbox 5 PDFs; multi-turn evolutionary red-team atlas; guardrail construct validity audit; embedded peripheral fidelity; dual-ID K320–K322 vs CCC handbook/ASIL/MoRe; friend add-on 41 |
 | 2026-09-01 | K316–K319 advisory runtime + SPDX re-hunt | k316/k317 precheck scripts + CI; k316_k319_inventory; k307_k319_rehunt wrapper; federation skills cua-ipi-redteam-eval + evoskill-pipeline-audit; friend add-on 40 |
 | 2026-09-01 | Full ingest K316 SIR / K317 EvoSkill / K318 J-lens / K319 BLOOM-WILT + OOD OntoLearner | Inbox 5 NEW PDFs; CUA IPI adaptive red-team + skill pipeline injection + interpretability + behaviour audit; BLOOM-WILT null SPDX HOLD; dual-ID K316–K319 vs CCC; friend add-on 39 |
 | 2026-08-31 | Full ingest K314 Recognition–enforcement gap / K315 Security-agent SLR + OOD NL2AGBench | Inbox 3 NEW PDFs; K314 external reference monitor steal; K315 bounded-authority taxonomy; dual-ID K314–K315 vs CCC Recuris/ToolMinimize; friend add-on 37 |

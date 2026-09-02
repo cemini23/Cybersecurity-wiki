@@ -23,4 +23,7 @@ bash "$ROOT/scripts/instruction_arbitration_bench_inventory.sh"
 echo "== K316–K319 SIR / EvoSkill / BLOOM-WILT =="
 bash "$ROOT/scripts/k316_k319_inventory.sh"
 
-echo "OK re-hunt $(date +%F): StepGuard still null SPDX; IAB/EvoSkill not public; BLOOM-WILT check above"
+echo "== K320–K322 EvoFlint / construct validity / firmware =="
+bash "$ROOT/scripts/k320_k322_inventory.sh"
+
+echo "OK re-hunt $(date +%F): see inventory sections above"
