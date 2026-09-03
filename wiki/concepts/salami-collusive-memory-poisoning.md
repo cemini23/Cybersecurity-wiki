@@ -6,6 +6,7 @@ keywords: [Salami Attack, MemCollusion, collusive memory, OpenClaw, 2608.01637]
 related:
   - sources/arxiv-2608-01637-salami-collusive-memory-poisoning.md
   - concepts/agent-data-injection-attacks.md
+  - concepts/codepoisonrag-racg-knowledge-poisoning.md
   - concepts/experiential-abstraction-memory.md
   - concepts/stair-hierarchical-repair-plans.md
   - concepts/ai-for-cybersecurity.md

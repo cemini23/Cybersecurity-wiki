@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 
@@ -338,5 +338,9 @@ Read these wiki pages in order after the checklist above:
 41. **Multi-turn red-team atlas + guardrail validity + firmware rehost (2026-09-02)** — `@concepts/evoflint-multi-turn-redteam-atlas.md` (K320): multi-turn red-team as **quality-diversity search** over phased conversation plans — report ASR **and** peak severity; archive by risk category; **no plan payloads in wiki**; HF `reinforcelabs/EvoFlint` WATCH. `@concepts/guardrail-construct-validity-agent-eval.md` (K321): before licensing guardrail welfare/safety lifts in agent sims, run **incentive validity + protocol isolation + stochastic stability + welfare accounting** — return Invalid/Inconclusive when schema/chooser drift (pairs K277). `@concepts/firmware-rehosting-peripheral-fidelity.md` (K322): reactive **peripheral modeling** for faithful off-chip firmware dynamic analysis on **owned devices** — fidelity gaps ≠ on-device behavior; authorized hardware lab only.
 
 42. **K320–K322 advisory runtime (2026-09-02)** — before EvoFlint lab: `python3 scripts/k320_evoflint_redteam_precheck.py checklist` (skill: `evoflint-redteam-eval`). Before guardrail sim claims: `python3 scripts/k321_guardrail_construct_validity_precheck.py checklist` (skill: `guardrail-construct-validity-audit`). Before firmware rehost lab: `python3 scripts/k322_firmware_rehost_precheck.py checklist` (skill: `firmware-rehost-lab-precheck`). Monthly SPDX: `bash scripts/k307_k319_rehunt.sh` (includes `k320_k322_inventory.sh`). EvoFlint HF still **WATCH** — no clone.
+
+43. **RACG poisoning + SafeEvolve + linguistic floor + WiFi RFF (2026-09-03)** — `@concepts/codepoisonrag-racg-knowledge-poisoning.md` (K323): upstream **RACG** corpus is a supply-chain boundary — report Top-k + corpus ratio + ASR with/without defense; **no poison bodies in wiki**; authorized lab only. `@concepts/safeevolve-harness-policy-co-evolution.md` (K324): **harness-policy co-evolution** is defensive lab pattern — bounded reversible edits, HITL before prod harness/skill writes (pairs misevolution); ≠ CCC RedEvoAgent ratchet. `@concepts/linguistic-illegibility-llm-security.md` (K325): NL/CoT monitoring is **not a complete security floor** — pair taint tracking + sandbox isolation (pairs K308/K314). `@concepts/wifi-rf-fingerprinting-open-set.md` (K326): open-set **WiFi CSI RFF** for owned-lab device inventory awareness — not WPA pentest substitute; authorized RF lab only.
+
+44. **K323–K324 advisory runtime (2026-09-03)** — before RACG poisoning lab: `python3 scripts/k323_codepoisonrag_precheck.py checklist` (skill: `codepoisonrag-lab-precheck`). Before SafeEvolve-style co-evolution lab: `python3 scripts/k324_safeevolve_precheck.py checklist` (skill: `safeevolve-harness-audit`). Phase-0 gate: `bash scripts/adopt_k323_k326_phase0.sh`. K325/K326 audit-only — no precheck scripts this batch.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

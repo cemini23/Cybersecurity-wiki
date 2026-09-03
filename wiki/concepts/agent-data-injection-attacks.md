@@ -14,6 +14,7 @@ related:
   - concepts/agent-execution-provenance.md
   - concepts/llm-code-review-agent-security.md
   - concepts/agent-skill-injection.md
+  - concepts/codepoisonrag-racg-knowledge-poisoning.md
   - concepts/ai-for-cybersecurity.md
   - concepts/mcp-taint-style-vulnerabilities.md
   - sources/arxiv-2607-07461-spellsmith-mcp-taint-style-vulnerabilities.md

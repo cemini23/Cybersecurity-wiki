@@ -360,6 +360,14 @@
 | @concepts/guardrail-construct-validity-agent-eval.md | draft | Invalid/Inconclusive before guardrail policy claims |
 | @sources/arxiv-2608-29737-reactive-peripheral-firmware-rehosting.md | draft | Reactive peripheral firmware rehosting (2608.29737; K322) — embedded lab |
 | @concepts/firmware-rehosting-peripheral-fidelity.md | draft | Peripheral fidelity for off-chip firmware dynamic analysis |
+| @sources/arxiv-2609-02774-codepoisonrag-knowledge-poisoning.md | draft | CodePoisonRAG RACG poisoning (2609.02774; K323) — lab only |
+| @concepts/codepoisonrag-racg-knowledge-poisoning.md | draft | Upstream retrieval trust boundary for code generation |
+| @sources/arxiv-2609-02786-safeevolve-harness-policy-co-evolution.md | draft | SafeEvolve harness-policy co-evolution (2609.02786; K324) |
+| @concepts/safeevolve-harness-policy-co-evolution.md | draft | Bounded reversible harness + policy co-evolution; HITL |
+| @sources/arxiv-2609-02852-linguistic-illegibility-llm-security.md | draft | Linguistic illegibility for LLM security (2609.02852; K325) |
+| @concepts/linguistic-illegibility-llm-security.md | draft | NL self-report is not a complete security boundary |
+| @sources/arxiv-2609-02007-c2t-openmax-wifi-rf-fingerprinting.md | draft | C²T-OpenMax WiFi RF fingerprinting (2609.02007; K326) |
+| @concepts/wifi-rf-fingerprinting-open-set.md | draft | Open-set WiFi CSI device auth under environment shift |
 | @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |
 | @sources/arxiv-2609-01564-ood-confusion-aware-rag.md | draft | OOD confusion-aware RAG for classification (2609.01564) — not cyber-primary |
 | @sources/arxiv-2608-31118-ontolearn-llm-size-ood.md | draft | OOD OntoLearner LLM size for ontology learning (2608.31118) — not cyber-primary |

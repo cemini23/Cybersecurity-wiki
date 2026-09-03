@@ -10,6 +10,7 @@ related:
   - concepts/evolving-attack-skill-libraries.md
   - concepts/agent-skill-injection.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/safeevolve-harness-policy-co-evolution.md
 maturity: draft
 created: 2026-09-01
 updated: 2026-09-01

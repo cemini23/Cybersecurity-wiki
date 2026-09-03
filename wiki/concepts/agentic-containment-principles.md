@@ -9,6 +9,7 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - concepts/agent-skill-injection.md
+  - concepts/linguistic-illegibility-llm-security.md
   - concepts/agent-execution-provenance.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md

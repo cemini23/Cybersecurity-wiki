@@ -9,7 +9,9 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/atobench-verification-chain-deception.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
+  - concepts/linguistic-illegibility-llm-security.md
   - concepts/guardrail-construct-validity-agent-eval.md
+  - concepts/codepoisonrag-racg-knowledge-poisoning.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/measurement-integrity-mcp-security-eval.md"
 maturity: draft

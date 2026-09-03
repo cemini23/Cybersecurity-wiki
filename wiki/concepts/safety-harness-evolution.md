@@ -9,6 +9,7 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/harnessopt-bench.md
   - concepts/self-evolving-agent-security.md
+  - concepts/safeevolve-harness-policy-co-evolution.md
   - concepts/ai-for-cybersecurity.md
   - concepts/blast-radius-reversible-context-eviction.md
   - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md

@@ -103,3 +103,9 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 - **K320 EvoFlint (lab, authorized-lab only)** — multi-turn red-team as **quality-diversity search** over phased conversation plans; report ASR **and** peak severity; archive by risk category. **No conversation-plan payloads in wiki**; HF `reinforcelabs/EvoFlint` WATCH. Dual-ID: ≠ CCC K320 Claude Code handbook.
 - **K322 Firmware rehosting (lab, authorized hardware only)** — reactive **peripheral modeling** for faithful off-chip firmware dynamic analysis on **owned devices**; fidelity gaps ≠ on-device behavior. No exploit payloads in wiki. Dual-ID: ≠ CCC K322 MoRe.
+
+## Sep 3 batch (CodePoisonRAG 2609.02774 · SafeEvolve 2609.02786 · Linguistic illegibility 2609.02852 · C²T-OpenMax 2609.02007)
+
+- **K323 CodePoisonRAG (lab, authorized-lab only)** — upstream **RACG knowledge poisoning** can propagate attacker-selected CWEs via retrieval; treat code/doc vector ingest as supply-chain. **No poison artifact bodies in wiki**; report retrieval rank + ASR with corpus ratio. Dual-ID: ≠ CCC K323 intent-as-a-tool.
+- **K324 SafeEvolve (lab + audit, HITL)** — **harness-policy co-evolution** from trajectory safety evidence; bounded reversible harness component updates + policy SFT-RL. **Never unattended auto-evolve prod `.cursor/skills`/harness** (pairs skill misevolution). Dual-ID: Cybersec K324 SafeEvolve ≠ CCC K324 RedEvoAgent validation ratchet.
+- **K326 C²T-OpenMax WiFi RF (lab, authorized spectrum only)** — open-set **WiFi CSI RF fingerprinting** under environment shift; defensive device-auth research on **owned/authorized spectrum** — not WLAN crack tradecraft. Dual-ID: ≠ CCC K326 (none assigned).

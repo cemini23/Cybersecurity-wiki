@@ -8,6 +8,7 @@ related:
   - concepts/rf-fingerprint-probe-point-benchmark.md
   - concepts/rf-fingerprint-temperature-drift.md
   - concepts/wireless-pentest.md
+  - concepts/wifi-rf-fingerprinting-open-set.md
   - concepts/network-security.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft

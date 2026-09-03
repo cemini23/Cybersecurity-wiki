@@ -41,5 +41,9 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K320 EvoFlint (2609.00487) ≠ CCC K320 Claude Code handbook — multi-turn evolutionary red-team atlas
 - K321 Guardrail construct validity (2609.01519) ≠ CCC K321 ASIL — protocol isolation before guardrail claims
 - K322 Firmware rehosting peripherals (2608.29737) ≠ CCC K322 MoRe — embedded lab peripheral fidelity
+- K323 CodePoisonRAG (2609.02774) ≠ CCC K323 intent-as-a-tool — upstream RACG knowledge poisoning; lab only
+- K324 SafeEvolve (2609.02786) ≠ CCC K324 RedEvoAgent — harness-policy co-evolution; HITL on harness/skill writes
+- K325 Linguistic illegibility (2609.02852) ≠ CCC K325 security-agent SLR — NL self-report not complete security boundary
+- K326 C²T-OpenMax WiFi RF (2609.02007) — open-set WiFi CSI fingerprinting; authorized RF lab
 
-K300–K322 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K326 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

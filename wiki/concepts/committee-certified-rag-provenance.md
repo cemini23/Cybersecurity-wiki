@@ -9,6 +9,7 @@ related:
   - concepts/agent-execution-provenance.md
   - concepts/agent-data-injection-attacks.md
   - concepts/planner-state-integrity-embodied-agents.md
+  - concepts/codepoisonrag-racg-knowledge-poisoning.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-21

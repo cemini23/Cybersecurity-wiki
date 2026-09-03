@@ -33,6 +33,8 @@ jobs:
           python3 scripts/test_k320_evoflint_redteam_precheck.py
           python3 scripts/test_k321_guardrail_construct_validity_precheck.py
           python3 scripts/test_k322_firmware_rehost_precheck.py
+          python3 scripts/test_k323_codepoisonrag_precheck.py
+          python3 scripts/test_k324_safeevolve_precheck.py
 
       - name: wiki_lint (strict local links + bidirectional)
         run: |

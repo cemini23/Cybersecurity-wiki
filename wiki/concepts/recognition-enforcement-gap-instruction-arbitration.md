@@ -13,6 +13,7 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/security-agent-authority-auditability-slr.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/linguistic-illegibility-llm-security.md
 maturity: draft
 created: 2026-08-31
 updated: 2026-08-31

@@ -10,6 +10,7 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/llm-code-review-agent-security.md
   - concepts/multi-token-concept-readout-audit.md
+  - concepts/linguistic-illegibility-llm-security.md
   - sources/arxiv-2608-31084-j-lens-multi-token-readout.md
   - sources/arxiv-2608-18351-excess-authority-least-privilege.md
 maturity: draft

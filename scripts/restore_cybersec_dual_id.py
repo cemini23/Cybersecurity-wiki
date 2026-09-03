@@ -41,7 +41,10 @@ def check() -> list[str]:
         "K315 Security-agent SLR (2608.28490)",
         "K319 BLOOM-WILT (2608.31105)",
         "K320 EvoFlint (2609.00487)",
-        "K300–K306, K307–K309, and K310–K322 Cybersec entries",
+        "K323 CodePoisonRAG (2609.02774)",
+        "K324 SafeEvolve (2609.02786)",
+        "K325 Linguistic illegibility (2609.02852)",
+        "K300–K306, K307–K309, and K310–K326 Cybersec entries",
     ):
         if needle not in body and needle not in frag:
             errs.append(f"dual-ID map missing {needle!r}")

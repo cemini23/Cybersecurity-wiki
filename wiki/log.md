@@ -1,4 +1,18 @@
-## [2026-09-01] follow-up | K316–K319 advisory runtime + SPDX re-hunt
+## [2026-09-03] ingest | K323 CodePoisonRAG / K324 SafeEvolve / K325 linguistic illegibility / K326 WiFi RFF
+
+Full ingest of 4 NEW inbox arXiv PDFs. Next Cybersec IDs **K323–K326** (dual-ID vs CCC K323 intent-as-a-tool / K324 RedEvoAgent / K325 security-agent SLR). **No clone this batch.**
+
+- **NEW** `@sources/arxiv-2609-02774-codepoisonrag-knowledge-poisoning.md` + `@concepts/codepoisonrag-racg-knowledge-poisoning.md` — **K323** REFERENCE. Upstream RACG knowledge poisoning for code gen; retrieval trust boundary; authorized lab only.
+- **NEW** `@sources/arxiv-2609-02786-safeevolve-harness-policy-co-evolution.md` + `@concepts/safeevolve-harness-policy-co-evolution.md` — **K324** REFERENCE. Harness-policy co-evolution; HITL before prod skill/harness writes.
+- **NEW** `@sources/arxiv-2609-02852-linguistic-illegibility-llm-security.md` + `@concepts/linguistic-illegibility-llm-security.md` — **K325** REFERENCE. Linguistic illegibility — external sandbox/taint floor below NL monitors.
+- **NEW** `@sources/arxiv-2609-02007-c2t-openmax-wifi-rf-fingerprinting.md` + `@concepts/wifi-rf-fingerprinting-open-set.md` — **K326** REFERENCE. C²T-OpenMax open-set WiFi CSI fingerprinting; authorized RF lab context.
+- **Runtime:** `scripts/k323_codepoisonrag_precheck.py`, `scripts/k324_safeevolve_precheck.py` + CI tests; federation skills `codepoisonrag-lab-precheck`, `safeevolve-harness-audit`.
+- **Phase-0:** `scripts/adopt_k323_k326_phase0.sh` **ALL PASS**; archived 4 PDFs to egress-fi.
+- **Phase-1:** K323/K326 → lab-redteam; K324/K325 → agent-audit.
+- **Dual-ID:** K323–K326 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-ons **43–44**.
+- **Briefs:** `briefs/2026-09-03_k323-k326-ingest.md`.
+- **Sweep:** `wiki/sweeps/2026-09-03-daily.md`.
 
 Implemented recommended K316–K319 follow-ups (no clones — BLOOM-WILT null SPDX; EvoSkillBench not public).
 
