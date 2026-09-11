@@ -10,9 +10,10 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/chain-of-thought-decorative-reasoning-audit.md
+  - concepts/llm-explanation-necessary-sufficient-audit.md
 maturity: draft
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (crossed-rule audit)"
 ---

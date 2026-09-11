@@ -70,9 +70,10 @@ related:
   - entities/tools/defengraph.md
   - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
   - concepts/autonomous-defense-agent-transferability.md
+  - concepts/sentinel-rl-soc-topological-reasoning.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-24
+updated: 2026-09-11
 ---
 
 ## Relations

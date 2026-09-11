@@ -181,9 +181,10 @@ related:
   - concepts/security-agent-authority-auditability-slr.md
   - sources/arxiv-2608-28502-recognition-without-enforcement.md
   - sources/arxiv-2608-28490-llm-security-agents-survey.md
+  - concepts/black-box-agentic-redteam-taxonomy.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-31
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---

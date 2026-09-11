@@ -12,9 +12,10 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/black-box-agentic-redteam-taxonomy.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K320)"
 ---

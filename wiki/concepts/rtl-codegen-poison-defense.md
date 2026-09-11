@@ -6,9 +6,10 @@ keywords: [RTLGuard, poisoned fine-tune, hardware trojan, teacher-student, featu
 related:
   - sources/arxiv-2608-26049-rtlguard.md
   - concepts/cweep-rtl-cwe-early-prevention.md
+  - concepts/specguard-inference-time-backdoor-detection.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K310)"
 ---

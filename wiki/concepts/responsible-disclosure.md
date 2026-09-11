@@ -41,9 +41,10 @@ related:
   - entities/tools/strix-omlx.md
   - sources/arxiv-2608-11337-association-privacy-wireless-formal.md
   - concepts/association-inference-attack-wireless.md
+  - concepts/zero-trust-mission-critical-robotic-fleets.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-13
+updated: 2026-09-11
 ---
 
 ## Relations

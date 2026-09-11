@@ -368,6 +368,34 @@
 | @concepts/linguistic-illegibility-llm-security.md | draft | NL self-report is not a complete security boundary |
 | @sources/arxiv-2609-02007-c2t-openmax-wifi-rf-fingerprinting.md | draft | C²T-OpenMax WiFi RF fingerprinting (2609.02007; K326) |
 | @concepts/wifi-rf-fingerprinting-open-set.md | draft | Open-set WiFi CSI device auth under environment shift |
+| @sources/arxiv-2609-09647-black-box-agentic-redteam-taxonomy.md | draft | Black-box agentic red-team taxonomy (2609.09647; K327) |
+| @concepts/black-box-agentic-redteam-taxonomy.md | draft | Seven-domain multi-step agent risk discovery |
+| @sources/arxiv-2609-11758-rag-safety-bench.md | draft | RAG-Safety-Bench (2609.11758; K328) |
+| @concepts/rag-safety-bench-evaluation.md | draft | Retrieval-conditioned LLM safety measurement |
+| @sources/arxiv-2609-11799-specguard-backdoor-detection.md | draft | SpecGuard inference-time backdoor detection (2609.11799; K329) |
+| @concepts/specguard-inference-time-backdoor-detection.md | draft | Runtime backdoor checks on third-party weights |
+| @sources/arxiv-2609-11852-bluestar-tiered-cyber-defense.md | draft | BlueSTAR tiered agentic cyber defense (2609.11852; K330) |
+| @concepts/bluestar-tiered-agentic-cyber-defense.md | draft | Tiered defensive agents over SOC telemetry |
+| @sources/arxiv-2609-09087-privescalate-llm-linux-privesc.md | draft | PrivEscalate LLM Linux priv-esc (2609.09087; K331) |
+| @concepts/privescalate-llm-linux-privilege-escalation.md | draft | Executable-verified LLM priv-esc benchmark |
+| @sources/arxiv-2609-05165-conformal-prediction-offensive-security.md | draft | Conformal prediction for offensive security (2609.05165; K332) |
+| @concepts/conformal-prediction-offensive-security.md | draft | CP intervals for offensive eval reporting |
+| @sources/arxiv-2609-05370-llm-decompiler-fidelity.md | draft | LLM decompiler fidelity (2609.05370; K335) |
+| @concepts/llm-decompiler-recompilability-fidelity.md | draft | Recompilability vs semantic preservation |
+| @sources/arxiv-2609-04159-sentinel-rl-soc-topology.md | draft | SENTINEL-RL SOC topology offload (2609.04159; K336) |
+| @concepts/sentinel-rl-soc-topological-reasoning.md | draft | Graph-consistent containment outside LLM context |
+| @sources/arxiv-2609-05385-llm-explanation-necessary-sufficient.md | draft | LLM explanation necessity/sufficiency (2609.05385; K337) |
+| @concepts/llm-explanation-necessary-sufficient-audit.md | draft | Behavioural counterfactuals on named-factor explanations |
+| @sources/arxiv-2609-06271-side-sensor-impersonation-edge.md | draft | SIDE sensor impersonation at edge (2609.06271; K338) |
+| @concepts/side-sensor-impersonation-edge-detection.md | draft | Sequence-prediction IoT impersonation detection |
+| @sources/arxiv-2609-05741-zero-trust-robotic-fleets.md | draft | Zero-trust mission-critical robotic fleets (2609.05741; K339) |
+| @concepts/zero-trust-mission-critical-robotic-fleets.md | draft | ROS 2 attestation + timing watermark zero-trust |
+| @sources/arxiv-2609-04058-post-quantum-crypto-accelerator.md | draft | OOD post-quantum crypto accelerator silicon |
+| @sources/arxiv-2609-04172-on-policy-distillation-one-shot.md | draft | OOD one-shot on-policy distillation |
+| @sources/arxiv-2609-05381-molecular-deja-vu-digit-retrieval.md | draft | OOD molecular benchmark verbatim retrieval |
+| @sources/arxiv-2609-09059-playtrain-js-game-rl.md | draft | OOD PlayTrain LLM JS game RL |
+| @sources/arxiv-2609-09076-actreview-peer-review.md | draft | OOD ActReview peer review generation |
+| @sources/arxiv-2609-10036-belief-state-engine-planning.md | draft | OOD Belief-State Engine partial observability planning |
 | @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |
 | @sources/arxiv-2609-01564-ood-confusion-aware-rag.md | draft | OOD confusion-aware RAG for classification (2609.01564) — not cyber-primary |
 | @sources/arxiv-2608-31118-ontolearn-llm-size-ood.md | draft | OOD OntoLearner LLM size for ontology learning (2608.31118) — not cyber-primary |

@@ -12,9 +12,12 @@ related:
   - concepts/trace-verified-ctf-agent-eval.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/ai-pentest-harness-landscape.md
+  - concepts/black-box-agentic-redteam-taxonomy.md
+  - concepts/bluestar-tiered-agentic-cyber-defense.md
+  - concepts/sentinel-rl-soc-topological-reasoning.md
 maturity: draft
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K315)"
 ---

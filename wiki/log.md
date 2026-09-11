@@ -1,3 +1,17 @@
+## [2026-09-11] ingest | K327–K339 batch (17 inbox PDFs)
+
+Full ingest of **17 NEW** inbox arXiv PDFs from sweeps 2026-09-04 through 2026-09-11. Cybersec IDs **K327–K339** (skipped K333/K334 — reserved for delegation/harness-eval skills). **No clone this batch.**
+
+- **NEW K327–K332, K335–K339** — 11 in-scope pairs (source + concept): black-box agentic red-team taxonomy; RAG-Safety-Bench; SpecGuard; BlueSTAR; PrivEscalate; conformal prediction offensive; LLM decompiler fidelity; SENTINEL-RL SOC; explanation necessity/sufficiency; SIDE sensor impersonation; zero-trust robotic fleets.
+- **NEW OOD stubs (6)** — post-quantum crypto accelerator; one-shot OPD; molecular déjà vu; PlayTrain; ActReview; Belief-State Engine.
+- **Runtime:** `scripts/k327_agentic_redteam_precheck.py`, `k328_rag_safety_bench_precheck.py`, `k331_privescalate_precheck.py` + CI tests; federation skills `agentic-redteam-taxonomy-precheck`, `rag-safety-bench-precheck`, `privescalate-lab-precheck`.
+- **Phase-0:** `scripts/adopt_k327_k339_phase0.sh` **ALL PASS**; archived 17 PDFs to egress-fi.
+- **Phase-1:** K327/K331/K332/K338/K339 → lab-redteam; K328/K329/K330/K335/K336/K337 → agent-audit.
+- **Dual-ID:** K327–K339 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-ons **45–46**.
+- **Briefs:** `briefs/2026-09-11_k327-k339-ingest.md`.
+- **Sweep:** `wiki/sweeps/2026-09-04-daily.md` … `2026-09-11-daily.md`.
+
 ## [2026-09-03] ingest | K323 CodePoisonRAG / K324 SafeEvolve / K325 linguistic illegibility / K326 WiFi RFF
 
 Full ingest of 4 NEW inbox arXiv PDFs. Next Cybersec IDs **K323–K326** (dual-ID vs CCC K323 intent-as-a-tool / K324 RedEvoAgent / K325 security-agent SLR). **No clone this batch.**

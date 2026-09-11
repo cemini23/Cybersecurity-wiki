@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-03
+updated: 2026-09-11
 ---
 
 
@@ -342,5 +342,9 @@ Read these wiki pages in order after the checklist above:
 43. **RACG poisoning + SafeEvolve + linguistic floor + WiFi RFF (2026-09-03)** — `@concepts/codepoisonrag-racg-knowledge-poisoning.md` (K323): upstream **RACG** corpus is a supply-chain boundary — report Top-k + corpus ratio + ASR with/without defense; **no poison bodies in wiki**; authorized lab only. `@concepts/safeevolve-harness-policy-co-evolution.md` (K324): **harness-policy co-evolution** is defensive lab pattern — bounded reversible edits, HITL before prod harness/skill writes (pairs misevolution); ≠ CCC RedEvoAgent ratchet. `@concepts/linguistic-illegibility-llm-security.md` (K325): NL/CoT monitoring is **not a complete security floor** — pair taint tracking + sandbox isolation (pairs K308/K314). `@concepts/wifi-rf-fingerprinting-open-set.md` (K326): open-set **WiFi CSI RFF** for owned-lab device inventory awareness — not WPA pentest substitute; authorized RF lab only.
 
 44. **K323–K324 advisory runtime (2026-09-03)** — before RACG poisoning lab: `python3 scripts/k323_codepoisonrag_precheck.py checklist` (skill: `codepoisonrag-lab-precheck`). Before SafeEvolve-style co-evolution lab: `python3 scripts/k324_safeevolve_precheck.py checklist` (skill: `safeevolve-harness-audit`). Phase-0 gate: `bash scripts/adopt_k323_k326_phase0.sh`. K325/K326 audit-only — no precheck scripts this batch.
+
+45. **Agentic red-team + RAG safety + priv-esc + defensive agents (2026-09-11)** — `@concepts/black-box-agentic-redteam-taxonomy.md` (K327): **taxonomy-driven multi-step black-box** agent eval — report `(harness, judge, domain, verification)`; no payloads in wiki. `@concepts/rag-safety-bench-evaluation.md` (K328): retrieval **changes safety profile** — separate base vs RAG; pairs K323. `@concepts/specguard-inference-time-backdoor-detection.md` (K329): inference-time backdoor checks on third-party weights. `@concepts/bluestar-tiered-agentic-cyber-defense.md` (K330) + `@concepts/sentinel-rl-soc-topological-reasoning.md` (K336): tiered SOC agents with **graph-consistent containment** outside LLM context. `@concepts/privescalate-llm-linux-privilege-escalation.md` (K331): Linux priv-esc at scale with **executable verification** — owned lab only. `@concepts/llm-decompiler-recompilability-fidelity.md` (K335): recompilability ≠ semantic fidelity for RE/malware review. `@concepts/llm-explanation-necessary-sufficient-audit.md` (K337): explanation factors need behavioural necessity/sufficiency tests (pairs CHIVE/K308).
+
+46. **K327–K331 advisory runtime (2026-09-11)** — before agentic red-team lab: `python3 scripts/k327_agentic_redteam_precheck.py checklist` (skill: `agentic-redteam-taxonomy-precheck`). Before RAG safety claims: `python3 scripts/k328_rag_safety_bench_precheck.py checklist` (skill: `rag-safety-bench-precheck`). Before PrivEscalate lab: `python3 scripts/k331_privescalate_precheck.py checklist` (skill: `privescalate-lab-precheck`). Phase-0 gate: `bash scripts/adopt_k327_k339_phase0.sh`. K329–K330/K332/K335–K339 audit-only — no precheck scripts except above trio.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

@@ -13,9 +13,10 @@ related:
   - concepts/linguistic-illegibility-llm-security.md
   - sources/arxiv-2608-31084-j-lens-multi-token-readout.md
   - sources/arxiv-2608-18351-excess-authority-least-privilege.md
+  - concepts/llm-explanation-necessary-sufficient-audit.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K290)"
 ---

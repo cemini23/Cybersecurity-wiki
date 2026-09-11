@@ -38,6 +38,17 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K324 SafeEvolve (2609.02786) ≠ CCC K324 RedEvoAgent — harness-policy co-evolution; HITL on harness/skill writes
 - K325 Linguistic illegibility (2609.02852) ≠ CCC K325 security-agent SLR — NL self-report not complete security boundary
 - K326 C²T-OpenMax WiFi RF (2609.02007) — open-set WiFi CSI fingerprinting; authorized RF lab
+- K327 Black-box agentic red-team (2609.09647) — taxonomy-driven multi-step eval; no attack payloads in wiki
+- K328 RAG-Safety-Bench (2609.11758) — retrieval-conditioned safety eval; pairs K323
+- K329 SpecGuard (2609.11799) — inference-time backdoor detection; no trigger payloads in wiki
+- K330 BlueSTAR (2609.11852) — tiered defensive agent architecture; bounded authority audit
+- K331 PrivEscalate (2609.09087) — LLM Linux priv-esc bench; authorized lab only
+- K332 Conformal prediction offensive (2609.05165) — CP intervals for offensive eval reporting
+- K335 LLM decompiler fidelity (2609.05370) — recompilability vs semantic preservation
+- K336 SENTINEL-RL SOC (2609.04159) — topological reasoning offload for SOC agents
+- K337 Explanation necessity/sufficiency (2609.05385) — behavioural explanation audit
+- K338 SIDE sensor impersonation (2609.06271) — edge IoT sequence-prediction detection
+- K339 Zero-trust robotic fleets (2609.05741) — OT/ROS 2 attestation + timing watermark
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
-K300–K326 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K339 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

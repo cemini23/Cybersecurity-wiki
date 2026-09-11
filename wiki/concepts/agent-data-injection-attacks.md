@@ -32,9 +32,10 @@ related:
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/planner-state-integrity-embodied-agents.md
+  - concepts/rag-safety-bench-evaluation.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-08-12
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---

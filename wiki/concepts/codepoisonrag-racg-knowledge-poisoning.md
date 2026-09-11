@@ -10,9 +10,10 @@ related:
   - concepts/measurement-integrity-mcp-security-eval.md
   - concepts/llm-pentest-automation.md
   - concepts/salami-collusive-memory-poisoning.md
+  - concepts/rag-safety-bench-evaluation.md
 maturity: draft
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K323)"
 ---

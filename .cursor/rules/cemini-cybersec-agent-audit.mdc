@@ -61,3 +61,12 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - **K323 CodePoisonRAG (audit)** — upstream RACG poisoning is a **retrieval trust boundary**; measure Top-k retrieval + ASR with stated corpus ratio; context-only defenses are partial. **No poison templates in wiki.** Dual-ID: ≠ CCC K323 intent-as-a-tool. **Runtime:** `scripts/k323_codepoisonrag_precheck.py` (advisory checklist).
 - **K324 SafeEvolve (audit)** — harness-policy co-evolution must stay **bounded, reversible, HITL-gated**; never unattended prod skill/harness auto-evolve (pairs K237 misevolution). Dual-ID: ≠ CCC K324 RedEvoAgent. **Runtime:** `scripts/k324_safeevolve_precheck.py` (advisory checklist).
 - **K325 Linguistic illegibility (audit)** — CoT / NL self-report / linguistically-defined probes are **not a complete security boundary**; require external sandbox floor (taint tracking, isolation). Pairs K308 decorative CoT + K314 recognition≠enforcement. Dual-ID: ≠ CCC K325 security-agent SLR steal.
+
+## Sep 11 batch (RAG safety 2609.11758 · SpecGuard 2609.11799 · BlueSTAR 2609.11852 · Decompiler 2609.05370 · SENTINEL-RL 2609.04159 · Explanation audit 2609.05385)
+
+- **K328 RAG-Safety-Bench (audit)** — retrieval changes the **safety profile**; report corpus conditions, base vs RAG outcomes, and judge config — do not treat one scalar as a fleet safety certificate. Pairs K323 CodePoisonRAG. **Runtime:** `scripts/k328_rag_safety_bench_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K328 (none assigned).
+- **K329 SpecGuard (audit)** — **inference-time backdoor detection** for third-party weights; pair with provenance + sanitize-before-trust (K310 pattern). No trigger payloads in wiki. REFERENCE until SPDX verified.
+- **K330 BlueSTAR (audit)** — **tiered agentic cyber defense** over high-volume telemetry; demand **bounded authority + auditable trajectories** — alert closure ≠ faithful evidence use (pairs K315/K336). No prod auto-contain without HITL.
+- **K335 LLM decompiler fidelity (audit)** — **recompilability ≠ semantic fidelity** for vuln/malware review; require semantic diff checks beyond build+execute pass. Pairs measurement integrity.
+- **K336 SENTINEL-RL SOC (audit)** — offload **graph-consistent containment** from LLM context; treat LLM SOC output as untrusted planner input (pairs K288 ESTI / ADI).
+- **K337 Explanation necessity/sufficiency (audit)** — behavioural counterfactuals on named-factor explanations; explanation text is **not evidence** without necessity/sufficiency tests (pairs K290 CHIVE + K308 decorative CoT).

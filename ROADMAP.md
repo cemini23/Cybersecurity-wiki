@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-11 | Full ingest K327–K339 (17 PDFs) + 6 OOD stubs | Agentic red-team taxonomy, RAG safety bench, SpecGuard, BlueSTAR, PrivEscalate, CP offensive, decompiler fidelity, SENTINEL-RL, explanation audit, SIDE IoT, zero-trust robotics; k327/k328/k331 precheck + skills; friend add-ons 45–46 |
 | 2026-09-03 | Full ingest K323 CodePoisonRAG / K324 SafeEvolve / K325 linguistic illegibility / K326 WiFi RFF | Inbox 4 PDFs; RACG poisoning + harness co-evolution + NL monitor limits + open-set RFF; k323/k324 precheck + skills; friend add-ons 43–44 |
 | 2026-09-02 | K320–K322 advisory runtime (precheck scripts + federation skills) | k320/k321/k322 precheck + CI tests; skills evoflint-redteam-eval, guardrail-construct-validity-audit, firmware-rehost-lab-precheck; friend add-on 42 |
 | 2026-09-02 | Full ingest K320 EvoFlint / K321 construct validity / K322 firmware rehost + 2 OOD stubs | Inbox 5 PDFs; multi-turn evolutionary red-team atlas; guardrail construct validity audit; embedded peripheral fidelity; dual-ID K320–K322 vs CCC handbook/ASIL/MoRe; friend add-on 41 |

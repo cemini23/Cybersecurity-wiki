@@ -17,9 +17,10 @@ related:
   - concepts/credential-access.md
   - concepts/linux-pentest.md
   - entities/tools/nidhogg.md
+  - concepts/privescalate-llm-linux-privilege-escalation.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-05-24
+updated: 2026-09-11
 ---
 
 ## Relations

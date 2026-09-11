@@ -12,9 +12,10 @@ related:
   - concepts/linguistic-illegibility-llm-security.md
   - concepts/compliance-detector-rule-blindness.md
   - sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md
+  - concepts/llm-explanation-necessary-sufficient-audit.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K308)"
 ---

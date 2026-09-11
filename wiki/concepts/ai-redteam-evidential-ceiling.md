@@ -32,9 +32,10 @@ related:
   - concepts/trace-verified-ctf-agent-eval.md
   - concepts/pair-prompt-pattern.md
   - concepts/security-agent-authority-auditability-slr.md
+  - concepts/conformal-prediction-offensive-security.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-08-31
+updated: 2026-09-11
 ---
 
 ## Relations

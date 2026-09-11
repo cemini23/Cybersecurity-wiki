@@ -11,9 +11,10 @@ related:
   - concepts/planner-state-integrity-embodied-agents.md
   - concepts/codepoisonrag-racg-knowledge-poisoning.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/rag-safety-bench-evaluation.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K299 RAG integrity boundary)"
 ---

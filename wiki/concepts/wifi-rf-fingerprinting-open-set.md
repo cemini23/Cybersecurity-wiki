@@ -8,9 +8,10 @@ related:
   - concepts/wireless-pentest.md
   - concepts/horffi-high-openness-rffi.md
   - concepts/hardware-id-masking-opsec.md
+  - concepts/side-sensor-impersonation-edge-detection.md
 maturity: draft
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-11
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K326)"
 ---

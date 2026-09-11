@@ -11,9 +11,10 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/post-training-adaptation-taxonomy.md
   - sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
+  - concepts/specguard-inference-time-backdoor-detection.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-07
+updated: 2026-09-11
 ---
 
 ## Relations
