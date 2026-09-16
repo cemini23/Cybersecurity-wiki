@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
-"""Free arXiv Atom API search — Exa fallback for daily research digest."""
+"""Free arXiv Atom API search — Exa fallback for daily research digest.
+
+Keyword search stays on export.arxiv.org Atom API. Official OAI-PMH
+(https://oaipmh.arxiv.org/oai) is a full-corpus metadata harvest, not a
+search fallback — candidate for a later nightly mirror, not used here.
+"""
 
 from __future__ import annotations
 
+import fcntl
 import re
 import sys
 import time
@@ -11,6 +17,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date
+from pathlib import Path
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 ARXIV_API = "https://export.arxiv.org/api/query"
@@ -24,6 +31,8 @@ ARXIV_STOPWORDS = {
 }
 
 _LAST_REQUEST_AT = 0.0
+_ARXIV_LOCK_REL = Path(".cemini") / "arxiv-api.lock"
+_MAX_ATTEMPTS = 3
 
 
 def natural_query_to_arxiv_search(query: str, *, max_terms: int = 4) -> str:
@@ -159,6 +168,19 @@ def _throttle(interval_seconds: float) -> None:
     _LAST_REQUEST_AT = time.monotonic()
 
 
+def _retry_sleep_seconds(exc: BaseException, attempt: int) -> float:
+    """Retry-After seconds if parseable, else 5 * 2^attempt (5, 10, 20)."""
+    if isinstance(exc, urllib.error.HTTPError):
+        headers = getattr(exc, "headers", None)
+        raw = headers.get("Retry-After") if headers is not None else None
+        if raw:
+            try:
+                return max(0.0, float(str(raw).strip()))
+            except ValueError:
+                pass
+    return float(5 * (2 ** attempt))
+
+
 def arxiv_search(
     natural_query: str,
     from_date: str,
@@ -189,14 +211,47 @@ def arxiv_search(
         }
     )
     url = f"{ARXIV_API}?{params}"
-    _throttle(request_interval_seconds)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+
+    lock_path = Path.home() / _ARXIV_LOCK_REL
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    lock_f = open(lock_path, "a+")
+    xml_text = ""
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            xml_text = resp.read().decode("utf-8", errors="replace")
-    except (urllib.error.URLError, OSError) as e:
-        print(f"WARNING: arXiv API {e}", file=sys.stderr)
-        return []
+        fcntl.flock(lock_f.fileno(), fcntl.LOCK_EX)
+        _throttle(request_interval_seconds)
+        last_err: BaseException | None = None
+        for attempt in range(_MAX_ATTEMPTS):
+            try:
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    xml_text = resp.read().decode("utf-8", errors="replace")
+                break
+            except urllib.error.HTTPError as e:
+                last_err = e
+                if e.code in (429, 503) and attempt < _MAX_ATTEMPTS - 1:
+                    time.sleep(_retry_sleep_seconds(e, attempt))
+                    continue
+                print(f"WARNING: arXiv API {e}", file=sys.stderr)
+                return []
+            except (urllib.error.URLError, TimeoutError, OSError) as e:
+                last_err = e
+                msg = str(e).lower()
+                retryable = "timed out" in msg or "429" in msg
+                if retryable and attempt < _MAX_ATTEMPTS - 1:
+                    time.sleep(_retry_sleep_seconds(e, attempt))
+                    continue
+                print(f"WARNING: arXiv API {e}", file=sys.stderr)
+                return []
+        else:
+            if last_err is not None:
+                print(f"WARNING: arXiv API {last_err}", file=sys.stderr)
+            return []
+    finally:
+        try:
+            fcntl.flock(lock_f.fileno(), fcntl.LOCK_UN)
+        except OSError:
+            pass
+        lock_f.close()
 
     parsed = parse_arxiv_atom(xml_text, from_date=from_date)
     return parsed[:max_results]
