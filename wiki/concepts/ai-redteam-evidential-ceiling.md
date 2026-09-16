@@ -33,9 +33,10 @@ related:
   - concepts/pair-prompt-pattern.md
   - concepts/security-agent-authority-auditability-slr.md
   - concepts/conformal-prediction-offensive-security.md
+  - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-09-11
+updated: 2026-09-16
 ---
 
 ## Relations

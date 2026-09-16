@@ -117,3 +117,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K332 Conformal prediction offensive (lab, methodology)** — use **conformal prediction** intervals on offensive eval outcomes (not point ASR alone); authorized lab when applied to real targets. REFERENCE only.
 - **K338 SIDE sensor impersonation (lab, owned devices only)** — sequence-prediction anomaly detection for **unauthenticated IoT sensor streams**; not a substitute for cryptographic source auth; pairs K326 RF identity research. Authorized lab only.
 - **K339 Zero-trust robotic fleets (lab, OT scope)** — hardware attestation + packet timing watermarking for **ROS 2 mission-critical fleets**; cyber-physical scope steal — authorized engagement only; no attack payloads in wiki.
+
+## Sep 15 batch (Secure pentest agents 2609.16694 · Persuasion robustness 2609.16777)
+
+- **K341 Secure AI-powered pentest agents (lab, authorized-lab only)** — autonomous pentest agents combine **persistent memory + real tools + long-horizon reasoning**; survey threats/guardrails/architecture — **no attack payloads in wiki**; authorized lab only. **Runtime:** `scripts/k341_secure_pentest_agent_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K341 (none assigned).
+- **K342 Multi-conversation persuasion robustness (lab, authorized-lab only)** — full-history persuasion eval suffers **refusal inertia**; use multi-conversation persuasion methodology — **no persuasion recipes in wiki** (pairs K302). Dual-ID: ≠ CCC K342 (none assigned).

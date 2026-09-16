@@ -396,6 +396,15 @@
 | @sources/arxiv-2609-09059-playtrain-js-game-rl.md | draft | OOD PlayTrain LLM JS game RL |
 | @sources/arxiv-2609-09076-actreview-peer-review.md | draft | OOD ActReview peer review generation |
 | @sources/arxiv-2609-10036-belief-state-engine-planning.md | draft | OOD Belief-State Engine partial observability planning |
+| @sources/arxiv-2609-16541-cyber-range-incident-response-agents.md | draft | Cyber-range autonomous IR agents (2609.16541; K340) |
+| @concepts/cyber-range-autonomous-incident-response-agents.md | draft | Network IR agent eval with availability tradeoffs |
+| @sources/arxiv-2609-16694-secure-ai-pentest-agents.md | draft | Secure AI-powered pentest agents (2609.16694; K341) |
+| @concepts/secure-ai-powered-pentest-agents.md | draft | Pentest agent threats, guardrails, architecture |
+| @sources/arxiv-2609-16777-multi-conversation-persuasion-robustness.md | draft | Multi-conversation persuasion robustness (2609.16777; K342) |
+| @concepts/multi-conversation-persuasion-factual-robustness.md | draft | Refusal-inertia-aware persuasion eval |
+| @sources/arxiv-2609-17516-chain-of-self-questioning-abstention.md | draft | Chain-of-self-questioning abstention (2609.17516; K343) |
+| @concepts/chain-of-self-questioning-selective-abstention.md | draft | CoSQ selective risk control |
+| @sources/arxiv-2609-17398-medical-plain-language-adaptation.md | draft | OOD medical plain-language adaptation |
 | @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |
 | @sources/arxiv-2609-01564-ood-confusion-aware-rag.md | draft | OOD confusion-aware RAG for classification (2609.01564) — not cyber-primary |
 | @sources/arxiv-2608-31118-ontolearn-llm-size-ood.md | draft | OOD OntoLearner LLM size for ontology learning (2608.31118) — not cyber-primary |

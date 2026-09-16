@@ -182,9 +182,11 @@ related:
   - sources/arxiv-2608-28502-recognition-without-enforcement.md
   - sources/arxiv-2608-28490-llm-security-agents-survey.md
   - concepts/black-box-agentic-redteam-taxonomy.md
+  - concepts/secure-ai-powered-pentest-agents.md
+  - concepts/chain-of-self-questioning-selective-abstention.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-09-11
+updated: 2026-09-16
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---

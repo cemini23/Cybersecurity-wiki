@@ -49,6 +49,10 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K337 Explanation necessity/sufficiency (2609.05385) — behavioural explanation audit
 - K338 SIDE sensor impersonation (2609.06271) — edge IoT sequence-prediction detection
 - K339 Zero-trust robotic fleets (2609.05741) — OT/ROS 2 attestation + timing watermark
+- K340 Cyber-range IR agents (2609.16541) — autonomous network incident response eval
+- K341 Secure AI-powered pentest agents (2609.16694) — pentest agent threats/guardrails/architecture
+- K342 Multi-conversation persuasion robustness (2609.16777) — refusal-inertia-aware eval
+- K343 Chain-of-self-questioning abstention (2609.17516) — CoSQ selective risk control
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
-K300–K339 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K343 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

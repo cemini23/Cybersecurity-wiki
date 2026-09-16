@@ -70,3 +70,8 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - **K335 LLM decompiler fidelity (audit)** — **recompilability ≠ semantic fidelity** for vuln/malware review; require semantic diff checks beyond build+execute pass. Pairs measurement integrity.
 - **K336 SENTINEL-RL SOC (audit)** — offload **graph-consistent containment** from LLM context; treat LLM SOC output as untrusted planner input (pairs K288 ESTI / ADI).
 - **K337 Explanation necessity/sufficiency (audit)** — behavioural counterfactuals on named-factor explanations; explanation text is **not evidence** without necessity/sufficiency tests (pairs K290 CHIVE + K308 decorative CoT).
+
+## Sep 15 batch (Cyber-range IR 2609.16541 · CoSQ abstention 2609.17516)
+
+- **K340 Cyber-range IR agents (audit)** — autonomous **network incident response** eval in cyber range with availability tradeoffs; alert/SIEM mapping ≠ verified containment without state evidence (pairs K278/K330). Authorized range scope only.
+- **K343 Chain-of-self-questioning abstention (audit)** — **CoSQ** selective risk control reduces unconditional wrong answers at abstention thresholds; verbalized self-questioning is **not enforcement alone** (pairs K276 withhold contract + K314). REFERENCE only.

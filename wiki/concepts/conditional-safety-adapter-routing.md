@@ -10,9 +10,10 @@ related:
   - concepts/tripwire-safety-neuron-clamp.md
   - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/chain-of-self-questioning-selective-abstention.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-16
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K301)"
 ---

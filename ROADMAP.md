@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-16 | Full ingest K340–K343 (5 PDFs) + 1 OOD stub | Cyber-range IR agents, secure pentest agents, persuasion robustness, CoSQ abstention; k341 precheck + skill; sweeps Sep 12–16; friend add-ons 47–48 |
 | 2026-09-11 | Full ingest K327–K339 (17 PDFs) + 6 OOD stubs | Agentic red-team taxonomy, RAG safety bench, SpecGuard, BlueSTAR, PrivEscalate, CP offensive, decompiler fidelity, SENTINEL-RL, explanation audit, SIDE IoT, zero-trust robotics; k327/k328/k331 precheck + skills; friend add-ons 45–46 |
 | 2026-09-03 | Full ingest K323 CodePoisonRAG / K324 SafeEvolve / K325 linguistic illegibility / K326 WiFi RFF | Inbox 4 PDFs; RACG poisoning + harness co-evolution + NL monitor limits + open-set RFF; k323/k324 precheck + skills; friend add-ons 43–44 |
 | 2026-09-02 | K320–K322 advisory runtime (precheck scripts + federation skills) | k320/k321/k322 precheck + CI tests; skills evoflint-redteam-eval, guardrail-construct-validity-audit, firmware-rehost-lab-precheck; friend add-on 42 |

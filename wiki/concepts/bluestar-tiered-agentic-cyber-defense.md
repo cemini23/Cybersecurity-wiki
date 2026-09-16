@@ -8,9 +8,10 @@ related:
   - concepts/security-agent-authority-auditability-slr.md
   - concepts/sentinel-rl-soc-topological-reasoning.md
   - concepts/llm-pentest-automation.md
+  - concepts/cyber-range-autonomous-incident-response-agents.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-16
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K330)"
 ---

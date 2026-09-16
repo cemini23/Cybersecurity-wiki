@@ -13,9 +13,10 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/black-box-agentic-redteam-taxonomy.md
+  - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-09-11
+updated: 2026-09-16
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K320)"
 ---

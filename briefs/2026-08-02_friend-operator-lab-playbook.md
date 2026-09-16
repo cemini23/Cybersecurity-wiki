@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-11
+updated: 2026-09-16
 ---
 
 
@@ -346,5 +346,9 @@ Read these wiki pages in order after the checklist above:
 45. **Agentic red-team + RAG safety + priv-esc + defensive agents (2026-09-11)** — `@concepts/black-box-agentic-redteam-taxonomy.md` (K327): **taxonomy-driven multi-step black-box** agent eval — report `(harness, judge, domain, verification)`; no payloads in wiki. `@concepts/rag-safety-bench-evaluation.md` (K328): retrieval **changes safety profile** — separate base vs RAG; pairs K323. `@concepts/specguard-inference-time-backdoor-detection.md` (K329): inference-time backdoor checks on third-party weights. `@concepts/bluestar-tiered-agentic-cyber-defense.md` (K330) + `@concepts/sentinel-rl-soc-topological-reasoning.md` (K336): tiered SOC agents with **graph-consistent containment** outside LLM context. `@concepts/privescalate-llm-linux-privilege-escalation.md` (K331): Linux priv-esc at scale with **executable verification** — owned lab only. `@concepts/llm-decompiler-recompilability-fidelity.md` (K335): recompilability ≠ semantic fidelity for RE/malware review. `@concepts/llm-explanation-necessary-sufficient-audit.md` (K337): explanation factors need behavioural necessity/sufficiency tests (pairs CHIVE/K308).
 
 46. **K327–K331 advisory runtime (2026-09-11)** — before agentic red-team lab: `python3 scripts/k327_agentic_redteam_precheck.py checklist` (skill: `agentic-redteam-taxonomy-precheck`). Before RAG safety claims: `python3 scripts/k328_rag_safety_bench_precheck.py checklist` (skill: `rag-safety-bench-precheck`). Before PrivEscalate lab: `python3 scripts/k331_privescalate_precheck.py checklist` (skill: `privescalate-lab-precheck`). Phase-0 gate: `bash scripts/adopt_k327_k339_phase0.sh`. K329–K330/K332/K335–K339 audit-only — no precheck scripts except above trio.
+
+47. **Cyber-range IR + secure pentest agents + persuasion + abstention (2026-09-16)** — `@concepts/cyber-range-autonomous-incident-response-agents.md` (K340): autonomous **network IR** in cyber range — balance intrusion block vs **availability cost**; SIEM alerts ≠ verified containment. `@concepts/secure-ai-powered-pentest-agents.md` (K341): pentest agents = **memory + tools + long horizon** — separate trust boundaries; authorized lab only. `@concepts/multi-conversation-persuasion-factual-robustness.md` (K342): **refusal inertia** breaks full-history persuasion eval — use multi-conversation methodology; no persuasion recipes in wiki. `@concepts/chain-of-self-questioning-selective-abstention.md` (K343): **CoSQ** abstention reduces wrong answers — pair with machine-checkable withhold (K276); not enforcement alone.
+
+48. **K341 advisory runtime (2026-09-16)** — before autonomous pentest agent lab: `python3 scripts/k341_secure_pentest_agent_precheck.py checklist` (skill: `secure-pentest-agent-precheck`). Phase-0 gate: `bash scripts/adopt_k340_k343_phase0.sh`. K340/K342/K343 audit-only.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

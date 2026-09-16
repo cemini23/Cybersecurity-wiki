@@ -38,6 +38,7 @@ jobs:
           python3 scripts/test_k327_agentic_redteam_precheck.py
           python3 scripts/test_k328_rag_safety_bench_precheck.py
           python3 scripts/test_k331_privescalate_precheck.py
+          python3 scripts/test_k341_secure_pentest_agent_precheck.py
 
       - name: wiki_lint (strict local links + bidirectional)
         run: |

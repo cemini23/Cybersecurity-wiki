@@ -13,9 +13,10 @@ related:
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-09-02
+updated: 2026-09-16
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K302)"
 ---

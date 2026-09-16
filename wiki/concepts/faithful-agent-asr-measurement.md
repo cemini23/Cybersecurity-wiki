@@ -35,9 +35,10 @@ related:
   - concepts/logit-tilting-rare-behaviour-audit.md
   - concepts/black-box-agentic-redteam-taxonomy.md
   - concepts/privescalate-llm-linux-privilege-escalation.md
+  - concepts/secure-ai-powered-pentest-agents.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-09-11
+updated: 2026-09-16
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-agent-audit.mdc (K271)"
 ---

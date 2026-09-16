@@ -1,3 +1,17 @@
+## [2026-09-16] ingest | K340–K343 batch (5 inbox PDFs)
+
+Full ingest of **5 NEW** inbox arXiv PDFs (sweep 2026-09-16). Cybersec IDs **K340–K343**. **No clone this batch.**
+
+- **NEW K340–K343** — 4 in-scope pairs: cyber-range autonomous IR agents; secure AI-powered pentest agents; multi-conversation persuasion factual robustness; chain-of-self-questioning selective abstention.
+- **NEW OOD stub (1)** — medical plain-language adaptation (2609.17398).
+- **Runtime:** `scripts/k341_secure_pentest_agent_precheck.py` + CI test; federation skill `secure-pentest-agent-precheck`. K340/K342/K343 audit-only.
+- **Phase-0:** `scripts/adopt_k340_k343_phase0.sh` **ALL PASS**; archived 5 PDFs to egress-fi.
+- **Phase-1:** K341/K342 → lab-redteam; K340/K343 → agent-audit.
+- **Dual-ID:** K340–K343 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-ons **47–48**.
+- **Briefs:** `briefs/2026-09-16_k340-k343-ingest.md`.
+- **Sweeps:** `wiki/sweeps/2026-09-12-daily.md` … `2026-09-16-daily.md`.
+
 ## [2026-09-11] ingest | K327–K339 batch (17 inbox PDFs)
 
 Full ingest of **17 NEW** inbox arXiv PDFs from sweeps 2026-09-04 through 2026-09-11. Cybersec IDs **K327–K339** (skipped K333/K334 — reserved for delegation/harness-eval skills). **No clone this batch.**

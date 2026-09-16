@@ -45,9 +45,10 @@ related:
   - sources/arxiv-2606-21059-defengraph-knowledge-graph-blue-team.md
   - entities/tools/defengraph.md
   - sources/elearnsecurity-certified-threat-hunting-introduction-pt-1.md
+  - concepts/cyber-range-autonomous-incident-response-agents.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-23
+updated: 2026-09-16
 ---
 
 ## Relations

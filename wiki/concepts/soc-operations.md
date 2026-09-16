@@ -71,9 +71,10 @@ related:
   - sources/arxiv-2606-21377-arena-autonomous-defense-transferability.md
   - concepts/autonomous-defense-agent-transferability.md
   - concepts/sentinel-rl-soc-topological-reasoning.md
+  - concepts/cyber-range-autonomous-incident-response-agents.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-09-11
+updated: 2026-09-16
 ---
 
 ## Relations
