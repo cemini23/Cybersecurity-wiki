@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-17 | Federation skill triage + helper scripts | 11 federation skills committed; CCC helpers `harness_eval_checklist`, `delegation_broker_precheck`, `agent_queue_labels` + CI; K314 external-reference-monitor drift reverted; SPDX re-hunt 2026-09-17 all HOLD/WATCH unchanged |
 | 2026-09-17 | Full ingest K344–K347 (5 PDFs) + 1 OOD stub | TWD SDR, indirect sensor tracking, CASHEWS npm supply chain, ASLEval privacy displacement; k347 precheck + skill; friend add-ons 49–50 |
 | 2026-09-16 | Full ingest K340–K343 (5 PDFs) + 1 OOD stub | Cyber-range IR agents, secure pentest agents, persuasion robustness, CoSQ abstention; k341 precheck + skill; sweeps Sep 12–16; friend add-ons 47–48 |
 | 2026-09-11 | Full ingest K327–K339 (17 PDFs) + 6 OOD stubs | Agentic red-team taxonomy, RAG safety bench, SpecGuard, BlueSTAR, PrivEscalate, CP offensive, decompiler fidelity, SENTINEL-RL, explanation audit, SIDE IoT, zero-trust robotics; k327/k328/k331 precheck + skills; friend add-ons 45–46 |

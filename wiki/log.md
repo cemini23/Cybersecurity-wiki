@@ -1,3 +1,14 @@
+## [2026-09-17] harness | federation skill triage + helper scripts
+
+Post-ingest cleanup per operator request.
+
+- **Skills committed (11):** agent-queue-labels, cemini-wiki-ingest, claim-ledger, eval-first-rubric, harness-eval-gate, last30days, notebooklm-osint-bridge, osint-catalog, pii-redact, untrusted-delegation-precheck, vault-dedupe.
+- **Helpers copied from CCC:** `harness_eval_checklist.py`, `delegation_broker_precheck.py`, `agent_queue_labels.py` + `test_federation_helper_scripts.py` in CI.
+- **Reverted:** `external-reference-monitor` K314→K326 drift (conflicts with Cybersec dual-ID canon).
+- **SPDX re-hunt:** `k307_k319_rehunt.sh` 2026-09-17 — StepGuard/IAB/EvoSkill/BLOOM-WILT still HOLD; EvoFlint WATCH.
+- **Preflight:** cybersec `.cursor` A/100; global `~/.claude` D (4 CRITICAL MCP auto-approve — operator scope, not wiki).
+- **friend brief:** n/a.
+
 ## [2026-09-17] ingest | K344–K347 batch (5 inbox PDFs)
 
 Full ingest of **5 NEW** inbox arXiv PDFs (sweep 2026-09-17). Cybersec IDs **K344–K347**. **No clone this batch.**
