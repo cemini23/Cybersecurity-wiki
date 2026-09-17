@@ -6,9 +6,10 @@ keywords: [2609.06271, SIDE, sensor impersonation, IoT, LSTM, sequence predictio
 related:
   - sources/arxiv-2609-06271-side-sensor-impersonation-edge.md
   - concepts/wifi-rf-fingerprinting-open-set.md
+  - concepts/through-wall-detection-sdr-pca.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-17
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K338)"
 ---

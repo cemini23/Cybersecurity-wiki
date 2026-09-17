@@ -47,9 +47,10 @@ related:
   - entities/tools/cyberscraper-2077.md
   - entities/tools/rustscan.md
   - entities/tools/bbot.md
+  - concepts/indirect-third-party-sensor-vehicle-tracking.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-15
+updated: 2026-09-17
 ---
 
 ## Relations

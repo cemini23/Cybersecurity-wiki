@@ -11,9 +11,10 @@ related:
   - concepts/llm-pentest-automation.md
   - concepts/salami-collusive-memory-poisoning.md
   - concepts/rag-safety-bench-evaluation.md
+  - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-09-03
-updated: 2026-09-11
+updated: 2026-09-17
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K323)"
 ---

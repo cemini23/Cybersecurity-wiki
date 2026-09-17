@@ -10,9 +10,10 @@ related:
   - sources/slsa-supply-chain-levels.md
   - sources/sigstore-overview.md
   - sources/reproducible-builds.md
+  - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-17
 wire_status: wont_wire
 wire_target: "REFERENCE — sign + reproduce *your* release artifacts; no CI-integrity bypass, no fake attestations"
 ---

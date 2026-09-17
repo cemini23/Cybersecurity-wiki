@@ -405,6 +405,15 @@
 | @sources/arxiv-2609-17516-chain-of-self-questioning-abstention.md | draft | Chain-of-self-questioning abstention (2609.17516; K343) |
 | @concepts/chain-of-self-questioning-selective-abstention.md | draft | CoSQ selective risk control |
 | @sources/arxiv-2609-17398-medical-plain-language-adaptation.md | draft | OOD medical plain-language adaptation |
+| @sources/arxiv-2609-12443-through-wall-detection-sdr-pca.md | draft | Through-wall detection SDR/PCA (2609.12443; K344) |
+| @concepts/through-wall-detection-sdr-pca.md | draft | Ambient WiFi CSI through-wall motion sensing |
+| @sources/arxiv-2609-18173-indirect-third-party-sensor-tracking.md | draft | Indirect third-party sensor tracking (2609.18173; K345) |
+| @concepts/indirect-third-party-sensor-vehicle-tracking.md | draft | Vehicle tracking via indirect sensor observations |
+| @sources/arxiv-2609-18862-cashews-malicious-package-detection.md | draft | CASHEWS npm malicious package preprocessor (2609.18862; K346) |
+| @concepts/cashews-llm-malicious-package-detection.md | draft | LLM package detection obfuscation evasion defense |
+| @sources/arxiv-2609-18864-asleval-privacy-exposure-displacement.md | draft | ASLEval privacy exposure displacement (2609.18864; K347) |
+| @concepts/asleval-privacy-exposure-displacement.md | draft | Session-level agent privacy eval vs local proxies |
+| @sources/arxiv-2609-18842-infinite-parameter-llms-live-data.md | draft | OOD infinite-parameter LLMs from live data |
 | @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |
 | @sources/arxiv-2609-01564-ood-confusion-aware-rag.md | draft | OOD confusion-aware RAG for classification (2609.01564) — not cyber-primary |
 | @sources/arxiv-2608-31118-ontolearn-llm-size-ood.md | draft | OOD OntoLearner LLM size for ontology learning (2608.31118) — not cyber-primary |

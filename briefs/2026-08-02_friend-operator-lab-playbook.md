@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 
@@ -350,5 +350,9 @@ Read these wiki pages in order after the checklist above:
 47. **Cyber-range IR + secure pentest agents + persuasion + abstention (2026-09-16)** — `@concepts/cyber-range-autonomous-incident-response-agents.md` (K340): autonomous **network IR** in cyber range — balance intrusion block vs **availability cost**; SIEM alerts ≠ verified containment. `@concepts/secure-ai-powered-pentest-agents.md` (K341): pentest agents = **memory + tools + long horizon** — separate trust boundaries; authorized lab only. `@concepts/multi-conversation-persuasion-factual-robustness.md` (K342): **refusal inertia** breaks full-history persuasion eval — use multi-conversation methodology; no persuasion recipes in wiki. `@concepts/chain-of-self-questioning-selective-abstention.md` (K343): **CoSQ** abstention reduces wrong answers — pair with machine-checkable withhold (K276); not enforcement alone.
 
 48. **K341 advisory runtime (2026-09-16)** — before autonomous pentest agent lab: `python3 scripts/k341_secure_pentest_agent_precheck.py checklist` (skill: `secure-pentest-agent-precheck`). Phase-0 gate: `bash scripts/adopt_k340_k343_phase0.sh`. K340/K342/K343 audit-only.
+
+49. **TWD + indirect tracking + supply chain + agent privacy (2026-09-17)** — `@concepts/through-wall-detection-sdr-pca.md` (K344): ambient WiFi CSI **through-wall detection** via SDR + adaptive PCA — **authorized RF lab only**. `@concepts/indirect-third-party-sensor-vehicle-tracking.md` (K345): tracking via **indirect third-party sensor** observations when raw data blocked — authorized scope only. `@concepts/cashews-llm-malicious-package-detection.md` (K346): **npm LLM classifiers** evaded by obfuscation/token density — preprocess (CASHEWS) before classify; pairs install-gap. `@concepts/asleval-privacy-exposure-displacement.md` (K347): **privacy exposure displacement** — local proxies miss multi-step session leaks; measure all visible exits (pairs K298).
+
+50. **K347 advisory runtime (2026-09-17)** — before agent session privacy eval: `python3 scripts/k347_asleval_precheck.py checklist` (skill: `asleval-privacy-precheck`). Phase-0 gate: `bash scripts/adopt_k344_k347_phase0.sh`. K344/K345/K346 audit-only.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

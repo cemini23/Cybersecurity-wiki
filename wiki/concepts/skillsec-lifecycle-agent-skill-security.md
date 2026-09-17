@@ -20,9 +20,10 @@ related:
   - sources/arxiv-2608-16465-jailbreakskill.md
   - concepts/evolving-attack-skill-libraries.md
   - entities/tools/jailbreakskill.md
+  - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-08-15
+updated: 2026-09-17
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---

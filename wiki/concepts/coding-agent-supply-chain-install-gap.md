@@ -17,9 +17,10 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
   - "@ccc-wiki/concepts/coding-agent-install-gap-and-preinstall-gate.md"
+  - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-18
+updated: 2026-09-17
 ---
 
 ## Relations

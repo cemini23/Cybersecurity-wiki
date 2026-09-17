@@ -184,9 +184,10 @@ related:
   - concepts/black-box-agentic-redteam-taxonomy.md
   - concepts/secure-ai-powered-pentest-agents.md
   - concepts/chain-of-self-questioning-selective-abstention.md
+  - concepts/asleval-privacy-exposure-displacement.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-09-16
+updated: 2026-09-17
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---

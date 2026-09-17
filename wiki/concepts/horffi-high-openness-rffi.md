@@ -11,9 +11,10 @@ related:
   - concepts/wifi-rf-fingerprinting-open-set.md
   - concepts/network-security.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/through-wall-detection-sdr-pca.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-09-17
 ---
 
 ## Relations

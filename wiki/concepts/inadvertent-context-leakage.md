@@ -13,9 +13,10 @@ related:
   - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/asleval-privacy-exposure-displacement.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-08-25
+updated: 2026-09-17
 wire_status: runtime_wired
 wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + scripts/secret_grant.py (K298/K303)"
 ---

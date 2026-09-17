@@ -1,3 +1,17 @@
+## [2026-09-17] ingest | K344–K347 batch (5 inbox PDFs)
+
+Full ingest of **5 NEW** inbox arXiv PDFs (sweep 2026-09-17). Cybersec IDs **K344–K347**. **No clone this batch.**
+
+- **NEW K344–K347** — 4 in-scope pairs: through-wall SDR/PCA TWD; indirect third-party sensor vehicle tracking; CASHEWS npm malicious-package preprocessor; ASLEval privacy exposure displacement.
+- **NEW OOD stub (1)** — infinite-parameter LLMs from live data (2609.18842).
+- **Runtime:** `scripts/k347_asleval_precheck.py` + CI test; federation skill `asleval-privacy-precheck`. K344/K345/K346 audit-only.
+- **Phase-0:** `scripts/adopt_k344_k347_phase0.sh` **ALL PASS**; archived 5 PDFs to egress-fi.
+- **Phase-1:** K344/K345 → lab-redteam; K346/K347 → agent-audit.
+- **Dual-ID:** K344–K347 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
+- **friend brief:** add-ons **49–50**.
+- **Briefs:** `briefs/2026-09-17_k344-k347-ingest.md`.
+- **Sweep:** `wiki/sweeps/2026-09-17-daily.md`.
+
 ## [2026-09-16] ingest | K340–K343 batch (5 inbox PDFs)
 
 Full ingest of **5 NEW** inbox arXiv PDFs (sweep 2026-09-16). Cybersec IDs **K340–K343**. **No clone this batch.**

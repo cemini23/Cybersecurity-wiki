@@ -75,3 +75,8 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 
 - **K340 Cyber-range IR agents (audit)** — autonomous **network incident response** eval in cyber range with availability tradeoffs; alert/SIEM mapping ≠ verified containment without state evidence (pairs K278/K330). Authorized range scope only.
 - **K343 Chain-of-self-questioning abstention (audit)** — **CoSQ** selective risk control reduces unconditional wrong answers at abstention thresholds; verbalized self-questioning is **not enforcement alone** (pairs K276 withhold contract + K314). REFERENCE only.
+
+## Sep 16 batch (CASHEWS 2609.18862 · ASLEval 2609.18864)
+
+- **K346 CASHEWS (audit)** — **npm supply-chain** LLM classifiers evaded via obfuscation/token density; preprocess sources before classification; pairs install-gap + SkillSec. No malicious package bodies in wiki.
+- **K347 ASLEval (audit)** — **privacy exposure displacement**: local eval proxies miss multi-step session leaks; measure all declared visible exits with pre-registered targets (pairs K298). **Runtime:** `scripts/k347_asleval_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K347 (none assigned).

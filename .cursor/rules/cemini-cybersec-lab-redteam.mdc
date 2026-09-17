@@ -122,3 +122,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 - **K341 Secure AI-powered pentest agents (lab, authorized-lab only)** — autonomous pentest agents combine **persistent memory + real tools + long-horizon reasoning**; survey threats/guardrails/architecture — **no attack payloads in wiki**; authorized lab only. **Runtime:** `scripts/k341_secure_pentest_agent_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K341 (none assigned).
 - **K342 Multi-conversation persuasion robustness (lab, authorized-lab only)** — full-history persuasion eval suffers **refusal inertia**; use multi-conversation persuasion methodology — **no persuasion recipes in wiki** (pairs K302). Dual-ID: ≠ CCC K342 (none assigned).
+
+## Sep 16 batch (TWD 2609.12443 · Indirect tracking 2609.18173)
+
+- **K344 Through-wall detection SDR (lab, authorized spectrum only)** — ambient WiFi CSI **through-wall motion detection** via SDR + adaptive PCA on **owned/authorized spectrum** — not unauthorized eavesdrop tradecraft. Dual-ID: ≠ CCC K344 (none assigned).
+- **K345 Indirect third-party sensor tracking (lab, authorized scope only)** — vehicle tracking via **indirect third-party sensor observations** when raw data is inaccessible; threat-model steal only — **no LIVE third-party tracking**. Dual-ID: ≠ CCC K345 (none assigned).

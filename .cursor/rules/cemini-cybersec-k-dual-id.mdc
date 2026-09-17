@@ -60,5 +60,9 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K341 Secure AI-powered pentest agents (2609.16694) — pentest agent threats/guardrails/architecture
 - K342 Multi-conversation persuasion robustness (2609.16777) — refusal-inertia-aware eval
 - K343 Chain-of-self-questioning abstention (2609.17516) — CoSQ selective risk control
+- K344 Through-wall detection SDR (2609.12443) — ambient WiFi CSI TWD; authorized RF lab
+- K345 Indirect third-party sensor tracking (2609.18173) — sparse indirect vehicle tracking
+- K346 CASHEWS malicious package preprocessor (2609.18862) — npm supply-chain LLM detection
+- K347 ASLEval privacy exposure displacement (2609.18864) — session-level agent privacy eval
 
-K300–K343 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K347 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
