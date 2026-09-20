@@ -5,7 +5,7 @@ Full ingest of **4 NEW** inbox arXiv PDFs (sweeps 2026-09-18–20). Cybersec IDs
 - **NEW K348–K350** — 3 in-scope pairs: Auto Mode blocking classifier red-team; Deep Noir steering discovery audit; LLM-Falsifier CPS falsification.
 - **NEW OOD stub (1)** — Paint-Anything image generation (2609.20816) → image-gen wiki if deep-read.
 - **Runtime:** `scripts/k348_auto_mode_redteam_precheck.py` + CI test; federation skill `auto-mode-redteam-precheck`. K349/K350 audit-only.
-- **Phase-0:** `scripts/adopt_k348_k350_phase0.sh` **ALL PASS**; egress archive **PENDING** (SSH to cemini-egress-fi blocked — run `egress_laptop_access.sh` then re-archive).
+- **Phase-0:** `scripts/adopt_k348_k350_phase0.sh` **ALL PASS**; archived 4 PDFs to egress-fi (2026-09-20 retry after VPN off).
 - **Phase-1:** K348/K350 → lab-redteam; K348/K349 → agent-audit.
 - **Dual-ID:** K348–K350 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
 - **Sweeps:** `wiki/sweeps/2026-09-18-daily.md`, `2026-09-19-daily.md`, `2026-09-20-daily.md`.
