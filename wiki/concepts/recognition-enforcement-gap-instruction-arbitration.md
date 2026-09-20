@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, guardrails, instruction-arbitration, mcp, k314]
 keywords: [recognition-enforcement gap, instruction arbitration, authority spoofing, external reference monitor, capability-gated execution, verbalized detection, model self-arbitration]
 related:
+  - concepts/auto-mode-blocking-classifier-redteam.md
   - sources/arxiv-2608-28502-recognition-without-enforcement.md
   - concepts/nl-security-rules-vs-builtin-deny.md
   - concepts/refusal-under-knowledge-withhold-contract.md

@@ -12,6 +12,8 @@ related:
   - concepts/step-level-agent-guardrails.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/agent-data-injection-attacks.md
+  - concepts/auto-mode-blocking-classifier-redteam.md
+
   - concepts/safety-harness-evolution.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-12996-atobench-deceptive-observations.md

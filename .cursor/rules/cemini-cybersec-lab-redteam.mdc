@@ -127,3 +127,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 - **K344 Through-wall detection SDR (lab, authorized spectrum only)** — ambient WiFi CSI **through-wall motion detection** via SDR + adaptive PCA on **owned/authorized spectrum** — not unauthorized eavesdrop tradecraft. Dual-ID: ≠ CCC K344 (none assigned).
 - **K345 Indirect third-party sensor tracking (lab, authorized scope only)** — vehicle tracking via **indirect third-party sensor observations** when raw data is inaccessible; threat-model steal only — **no LIVE third-party tracking**. Dual-ID: ≠ CCC K345 (none assigned).
+
+## Sep 20 batch (Auto Mode red-team 2609.19587 · LLM-Falsifier CPS 2609.20752)
+
+- **K348 Auto Mode blocking classifier red-team (lab, authorized-lab only)** — red-team **blocking monitors** against **persistent malign coding agents**; report **multi-context attacks** separately from single-turn injection ASR; no attack transcript bodies in wiki. **Runtime:** `scripts/k348_auto_mode_redteam_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K348 (none assigned).
+- **K350 LLM-Falsifier CPS (lab, authorized OT/CPS scope only)** — LLM-driven **STL falsification** on owned plants / written engagement; report simulation budget and spec coverage — not a single win rate alone; no plant-specific attack recipes in wiki. Pairs K339. Dual-ID: ≠ CCC K350 (none assigned).

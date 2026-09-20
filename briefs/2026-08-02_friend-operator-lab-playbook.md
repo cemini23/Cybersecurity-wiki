@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-17
+updated: 2026-09-20
 ---
 
 
@@ -354,5 +354,9 @@ Read these wiki pages in order after the checklist above:
 49. **TWD + indirect tracking + supply chain + agent privacy (2026-09-17)** — `@concepts/through-wall-detection-sdr-pca.md` (K344): ambient WiFi CSI **through-wall detection** via SDR + adaptive PCA — **authorized RF lab only**. `@concepts/indirect-third-party-sensor-vehicle-tracking.md` (K345): tracking via **indirect third-party sensor** observations when raw data blocked — authorized scope only. `@concepts/cashews-llm-malicious-package-detection.md` (K346): **npm LLM classifiers** evaded by obfuscation/token density — preprocess (CASHEWS) before classify; pairs install-gap. `@concepts/asleval-privacy-exposure-displacement.md` (K347): **privacy exposure displacement** — local proxies miss multi-step session leaks; measure all visible exits (pairs K298).
 
 50. **K347 advisory runtime (2026-09-17)** — before agent session privacy eval: `python3 scripts/k347_asleval_precheck.py checklist` (skill: `asleval-privacy-precheck`). Phase-0 gate: `bash scripts/adopt_k344_k347_phase0.sh`. K344/K345/K346 audit-only.
+
+51. **Auto Mode + steering + CPS falsification (2026-09-20)** — `@concepts/auto-mode-blocking-classifier-redteam.md` (K348): red-team **blocking monitors** against **persistent malign coding agents** — report **multi-context attacks** separately (pairs K307/K314). `@concepts/deep-noir-steering-discovery-chronometry.md` (K349): automated **steering discovery** — counterfactual-test before hardening; no clamp recipes. `@concepts/llm-falsifier-cyber-physical-systems.md` (K350): **STL falsification** with LLM semantic feedback — **authorized OT/CPS lab only** (pairs K339).
+
+52. **K348 advisory runtime (2026-09-20)** — before blocking-monitor red-team: `python3 scripts/k348_auto_mode_redteam_precheck.py checklist` (skill: `auto-mode-redteam-precheck`). Phase-0 gate: `bash scripts/adopt_k348_k350_phase0.sh`. K349/K350 audit-only.
 
 Operator hub: `@concepts/operator-lab-playbook.md`

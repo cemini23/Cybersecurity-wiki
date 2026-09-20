@@ -12,6 +12,7 @@ related:
   - concepts/linguistic-illegibility-llm-security.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/codepoisonrag-racg-knowledge-poisoning.md
+  - concepts/deep-noir-steering-discovery-chronometry.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/measurement-integrity-mcp-security-eval.md"
   - concepts/specguard-inference-time-backdoor-detection.md

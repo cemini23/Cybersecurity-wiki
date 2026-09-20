@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-20 | Full ingest K348–K350 (4 PDFs) + 1 OOD stub | Auto Mode malign-agent monitor red-team; Deep Noir steering audit; LLM-Falsifier CPS; k348 precheck + skill; sweeps Sep 18–20; friend add-ons 51–52 |
 | 2026-09-17 | Federation skill triage + helper scripts | 11 federation skills committed; CCC helpers `harness_eval_checklist`, `delegation_broker_precheck`, `agent_queue_labels` + CI; K314 external-reference-monitor drift reverted; SPDX re-hunt 2026-09-17 all HOLD/WATCH unchanged |
 | 2026-09-17 | Full ingest K344–K347 (5 PDFs) + 1 OOD stub | TWD SDR, indirect sensor tracking, CASHEWS npm supply chain, ASLEval privacy displacement; k347 precheck + skill; friend add-ons 49–50 |
 | 2026-09-16 | Full ingest K340–K343 (5 PDFs) + 1 OOD stub | Cyber-range IR agents, secure pentest agents, persuasion robustness, CoSQ abstention; k341 precheck + skill; sweeps Sep 12–16; friend add-ons 47–48 |

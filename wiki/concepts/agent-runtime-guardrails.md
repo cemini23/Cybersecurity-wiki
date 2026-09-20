@@ -16,6 +16,8 @@ related:
   - concepts/multi-token-concept-readout-audit.md
   - concepts/logit-tilting-rare-behaviour-audit.md
   - concepts/agent-safety-executable-evaluation.md
+  - concepts/auto-mode-blocking-classifier-redteam.md
+  - concepts/deep-noir-steering-discovery-chronometry.md
   - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md

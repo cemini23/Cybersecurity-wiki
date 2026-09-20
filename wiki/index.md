@@ -413,6 +413,13 @@
 | @concepts/cashews-llm-malicious-package-detection.md | draft | LLM package detection obfuscation evasion defense |
 | @sources/arxiv-2609-18864-asleval-privacy-exposure-displacement.md | draft | ASLEval privacy exposure displacement (2609.18864; K347) |
 | @concepts/asleval-privacy-exposure-displacement.md | draft | Session-level agent privacy eval vs local proxies |
+| @sources/arxiv-2609-19587-auto-mode-blocking-classifier-redteam.md | draft | Auto Mode blocking classifier red-team (2609.19587; K348) |
+| @concepts/auto-mode-blocking-classifier-redteam.md | draft | Malign coding agent monitor eval; multi-context axis |
+| @sources/arxiv-2609-20722-deep-noir-steering-discovery-chronometry.md | draft | Deep Noir steering discovery (2609.20722; K349) |
+| @concepts/deep-noir-steering-discovery-chronometry.md | draft | Automated activation steering audit pattern |
+| @sources/arxiv-2609-20752-llm-falsifier-cyber-physical-systems.md | draft | LLM-Falsifier for CPS (2609.20752; K350) |
+| @concepts/llm-falsifier-cyber-physical-systems.md | draft | STL falsification with LLM semantic feedback |
+| @sources/arxiv-2609-20816-paint-anything-ood.md | draft | OOD Paint-Anything image generation (2609.20816) |
 | @sources/arxiv-2609-18842-infinite-parameter-llms-live-data.md | draft | OOD infinite-parameter LLMs from live data |
 | @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |
 | @sources/arxiv-2609-01564-ood-confusion-aware-rag.md | draft | OOD confusion-aware RAG for classification (2609.01564) — not cyber-primary |

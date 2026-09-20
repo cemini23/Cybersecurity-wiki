@@ -40,6 +40,7 @@ jobs:
           python3 scripts/test_k331_privescalate_precheck.py
           python3 scripts/test_k341_secure_pentest_agent_precheck.py
           python3 scripts/test_k347_asleval_precheck.py
+          python3 scripts/test_k348_auto_mode_redteam_precheck.py
           python3 scripts/test_federation_helper_scripts.py
 
       - name: wiki_lint (strict local links + bidirectional)

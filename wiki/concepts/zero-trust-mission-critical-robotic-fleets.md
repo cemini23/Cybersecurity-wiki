@@ -6,9 +6,10 @@ keywords: [2609.05741, zero trust, ROS 2, hardware attestation, packet timing wa
 related:
   - sources/arxiv-2609-05741-zero-trust-robotic-fleets.md
   - concepts/responsible-disclosure.md
+  - concepts/llm-falsifier-cyber-physical-systems.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-20
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K339)"
 ---

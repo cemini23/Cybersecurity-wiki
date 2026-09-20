@@ -13,6 +13,7 @@ related:
   - concepts/compliance-detector-rule-blindness.md
   - sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md
   - concepts/llm-explanation-necessary-sufficient-audit.md
+  - concepts/deep-noir-steering-discovery-chronometry.md
 maturity: draft
 created: 2026-08-26
 updated: 2026-09-11
