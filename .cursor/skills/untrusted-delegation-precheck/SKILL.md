@@ -20,7 +20,7 @@ Security must hold when the model is **fully prompt-injected**. Never gate autho
 
 ## Procedure
 
-From project WorkDir (CCC or Cybersecurity wiki):
+From CCC WorkDir:
 
 ```bash
 python3 scripts/delegation_broker_precheck.py checklist

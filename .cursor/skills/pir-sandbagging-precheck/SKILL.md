@@ -6,8 +6,8 @@ description: >-
 license: MIT
 metadata.author: cemini23
 metadata.version: "1.0.0"
-disable-model-invocation: true
 federation: true
+disable-model-invocation: true
 ---
 
 # PIR sandbagging precheck (K352)
@@ -19,7 +19,7 @@ python3 scripts/k352_pir_sandbagging_precheck.py checklist
 python3 scripts/k352_pir_sandbagging_precheck.py selftest
 ```
 
-Canon: `wiki/concepts/probe-internal-recognition-sandbagging-audit.md` (arXiv **2609.21996**).
+Canon: `@cybersecurity-wiki/concepts/probe-internal-recognition-sandbagging-audit.md` (arXiv **2609.21996**).
 
 Report **concealment vs erasure** separately. Pair internal-probe claims with counterfactual tests (K290 CHIVE). Recognition≠enforcement (K314).
 

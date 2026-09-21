@@ -28,9 +28,6 @@ DENY = [
 
 ALLOW = [
     "Bash(crontab *)",
-    "Bash(ssh cemini-prod *)",
-    "Bash(ssh cemini-egress-fi *)",
-    "Bash(ssh -J cemini-prod cemini-egress-fi *)",
     "Bash(chmod +x *)",
     'Bash("/Users/claudiobarone/Projects/OSINT WORKSPACE/scripts/cemini_prod_healthcheck.sh")',
     "Bash(git *)",
@@ -38,17 +35,23 @@ ALLOW = [
 ]
 
 
+ASK = [
+    "Bash(ssh cemini-prod *)",
+    "Bash(ssh cemini-egress-fi *)",
+    "Bash(ssh -J cemini-prod cemini-egress-fi *)",
+]
+
 def main() -> int:
     local_path = CLAUDE / "settings.local.json"
     local_data = json.loads(local_path.read_text())
-    local_data["permissions"] = {"allow": ALLOW, "deny": DENY, "ask": []}
+    local_data["permissions"] = {"allow": ALLOW, "deny": DENY, "ask": ASK}
     local_data["enableAllProjectMcpServers"] = False
     local_path.write_text(json.dumps(local_data, indent=2) + "\n")
     print("OK settings.local.json")
 
     settings_path = CLAUDE / "settings.json"
     settings = json.loads(settings_path.read_text())
-    settings["permissions"] = {"deny": DENY, "allow": [], "ask": []}
+    settings["permissions"] = {"deny": DENY, "allow": [], "ask": ASK}
     hooks = settings.setdefault("hooks", {})
     pretool = local_data.get("hooks", {}).get("PreToolUse")
     if pretool and "PreToolUse" not in hooks:
