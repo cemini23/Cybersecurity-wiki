@@ -419,6 +419,13 @@
 | @concepts/deep-noir-steering-discovery-chronometry.md | draft | Automated activation steering audit pattern |
 | @sources/arxiv-2609-20752-llm-falsifier-cyber-physical-systems.md | draft | LLM-Falsifier for CPS (2609.20752; K350) |
 | @concepts/llm-falsifier-cyber-physical-systems.md | draft | STL falsification with LLM semantic feedback |
+| @sources/arxiv-2609-20909-tpm-attest-hardware-rooted-integrity-attestation.md | draft | TPM-Attest Linux integrity attestation (2609.20909; K351) |
+| @concepts/tpm-attest-linux-integrity-attestation.md | draft | TPM 2.0 + IMA remote attestation anti-cheat pattern |
+| @sources/arxiv-2609-21996-lie-detector-probe-internal-recognition.md | draft | PIR lie detector for LLMs (2609.21996; K352) |
+| @concepts/probe-internal-recognition-sandbagging-audit.md | draft | Sandbagging / unlearning internal-state audit |
+| @sources/arxiv-2609-22048-available-guardrails-selective-prediction.md | draft | Available Guardrails selective prediction (2609.22048; K354) |
+| @concepts/certified-selective-prediction-guardrails.md | draft | Certified availability per reporting unit |
+| @sources/arxiv-2609-22024-pv-care-ood.md | draft | OOD PV-Care EEG elder care (2609.22024) |
 | @sources/arxiv-2609-20816-paint-anything-ood.md | draft | OOD Paint-Anything image generation (2609.20816) |
 | @sources/arxiv-2609-18842-infinite-parameter-llms-live-data.md | draft | OOD infinite-parameter LLMs from live data |
 | @sources/arxiv-2609-01548-ood-sdare-bench.md | draft | OOD SDARE-Bench stigma dialogue (2609.01548) — social safety |

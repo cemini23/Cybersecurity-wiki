@@ -5,6 +5,7 @@ tags: [source, arxiv, agent-security, audit, measurement, guardrails, k321]
 keywords: [2609.01519, construct validity, protocol isolation, agent market evaluation, welfare accounting, guardrail effectiveness]
 related:
   - concepts/guardrail-construct-validity-agent-eval.md
+  - concepts/certified-selective-prediction-guardrails.md
 maturity: draft
 read_status: read
 created: 2026-09-02

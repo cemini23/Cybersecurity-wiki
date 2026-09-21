@@ -13,6 +13,7 @@ related:
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/failure-driven-cua-ipi-red-teaming.md
   - concepts/evoskill-injection-self-evolving-agents.md
+  - concepts/certified-selective-prediction-guardrails.md
   - concepts/multi-token-concept-readout-audit.md
   - concepts/logit-tilting-rare-behaviour-audit.md
   - concepts/agent-safety-executable-evaluation.md

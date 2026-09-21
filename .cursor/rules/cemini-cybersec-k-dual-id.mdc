@@ -67,5 +67,8 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K348 Auto Mode blocking classifier red-team (2609.19587) — malign coding agent monitor eval; multi-context axis
 - K349 Deep Noir steering discovery (2609.20722) — automated activation steering audit; not enforcement
 - K350 LLM-Falsifier CPS (2609.20752) — STL falsification methodology; authorized OT lab
+- K351 TPM-Attest Linux attestation (2609.20909) ≠ CCC K351 (none assigned) — TPM+IMA anti-cheat alternative; no bypass recipes
+- K352 PIR sandbagging audit (2609.21996) ≠ CCC K352 (none assigned) — internal recognition for concealment vs erasure
+- K354 Available Guardrails selective prediction (2609.22048) ≠ CCC K354 (none assigned) — certified availability per reporting unit
 
-K300–K350 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K354 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

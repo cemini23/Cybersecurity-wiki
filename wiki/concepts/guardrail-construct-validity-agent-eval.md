@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, audit, measurement, guardrails, k321]
 keywords: [construct validity, protocol isolation, incentive validity, stochastic stability, welfare accounting, agent market eval, guardrail measurement]
 related:
+  - concepts/certified-selective-prediction-guardrails.md
+  - sources/arxiv-2609-22048-available-guardrails-selective-prediction.md
   - sources/arxiv-2609-01519-guardrail-construct-validity.md
   - concepts/measurement-integrity-mcp-security-eval.md
   - concepts/faithful-agent-asr-measurement.md
@@ -19,6 +21,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K321)"
 ## Relations
 
 - @sources/arxiv-2609-01519-guardrail-construct-validity.md — construct validity contract (2609.01519)
+- @sources/arxiv-2609-22048-available-guardrails-selective-prediction.md — K354 certified availability (2609.22048)
+- @concepts/certified-selective-prediction-guardrails.md — K354 pairs construct validity with deployment availability
 - @concepts/measurement-integrity-mcp-security-eval.md — K277 labels ≠ endpoints; integrity chain
 
 ## Raw Concept

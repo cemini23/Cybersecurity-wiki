@@ -14,6 +14,8 @@ related:
   - sources/arxiv-2608-31084-j-lens-multi-token-readout.md
   - sources/arxiv-2608-18351-excess-authority-least-privilege.md
   - concepts/llm-explanation-necessary-sufficient-audit.md
+  - concepts/probe-internal-recognition-sandbagging-audit.md
+  - sources/arxiv-2609-21996-lie-detector-probe-internal-recognition.md
 maturity: draft
 created: 2026-08-18
 updated: 2026-09-11

@@ -12,6 +12,7 @@ related:
   - sources/microsoft-secure-boot.md
   - sources/microsoft-elam.md
   - sources/microsoft-hvci-memory-integrity.md
+  - concepts/tpm-attest-linux-integrity-attestation.md
   - sources/riot-vanguard-on-demand-2026.md
   - sources/google-play-integrity-api.md
   - concepts/hardened-alternative-operating-systems.md

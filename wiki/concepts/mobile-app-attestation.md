@@ -12,6 +12,7 @@ related:
   - concepts/secure-boot-vs-device-ownership.md
   - concepts/hardened-alternative-operating-systems.md
   - entities/tools/grapheneos.md
+  - concepts/tpm-attest-linux-integrity-attestation.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

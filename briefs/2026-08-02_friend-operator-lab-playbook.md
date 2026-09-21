@@ -359,4 +359,8 @@ Read these wiki pages in order after the checklist above:
 
 52. **K348 advisory runtime (2026-09-20)** — before blocking-monitor red-team: `python3 scripts/k348_auto_mode_redteam_precheck.py checklist` (skill: `auto-mode-redteam-precheck`). Phase-0 gate: `bash scripts/adopt_k348_k350_phase0.sh`. K349/K350 audit-only.
 
+53. **TPM attestation + PIR sandbagging + certified guardrails (2026-09-21)** — `@concepts/tpm-attest-linux-integrity-attestation.md` (K351): **TPM 2.0 + IMA** server-verified attestation as Linux anti-cheat alternative — no bypass recipes. `@concepts/probe-internal-recognition-sandbagging-audit.md` (K352): **PIR** internal recognition separates concealment from erasure for sandbagging / unlearning audits (pairs CHIVE). `@concepts/certified-selective-prediction-guardrails.md` (K354): **certified availability** per tool/category/subgroup — not global precision alone (pairs K321/K343).
+
+54. **K352 advisory runtime (2026-09-21)** — before sandbagging / unlearning internal-state eval: `python3 scripts/k352_pir_sandbagging_precheck.py checklist` (skill: `pir-sandbagging-precheck`). Phase-0 gate: `bash scripts/adopt_k351_k354_phase0.sh`. K351/K354 audit-only.
+
 Operator hub: `@concepts/operator-lab-playbook.md`

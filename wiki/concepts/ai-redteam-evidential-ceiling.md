@@ -12,6 +12,7 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/logit-tilting-rare-behaviour-audit.md
+  - concepts/probe-internal-recognition-sandbagging-audit.md
   - concepts/evoflint-multi-turn-redteam-atlas.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/failure-driven-cua-ipi-red-teaming.md

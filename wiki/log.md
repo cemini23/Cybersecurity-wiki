@@ -1,3 +1,17 @@
+## [2026-09-21] ingest | K351–K354 batch (4 inbox PDFs)
+
+Full ingest of **4 NEW** inbox arXiv PDFs (sweep 2026-09-21). Cybersec IDs **K351–K354**. **No clone this batch.**
+
+- **NEW K351–K354** — 3 in-scope pairs: TPM-Attest Linux integrity attestation; PIR sandbagging / unlearning audit; Available Guardrails certified selective prediction.
+- **NEW OOD stub (1)** — PV-Care EEG elder care (2609.22024) — archive only.
+- **Runtime:** `scripts/k352_pir_sandbagging_precheck.py` + CI test; federation skill `pir-sandbagging-precheck`. K351/K354 audit-only.
+- **Phase-0:** `scripts/adopt_k351_k354_phase0.sh` **ALL PASS**; egress archive **pending** (4 PDFs still in inbox — operator shell; gitignored path blocked agent archive).
+- **Phase-1:** K351 → agent-containment; K352 → lab-redteam + agent-audit; K354 → agent-audit.
+- **Dual-ID:** K351–K354 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
+- **Sweeps:** `wiki/sweeps/2026-09-21-daily.md`.
+- **friend brief:** add-ons **53–54**.
+- **Briefs:** `briefs/2026-09-21_k351-k354-ingest.md`.
+
 ## [2026-09-20] ingest | K348–K350 batch (4 inbox PDFs)
 
 Full ingest of **4 NEW** inbox arXiv PDFs (sweeps 2026-09-18–20). Cybersec IDs **K348–K350**. **No clone this batch.**

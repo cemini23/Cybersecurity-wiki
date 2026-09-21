@@ -132,3 +132,7 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 - **K348 Auto Mode blocking classifier red-team (lab, authorized-lab only)** — red-team **blocking monitors** against **persistent malign coding agents**; report **multi-context attacks** separately from single-turn injection ASR; no attack transcript bodies in wiki. **Runtime:** `scripts/k348_auto_mode_redteam_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K348 (none assigned).
 - **K350 LLM-Falsifier CPS (lab, authorized OT/CPS scope only)** — LLM-driven **STL falsification** on owned plants / written engagement; report simulation budget and spec coverage — not a single win rate alone; no plant-specific attack recipes in wiki. Pairs K339. Dual-ID: ≠ CCC K350 (none assigned).
+
+## Sep 21 batch (TPM-Attest 2609.20909 · PIR 2609.21996)
+
+- **K352 PIR sandbagging audit (lab, authorized-lab only)** — internal-state **sandbagging / unlearning verification** eval on owned models; report concealment vs erasure separately; no probe templates or concealment training payloads in wiki. **Runtime:** `scripts/k352_pir_sandbagging_precheck.py` (advisory checklist). Pairs K290 CHIVE + K314. Dual-ID: ≠ CCC K352 (none assigned).

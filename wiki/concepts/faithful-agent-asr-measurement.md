@@ -12,6 +12,7 @@ related:
   - concepts/step-level-agent-guardrails.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/agent-data-injection-attacks.md
+  - concepts/probe-internal-recognition-sandbagging-audit.md
   - concepts/auto-mode-blocking-classifier-redteam.md
 
   - concepts/safety-harness-evolution.md

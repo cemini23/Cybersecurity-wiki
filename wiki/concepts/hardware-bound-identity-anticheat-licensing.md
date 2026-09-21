@@ -23,6 +23,8 @@ related:
   - sources/riot-vanguard-on-demand-2026.md
   - sources/epic-games-v-araujo-hwid-spoofer-judgment.md
   - sources/faceit-enhanced-verification.md
+  - concepts/tpm-attest-linux-integrity-attestation.md
+  - sources/arxiv-2609-20909-tpm-attest-hardware-rooted-integrity-attestation.md
   - entities/tools/battleye.md
   - entities/tools/easy-anti-cheat.md
   - entities/tools/riot-vanguard.md

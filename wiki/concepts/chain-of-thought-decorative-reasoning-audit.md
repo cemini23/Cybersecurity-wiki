@@ -12,6 +12,7 @@ related:
   - concepts/linguistic-illegibility-llm-security.md
   - concepts/compliance-detector-rule-blindness.md
   - sources/arxiv-2608-27417-ood-vlm-retrieval-heads.md
+  - concepts/probe-internal-recognition-sandbagging-audit.md
   - concepts/llm-explanation-necessary-sufficient-audit.md
   - concepts/deep-noir-steering-discovery-chronometry.md
 maturity: draft
