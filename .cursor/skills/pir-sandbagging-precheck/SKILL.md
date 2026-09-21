@@ -6,6 +6,7 @@ description: >-
 license: MIT
 metadata.author: cemini23
 metadata.version: "1.0.0"
+disable-model-invocation: true
 federation: true
 ---
 
