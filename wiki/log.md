@@ -1,3 +1,13 @@
+## [2026-09-21] harness | egress archive + federation skill triage
+
+- **Egress:** 4 K351–K354 PDFs archived to egress-fi (dotted filenames: `arxiv-2609.20909` … `22048`); inbox cleared.
+- **Skills committed (3):** closed-world-tool-check (K369), harness-component-eval (K370), ocp-claim-check (K371).
+- **Helpers copied from CCC:** `closed_world_tool_check.py`, `scout_tool_search.py`, `harness_component_eval.py`, `ocp_claim_check.py` + `config/closed_world_tools.example.json`; extended `test_federation_helper_scripts.py`.
+- **Reverted:** `external-reference-monitor` K314→K326 drift (Cybersec dual-ID canon).
+- **Synced:** `route` OpenCode free-model rank wording (federation v2.4.3).
+- **Kept:** `untrusted-delegation-precheck` WorkDir = CCC or Cybersecurity wiki (delegation_broker_precheck copied here).
+- **friend brief:** n/a.
+
 ## [2026-09-21] ingest | K351–K354 batch (4 inbox PDFs)
 
 Full ingest of **4 NEW** inbox arXiv PDFs (sweep 2026-09-21). Cybersec IDs **K351–K354**. **No clone this batch.**
@@ -5,7 +15,7 @@ Full ingest of **4 NEW** inbox arXiv PDFs (sweep 2026-09-21). Cybersec IDs **K35
 - **NEW K351–K354** — 3 in-scope pairs: TPM-Attest Linux integrity attestation; PIR sandbagging / unlearning audit; Available Guardrails certified selective prediction.
 - **NEW OOD stub (1)** — PV-Care EEG elder care (2609.22024) — archive only.
 - **Runtime:** `scripts/k352_pir_sandbagging_precheck.py` + CI test; federation skill `pir-sandbagging-precheck`. K351/K354 audit-only.
-- **Phase-0:** `scripts/adopt_k351_k354_phase0.sh` **ALL PASS**; egress archive **pending** (4 PDFs still in inbox — operator shell; gitignored path blocked agent archive).
+- **Phase-0:** `scripts/adopt_k351_k354_phase0.sh` **ALL PASS**; archived 4 PDFs to egress-fi (2026-09-21 via `secret_grant` + dotted arXiv filenames).
 - **Phase-1:** K351 → agent-containment; K352 → lab-redteam + agent-audit; K354 → agent-audit.
 - **Dual-ID:** K351–K354 in overlay + k-dual-id rule; `restore_cybersec_dual_id.py --check` OK.
 - **Sweeps:** `wiki/sweeps/2026-09-21-daily.md`.

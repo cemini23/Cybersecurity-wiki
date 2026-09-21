@@ -1,0 +1,8 @@
+{
+  "tools": [
+    {
+      "name": "example-mcp-tool",
+      "allowed_arg_keys": ["query", "limit", "path"]
+    }
+  ]
+}

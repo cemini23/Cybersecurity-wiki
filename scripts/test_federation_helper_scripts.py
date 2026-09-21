@@ -11,6 +11,9 @@ SCRIPTS = (
     "harness_eval_checklist.py",
     "delegation_broker_precheck.py",
     "agent_queue_labels.py",
+    "harness_component_eval.py",
+    "ocp_claim_check.py",
+    "closed_world_tool_check.py",
 )
 
 
@@ -30,7 +33,11 @@ def test_selftests() -> None:
 
 
 def test_checklist_commands() -> None:
-    for script in ("harness_eval_checklist.py", "delegation_broker_precheck.py"):
+    for script in (
+        "harness_eval_checklist.py",
+        "delegation_broker_precheck.py",
+        "harness_component_eval.py",
+    ):
         cp = _run(script, "checklist")
         assert cp.returncode == 0, f"{script} checklist failed: {cp.stderr}"
         assert cp.stdout.strip(), f"{script} checklist empty"
