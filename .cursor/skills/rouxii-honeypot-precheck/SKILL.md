@@ -1,7 +1,7 @@
 ---
 name: rouxii-honeypot-precheck
 description: >-
-  K361 advisory checklist. Authorized lab only. No probe payloads in wiki.
+  K361 deception-aware honeypot AI pentest eval checklist. Owned lab / written scope only.
 license: MIT
 metadata.author: cemini23
 metadata.version: "1.0.0"
@@ -20,9 +20,9 @@ python3 scripts/k361_rouxii_honeypot_precheck.py selftest
 
 Canon: `@cybersecurity-wiki/concepts/deception-aware-honeypot-ai-pentesters-rouxii.md` (arXiv **2609.26555**).
 
-Operator-invoked; HITL before harness writes.
+Include deception-aware baselines when evaluating honeypots vs LLM pentesters (pairs K341).
 
 ## NEVER
 
-- No attack payloads or evolved harness bodies in wiki.
+- No counter-deception playbooks in wiki.
 - No LIVE third-party model probing without written scope.

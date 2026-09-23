@@ -6,6 +6,7 @@ Full ingest of **10 NEW** inbox arXiv PDFs. Cybersec IDs **K355–K363** + **1 O
 - **OOD** — Figma AI product design RCT (2609.26725).
 - **Runtime:** k358/k359/k361 precheck scripts + CI tests; federation skills rrsi-harness-precheck, covert-agentic-comm-precheck, rouxii-honeypot-precheck.
 - **Phase-0:** scripts/adopt_k355_k363_phase0.sh ALL PASS.
+- **Egress:** 10 PDFs archived to egress-fi; inbox cleared (2026-09-23)
 - **Phase-1:** K355/K357/K358/K363 agent-audit; K356/K359/K360/K361 lab-redteam; K362 mcp-tool-control.
 - **friend brief:** add-ons 55–56.
 

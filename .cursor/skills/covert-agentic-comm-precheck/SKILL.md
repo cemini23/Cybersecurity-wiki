@@ -1,7 +1,7 @@
 ---
 name: covert-agentic-comm-precheck
 description: >-
-  K359 advisory checklist. Authorized lab only. No probe payloads in wiki.
+  K359 inference-time covert agentic communication eval checklist. Authorized lab only. Pairs K298/K347.
 license: MIT
 metadata.author: cemini23
 metadata.version: "1.0.0"
@@ -20,9 +20,9 @@ python3 scripts/k359_covert_agentic_comm_precheck.py selftest
 
 Canon: `@cybersecurity-wiki/concepts/inference-time-covert-agentic-communication.md` (arXiv **2609.24994**).
 
-Operator-invoked; HITL before harness writes.
+Measure benign-output predicates; account for all visible exits in agent loops.
 
 ## NEVER
 
-- No attack payloads or evolved harness bodies in wiki.
+- No channel encoding recipes or decoder PoCs in wiki.
 - No LIVE third-party model probing without written scope.
