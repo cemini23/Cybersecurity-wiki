@@ -15,6 +15,8 @@ related:
   - concepts/security-agent-authority-auditability-slr.md
   - concepts/agent-runtime-guardrails.md
   - concepts/linguistic-illegibility-llm-security.md
+  - concepts/genai-access-control-policy-enforcement.md
+  - sources/arxiv-2609-26682-genai-access-control-policy-enforcement.md
 maturity: draft
 created: 2026-08-31
 updated: 2026-08-31

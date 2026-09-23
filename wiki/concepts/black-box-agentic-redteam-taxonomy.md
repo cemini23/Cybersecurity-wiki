@@ -10,6 +10,8 @@ related:
   - concepts/evoflint-multi-turn-redteam-atlas.md
   - concepts/agent-runtime-guardrails.md
   - concepts/secure-ai-powered-pentest-agents.md
+  - concepts/cross-dimensional-agentic-ai-security-taxonomy.md
+  - sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md
 maturity: draft
 created: 2026-09-11
 updated: 2026-09-16

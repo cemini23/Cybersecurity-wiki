@@ -1,3 +1,14 @@
+## [2026-09-23] ingest | K355–K363 batch (10 inbox PDFs)
+
+Full ingest of **10 NEW** inbox arXiv PDFs. Cybersec IDs **K355–K363** + **1 OOD** (Figma product design). **No clone this batch.**
+
+- **K355–K363** — cross-dimensional agentic taxonomy; GRAW Wi-Fi HAR privacy; culturally responsive benchmark audit; RRSI harness RSI; covert agentic comms; quantum ROP REFERENCE; Rouxii deception-aware pentesters; GenAI access-control policy; LLM vuln repair metrics audit.
+- **OOD** — Figma AI product design RCT (2609.26725).
+- **Runtime:** k358/k359/k361 precheck scripts + CI tests; federation skills rrsi-harness-precheck, covert-agentic-comm-precheck, rouxii-honeypot-precheck.
+- **Phase-0:** scripts/adopt_k355_k363_phase0.sh ALL PASS.
+- **Phase-1:** K355/K357/K358/K363 agent-audit; K356/K359/K360/K361 lab-redteam; K362 mcp-tool-control.
+- **friend brief:** add-ons 55–56.
+
 ## [2026-09-21] harness | egress archive + federation skill triage
 
 - **Egress:** 4 K351–K354 PDFs archived to egress-fi (dotted filenames: `arxiv-2609.20909` … `22048`); inbox cleared.

@@ -425,6 +425,25 @@
 | @concepts/probe-internal-recognition-sandbagging-audit.md | draft | Sandbagging / unlearning internal-state audit |
 | @sources/arxiv-2609-22048-available-guardrails-selective-prediction.md | draft | Available Guardrails selective prediction (2609.22048; K354) |
 | @concepts/certified-selective-prediction-guardrails.md | draft | Certified availability per reporting unit |
+| @sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md | draft | Cross-dimensional agentic AI security taxonomy (2609.23894; K355) |
+| @concepts/cross-dimensional-agentic-ai-security-taxonomy.md | draft | T=⟨S,B,P,A⟩ threat/eval maturity map |
+| @sources/arxiv-2609-24173-graw-wifi-har-privacy-perturbation.md | draft | GRAW Wi-Fi HAR privacy perturbation (2609.24173; K356) |
+| @concepts/wifi-har-privacy-perturbation-graw.md | draft | CSI HAR privacy defender (authorized RF lab) |
+| @sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md | draft | Culturally responsive LLM benchmark audit (2609.24934; K357) |
+| @concepts/culturally-responsive-llm-benchmark-audit.md | draft | Whose facts count — benchmark audit |
+| @sources/arxiv-2609-24972-rrsi-regularized-harness-self-improvement.md | draft | RRSI harness self-improvement (2609.24972; K358) |
+| @concepts/rrsi-regularized-harness-self-improvement.md | draft | Regularized recursive harness RSI |
+| @sources/arxiv-2609-24994-feedback-coding-covert-agentic-communication.md | draft | Covert agentic communication (2609.24994; K359) |
+| @concepts/inference-time-covert-agentic-communication.md | draft | Inference-time benign-output covert channels |
+| @sources/arxiv-2609-25364-quantum-rop-chain-selection.md | draft | Quantum ROP gadget selection (2609.25364; K360) |
+| @concepts/quantum-rop-combinatorial-selection.md | draft | QUBO/QAOA ROP selection (REFERENCE) |
+| @sources/arxiv-2609-26555-rouxii-deception-aware-ai-pentesters.md | draft | Rouxii deception-aware pentesters (2609.26555; K361) |
+| @concepts/deception-aware-honeypot-ai-pentesters-rouxii.md | draft | Honeypot eval with deception-aware agents |
+| @sources/arxiv-2609-26682-genai-access-control-policy-enforcement.md | draft | GenAI access-control policy (2609.26682; K362) |
+| @concepts/genai-access-control-policy-enforcement.md | draft | Alignment vs access-control enforcement |
+| @sources/arxiv-2609-26725-figma-ai-product-design-ood.md | draft | OOD Figma AI product design RCT (2609.26725) |
+| @sources/arxiv-2609-26749-llm-vulnerability-repair-metrics-failure.md | draft | LLM vuln repair metrics failure (2609.26749; K363) |
+| @concepts/llm-vuln-repair-metrics-audit.md | draft | Compile rate ≠ semantic vuln repair |
 | @sources/arxiv-2609-22024-pv-care-ood.md | draft | OOD PV-Care EEG elder care (2609.22024) |
 | @sources/arxiv-2609-20816-paint-anything-ood.md | draft | OOD Paint-Anything image generation (2609.20816) |
 | @sources/arxiv-2609-18842-infinite-parameter-llms-live-data.md | draft | OOD infinite-parameter LLMs from live data |

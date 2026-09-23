@@ -10,7 +10,7 @@ description: >-
   not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.4.3"
+metadata.version: "2.4.4"
 federation: true
 ---
 
@@ -187,6 +187,18 @@ $env:ROUTE_SKIP_OPENCODE = "1"  # this run: skip Zen sidecar
 .\scripts\select-openrouter-free-model.ps1  # print best live OpenRouter free model id
 .\scripts\select-opencode-zen-free-model.ps1  # print best live Zen free model id
 ```
+
+
+## Step-gate + federation skill ship (K312/K373)
+
+- **PreToolUse HOLD** blocks Cursor Write/Edit/Bash that mention `.cursor/skills` mutation.
+- **Route implement** for new federation skills: Grok/isolated agent **or**:
+  ```bash
+  python3 scripts/federation_skill_install.py write --name X --body-file /tmp/body.md
+  python3 scripts/federation_skill_install.py sync
+  ```
+- **Never** parent Cursor Write to `.cursor/skills` after `/route` returns a draft.
+- **Mid/hard skill/harness leftovers:** route to Grok CLI implement with **commit + sync** in handoff `## Verify`.
 
 ## Related
 

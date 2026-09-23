@@ -14,6 +14,8 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/asleval-privacy-exposure-displacement.md
+  - concepts/inference-time-covert-agentic-communication.md
+  - sources/arxiv-2609-24994-feedback-coding-covert-agentic-communication.md
 maturity: draft
 created: 2026-08-21
 updated: 2026-09-17

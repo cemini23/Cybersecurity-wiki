@@ -11,6 +11,7 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/agent-safety-executable-evaluation.md
+  - concepts/culturally-responsive-llm-benchmark-audit.md
 maturity: draft
 created: 2026-09-02
 updated: 2026-09-02

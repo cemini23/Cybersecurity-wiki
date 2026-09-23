@@ -8,6 +8,8 @@ related:
   - concepts/multilingual-long-horizon-agent-evaluation.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
+  - concepts/culturally-responsive-llm-benchmark-audit.md
+  - sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

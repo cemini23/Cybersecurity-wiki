@@ -42,6 +42,9 @@ jobs:
           python3 scripts/test_k347_asleval_precheck.py
           python3 scripts/test_k348_auto_mode_redteam_precheck.py
           python3 scripts/test_k352_pir_sandbagging_precheck.py
+          python3 scripts/test_k358_rrsi_harness_precheck.py
+          python3 scripts/test_k359_covert_agentic_comm_precheck.py
+          python3 scripts/test_k361_rouxii_honeypot_precheck.py
           python3 scripts/test_federation_helper_scripts.py
 
       - name: wiki_lint (strict local links + bidirectional)

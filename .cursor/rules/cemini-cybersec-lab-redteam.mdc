@@ -136,3 +136,11 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 ## Sep 21 batch (TPM-Attest 2609.20909 · PIR 2609.21996)
 
 - **K352 PIR sandbagging audit (lab, authorized-lab only)** — internal-state **sandbagging / unlearning verification** eval on owned models; report concealment vs erasure separately; no probe templates or concealment training payloads in wiki. **Runtime:** `scripts/k352_pir_sandbagging_precheck.py` (advisory checklist). Pairs K290 CHIVE + K314. Dual-ID: ≠ CCC K352 (none assigned).
+
+## Sep 23 batch (GRAW 2609.24173 · Covert comms 2609.24994 · Quantum ROP 2609.25364 · Rouxii 2609.26555)
+
+- **K356 GRAW Wi-Fi HAR privacy (lab, authorized RF only)** — CSI HAR privacy defender via remote perturbation; **owned devices / authorized spectrum** — no unauthorized eavesdrop. REFERENCE.
+- **K359 Covert agentic communication (lab, authorized-lab only)** — inference-time **benign-output covert channels** in agent loops; **no steganography recipes in wiki** (pairs K298/K347). **Runtime:** `scripts/k359_covert_agentic_comm_precheck.py`. Dual-ID: ≠ CCC K359 (none assigned).
+- **K360 Quantum ROP selection (lab, methodology REFERENCE)** — QUBO/QAOA gadget selection research angle; **no ROP payloads in wiki**. Dual-ID: ≠ CCC K360 Emergence World.
+- **K361 Rouxii deception-aware pentesters (lab, authorized-lab only)** — honeypot eval must include **deception-aware** agent baselines; owned honeypots/written scope only; **no counter-deception playbooks in wiki**. **Runtime:** `scripts/k361_rouxii_honeypot_precheck.py`. Dual-ID: ≠ CCC K361 (none assigned).
+

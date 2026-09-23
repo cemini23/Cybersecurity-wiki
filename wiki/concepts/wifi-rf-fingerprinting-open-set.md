@@ -10,6 +10,7 @@ related:
   - concepts/hardware-id-masking-opsec.md
   - concepts/side-sensor-impersonation-edge-detection.md
   - concepts/through-wall-detection-sdr-pca.md
+  - concepts/wifi-har-privacy-perturbation-graw.md
 maturity: draft
 created: 2026-09-03
 updated: 2026-09-17

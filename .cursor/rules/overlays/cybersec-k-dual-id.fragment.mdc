@@ -65,4 +65,14 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K354 Available Guardrails selective prediction (2609.22048) ≠ CCC K354 (none assigned) — certified availability per reporting unit
 - Inbound K240 Tripwire; K241 bbot AGPL Extract; K242 BloodBash Extract
 
-K300–K354 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+- K355 Cross-dimensional agentic AI taxonomy (2609.23894) ≠ CCC K355 (none assigned)
+- K356 GRAW Wi-Fi HAR privacy perturbation (2609.24173) — authorized RF lab
+- K357 Culturally responsive LLM benchmark audit (2609.24934)
+- K358 RRSI regularized harness self-improvement (2609.24972) ≠ CCC K358 (none assigned)
+- K359 Inference-time covert agentic communication (2609.24994) ≠ CCC K359 (none assigned)
+- K360 Quantum ROP combinatorial selection (2609.25364) ≠ CCC K360 Emergence World
+- K361 Rouxii deception-aware honeypot pentesters (2609.26555) ≠ CCC K361 (none assigned)
+- K362 GenAI access-control policy enforcement (2609.26682) ≠ CCC K362 Social Harness
+- K363 LLM vuln repair metrics failure (2609.26749)
+
+K300–K363 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

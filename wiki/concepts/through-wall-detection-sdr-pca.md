@@ -8,6 +8,8 @@ related:
   - concepts/wifi-rf-fingerprinting-open-set.md
   - concepts/side-sensor-impersonation-edge-detection.md
   - concepts/horffi-high-openness-rffi.md
+  - concepts/wifi-har-privacy-perturbation-graw.md
+  - sources/arxiv-2609-24173-graw-wifi-har-privacy-perturbation.md
 maturity: draft
 created: 2026-09-17
 updated: 2026-09-17

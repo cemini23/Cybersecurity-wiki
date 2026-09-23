@@ -70,5 +70,14 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K351 TPM-Attest Linux attestation (2609.20909) ≠ CCC K351 (none assigned) — TPM+IMA anti-cheat alternative; no bypass recipes
 - K352 PIR sandbagging audit (2609.21996) ≠ CCC K352 (none assigned) — internal recognition for concealment vs erasure
 - K354 Available Guardrails selective prediction (2609.22048) ≠ CCC K354 (none assigned) — certified availability per reporting unit
+- K355 Cross-dimensional agentic AI taxonomy (2609.23894) ≠ CCC K355 (none assigned)
+- K356 GRAW Wi-Fi HAR privacy perturbation (2609.24173) — authorized RF lab
+- K357 Culturally responsive LLM benchmark audit (2609.24934)
+- K358 RRSI regularized harness self-improvement (2609.24972) ≠ CCC K358 (none assigned)
+- K359 Inference-time covert agentic communication (2609.24994) ≠ CCC K359 (none assigned)
+- K360 Quantum ROP combinatorial selection (2609.25364) ≠ CCC K360 Emergence World
+- K361 Rouxii deception-aware honeypot pentesters (2609.26555) ≠ CCC K361 (none assigned)
+- K362 GenAI access-control policy enforcement (2609.26682) ≠ CCC K362 Social Harness
+- K363 LLM vuln repair metrics failure (2609.26749)
 
-K300–K354 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K363 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

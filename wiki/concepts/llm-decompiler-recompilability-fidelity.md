@@ -8,6 +8,7 @@ related:
   - concepts/malware-analysis.md
   - concepts/exploit-development.md
   - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/llm-vuln-repair-metrics-audit.md
 maturity: draft
 created: 2026-09-11
 updated: 2026-09-11

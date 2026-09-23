@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-23 | Full ingest K355–K363 (10 PDFs) + 1 OOD stub | Agentic cross-dimensional taxonomy; GRAW HAR privacy; cultural benchmark audit; RRSI harness RSI; covert agentic comms; Rouxii honeypot pentesters; GenAI access-control; vuln repair metrics; k358/k359/k361 prechecks + skills; friend add-ons 55–56 |
 | 2026-09-21 | Full ingest K351–K354 (4 PDFs) + 1 OOD stub | TPM-Attest Linux attestation; PIR sandbagging audit; Available Guardrails certified selective prediction; k352 precheck + skill; sweep Sep 21; friend add-ons 53–54 |
 | 2026-09-20 | Full ingest K348–K350 (4 PDFs) + 1 OOD stub | Auto Mode malign-agent monitor red-team; Deep Noir steering audit; LLM-Falsifier CPS; k348 precheck + skill; sweeps Sep 18–20; friend add-ons 51–52 |
 | 2026-09-17 | Federation skill triage + helper scripts | 11 federation skills committed; CCC helpers `harness_eval_checklist`, `delegation_broker_precheck`, `agent_queue_labels` + CI; K314 external-reference-monitor drift reverted; SPDX re-hunt 2026-09-17 all HOLD/WATCH unchanged |

@@ -87,3 +87,11 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 
 - **K352 PIR sandbagging audit (audit + lab)** — **Probe of Internal Recognition** separates concealment from genuine erasure for sandbagging / unlearning verification; reference-free internal readout is **not enforcement** — pair counterfactual tests (K290 CHIVE) and recognition≠enforcement (K314). **No probe templates or concealment payloads in wiki.** **Runtime:** `scripts/k352_pir_sandbagging_precheck.py` (advisory checklist). Dual-ID: ≠ CCC K352 (none assigned).
 - **K354 Available Guardrails (audit)** — **certified selective prediction availability** per reporting unit (tool, category, subgroup) — plan safety–granularity–traffic trade-offs; finite-sample coverage can erase population gains; pairs K321 construct validity + K343 CoSQ abstention. REFERENCE. Dual-ID: ≠ CCC K354 (none assigned).
+
+## Sep 23 batch (Agentic taxonomy 2609.23894 · RRSI 2609.24972 · Covert comms 2609.24994 · Vuln repair metrics 2609.26749)
+
+- **K355 Cross-dimensional agentic AI taxonomy (audit)** — map threats/evals on **T = ⟨S, B, P, A⟩** dimensions; report coverage gaps vs known landscape, not fleet-mean ASR alone. Pairs K315/K327. Dual-ID: ≠ CCC K355 (none assigned).
+- **K357 Culturally responsive benchmark audit (audit)** — benchmark facts embed cultural defaults; require **whose facts count** review for safety/RAG/agent eval (pairs K272/K321). REFERENCE.
+- **K358 RRSI harness self-improvement (audit + HITL)** — **regularized recursive harness edits** are system-level RSI; never unattended prod harness/skill auto-evolve; validation ratchet + rollback required (pairs K324). **Runtime:** `scripts/k358_rrsi_harness_precheck.py`. Dual-ID: ≠ CCC K358 (none assigned).
+- **K363 LLM vuln repair metrics (audit)** — **compile rate ≠ semantic fix** for C/C++ repair benchmarks; require change-aware screening and semantic validation before auto-patch claims. REFERENCE.
+

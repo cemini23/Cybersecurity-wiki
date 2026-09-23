@@ -14,6 +14,9 @@ related:
   - concepts/agent-data-injection-attacks.md
   - concepts/probe-internal-recognition-sandbagging-audit.md
   - concepts/auto-mode-blocking-classifier-redteam.md
+  - concepts/deception-aware-honeypot-ai-pentesters-rouxii.md
+  - concepts/cross-dimensional-agentic-ai-security-taxonomy.md
+  - concepts/rrsi-regularized-harness-self-improvement.md
 
   - concepts/safety-harness-evolution.md
   - concepts/ai-for-cybersecurity.md

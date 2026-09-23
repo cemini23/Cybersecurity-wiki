@@ -11,6 +11,7 @@ related:
   - sources/arxiv-2609-01519-guardrail-construct-validity.md
   - concepts/agent-runtime-guardrails.md
   - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/genai-access-control-policy-enforcement.md
 maturity: draft
 created: 2026-09-21
 updated: 2026-09-21

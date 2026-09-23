@@ -10,6 +10,8 @@ related:
   - concepts/self-evolving-runtime-defense.md
   - concepts/evoskill-injection-self-evolving-agents.md
   - concepts/agent-safety-executable-evaluation.md
+  - concepts/rrsi-regularized-harness-self-improvement.md
+  - sources/arxiv-2609-24972-rrsi-regularized-harness-self-improvement.md
 maturity: draft
 created: 2026-09-03
 updated: 2026-09-03

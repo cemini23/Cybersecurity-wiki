@@ -9,6 +9,7 @@ related:
   - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/agent-runtime-guardrails.md
   - sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md
+  - concepts/llm-vuln-repair-metrics-audit.md
 maturity: draft
 created: 2026-08-26
 updated: 2026-08-26

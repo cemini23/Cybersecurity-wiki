@@ -15,6 +15,8 @@ related:
   - concepts/black-box-agentic-redteam-taxonomy.md
   - concepts/bluestar-tiered-agentic-cyber-defense.md
   - concepts/sentinel-rl-soc-topological-reasoning.md
+  - concepts/cross-dimensional-agentic-ai-security-taxonomy.md
+  - sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md
 maturity: draft
 created: 2026-08-31
 updated: 2026-09-11

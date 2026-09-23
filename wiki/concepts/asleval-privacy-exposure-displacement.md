@@ -9,6 +9,7 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/inadvertent-context-leakage.md
   - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/inference-time-covert-agentic-communication.md
 maturity: draft
 created: 2026-09-17
 updated: 2026-09-17

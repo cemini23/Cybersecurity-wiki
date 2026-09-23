@@ -16,6 +16,7 @@ related:
   - entities/certifications/ecppt.md
   - entities/tools/deepzero.md
   - entities/people/joas-a-santos.md
+  - concepts/quantum-rop-combinatorial-selection.md
 maturity: validated
 created: 2026-05-15
 updated: 2026-08-03

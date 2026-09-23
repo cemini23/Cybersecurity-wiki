@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-20
+updated: 2026-09-23
 ---
 
 
@@ -363,4 +363,10 @@ Read these wiki pages in order after the checklist above:
 
 54. **K352 advisory runtime (2026-09-21)** — before sandbagging / unlearning internal-state eval: `python3 scripts/k352_pir_sandbagging_precheck.py checklist` (skill: `pir-sandbagging-precheck`). Phase-0 gate: `bash scripts/adopt_k351_k354_phase0.sh`. K351/K354 audit-only.
 
+
+55. **Agentic taxonomy + harness RSI + honeypot deception (2026-09-23)** — `@concepts/cross-dimensional-agentic-ai-security-taxonomy.md` (K355): map agentic threats/evals on **T = ⟨S, B, P, A⟩**. `@concepts/rrsi-regularized-harness-self-improvement.md` (K358): harness RSI = **HITL + rollback**. `@concepts/deception-aware-honeypot-ai-pentesters-rouxii.md` (K361): deception-aware honeypot baselines. `@concepts/inference-time-covert-agentic-communication.md` (K359): covert channels in agent outputs (pairs K298).
+
+56. **K358/K359/K361 advisory runtime (2026-09-23)** — `k358_rrsi_harness_precheck.py`, `k359_covert_agentic_comm_precheck.py`, `k361_rouxii_honeypot_precheck.py` + matching skills. Phase-0: `adopt_k355_k363_phase0.sh`. K356/K357/K360/K362/K363 audit-only.
+
 Operator hub: `@concepts/operator-lab-playbook.md`
+
