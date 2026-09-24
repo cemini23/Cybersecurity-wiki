@@ -144,3 +144,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K360 Quantum ROP selection (lab, methodology REFERENCE)** — QUBO/QAOA gadget selection research angle; **no ROP payloads in wiki**. Dual-ID: ≠ CCC K360 Emergence World.
 - **K361 Rouxii deception-aware pentesters (lab, authorized-lab only)** — honeypot eval must include **deception-aware** agent baselines; owned honeypots/written scope only; **no counter-deception playbooks in wiki**. **Runtime:** `scripts/k361_rouxii_honeypot_precheck.py`. Dual-ID: ≠ CCC K361 (none assigned).
 
+## Sep 24 batch (RF UAV 2609.25294 · BLE re-id 2609.26079)
+
+- **K364 Controller-only RF false confirmation (lab, authorized RF only)** — passive counter-UAV RF eval must include **controller-only** state; high clutter accuracy can mask false link confirmation. Owned/authorized spectrum only.
+- **K365 BLE MAC randomization re-id (lab, owned devices only)** — RPA does not eliminate advertising-structure linkability; test **service authorization** not radio anonymity alone. **Runtime:** `scripts/k365_ble_reid_lab_precheck.py`. Dual-ID: ≠ CCC K365 (MCP privacy brief steal). Pairs K305 BT-NFT.
+

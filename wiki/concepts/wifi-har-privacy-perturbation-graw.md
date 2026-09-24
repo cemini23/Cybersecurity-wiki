@@ -7,6 +7,7 @@ related:
   - sources/arxiv-2609-24173-graw-wifi-har-privacy-perturbation.md
   - concepts/through-wall-detection-sdr-pca.md
   - concepts/wifi-rf-fingerprinting-open-set.md
+  - concepts/passive-rf-uav-controller-only-false-confirmation.md
 maturity: draft
 created: 2026-09-23
 updated: 2026-09-23

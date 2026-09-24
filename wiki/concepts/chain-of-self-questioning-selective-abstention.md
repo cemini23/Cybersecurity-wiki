@@ -11,6 +11,7 @@ related:
   - concepts/compliance-detector-rule-blindness.md
   - concepts/certified-selective-prediction-guardrails.md
   - sources/arxiv-2609-22048-available-guardrails-selective-prediction.md
+  - concepts/reliable-inference-procurement-routing.md
 maturity: draft
 created: 2026-09-16
 updated: 2026-09-16

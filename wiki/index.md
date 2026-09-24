@@ -425,6 +425,15 @@
 | @concepts/probe-internal-recognition-sandbagging-audit.md | draft | Sandbagging / unlearning internal-state audit |
 | @sources/arxiv-2609-22048-available-guardrails-selective-prediction.md | draft | Available Guardrails selective prediction (2609.22048; K354) |
 | @concepts/certified-selective-prediction-guardrails.md | draft | Certified availability per reporting unit |
+| @sources/arxiv-2609-25294-controller-only-false-confirmation-rf-uav.md | draft | RF UAV controller-only false confirmation (2609.25294; K364) |
+| @concepts/passive-rf-uav-controller-only-false-confirmation.md | draft | Passive RF counter-UAV eval cells |
+| @sources/arxiv-2609-26079-ble-mac-randomization-reidentification.md | draft | BLE re-id under MAC randomization (2609.26079; K365) |
+| @concepts/ble-mac-randomization-reidentification-lab.md | draft | BLE RPA linkability lab pattern |
+| @sources/arxiv-2609-28322-learning-cost-reliable-inference.md | draft | Cost of reliable inference (2609.28322; K366) |
+| @concepts/reliable-inference-procurement-routing.md | draft | Quality-tier model procurement routing |
+| @sources/arxiv-2609-28372-agentic-ai-surrogate-consumer-ood.md | draft | OOD surrogate consumer shopping (2609.28372) |
+| @sources/arxiv-2609-28395-translation-finetune-forgetting-mt-instruction.md | draft | MT fine-tune forgetting (2609.28395; K368) |
+| @concepts/translation-finetune-forgetting-mt-instruction-audit.md | draft | MT-IF audit after domain fine-tune |
 | @sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md | draft | Cross-dimensional agentic AI security taxonomy (2609.23894; K355) |
 | @concepts/cross-dimensional-agentic-ai-security-taxonomy.md | draft | T=⟨S,B,P,A⟩ threat/eval maturity map |
 | @sources/arxiv-2609-24173-graw-wifi-har-privacy-perturbation.md | draft | GRAW Wi-Fi HAR privacy perturbation (2609.24173; K356) |

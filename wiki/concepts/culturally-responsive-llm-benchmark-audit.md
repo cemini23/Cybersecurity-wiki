@@ -7,6 +7,7 @@ related:
   - sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md
   - concepts/cross-lingual-safety-transfer-lrl.md
   - concepts/guardrail-construct-validity-agent-eval.md
+  - concepts/translation-finetune-forgetting-mt-instruction-audit.md
 maturity: draft
 created: 2026-09-23
 updated: 2026-09-23

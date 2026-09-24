@@ -1,3 +1,13 @@
+## [2026-09-24] ingest | K364–K368 batch (5 inbox PDFs)
+
+Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K364–K366**, **K368** + **1 OOD** (surrogate shopper). **No clone.**
+
+- **K364–K368** — RF UAV controller-only false confirmation; BLE MAC re-id lab; reliable inference procurement; MT fine-tune forgetting audit.
+- **OOD** — agentic AI surrogate consumer shopping (2609.28372).
+- **Runtime:** `k365_ble_reid_lab_precheck.py` + CI test; skill `ble-reid-lab-precheck` (CCC sync pending).
+- **Phase-0:** `adopt_k364_k368_phase0.sh`.
+- **friend brief:** add-ons **57–58**.
+
 ## [2026-09-23] ingest | K355–K363 batch (10 inbox PDFs)
 
 Full ingest of **10 NEW** inbox arXiv PDFs. Cybersec IDs **K355–K363** + **1 OOD** (Figma product design). **No clone this batch.**

@@ -10,6 +10,8 @@ related:
   - concepts/horffi-high-openness-rffi.md
   - concepts/wifi-har-privacy-perturbation-graw.md
   - sources/arxiv-2609-24173-graw-wifi-har-privacy-perturbation.md
+  - concepts/passive-rf-uav-controller-only-false-confirmation.md
+  - sources/arxiv-2609-25294-controller-only-false-confirmation-rf-uav.md
 maturity: draft
 created: 2026-09-17
 updated: 2026-09-17

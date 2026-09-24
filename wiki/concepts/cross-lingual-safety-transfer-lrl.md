@@ -10,6 +10,8 @@ related:
   - concepts/ai-for-cybersecurity.md
   - concepts/culturally-responsive-llm-benchmark-audit.md
   - sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md
+  - concepts/translation-finetune-forgetting-mt-instruction-audit.md
+  - sources/arxiv-2609-28395-translation-finetune-forgetting-mt-instruction.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12

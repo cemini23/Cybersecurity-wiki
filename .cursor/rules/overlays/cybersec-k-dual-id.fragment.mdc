@@ -75,4 +75,9 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K362 GenAI access-control policy enforcement (2609.26682) ≠ CCC K362 Social Harness
 - K363 LLM vuln repair metrics failure (2609.26749)
 
-K300–K363 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+- K364 Passive RF UAV controller-only false confirmation (2609.25294) — authorized RF lab
+- K365 BLE MAC randomization re-identification (2609.26079) ≠ CCC K365 MCP privacy steal
+- K366 Reliable inference procurement routing (2609.28322)
+- K368 Translation fine-tune forgetting MT-IF (2609.28395)
+
+K300–K368 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

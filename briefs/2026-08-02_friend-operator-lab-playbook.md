@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-23
+updated: 2026-09-24
 ---
 
 
@@ -368,5 +368,11 @@ Read these wiki pages in order after the checklist above:
 
 56. **K358/K359/K361 advisory runtime (2026-09-23)** — `k358_rrsi_harness_precheck.py`, `k359_covert_agentic_comm_precheck.py`, `k361_rouxii_honeypot_precheck.py` + matching skills. Phase-0: `adopt_k355_k363_phase0.sh`. K356/K357/K360/K362/K363 audit-only.
 
+
+57. **RF + BLE lab eval cells (2026-09-24)** — `@concepts/passive-rf-uav-controller-only-false-confirmation.md` (K364): include **controller-only** RF state in counter-UAV eval. `@concepts/ble-mac-randomization-reidentification-lab.md` (K365): MAC randomization ≠ unlinkability; test **service auth** (pairs K305).
+
+58. **K365 advisory runtime (2026-09-24)** — before BLE re-id lab: `python3 scripts/k365_ble_reid_lab_precheck.py checklist`. Phase-0: `bash scripts/adopt_k364_k368_phase0.sh`. K364/K366/K368 audit-only.
+
 Operator hub: `@concepts/operator-lab-playbook.md`
+
 

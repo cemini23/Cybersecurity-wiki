@@ -6,6 +6,8 @@ keywords: [NFT soft pairing, NFBT, NFDT, Bluetooth pairing, decouple pairing fro
 related:
   - sources/arxiv-2608-22754-bluetooth-nft-soft-pairing.md
   - concepts/wireless-pentest.md
+  - concepts/ble-mac-randomization-reidentification-lab.md
+  - sources/arxiv-2609-26079-ble-mac-randomization-reidentification.md
 maturity: draft
 created: 2026-08-25
 updated: 2026-08-25

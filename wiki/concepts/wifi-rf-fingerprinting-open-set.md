@@ -11,6 +11,7 @@ related:
   - concepts/side-sensor-impersonation-edge-detection.md
   - concepts/through-wall-detection-sdr-pca.md
   - concepts/wifi-har-privacy-perturbation-graw.md
+  - concepts/ble-mac-randomization-reidentification-lab.md
 maturity: draft
 created: 2026-09-03
 updated: 2026-09-17

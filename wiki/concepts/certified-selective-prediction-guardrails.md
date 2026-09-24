@@ -12,6 +12,8 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/measurement-integrity-mcp-security-eval.md
   - concepts/genai-access-control-policy-enforcement.md
+  - concepts/reliable-inference-procurement-routing.md
+  - sources/arxiv-2609-28322-learning-cost-reliable-inference.md
 maturity: draft
 created: 2026-09-21
 updated: 2026-09-21

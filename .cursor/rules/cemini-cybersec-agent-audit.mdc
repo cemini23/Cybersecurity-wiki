@@ -95,3 +95,8 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - **K358 RRSI harness self-improvement (audit + HITL)** — **regularized recursive harness edits** are system-level RSI; never unattended prod harness/skill auto-evolve; validation ratchet + rollback required (pairs K324). **Runtime:** `scripts/k358_rrsi_harness_precheck.py`. Dual-ID: ≠ CCC K358 (none assigned).
 - **K363 LLM vuln repair metrics (audit)** — **compile rate ≠ semantic fix** for C/C++ repair benchmarks; require change-aware screening and semantic validation before auto-patch claims. REFERENCE.
 
+## Sep 24 batch (Reliable inference cost 2609.28322 · MT fine-tune forgetting 2609.28395)
+
+- **K366 Reliable inference procurement (audit)** — model routing marketplaces should report **quality tier + cost** jointly, not flat token price alone. Pairs K354/K343. REFERENCE.
+- **K368 Translation fine-tune forgetting (audit)** — general forgetting mitigation ≠ **MT-specific instruction following** after parallel-data FT; re-run task-specific eval (pairs K304 RIM). REFERENCE.
+
