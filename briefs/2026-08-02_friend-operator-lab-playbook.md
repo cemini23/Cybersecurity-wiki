@@ -84,6 +84,14 @@ Upstream capability base (do not skip): official [`deepseek-ai/DeepSeek-V4-Flash
 | **Executor** | Extra **~10–24 GB** | 7B–14B coder-abliterated always hot |
 | **Do not buy for A** | Single **48 GB** as Flash host | Wrong class |
 
+**Rent-before-buy (path A1 — do this before multi-GPU purchase):**
+
+- [ ] Cap cloud spend in writing (48–72 h smoke budget is enough for a first gate).
+- [ ] Rent **2× H200-class** (or equivalent **~160–320 GB** VRAM) on Lambda / RunPod / Vast — same Linux + vLLM/SGLang path you plan to run owned.
+- [ ] Pull **current rank-1** planner (default **cebeuq**); run refusal + **tool-call** smoke on in-scope prompts (abliteration ≠ universal uncensor).
+- [ ] Re-read the planner ranking table **same week** as the buy decision — do not purchase against a stale HF slug.
+- [ ] Only after smoke passes: commit to owned **A1** hardware buy.
+
 Also: **2 TB+ NVMe**, **64 GB+** system RAM, lab VLAN, attack host ≠ target VMs.
 
 Linux + NVIDIA (path A1):
@@ -372,6 +380,8 @@ Read these wiki pages in order after the checklist above:
 57. **RF + BLE lab eval cells (2026-09-24)** — `@concepts/passive-rf-uav-controller-only-false-confirmation.md` (K364): include **controller-only** RF state in counter-UAV eval. `@concepts/ble-mac-randomization-reidentification-lab.md` (K365): MAC randomization ≠ unlinkability; test **service auth** (pairs K305).
 
 58. **K365 advisory runtime (2026-09-24)** — before BLE re-id lab: `python3 scripts/k365_ble_reid_lab_precheck.py checklist`. Phase-0: `bash scripts/adopt_k364_k368_phase0.sh`. K364/K366/K368 audit-only.
+
+59. **Rent-before-buy for path A1 (2026-09-24)** — §1 hardware: cloud **2× H200-class** smoke → re-check HF rank-1 → then buy owned multi-GPU. Do not skip for **cebeuq**-class ~167 GB planners.
 
 Operator hub: `@concepts/operator-lab-playbook.md`
 

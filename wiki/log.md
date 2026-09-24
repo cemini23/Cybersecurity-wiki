@@ -1,3 +1,8 @@
+## [2026-09-24] cross-wiki | OOD 2609.28372 surrogate shopper → SEO
+
+- **OOD route** — agentic surrogate consumer (2609.28372): SEO source stub + steal brief; cyber OOD stub cross-linked (`cross-wiki-source`).
+- **friend brief:** add-on **59** + §1 **rent-before-buy** (2× H200 cloud smoke before buy).
+
 ## [2026-09-24] ingest | K364–K368 batch (5 inbox PDFs)
 
 Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K364–K366**, **K368** + **1 OOD** (surrogate shopper). **No clone.**

@@ -3,15 +3,21 @@ title: "Shopping by algorithm — agentic AI as surrogate consumer (OOD)"
 type: source
 tags: [source, ood]
 keywords: [2609.28372, ood]
-related: []
+related:
+  - "@seo-wiki/sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md"
 maturity: draft
 read_status: read
 created: 2026-09-24
 updated: 2026-09-24
+cross-wiki-source: "@seo-wiki/sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md"
 phase_0_verdict: "REFERENCE 2026-09-24 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (OOD)"
 ---
+
+## Relations
+
+- @seo-wiki/sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md — SEO wiki **primary steal** (agentic commerce / GEO audit).
 
 ## Raw Concept
 
@@ -25,7 +31,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (OOD)"
 
 ## Narrative
 
-Tool-Lab study of LLM **surrogate shoppers** and pricing heuristics — **marketing / consumer research**, not cyber-primary. **OOD stub**; route to SEO or gambling wiki if productized.
+Tool-Lab study of LLM **surrogate shoppers** and pricing heuristics — **marketing / consumer research**, not cyber-primary. **OOD stub** routed to @seo-wiki (2026-09-24); cyber keeps PDF pointer + cross-link only.
 
 ## Snippets
 
