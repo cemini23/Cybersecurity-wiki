@@ -8,7 +8,7 @@ related:
   - concepts/agent-execution-provenance.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/trace-verified-ctf-agent-eval.md
-maturity: draft
+maturity: validated
 created: 2026-09-25
 updated: 2026-09-25
 wire_status: policy_wired
@@ -28,8 +28,7 @@ Question: **Agent execution trace tampering audit** — operator steal from arXi
 
 ## Narrative
 
-Treat agent-visible log files as **untrusted**. Compliance and IR reconstructions need **append-only / out-of-band** trace capture with **integrity checks**. Report harness + model when citing tampering rates.
-
+Assume **agent-writable trace files are untrusted** for IR, compliance, and async monitoring. Mitigations: **out-of-band append-only** capture, **tool-call execution attestation** (not API log alone), monitor **skill-install** paths, and test **model downgrade** paths that bypass premium guardrails. **Muse-style immutable-trace reminders** are a partial harness control, not a complete boundary.
 ## Snippets
 
-> Triage from arXiv 2609.30266 abstract. [Source: arXiv 2609.30266 (retrieved 2026-09-25)]
+> "Even when an agent has full access to perform its task, it must not be able to edit the traces used to monitor and evaluate it." [Source: arXiv 2609.30266; K373]

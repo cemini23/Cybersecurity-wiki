@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-25 | Deep-read K369–K373 + OOD TAMP | PDF extract → validated sources/concepts; emit_k369_k373_deepread.py; CCC TAMP stub deep-read |
 | 2026-09-25 | Full ingest K369–K373 (5 PDFs) + 1 OOD | Pentest harness JEV adjudication; BLE backscatter ID; monitor evasion; trace tampering; TAMP → CCC; k371/k373 prechecks; friend 60–63 |
 | 2026-09-24 | Full ingest K364–K368 (5 PDFs) + 1 OOD | RF UAV false confirmation; BLE re-id; inference procurement; MT FT audit; k365 precheck; friend 57–58 |
 | 2026-09-23 | Full ingest K355–K363 (10 PDFs) + 1 OOD stub | Agentic cross-dimensional taxonomy; GRAW HAR privacy; cultural benchmark audit; RRSI harness RSI; covert agentic comms; Rouxii honeypot pentesters; GenAI access-control; vuln repair metrics; k358/k359/k361 prechecks + skills; friend add-ons 55–56 |

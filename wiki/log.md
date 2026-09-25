@@ -1,3 +1,8 @@
+## [2026-09-25] deep-read | K369–K373 + OOD TAMP
+
+- Deep-read PDF text (arXiv) for **2609.28940, 29213, 30217, 30233, 30266**; sources + concepts → **validated** where cyber-primary.
+- **friend brief:** n/a (add-ons 60–65 already cover runtime).
+
 ## [2026-09-25] harness | K371/K373 federation skills + K369 JEV note
 
 - **Skills:** emit_k371_k373_skills.py; federation sync.

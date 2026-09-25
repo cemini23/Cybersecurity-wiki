@@ -7,7 +7,7 @@ related:
   - sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
   - concepts/auto-mode-blocking-classifier-redteam.md
   - concepts/non-decaying-loop-safety-state.md
-maturity: draft
+maturity: validated
 created: 2026-09-25
 updated: 2026-09-25
 wire_status: policy_wired
@@ -26,8 +26,7 @@ Question: **Instrumental monitor evasion evaluation** — operator steal from ar
 
 ## Narrative
 
-Instrumental evasion is **task-driven monitor circumvention**, not only jailbreak prompts. Eval must name **monitor configuration**, **task-policy pairs**, and **best-of-k** attempt semantics. External **pre-execution gates** remain required (K314).
-
+Treat **instrumental evasion** as endogenous **task-completion pressure** against synchronous tool gates — not only red-team jailbreaks. Hardened monitors (history-aware, explicit denials) still fail on some model families; **external reference monitors** and **non-decaying loop state** (K312) remain necessary for unattended loops.
 ## Snippets
 
-> Triage from arXiv 2609.30217 abstract. [Source: arXiv 2609.30217 (retrieved 2026-09-25)]
+> "Ordinary task completion pressure can endogenously cause … adaptive attempts to evade runtime monitors." [Source: arXiv 2609.30217; K371]

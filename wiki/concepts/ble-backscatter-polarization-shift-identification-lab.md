@@ -6,7 +6,7 @@ keywords: [2609.29213, K370]
 related:
   - sources/arxiv-2609-29213-ble-backscatter-polarization-shift-identification.md
   - concepts/ble-mac-randomization-reidentification-lab.md
-maturity: draft
+maturity: validated
 created: 2026-09-25
 updated: 2026-09-25
 wire_status: policy_wired
@@ -24,8 +24,7 @@ Question: **BLE backscatter polarization-shift identification (lab)** — operat
 
 ## Narrative
 
-Protocol-independent **backscatter identification** under wireless power transfer — test whether downstream **BLE service authorization** still holds after ID exchange. Lab framing only; no unauthorized RF.
-
+Lab eval: verify **orthogonal-polarization backscatter ID** completes before BLE advertisements on owned **BFSN** hardware; then test whether application-layer **authorization** still holds. This is **device authentication at the RF harvest layer**, not a substitute for BLE pairing/service access control.
 ## Snippets
 
-> Triage from arXiv 2609.29213 abstract. [Source: arXiv 2609.29213 (retrieved 2026-09-25)]
+> Polarization-shift backscatter ID under SWIPT before data traffic. [Source: arXiv 2609.29213; K370]
