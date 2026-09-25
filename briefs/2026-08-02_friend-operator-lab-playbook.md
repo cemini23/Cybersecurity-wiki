@@ -393,7 +393,7 @@ Read these wiki pages in order after the checklist above:
 
 64. **K371/K373 federation skills (2026-09-25)** — after sync_federation_cursor_skills: use instrumental-monitor-evasion-precheck and agent-trace-tampering-precheck before authorized-lab eval.
 
-65. **K369 + JEV gates (2026-09-25)** — pentest harness: jev_verify on claims and jev_screen on fetched text ().
+65. **K369 + JEV gates (2026-09-25)** — pentest harness: jev_verify on claims and jev_screen on fetched text (@concepts/calibrated-decision-models-pentest-harness-jev.md).
 
 Operator hub: `@concepts/operator-lab-playbook.md`
 
