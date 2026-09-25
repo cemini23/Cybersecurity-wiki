@@ -1,3 +1,9 @@
+## [2026-09-25] ops | Grok follow-up triage (skills hold + SEO deep-read)
+
+- **Grok CLI:** defer K373 logger, K371 bench, K369 replication, K370/K364 RF lab; SEO 28372 deep-read on SEO wiki; **hold** untracked K390/K392 skills until scripts + concept pages exist.
+- **Implemented:** SEO wiki emit_k28372_seo_deepread.py.
+- **friend brief:** n/a
+
 ## [2026-09-25] deep-read | K364–K366, K368 (Grok-aligned)
 
 - Deep-read **2609.25294, 26079, 28322, 28395**; sources + concepts → **validated**.

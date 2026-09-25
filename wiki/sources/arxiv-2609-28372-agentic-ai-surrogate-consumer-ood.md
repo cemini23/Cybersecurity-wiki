@@ -8,7 +8,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 cross-wiki-source: "@seo-wiki/sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md"
 phase_0_verdict: "REFERENCE 2026-09-24 — no attack payloads in wiki."
 wire_status: policy_wired
@@ -17,7 +17,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (OOD)"
 
 ## Relations
 
-- @seo-wiki/sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md — SEO wiki **primary steal** (agentic commerce / GEO audit).
+- @seo-wiki/sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md — SEO wiki **primary steal** (SEO wiki primary source **deep-read** 2026-09-25 (abstract-backed).) (agentic commerce / GEO audit).
 
 ## Raw Concept
 
