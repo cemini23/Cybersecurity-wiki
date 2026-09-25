@@ -391,6 +391,10 @@ Read these wiki pages in order after the checklist above:
 
 63. **K370 BLE backscatter lab (2026-09-25)** — owned-device RF only; test service auth after backscatter ID (pairs K365).
 
+64. **K371/K373 federation skills (2026-09-25)** — after sync_federation_cursor_skills: use instrumental-monitor-evasion-precheck and agent-trace-tampering-precheck before authorized-lab eval.
+
+65. **K369 + JEV gates (2026-09-25)** — pentest harness: jev_verify on claims and jev_screen on fetched text ().
+
 Operator hub: `@concepts/operator-lab-playbook.md`
 
 

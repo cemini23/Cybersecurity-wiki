@@ -27,4 +27,7 @@ python3 "$ROOT/scripts/restore_cybersec_dual_id.py" --check
 python3 "$ROOT/scripts/test_k371_instrumental_monitor_evasion_precheck.py" >/dev/null
 python3 "$ROOT/scripts/test_k373_agent_trace_tampering_precheck.py" >/dev/null
 
+test -f "$ROOT/.cursor/skills/instrumental-monitor-evasion-precheck/SKILL.md"
+test -f "$ROOT/.cursor/skills/agent-trace-tampering-precheck/SKILL.md"
+
 echo "ALL PASS K369-K373 Phase-0"

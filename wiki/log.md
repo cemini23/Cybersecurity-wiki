@@ -1,3 +1,8 @@
+## [2026-09-25] harness | K371/K373 federation skills + K369 JEV note
+
+- **Skills:** emit_k371_k373_skills.py; federation sync.
+- **friend brief:** add-ons 64-65.
+
 ## [2026-09-25] ingest | K369–K373 batch (5 inbox PDFs)
 
 Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K369–K371**, **K373** + **1 OOD** (generalized TAMP). **No clone.**
