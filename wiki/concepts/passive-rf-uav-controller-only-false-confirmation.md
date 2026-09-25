@@ -7,7 +7,7 @@ related:
   - sources/arxiv-2609-25294-controller-only-false-confirmation-rf-uav.md
   - concepts/through-wall-detection-sdr-pca.md
   - concepts/wifi-har-privacy-perturbation-graw.md
-maturity: draft
+maturity: validated
 created: 2026-09-24
 updated: 2026-09-24
 wire_status: policy_wired
@@ -26,8 +26,7 @@ Question: **Passive RF UAV controller-only false confirmation** — operator ste
 
 ## Narrative
 
-Counter-UAV RF sensing must treat **controller-only emissions** as a distinct state — high background accuracy can hide **linked-vs-controller-only** confusion. Dual-band SDR measurement methodology steal for **owned-lab** detector eval; not unauthorized spectrum operations.
-
+Counter-UAV RF eval needs three cells: **ambient**, **controller-only** (powered RC, aircraft off), **linked**. High clutter/linked accuracy can **mask** controller-only false alarms — use **defer** when FCR constraints trade TPR for precision.
 ## Snippets
 
-> Triage from arXiv 2609.25294 abstract. [Source: arXiv 2609.25294 (retrieved 2026-09-24)]
+> Controller-only false confirmation: linked-UAV alarm with no aircraft present. [Source: arXiv 2609.25294; K364]

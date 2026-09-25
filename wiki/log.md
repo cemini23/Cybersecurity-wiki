@@ -1,3 +1,9 @@
+## [2026-09-25] deep-read | K364–K366, K368 (Grok-aligned)
+
+- Deep-read **2609.25294, 26079, 28322, 28395**; sources + concepts → **validated**.
+- **Deferred (Grok + route):** K373 product logger, K371 bench clone, K369 NeuroSploit replication, K370 RF hardware, duplicate K373 friend one-pager.
+- **friend brief:** n/a.
+
 ## [2026-09-25] deep-read | K369–K373 + OOD TAMP
 
 - Deep-read PDF text (arXiv) for **2609.28940, 29213, 30217, 30233, 30266**; sources + concepts → **validated** where cyber-primary.

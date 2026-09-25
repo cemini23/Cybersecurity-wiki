@@ -7,7 +7,7 @@ related:
   - sources/arxiv-2609-28322-learning-cost-reliable-inference.md
   - concepts/certified-selective-prediction-guardrails.md
   - concepts/chain-of-self-questioning-selective-abstention.md
-maturity: draft
+maturity: validated
 created: 2026-09-24
 updated: 2026-09-24
 wire_status: policy_wired
@@ -26,8 +26,7 @@ Question: **Reliable inference procurement and routing** — operator steal from
 
 ## Narrative
 
-Fixed token pricing hides **quality–cost tradeoffs**. Platform routing with **competitive procurement** makes reliability a priced dimension — relevant when agents fan out to multiple model backends. Not a security boundary alone; pair measurement integrity (K277).
-
+When agents or eval harnesses fan out to multiple model backends, treat **reliability tier** as a priced auction outcome — fixed token lists hide **10–71%**-class spreads in the paper’s simulaton.
 ## Snippets
 
-> Triage from arXiv 2609.28322 abstract. [Source: arXiv 2609.28322 (retrieved 2026-09-24)]
+> Reverse second-price routing to qualified lowest-cost provider. [Source: arXiv 2609.28322; K366]

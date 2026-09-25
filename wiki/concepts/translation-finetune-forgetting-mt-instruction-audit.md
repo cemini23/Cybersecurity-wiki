@@ -7,7 +7,7 @@ related:
   - sources/arxiv-2609-28395-translation-finetune-forgetting-mt-instruction.md
   - concepts/cross-lingual-safety-transfer-lrl.md
   - concepts/culturally-responsive-llm-benchmark-audit.md
-maturity: draft
+maturity: validated
 created: 2026-09-24
 updated: 2026-09-24
 wire_status: policy_wired
@@ -26,8 +26,7 @@ Question: **Translation fine-tune forgetting audit** — operator steal from arX
 
 ## Narrative
 
-Do not trust **general retention benchmarks** alone after MT fine-tuning. Report **MT-IF** (instruction-following under translation prompts) alongside generic retention. Applies to any specialized fine-tune path touching deployed agents.
-
+**MT-IF** (instruction-conditioned translation) is a separate axis from **General** benchmark retention after parallel-data FT. EWC is not a free lunch for controlled MT behavior.
 ## Snippets
 
-> Triage from arXiv 2609.28395 abstract. [Source: arXiv 2609.28395 (retrieved 2026-09-24)]
+> General forgetting mitigation ≠ MT-specific instruction following. [Source: arXiv 2609.28395; K368]

@@ -6,8 +6,8 @@ keywords: [2609.28395, k368]
 related:
   - concepts/translation-finetune-forgetting-mt-instruction-audit.md
   - concepts/cross-lingual-safety-transfer-lrl.md
-maturity: draft
-read_status: read
+maturity: validated
+read_status: deep-read
 created: 2026-09-24
 updated: 2026-09-24
 phase_0_verdict: "REFERENCE 2026-09-24 — no attack payloads in wiki."
@@ -27,12 +27,13 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K368)"
 | arXiv | 2609.28395 |
 | Location | cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2609.28395-fine-tuning-llms-for-translation-general-forgett.pdf |
 | Retrieved | 2026-09-24 |
-| Read status | read (abstract + triage) |
+| Read status | deep-read (2026-09-25) |
 
 ## Narrative
 
-**K368** — **general forgetting mitigation** metrics on broad benchmarks do **not** guarantee preservation of **MT-specific instruction following** after parallel-data fine-tune. Steal: any domain fine-tune is a **safety/capability event** — re-run task-specific eval (pairs K304 RIM). REFERENCE.
+**K368** (AppTek/RWTH) — MT parallel-data **SFT** improves COMET (e.g. Amharic→En **45.6 → 71.5**) but risks **MT-IF** (formality, gender, length controls). **General forgetting mitigations** screened on Llama 3.2 1B then 3.1 8B (AR-EN, ES-EN): **EWC** best preserves **general benchmarks** (ES-EN avg general **−1.7** vs **−11.0** for plain SFT) yet **still drops formality/gender control** vs SFT; only **data mixing with control-task examples** retains controls — **does not generalize to unseen prompts** for the same control.
 
+Steal: after **any domain fine-tune** on deployed agents, re-run **task-specific instruction eval**, not general retention alone (pairs K304 RIM).
 ## Snippets
 
-> See arXiv 2609.28395 abstract. [Source: arXiv 2609.28395 (retrieved 2026-09-24)]
+> "Elastic Weight Consolidation preserves general capabilities best … yet its scores for formality and grammatical gender control remain close to standard fine-tuning. Only data mixing with control-task examples preserves these controls." [Source: arXiv 2609.28395 abstract]

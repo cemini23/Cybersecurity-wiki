@@ -6,8 +6,8 @@ keywords: [2609.28322, k366]
 related:
   - concepts/reliable-inference-procurement-routing.md
   - concepts/certified-selective-prediction-guardrails.md
-maturity: draft
-read_status: read
+maturity: validated
+read_status: deep-read
 created: 2026-09-24
 updated: 2026-09-24
 phase_0_verdict: "REFERENCE 2026-09-24 — no attack payloads in wiki."
@@ -27,12 +27,13 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K366)"
 | arXiv | 2609.28322 |
 | Location | cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2609.28322-learning-the-cost-of-reliable-inference.pdf |
 | Retrieved | 2026-09-24 |
-| Read status | read (abstract + triage) |
+| Read status | deep-read (2026-09-25) |
 
 ## Narrative
 
-**K366** — procurement/routing platforms can price **guaranteed quality tiers** via competitive provider routing instead of flat per-token pricing. Audit steal for **eval marketplaces and model routers**: report quality floor + cost jointly (pairs K354 certified availability). REFERENCE.
+**K366** (MPI-SWS) — **procurement platform** for LLM routing: **reverse second-price auction** with truthful cost bids; platform learns provider quality and routes to the **cheapest qualified** provider for a user’s quality threshold. Experiments (Llama/Qwen on math + QA benches): winner **pricing margin 10–71%** vs fixed per-token markets — quality tier and task shape matter.
 
+Audit steal for **OpenRouter / routing marketplaces**: report **quality floor + $/task**, not flat token price alone (pairs K354). REFERENCE economics; not a security boundary.
 ## Snippets
 
-> See arXiv 2609.28322 abstract. [Source: arXiv 2609.28322 (retrieved 2026-09-24)]
+> "The pricing margin of the most cost-competitive provider varies significantly—from 10% to 71%—depending on the task and quality threshold." [Source: arXiv 2609.28322 abstract]
