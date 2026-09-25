@@ -8,6 +8,8 @@ related:
   - concepts/wifi-rf-fingerprinting-open-set.md
   - concepts/bluetooth-nft-soft-pairing.md
   - concepts/bluetooth-nft-soft-pairing.md
+  - concepts/ble-backscatter-polarization-shift-identification-lab.md
+  - sources/arxiv-2609-29213-ble-backscatter-polarization-shift-identification.md
 maturity: draft
 created: 2026-09-24
 updated: 2026-09-24
@@ -17,6 +19,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K365)"
 
 ## Relations
 
+- @sources/arxiv-2609-29213-ble-backscatter-polarization-shift-identification.md
+- @concepts/ble-backscatter-polarization-shift-identification-lab.md
 - @sources/arxiv-2609-26079-ble-mac-randomization-reidentification.md
 - @concepts/wifi-rf-fingerprinting-open-set.md
 

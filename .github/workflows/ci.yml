@@ -46,6 +46,8 @@ jobs:
           python3 scripts/test_k359_covert_agentic_comm_precheck.py
           python3 scripts/test_k361_rouxii_honeypot_precheck.py
           python3 scripts/test_k365_ble_reid_lab_precheck.py
+          python3 scripts/test_k371_instrumental_monitor_evasion_precheck.py
+          python3 scripts/test_k373_agent_trace_tampering_precheck.py
           python3 scripts/test_federation_helper_scripts.py
 
       - name: wiki_lint (strict local links + bidirectional)

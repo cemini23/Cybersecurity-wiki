@@ -43,6 +43,10 @@ related:
   - concepts/privescalate-llm-linux-privilege-escalation.md
   - concepts/secure-ai-powered-pentest-agents.md
   - concepts/asleval-privacy-exposure-displacement.md
+  - concepts/agent-execution-trace-tampering-audit.md
+  - concepts/calibrated-decision-models-pentest-harness-jev.md
+  - sources/arxiv-2609-28940-calibrated-decision-models-pentest-harness-jev.md
+  - sources/arxiv-2609-30266-llm-agents-trace-tampering.md
 maturity: draft
 created: 2026-08-12
 updated: 2026-09-17
@@ -52,6 +56,10 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-age
 
 ## Relations
 
+- @sources/arxiv-2609-30266-llm-agents-trace-tampering.md
+- @sources/arxiv-2609-28940-calibrated-decision-models-pentest-harness-jev.md
+- @concepts/calibrated-decision-models-pentest-harness-jev.md
+- @concepts/agent-execution-trace-tampering-audit.md
 - @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
 - @entities/tools/redagentbench.md
 - @concepts/agent-runtime-guardrails.md

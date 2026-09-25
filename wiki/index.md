@@ -433,6 +433,16 @@
 | @concepts/reliable-inference-procurement-routing.md | draft | Quality-tier model procurement routing |
 | @sources/arxiv-2609-28372-agentic-ai-surrogate-consumer-ood.md | draft | OOD surrogate consumer shopping (2609.28372) |
 | @sources/arxiv-2609-28395-translation-finetune-forgetting-mt-instruction.md | draft | MT fine-tune forgetting (2609.28395; K368) |
+| @sources/arxiv-2609-28940-calibrated-decision-models-pentest-harness-jev.md | draft | Calibrated pentest harness decisions + JEV (2609.28940; K369) |
+| @concepts/calibrated-decision-models-pentest-harness-jev.md | draft | System One classifiers for pentest adjudication |
+| @sources/arxiv-2609-29213-ble-backscatter-polarization-shift-identification.md | draft | BLE SWIPT backscatter device ID (2609.29213; K370) |
+| @concepts/ble-backscatter-polarization-shift-identification-lab.md | draft | Polarization-shift backscatter auth (owned devices) |
+| @sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md | draft | Instrumental monitor evasion (2609.30217; K371) |
+| @concepts/instrumental-monitor-evasion-evaluation.md | draft | EvasionBench runtime monitor bypass eval |
+| @sources/arxiv-2609-30233-coding-agents-generalized-tamp-ood.md | draft | OOD generalized TAMP coding agents (2609.30233) |
+| @sources/arxiv-2609-30266-llm-agents-trace-tampering.md | draft | LLM agent self-trace tampering (2609.30266; K373) |
+| @concepts/agent-execution-trace-tampering-audit.md | draft | Independent trace logging audit pattern |
+
 | @concepts/translation-finetune-forgetting-mt-instruction-audit.md | draft | MT-IF audit after domain fine-tune |
 | @sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md | draft | Cross-dimensional agentic AI security taxonomy (2609.23894; K355) |
 | @concepts/cross-dimensional-agentic-ai-security-taxonomy.md | draft | T=⟨S,B,P,A⟩ threat/eval maturity map |

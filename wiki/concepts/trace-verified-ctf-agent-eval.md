@@ -10,6 +10,7 @@ related:
   - concepts/atobench-verification-chain-deception.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/security-agent-authority-auditability-slr.md
+  - concepts/agent-execution-trace-tampering-audit.md
 maturity: draft
 created: 2026-08-28
 updated: 2026-08-31

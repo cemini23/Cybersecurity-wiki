@@ -7,6 +7,7 @@ related:
   - sources/arxiv-2608-27141-safety-does-not-compose.md
   - concepts/step-level-agent-guardrails.md
   - concepts/agent-runtime-guardrails.md
+  - concepts/instrumental-monitor-evasion-evaluation.md
 maturity: draft
 created: 2026-08-28
 updated: 2026-08-28
@@ -16,6 +17,7 @@ wire_target: ".cursor/hooks.json + scripts/k312_loop_state.py (K312)"
 
 ## Relations
 
+- @concepts/instrumental-monitor-evasion-evaluation.md
 - @sources/arxiv-2608-27141-safety-does-not-compose.md — source paper (non-decaying loop state)
 - @concepts/step-level-agent-guardrails.md — step-level guard (K307); complements, does not replace, loop state
 - @concepts/agent-runtime-guardrails.md — guard placement in the agent stack

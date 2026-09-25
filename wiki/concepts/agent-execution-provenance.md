@@ -42,6 +42,8 @@ related:
   - sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/atobench-verification-chain-deception.md
+  - concepts/agent-execution-trace-tampering-audit.md
+  - sources/arxiv-2609-30266-llm-agents-trace-tampering.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-07-10
@@ -49,6 +51,8 @@ updated: 2026-07-10
 
 ## Relations
 
+- @sources/arxiv-2609-30266-llm-agents-trace-tampering.md
+- @concepts/agent-execution-trace-tampering-audit.md
 - @sources/arxiv-2606-04990-agent-traces-evidence-provenance.md — survey anchor (arXiv 2606.04990)
 - @concepts/agent-runtime-guardrails.md — runtime guards as provenance trust function (safety enforcement)
 - @concepts/seclaw-agent-security-evaluation.md — trajectory eval > final-answer correctness

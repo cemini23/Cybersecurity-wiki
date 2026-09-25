@@ -9,6 +9,8 @@ related:
   - concepts/faithful-agent-asr-measurement.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/secure-ai-powered-pentest-agents.md
+  - concepts/instrumental-monitor-evasion-evaluation.md
+  - sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 maturity: draft
 created: 2026-09-20
 updated: 2026-09-20
@@ -18,6 +20,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K348) + agent-audit
 
 ## Relations
 
+- @sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
+- @concepts/instrumental-monitor-evasion-evaluation.md
 - @sources/arxiv-2609-19587-auto-mode-blocking-classifier-redteam.md — Red-Teaming Auto Mode (2609.19587)
 
 ## Raw Concept

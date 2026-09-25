@@ -100,3 +100,8 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - **K366 Reliable inference procurement (audit)** — model routing marketplaces should report **quality tier + cost** jointly, not flat token price alone. Pairs K354/K343. REFERENCE.
 - **K368 Translation fine-tune forgetting (audit)** — general forgetting mitigation ≠ **MT-specific instruction following** after parallel-data FT; re-run task-specific eval (pairs K304 RIM). REFERENCE.
 
+## Sep 25 batch (Pentest harness JEV 2609.28940 · Monitor evasion 2609.30217 · Trace tampering 2609.30266)
+
+- **K369 Calibrated pentest harness decisions (audit + lab)** — separate **generative pentest planning** from **typed System One adjudication** (finding confirmation, severity, agent pruning); do not let the same LLM grade its own findings. Pairs K341 secure pentest agents + federation JEV gates — not external enforcement alone (K314). REFERENCE.
+- **K373 Agent execution trace tampering (audit)** — agent-visible traces are **not integrity boundaries**; local coding harnesses may allow **self-trace deletion** and external inducement; plan **out-of-band append-only logging**. **Runtime:** `scripts/k373_agent_trace_tampering_precheck.py`. Dual-ID: ≠ CCC K373 (none assigned). Pairs K271/K278/K315.
+

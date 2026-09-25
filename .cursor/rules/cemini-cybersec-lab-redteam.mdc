@@ -149,3 +149,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K364 Controller-only RF false confirmation (lab, authorized RF only)** — passive counter-UAV RF eval must include **controller-only** state; high clutter accuracy can mask false link confirmation. Owned/authorized spectrum only.
 - **K365 BLE MAC randomization re-id (lab, owned devices only)** — RPA does not eliminate advertising-structure linkability; test **service authorization** not radio anonymity alone. **Runtime:** `scripts/k365_ble_reid_lab_precheck.py`. Dual-ID: ≠ CCC K365 (MCP privacy brief steal). Pairs K305 BT-NFT.
 
+## Sep 25 batch (Pentest harness JEV 2609.28940 · BLE backscatter 2609.29213 · Monitor evasion 2609.30217 · TAMP OOD 2609.30233 · Trace tampering 2609.30266)
+
+- **K370 BLE backscatter polarization-shift ID (lab, owned devices only)** — SWIPT battery-free BLE **backscatter device identification** before data traffic; test **service authorization** after ID — **owned devices / authorized RF only**. REFERENCE. Dual-ID: ≠ CCC K370 (none assigned). Pairs K305/K365.
+- **K371 Instrumental monitor evasion (lab, authorized-lab only)** — **EvasionBench**-class eval: agents circumvent **runtime monitors** under ordinary task pressure; report **attempt vs success** and monitor config — **no evasion recipes in wiki**. **Runtime:** `scripts/k371_instrumental_monitor_evasion_precheck.py`. Dual-ID: ≠ CCC K371 (none assigned). Pairs K307/K348/K314.
+

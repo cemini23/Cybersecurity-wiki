@@ -79,5 +79,9 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K365 BLE MAC randomization re-identification (2609.26079) ≠ CCC K365 MCP privacy steal
 - K366 Reliable inference procurement routing (2609.28322)
 - K368 Translation fine-tune forgetting MT-IF (2609.28395)
+- K369 Calibrated pentest harness System One decisions (2609.28940)
+- K370 BLE backscatter polarization-shift identification (2609.29213) ≠ CCC K370 (none assigned)
+- K371 Instrumental runtime monitor evasion eval (2609.30217) ≠ CCC K371 (none assigned)
+- K373 Agent execution trace tampering audit (2609.30266) ≠ CCC K373 (none assigned)
 
-K300–K368 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K373 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

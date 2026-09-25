@@ -1,3 +1,14 @@
+## [2026-09-25] ingest | K369–K373 batch (5 inbox PDFs)
+
+Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K369–K371**, **K373** + **1 OOD** (generalized TAMP). **No clone.**
+
+- **K369–K371, K373** — pentest harness System One/JEV decisions; BLE backscatter ID; instrumental monitor evasion; agent trace tampering audit.
+- **OOD** — coding agents for generalized TAMP (2609.30233) → @ccc-wiki stub.
+- **Runtime:** k371/k373 precheck scripts + CI tests; federation skills.
+- **Phase-0:** adopt_k369_k373_phase0.sh.
+- **Phase-1:** K370/K371 lab-redteam; K369/K373 agent-audit.
+- **friend brief:** add-ons **60–63**.
+
 ## [2026-09-24] cross-wiki | OOD 2609.28372 surrogate shopper → SEO
 
 - **OOD route** — agentic surrogate consumer (2609.28372): SEO source stub + steal brief; cyber OOD stub cross-linked (`cross-wiki-source`).

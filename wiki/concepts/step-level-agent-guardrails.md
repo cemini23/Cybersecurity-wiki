@@ -12,6 +12,7 @@ related:
   - concepts/mcp-security-posture.md
   - concepts/non-decaying-loop-safety-state.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
+  - sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 maturity: draft
 created: 2026-08-26
 updated: 2026-08-26
@@ -21,6 +22,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.m
 
 ## Relations
 
+- @sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 - @sources/arxiv-2608-24777-stepguard.md
 - @entities/tools/stepguard.md — StepGuard repo/model pointer (CONDITIONAL-GO pending LICENSE)
 - @concepts/agent-runtime-guardrails.md — guard placement in agent stack

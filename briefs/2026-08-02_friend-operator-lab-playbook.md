@@ -383,6 +383,14 @@ Read these wiki pages in order after the checklist above:
 
 59. **Rent-before-buy for path A1 (2026-09-24)** — §1 hardware: cloud **2× H200-class** smoke → re-check HF rank-1 → then buy owned multi-GPU. Do not skip for **cebeuq**-class ~167 GB planners.
 
+60. **K369 pentest harness adjudication (2026-09-25)** — `@concepts/calibrated-decision-models-pentest-harness-jev.md`: do not let the planner LLM confirm its own findings; use typed System One (JEV) at adjudication loops. Pairs secure pentest agents (K341).
+
+61. **K371 monitor evasion eval (2026-09-25)** — authorized lab only: `python3 scripts/k371_instrumental_monitor_evasion_precheck.py checklist` before EvasionBench-class runs. Report attempt vs success; external step gates still required.
+
+62. **K373 trace integrity (2026-09-25)** — `python3 scripts/k373_agent_trace_tampering_precheck.py checklist` before trusting agent logs for IR/audit. Plan out-of-band append-only logging.
+
+63. **K370 BLE backscatter lab (2026-09-25)** — owned-device RF only; test service auth after backscatter ID (pairs K365).
+
 Operator hub: `@concepts/operator-lab-playbook.md`
 
 
