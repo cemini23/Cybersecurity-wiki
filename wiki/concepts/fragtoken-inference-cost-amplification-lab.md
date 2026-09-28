@@ -6,7 +6,7 @@ keywords: [2609.31552, K376]
 related:
   - sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md
   - concepts/reliable-inference-procurement-routing.md
-maturity: draft
+maturity: validated
 created: 2026-09-28
 updated: 2026-09-28
 wire_status: policy_wired
@@ -24,8 +24,8 @@ Question: **FragToken inference cost amplification (lab)** — operator steal fr
 
 ## Narrative
 
-Report **cost + latency** with security evals for API-backed harnesses. Lab sandboxes only.
+Pair cost-tier routing with TIR/latency monitoring on third-party weights (K376).
 
 ## Snippets
 
-> Triage from arXiv 2609.31552 abstract. [Source: arXiv 2609.31552 (retrieved 2026-09-28)]
+> Token-level cost amplification (K376). [Source: arXiv 2609.31552]

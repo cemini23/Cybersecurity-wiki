@@ -1,3 +1,9 @@
+## [2026-09-28] deep-read | K374–K377 + OOD 31506
+
+- PDF extract → validated K374–K377; OOD stub deep-read.
+- Egress archive failed (SSH timeout); PDFs still in inbox.
+- friend brief: n/a
+
 ## [2026-09-28] ingest | K374–K377 batch (5 inbox PDFs)
 
 Full ingest 5 NEW PDFs. K374–K377 + OOD 31506. No clone. Runtime k374–k377 prechecks; friend 66–69.

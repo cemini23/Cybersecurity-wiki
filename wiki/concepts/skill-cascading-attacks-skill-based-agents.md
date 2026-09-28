@@ -8,7 +8,7 @@ related:
   - concepts/evoskill-injection-self-evolving-agents.md
   - concepts/skill-misevolution.md
   - concepts/agent-skill-injection.md
-maturity: draft
+maturity: validated
 created: 2026-09-28
 updated: 2026-09-28
 wire_status: policy_wired
@@ -28,8 +28,8 @@ Question: **Skill cascading attacks on skill-based agents** — operator steal f
 
 ## Narrative
 
-Audit skill **graphs** and load order, not only individual SKILL.md files. HITL on skill install; never auto-evolve skills from red-team trajectories.
+Track cross-skill context writes; per-skill SAFE is insufficient (K374).
 
 ## Snippets
 
-> Triage from arXiv 2609.30383 abstract. [Source: arXiv 2609.30383 (retrieved 2026-09-28)]
+> System safety requires cross-skill reasoning (K374). [Source: arXiv 2609.30383]

@@ -8,7 +8,7 @@ related:
   - sources/arxiv-2609-31318-agentxploit-repository-runtime-red-teaming.md
   - concepts/secure-ai-powered-pentest-agents.md
   - concepts/faithful-agent-asr-measurement.md
-maturity: draft
+maturity: validated
 created: 2026-09-28
 updated: 2026-09-28
 wire_status: policy_wired
@@ -27,8 +27,8 @@ Question: **AgentXploit repository-to-runtime red-teaming** — operator steal f
 
 ## Narrative
 
-Separate static repo findings from runtime-confirmed exploits; name verifier and attacker interface (pairs K271/K278).
+Runtime-verified exploits required; repo-only findings insufficient (K375).
 
 ## Snippets
 
-> Triage from arXiv 2609.31318 abstract. [Source: arXiv 2609.31318 (retrieved 2026-09-28)]
+> Repo vs runtime are distinct (K375). [Source: arXiv 2609.31318]

@@ -6,8 +6,8 @@ keywords: [2609.31552, k376]
 related:
   - concepts/fragtoken-inference-cost-amplification-lab.md
   - concepts/reliable-inference-procurement-routing.md
-maturity: draft
-read_status: read
+maturity: validated
+read_status: deep-read
 created: 2026-09-28
 updated: 2026-09-28
 phase_0_verdict: "REFERENCE 2026-09-28 — no attack payloads in wiki."
@@ -28,12 +28,12 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K376)"
 | arXiv | 2609.31552 |
 | Location | cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2609.31552-fragtoken-amplifying-llm-inference-costs-through.pdf |
 | Retrieved | 2026-09-28 |
-| Read status | read (abstract + triage) |
+| Read status | deep-read (2026-09-28) |
 
 ## Narrative
 
-**K376** — tokenizer **decode is not injective**: the same visible text can map to a **longer noncanonical token sequence**, so decoding steps (and billable tokens) can rise without a matching visible-length increase. Paper frames a **training-time / third-party model** supply-chain threat (TIR **1.99–2.46** on four models; utility mostly held). Operator steal: on **owned or procured** models, report **token count vs visible length**; treat unexpected inflation as a **provenance** signal for fine-tunes. **Do not train FragToken. No fragmentation recipes in wiki.** **Runtime:** `scripts/k376_fragtoken_cost_precheck.py`. Pairs K366 reliable-inference procurement.
+**K376** — Training-time noncanonical tokens: TIR 1.99–2.46, minor utility loss; covert cost under ordinary prompts (supply-chain). k376 precheck; lab only.
 
 ## Snippets
 
-> See arXiv 2609.31552 abstract. [Source: arXiv 2609.31552 (retrieved 2026-09-28)]
+> TIR 1.99–2.46 across four models. [Source: arXiv 2609.31552]

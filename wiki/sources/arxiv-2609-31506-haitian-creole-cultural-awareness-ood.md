@@ -6,7 +6,7 @@ keywords: [2609.31506, ood]
 related:
   - concepts/culturally-responsive-llm-benchmark-audit.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-28
 updated: 2026-09-28
 phase_0_verdict: "OOD 2026-09-28 — cultural benchmark; not cyber-primary."
@@ -26,12 +26,12 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (OOD)"
 | arXiv | 2609.31506 |
 | Location | cemini-egress-fi:/opt/cemini-bulk/research/cybersec/arxiv-2609.31506-evaluating-cultural-awareness-of-llms-for-haitia.pdf |
 | Retrieved | 2026-09-28 |
-| Read status | read (abstract + triage) |
+| Read status | deep-read (2026-09-28) |
 
 ## Narrative
 
-Haitian Creole cultural-awareness benchmark (specificity, bias, diversity, variation). **OOD** for cyber-primary wiki — pairs **K357** audit framing only.
+OOD — Haitian Creole cultural infilling (CAMeL-style); gap vs French. Pairs K357; not cyber-primary.
 
 ## Snippets
 
-> See arXiv 2609.31506 abstract. [Source: arXiv 2609.31506 (retrieved 2026-09-28)]
+> Gap vs French cultural awareness. [Source: arXiv 2609.31506 abstract]
