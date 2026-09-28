@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, red-team, eval, taxonomy, lab-only, k327]
 keywords: [2609.09647, black-box red team, agentic AI, seven-domain taxonomy, multi-step eval]
 related:
+  - concepts/agentxploit-repository-runtime-red-teaming.md
   - sources/arxiv-2609-09647-black-box-agentic-redteam-taxonomy.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/security-agent-authority-auditability-slr.md
@@ -14,13 +15,14 @@ related:
   - sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-16
+updated: 2026-09-28
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K327)"
 ---
 
 ## Relations
 
+- @concepts/agentxploit-repository-runtime-red-teaming.md — K375 white-box repo-to-runtime complement to K327 black-box taxonomy
 - @sources/arxiv-2609-09647-black-box-agentic-redteam-taxonomy.md — Black-Box Red Teaming of Agentic AI: A Taxonomy-Driven Framework for Automated Risk Discovery (2609.09647)
 
 ## Raw Concept

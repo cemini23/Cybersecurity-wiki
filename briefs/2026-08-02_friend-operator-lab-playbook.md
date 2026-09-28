@@ -3,7 +3,7 @@ title: Friend operator lab playbook — start here
 type: brief
 target: hands-on
 created: 2026-08-02
-updated: 2026-09-24
+updated: 2026-09-28
 ---
 
 
@@ -396,5 +396,7 @@ Read these wiki pages in order after the checklist above:
 65. **K369 + JEV gates (2026-09-25)** — pentest harness: jev_verify on claims and jev_screen on fetched text (@concepts/calibrated-decision-models-pentest-harness-jev.md).
 
 Operator hub: `@concepts/operator-lab-playbook.md`
-
-
+66. **K374 skill cascading (2026-09-28)** — k374_skill_cascading_precheck + cursor-security-preflight before multi-skill packs.
+67. **K375 AgentXploit (2026-09-28)** — k375_agentxploit_precheck; runtime-verify repo findings; no clone.
+68. **K376 FragToken (2026-09-28)** — k376_fragtoken_precheck; owned API/lab only.
+69. **K377 system prompts (2026-09-28)** — k377_system_prompt_corpus_precheck; prompts are config not enforcement.

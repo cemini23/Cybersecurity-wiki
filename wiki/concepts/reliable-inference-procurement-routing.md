@@ -4,18 +4,22 @@ type: concept
 tags: [concept, agent-security, k366]
 keywords: [2609.28322, K366]
 related:
+  - concepts/fragtoken-inference-cost-amplification-lab.md
+  - concepts/fragtoken-inference-cost-amplification-lab.md
+  - sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md
   - sources/arxiv-2609-28322-learning-cost-reliable-inference.md
   - concepts/certified-selective-prediction-guardrails.md
   - concepts/chain-of-self-questioning-selective-abstention.md
 maturity: validated
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-28
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K366)"
 ---
 
 ## Relations
 
+- @concepts/fragtoken-inference-cost-amplification-lab.md — K376 token inflation vs visible length on procured models
 - @sources/arxiv-2609-28322-learning-cost-reliable-inference.md
 - @concepts/certified-selective-prediction-guardrails.md
 - @concepts/chain-of-self-questioning-selective-abstention.md

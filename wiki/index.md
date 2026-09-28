@@ -441,6 +441,16 @@
 | @concepts/instrumental-monitor-evasion-evaluation.md | draft | EvasionBench runtime monitor bypass eval |
 | @sources/arxiv-2609-30233-coding-agents-generalized-tamp-ood.md | draft | OOD generalized TAMP coding agents (2609.30233) |
 | @sources/arxiv-2609-30266-llm-agents-trace-tampering.md | draft | LLM agent self-trace tampering (2609.30266; K373) |
+| @sources/arxiv-2609-30383-skill-cascading-attacks-skill-based-agents.md | draft | Skill cascading (2609.30383; K374) |
+| @concepts/skill-cascading-attacks-skill-based-agents.md | draft | Cross-skill agent attack surface |
+| @sources/arxiv-2609-31318-agentxploit-repository-runtime-red-teaming.md | draft | AgentXploit (2609.31318; K375) |
+| @concepts/agentxploit-repository-runtime-red-teaming.md | draft | Repo-to-runtime agent audit |
+| @sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md | draft | FragToken (2609.31552; K376) |
+| @concepts/fragtoken-inference-cost-amplification-lab.md | draft | Token-level cost abuse lab |
+| @sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md | draft | System prompt corpus (2609.31575; K377) |
+| @concepts/llm-system-prompt-corpus-audit.md | draft | Leaked prompt composition audit |
+| @sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md | draft | OOD Haitian Creole eval (2609.31506) |
+
 | @concepts/agent-execution-trace-tampering-audit.md | draft | Independent trace logging audit pattern |
 
 | @concepts/translation-finetune-forgetting-mt-instruction-audit.md | draft | MT-IF audit after domain fine-tune |

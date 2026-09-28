@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, red-team, evaluation, faithful-measurement]
 keywords: [ASR, exposure, execution, observation, adjudication, Recognition-Execution Gap, REG, trajectory vs state judge, harness-dependent, evaluation cue]
 related:
+  - concepts/agentxploit-repository-runtime-red-teaming.md
   - concepts/agent-safety-executable-evaluation.md
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - entities/tools/redagentbench.md
@@ -49,7 +50,7 @@ related:
   - sources/arxiv-2609-30266-llm-agents-trace-tampering.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-09-17
+updated: 2026-09-28
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-agent-audit.mdc (K271)"
 ---

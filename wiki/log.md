@@ -1,3 +1,7 @@
+## [2026-09-28] ingest | K374–K377 batch (5 inbox PDFs)
+
+Full ingest 5 NEW PDFs. K374–K377 + OOD 31506. No clone. Runtime k374–k377 prechecks; friend 66–69.
+
 ## [2026-09-25] ops | Grok follow-up triage (skills hold + SEO deep-read)
 
 - **Grok CLI:** defer K373 logger, K371 bench, K369 replication, K370/K364 RF lab; SEO 28372 deep-read on SEO wiki; **hold** untracked K390/K392 skills until scripts + concept pages exist.

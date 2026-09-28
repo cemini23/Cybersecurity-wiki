@@ -4,13 +4,14 @@ type: concept
 tags: [concept, agent-security, k357]
 keywords: [2609.24934, K357]
 related:
+  - sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md
   - sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md
   - concepts/cross-lingual-safety-transfer-lrl.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/translation-finetune-forgetting-mt-instruction-audit.md
 maturity: draft
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-09-28
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K357)"
 ---

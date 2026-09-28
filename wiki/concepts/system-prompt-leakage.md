@@ -4,6 +4,8 @@ type: concept
 tags: [llm-security, prompt-leaking, system-prompt, owasp-llm07, red-team, defensive]
 keywords: [2606.18673, prompt leaking, system prompt leakage, attention drift, area, leakbench, owasp llm07]
 related:
+  - sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md
+  - concepts/llm-system-prompt-corpus-audit.md
   - concepts/inadvertent-context-leakage.md
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/nl-security-rules-vs-builtin-deny.md
@@ -27,13 +29,14 @@ related:
   - entities/tools/system-prompt-index.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-07-31
+updated: 2026-09-28
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations
 
+- @concepts/llm-system-prompt-corpus-audit.md — K377 leaked prompts are ops config; composition not extraction
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — primary source (2606.18673)
 - @entities/tools/leakbench-area.md — LeakBench eval harness + AREA defense (Reference)
 - @entities/tools/llm-defense-lattice.md — OWASP LLM07 attribution probes

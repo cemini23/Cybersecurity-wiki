@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, usable-security, claude-md, deny, k303, defensive]
 keywords: [CLAUDE.md, AGENTS.md, deny, permission rule, sandbox, PreToolUse, write-only channel, enforcement gap, security rule]
 related:
+  - concepts/llm-system-prompt-corpus-audit.md
+  - sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md
   - sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md
   - concepts/agent-runtime-guardrails.md
   - concepts/llm-codegen-prompt-security-redistribution.md
@@ -14,7 +16,7 @@ related:
   - concepts/system-prompt-leakage.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-28
 wire_status: runtime_wired
 wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + claude_settings.json.example (K303)"
 ---

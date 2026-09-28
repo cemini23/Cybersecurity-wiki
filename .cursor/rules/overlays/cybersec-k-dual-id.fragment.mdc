@@ -84,4 +84,9 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K371 Instrumental runtime monitor evasion eval (2609.30217) ≠ CCC K371 (none assigned)
 - K373 Agent execution trace tampering audit (2609.30266) ≠ CCC K373 (none assigned)
 
-K300–K373 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+- K374 Skill cascading attacks (2609.30383) ≠ CCC K374 (none assigned)
+- K375 AgentXploit repo-to-runtime (2609.31318) ≠ CCC K375 (none assigned)
+- K376 FragToken noncanonical token cost (2609.31552) ≠ CCC K376 (none assigned)
+- K377 System-prompt operational configuration corpus (2609.31575) ≠ CCC K377 (none assigned)
+
+K300–K377 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

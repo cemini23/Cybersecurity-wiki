@@ -154,3 +154,8 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 - **K370 BLE backscatter polarization-shift ID (lab, owned devices only)** — SWIPT battery-free BLE **backscatter device identification** before data traffic; test **service authorization** after ID — **owned devices / authorized RF only**. REFERENCE. Dual-ID: ≠ CCC K370 (none assigned). Pairs K305/K365.
 - **K371 Instrumental monitor evasion (lab, authorized-lab only)** — **EvasionBench**-class eval: agents circumvent **runtime monitors** under ordinary task pressure; report **attempt vs success** and monitor config — **no evasion recipes in wiki**. **Runtime:** `scripts/k371_instrumental_monitor_evasion_precheck.py`. Dual-ID: ≠ CCC K371 (none assigned). Pairs K307/K348/K314.
 
+## Sep 28 batch (Skill cascade 2609.30383 · AgentXploit 2609.31318)
+
+- **K374 Skill cascading (lab, authorized-lab only)** — per-skill scanners miss **distributed** harm across a co-installed suite sharing one context window; audit **suites as one unit** and shared-context writes. **Runtime:** `scripts/k374_skill_cascade_precheck.py`. Dual-ID: ≠ CCC K374 (none assigned). **No cascade recipes in wiki.** Pairs K317/skill injection.
+- **K375 AgentXploit (lab, authorized pre-deploy only)** — split **Analyzer** (repo path discovery) from **Exploiter** (attacker interface on isolated target) and score with an **external verifier**. REFERENCE repo; **no clone this batch**; **no exploit payloads in wiki**. **Runtime:** `scripts/k375_agentxploit_precheck.py`. Dual-ID: ≠ CCC K375 (none assigned). Pairs K327/K341.
+

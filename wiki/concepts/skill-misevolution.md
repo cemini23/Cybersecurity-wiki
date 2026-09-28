@@ -4,6 +4,9 @@ type: concept
 tags: [concept, agent-security, skills, self-evolution, k237]
 keywords: [skill misevolution, CU UG Stealth, URR, C-ASR, SAFEEVOLVE, skill poisoning, retrieval lineage]
 related:
+  - concepts/skill-cascading-attacks-skill-based-agents.md
+  - concepts/skill-cascading-attacks-skill-based-agents.md
+  - sources/arxiv-2609-30383-skill-cascading-attacks-skill-based-agents.md
   - sources/arxiv-2608-12851-skill-misevolution.md
   - sources/arxiv-2608-12977-self-evolving-security.md
   - concepts/self-evolving-runtime-defense.md
@@ -21,13 +24,14 @@ related:
   - concepts/safeevolve-harness-policy-co-evolution.md
 maturity: draft
 created: 2026-08-15
-updated: 2026-09-03
+updated: 2026-09-28
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (skill misevolution lifecycle gates)"
 ---
 
 ## Relations
 
+- @concepts/skill-cascading-attacks-skill-based-agents.md — K374 skill-suite cascade vs evolve-gate misevolution
 - @sources/arxiv-2608-12851-skill-misevolution.md — primary paper
 - @concepts/self-evolving-runtime-defense.md — HARD defense pair
 - @concepts/skillsec-lifecycle-agent-skill-security.md — five-stage skill lifecycle; misevolution is the *evolve* gate failure

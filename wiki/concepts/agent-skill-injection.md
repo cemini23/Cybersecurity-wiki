@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, skill-injection, mcp, k95]
 keywords: [skill injection, SkillGuard, context poisoning, confused deputy, agent skills]
 related:
+  - concepts/skill-cascading-attacks-skill-based-agents.md
+  - concepts/skill-cascading-attacks-skill-based-agents.md
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
   - sources/arxiv-2606-03024-skillguard-permission-framework.md
@@ -61,13 +63,14 @@ related:
   - entities/tools/jailbreakskill.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-08-15
+updated: 2026-09-28
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations
 
+- @concepts/skill-cascading-attacks-skill-based-agents.md — K374 cross-skill cascade: per-skill scan misses joint harm
 - @sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md — cross-app context poisoning
 - @sources/arxiv-2606-01567-skill-injection-defenses-enablers.md — defense/enabler taxonomy
 - @sources/arxiv-2606-03024-skillguard-permission-framework.md — SkillGuard permissions

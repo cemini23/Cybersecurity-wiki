@@ -105,3 +105,8 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 - **K369 Calibrated pentest harness decisions (audit + lab)** — separate **generative pentest planning** from **typed System One adjudication** (finding confirmation, severity, agent pruning); do not let the same LLM grade its own findings. Pairs K341 secure pentest agents + federation JEV gates — not external enforcement alone (K314). REFERENCE.
 - **K373 Agent execution trace tampering (audit)** — agent-visible traces are **not integrity boundaries**; local coding harnesses may allow **self-trace deletion** and external inducement; plan **out-of-band append-only logging**. **Runtime:** `scripts/k373_agent_trace_tampering_precheck.py`. Dual-ID: ≠ CCC K373 (none assigned). Pairs K271/K278/K315.
 
+## Sep 28 batch (FragToken 2609.31552 · system-prompt corpus 2609.31575)
+
+- **K376 FragToken (audit)** — noncanonical token sequences can inflate **decode cost** without matching visible length; treat third-party/fine-tuned models as a **cost supply-chain** surface; report TIR vs visible text on owned/procured models. **Do not train FragToken.** **Runtime:** `scripts/k376_fragtoken_cost_precheck.py`. Dual-ID: ≠ CCC K376 (none assigned). Pairs K366. **No fragmentation recipes in wiki.**
+- **K377 System-prompt operational configuration (audit)** — leaked/reconstructed system prompts are **ops config**, not vendor conscience (~58% tool/protocol vs ~5% safety in the paper’s classifier). Track prompt **rot** on owned prompts; **do not clone leak corpora** or paste leaked bodies into wiki. Dual-ID: ≠ CCC K377 (none assigned). Pairs LLM07 leakage.
+
