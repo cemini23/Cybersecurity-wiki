@@ -11,13 +11,14 @@ related:
   - concepts/translation-finetune-forgetting-mt-instruction-audit.md
 maturity: draft
 created: 2026-09-23
-updated: 2026-09-28
+updated: 2026-09-29
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K357)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md — OOD Haitian Creole cultural eval (2609.31506) routed to CCC
 - @sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md
 - @concepts/cross-lingual-safety-transfer-lrl.md
 - @concepts/guardrail-construct-validity-agent-eval.md

@@ -4,20 +4,21 @@ type: concept
 tags: [concept, agent-security, k362]
 keywords: [2609.26682, K362]
 related:
-  - concepts/llm-system-prompt-corpus-audit.md
   - sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md
+  - concepts/llm-system-prompt-corpus-audit.md
   - sources/arxiv-2609-26682-genai-access-control-policy-enforcement.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/certified-selective-prediction-guardrails.md
 maturity: draft
 created: 2026-09-23
-updated: 2026-09-28
+updated: 2026-09-29
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc (K362)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md — K377 system-prompt corpus source
 - @sources/arxiv-2609-26682-genai-access-control-policy-enforcement.md
 - @concepts/recognition-enforcement-gap-instruction-arbitration.md
 - @concepts/certified-selective-prediction-guardrails.md

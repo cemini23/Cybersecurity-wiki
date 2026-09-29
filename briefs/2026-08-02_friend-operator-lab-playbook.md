@@ -209,6 +209,7 @@ Wiki: `@concepts/bug-bounty.md`, `@entities/tools/gau.md`, `@entities/tools/kata
 
 ## Sources
 
+- `@concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md` · `@concepts/curriculum-prompt-injection-redteam-frontier-models.md` · `@concepts/late-attention-entity-token-copying-interpretability.md` · `@concepts/distillation-defense-reinforcement-learning-threat-model.md` (K378–K381; 2026-09-29)
 - Dual-wiki + day-1 setup: `briefs/2026-08-05_friend-day1-cursor-goal-paste.md` · `@concepts/operator-lab-playbook.md` (hub) · TipDrop kit `FEDERATION-WIKI-INDEX.md` + `scripts/install-federation-wikis.ps1` · `@osint-wiki/entities/tools/fingerprint-suite.md` · `@osint-wiki/entities/tools/octobrowser.md` · `@osint-wiki/entities/tools/arkham-intelligence.md` · `@osint-wiki/entities/tools/mitre-atlas.md` · `@osint-wiki/entities/tools/cua.md`
 - `@concepts/operator-lab-playbook.md` (hub)
 - `@concepts/ai-pentest-harness-landscape.md`
@@ -400,3 +401,11 @@ Operator hub: `@concepts/operator-lab-playbook.md`
 67. **K375 AgentXploit (2026-09-28)** — k375_agentxploit_precheck; runtime-verify repo findings; no clone.
 68. **K376 FragToken (2026-09-28)** — k376_fragtoken_precheck; owned API/lab only.
 69. **K377 system prompts (2026-09-28)** — k377_system_prompt_corpus_precheck; prompts are config not enforcement.
+
+70. **K378 SkillDRE dual-stage (2026-09-29)** — before evolving skills in an owned harness: `python3 scripts/k378_skilldre_precheck.py checklist` (skill: `skilldre-precheck`). Dual-stage pre-exec + runtime; do not clone null-SPDX SkillDRE; keep benign-task metric.
+
+71. **K379 curriculum PI red-team (2026-09-29)** — frontier prompt-injection cold-start: `python3 scripts/k379_curriculum_pi_redteam_precheck.py checklist` (skill: `curriculum-pi-redteam-precheck`). Document curriculum; owned/written-scope only; no injection payloads in wiki.
+
+72. **K380 late-attention entity copy (2026-09-29)** — audit/interpretability only: entity copy needs late layers **and** context attention. No precheck script.
+
+73. **K381 distill then RL (2026-09-29)** — before trusting a distillation defense: `python3 scripts/k381_distillation_defense_rl_precheck.py checklist` (skill: `distillation-defense-rl-precheck`). Re-eval after post-distill RL; dual pre/post metrics; owned/procured models only.

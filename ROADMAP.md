@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-29 | Full ingest K378–K381 + RISE OOD | SkillDRE dual-stage; curriculum PI; late attention; distill+RL; T2I OOD → image-gen; k378/k379/k381 prechecks; friend 70–73 |
 | 2026-09-28 | Full ingest K374–K377 | Skill cascade; AgentXploit; FragToken; system prompts |
 | 2026-09-25 | Deep-read K364–K366, K368 (Grok-aligned deferrals) | emit_k364_k368_deepread.py; deferred product logger / bench / lab replication per Grok+route |
 | 2026-09-25 | Deep-read K369–K373 + OOD TAMP | PDF extract → validated sources/concepts; emit_k369_k373_deepread.py; CCC TAMP stub deep-read |

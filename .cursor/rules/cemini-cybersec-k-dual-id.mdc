@@ -94,4 +94,9 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K376 FragToken noncanonical token cost (2609.31552) ≠ CCC K376 (none assigned)
 - K377 System-prompt operational configuration corpus (2609.31575) ≠ CCC K377 (none assigned)
 
-K300–K377 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+- K378 SkillDRE dual-stage skill evolution (2609.32400) ≠ CCC K378 (none assigned)
+- K379 Climbing the hill curriculum PI red-team (2609.33628) ≠ CCC K379 (none assigned)
+- K380 Late-attention entity token copying (2609.35663) ≠ CCC K380 (none assigned)
+- K381 Distillation defenses break after RL (2609.35699) ≠ CCC K381 (none assigned)
+
+K300–K381 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

@@ -52,6 +52,9 @@ jobs:
           python3 scripts/test_k375_agentxploit_precheck.py
           python3 scripts/test_k376_fragtoken_precheck.py
           python3 scripts/test_k377_system_prompt_corpus_precheck.py
+          python3 scripts/test_k378_skilldre_precheck.py
+          python3 scripts/test_k379_curriculum_pi_redteam_precheck.py
+          python3 scripts/test_k381_distillation_defense_rl_precheck.py
           python3 scripts/test_federation_helper_scripts.py
 
       - name: wiki_lint (strict local links + bidirectional)

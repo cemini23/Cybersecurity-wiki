@@ -4,7 +4,8 @@ type: concept
 tags: [concept, agent-security, skill-injection, mcp, k95]
 keywords: [skill injection, SkillGuard, context poisoning, confused deputy, agent skills]
 related:
-  - concepts/skill-cascading-attacks-skill-based-agents.md
+  - sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
+  - concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md
   - concepts/skill-cascading-attacks-skill-based-agents.md
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-01567-skill-injection-defenses-enablers.md
@@ -63,13 +64,15 @@ related:
   - entities/tools/jailbreakskill.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-09-28
+updated: 2026-09-29
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md — K378 SkillDRE dual-stage skill evolution source
+- @concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md — K378 dual-stage skill evolution (pre-exec + runtime) lab gate
 - @concepts/skill-cascading-attacks-skill-based-agents.md — K374 cross-skill cascade: per-skill scan misses joint harm
 - @sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md — cross-app context poisoning
 - @sources/arxiv-2606-01567-skill-injection-defenses-enablers.md — defense/enabler taxonomy

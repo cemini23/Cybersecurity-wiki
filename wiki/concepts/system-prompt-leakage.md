@@ -21,7 +21,6 @@ related:
   - entities/tools/llm-defense-lattice.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
-  - sources/arxiv-2605-30454-agent-prompt-injection-surface-evaluation.md
   - concepts/instruction-hierarchy-conflict-benchmark.md
   - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
   - concepts/aispa-system-prompt-assurance-audit.md
@@ -29,13 +28,15 @@ related:
   - entities/tools/system-prompt-index.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-09-28
+updated: 2026-09-29
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md — K377 system-prompt corpus source — ops config composition
+- @concepts/llm-system-prompt-corpus-audit.md — K377 leaked prompts are ops config; composition not extraction
 - @concepts/llm-system-prompt-corpus-audit.md — K377 leaked prompts are ops config; composition not extraction
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — primary source (2606.18673)
 - @entities/tools/leakbench-area.md — LeakBench eval harness + AREA defense (Reference)

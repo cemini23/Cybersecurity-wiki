@@ -4,7 +4,8 @@ type: concept
 tags: [concept, agent-security, skill-injection, red-team, lab-only, k317]
 keywords: [EvoSkill Injection, SARGE, persistent capability corruption, self-evolving agents, skill bank, retrieval-time harm, skill misevolution]
 related:
-  - concepts/skill-cascading-attacks-skill-based-agents.md
+  - sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
+  - concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md
   - concepts/skill-cascading-attacks-skill-based-agents.md
   - sources/arxiv-2609-30383-skill-cascading-attacks-skill-based-agents.md
   - sources/arxiv-2608-30429-evoskill-injection.md
@@ -16,13 +17,15 @@ related:
   - concepts/safeevolve-harness-policy-co-evolution.md
 maturity: draft
 created: 2026-09-01
-updated: 2026-09-28
+updated: 2026-09-29
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K317)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md — K378 SkillDRE dual-stage skill evolution source
+- @concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md — K378 dual-stage evolution vs K317 EvoSkill generation pipeline
 - @concepts/skill-cascading-attacks-skill-based-agents.md — K374 cascade (installed suite) vs K317 generation pipeline
 - @sources/arxiv-2608-30429-evoskill-injection.md — EvoSkill Injection + SARGE (2608.30429)
 - @concepts/skill-misevolution.md — defense-side: skills can worsen; govern authoring/retrieval/execution

@@ -1,3 +1,21 @@
+## [2026-09-29] ingest | K378–K381 batch + RISE OOD (5 inbox PDFs)
+
+Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K378–K381** + **1 OOD** (RISE T2I → image-gen). **No clone. No attack payloads in wiki.**
+
+- **K378** — SkillDRE dual-stage pre-exec + runtime skill evolution; SkillsBench ASR claim; null SPDX REFERENCE. Runtime `k378_skilldre_precheck.py`.
+- **K379** — curriculum RL cold-start for frontier prompt-injection red-team. Runtime `k379_curriculum_pi_redteam_precheck.py`.
+- **OOD** — RISE T2I iterative strategy red-team (2609.34920) → @image-gen-wiki primary; cyber OOD stub.
+- **K380** — late-attention entity token copying needs context attention (audit only; no precheck).
+- **K381** — distillation defenses break after post-distill RL; dual pre/post-RL metrics. Runtime `k381_distillation_defense_rl_precheck.py`.
+- **Phase-1:** K378/K379 lab-redteam + agent-audit; K380/K381 agent-audit; mcp-tool-control K378; dual-id through K381.
+- **Skills:** skilldre-precheck, curriculum-pi-redteam-precheck, distillation-defense-rl-precheck (`federation: true`).
+- **friend brief:** add-ons **70–73**.
+- **Egress:** pending (archive script blocked in agent; run locally: `bash "../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id cybersec <pdf>`).
+
+## [2026-09-28] ops | Egress archive retry blocked in agent
+
+Five PDFs remain in inbox; run archive script locally after SSH to egress-fi works.
+
 ## [2026-09-28] deep-read | K374–K377 + OOD 31506
 
 - PDF extract → validated K374–K377; OOD stub deep-read.
@@ -6,7 +24,16 @@
 
 ## [2026-09-28] ingest | K374–K377 batch (5 inbox PDFs)
 
-Full ingest 5 NEW PDFs. K374–K377 + OOD 31506. No clone. Runtime k374–k377 prechecks; friend 66–69.
+Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K374–K377** + **1 OOD**. **No clone. No attack payloads in wiki.**
+
+- **K374** — skill cascading: per-skill scan misses joint harm on shared context; suite-as-unit audit. Runtime `k374_skill_cascade_precheck.py`.
+- **K375** — AgentXploit Analyzer/Exploiter + external verifier; authorized pre-deploy. Runtime `k375_agentxploit_precheck.py`.
+- **OOD** — Haitian Creole cultural LLM eval (2609.31506) → @ccc-wiki stub.
+- **K376** — FragToken noncanonical token cost; TIR vs visible length; do not train. Runtime `k376_fragtoken_cost_precheck.py`.
+- **K377** — system prompts are ops config (~58% tool/protocol vs ~5% safety). Runtime `k377_system_prompt_corpus_precheck.py`.
+- **Phase-1:** K374/K375 lab-redteam; K376/K377 agent-audit.
+- **Egress:** pending (SSH timeout). Inbox PDFs still local.
+- **friend brief:** add-ons **66–69**.
 
 ## [2026-09-25] ops | Grok follow-up triage (skills hold + SEO deep-read)
 

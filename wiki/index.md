@@ -449,6 +449,16 @@
 | @concepts/fragtoken-inference-cost-amplification-lab.md | draft | Token-level cost abuse lab |
 | @sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md | draft | System prompt corpus (2609.31575; K377) |
 | @concepts/llm-system-prompt-corpus-audit.md | draft | Leaked prompt composition audit |
+| @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md | draft | SkillDRE dual-stage skill evolution (2609.32400; K378) |
+| @concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md | draft | Pre-scan vs runtime defense feedback loop |
+| @sources/arxiv-2609-33628-climbing-hill-curriculum-prompt-injection-redteam.md | draft | Curriculum RL prompt-injection red-team (2609.33628; K379) |
+| @concepts/curriculum-prompt-injection-redteam-frontier-models.md | draft | Cold-start curriculum for frontier PI red-team |
+| @sources/arxiv-2609-34920-rise-t2i-redteam-ood.md | draft | OOD RISE T2I iterative strategy red-team (2609.34920) |
+| @sources/arxiv-2609-35663-late-attention-entity-token-copying.md | draft | Late-layer entity token copying (2609.35663; K380) |
+| @concepts/late-attention-entity-token-copying-interpretability.md | draft | Entity copy vs context dependence (audit) |
+| @sources/arxiv-2609-35699-distillation-defenses-break-after-reinforcement-learning.md | draft | Distillation defenses vs post-distill RL (2609.35699; K381) |
+| @concepts/distillation-defense-reinforcement-learning-threat-model.md | draft | Re-eval defenses after attacker RL continuation |
+
 | @sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md | draft | OOD Haitian Creole eval (2609.31506) |
 
 | @concepts/agent-execution-trace-tampering-audit.md | draft | Independent trace logging audit pattern |
