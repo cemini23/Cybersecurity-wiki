@@ -44,7 +44,7 @@ StepGuard (K307, 2608.24777) trains a 4B guard with **StepGen** (matched safe/un
 1. **Prefer pre-execution gates for irreversible MCP/tool effects** (pairs K239). Trajectory audit is complementary, not a substitute.
 2. **Measure safety–utility together** — a guard that blocks everything has ASR≈0 and utility≈0. Report ASR, benign-task utility, and over-block rate.
 3. **Defense bias is a product bug** — calibrate guards on held-out benign tool chains from your harness, not only attack packs.
-4. **No LICENSE → no default clone/wire** — `zheng977/StepGuard` had no LICENSE file at the 2026-08-26 Phase-0 hunt. **Cleared 2026-09-30:** the repo is now **Apache-2.0** with a LICENSE file (re-verified via `gh api`), so a Phase-0 REFERENCE clone is permitted. Still **no HF weight download** and **wont_wire** as a default MCP.
+4. **No LICENSE → no default clone/wire** — `zheng977/StepGuard` had no LICENSE file at the 2026-08-26 Phase-0 hunt. **Cleared 2026-09-30:** the repo is now **Apache-2.0** with a LICENSE file (re-verified via `gh api`), so a Phase-0 REFERENCE clone was adopted 2026-09-30 (sparse, ~3MB, at `.local/adopts/StepGuard`). Still **no HF weight download** and **wont_wire** as a default MCP.
 5. Guards monitor agents; they do not replace sandboxing, mandate chains (K285), or deterministic deny hooks (K303).
 
 ## Snippets

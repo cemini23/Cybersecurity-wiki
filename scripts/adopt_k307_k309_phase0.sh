@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Phase-0 verify — K307 StepGuard + K308 decorative CoT audit + K309 prompt security redistribution.
-# StepGuard: CONDITIONAL-GO pending LICENSE; no clone until SPDX. No HF weight download.
+# StepGuard: CONDITIONAL-GO; LICENSE cleared 2026-09-30 (Apache-2.0), so a sparse REFERENCE clone
+# under .local/adopts is permitted. No HF weight download.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
@@ -16,13 +17,14 @@ do
   test -f "$ROOT/$f" || { echo "FAIL missing page: $f"; exit 1; }
 done
 
-# No StepGuard clone without LICENSE
-for bad in \
-  "$ROOT/.local/adopts/StepGuard" \
-  "$ROOT/raw-sources/repos/StepGuard"
-do
-  test ! -e "$bad" || { echo "FAIL StepGuard clone exists before LICENSE verify: $bad"; exit 1; }
-done
+# LICENSE cleared 2026-09-30 (Apache-2.0): a REFERENCE clone under .local/adopts is permitted.
+# raw-sources/repos stays forbidden — this is a gitignored REFERENCE clone, not corpus material.
+test ! -e "$ROOT/raw-sources/repos/StepGuard" \
+  || { echo "FAIL StepGuard must not be copied into raw-sources/repos"; exit 1; }
+if [[ -d "$ROOT/.local/adopts/StepGuard" ]]; then
+  test -f "$ROOT/.local/adopts/StepGuard/LICENSE" \
+    || { echo "FAIL StepGuard clone present but LICENSE missing"; exit 1; }
+fi
 
 grep -q "K307 StepGuard" "$ROOT/.cursor/rules/cemini-cybersec-agent-audit.mdc"
 grep -q "K307 StepGuard" "$ROOT/.cursor/rules/cemini-cybersec-mcp-tool-control.mdc"

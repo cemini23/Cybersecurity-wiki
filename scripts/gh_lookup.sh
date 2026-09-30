@@ -29,7 +29,13 @@ GH_LOOKUP_FAILED="${GH_LOOKUP_FAILED:-0}"
 GH_FAIL_SENTINEL="__GH_LOOKUP_FAILED__"
 GH_MISSING_SENTINEL="__GH_REPO_MISSING__"
 
-_gh_tmp() { mktemp "${TMPDIR:-/tmp}/gh-err.XXXXXX"; }
+# Capture stderr to a scratch file. Falls back if TMPDIR is not writable, so an
+# empty path can never turn a real gh error into a confusing "ambiguous redirect".
+_gh_tmp() {
+  mktemp "${TMPDIR:-/tmp}/gh-err.XXXXXX" 2>/dev/null \
+    || mktemp "/tmp/gh-err.XXXXXX" 2>/dev/null \
+    || mktemp "./gh-err.XXXXXX"
+}
 
 # Classify a gh error file: 1 = HTTP 404 (the thing is absent), 2 = any other error.
 _gh_err_is_404() { grep -qiE "HTTP 404|Not Found" "$1"; }

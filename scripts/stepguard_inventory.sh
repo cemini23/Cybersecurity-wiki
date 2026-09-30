@@ -73,12 +73,15 @@ if [[ "$MODE" == "adopt" ]]; then
     echo "SKIP adopt — clone already present"
   elif [[ "$ACCEPTABLE" == "yes" ]]; then
     mkdir -p "$ROOT/.local/adopts"
-    echo "==> shallow clone $REPO"
-    git clone --depth 1 "https://github.com/${REPO}.git" "$CLONE"
+    # Sparse clone: the repo bundles ~46MB of benchmark-repos/ data we do not need.
+    # Without this the tree is 54MB and trips the 50MB cap; with it, ~3MB.
+    echo "==> shallow sparse clone $REPO (code only; excludes bundled benchmark-repos/)"
+    git clone --depth 1 --filter=blob:none --sparse "https://github.com/${REPO}.git" "$CLONE"
+    git -C "$CLONE" sparse-checkout set --cone assets benchmarks configs docs-open scripts src tests training
     test -f "$CLONE/LICENSE" || { echo "FAIL post-clone LICENSE missing"; exit 1; }
     sz="$(du -sm "$CLONE" | cut -f1)"
     test "$sz" -lt 50 || { echo "FAIL clone ${sz}MB >= 50MB cap"; exit 1; }
-    echo "OK REFERENCE clone (${sz}MB) — wont_wire runtime; no HF weights"
+    echo "OK REFERENCE clone (${sz}MB, sparse) — wont_wire runtime; no HF weights"
   elif [[ "$GH_LOOKUP_FAILED" -ne 0 ]]; then
     echo "FAIL adopt blocked — gh lookup failed, SPDX unknown"
     exit 3

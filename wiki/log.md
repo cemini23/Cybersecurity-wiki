@@ -1,3 +1,25 @@
+## [2026-09-30] phase-0 | Adopt StepGuard (K307) — LICENSE cleared
+
+The 2026-09-30 gh re-hunt found `zheng977/StepGuard` is now **Apache-2.0** (LICENSE file present,
+pushed 2026-09-26). The K307 clone HOLD is cleared, so Phase-0 was completed.
+
+- **Adopted:** sparse REFERENCE clone at `.local/adopts/StepGuard` (gitignored), **~4MB**. Keeps
+  `src/ tests/ training/ scripts/ configs/ docs-open/ assets/ benchmarks/`; excludes the bundled
+  `benchmark-repos/` ASSEBench payload (~46MB — the full tree is 54MB and trips the 50MB cap).
+  `scripts/stepguard_inventory.sh adopt` now does the sparse clone so a re-run reproduces it.
+- **Gate:** `scripts/adopt_k307_k309_phase0.sh` **ALL PASS**. Its old assertion "FAIL if a clone
+  exists" was inverted — a clone is now the expected state; `raw-sources/repos/StepGuard` stays
+  forbidden (REFERENCE clone, not corpus).
+- **Known expected noise:** `pytest tests/` reports 10 failures because the repo's own
+  `benchmarks/README.md` says it does **not** redistribute benchmark payloads (ATBench-Pro, TS-Bench,
+  R-Judge, AgentSafety, AgentHarm). The inventory script treats that as a WARN. K292 harness hash
+  check passes — no rule or skill drift.
+- **Wires:** K307 rules were already updated to the cleared license; entity page stamped with
+  `wire_status: reference_clone`. Runtime stays **wont_wire** — the clone is a steal-from reference,
+  not a default Cursor MCP.
+- **friend brief:** add-on 77
+- **Sweep:** n/a
+
 ## [2026-09-30] fix | gh lookup bug in inventory scripts (CCC brief) + SPDX re-hunt
 
 Actioned `briefs/2026-09-30_ccc-gh-inventory-scripts-broken.md`, written by the CCC wiki.
