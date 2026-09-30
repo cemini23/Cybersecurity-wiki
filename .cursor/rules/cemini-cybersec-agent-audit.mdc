@@ -107,7 +107,7 @@ Pre-install and local-runtime checks. Scanner disagreement is expected — no si
 
 ## Sep 28 batch (FragToken 2609.31552 · system-prompt corpus 2609.31575)
 
-- **K376 FragToken (audit)** — noncanonical token sequences can inflate **decode cost** without matching visible length; treat third-party/fine-tuned models as a **cost supply-chain** surface; report TIR vs visible text on owned/procured models. **Do not train FragToken.** **Runtime:** `scripts/k376_fragtoken_cost_precheck.py`. Dual-ID: ≠ CCC K376 (none assigned). Pairs K366. **No fragmentation recipes in wiki.**
+- **K376 FragToken (audit)** — noncanonical token sequences can inflate **decode cost** without matching visible length; treat third-party/fine-tuned models as a **cost supply-chain** surface; report TIR vs visible text on owned/procured models. **Do not train FragToken.** **Runtime:** `scripts/k376_fragtoken_precheck.py`. Dual-ID: ≠ CCC K376 (none assigned). Pairs K366. **No fragmentation recipes in wiki.**
 - **K377 System-prompt operational configuration (audit)** — leaked/reconstructed system prompts are **ops config**, not vendor conscience (~58% tool/protocol vs ~5% safety in the paper’s classifier). Track prompt **rot** on owned prompts; **do not clone leak corpora** or paste leaked bodies into wiki. Dual-ID: ≠ CCC K377 (none assigned). Pairs LLM07 leakage.
 
 ## Sep 29 batch (SkillDRE 2609.32400 · Climbing the hill 2609.33628 · late attention 2609.35663 · distill+RL 2609.35699)

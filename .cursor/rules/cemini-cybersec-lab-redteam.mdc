@@ -156,7 +156,7 @@ Adversarial LLM / agent eval tools are **authorized lab only**. No LIVE Discord,
 
 ## Sep 28 batch (Skill cascade 2609.30383 · AgentXploit 2609.31318)
 
-- **K374 Skill cascading (lab, authorized-lab only)** — per-skill scanners miss **distributed** harm across a co-installed suite sharing one context window; audit **suites as one unit** and shared-context writes. **Runtime:** `scripts/k374_skill_cascade_precheck.py`. Dual-ID: ≠ CCC K374 (none assigned). **No cascade recipes in wiki.** Pairs K317/skill injection.
+- **K374 Skill cascading (lab, authorized-lab only)** — per-skill scanners miss **distributed** harm across a co-installed suite sharing one context window; audit **suites as one unit** and shared-context writes. **Runtime:** `scripts/k374_skill_cascading_precheck.py`. Dual-ID: ≠ CCC K374 (none assigned). **No cascade recipes in wiki.** Pairs K317/skill injection.
 - **K375 AgentXploit (lab, authorized pre-deploy only)** — split **Analyzer** (repo path discovery) from **Exploiter** (attacker interface on isolated target) and score with an **external verifier**. REFERENCE repo; **no clone this batch**; **no exploit payloads in wiki**. **Runtime:** `scripts/k375_agentxploit_precheck.py`. Dual-ID: ≠ CCC K375 (none assigned). Pairs K327/K341.
 
 ## Sep 29 batch (SkillDRE 2609.32400 · Climbing the hill 2609.33628)

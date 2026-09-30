@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""K376 advisory precheck — FragToken inference cost abuse lab."""
+"""K376 advisory precheck — FragToken noncanonical-token inference cost lab."""
 from __future__ import annotations
 
 import argparse
@@ -8,11 +8,14 @@ import sys
 from pathlib import Path
 
 CHECKS = (
-    ("written_scope", "Authorized lab only?"),
+    ("owned_or_procured", "Eval only owned or contractually procured models (no third-party attack training)?"),
+    ("tir_vs_visible", "Report token count against visible response length (TIR-style)?"),
+    ("model_provenance", "Record model source, fine-tune lineage, and tokenizer identity?"),
+    ("canonical_tokenizer", "Keep the tokenizer and decode path vendor-canonical during serving?"),
     ("cost_metrics", "Measure cost tier, latency, and token stats?"),
-    ("benign_mix", "Include benign traffic mix?"),
-    ("sandbox", "Owned endpoint or vendor test account?"),
-    ("no_wiki_payloads", "No FragToken payloads in wiki?"),
+    ("benign_mix", "Include a benign traffic mix?"),
+    ("no_fragtoken_training", "Do not train or fine-tune a FragToken-style fragmentation model?"),
+    ("no_wiki_payloads", "No fragmentation recipes, token-split tables, or attack code in wiki?"),
 )
 
 
@@ -24,13 +27,13 @@ def run_checklist(answers: dict[str, bool]) -> tuple[bool, list[str]]:
 def selftest() -> None:
     ok, miss = run_checklist({k: True for k, _ in CHECKS})
     assert ok and not miss
-    bad, miss = run_checklist({k: True for k, _ in CHECKS} | {CHECKS[0][0]: False})
-    assert not bad and CHECKS[0][0] in miss
+    bad, miss = run_checklist({k: True for k, _ in CHECKS} | {"tir_vs_visible": False})
+    assert not bad and "tir_vs_visible" in miss
     print("OK k376_fragtoken_precheck selftest")
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="K373 agent trace tampering advisory checklist")
+    ap = argparse.ArgumentParser(description="K376 FragToken inference-cost advisory checklist")
     ap.add_argument("cmd", choices=("checklist", "selftest", "json"))
     ap.add_argument("--json", dest="json_path", help="JSON bool map for json subcommand")
     args = ap.parse_args()
@@ -48,7 +51,7 @@ def main() -> int:
         print(json.dumps({"ok": ok, "missing": missing}, indent=2))
         return 0 if ok else 2
 
-    print("# K376 — advisory checklist\n")
+    print("# K376 FragToken noncanonical-token cost — advisory checklist\n")
     for key, label in CHECKS:
         print(f"- [ ] {label}  (`{key}`)")
     print("\nCanon: wiki/concepts/fragtoken-inference-cost-amplification-lab.md")

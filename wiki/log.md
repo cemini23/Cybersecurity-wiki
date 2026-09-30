@@ -1,3 +1,24 @@
+## [2026-09-30] follow-up | K374/K376 precheck consolidation + grok offload + CCC routing
+
+Cleanup pass on the K382–K386 session follow-ups.
+
+- **Consolidated duplicate prechecks.** Two naming families existed for the same K#. Canonical is now
+  `scripts/k374_skill_cascading_precheck.py` and `scripts/k376_fragtoken_precheck.py` (the CI/phase-0
+  names). Their checklists were merged up from the discarded variants. Deleted
+  `k374_skill_cascade_precheck.py`, `k376_fragtoken_cost_precheck.py`, their tests, and the
+  `skill-cascade-precheck` / `fragtoken-cost-precheck` skill dirs. Fixed references in the lab-redteam
+  and agent-audit rules, `wiki/log.md`, and `emit_k374_k377_ingest.py`.
+- **Fixed a pre-existing phase-0 bug.** `adopt_k374_k377_phase0.sh` grepped for "K377 System prompt
+  corpus", but the rule says "K377 System-prompt operational configuration", so the gate had been
+  failing since the K374–K377 batch. `adopt_k374_k377_phase0.sh` now PASSes.
+- **New `scripts/grok_offload.sh`** — detached grok runner (`run` / `status` / `wait` / `list`) so a
+  terminal-tab close no longer kills a long headless deep-read. Symlinked to `~/.local/bin/grok-offload`
+  for federation-wide use. LESSONS entry added.
+- **CCC routing brief** `briefs/2026-09-30_k383-k384-ccc-routing.md` — K383 CounterSteer and K384
+  Frontier Autolab are not yet in CCC; K385 (2609.38021) is already covered there, so no route.
+- **friend brief:** n/a (no change to operator checklist this pass)
+- **Sweep:** n/a
+
 ## [2026-09-30] ingest | K382–K386 batch (5 NEW inbox PDFs)
 
 Full ingest of the **5 NEW** inbox arXiv PDFs (the other 5 were already ingested as K378–K381). Cybersec IDs **K382–K386**. **No clone. No attack payloads in wiki.**
@@ -46,10 +67,10 @@ Five PDFs remain in inbox; run archive script locally after SSH to egress-fi wor
 
 Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K374–K377** + **1 OOD**. **No clone. No attack payloads in wiki.**
 
-- **K374** — skill cascading: per-skill scan misses joint harm on shared context; suite-as-unit audit. Runtime `k374_skill_cascade_precheck.py`.
+- **K374** — skill cascading: per-skill scan misses joint harm on shared context; suite-as-unit audit. Runtime `k374_skill_cascading_precheck.py`.
 - **K375** — AgentXploit Analyzer/Exploiter + external verifier; authorized pre-deploy. Runtime `k375_agentxploit_precheck.py`.
 - **OOD** — Haitian Creole cultural LLM eval (2609.31506) → @ccc-wiki stub.
-- **K376** — FragToken noncanonical token cost; TIR vs visible length; do not train. Runtime `k376_fragtoken_cost_precheck.py`.
+- **K376** — FragToken noncanonical token cost; TIR vs visible length; do not train. Runtime `k376_fragtoken_precheck.py`.
 - **K377** — system prompts are ops config (~58% tool/protocol vs ~5% safety). Runtime `k377_system_prompt_corpus_precheck.py`.
 - **Phase-1:** K374/K375 lab-redteam; K376/K377 agent-audit.
 - **Egress:** pending (SSH timeout). Inbox PDFs still local.

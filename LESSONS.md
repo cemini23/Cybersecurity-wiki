@@ -6,6 +6,17 @@ Newest entries on top.
 
 ---
 
+## [2026-09-30] Offload long grok runs — a terminal tab close kills them
+
+- Headless `grok -p` / `grok --prompt-file` dies when its terminal tab closes mid-run. Three deep-read restarts happened in one session before this was diagnosed.
+- **Run it detached.** `scripts/grok_offload.sh` (also on PATH as `grok-offload`) starts grok under `nohup` with stdin detached, writes `out.md` / `err.log` / `rc` into `.scratch/grok/<name>/`, and gives `status` / `wait` / `list` to poll without holding a tab open.
+- macOS has **no `setsid`** (it is util-linux, not BSD). `nohup` + `disown` + `</dev/null` is the detach path here.
+- Grok must run **outside the Claude Code sandbox**: the sandbox denies `cli-chat-proxy.grok.com` and grok's session directory, so grok cannot start inside it.
+- Keep `--cwd` inside the project. Pointing it outside stalls grok. Use `--prompt-file` for long prompts, and pass the text as a **file path grok reads itself** — inlining a 100 KB paper into `-p` makes grok think the message was truncated.
+- Grok narrates: expect one preamble line ("I'll read the file and ...") before the answer. Strip it before parsing.
+
+---
+
 ## [2026-08-03] Friend brief is a living start-here — update after every relevant ingest
 
 - Tracked brief: `briefs/2026-08-02_friend-operator-lab-playbook.md` (`.gitignore` allowlist). It is the friend’s ordered checklist; pillar wiki pages hold depth.

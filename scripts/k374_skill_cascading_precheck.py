@@ -1,31 +1,62 @@
 #!/usr/bin/env python3
+"""K374 advisory precheck — skill cascading attacks / joint-skill suite audit."""
 from __future__ import annotations
-import argparse, json, sys
+
+import argparse
+import json
+import sys
 from pathlib import Path
-CHECKS = [('written_scope', 'Written scope for skill-interaction eval on owned lab?'), ('skill_graph', 'Inventory skills+order+shared tools?'), ('no_auto_evolve', 'No auto-evolve skills from red-team runs?'), ('preflight', 'cursor-security-preflight before third-party skills?'), ('no_wiki_payloads', 'No cascade recipes in wiki?')]
 
-def run_checklist(a):
-    m=[k for k,_ in CHECKS if not a.get(k)]
-    return len(m)==0,m
+CHECKS = (
+    ("written_scope", "Written scope for owned-lab joint-skill / suite eval?"),
+    ("suite_as_unit", "Treat co-installed vendor skill suites as one review unit?"),
+    ("shared_context_audit", "Audit what each skill writes into the shared context window?"),
+    ("joint_skill_scan", "Run a joint-skill review in addition to the per-skill SKILL.md scan?"),
+    ("skill_graph", "Inventory skills, load order, and shared tools?"),
+    ("no_auto_evolve", "No auto-evolve of skills from red-team runs?"),
+    ("hitl_install", "HITL before installing third-party skill suites from a marketplace?"),
+    ("no_wiki_payloads", "No cascade recipes, modified skills, or attack payloads in wiki?"),
+)
 
-def selftest():
-    ok,_=run_checklist({k:True for k,_ in CHECKS})
-    assert ok
-    print('OK k374 selftest')
 
-def main():
-    ap=argparse.ArgumentParser()
-    ap.add_argument('cmd',choices=('checklist','selftest','json'))
-    ap.add_argument('--json',dest='jp')
-    args=ap.parse_args()
-    if args.cmd=='selftest':
-        selftest(); return 0
-    if args.cmd=='json':
-        d=json.loads(Path(args.jp).read_text())
-        ok,m=run_checklist({k:d.get(k)is True for k,_ in CHECKS})
-        print(json.dumps({'ok':ok,'missing':m})); return 0 if ok else 2
-    for k, label in CHECKS:
-        print(f"- [ ] {label}  (`{k}`)")
+def run_checklist(answers: dict[str, bool]) -> tuple[bool, list[str]]:
+    missing = [key for key, _ in CHECKS if not answers.get(key)]
+    return len(missing) == 0, missing
+
+
+def selftest() -> None:
+    ok, miss = run_checklist({k: True for k, _ in CHECKS})
+    assert ok and not miss
+    bad, miss = run_checklist({k: True for k, _ in CHECKS} | {"suite_as_unit": False})
+    assert not bad and "suite_as_unit" in miss
+    print("OK k374_skill_cascading_precheck selftest")
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description="K374 skill cascading advisory checklist")
+    ap.add_argument("cmd", choices=("checklist", "selftest", "json"))
+    ap.add_argument("--json", dest="json_path", help="JSON bool map for json subcommand")
+    args = ap.parse_args()
+
+    if args.cmd == "selftest":
+        selftest()
+        return 0
+
+    if args.cmd == "json":
+        if not args.json_path:
+            print("FAIL --json required", file=sys.stderr)
+            return 1
+        data = json.loads(Path(args.json_path).read_text(encoding="utf-8"))
+        ok, missing = run_checklist({k: data.get(k) is True for k, _ in CHECKS})
+        print(json.dumps({"ok": ok, "missing": missing}, indent=2))
+        return 0 if ok else 2
+
+    print("# K374 skill cascading / joint-skill suite — advisory checklist\n")
+    for key, label in CHECKS:
+        print(f"- [ ] {label}  (`{key}`)")
     print("\nCanon: wiki/concepts/skill-cascading-attacks-skill-based-agents.md")
     return 0
-if __name__=='__main__': raise SystemExit(main())
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

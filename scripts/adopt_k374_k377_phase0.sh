@@ -15,7 +15,7 @@ do
   test -f "$ROOT/$f"
 done
 grep -q "K374 Skill cascading" "$ROOT/.cursor/rules/cemini-cybersec-lab-redteam.mdc"
-grep -q "K377 System prompt corpus" "$ROOT/.cursor/rules/cemini-cybersec-agent-audit.mdc"
+grep -q "K377 System-prompt operational configuration" "$ROOT/.cursor/rules/cemini-cybersec-agent-audit.mdc"
 python3 "$ROOT/scripts/restore_cybersec_dual_id.py" --check
 python3 "$ROOT/scripts/k374_skill_cascading_precheck.py" selftest
 python3 "$ROOT/scripts/k375_agentxploit_precheck.py" selftest
