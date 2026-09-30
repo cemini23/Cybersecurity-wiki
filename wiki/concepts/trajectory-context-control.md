@@ -4,6 +4,10 @@ type: concept
 tags: [concept, agent-security, mcp, prompt-injection, multi-agent, context-poisoning, trajectory-control]
 keywords: [gt-mcp, causal graph, contextual drift, cci, agr, cds, self-healing, stackelberg, closed-loop]
 related:
+  - sources/arxiv-2609-38021-auditable-long-term-memory-retrieval-chain.md
+  - sources/arxiv-2609-36739-frontier-autolab-temporal-leakage.md
+  - concepts/auditable-long-term-memory-retrieval-chain.md
+  - concepts/frontier-autolab-organizational-memory-leakage.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
@@ -21,11 +25,15 @@ related:
   - sources/arxiv-2608-07440-blast-radius.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-08-10
+updated: 2026-09-30
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-38021-auditable-long-term-memory-retrieval-chain.md — K382–K386 ingest source page
+- @sources/arxiv-2609-36739-frontier-autolab-temporal-leakage.md — K382–K386 ingest source page
+- @concepts/auditable-long-term-memory-retrieval-chain.md — K385 deterministic memory retrieval chain + reader/judge variance audit
+- @concepts/frontier-autolab-organizational-memory-leakage.md — K384 temporal leakage + org memory in long-horizon multi-agent evals
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — primary source (GT-MCP)
 - @concepts/mcp-security-posture.md — K100 trust-boundary layers; trajectory control sits above them
 - @concepts/agent-runtime-guardrails.md — side-effect authorization vs context-state authorization

@@ -4,6 +4,10 @@ type: concept
 tags: [concept, agent-security, prompt-injection, red-teaming, lab]
 keywords: [PIMiner, strategy library, IPIArena, AgentDojo, 2608.05108]
 related:
+  - sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md
+  - sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md
+  - concepts/countersteer-activation-steering-ipi-defense.md
+  - concepts/finrt-amortized-redteam-generator.md
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
   - entities/tools/piminer.md
   - concepts/prompt-injection-detector-calibration.md
@@ -16,11 +20,15 @@ related:
   - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-07
+updated: 2026-09-30
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md — K382–K386 ingest source page
+- @sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md — K382–K386 ingest source page
+- @concepts/countersteer-activation-steering-ipi-defense.md — K383 inference-time steering defense against IPI
+- @concepts/finrt-amortized-redteam-generator.md — K382 amortized generator red-team
 - @sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 - @entities/tools/piminer.md
 - @concepts/prompt-injection-detector-calibration.md

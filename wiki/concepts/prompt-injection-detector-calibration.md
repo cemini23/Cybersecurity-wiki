@@ -4,6 +4,8 @@ type: concept
 tags: [llm-security, prompt-injection, guard-model, calibration, mcp]
 keywords: [2606.22659, severity metric, confident false negatives, protectai, prompt-guard, content-keying, bipia]
 related:
+  - sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md
+  - concepts/countersteer-activation-steering-ipi-defense.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
   - entities/tools/picalib-research.md
@@ -26,11 +28,13 @@ related:
   - concepts/compliance-detector-rule-blindness.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-08-06
+updated: 2026-09-30
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md — K382–K386 ingest source page
+- @concepts/countersteer-activation-steering-ipi-defense.md — K383 suppression defense: no detector to evade, no calibration gap
 - @sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md — primary source
 - @entities/tools/llm-defense-lattice.md — OWASP LLM01 probe attribution complement
 - @concepts/piminer-agentic-prompt-injection-redteam.md

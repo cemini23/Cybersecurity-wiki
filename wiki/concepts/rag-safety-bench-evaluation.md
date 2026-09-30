@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, rag, safety, eval, k328]
 keywords: [2609.11758, RAG-Safety-Bench, retrieval-augmented safety, harmful content, eval reliability]
 related:
+  - sources/arxiv-2609-38099-rice-in-context-dense-retrieval.md
+  - concepts/rice-in-context-dense-retrieval.md
   - sources/arxiv-2609-11758-rag-safety-bench.md
   - concepts/codepoisonrag-racg-knowledge-poisoning.md
   - concepts/committee-certified-rag-provenance.md
   - concepts/agent-data-injection-attacks.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-30
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K328)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-38099-rice-in-context-dense-retrieval.md — K382–K386 ingest source page
+- @concepts/rice-in-context-dense-retrieval.md — K386 retrieval quality (exemplar sensitivity) feeds RAG safety evals
 - @sources/arxiv-2609-11758-rag-safety-bench.md — RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety (2609.11758)
 
 ## Raw Concept

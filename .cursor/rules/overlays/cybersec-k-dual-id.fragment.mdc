@@ -93,5 +93,10 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K379 Climbing the hill curriculum PI red-team (2609.33628) ≠ CCC K379 (none assigned)
 - K380 Late-attention entity token copying (2609.35663) ≠ CCC K380 (none assigned)
 - K381 Distillation defenses break after RL (2609.35699) ≠ CCC K381 (none assigned)
+- K382 FinRT amortized adversarial generator (2609.36474) ≠ CCC K382 (none assigned)
+- K383 CounterSteer IPI activation-steering defense (2609.36570) ≠ CCC K383 (none assigned)
+- K384 Frontier Autolab temporal leakage (2609.36739) ≠ CCC K384 (none assigned)
+- K385 Auditable long-term memory retrieval chain (2609.38021) ≠ CCC K385 (none assigned)
+- K386 RICE in-context dense retrieval (2609.38099) ≠ CCC K386 (none assigned)
 
-K300–K381 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K386 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

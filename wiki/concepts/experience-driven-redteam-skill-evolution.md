@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, offensive, red-team, skill-evolution, lab-only, k313]
 keywords: [RedEvoAgent, skill evolution, validation ratchet, tool-effectiveness, Deciding-Tool Attribution, attack skill, black-box red team, lab eval]
 related:
+  - sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md
+  - concepts/finrt-amortized-redteam-generator.md
   - sources/arxiv-2608-27439-redevoagent.md
   - concepts/evolving-attack-skill-libraries.md
   - concepts/skill-misevolution.md
@@ -11,13 +13,15 @@ related:
   - sources/arxiv-2608-30429-evoskill-injection.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-09-01
+updated: 2026-09-30
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K313)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md — K382–K386 ingest source page
+- @concepts/finrt-amortized-redteam-generator.md — K382 distills red-team search into a reusable generator (vs K313 skill ratchet)
 - @sources/arxiv-2608-27439-redevoagent.md — source paper (black-box skill-evolution red team)
 - @concepts/evolving-attack-skill-libraries.md — offense-side evolving skill library (K283 JailbreakSkill)
 - @concepts/skill-misevolution.md — defense side: practice can make a skill library unsafe

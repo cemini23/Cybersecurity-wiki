@@ -1,3 +1,23 @@
+## [2026-09-30] ingest | K382–K386 batch (5 NEW inbox PDFs)
+
+Full ingest of the **5 NEW** inbox arXiv PDFs (the other 5 were already ingested as K378–K381). Cybersec IDs **K382–K386**. **No clone. No attack payloads in wiki.**
+
+- **NEW** `@sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md` + `@concepts/finrt-amortized-redteam-generator.md` — **K382** FinRT amortized adversarial generator (consumer finance); report ASR + severity + realism-constrained coverage + diversity jointly; no repo
+- **NEW** `@sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md` + `@concepts/countersteer-activation-steering-ipi-defense.md` — **K383** CounterSteer inference-time activation-steering IPI defense; always-on, white-box only; parameter manipulation stays open; artifact ships attack drivers (code-available) — no clone
+- **NEW** `@sources/arxiv-2609-36739-frontier-autolab-temporal-leakage.md` + `@concepts/frontier-autolab-organizational-memory-leakage.md` — **K384** Frontier Autolab long-horizon multi-agent eval; temporal leakage + caution attractor; MIT testbed REFERENCE
+- **NEW** `@sources/arxiv-2609-38021-auditable-long-term-memory-retrieval-chain.md` + `@concepts/auditable-long-term-memory-retrieval-chain.md` — **K385** auditable long-term memory: deterministic retrieval chain + replaceable reader; judge variance + verdict flips; MIT evidence-only REFERENCE
+- **NEW** `@sources/arxiv-2609-38099-rice-in-context-dense-retrieval.md` + `@concepts/rice-in-context-dense-retrieval.md` — **K386** RICE training-free in-context dense retrieval (tangential; no threat model); license not stated — no clone
+- **Updated** experience-driven-redteam-skill-evolution, piminer-agentic-prompt-injection-redteam, prompt-injection-detector-calibration, ai-redteam-evidential-ceiling, trajectory-context-control, salami-collusive-memory-poisoning, kamr-knowledge-aligned-multihop-retrieval, rag-safety-bench-evaluation, index.md
+- **Phase-0**: `scripts/adopt_k382_k386_phase0.sh` PASS
+- **Phase-1**: dual-ID K382–K386; `cemini-cybersec-lab-redteam.mdc` (K382–K384); `cemini-cybersec-agent-audit.mdc` (K382–K386); `cemini-cybersec-mcp-tool-control.mdc` (K383)
+- **Runtime**: `k382_finrt_amortized_redteam_precheck.py`, `k383_countersteer_ipi_precheck.py`, `k384_frontier_autolab_leakage_precheck.py` + CI tests; K385/K386 audit-only
+- **Skills (federation)**: `finrt-amortized-redteam-precheck`, `countersteer-ipi-precheck`, `frontier-autolab-leakage-precheck`
+- **Deep-read**: routed through the grok CLI (headless `-p`) to save session tokens; PDFs extracted with PyMuPDF into `.scratch/`
+- **friend brief:** add-on 74 (K382–K386)
+- **Sweep**: `wiki/sweeps/2026-09-30-daily.md`
+
+**Archive**: five PDFs → egress-fi cybersec/ (pending egress run)
+
 ## [2026-09-29] ingest | K378–K381 batch + RISE OOD (5 inbox PDFs)
 
 Full ingest of **5 NEW** inbox arXiv PDFs. Cybersec IDs **K378–K381** + **1 OOD** (RISE T2I → image-gen). **No clone. No attack payloads in wiki.**

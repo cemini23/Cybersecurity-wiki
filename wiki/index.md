@@ -458,6 +458,17 @@
 | @concepts/late-attention-entity-token-copying-interpretability.md | draft | Entity copy vs context dependence (audit) |
 | @sources/arxiv-2609-35699-distillation-defenses-break-after-reinforcement-learning.md | draft | Distillation defenses vs post-distill RL (2609.35699; K381) |
 | @concepts/distillation-defense-reinforcement-learning-threat-model.md | draft | Re-eval defenses after attacker RL continuation |
+| @sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md | draft | FinRT amortized adversarial-generator red-team (2609.36474; K382) |
+| @concepts/finrt-amortized-redteam-generator.md | draft | Amortize red-team search into a reusable generator |
+| @sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md | draft | CounterSteer inference-time IPI steering (2609.36570; K383) |
+| @concepts/countersteer-activation-steering-ipi-defense.md | draft | Always-on tool-span steering vs indirect prompt injection |
+| @sources/arxiv-2609-36739-frontier-autolab-temporal-leakage.md | draft | Frontier Autolab org-memory temporal leakage (2609.36739; K384) |
+| @concepts/frontier-autolab-organizational-memory-leakage.md | draft | Leakage measures for historically scored agent evals |
+| @sources/arxiv-2609-38021-auditable-long-term-memory-retrieval-chain.md | draft | Auditable long-term memory retrieval chain (2609.38021; K385) |
+| @concepts/auditable-long-term-memory-retrieval-chain.md | draft | Deterministic retrieval chain for agent memory audit |
+| @sources/arxiv-2609-38099-rice-in-context-dense-retrieval.md | draft | RICE in-context dense retrieval (2609.38099; K386) |
+| @concepts/rice-in-context-dense-retrieval.md | draft | Dense retrieval trained from in-context examples only |
+
 
 | @sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md | draft | OOD Haitian Creole eval (2609.31506) |
 

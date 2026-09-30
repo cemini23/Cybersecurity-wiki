@@ -4,6 +4,8 @@ type: concept
 tags: [concept, llm-safety, evaluation, red-teaming]
 keywords: [evidential ceiling, null result, harm rate, certification claim, 2607.21735]
 related:
+  - concepts/finrt-amortized-redteam-generator.md
+  - sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md
   - concepts/agent-safety-executable-evaluation.md
   - sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
   - entities/tools/ai-redteam-evidential-limits.md
@@ -37,11 +39,13 @@ related:
   - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-09-16
+updated: 2026-09-30
 ---
 
 ## Relations
 
+- @concepts/finrt-amortized-redteam-generator.md — K382 amortized red-team generator: score coverage/severity/diversity jointly
+- @sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md — K382–K386 ingest source page
 - @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md
 - @entities/tools/ai-redteam-evidential-limits.md
 - @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md — faithful ASR as a measurement-condition tuple (K271)
