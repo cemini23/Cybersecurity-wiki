@@ -18,7 +18,7 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K304 SDP/RIM (2608.23497) — reasoning FT is a safety event; no clamp recipes
 - K305 BT-NFT (2608.22754) — pairing ≠ authorization; owned-device lab only
 - K306 LLM-compliance (2608.21317) — compliance artifacts are candidates; HITL
-- K307 StepGuard (2608.24777) ≠ CCC MediSkill-Evo K307 — step-level pre-execution guard; LICENSE pending
+- K307 StepGuard (2608.24777) ≠ CCC MediSkill-Evo K307 — step-level pre-execution guard; **Apache-2.0 cleared 2026-09-30** (was null SPDX)
 - K308 decorative CoT audit (2608.24790) ≠ CCC MetaCaster K308 — CoT ≠ evidence; cdr metric
 - K309 prompt security redistribution (2608.24857) ≠ CCC Prime Agent K309 — prompt shifts CWE mix, not prevalence
 - K310 RTLGuard (2608.26049) ≠ CCC K310 AP2 — poisoned-RTL teacher-student sanitize; no public repo

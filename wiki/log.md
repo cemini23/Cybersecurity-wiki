@@ -1,3 +1,31 @@
+## [2026-09-30] fix | gh lookup bug in inventory scripts (CCC brief) + SPDX re-hunt
+
+Actioned `briefs/2026-09-30_ccc-gh-inventory-scripts-broken.md`, written by the CCC wiki.
+
+- **Root cause (two defects, one mask).** `gh search repos --json nameWithOwner` is rejected by the
+  installed `gh` (the field is `fullName`), and each call ended in `2>/dev/null || echo '[]'`, so the
+  non-zero exit fired the fallback and a hard failure read as "no repo found". One query was also an
+  arXiv-id phrase, which `gh search` (name/description only) can never match.
+- **Fix.** New shared `scripts/gh_lookup.sh` with **three distinct states**: a value, `__GH_REPO_MISSING__`
+  (HTTP 404 — genuinely absent), and `__GH_LOOKUP_FAILED__` (any other error, announced on stderr). A
+  failed lookup now exits non-zero (3) instead of reporting an empty result. Applied to
+  `k316_k319_inventory.sh`, `instruction_arbitration_bench_inventory.sh`, `stepguard_inventory.sh`,
+  `k320_k322_inventory.sh`, and the `k307_k315_rehunt.sh` wrapper. The EvoSkill hunt now also prints
+  each candidate's `license.key`.
+- **Regression guard.** `scripts/test_gh_lookup.py` (offline, `gh` stubbed on PATH) wired into CI, so a
+  swallowed error cannot come back.
+- **Re-hunt results (2026-09-30).** `zheng977/StepGuard` is now **Apache-2.0** with a LICENSE file
+  (pushed 2026-09-26) — the K307 clone HOLD is **cleared**; rules + entity + concept + friend brief
+  updated. `AdrSkapars/bloom-wilt` and the K310–K313 name-collision repos stay licenceless.
+  `reinforcelabs/EvoFlint` has **no GitHub repo** (HF space only). `InstructionArbitrationBench` is
+  confirmed genuinely **not public** — CCC's matching watch entry is a true negative, nothing to route.
+  `getathelas/LoopHarness` shows Apache-2.0 but license was never the no-clone reason (Apple OS).
+  K317 surfaced licensed name-collision candidates (`sentient-agi/EvoSkill`, `JimmyMa99/EvoSkill`,
+  `ZJU-REAL/EvoSkill-GUI`, `EvoScientist/*`) — none is the paper's `EvoSkillBench`/`SARGE`; no clone.
+- **Scope:** documentation and scripts only. No clones, no installs (per the brief).
+- **friend brief:** add-on 76
+- **Sweep:** n/a
+
 ## [2026-09-30] follow-up | K374/K376 precheck consolidation + grok offload + CCC routing
 
 Cleanup pass on the K382–K386 session follow-ups.

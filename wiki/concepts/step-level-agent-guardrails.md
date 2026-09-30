@@ -15,7 +15,7 @@ related:
   - sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-30
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.mdc (K307)"
 ---
@@ -24,7 +24,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.m
 
 - @sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 - @sources/arxiv-2608-24777-stepguard.md
-- @entities/tools/stepguard.md — StepGuard repo/model pointer (CONDITIONAL-GO pending LICENSE)
+- @entities/tools/stepguard.md — StepGuard repo/model pointer (CONDITIONAL-GO; Apache-2.0 cleared 2026-09-30)
 - @concepts/agent-runtime-guardrails.md — guard placement in agent stack
 - @concepts/nl-security-rules-vs-builtin-deny.md — prose rules ≠ pre-execution deny
 - @concepts/faithful-agent-asr-measurement.md — report ASR + utility jointly, not guard accuracy alone
@@ -44,7 +44,7 @@ StepGuard (K307, 2608.24777) trains a 4B guard with **StepGen** (matched safe/un
 1. **Prefer pre-execution gates for irreversible MCP/tool effects** (pairs K239). Trajectory audit is complementary, not a substitute.
 2. **Measure safety–utility together** — a guard that blocks everything has ASR≈0 and utility≈0. Report ASR, benign-task utility, and over-block rate.
 3. **Defense bias is a product bug** — calibrate guards on held-out benign tool chains from your harness, not only attack packs.
-4. **No LICENSE → no default clone/wire** — `zheng977/StepGuard` had no LICENSE file at Phase-0 hunt; steal patterns only until SPDX verified.
+4. **No LICENSE → no default clone/wire** — `zheng977/StepGuard` had no LICENSE file at the 2026-08-26 Phase-0 hunt. **Cleared 2026-09-30:** the repo is now **Apache-2.0** with a LICENSE file (re-verified via `gh api`), so a Phase-0 REFERENCE clone is permitted. Still **no HF weight download** and **wont_wire** as a default MCP.
 5. Guards monitor agents; they do not replace sandboxing, mandate chains (K285), or deterministic deny hooks (K303).
 
 ## Snippets
