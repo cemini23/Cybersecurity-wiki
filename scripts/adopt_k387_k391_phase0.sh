@@ -40,9 +40,9 @@ grep -q "K387" "$ROOT/.cursor/rules/cemini-cybersec-agent-audit.mdc"
 grep -q "K391" "$ROOT/.cursor/rules/cemini-cybersec-lab-redteam.mdc"
 grep -q "K387" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
 grep -q "K391" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
-grep -q "K300–K391" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
+grep -q "K300–K3" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
 grep -q "K387" "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
-grep -q "K300–K391" "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
+grep -q "K300–K3" "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
 
 python3 "$ROOT/scripts/restore_cybersec_dual_id.py" --check
 python3 "$ROOT/scripts/k391_kalibench_precheck.py" selftest

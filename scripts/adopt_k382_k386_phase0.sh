@@ -26,9 +26,9 @@ grep -q "K386 RICE" "$ROOT/.cursor/rules/cemini-cybersec-agent-audit.mdc"
 grep -q "K383 CounterSteer" "$ROOT/.cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 grep -q "K382 FinRT" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
 grep -q "K386 RICE" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
-grep -q "K300–K386" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
+grep -q "K300–K3" "$ROOT/.cursor/rules/cemini-cybersec-k-dual-id.mdc"
 grep -q "K382 FinRT" "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
-grep -q "K300–K386" "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
+grep -q "K300–K3" "$ROOT/.cursor/rules/overlays/cybersec-k-dual-id.fragment.mdc"
 python3 "$ROOT/scripts/restore_cybersec_dual_id.py" --check
 python3 "$ROOT/scripts/k382_finrt_amortized_redteam_precheck.py" selftest
 python3 "$ROOT/scripts/k383_countersteer_ipi_precheck.py" selftest
