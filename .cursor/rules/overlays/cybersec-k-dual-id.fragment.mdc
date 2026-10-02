@@ -98,5 +98,10 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K384 Frontier Autolab temporal leakage (2609.36739) ≠ CCC K384 (none assigned)
 - K385 Auditable long-term memory retrieval chain (2609.38021) ≠ CCC K385 (none assigned)
 - K386 RICE in-context dense retrieval (2609.38099) ≠ CCC K386 (none assigned)
+- K387 Hierarchical LLM cyber defense planner/executor (2610.00590) ≠ CCC K387 (none assigned)
+- K388 Video-Index benchmark shortcut attack pyramid (2610.00960) ≠ CCC K388 (none assigned)
+- K389 MOMAT quantized-LLM jailbreak defense (2610.01058) ≠ CCC K389 (none assigned)
+- K390 RPG embodied-agent self-improvement OOD (2610.02204) ≠ CCC K390 (none assigned)
+- K391 KaliBench NL-to-CLI cybersecurity tool use (2610.02206) ≠ CCC K391 (none assigned)
 
-K300–K386 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K391 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

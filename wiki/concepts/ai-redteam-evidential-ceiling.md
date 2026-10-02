@@ -4,6 +4,8 @@ type: concept
 tags: [concept, llm-safety, evaluation, red-teaming]
 keywords: [evidential ceiling, null result, harm rate, certification claim, 2607.21735]
 related:
+  - concepts/benchmark-shortcut-attack-pyramid-audit.md
+  - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/finrt-amortized-redteam-generator.md
   - sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md
   - concepts/agent-safety-executable-evaluation.md
@@ -39,11 +41,13 @@ related:
   - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-09-30
+updated: 2026-10-02
 ---
 
 ## Relations
 
+- @concepts/benchmark-shortcut-attack-pyramid-audit.md — K387-K391 cross-link
+- @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md — K387-K391 ingest source page
 - @concepts/finrt-amortized-redteam-generator.md — K382 amortized red-team generator: score coverage/severity/diversity jointly
 - @sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md — K382–K386 ingest source page
 - @sources/arxiv-2607-21735-ai-redteam-evidential-ceiling.md

@@ -4,6 +4,8 @@ type: concept
 tags: [concept, soc, blue-team, agent, graph, k336]
 keywords: [2609.04159, SENTINEL-RL, SOC, authentication graph, containment, RL]
 related:
+  - concepts/hierarchical-llm-cyber-defense-planner-executor.md
+  - sources/arxiv-2610-00590-hierarchical-llm-cyber-defense.md
   - sources/arxiv-2609-04159-sentinel-rl-soc-topology.md
   - concepts/bluestar-tiered-agentic-cyber-defense.md
   - concepts/security-agent-authority-auditability-slr.md
@@ -11,13 +13,15 @@ related:
   - concepts/cyber-range-autonomous-incident-response-agents.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-16
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K336)"
 ---
 
 ## Relations
 
+- @concepts/hierarchical-llm-cyber-defense-planner-executor.md — K387 hierarchical planner/executor LLM defense
+- @sources/arxiv-2610-00590-hierarchical-llm-cyber-defense.md — K387-K391 ingest source page
 - @sources/arxiv-2609-04159-sentinel-rl-soc-topology.md — SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center (2609.04159)
 
 ## Raw Concept

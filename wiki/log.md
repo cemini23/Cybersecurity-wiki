@@ -1,3 +1,22 @@
+## [2026-10-02] ingest | K387-K391 batch (5 inbox PDFs)
+
+Full ingest of 5 NEW inbox arXiv PDFs (all 2610.*). Cybersec IDs **K387-K391**. **No clone. No attack payloads in wiki.**
+
+- **NEW** `@sources/arxiv-2610-00590-hierarchical-llm-cyber-defense.md` + `@concepts/hierarchical-llm-cyber-defense-planner-executor.md` — **K387** frozen-LLM planner/executor cyber defense; planner-only substitution buys little; measure the whole stack per scale; specialisation trap. No repo (© IEEE)
+- **NEW** `@sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md` + `@concepts/benchmark-shortcut-attack-pyramid-audit.md` — **K388** attack pyramid for benchmark-integrity auditing; 35/115 video benches break before any frame; report a **breaking level** beside the certificate
+- **NEW** `@sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md` + `@concepts/quantized-llm-jailbreak-defense-atlas.md` — **K389** quantisation degrades alignment (W4A8 Llama2-7B +4.4% ASR, 13B flat); MOMAT atlas retrieval gives ASR 0.00 with FRR +0.0
+- **NEW** `@sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md` + `@concepts/cross-task-no-regression-skill-promotion-gate.md` — **K390** OOD (robots); steal the cross-task no-regression promotion gate for skill/prompt writes
+- **NEW** `@sources/arxiv-2610-02206-kalibench-nl-to-cli-cybersecurity-tool-use.md` + `@concepts/kalibench-nl-to-cli-tool-use-eval.md` — **K391** KaliBench NL-to-CLI; runtime-free scoring; split selection from arguments
+- **Incoming-brief follow-up:** materialised the pages the **k277/k278 cyber-lab briefs** referenced but never created — `@concepts/k277-security-wave.md`, `@concepts/k278-security-wave.md`, plus unread-stubs `@sources/arxiv-2609.39902-codemimicry-2026-10-01.md` and `@sources/newsletter-rss-tldrsec-2026-10-01-tldr-sec-348---googles-pagebreak-scanner-perplex.md`. Those two sources were never obtained locally; figures on them are second-hand from the digest and tagged `[NEEDS VERIFICATION]`
+- **Updated** cyber-range-autonomous-incident-response-agents, sentinel-rl-soc-topological-reasoning, trident-agentic-drl-defense-redteam, guardrail-construct-validity-agent-eval, ai-redteam-evidential-ceiling, faithful-agent-asr-measurement, defender-centric-jailbreak-utility, llm-adversarial-fuzzing, crescendo-multi-turn-jailbreak, instruction-hierarchy-conflict-benchmark, skill-misevolution, experience-driven-redteam-skill-evolution, skilldre-dual-stage-malicious-skill-evolution-lab, secure-ai-powered-pentest-agents, privescalate-llm-linux-privilege-escalation, security-agent-authority-auditability-slr, llm-codegen-prompt-security-redistribution, index.md
+- **Phase-0**: `scripts/adopt_k387_k391_phase0.sh` PASS. **K391 KaliBench NO-GO on clone** — repo returns null SPDX, **no LICENSE file**, no README licence text (verified via `gh api` 2026-10-02), so the paper's CC BY-NC 4.0 claim is unverified
+- **Phase-1**: dual-ID K387-K391; `cemini-cybersec-lab-redteam.mdc` (K387/K390/K391); `cemini-cybersec-agent-audit.mdc` (K387-K391)
+- **Runtime**: `k391_kalibench_precheck.py` + CI test; K387-K390 audit-only
+- **Skills (federation)**: `kalibench-tooluse-precheck`
+- **Deep-read**: grok CLI (`grok-offload`); 5 PDFs extracted with PyMuPDF. Note: 5 concurrent grok sessions collide on the leader socket — 2 of 5 died and needed a sequential re-run
+- **friend brief:** add-on 78
+- **Sweep**: `wiki/sweeps/2026-10-02-daily.md`
+
 ## [2026-09-30] phase-0 | Adopt StepGuard (K307) — LICENSE cleared
 
 The 2026-09-30 gh re-hunt found `zheng977/StepGuard` is now **Apache-2.0** (LICENSE file present,

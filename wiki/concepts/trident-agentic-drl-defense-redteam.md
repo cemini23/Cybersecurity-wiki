@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, red-teaming, drl]
 keywords: [Trident, CybORG, CAGE, RLVR, Code-as-Policy, 2608.04317]
 related:
+  - concepts/hierarchical-llm-cyber-defense-planner-executor.md
+  - sources/arxiv-2610-00590-hierarchical-llm-cyber-defense.md
   - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
   - concepts/openart-environment-evolution-agent-redteam.md
   - concepts/gpt-red-self-play-red-teaming.md
@@ -13,11 +15,13 @@ related:
   - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-10-02
 ---
 
 ## Relations
 
+- @concepts/hierarchical-llm-cyber-defense-planner-executor.md — K387-K391 cross-link
+- @sources/arxiv-2610-00590-hierarchical-llm-cyber-defense.md — K387-K391 ingest source page
 - @sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 - @concepts/openart-environment-evolution-agent-redteam.md
 - @concepts/gpt-red-self-play-red-teaming.md

@@ -58,6 +58,7 @@ jobs:
           python3 scripts/test_k382_finrt_amortized_redteam_precheck.py
           python3 scripts/test_k383_countersteer_ipi_precheck.py
           python3 scripts/test_k384_frontier_autolab_leakage_precheck.py
+          python3 scripts/test_k391_kalibench_precheck.py
           python3 scripts/test_gh_lookup.py
           python3 scripts/test_federation_helper_scripts.py
 

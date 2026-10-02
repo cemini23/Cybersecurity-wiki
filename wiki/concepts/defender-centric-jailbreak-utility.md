@@ -4,6 +4,8 @@ type: concept
 tags: [llm-security, jailbreak, safety-training, evaluation]
 keywords: [AttackSHAP, A-MESS, ASR vs utility, red-team data selection]
 related:
+  - concepts/quantized-llm-jailbreak-defense-atlas.md
+  - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/crescendo-multi-turn-jailbreak.md
@@ -12,11 +14,13 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-10-02
 ---
 
 ## Relations
 
+- @concepts/quantized-llm-jailbreak-defense-atlas.md — K387-K391 cross-link
+- @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md — K387-K391 ingest source page
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 - @concepts/llm-adversarial-fuzzing.md
 - @concepts/crescendo-multi-turn-jailbreak.md

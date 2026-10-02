@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, survey, software-security, evaluation, k315]
 keywords: [security agent survey, bounded authority, auditable behavior, trajectory metrics, assessment taxonomy, PentestGPT, CVE-Bench, RepoAudit]
 related:
+  - concepts/kalibench-nl-to-cli-tool-use-eval.md
+  - sources/arxiv-2610-02206-kalibench-nl-to-cli-cybersecurity-tool-use.md
   - sources/arxiv-2608-28490-llm-security-agents-survey.md
   - concepts/agent-runtime-guardrails.md
   - concepts/faithful-agent-asr-measurement.md
@@ -19,13 +21,15 @@ related:
   - sources/arxiv-2609-23894-agentic-ai-cross-dimensional-taxonomy.md
 maturity: draft
 created: 2026-08-31
-updated: 2026-09-11
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K315)"
 ---
 
 ## Relations
 
+- @concepts/kalibench-nl-to-cli-tool-use-eval.md — K391 KaliBench NL-to-CLI tool-use eval
+- @sources/arxiv-2610-02206-kalibench-nl-to-cli-cybersecurity-tool-use.md — K387-K391 ingest source page
 - @sources/arxiv-2608-28490-llm-security-agents-survey.md — source SLR (100 papers, 2023–2026)
 - @concepts/agent-runtime-guardrails.md — guard/enforcement stack context
 - @concepts/faithful-agent-asr-measurement.md — faithful capability measurement (K271)

@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, secure-coding, prompt-engineering, sast, k309, defensive]
 keywords: [prompt structure, Bandit, CodeQL, CWE redistribution, secure codegen, semantic drift, compliance vs security]
 related:
+  - concepts/k277-security-wave.md
   - sources/arxiv-2608-24857-prompt-structure-security-redistribution.md
   - concepts/nl-security-rules-vs-builtin-deny.md
   - concepts/coding-agent-supply-chain-install-gap.md
@@ -12,13 +13,14 @@ related:
   - concepts/llm-vuln-repair-metrics-audit.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K309)"
 ---
 
 ## Relations
 
+- @concepts/k277-security-wave.md — K277 wave — code-domain safety lag
 - @sources/arxiv-2608-24857-prompt-structure-security-redistribution.md
 - @concepts/nl-security-rules-vs-builtin-deny.md — NL security guidance ≠ enforcement
 - @concepts/coding-agent-supply-chain-install-gap.md — generated code still needs verify gates

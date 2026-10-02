@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, audit, measurement, guardrails, k321]
 keywords: [construct validity, protocol isolation, incentive validity, stochastic stability, welfare accounting, agent market eval, guardrail measurement]
 related:
+  - concepts/benchmark-shortcut-attack-pyramid-audit.md
+  - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/certified-selective-prediction-guardrails.md
   - sources/arxiv-2609-22048-available-guardrails-selective-prediction.md
   - sources/arxiv-2609-01519-guardrail-construct-validity.md
@@ -14,13 +16,15 @@ related:
   - concepts/culturally-responsive-llm-benchmark-audit.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K321)"
 ---
 
 ## Relations
 
+- @concepts/benchmark-shortcut-attack-pyramid-audit.md — K387-K391 cross-link
+- @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md — K387-K391 ingest source page
 - @sources/arxiv-2609-01519-guardrail-construct-validity.md — construct validity contract (2609.01519)
 - @sources/arxiv-2609-22048-available-guardrails-selective-prediction.md — K354 certified availability (2609.22048)
 - @concepts/certified-selective-prediction-guardrails.md — K354 pairs construct validity with deployment availability

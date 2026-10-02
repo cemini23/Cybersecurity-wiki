@@ -4,6 +4,8 @@ type: concept
 tags: [llm-security, jailbreak, multi-turn, crescendo, escalation, microsoft-research, arxiv-2404-01833]
 keywords: [crescendo, multi-turn jailbreak, escalation attack, mark russinovich, microsoft research, conversational drift]
 related:
+  - concepts/quantized-llm-jailbreak-defense-atlas.md
+  - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - entities/tools/fuzzyai.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
@@ -36,13 +38,15 @@ related:
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-06
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense
+- @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md — K387-K391 ingest source page
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 - @concepts/defender-centric-jailbreak-utility.md
 - @entities/tools/fuzzyai.md — reference implementation (CLI flag `-a crs`)

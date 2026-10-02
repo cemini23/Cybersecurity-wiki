@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, skills, self-evolution, k237]
 keywords: [skill misevolution, CU UG Stealth, URR, C-ASR, SAFEEVOLVE, skill poisoning, retrieval lineage]
 related:
+  - concepts/cross-task-no-regression-skill-promotion-gate.md
+  - sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md
   - sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
   - concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md
   - concepts/skill-cascading-attacks-skill-based-agents.md
@@ -25,13 +27,15 @@ related:
   - concepts/safeevolve-harness-policy-co-evolution.md
 maturity: draft
 created: 2026-08-15
-updated: 2026-09-29
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (skill misevolution lifecycle gates)"
 ---
 
 ## Relations
 
+- @concepts/cross-task-no-regression-skill-promotion-gate.md — K387-K391 cross-link
+- @sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md — K387-K391 ingest source page
 - @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md — K378 SkillDRE dual-stage skill evolution source
 - @concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md — K378 SkillDRE evolution loop vs misevolution evolve-gate
 - @concepts/skill-cascading-attacks-skill-based-agents.md — K374 skill-suite cascade vs evolve-gate misevolution

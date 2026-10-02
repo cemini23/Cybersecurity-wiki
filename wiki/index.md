@@ -468,6 +468,22 @@
 | @concepts/auditable-long-term-memory-retrieval-chain.md | draft | Deterministic retrieval chain for agent memory audit |
 | @sources/arxiv-2609-38099-rice-in-context-dense-retrieval.md | draft | RICE in-context dense retrieval (2609.38099; K386) |
 | @concepts/rice-in-context-dense-retrieval.md | draft | Dense retrieval trained from in-context examples only |
+| @sources/arxiv-2610-00590-hierarchical-llm-cyber-defense.md | draft | Hierarchical LLM cyber defense planner/executor (2610.00590; K387) |
+| @concepts/hierarchical-llm-cyber-defense-planner-executor.md | draft | Frozen LLM planner vs executor across network scale |
+| @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md | draft | Video-Index benchmark shortcut attack pyramid (2610.00960; K388) |
+| @concepts/benchmark-shortcut-attack-pyramid-audit.md | draft | Report a breaking level beside a capability certificate |
+| @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md | draft | MOMAT quantized-LLM jailbreak defense (2610.01058; K389) |
+| @concepts/quantized-llm-jailbreak-defense-atlas.md | draft | Quantization degrades alignment; atlas retrieval guard |
+| @sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md | draft | RPG embodied self-improvement OOD (2610.02204; K390) |
+| @concepts/cross-task-no-regression-skill-promotion-gate.md | draft | Promote a skill/prompt write only if no task regresses |
+| @sources/arxiv-2610-02206-kalibench-nl-to-cli-cybersecurity-tool-use.md | draft | KaliBench NL-to-CLI cybersecurity tool use (2610.02206; K391) |
+| @concepts/kalibench-nl-to-cli-tool-use-eval.md | draft | Split tool selection from argument construction |
+| @concepts/k277-security-wave.md | draft | k277 wave — code-domain safety lag + confirm-then-report |
+| @concepts/k278-security-wave.md | draft | k278 wave — KaliBench NL-to-CLI |
+| @sources/arxiv-2609.39902-codemimicry-2026-10-01.md | unread-stub | CodeMimicry code-domain safety lag (stub) |
+| @sources/newsletter-rss-tldrsec-2026-10-01-tldr-sec-348---googles-pagebreak-scanner-perplex.md | unread-stub | TLDR Sec 348 — PageBreak + Numbat (stub) |
+
+
 
 
 | @sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md | draft | OOD Haitian Creole eval (2609.31506) |

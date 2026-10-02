@@ -4,6 +4,8 @@ type: concept
 tags: [concept, instruction-hierarchy, mcp, agent-security]
 keywords: [IH-Benchmark, S≻U, U≻T, tool output override, 2607.25987]
 related:
+  - concepts/quantized-llm-jailbreak-defense-atlas.md
+  - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
   - concepts/system-prompt-leakage.md
   - concepts/mcp-security-posture.md
@@ -11,11 +13,13 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-10-02
 ---
 
 ## Relations
 
+- @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense
+- @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md — K387-K391 ingest source page
 - @sources/arxiv-2607-25987-ih-benchmark-instruction-hierarchy.md
 - @concepts/system-prompt-leakage.md
 - @concepts/mcp-security-posture.md

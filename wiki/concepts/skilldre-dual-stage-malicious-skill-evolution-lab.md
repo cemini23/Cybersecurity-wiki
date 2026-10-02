@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, k378]
 keywords: [2609.32400, K378]
 related:
+  - concepts/cross-task-no-regression-skill-promotion-gate.md
+  - sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md
   - sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
   - concepts/agent-skill-injection.md
   - concepts/skill-misevolution.md
@@ -11,13 +13,15 @@ related:
   - concepts/skill-cascading-attacks-skill-based-agents.md
 maturity: draft
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K378)"
 ---
 
 ## Relations
 
+- @concepts/cross-task-no-regression-skill-promotion-gate.md — K390 cross-task no-regression promotion gate (sibling of the validation ratchet)
+- @sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md — K387-K391 ingest source page
 - @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
 - @concepts/agent-skill-injection.md
 - @concepts/skill-misevolution.md

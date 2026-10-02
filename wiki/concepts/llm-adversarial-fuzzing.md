@@ -4,6 +4,8 @@ type: concept
 tags: [methodology, llm-security, adversarial-prompt, jailbreak, red-team, fuzzing, pair, crescendo]
 keywords: [llm adversarial fuzzing, jailbreak methodology, pair, crescendo, prompt injection, llm red team]
 related:
+  - concepts/quantized-llm-jailbreak-defense-atlas.md
+  - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - entities/tools/fuzzyai.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
@@ -89,13 +91,15 @@ related:
   - concepts/evolving-attack-skill-libraries.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-12
+updated: 2026-10-02
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense
+- @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md — K387-K391 ingest source page
 - @sources/github-ablitafuzzer.md — AblitaFuzzer abliterated-attacker pattern
 
 - @sources/arxiv-2607-19837-know-your-agent-recon.md
