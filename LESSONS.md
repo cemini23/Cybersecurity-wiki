@@ -6,6 +6,17 @@ Newest entries on top.
 
 ---
 
+## [2026-10-02] Run grok jobs one at a time — concurrent headless sessions kill each other
+
+- Launching **five** `grok-offload run` jobs at once lost **two** of them mid-read: each died after printing only its preamble, with an empty error log. `ps` showed the survivors still working, so the losses were silent.
+- Cause: grok coordinates headless sessions through one **leader socket** (`~/.grok/leader.sock`). Parallel launches contend for it and some sessions lose.
+- `scripts/grok_offload.sh` now **queues by default**: each job takes a `mkdir` lock before starting grok and releases it on exit, so runs serialize. A job waiting on the lock reports state `queued`, not `running`. `--no-lock` opts out.
+- Stale locks are stolen automatically (holder pid no longer alive), so a killed tab cannot wedge the queue.
+- Verified: three concurrent jobs → one `running`, two `queued` → all three completed. Previously two of five died.
+- If you genuinely need throughput, prefer `--no-lock` with **two** jobs rather than five; the ceiling was not measured, only the failure.
+
+---
+
 ## [2026-09-30] Offload long grok runs — a terminal tab close kills them
 
 - Headless `grok -p` / `grok --prompt-file` dies when its terminal tab closes mid-run. Three deep-read restarts happened in one session before this was diagnosed.
