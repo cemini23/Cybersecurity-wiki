@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 # grok_offload.sh — run a Grok CLI job detached, one at a time.
 #
-# Why: headless `grok -p` / `grok --prompt-file` dies when its terminal tab
-# closes mid-run, AND concurrent headless sessions collide — grok coordinates
-# through a single leader socket (`~/.grok/leader.sock`), and launching five at
-# once killed two of them mid-read in a 2026-10-02 ingest. Jobs therefore queue
-# on a lock by default and run one after another. Pass --no-lock to opt out when
-# you know the load is safe.
+# Why: headless `grok` writes its preamble and then dies mid-read if it is not
+# detached properly, AND concurrent headless sessions collide — grok coordinates
+# through a single leader socket (`~/.grok/leader.sock`). Jobs therefore queue on
+# a lock by default and run one after another. Pass --no-lock to opt out when you
+# know the load is safe.
 #
-# macOS has no `setsid` (it is util-linux, not BSD), so `nohup` + `disown` is the
-# detach path here.
+# Detach uses scripts/daemonize.py (os.setsid()), NOT `nohup` + `disown`. nohup
+# reparents the job to launchd but leaves it in the *launching shell's process
+# group*; when that command exits the terminal tears the group down and the job
+# dies mid-read. Reproduced 2026-10-03: ppid=1, output frozen at the preamble, no
+# exit status, no stderr. The same job launched into a new session ran to
+# completion (10464 bytes, rc=0). macOS has no setsid(1), hence the helper.
 #
 # MUST run OUTSIDE the Claude Code sandbox: the sandbox denies cli-chat-proxy.grok.com
 # and grok's session directory, so grok cannot start inside it.
@@ -78,6 +81,8 @@ D="$d"
 LOCK="$LOCK_DIR"
 USE_LOCK=$use_lock
 
+echo \$\$ > "\$D/pid"
+
 release_lock() {
   if [ -f "\$LOCK/pid" ] && [ "\$(cat "\$LOCK/pid")" = "\$\$" ]; then rm -rf "\$LOCK"; fi
 }
@@ -109,12 +114,24 @@ EOS
   chmod +x "$d/run.sh"
 
   date +%s > "$d/started"
-  rm -f "$d/rc" "$d/finished" "$d/queued"
-  nohup bash "$d/run.sh" </dev/null > "$d/nohup.log" 2>&1 &
-  echo $! > "$d/pid"
-  disown 2>/dev/null || true
+  rm -f "$d/rc" "$d/finished" "$d/queued" "$d/pid"
 
-  echo "grok_offload: launched name=$name pid=$(cat "$d/pid") lock=$use_lock"
+  # Detach with os.setsid(), NOT nohup+disown. nohup reparents the job to launchd
+  # but leaves it in the launching shell's process group, which the terminal tears
+  # down when that command exits -- the job then dies mid-read (reproduced
+  # 2026-10-03: ppid=1, output frozen at the preamble, no exit status). A new
+  # session survives. run.sh writes its own pid.
+  local self; self="$(cd "$(dirname "$0")" && pwd)"
+  DAEMON_CWD="$cwd" python3 "$self/daemonize.py" "$d/nohup.log" "$d/daemon.err" \
+    bash "$d/run.sh" </dev/null
+  local rc=$?
+  [[ "$rc" -eq 0 ]] || die "daemonize failed (rc=$rc)"
+
+  # run.sh writes pid itself; give it a moment to do so.
+  local i=0
+  while [[ ! -f "$d/pid" && "$i" -lt 20 ]]; do sleep 0.1; i=$(( i + 1 )); done
+
+  echo "grok_offload: launched name=$name pid=$(cat "$d/pid" 2>/dev/null || echo '?') lock=$use_lock"
   echo "grok_offload: dir=$d"
   echo "grok_offload: poll with: bash scripts/grok_offload.sh status $name"
 }

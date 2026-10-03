@@ -6,6 +6,18 @@ Newest entries on top.
 
 ---
 
+## [2026-10-03] `nohup` + `disown` is not enough to detach — use setsid
+
+- The 2026-09-30 entry below prescribed `nohup` + `disown` for detaching grok. **That is insufficient on this machine.** Jobs launched that way were found dying mid-read again on 2026-10-03.
+- Reproduced cleanly: the job starts, writes grok's preamble (75 bytes), then **dies with no exit status and empty stderr**. `job.log` showed `start` but never `exit`, so it was killed, not failed. `ppid=1` confirmed `nohup` had reparented it to launchd — detachment *looked* correct.
+- The tell: the same job in the **same process group as a still-running parent** reached 4391 bytes, while the reparented one froze at 75. `nohup` reparents the process but leaves it in the **launching shell's process group**; when that command exits, the terminal tears the group down.
+- **Fix:** `scripts/daemonize.py` calls `os.setsid()` in the child, creating a new session and process group. macOS has no `setsid(1)` (it is util-linux), hence the helper. Same job, new session: **exit 0, 10464 bytes**.
+- `scripts/grok_offload.sh` now uses the helper instead of `nohup` + `disown`. Verified end to end: `done:0`, 9270 bytes, ~200 s.
+- **Diagnosing this class:** check `ppid` and `pgid`, not just "is it alive". A job can be alive-and-frozen (hung) or dead-and-silent (killed), and they look identical from `out.md` size alone. Compare a run whose launcher stays alive against one whose launcher exits — that isolates process-group teardown from every other cause.
+- Corollary: **an empty `err.log` plus a partial `out.md` means killed, not erroring.** Don't go looking for a grok bug.
+
+---
+
 ## [2026-10-02] Run grok jobs one at a time — concurrent headless sessions kill each other
 
 - Launching **five** `grok-offload run` jobs at once lost **two** of them mid-read: each died after printing only its preamble, with an empty error log. `ps` showed the survivors still working, so the losses were silent.
