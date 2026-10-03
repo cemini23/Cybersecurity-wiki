@@ -60,10 +60,44 @@ def test_owners_of_finds_osint_for_a_known_page() -> None:
     assert "osint-wiki" in bcc.owners_of(rel)
 
 
-def test_citation_regex() -> None:
-    text = "## Sources\n\n- [Source: wiki/concepts/foo.md]\n- [Source: @osint-wiki/concepts/bar.md]\n"
-    got = bcc.CITE_RE.findall(text)
-    assert got == ["wiki/concepts/foo.md"], got
+def test_citation_regexes() -> None:
+    text = ("## Sources\n\n"
+            "- [Source: wiki/concepts/foo.md]\n"
+            "- [Source: @osint-wiki/concepts/bar.md]\n"
+            "- @sources/baz.md\n")
+    assert bcc.SOURCE_RE.findall(text) == [
+        ("wiki", "concepts/foo.md"),
+        ("osint-wiki", "concepts/bar.md"),
+    ]
+    # AT_RE matches every @token/path.md, including the one inside the [Source:] line.
+    assert bcc.AT_RE.findall(text) == [
+        ("osint-wiki", "concepts/bar.md"),
+        ("sources", "baz.md"),
+    ]
+
+
+def test_local_rel_keeps_or_drops_the_token() -> None:
+    """An alias token is not part of the path; a local token is."""
+    def ref(token, rel):
+        return bcc.Ref(Path("x.md"), token, rel, f"@{token}/{rel}")
+
+    # alias: rel is relative to that wiki already
+    assert ref("osint-wiki", "concepts/x.md").local_rel == "concepts/x.md"
+    # pseudo: token means "this wiki", so drop it
+    assert ref("wiki", "concepts/x.md").local_rel == "concepts/x.md"
+    # local subdir: the token IS the first path component
+    assert ref("sources", "x.md").local_rel == "sources/x.md"
+
+
+def test_trailing_match_handles_bare_filenames() -> None:
+    """Old briefs cite `eval-foo-2026-05-13.md` for `sources/eval-foo-...md`."""
+    rel = "eval-github-repos-2026-05-13.md"
+    hits = bcc.suffix_hits(rel)
+    if not bcc._index():
+        return  # no siblings checked out
+    if not any(h.startswith("sources/") for h in hits):
+        return  # page retired upstream; not this test's business
+    assert "sources/eval-github-repos-2026-05-13.md" in hits
 
 
 if __name__ == "__main__":
@@ -71,5 +105,7 @@ if __name__ == "__main__":
     test_every_sibling_alias_points_at_a_real_wiki()
     test_osint_alias_resolves_to_the_real_workspace()
     test_owners_of_finds_osint_for_a_known_page()
-    test_citation_regex()
+    test_citation_regexes()
+    test_local_rel_keeps_or_drops_the_token()
+    test_trailing_match_handles_bare_filenames()
     print("OK test_brief_citation_check")
