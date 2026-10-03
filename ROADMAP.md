@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-10-03 | Full ingest K392-K394 (3 PDFs) | WPA3-SAE DoS cost asymmetry; PLD channel-derived second factor in EAP-TEAP; Form-and-Void OOD -> image-gen; k392 precheck + skill; friend 80 |
 | 2026-10-03 | Fixed dangling cyber-lab brief citations + a wrong `osint-wiki` alias path | Copied briefs cited bare `wiki/...` that only resolve in OSINT — 8 re-qualified, 0 pages needed. `CLAUDE.md` had osint at `../../`, so every `@osint-wiki/` link linted as dangling; cross-wiki links 66 → 192. New `brief_citation_check.py` + test |
 | 2026-10-02 | Full ingest K387-K391 (5 PDFs) + k277/k278 brief follow-up | Hierarchical LLM cyber defense; Video-Index attack pyramid; MOMAT quantized-LLM defense; RPG OOD; KaliBench; materialised 4 dangling cyber-lab brief pages; k391 precheck + skill; friend 78 |
 | 2026-10-02 | Cyber-lab brief backlog found (k270-k278) | The daily routine wrote briefs naming 23 pages that were **never created**; 4 materialised this session, the rest still dangling |

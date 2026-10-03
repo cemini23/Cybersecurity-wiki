@@ -1,3 +1,21 @@
+## [2026-10-03] ingest | K392-K394 batch (3 inbox PDFs)
+
+Full ingest of the 3 NEW inbox arXiv PDFs. Cybersec IDs **K392-K394**. **No clone. No attack payloads in wiki.**
+
+- **NEW** `@sources/arxiv-2609-31519-wpa3-sae-asymmetric-pe-tickets.md` + `@concepts/wpa3-sae-dos-cost-asymmetry.md` — **K392** WPA3-SAE doS cost asymmetry; client pays the iteration, AP pays a fixed step; ticket fast-path. 2284 µs → 72.5 µs → 21 µs (hostapd 2.10). **Runtime:** `scripts/k392_wpa3_sae_dos_precheck.py` + skill `wpa3-sae-dos-precheck`
+- **NEW** `@sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md` + `@concepts/physical-layer-deception-enterprise-wifi-auth.md` — **K393** channel-derived second factor via Physical Layer Deception in EAP-TEAP; hostap 2.12 prototype, 1593 attempts, naive credential-bearing attacker rejected 30/30; PFA = r_E^A vs PFR = 1 − r_B^A
+- **NEW** `@sources/arxiv-2610-02045-form-and-void-agent-ood.md` — **K394 OOD** (positive–negative-space art by a staged multimodal agent); **not security-relevant**; routed to image-gen, cyber keeps the stub only
+- **Updated** wireless-pentest, network-security, wifi-rf-fingerprinting-open-set, index.md
+- **Phase-0**: `scripts/adopt_k392_k394_phase0.sh` PASS. No artifacts to clone this batch (both wireless papers are protocol designs, no repo stated)
+- **Phase-1**: dual-ID K392-K394; `cemini-cybersec-lab-redteam.mdc` (K392/K393); `cemini-cybersec-agent-audit.mdc` (K392-K394)
+- **Runtime**: `k392_wpa3_sae_dos_precheck.py` + CI test; K393/K394 audit-only
+- **Skills (federation)**: `wpa3-sae-dos-precheck`
+- **Deep-read**: grok CLI. Note: the detached `grok_offload` jobs kept dying mid-read, so the batch was re-run in the foreground sequentially; one paper (K393) failed twice and was read directly from the extract. Also note the K393 extract contains a byte that makes plain `grep` treat the file as binary — use `grep -a`.
+- **friend brief:** add-on 80
+- **Sweep**: `wiki/sweeps/2026-10-03-daily.md`
+
+**Archive**: three PDFs → egress-fi cybersec/
+
 ## [2026-10-03] fix | Dangling brief citations + a wrong wiki alias path
 
 Actioned the routed task "backfill dangling cyber-lab brief pages". **No page needed creating.**

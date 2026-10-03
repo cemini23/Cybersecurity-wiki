@@ -108,5 +108,8 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K389 MOMAT quantized-LLM jailbreak defense (2610.01058) ≠ CCC K389 (none assigned)
 - K390 RPG embodied-agent self-improvement OOD (2610.02204) ≠ CCC K390 (none assigned)
 - K391 KaliBench NL-to-CLI cybersecurity tool use (2610.02206) ≠ CCC K391 (none assigned)
+- K392 WPA3 SAE cost asymmetry / tickets (2609.31519) ≠ CCC K392 (none assigned)
+- K393 PLD in EAP-TEAP Wi-Fi auth (2610.01580) ≠ CCC K393 (none assigned)
+- K394 Form and Void composition agent OOD (2610.02045) ≠ CCC K394 (none assigned)
 
-K300–K391 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K394 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

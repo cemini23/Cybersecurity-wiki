@@ -4,6 +4,10 @@ type: concept
 tags: [network, firewall, wireless, iot, ot]
 keywords: [firewall, network security, wireless, wifi, iot, ot, ics]
 related:
+  - concepts/physical-layer-deception-enterprise-wifi-auth.md
+  - concepts/wpa3-sae-dos-cost-asymmetry.md
+  - sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md
+  - sources/arxiv-2609-31519-wpa3-sae-asymmetric-pe-tickets.md
   - concepts/red-team-operations.md
   - concepts/zero-trust.md
   - entities/people/joas-a-santos.md
@@ -72,11 +76,15 @@ related:
   - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-06
+updated: 2026-10-03
 ---
 
 ## Relations
 
+- @concepts/physical-layer-deception-enterprise-wifi-auth.md — K392-K393 wireless cross-link
+- @concepts/wpa3-sae-dos-cost-asymmetry.md — K392-K393 wireless cross-link
+- @sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md — K392-K393 wireless ingest source
+- @sources/arxiv-2609-31519-wpa3-sae-asymmetric-pe-tickets.md — K392-K393 wireless ingest source
 
 - @entities/tools/damn-vulnerable-drone.md — K220 intentional drone/MAVLink lab (MIT)
 - @concepts/owned-target-whitehat-lab.md — lab VLAN / isolated segments for authorized offensive practice only

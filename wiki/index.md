@@ -478,6 +478,12 @@
 | @concepts/cross-task-no-regression-skill-promotion-gate.md | draft | Promote a skill/prompt write only if no task regresses |
 | @sources/arxiv-2610-02206-kalibench-nl-to-cli-cybersecurity-tool-use.md | draft | KaliBench NL-to-CLI cybersecurity tool use (2610.02206; K391) |
 | @concepts/kalibench-nl-to-cli-tool-use-eval.md | draft | Split tool selection from argument construction |
+| @sources/arxiv-2609-31519-wpa3-sae-asymmetric-pe-tickets.md | draft | WPA3 SAE cost asymmetry / ticket fast-path (2609.31519; K392) |
+| @concepts/wpa3-sae-dos-cost-asymmetry.md | draft | Put the expensive SAE work on the side that can afford it |
+| @sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md | draft | PLD second factor in EAP-TEAP Wi-Fi auth (2610.01580; K393) |
+| @concepts/physical-layer-deception-enterprise-wifi-auth.md | draft | Channel-derived second factor via deception, not measurement |
+| @sources/arxiv-2610-02045-form-and-void-agent-ood.md | draft | Form and Void composition agent (2610.02045; K394) — OOD, image-gen primary |
+
 | @concepts/k277-security-wave.md | draft | k277 wave — code-domain safety lag + confirm-then-report |
 | @concepts/k278-security-wave.md | draft | k278 wave — KaliBench NL-to-CLI |
 | @sources/arxiv-2609.39902-codemimicry-2026-10-01.md | unread-stub | CodeMimicry code-domain safety lag (stub) |
