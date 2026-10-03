@@ -87,7 +87,7 @@ git clone https://github.com/cemini23/Cybersecurity-wiki.git
 ## Related
 
 - Methodology newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
-- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
+- X: [@Cemini23](https://x.com/Cemini23)
 - Products: [Atto](https://youratto.com) · [GuruWatcher](https://guruwatcher.com)
 - Wiki federation hub: [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
 - Agent toolkit: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet) · [ara-schema](https://github.com/cemini23/ara-schema)
@@ -113,7 +113,6 @@ If you’d rather follow along or try something we ship:
 - Newsletter — [Outlier Weekly](https://outlierweekly.substack.com) (Substack)
 - Genealogy kit — [youratto.com](https://youratto.com)
 - Newsletter parameter alerts — [guruwatcher.com](https://guruwatcher.com)
-- YouTube — [@Cemini23](https://www.youtube.com/@Cemini23)
 
 We’re grateful you’re here. Thank you for your support.
 
