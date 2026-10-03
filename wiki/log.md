@@ -1,3 +1,32 @@
+## [2026-10-03] fix | Dangling cyber-lab brief citations + a wrong wiki alias path
+
+Actioned the routed task "backfill dangling cyber-lab brief pages". The backfill turned out to
+require **no new pages** — see below.
+
+- **Root cause.** The daily cyber-lab brief is authored in OSINT and copied **verbatim** into
+  `briefs/` here (the copy helper is OSINT's `scripts/k256_write_meta.py`). Its `## Sources` block
+  uses bare `wiki/...` paths, which resolve only in the authoring wiki. Nothing caught it: `briefs/`
+  is gitignored, so CI never sees these files.
+- **Evidence.** Audited all 371 briefs. Eight citations across four briefs (`k275`, `k276`, `k278`,
+  `k279`) did not resolve locally — and **all eight resolved in `@osint-wiki/`**. Not one needed a
+  page created here; creating them would have duplicated OSINT's source of truth.
+- **Fix.** New `scripts/brief_citation_check.py` resolves each brief citation locally, then in sibling
+  wikis, and reports; `--fix` qualifies anything that resolves in exactly one sibling. The 8 citations
+  were re-qualified to `@osint-wiki/...`. Wired into the session-start ritual as step **1b** (CI cannot
+  see gitignored briefs) and into CI as `test_brief_citation_check.py`.
+- **Second bug, found while building the check.** `CLAUDE.md` mapped `osint-wiki` to
+  `../../OSINT WORKSPACE/wiki/`, which is not where OSINT lives. That single wrong relative path meant
+  **every `@osint-wiki/...` link in this wiki linted as dangling**. Corrected to
+  `../OSINT WORKSPACE/wiki/`: cross-wiki links resolving went **66 → 192**. A regression test now
+  asserts every sibling alias resolves to a real `wiki/` dir.
+- **Rule.** `CLAUDE.md` now states: keep a copied brief, qualify its citations, and do **not** create
+  local pages to satisfy it.
+- **Cross-wiki:** brief `briefs/2026-10-03_cyber-lab-citations-dangling.md` recommends OSINT qualify
+  sources at copy time — the k256-era body already used `@osint-wiki/...` correctly, so the convention
+  drifted in later waves.
+- **friend brief:** n/a
+- **Sweep:** n/a
+
 ## [2026-10-02] ingest | K387-K391 batch (5 inbox PDFs)
 
 Full ingest of 5 NEW inbox arXiv PDFs (all 2610.*). Cybersec IDs **K387-K391**. **No clone. No attack payloads in wiki.**

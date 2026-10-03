@@ -130,6 +130,15 @@ updated: YYYY-MM-DD
 - Vendor doc / first-party: `[Source: offensive-security.com/... (retrieved YYYY-MM-DD)]`
 - Multiple: `[Sources: filename.pdf p.5, attack.mitre.org/techniques/T1055/]`
 
+**Briefs copied in from another wiki** — a brief authored elsewhere is frequently copied
+verbatim into `briefs/` here (the daily cyber-lab wave is authored in the OSINT wiki). Its
+citations are bare `wiki/...` paths that resolve only in the **authoring** wiki, so the copy
+here dangles. Keep the brief, but qualify each citation: `[Source: @osint-wiki/concepts/...]`.
+Do **not** create local pages just to satisfy a copied brief — the page belongs to the wiki
+that authored it, and duplicating it splits the source of truth. Check with
+`python3 scripts/brief_citation_check.py` (`--fix` qualifies anything that resolves in exactly
+one sibling).
+
 **Claim confidence tags**:
 - `[CONFIRMED]` — ≥2 independent sources, OR personally tested on a lab / engagement
 - `[TENTATIVE]` — single source or untested
@@ -145,7 +154,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | Alias | Path | Description |
 |-------|------|-------------|
 | `cybersecurity-wiki` | `wiki/` | Cybersecurity research — offensive security, defensive operations, certifications, threat actors, education, agent-security lab |
-| `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading. Shared territory: OSINT tradecraft + technique tooling (Maltego, Shodan, OSINT for pentest) |
+| `osint-wiki` | `../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading. Shared territory: OSINT tradecraft + technique tooling (Maltego, Shodan, OSINT for pentest) |
 | `gambling-wiki` | `../Gambling wiki/wiki/` | Sports betting, casino, poker, DFS. Shared territory: fraud/social-engineering in gambling apps when in pentest scope |
 | `game-dev-wiki` | `../Game Dev wiki/wiki/` | Hobby game development — castle/RTS, Godot evals. Shared territory: light when game clients / anti-cheat appear in pentest scope |
 | `image-gen-wiki` | `../Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops. Shared territory: deepfakes + adversarial-image attacks (when those surfaces appear in pentest scope) |
@@ -319,6 +328,19 @@ ls -1 "research to be indexed/" 2>/dev/null | grep -v '^\.'
 ```
 
 If items exist that the user hasn't asked you to address, mention briefly: "Btw, you have N items in `research to be indexed/`. Want me to triage them?"
+
+### 1b. Brief citation check
+
+Copied-in briefs cite pages that live in the authoring wiki (see *Briefs copied in from another
+wiki* under cross-link conventions). Nothing else catches this — `briefs/` is gitignored, so CI
+never sees it, and a silent backlog of dangling citations built up from 2026-09-23 to 2026-10-03.
+
+```bash
+python3 scripts/brief_citation_check.py
+```
+
+Exit 0 is clean. On a non-zero exit, run with `--fix` to qualify anything that resolves in exactly
+one sibling wiki, then review the remainder by hand. Report the count to the user; it is quick.
 
 ### 2. Adopted-tool / Cursor security use
 
