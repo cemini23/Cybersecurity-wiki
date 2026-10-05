@@ -89,25 +89,26 @@ Ingest selected rows from wiki/sweeps/YYYY-MM-DD-daily.md:
 - [ ] ROADMAP + briefs staged (route per `scripts/active_project_brief_targets.yaml`)
 - [ ] skill_audit on prod briefs (only xsp-killer + pm-kalshi-bot → cemini-prod by default)
 
-## E — Active-project brief routing (2026-08-05)
+## E — Active-project brief routing (2026-10-05)
 
 Read `scripts/active_project_brief_targets.yaml` + `@concepts/active-project-research-routing.md` **before** staging briefs.
 
-**Priority:** **#1 Atto** · **#2 GuruWatcher** · everything else behind (route when source matches).
+**Priority:** **#1 Atto** · **#2 GuruWatcher + Basgiath** · **#3 CeminiDFS** · **#4 CeminiParlays** · everything else behind (route when source matches).
 
 | Project | Brief home | Prod `scp`? |
 |---------|------------|-------------|
 | **Atto (#1)** | `../atto/briefs/` | No — never Barone PII |
 | **GuruWatcher (#2)** | `../GuruWatcher/briefs/` | No |
-| Poker Arena | `agents/devfun-poker-arena/briefs/` | No (`cemini_hl_loop.sh`) |
-| CeminiDFS | `../projects/CeminiDFS/briefs/` + `@gambling-wiki` | No |
+| **Basgiath (#2)** | `../dragon-rider-map/briefs/` | No — free fan project; never Marketplace |
+| **CeminiDFS (#3)** | `../projects/CeminiDFS/briefs/` + `@gambling-wiki` | No |
+| **CeminiParlays (#4)** | `../CeminiParlays/briefs/` + `@gambling-wiki` | No — operator types the ticket |
 | XSP killer | `briefs/xsp-*` | Yes → cemini-prod |
 | Family-tree dogfood | `~/Desktop/family/research/` | No — private |
 | Local abliterated AI lab | `../Cybersecurity wiki/briefs/` | No — authorized assist only |
 | wc-ticket-monitor | `../projects/wc-ticket-monitor/briefs/` | No (secondary) |
 | PM / Kalshi | `briefs/pm-*` | Yes when bot-touching (secondary) |
 
-**Do not** push briefs to `tipdrop-workspace-kit` (TipDrop/David retired 2026-08-05).
+**Do not** push briefs to `tipdrop-workspace-kit` (TipDrop/David retired 2026-08-05). Poker arena retired 2026-09-13 — do not route to `devfun-poker-arena`.
 
 **Legacy deprioritized** (wiki-only unless user/ROADMAP reopens): TipDrop/David kit · MAPPO equity · Riskfolio/HPO ladder · conductor harness KPIs · castle-sim.
 
