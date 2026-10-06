@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, k366]
 keywords: [2609.28322, K366]
 related:
+  - sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md
+  - concepts/budget-aware-agentic-search-cost.md
   - sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md
   - concepts/fragtoken-inference-cost-amplification-lab.md
   - sources/arxiv-2609-28322-learning-cost-reliable-inference.md
@@ -11,13 +13,15 @@ related:
   - concepts/chain-of-self-questioning-selective-abstention.md
 maturity: validated
 created: 2026-09-24
-updated: 2026-09-29
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K366)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md — K395-K397 ingest source page
+- @concepts/budget-aware-agentic-search-cost.md — K397 cost-aware agentic search
 - @sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md — K376 FragToken source — token inflation vs visible length
 - @concepts/fragtoken-inference-cost-amplification-lab.md — K376 token inflation vs visible length on procured models
 - @sources/arxiv-2609-28322-learning-cost-reliable-inference.md

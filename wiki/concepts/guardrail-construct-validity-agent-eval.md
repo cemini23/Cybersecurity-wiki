@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, audit, measurement, guardrails, k321]
 keywords: [construct validity, protocol isolation, incentive validity, stochastic stability, welfare accounting, agent market eval, guardrail measurement]
 related:
+  - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
+  - concepts/threat-preserving-representation-sensitivity.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
   - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/certified-selective-prediction-guardrails.md
@@ -16,13 +18,15 @@ related:
   - concepts/culturally-responsive-llm-benchmark-audit.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-10-02
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K321)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md — K395-K397 ingest source page
+- @concepts/threat-preserving-representation-sensitivity.md — K396 TPRS — representation moves the score while the security problem is fixed
 - @concepts/benchmark-shortcut-attack-pyramid-audit.md — K387-K391 cross-link
 - @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md — K387-K391 ingest source page
 - @sources/arxiv-2609-01519-guardrail-construct-validity.md — construct validity contract (2609.01519)

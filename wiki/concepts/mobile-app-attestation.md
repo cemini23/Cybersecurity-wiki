@@ -4,6 +4,7 @@ type: concept
 tags: [concept, mobile, attestation, android, ios, play-integrity, app-attest, product-pentest]
 keywords: [Play Integrity, App Attest, DeviceCheck, SafetyNet, attestation, integrity verdict, MEETS_STRONG_INTEGRITY, app attestation, server verification, anti-tamper]
 related:
+  - concepts/bedrock-addon-distribution-integrity.md
   - concepts/mobile-pentest.md
   - concepts/pre-release-product-pentest.md
   - concepts/hardware-bound-identity-anticheat-licensing.md
@@ -15,13 +16,14 @@ related:
   - concepts/tpm-attest-linux-integrity-attestation.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-10-06
 wire_status: wont_wire
 wire_target: "REFERENCE — first-party attestation APIs for owned mobile products; no Magisk/PIF kits"
 ---
 
 ## Relations
 
+- @concepts/bedrock-addon-distribution-integrity.md — Basgiath: Bedrock add-on platform attestation vs a user-installed artifact
 - @concepts/mobile-pentest.md — attestation is the control your mobile pentest must test around (server-side verification)
 - @concepts/pre-release-product-pentest.md — attestation checks are part of the mobile product ship bar
 - @concepts/hardware-bound-identity-anticheat-licensing.md — hardware-bound identity's mobile cousin: TPM EK ↔ Secure Enclave / Play verdicts

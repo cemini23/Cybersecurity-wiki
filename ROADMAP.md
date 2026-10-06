@@ -48,6 +48,8 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-10-06 | Full ingest K395-K397 (3 PDFs) + Basgiath add-on security | TPRS: an ASR is a property of agent + representation (28,904 runs); authorship attribution representations; FrugalEvo BA-AUC; first cybersec coverage of the Minecraft project; k396 precheck + skill; friend 82 |
+| 2026-10-06 | grok CLI usage balance exhausted | All grok deep-reads returned HTTP 402; papers read directly. `grok_offload` wrapper itself verified working — restore balance to resume |
 | 2026-10-03 | Full ingest K392-K394 (3 PDFs) | WPA3-SAE DoS cost asymmetry; PLD channel-derived second factor in EAP-TEAP; Form-and-Void OOD -> image-gen; k392 precheck + skill; friend 80 |
 | 2026-10-03 | Fixed dangling cyber-lab brief citations + a wrong `osint-wiki` alias path | Copied briefs cited bare `wiki/...` that only resolve in OSINT — 8 re-qualified, 0 pages needed. `CLAUDE.md` had osint at `../../`, so every `@osint-wiki/` link linted as dangling; cross-wiki links 66 → 192. New `brief_citation_check.py` + test |
 | 2026-10-02 | Full ingest K387-K391 (5 PDFs) + k277/k278 brief follow-up | Hierarchical LLM cyber defense; Video-Index attack pyramid; MOMAT quantized-LLM defense; RPG OOD; KaliBench; materialised 4 dangling cyber-lab brief pages; k391 precheck + skill; friend 78 |

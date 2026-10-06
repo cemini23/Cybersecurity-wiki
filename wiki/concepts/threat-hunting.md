@@ -4,6 +4,8 @@ type: concept
 tags: [proactive, blue-team, detection, sysmon]
 keywords: [threat hunting, hunt, kibana, elastic, splunk, sysmon, pyramid of pain, hypothesis driven, mitre att&ck, event 4688, encoded powershell, dns rebinding, honeypot]
 related:
+  - sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md
+  - concepts/authorship-attribution-author-representation.md
   - concepts/soc-operations.md
   - concepts/incident-response.md
   - concepts/siem.md
@@ -49,11 +51,13 @@ related:
 
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-02
+updated: 2026-10-06
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md — K395-K397 ingest source page
+- @concepts/authorship-attribution-author-representation.md — K395 stylometric attribution support
 - @concepts/soc-operations.md
 - @concepts/incident-response.md
 - @concepts/siem.md

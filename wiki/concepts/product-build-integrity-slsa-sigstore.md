@@ -4,6 +4,7 @@ type: concept
 tags: [concept, supply-chain, build-integrity, sigstore, slsa, product-defense]
 keywords: [SLSA, provenance, attestation, Sigstore, Fulcio, Rekor, Cosign, keyless signing, reproducible builds, build track, release integrity, update path]
 related:
+  - concepts/bedrock-addon-distribution-integrity.md
   - concepts/npm-supply-chain-defense.md
   - concepts/anti-tamper-protection-classes.md
   - concepts/pre-release-product-pentest.md
@@ -13,13 +14,14 @@ related:
   - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-09-17
+updated: 2026-10-06
 wire_status: wont_wire
 wire_target: "REFERENCE — sign + reproduce *your* release artifacts; no CI-integrity bypass, no fake attestations"
 ---
 
 ## Relations
 
+- @concepts/bedrock-addon-distribution-integrity.md — Basgiath: Bedrock add-on release-integrity tooling Bedrock add-ons lack
 - @concepts/npm-supply-chain-defense.md — dependency-pinning layer (cooldown + lockfile) vs this page's release-artifact layer; the two compose
 - @concepts/anti-tamper-protection-classes.md — client-side tamper resistance is downstream of what this page covers: the binary you ship must be the binary you built
 - @concepts/pre-release-product-pentest.md — build-integrity checks belong in the product ship bar

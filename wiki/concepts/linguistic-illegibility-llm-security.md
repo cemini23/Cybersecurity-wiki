@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, audit, interpretability, sandbox, k325]
 keywords: [linguistic illegibility, CoT monitoring limits, taint tracking, sandbox floor, activation probing]
 related:
+  - concepts/authorship-attribution-author-representation.md
+  - sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md
   - sources/arxiv-2609-02852-linguistic-illegibility-llm-security.md
   - concepts/chain-of-thought-decorative-reasoning-audit.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
@@ -13,13 +15,15 @@ related:
   - concepts/agentic-containment-principles.md
 maturity: draft
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K325)"
 ---
 
 ## Relations
 
+- @concepts/authorship-attribution-author-representation.md — K395 authorship attribution: style is a signal, not a conclusion
+- @sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md — K395-K397 ingest source page
 - @sources/arxiv-2609-02852-linguistic-illegibility-llm-security.md — linguistic illegibility (2609.02852)
 - @concepts/chain-of-thought-decorative-reasoning-audit.md — visible CoT ≠ evidence (K308)
 

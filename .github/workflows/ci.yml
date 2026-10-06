@@ -62,6 +62,7 @@ jobs:
           python3 scripts/test_gh_lookup.py
           python3 scripts/test_brief_citation_check.py
           python3 scripts/test_k392_wpa3_sae_dos_precheck.py
+          python3 scripts/test_k396_benchmark_representation_precheck.py
           python3 scripts/test_federation_helper_scripts.py
 
       - name: wiki_lint (strict local links + bidirectional)

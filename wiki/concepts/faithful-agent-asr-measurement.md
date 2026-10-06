@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, red-team, evaluation, faithful-measurement]
 keywords: [ASR, exposure, execution, observation, adjudication, Recognition-Execution Gap, REG, trajectory vs state judge, harness-dependent, evaluation cue]
 related:
+  - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
+  - concepts/threat-preserving-representation-sensitivity.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
   - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/agentxploit-repository-runtime-red-teaming.md
@@ -52,13 +54,15 @@ related:
   - sources/arxiv-2609-30266-llm-agents-trace-tampering.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-10-02
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemin-cybersec-agent-audit.mdc (K271)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md — K395-K397 ingest source page
+- @concepts/threat-preserving-representation-sensitivity.md — K396 TPRS — ASR is a property of agent + representation
 - @concepts/benchmark-shortcut-attack-pyramid-audit.md — K387-K391 cross-link
 - @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md — K387-K391 ingest source page
 - @sources/arxiv-2609-30266-llm-agents-trace-tampering.md

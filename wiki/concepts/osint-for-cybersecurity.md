@@ -4,6 +4,8 @@ type: concept
 tags: [osint, recon, reconnaissance, intelligence]
 keywords: [osint, open source intelligence, recon, investigation, shodan, maltego]
 related:
+  - sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md
+  - concepts/authorship-attribution-author-representation.md
   - entities/tools/maltego.md
   - concepts/red-team-operations.md
   - concepts/social-engineering.md
@@ -50,11 +52,13 @@ related:
   - concepts/indirect-third-party-sensor-vehicle-tracking.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-09-17
+updated: 2026-10-06
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md — K395-K397 ingest source page
+- @concepts/authorship-attribution-author-representation.md — K395 authorship attribution needs an author representation
 - @sources/osint-k220-cyber-agent-harness-eval-2026-08-03.md — K220 cyber tool register from OSINT eval
 - @entities/tools/cloakquest3r.md — MIT origin-IP / reverse-proxy recon
 - @entities/tools/raccoon.md — MIT recon/vuln scanner

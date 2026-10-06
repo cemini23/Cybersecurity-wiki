@@ -482,6 +482,14 @@
 | @concepts/wpa3-sae-dos-cost-asymmetry.md | draft | Put the expensive SAE work on the side that can afford it |
 | @sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md | draft | PLD second factor in EAP-TEAP Wi-Fi auth (2610.01580; K393) |
 | @concepts/physical-layer-deception-enterprise-wifi-auth.md | draft | Channel-derived second factor via deception, not measurement |
+| @sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md | draft | Zero-shot authorship attribution representations (2610.03531; K395) |
+| @concepts/authorship-attribution-author-representation.md | draft | Attribution needs an author representation, not just labels |
+| @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md | draft | Threat-preserving representation sensitivity / TPRS (2610.03585; K396) |
+| @concepts/threat-preserving-representation-sensitivity.md | draft | An ASR is a property of agent + representation |
+| @sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md | draft | FrugalEvo cost-aware program evolution / BA-AUC (2610.03675; K397) |
+| @concepts/budget-aware-agentic-search-cost.md | draft | Budget the loop, not the iteration count |
+| @concepts/bedrock-addon-distribution-integrity.md | draft | Bedrock add-on supply chain + script review (Basgiath) |
+
 | @sources/arxiv-2610-02045-form-and-void-agent-ood.md | draft | Form and Void composition agent (2610.02045; K394) — OOD, image-gen primary |
 
 | @concepts/k277-security-wave.md | draft | k277 wave — code-domain safety lag + confirm-then-report |

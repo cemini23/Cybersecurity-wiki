@@ -106,5 +106,8 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K392 WPA3 SAE cost asymmetry / tickets (2609.31519) ≠ CCC K392 (none assigned)
 - K393 PLD in EAP-TEAP Wi-Fi auth (2610.01580) ≠ CCC K393 (none assigned)
 - K394 Form and Void composition agent OOD (2610.02045) ≠ CCC K394 (none assigned)
+- K395 Authorship attribution zero-shot representations (2610.03531) ≠ CCC K395 (none assigned)
+- K396 Threat-preserving representation sensitivity (2610.03585) ≠ CCC K396 (none assigned)
+- K397 FrugalEvo cost-aware program evolution (2610.03675) ≠ CCC K397 (none assigned)
 
-K300–K394 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K397 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

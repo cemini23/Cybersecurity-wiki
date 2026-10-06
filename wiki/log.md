@@ -1,3 +1,21 @@
+## [2026-10-06] ingest | K395-K397 batch (3 inbox PDFs) + Basgiath add-on security
+
+Full ingest of the 3 NEW inbox arXiv PDFs. Cybersec IDs **K395-K397**. **No clone. No attack payloads in wiki.**
+Also adds the first cybersec coverage of the **Basgiath** Minecraft project.
+
+- **NEW** `@sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md` + `@concepts/threat-preserving-representation-sensitivity.md` — **K396** TPRS: an ASR is a property of the agent **plus the agent-visible representation**. 28,904 runs; ASB +11.67/+13.21 pp when tool names are neutralised, MCPTox −11.00 pp when they are threat-flavoured. **Runtime:** `scripts/k396_benchmark_representation_precheck.py` + skill `benchmark-representation-precheck`
+- **NEW** `@sources/arxiv-2610-03531-authorship-attribution-zero-shot-representations.md` + `@concepts/authorship-attribution-author-representation.md` — **K395** zero-shot authorship attribution; label-only is near-chance and degrades with candidates; representation is what moves it (two-stage LISA **56.6%**); model choice dominates prompt choice
+- **NEW** `@sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md` + `@concepts/budget-aware-agentic-search-cost.md` — **K397** BA-AUC cost-aware evolution; **tangential to security**; repo Apache-2.0 but 305MB → REFERENCE
+- **NEW** `@concepts/bedrock-addon-distribution-integrity.md` — **Basgiath**: a Bedrock behavior pack with a `script` module is executable code on a player's device, distributed with no signature or provenance. Manifest review table + install-review and publish checklists. Brief: `briefs/2026-10-06_basgiath-addon-security.md`
+- **Updated** guardrail-construct-validity-agent-eval, benchmark-shortcut-attack-pyramid-audit, faithful-agent-asr-measurement, fragtoken-inference-cost-amplification-lab, reliable-inference-procurement-routing, osint-for-cybersecurity, threat-hunting, linguistic-illegibility-llm-security, product-build-integrity-slsa-sigstore, coding-agent-supply-chain-install-gap, mobile-app-attestation, index.md
+- **Phase-0**: `scripts/adopt_k395_k397_phase0.sh` PASS. No clone: K397 has a clear licence but is 305MB and only tangentially security-relevant
+- **Phase-1**: dual-ID K395-K397; `cemini-cybersec-agent-audit.mdc` (K395-K397)
+- **Deep-read route**: **grok CLI is out of usage balance** (HTTP 402 "Grok Build usage balance exhausted"). Grok returned rc=1 with an empty body for all three. The three papers were read directly from the extracts instead. Restore the balance to resume the grok route (the `grok_offload` wrapper itself is fixed and verified)
+- **friend brief:** add-on 82
+- **Sweep**: `wiki/sweeps/2026-10-05-daily.md`
+
+**Archive**: three PDFs → egress-fi cybersec/
+
 ## [2026-10-03] ingest | K392-K394 batch (3 inbox PDFs)
 
 Full ingest of the 3 NEW inbox arXiv PDFs. Cybersec IDs **K392-K394**. **No clone. No attack payloads in wiki.**

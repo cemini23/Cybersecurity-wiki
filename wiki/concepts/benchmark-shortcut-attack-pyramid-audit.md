@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, k388]
 keywords: [2610.00960, K388]
 related:
+  - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
+  - concepts/threat-preserving-representation-sensitivity.md
   - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K388)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md — K395-K397 ingest source page
+- @concepts/threat-preserving-representation-sensitivity.md — K396 TPRS — the sibling rule: report sensitivity, not a single score
 - @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
 - @concepts/guardrail-construct-validity-agent-eval.md
 - @concepts/ai-redteam-evidential-ceiling.md

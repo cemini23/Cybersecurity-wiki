@@ -4,6 +4,7 @@ type: concept
 tags: [concept, supply-chain, coding-agent, llm, install-gap]
 keywords: [2607.15143, pre-install gate, typosquat, separator confusion, registry redirect, harness]
 related:
+  - concepts/bedrock-addon-distribution-integrity.md
   - concepts/llm-generated-dependency-breaking-tests.md
   - concepts/nl-security-rules-vs-builtin-deny.md
   - concepts/llm-codegen-prompt-security-redistribution.md
@@ -20,11 +21,12 @@ related:
   - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-09-17
+updated: 2026-10-06
 ---
 
 ## Relations
 
+- @concepts/bedrock-addon-distribution-integrity.md — Basgiath: Bedrock add-on install-time trust over third-party code
 - @sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md — primary paper
 - @ccc-wiki/concepts/coding-agent-install-gap-and-preinstall-gate.md — CCC K179 ADOPT checklist
 - @concepts/npm-supply-chain-defense.md — release-age cooldown for Node; orthogonal to agent auto-install
