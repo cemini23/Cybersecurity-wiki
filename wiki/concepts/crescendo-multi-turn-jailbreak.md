@@ -4,6 +4,10 @@ type: concept
 tags: [llm-security, jailbreak, multi-turn, crescendo, escalation, microsoft-research, arxiv-2404-01833]
 keywords: [crescendo, multi-turn jailbreak, escalation attack, mark russinovich, microsoft research, conversational drift]
 related:
+  - concepts/test-time-training-redteam-attacker.md
+  - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
+  - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
+  - concepts/mosaic-attack-bounded-window-insufficiency.md
   - concepts/quantized-llm-jailbreak-defense-atlas.md
   - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - entities/tools/fuzzyai.md
@@ -38,13 +42,17 @@ related:
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-10-02
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/test-time-training-redteam-attacker.md — K399 attacker updating at test time
+- @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
+- @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page
+- @concepts/mosaic-attack-bounded-window-insufficiency.md — K400 mosaic attacks: fragments benign alone, harmful assembled
 - @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense
 - @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md — K387-K391 ingest source page
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md

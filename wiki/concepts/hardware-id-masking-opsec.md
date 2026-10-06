@@ -4,6 +4,8 @@ type: concept
 tags: [concept, opsec, anonymity, privacy, hardware-id, fingerprinting]
 keywords: [HWID, hardware identifier, MAC randomization, SMBIOS UUID, MachineGuid, TPM, SystemIdentification, device fingerprinting, OPSEC, anonymity]
 related:
+  - concepts/hardware-membership-inference-microarchitecture.md
+  - sources/arxiv-2610-06848-transcope-hardware-membership-inference.md
   - concepts/anonymity-networks.md
   - concepts/osint-for-cybersecurity.md
   - concepts/wireless-pentest.md
@@ -42,13 +44,15 @@ related:
   - concepts/e2ee-consumer-cloud-threat-model.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-13
+updated: 2026-10-06
 wire_status: wont_wire
 wire_target: "REFERENCE — identifier inventory + OS-supported privacy controls; no HWID-spoofer clones"
 ---
 
 ## Relations
 
+- @concepts/hardware-membership-inference-microarchitecture.md — K402 hardware footprint leaks training membership
+- @sources/arxiv-2610-06848-transcope-hardware-membership-inference.md — K398-K402 ingest source page
 - @concepts/anonymity-networks.md — Tor hides network path, not hardware; MAC is a local-LAN identifier
 - @concepts/osint-for-cybersecurity.md — collection OPSEC: do not leak host IDs into recon artifacts
 - @concepts/wireless-pentest.md — probe-request / IE / FSM re-identification of randomized MACs

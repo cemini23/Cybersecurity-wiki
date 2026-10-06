@@ -109,5 +109,10 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K395 Authorship attribution zero-shot representations (2610.03531) ≠ CCC K395 (none assigned)
 - K396 Threat-preserving representation sensitivity (2610.03585) ≠ CCC K396 (none assigned)
 - K397 FrugalEvo cost-aware program evolution (2610.03675) ≠ CCC K397 (none assigned)
+- K398 Penumbra regulatory-obligation adversarial search (2610.04693) ≠ CCC K398 (none assigned)
+- K399 Red-TTT test-time-training jailbreak (2610.05282) ≠ CCC K399 (none assigned)
+- K400 Sequential mosaic attacks + watchman (2610.05346) ≠ CCC K400 (none assigned)
+- K401 Contextual Reader in diffusion transformers OOD (2610.06844) ≠ CCC K401 (none assigned)
+- K402 TransScope hardware membership inference (2610.06848) ≠ CCC K402 (none assigned)
 
-K300–K397 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K402 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

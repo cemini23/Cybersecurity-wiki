@@ -1,3 +1,23 @@
+## [2026-10-06] ingest | K398-K402 batch (5 inbox PDFs)
+
+Full ingest of the 5 NEW inbox arXiv PDFs. Cybersec IDs **K398-K402**. **No clone. No attack payloads in wiki.**
+
+- **NEW** `@sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md` + `@concepts/mosaic-attack-bounded-window-insufficiency.md` — **K400** proves **no fixed bounded window of recent turns is sufficient** against multi-turn mosaic attacks; requires an online state mechanism; exact watchman may need exponentially many states (but is learnable from labelled examples); self-play equilibrium does not certify usefulness. **Formal companion to K312.** **Runtime:** `scripts/k400_mosaic_session_guard_precheck.py` + skill `mosaic-session-guard-precheck`
+- **NEW** `@sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md` + `@concepts/compliance-boundary-adjacent-pair-search.md` — **K398** obligation boundaries tested by **adjacent pairs** under a breadth-first edit budget with a frozen committee; 144 pairs/60 obligations (finance), 49/18 (clinical); sample efficiency is the binding constraint
+- **NEW** `@sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md` + `@concepts/test-time-training-redteam-attacker.md` — **K399** test-time training lifts the attacker's HarmBench ASR **55.9% → 72.4%** at 120 samples; red-team objective is best-of-N, not the mean. Repo `SaFo-Lab/Red-TTT` — REFERENCE, never clone
+- **NEW** `@sources/arxiv-2610-06848-transcope-hardware-membership-inference.md` + `@concepts/hardware-membership-inference-microarchitecture.md` — **K402** training-data membership is visible in **microarchitecture** even for constant-time masked-confidence models: tokenisation at training time shifts vocabulary-fetch locality → TLB behaviour. **0.9 AUC** vs 0.6 previously best; 98% accuracy at 1.5% FPR
+- **NEW** `@sources/arxiv-2610-06844-contextual-reader-diffusion-transformers-ood.md` — **K401 OOD** (MM-DiT contextual-token interpretability); **not security-relevant**; routed to image-gen, cyber keeps the stub
+- **Updated** non-decaying-loop-safety-state, crescendo-multi-turn-jailbreak, amt-x-phase-structured-multi-turn-red-teaming, linguistic-illegibility-llm-security, llm-adversarial-fuzzing, piminer-agentic-prompt-injection-redteam, guardrail-construct-validity-agent-eval, threat-preserving-representation-sensitivity, responsible-disclosure, asleval-privacy-exposure-displacement, hardware-id-masking-opsec, tpm-attest-linux-integrity-attestation, index.md
+- **Phase-0**: `scripts/adopt_k398_k402_phase0.sh` PASS. No clones — K399 is attack tooling, the rest have no artifact
+- **Phase-1**: dual-ID K398-K402; `cemini-cybersec-lab-redteam.mdc` (K398/K399/K400); `cemini-cybersec-agent-audit.mdc` (K398/K400/K401/K402)
+- **Runtime**: `k400_mosaic_session_guard_precheck.py` + CI test; K398/K399/K401/K402 audit-only
+- **Skills (federation)**: `mosaic-session-guard-precheck`
+- **Deep-read route**: **grok CLI still at HTTP 402** (balance exhausted) — all five read directly from the extracts. Second batch in a row on the direct path
+- **friend brief:** add-on 84
+- **Sweep**: `wiki/sweeps/2026-10-06-daily.md`
+
+**Archive**: five PDFs → egress-fi cybersec/
+
 ## [2026-10-06] ingest | K395-K397 batch (3 inbox PDFs) + Basgiath add-on security
 
 Full ingest of the 3 NEW inbox arXiv PDFs. Cybersec IDs **K395-K397**. **No clone. No attack payloads in wiki.**

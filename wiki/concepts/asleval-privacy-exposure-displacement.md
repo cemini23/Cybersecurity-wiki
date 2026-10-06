@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, privacy, eval, audit, k347]
 keywords: [2609.18864, ASLEval, privacy exposure displacement, agent sessions, authorization-aware eval]
 related:
+  - sources/arxiv-2610-06848-transcope-hardware-membership-inference.md
+  - concepts/hardware-membership-inference-microarchitecture.md
   - sources/arxiv-2609-18864-asleval-privacy-exposure-displacement.md
   - concepts/agent-runtime-guardrails.md
   - concepts/faithful-agent-asr-measurement.md
@@ -12,13 +14,15 @@ related:
   - concepts/inference-time-covert-agentic-communication.md
 maturity: draft
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K347)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-06848-transcope-hardware-membership-inference.md — K398-K402 ingest source page
+- @concepts/hardware-membership-inference-microarchitecture.md — K402 hardware membership inference defeats constant-time software
 - @sources/arxiv-2609-18864-asleval-privacy-exposure-displacement.md — ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions (2609.18864)
 
 ## Raw Concept

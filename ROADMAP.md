@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-10-06 | Full ingest K398-K402 (5 PDFs) | Mosaic attacks prove bounded-window session guards insufficient; Penumbra obligation adjacent pairs; Red-TTT test-time attacker; TransScope hardware membership inference; Contextual Reader OOD -> image-gen; k400 precheck + skill; friend 84 |
 | 2026-10-06 | Full ingest K395-K397 (3 PDFs) + Basgiath add-on security | TPRS: an ASR is a property of agent + representation (28,904 runs); authorship attribution representations; FrugalEvo BA-AUC; first cybersec coverage of the Minecraft project; k396 precheck + skill; friend 82 |
 | 2026-10-06 | grok CLI usage balance exhausted | All grok deep-reads returned HTTP 402; papers read directly. `grok_offload` wrapper itself verified working — restore balance to resume |
 | 2026-10-03 | Full ingest K392-K394 (3 PDFs) | WPA3-SAE DoS cost asymmetry; PLD channel-derived second factor in EAP-TEAP; Form-and-Void OOD -> image-gen; k392 precheck + skill; friend 80 |

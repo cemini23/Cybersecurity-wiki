@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, prompt-injection, red-teaming, lab]
 keywords: [PIMiner, strategy library, IPIArena, AgentDojo, 2608.05108]
 related:
+  - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
+  - concepts/test-time-training-redteam-attacker.md
   - sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md
   - sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md
   - concepts/countersteer-activation-steering-ipi-defense.md
@@ -20,11 +22,13 @@ related:
   - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-09-30
+updated: 2026-10-06
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page
+- @concepts/test-time-training-redteam-attacker.md — K399 attacker weights are not frozen at test time
 - @sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md — K382–K386 ingest source page
 - @sources/arxiv-2609-36474-finrt-amortized-redteam-generator.md — K382–K386 ingest source page
 - @concepts/countersteer-activation-steering-ipi-defense.md — K383 inference-time steering defense against IPI

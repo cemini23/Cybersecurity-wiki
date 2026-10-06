@@ -4,6 +4,8 @@ type: concept
 tags: [concept, llm-security, multi-turn, red-teaming, evaluation, jailbreak]
 keywords: [amt-x, overall asr, full asr, phase state machine, checklist gate, multi-role jury]
 related:
+  - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
+  - concepts/mosaic-attack-bounded-window-insufficiency.md
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/pair-prompt-pattern.md
@@ -22,13 +24,15 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-31
+updated: 2026-10-06
 wire_status: wont_wire
 wire_target: "REFERENCE methodology — dual-ASR in lab-redteam rule"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
+- @concepts/mosaic-attack-bounded-window-insufficiency.md — K400 bounded-window insufficiency
 - @sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md — primary paper
 - @concepts/crescendo-multi-turn-jailbreak.md — ad hoc multi-turn baseline AMT-X makes reproducible
 - @concepts/vulnerability-concept-graph-production-agent-red-teaming.md — complementary: chat ASR gating vs production-agent mechanism graphs

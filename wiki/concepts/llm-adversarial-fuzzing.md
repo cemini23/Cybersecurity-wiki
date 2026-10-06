@@ -4,6 +4,8 @@ type: concept
 tags: [methodology, llm-security, adversarial-prompt, jailbreak, red-team, fuzzing, pair, crescendo]
 keywords: [llm adversarial fuzzing, jailbreak methodology, pair, crescendo, prompt injection, llm red team]
 related:
+  - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
+  - concepts/test-time-training-redteam-attacker.md
   - concepts/quantized-llm-jailbreak-defense-atlas.md
   - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - entities/tools/fuzzyai.md
@@ -91,13 +93,15 @@ related:
   - concepts/evolving-attack-skill-libraries.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-10-02
+updated: 2026-10-06
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page
+- @concepts/test-time-training-redteam-attacker.md — K399 test-time training for the attacker
 - @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense
 - @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md — K387-K391 ingest source page
 - @sources/github-ablitafuzzer.md — AblitaFuzzer abliterated-attacker pattern

@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, guardrails, loop-safety, tool-use, k312]
 keywords: [LoopHarness, non-decaying loop state, trajectory-scoped monitor, composition failure, fragmented evidence, cooling-off, irreversible action, loop monitor]
 related:
+  - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
+  - concepts/mosaic-attack-bounded-window-insufficiency.md
   - sources/arxiv-2608-27141-safety-does-not-compose.md
   - concepts/step-level-agent-guardrails.md
   - concepts/agent-runtime-guardrails.md
   - concepts/instrumental-monitor-evasion-evaluation.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-10-06
 wire_status: runtime_wired
 wire_target: ".cursor/hooks.json + scripts/k312_loop_state.py (K312)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
+- @concepts/mosaic-attack-bounded-window-insufficiency.md — K400 formal companion: no fixed bounded window suffices
 - @concepts/instrumental-monitor-evasion-evaluation.md
 - @sources/arxiv-2608-27141-safety-does-not-compose.md — source paper (non-decaying loop state)
 - @concepts/step-level-agent-guardrails.md — step-level guard (K307); complements, does not replace, loop state

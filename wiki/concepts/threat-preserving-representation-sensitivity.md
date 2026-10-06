@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, k396]
 keywords: [2610.03585, K396]
 related:
+  - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
+  - concepts/compliance-boundary-adjacent-pair-search.md
   - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
@@ -17,6 +19,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K396)"
 
 ## Relations
 
+- @sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md — K398-K402 ingest source page
+- @concepts/compliance-boundary-adjacent-pair-search.md — K398 replace one judged score with a controlled pair
 - @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
 - @concepts/guardrail-construct-validity-agent-eval.md
 - @concepts/benchmark-shortcut-attack-pyramid-audit.md

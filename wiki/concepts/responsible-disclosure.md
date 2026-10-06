@@ -4,6 +4,8 @@ type: concept
 tags: [ethics, disclosure, cve]
 keywords: [responsible disclosure, cvd, cve, mitre, vendor]
 related:
+  - concepts/compliance-boundary-adjacent-pair-search.md
+  - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
   - concepts/bug-bounty.md
   - entities/people/joas-a-santos.md
   - entities/threat-actors/lockbit.md
@@ -44,7 +46,7 @@ related:
   - concepts/zero-trust-mission-critical-robotic-fleets.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-09-11
+updated: 2026-10-06
 ---
 
 ## Relations

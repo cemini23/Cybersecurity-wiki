@@ -490,6 +490,16 @@
 | @concepts/budget-aware-agentic-search-cost.md | draft | Budget the loop, not the iteration count |
 | @concepts/bedrock-addon-distribution-integrity.md | draft | Bedrock add-on supply chain + script review (Basgiath) |
 
+| @sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md | draft | Penumbra regulatory-obligation adversarial search (2610.04693; K398) |
+| @concepts/compliance-boundary-adjacent-pair-search.md | draft | Test an obligation boundary with adjacent pairs |
+| @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md | draft | Red-TTT test-time-training jailbreak attacker (2610.05282; K399) |
+| @concepts/test-time-training-redteam-attacker.md | draft | Frozen attacker weights are a ceiling |
+| @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md | draft | Sequential mosaic attacks + watchman defense (2610.05346; K400) |
+| @concepts/mosaic-attack-bounded-window-insufficiency.md | draft | No bounded window of recent turns is sufficient |
+| @sources/arxiv-2610-06844-contextual-reader-diffusion-transformers-ood.md | draft | Contextual Reader in diffusion transformers (2610.06844; K401) — OOD, image-gen primary |
+| @sources/arxiv-2610-06848-transcope-hardware-membership-inference.md | draft | TransScope hardware membership inference (2610.06848; K402) |
+| @concepts/hardware-membership-inference-microarchitecture.md | draft | Constant-time software, non-constant hardware footprint |
+
 | @sources/arxiv-2610-02045-form-and-void-agent-ood.md | draft | Form and Void composition agent (2610.02045; K394) — OOD, image-gen primary |
 
 | @concepts/k277-security-wave.md | draft | k277 wave — code-domain safety lag + confirm-then-report |
