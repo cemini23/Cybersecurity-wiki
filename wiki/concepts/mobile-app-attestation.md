@@ -4,6 +4,10 @@ type: concept
 tags: [concept, mobile, attestation, android, ios, play-integrity, app-attest, product-pentest]
 keywords: [Play Integrity, App Attest, DeviceCheck, SafetyNet, attestation, integrity verdict, MEETS_STRONG_INTEGRITY, app attestation, server verification, anti-tamper]
 related:
+  - concepts/post-quantum-oob-pairing-medical-implants.md
+  - sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md
+  - sources/arxiv-2610-07870-post-quantum-ble-pairing-nfc-oob-implant.md
+  - concepts/dnn-bit-flip-detection-runtime-monitors.md
   - concepts/bedrock-addon-distribution-integrity.md
   - concepts/mobile-pentest.md
   - concepts/pre-release-product-pentest.md
@@ -16,13 +20,17 @@ related:
   - concepts/tpm-attest-linux-integrity-attestation.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-10-06
+updated: 2026-10-07
 wire_status: wont_wire
 wire_target: "REFERENCE — first-party attestation APIs for owned mobile products; no Magisk/PIF kits"
 ---
 
 ## Relations
 
+- @concepts/post-quantum-oob-pairing-medical-implants.md — K404 post-quantum OOB pairing for implant-class devices
+- @sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md — K403-K407 ingest source page
+- @sources/arxiv-2610-07870-post-quantum-ble-pairing-nfc-oob-implant.md — K403-K407 ingest source page
+- @concepts/dnn-bit-flip-detection-runtime-monitors.md — K406 physical-fault integrity monitoring
 - @concepts/bedrock-addon-distribution-integrity.md — Basgiath: Bedrock add-on platform attestation vs a user-installed artifact
 - @concepts/mobile-pentest.md — attestation is the control your mobile pentest must test around (server-side verification)
 - @concepts/pre-release-product-pentest.md — attestation checks are part of the mobile product ship bar

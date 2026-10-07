@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, skill-injection, mcp, k95]
 keywords: [skill injection, SkillGuard, context poisoning, confused deputy, agent skills]
 related:
+  - sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md
+  - concepts/agent-memory-supply-chain-compromise.md
   - sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
   - concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md
   - concepts/skill-cascading-attacks-skill-based-agents.md
@@ -64,13 +66,15 @@ related:
   - entities/tools/jailbreakskill.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-09-29
+updated: 2026-10-07
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations
 
+- @sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md — inbound brief wave 2026-10-07
+- @concepts/agent-memory-supply-chain-compromise.md — K283-b poisoned memory package leaks the whole context
 - @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md — K378 SkillDRE dual-stage skill evolution source
 - @concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md — K378 dual-stage skill evolution (pre-exec + runtime) lab gate
 - @concepts/skill-cascading-attacks-skill-based-agents.md — K374 cross-skill cascade: per-skill scan misses joint harm

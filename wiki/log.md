@@ -1,3 +1,30 @@
+## [2026-10-07] ingest | K403-K407 batch (5 PDFs) + inbound briefs filled out
+
+Full ingest of the 5 NEW inbox arXiv PDFs, plus pages for four inbound briefs that had been routed here
+but not yet actioned. **No clone. No attack payloads in wiki.**
+
+### K403-K407
+- **NEW** `@sources/arxiv-2610-08678-secure-speculative-decoding.md` + `@concepts/speculative-decoding-safety-asymmetry.md` — **K405** an inference optimisation that silently weakens safety: a weak **draft** model raises jailbreak + prompt-injection ASR while utility barely moves; tighten verification of draft tokens at early positions (ASR −92.4% at 99.8% speedup). **Runtime:** `scripts/k405_inference_optimization_safety_precheck.py` + skill `inference-optimization-safety-precheck`
+- **NEW** `@sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md` + `@concepts/adversarial-region-estimation-vs-single-example.md` — **K403** audit the failure **region**, not one example; active-learning level-set estimation beats NES / SignHunter / BayesOpt
+- **NEW** `@sources/arxiv-2610-07870-post-quantum-ble-pairing-nfc-oob-implant.md` + `@concepts/post-quantum-oob-pairing-medical-implants.md` — **K404** run the PQ KEM on the NFC OOB channel itself; harvest-now-decrypt-later applies to **pairing**, not just transport
+- **NEW** `@sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md` + `@concepts/dnn-bit-flip-detection-runtime-monitors.md` — **K406** runtime bit-flip detection via per-layer activation statistics; up to 98% (vision) / 74-95% (LLMs); <3% energy, <4% area
+- **NEW** `@sources/arxiv-2610-08781-ideaanchor-research-ideation-ood.md` — **K407 OOD** (research ideation); not security-relevant
+- **Phase-0**: `scripts/adopt_k403_k407_phase0.sh` PASS. No clones.
+- **Phase-1**: dual-ID K403-K407; `cemini-cybersec-lab-redteam.mdc` (K403/K404/K405); `cemini-cybersec-agent-audit.mdc` (K405/K406/K407)
+
+### Inbound briefs filled out
+- **K421 Kubernetes agent containment** (2610.02861) — `@sources/arxiv-2610-02861-kubernetes-agent-containment.md` + `@concepts/model-is-not-a-security-boundary-kubernetes-agents.md`: the model is not a boundary; break **untrusted input + sensitive access + external egress**; seven Kubernetes-native layers. Cross-linked to `@ccc-wiki/concepts/model-is-not-a-security-boundary.md`
+- **Agent-memory supply chain** (MemTensor/MemoryOS, WuBlock 2026-10-06) — `@sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md` + `@concepts/agent-memory-supply-chain-compromise.md`: a poisoned **memory package** leaks the whole context, not one tool call
+- **EvoRiskBench** (2610.03153) — `@sources/arxiv-2610-03153-evoriskbench-runtime.md` + `@concepts/harness-vs-model-risk-share.md`: aggregate ASR **37.46%**, worst 68.44%; **model spread 54.37 pp vs harness spread 5.41 pp**
+- **BabelFake** (2610.06339, routed from image-gen) — `@sources/arxiv-2610-06339-babelfake-multilingual-av-deepfake.md`: multilingual audio-visual deepfake detection benchmark; best AUC 79.79
+- **Inbound wave digest** — `@concepts/inbound-security-wave-2026-10-07.md`: CLIFT, Wikidata traces, T-Search, BTTF, PowerBench, MLCommons Jailbreak v1.0, MoE router gradient, plus K283 headlines
+- **Note:** the CCC routing brief's **K423 is the same paper as this wiki's K396** (2610.03585) — already ingested; only a CCC cross-link was added
+- **Deep-read route**: **grok CLI still at HTTP 402** (balance exhausted) — third batch read directly from extracts
+- **friend brief:** add-on 86
+- **Sweep**: `wiki/sweeps/2026-10-07-daily.md`
+
+**Archive**: five PDFs → egress-fi cybersec/
+
 ## [2026-10-06] ingest | K398-K402 batch (5 inbox PDFs)
 
 Full ingest of the 5 NEW inbox arXiv PDFs. Cybersec IDs **K398-K402**. **No clone. No attack payloads in wiki.**

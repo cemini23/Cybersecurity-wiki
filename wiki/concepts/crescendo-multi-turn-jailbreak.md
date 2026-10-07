@@ -4,6 +4,8 @@ type: concept
 tags: [llm-security, jailbreak, multi-turn, crescendo, escalation, microsoft-research, arxiv-2404-01833]
 keywords: [crescendo, multi-turn jailbreak, escalation attack, mark russinovich, microsoft research, conversational drift]
 related:
+  - sources/arxiv-2610-08678-secure-speculative-decoding.md
+  - concepts/speculative-decoding-safety-asymmetry.md
   - concepts/test-time-training-redteam-attacker.md
   - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
   - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
@@ -42,13 +44,15 @@ related:
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-10-06
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-08678-secure-speculative-decoding.md — K403-K407 ingest source page
+- @concepts/speculative-decoding-safety-asymmetry.md — K405 jailbreak ASR rises with a weak draft model
 - @concepts/test-time-training-redteam-attacker.md — K399 attacker updating at test time
 - @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
 - @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page

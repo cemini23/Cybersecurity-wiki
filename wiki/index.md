@@ -500,6 +500,25 @@
 | @sources/arxiv-2610-06848-transcope-hardware-membership-inference.md | draft | TransScope hardware membership inference (2610.06848; K402) |
 | @concepts/hardware-membership-inference-microarchitecture.md | draft | Constant-time software, non-constant hardware footprint |
 
+| @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md | draft | ATLAS-AL adversarial region via active learning (2610.07323; K403) |
+| @concepts/adversarial-region-estimation-vs-single-example.md | draft | Estimate the failure region, not one example |
+| @sources/arxiv-2610-07870-post-quantum-ble-pairing-nfc-oob-implant.md | draft | Post-quantum BLE pairing via NFC OOB for implants (2610.07870; K404) |
+| @concepts/post-quantum-oob-pairing-medical-implants.md | draft | Run the PQ KEM on the OOB channel itself |
+| @sources/arxiv-2610-08678-secure-speculative-decoding.md | draft | Secure speculative decoding / safety asymmetry (2610.08678; K405) |
+| @concepts/speculative-decoding-safety-asymmetry.md | draft | An inference optimisation that silently weakens safety |
+| @sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md | draft | BARE-AI bit-flip detection via performance monitors (2610.08739; K406) |
+| @concepts/dnn-bit-flip-detection-runtime-monitors.md | draft | Activation statistics as a weight-corruption tripwire |
+| @sources/arxiv-2610-08781-ideaanchor-research-ideation-ood.md | draft | IdeaAnchor research ideation (2610.08781; K407) — OOD |
+
+| @sources/arxiv-2610-02861-kubernetes-agent-containment.md | draft | K8s agent containment: model is not a boundary (2610.02861; incoming K421) |
+| @concepts/model-is-not-a-security-boundary-kubernetes-agents.md | draft | Lethal trifecta + seven-layer Kubernetes containment |
+| @sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md | draft | MemTensor/MemoryOS memory-package compromise (incoming K283-b) |
+| @concepts/agent-memory-supply-chain-compromise.md | draft | A poisoned memory layer leaks the whole context |
+| @sources/arxiv-2610-03153-evoriskbench-runtime.md | draft | EvoRiskBench model x harness runtime risk (2610.03153; incoming K282-b) |
+| @concepts/harness-vs-model-risk-share.md | draft | Model spread 54.37 pp vs harness spread 5.41 pp |
+| @sources/arxiv-2610-06339-babelfake-multilingual-av-deepfake.md | draft | BabelFake multilingual AV deepfake benchmark (2610.06339; from image-gen) |
+| @concepts/inbound-security-wave-2026-10-07.md | draft | Inbound brief digest: agent verification, refusal bias, jailbreak bench |
+
 | @sources/arxiv-2610-02045-form-and-void-agent-ood.md | draft | Form and Void composition agent (2610.02045; K394) — OOD, image-gen primary |
 
 | @concepts/k277-security-wave.md | draft | k277 wave — code-domain safety lag + confirm-then-report |

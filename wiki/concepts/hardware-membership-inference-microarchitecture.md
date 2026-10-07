@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, k402]
 keywords: [2610.06848, K402]
 related:
+  - sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md
+  - concepts/dnn-bit-flip-detection-runtime-monitors.md
   - sources/arxiv-2610-06848-transcope-hardware-membership-inference.md
   - concepts/asleval-privacy-exposure-displacement.md
   - concepts/hardware-id-masking-opsec.md
   - concepts/tpm-attest-linux-integrity-attestation.md
 maturity: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K402)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md — K403-K407 ingest source page
+- @concepts/dnn-bit-flip-detection-runtime-monitors.md — K406 hardware-layer integrity: activation statistics as a tripwire
 - @sources/arxiv-2610-06848-transcope-hardware-membership-inference.md
 - @concepts/asleval-privacy-exposure-displacement.md
 - @concepts/hardware-id-masking-opsec.md

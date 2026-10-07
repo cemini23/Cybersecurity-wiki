@@ -114,5 +114,10 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K400 Sequential mosaic attacks + watchman (2610.05346) ≠ CCC K400 (none assigned)
 - K401 Contextual Reader in diffusion transformers OOD (2610.06844) ≠ CCC K401 (none assigned)
 - K402 TransScope hardware membership inference (2610.06848) ≠ CCC K402 (none assigned)
+- K403 ATLAS-AL adversarial region active learning (2610.07323) ≠ CCC K403 (none assigned)
+- K404 Post-quantum BLE pairing via NFC OOB (2610.07870) ≠ CCC K404 (none assigned)
+- K405 Secure speculative decoding (2610.08678) ≠ CCC K405 (none assigned)
+- K406 BARE-AI bit-flip resilience (2610.08739) ≠ CCC K406 (none assigned)
+- K407 IdeaAnchor research ideation OOD (2610.08781) ≠ CCC K407 (none assigned)
 
-K300–K402 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K407 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

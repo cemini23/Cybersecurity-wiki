@@ -4,6 +4,8 @@ type: concept
 tags: [methodology, llm-security, adversarial-prompt, jailbreak, red-team, fuzzing, pair, crescendo]
 keywords: [llm adversarial fuzzing, jailbreak methodology, pair, crescendo, prompt injection, llm red team]
 related:
+  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
+  - concepts/adversarial-region-estimation-vs-single-example.md
   - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
   - concepts/test-time-training-redteam-attacker.md
   - concepts/quantized-llm-jailbreak-defense-atlas.md
@@ -93,13 +95,15 @@ related:
   - concepts/evolving-attack-skill-libraries.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-10-06
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md — K403-K407 ingest source page
+- @concepts/adversarial-region-estimation-vs-single-example.md — K403 adaptive search over failure regions
 - @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page
 - @concepts/test-time-training-redteam-attacker.md — K399 test-time training for the attacker
 - @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense

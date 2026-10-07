@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, k277, safety-alignment, code-domain]
 keywords: [CodeMimicry, code-domain safety, PageBreak, Numbat, K277]
 related:
+  - concepts/inbound-security-wave-2026-10-07.md
   - concepts/k278-security-wave.md
   - sources/arxiv-2609.39902-codemimicry-2026-10-01.md
   - sources/newsletter-rss-tldrsec-2026-10-01-tldr-sec-348---googles-pagebreak-scanner-perplex.md
@@ -11,13 +12,14 @@ related:
   - concepts/llm-codegen-prompt-security-redistribution.md
 maturity: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K277 wave)"
 ---
 
 ## Relations
 
+- @concepts/inbound-security-wave-2026-10-07.md — inbound brief wave 2026-10-07
 - @concepts/k278-security-wave.md — next wave
 - @sources/arxiv-2609.39902-codemimicry-2026-10-01.md — CodeMimicry (unread stub; source not obtained locally)
 - @sources/newsletter-rss-tldrsec-2026-10-01-tldr-sec-348---googles-pagebreak-scanner-perplex.md — TLDR Sec 348 (unread stub)

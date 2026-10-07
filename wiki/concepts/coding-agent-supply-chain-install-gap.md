@@ -4,6 +4,11 @@ type: concept
 tags: [concept, supply-chain, coding-agent, llm, install-gap]
 keywords: [2607.15143, pre-install gate, typosquat, separator confusion, registry redirect, harness]
 related:
+  - concepts/inbound-security-wave-2026-10-07.md
+  - sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md
+  - sources/arxiv-2610-02861-kubernetes-agent-containment.md
+  - concepts/model-is-not-a-security-boundary-kubernetes-agents.md
+  - concepts/agent-memory-supply-chain-compromise.md
   - concepts/bedrock-addon-distribution-integrity.md
   - concepts/llm-generated-dependency-breaking-tests.md
   - concepts/nl-security-rules-vs-builtin-deny.md
@@ -21,11 +26,16 @@ related:
   - concepts/cashews-llm-malicious-package-detection.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 
 ## Relations
 
+- @concepts/inbound-security-wave-2026-10-07.md — inbound brief wave 2026-10-07
+- @sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md — inbound brief wave 2026-10-07
+- @sources/arxiv-2610-02861-kubernetes-agent-containment.md — inbound brief wave 2026-10-07
+- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md — K421 third-party MCP tool descriptions as untrusted input
+- @concepts/agent-memory-supply-chain-compromise.md — K283-b the memory layer is a supply-chain target
 - @concepts/bedrock-addon-distribution-integrity.md — Basgiath: Bedrock add-on install-time trust over third-party code
 - @sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md — primary paper
 - @ccc-wiki/concepts/coding-agent-install-gap-and-preinstall-gate.md — CCC K179 ADOPT checklist

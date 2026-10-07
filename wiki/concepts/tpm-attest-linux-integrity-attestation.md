@@ -4,6 +4,8 @@ type: concept
 tags: [concept, attestation, tpm, anti-cheat, linux, product-security, k351]
 keywords: [2609.20909, TPM-Attest, IMA, remote attestation, EOS, hardware-rooted integrity]
 related:
+  - sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md
+  - concepts/dnn-bit-flip-detection-runtime-monitors.md
   - concepts/hardware-membership-inference-microarchitecture.md
   - sources/arxiv-2610-06848-transcope-hardware-membership-inference.md
   - sources/arxiv-2609-20909-tpm-attest-hardware-rooted-integrity-attestation.md
@@ -13,13 +15,15 @@ related:
   - concepts/pre-release-product-pentest.md
 maturity: draft
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc (K351)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-08739-bare-ai-bit-flip-resilience.md — K403-K407 ingest source page
+- @concepts/dnn-bit-flip-detection-runtime-monitors.md — K406 runtime detection of weight corruption
 - @concepts/hardware-membership-inference-microarchitecture.md — K402 microarchitectural state as a data-dependent signal
 - @sources/arxiv-2610-06848-transcope-hardware-membership-inference.md — K398-K402 ingest source page
 - @sources/arxiv-2609-20909-tpm-attest-hardware-rooted-integrity-attestation.md — TPM-Attest (2609.20909)

@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, audit, measurement, guardrails, k321]
 keywords: [construct validity, protocol isolation, incentive validity, stochastic stability, welfare accounting, agent market eval, guardrail measurement]
 related:
+  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
+  - concepts/adversarial-region-estimation-vs-single-example.md
   - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
   - concepts/compliance-boundary-adjacent-pair-search.md
   - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
@@ -20,13 +22,15 @@ related:
   - concepts/culturally-responsive-llm-benchmark-audit.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-10-06
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K321)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md — K403-K407 ingest source page
+- @concepts/adversarial-region-estimation-vs-single-example.md — K403 active-learning level-set estimation for robustness audit
 - @sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md — K398-K402 ingest source page
 - @concepts/compliance-boundary-adjacent-pair-search.md — K398 adjacent-pair compliance boundary testing
 - @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md — K395-K397 ingest source page

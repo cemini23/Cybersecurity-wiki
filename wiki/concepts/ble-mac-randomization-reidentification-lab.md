@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, k365]
 keywords: [2609.26079, K365]
 related:
+  - sources/arxiv-2610-07870-post-quantum-ble-pairing-nfc-oob-implant.md
+  - concepts/post-quantum-oob-pairing-medical-implants.md
   - sources/arxiv-2609-26079-ble-mac-randomization-reidentification.md
   - concepts/wifi-rf-fingerprinting-open-set.md
   - concepts/bluetooth-nft-soft-pairing.md
@@ -12,13 +14,15 @@ related:
   - sources/arxiv-2609-29213-ble-backscatter-polarization-shift-identification.md
 maturity: validated
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-07
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K365)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-07870-post-quantum-ble-pairing-nfc-oob-implant.md — K403-K407 ingest source page
+- @concepts/post-quantum-oob-pairing-medical-implants.md — K404 pairing is the cryptographic foundation BLE privacy builds on
 - @sources/arxiv-2609-29213-ble-backscatter-polarization-shift-identification.md
 - @concepts/ble-backscatter-polarization-shift-identification-lab.md
 - @sources/arxiv-2609-26079-ble-mac-randomization-reidentification.md
