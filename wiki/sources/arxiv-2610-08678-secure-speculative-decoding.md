@@ -5,14 +5,14 @@ tags: [source, arxiv, agent-security]
 keywords: [2610.08678, k405]
 related:
   - concepts/speculative-decoding-safety-asymmetry.md
-  - concepts/fragtoken-inference-cost-amplification-lab.md
   - concepts/reliable-inference-procurement-routing.md
+  - concepts/fragtoken-inference-cost-amplification-lab.md
   - concepts/prompt-injection-detector-calibration.md
   - concepts/crescendo-multi-turn-jailbreak.md
 maturity: draft
 read_status: read
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-07 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K405)"
@@ -20,6 +20,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K405)"
 
 ## Relations
 
+- @concepts/speculative-decoding-safety-asymmetry.md — K408-K417 ingest / 2026-10-09
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 ## Relations
 
 - @concepts/speculative-decoding-safety-asymmetry.md

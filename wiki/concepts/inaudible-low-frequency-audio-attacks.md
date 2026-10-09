@@ -4,9 +4,9 @@ type: concept
 tags: [methodology, llm-security, audio-attack, lalm, red-team, side-channel]
 keywords: [inaudible audio attack, LALM, infrasound, 5-20 Hz, ILL, DRG, distributional requery, adversarial audio, ultrasonic]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
   - entities/tools/ill-inaudible-low-frequency-lockout.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
@@ -16,7 +16,7 @@ related:
   - entities/tools/arena-audio-redteam.md
 maturity: draft
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K267)"
 ---
@@ -25,9 +25,9 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K267)"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
 - @entities/tools/ill-inaudible-low-frequency-lockout.md
-- @concepts/llm-adversarial-fuzzing.md — LALM input is another adversarial-fuzz surface, distinct from text jailbreaks
 - @concepts/agent-runtime-guardrails.md — audio-side defenses (LF-suppression, denoising, DRG requery) are runtime guard inputs
 - @concepts/ai-for-cybersecurity.md — LLM agents with audio/video frontends in scope for authorized lab
 - @concepts/llm-pentest-automation.md — audio red-team loops must obey the same scope-enforcement model

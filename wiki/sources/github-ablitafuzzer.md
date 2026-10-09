@@ -9,14 +9,14 @@ related:
   - entities/tools/ollama.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-09
 read_status: skimmed
 ---
 
 ## Relations
 
-- @concepts/local-abliterated-llm-pentest-stack.md — local abliterated attacker-model pattern
-- @concepts/llm-adversarial-fuzzing.md — adversarial LLM testing methodology
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/ollama.md — typical local host for the attacker model
 
 ## Raw Concept

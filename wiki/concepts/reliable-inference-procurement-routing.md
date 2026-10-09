@@ -4,8 +4,9 @@ type: concept
 tags: [concept, agent-security, k366]
 keywords: [2609.28322, K366]
 related:
-  - sources/arxiv-2610-08678-secure-speculative-decoding.md
+  - entities/tools/strata.md
   - concepts/speculative-decoding-safety-asymmetry.md
+  - sources/arxiv-2610-08678-secure-speculative-decoding.md
   - sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md
   - concepts/budget-aware-agentic-search-cost.md
   - sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md
@@ -15,15 +16,16 @@ related:
   - concepts/chain-of-self-questioning-selective-abstention.md
 maturity: validated
 created: 2026-09-24
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K366)"
 ---
 
 ## Relations
 
+- @entities/tools/strata.md — K408-K417 ingest / 2026-10-09
+- @concepts/speculative-decoding-safety-asymmetry.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-08678-secure-speculative-decoding.md — K403-K407 ingest source page
-- @concepts/speculative-decoding-safety-asymmetry.md — K405 draft model enters the token path and the TCB
 - @sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md — K395-K397 ingest source page
 - @concepts/budget-aware-agentic-search-cost.md — K397 cost-aware agentic search
 - @sources/arxiv-2609-31552-fragtoken-inference-cost-amplification.md — K376 FragToken source — token inflation vs visible length

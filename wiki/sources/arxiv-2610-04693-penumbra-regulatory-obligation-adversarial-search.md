@@ -4,14 +4,14 @@ type: source
 tags: [source, arxiv, agent-security]
 keywords: [2610.04693, k398]
 related:
-  - concepts/compliance-boundary-adjacent-pair-search.md
   - concepts/threat-preserving-representation-sensitivity.md
+  - concepts/compliance-boundary-adjacent-pair-search.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/responsible-disclosure.md
 maturity: draft
 read_status: read
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-06 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K398)"
@@ -19,6 +19,7 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K398)"
 
 ## Relations
 
+- @concepts/threat-preserving-representation-sensitivity.md — K408-K417 ingest / 2026-10-09
 ## Relations
 
 - @concepts/compliance-boundary-adjacent-pair-search.md

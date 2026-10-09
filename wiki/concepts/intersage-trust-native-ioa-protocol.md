@@ -4,21 +4,22 @@ type: concept
 tags: [concept, multi-agent, identity, ioai, mcp]
 keywords: [InterSAGE, Agent Identity Card, AIC, capability attenuation, DID, IoA]
 related:
+  - concepts/agentic-containment-principles.md
   - sources/arxiv-2608-13030-intersage.md
   - concepts/internet-of-agentic-ai-ioai.md
   - concepts/mcp-security-posture.md
-  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/concepts/intersage-trust-native-ioa-protocol.md"
 maturity: draft
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (CCC K278 dual-ID — not Cybersec ATOBench)"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-13030-intersage.md — positioning paper
 - @concepts/internet-of-agentic-ai-ioai.md — IoAI threat model; InterSAGE is an identity/capability layer
 - @concepts/mcp-security-posture.md — capability ads must be provenance-checked, not trusted as grant

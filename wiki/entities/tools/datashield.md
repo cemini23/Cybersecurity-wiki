@@ -5,9 +5,9 @@ category: tool
 tags: [entity, tool, llm-safety, fine-tuning, mit, conditional-go]
 keywords: [datashield, zju-llm-safety, consensus subspace]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - concepts/datashield-risky-finetune-data-filtering.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/self-evolving-agent-security.md
@@ -15,13 +15,14 @@ related:
   - sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-08-06
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-15081-datashield-risky-finetune-data.md — paper
 - @concepts/datashield-risky-finetune-data-filtering.md — concept
 

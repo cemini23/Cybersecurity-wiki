@@ -4,23 +4,23 @@ type: concept
 tags: [concept, agent-security, k389]
 keywords: [2610.01058, K389]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - concepts/defender-centric-jailbreak-utility.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/instruction-hierarchy-conflict-benchmark.md
 maturity: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K389)"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
 - @concepts/defender-centric-jailbreak-utility.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/instruction-hierarchy-conflict-benchmark.md
 

@@ -4,6 +4,7 @@ type: entity
 tags: [tool, egress, firewall, zero-trust, container, go, apache-2.0, adopt-eligible]
 keywords: [iron-proxy, ironsh, egress firewall, untrusted workloads, policy, sandbox]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/zero-trust.md
   - concepts/network-security.md
   - concepts/defense-in-depth.md
@@ -15,7 +16,6 @@ related:
   - concepts/docker-agent-sandbox-allowlist-proxy.md
   - entities/tools/defending-code-reference-harness.md
   - concepts/agentic-offensive-security-kill-chain.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
   - entities/tools/vllm.md
@@ -23,7 +23,7 @@ related:
 
 maturity: draft
 created: 2026-05-26
-updated: 2026-08-02
+updated: 2026-10-09
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — Apache-2.0 verified; Phase-0 queue if egress-policy hardening is prioritized."
 wire_status: policy_wired

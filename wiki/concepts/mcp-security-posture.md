@@ -4,6 +4,7 @@ type: concept
 tags: [concept, mcp, security, k100, admission-control, spi, dci]
 keywords: [mcp, attestation, prompt-injection, description-code, stored-spi, tool-allowlist]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/inadvertent-context-leakage.md
   - concepts/nl-security-rules-vs-builtin-deny.md
   - concepts/step-level-agent-guardrails.md
@@ -32,7 +33,6 @@ related:
   - entities/tools/ai-research-skills.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
-  - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
@@ -118,13 +118,14 @@ related:
   - concepts/task-conditioned-excess-authority.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-15
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 - @concepts/authority-framing-agentic-cicd.md
 - @sources/arxiv-attested-tool-server-admission-2605.24248-2026-06-05.md — mcp-attested clearance + allowlist
@@ -142,7 +143,6 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @ccc-wiki/concepts/skill-vetting.md — Phase-0 install gate
 - @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md — error-path implicit authority (K114)
 - @sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md — framework containment gap (K114)
-- @concepts/agentic-containment-principles.md — P1–P6 audit matrix
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — GT-MCP trajectory layer (Reference)
 - @concepts/trajectory-context-control.md — memory-commit gate above MCP transport
 - @concepts/instruction-hierarchy-conflict-benchmark.md

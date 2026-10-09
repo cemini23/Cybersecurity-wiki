@@ -4,11 +4,11 @@ type: concept
 tags: [concept, sandbox, docker, gvisor, agent-security, egress-control, vuln-discovery]
 keywords: [vp-internal, allowlist proxy, gvisor, agent sandbox, untrusted code execution, defending-code]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - entities/tools/defending-code-reference-harness.md
   - entities/tools/iron-proxy.md
   - entities/tools/cua.md
   - concepts/agent-vm-sandboxing.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/agent-runtime-guardrails.md
   - concepts/exploit-development.md
   - concepts/agent-skill-injection.md
@@ -17,17 +17,17 @@ related:
 
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @concepts/owned-target-whitehat-lab.md — Docker egress allowlist as technical barrier against unauthorized lab egress
 - @entities/tools/defending-code-reference-harness.md — reference implementation (Anthropic, Apache-2.0)
 - @entities/tools/iron-proxy.md — host-level egress firewall for non-Docker agent workloads
 - @entities/tools/cua.md — VM-substrate alternative (Apple Virtualization.Framework + tracing)
 - @concepts/agent-vm-sandboxing.md — disposable substrate + tracing methodology (VM variant)
-- @concepts/llm-vulnerability-discovery.md — pipeline stage that needs crash-verified execution
 - @concepts/agent-runtime-guardrails.md — runtime authority complements network isolation
 - @concepts/exploit-development.md — ASAN crash triage inside sandbox
 - @concepts/agent-skill-injection.md — poisoned skills can steer agent to disable sandbox overrides

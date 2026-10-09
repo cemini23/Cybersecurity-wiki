@@ -4,9 +4,11 @@ type: concept
 tags: [concept, agent-security, k396]
 keywords: [2610.03585, K396]
 related:
+  - sources/arxiv-2610-10276-patchbench-local-suppression-vs-repair.md
+  - concepts/local-suppression-vs-repair.md
+  - concepts/adversarial-region-estimation-vs-single-example.md
   - @ccc-wiki/concepts/threat-preserving-representation-sensitivity.md
   - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
-  - concepts/adversarial-region-estimation-vs-single-example.md
   - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
   - concepts/compliance-boundary-adjacent-pair-search.md
   - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
@@ -15,16 +17,18 @@ related:
   - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K396)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-10276-patchbench-local-suppression-vs-repair.md — K408-K417 ingest / 2026-10-09
+- @concepts/local-suppression-vs-repair.md — K408-K417 ingest / 2026-10-09
+- @concepts/adversarial-region-estimation-vs-single-example.md — K408-K417 ingest / 2026-10-09
 - @@ccc-wiki/concepts/threat-preserving-representation-sensitivity.md — CCC harness-side counterpart (K423)
 - @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md — K403-K407 ingest source page
-- @concepts/adversarial-region-estimation-vs-single-example.md — K403 estimate the failure region, not one example
 - @sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md — K398-K402 ingest source page
 - @concepts/compliance-boundary-adjacent-pair-search.md — K398 replace one judged score with a controlled pair
 - @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md

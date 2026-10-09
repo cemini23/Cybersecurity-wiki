@@ -4,9 +4,9 @@ type: source
 tags: [source, arxiv, llm-safety, fine-tuning, data-centric, alignment]
 keywords: [2607.15081, datashield, fine-tuning safety, consensus subspace, asr, zju]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/datashield-risky-finetune-data-filtering.md
   - entities/tools/datashield.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/self-evolving-agent-security.md
   - concepts/ai-for-cybersecurity.md
@@ -16,7 +16,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-07-17 — github.com/ZJU-LLM-Safety/DataShield MIT ~3MB; lab fine-tune filtering only"
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
@@ -26,6 +26,7 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-16122-craft-rubric-capability-diagnosis.md
 - @concepts/rubric-capability-tree-diagnosis.md
 - @concepts/datashield-risky-finetune-data-filtering.md — synthesis

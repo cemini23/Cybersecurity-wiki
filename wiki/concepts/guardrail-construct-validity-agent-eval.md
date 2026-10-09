@@ -4,12 +4,14 @@ type: concept
 tags: [concept, agent-security, audit, measurement, guardrails, k321]
 keywords: [construct validity, protocol isolation, incentive validity, stochastic stability, welfare accounting, agent market eval, guardrail measurement]
 related:
-  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
+  - sources/arxiv-2610-12313-verdict-without-the-rule-compliance-invariance.md
+  - concepts/compliance-verdict-rule-invariance.md
+  - concepts/threat-preserving-representation-sensitivity.md
   - concepts/adversarial-region-estimation-vs-single-example.md
+  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
   - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
   - concepts/compliance-boundary-adjacent-pair-search.md
   - sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md
-  - concepts/threat-preserving-representation-sensitivity.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
   - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/certified-selective-prediction-guardrails.md
@@ -22,19 +24,21 @@ related:
   - concepts/culturally-responsive-llm-benchmark-audit.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K321)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-12313-verdict-without-the-rule-compliance-invariance.md — K408-K417 ingest / 2026-10-09
+- @concepts/compliance-verdict-rule-invariance.md — K408-K417 ingest / 2026-10-09
+- @concepts/threat-preserving-representation-sensitivity.md — K408-K417 ingest / 2026-10-09
+- @concepts/adversarial-region-estimation-vs-single-example.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md — K403-K407 ingest source page
-- @concepts/adversarial-region-estimation-vs-single-example.md — K403 active-learning level-set estimation for robustness audit
 - @sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md — K398-K402 ingest source page
 - @concepts/compliance-boundary-adjacent-pair-search.md — K398 adjacent-pair compliance boundary testing
 - @sources/arxiv-2610-03585-threat-preserving-representation-sensitivity.md — K395-K397 ingest source page
-- @concepts/threat-preserving-representation-sensitivity.md — K396 TPRS — representation moves the score while the security problem is fixed
 - @concepts/benchmark-shortcut-attack-pyramid-audit.md — K387-K391 cross-link
 - @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md — K387-K391 ingest source page
 - @sources/arxiv-2609-01519-guardrail-construct-validity.md — construct validity contract (2609.01519)

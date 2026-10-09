@@ -4,13 +4,13 @@ type: entity
 tags: [tool, llm-security, research, benchmark, reference]
 keywords: [picalib, 2606.22659, prompt injection calibration, severity metric, anas biswas]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md
   - concepts/prompt-injection-detector-calibration.md
   - entities/tools/llm-defense-lattice.md
-  - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-23 — github.com/anasbiswas1/picalib-research: 0★, LICENSE null/404; reproduce severity S eval only after license audit"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -18,6 +18,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md — paper + methodology
 - @concepts/prompt-injection-detector-calibration.md — severity metric S framework
 

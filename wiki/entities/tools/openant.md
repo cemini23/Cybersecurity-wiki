@@ -4,12 +4,12 @@ type: entity
 tags: [tool, llm-vuln-discovery, two-stage-pipeline, apache-2, offensive-security, knostic]
 keywords: [openant, knostic, llm vulnerability discovery, detect attack two stage, apache-2.0]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - "@osint-wiki/entities/tools/openant.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
-  - concepts/llm-vulnerability-discovery.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-31
+updated: 2026-10-09
 osint_eval_origin: doc2-url-10 (cross-routed from OSINT eval; cybersec primary)
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -17,6 +17,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - `@osint-wiki/entities/tools/openant.md` — OSINT cross-route stub
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin Gemini eval (URL 10)
 - `@concepts/llm-vulnerability-discovery.md` — distilled methodology

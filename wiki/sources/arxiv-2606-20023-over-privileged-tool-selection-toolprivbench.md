@@ -4,12 +4,12 @@ type: source
 tags: [source, arxiv, agent-security, least-privilege, tool-selection, toolprivbench, mcp]
 keywords: [2606.20023, toolprivbench, opur, over-privileged tool selection, premature escalation, ped]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/agent-least-privilege-tool-selection.md
   - entities/tools/toolprivbench.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
-  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - concepts/zero-trust.md
   - entities/tools/airguard.md
@@ -22,7 +22,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-19
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-19 — TOOLPRIVBENCH repo AISafetyHub/agent-tool-selection-bias: README claims MIT, gh api LICENSE null/404; benchmark methodology only until SPDX filed"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -30,6 +30,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-least-privilege-tool-selection.md — synthesized OPUR/PED framework + mitigation ladder
 - @entities/tools/toolprivbench.md — benchmark entity + Phase-0 gate
 - @concepts/mcp-security-posture.md — least-privilege tool choice complements admission/DCI/SPI stack

@@ -4,6 +4,9 @@ type: concept
 tags: [methodology, agent-security, guardrail, mcp, prompt-injection, runtime-enforcement, formal-methods]
 keywords: [agent guardrail, authority confusion, permission laundering, sleeper attack, epca, airguard, chaincaps, adaptive attack rate, tool composition safety]
 related:
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/agentic-containment-principles.md
   - concepts/inadvertent-context-leakage.md
   - concepts/conditional-safety-adapter-routing.md
   - concepts/nl-security-rules-vs-builtin-deny.md
@@ -21,7 +24,6 @@ related:
   - concepts/deep-noir-steering-discovery-chronometry.md
   - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/agent-vm-sandboxing.md
   - concepts/agent-runtime-identity-adr.md
@@ -69,7 +71,6 @@ related:
   - concepts/context-fractured-decomposition-attacks.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
-  - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
@@ -139,7 +140,6 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - entities/tools/datashield.md
-  - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/authority-framing-agentic-cicd.md
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
@@ -190,7 +190,7 @@ related:
   - concepts/asleval-privacy-exposure-displacement.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-09-17
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -199,13 +199,15 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-19837-know-your-agent-recon.md
 - @concepts/llm-probabilistic-safety-bounds.md
 - @concepts/agent-reconnaissance-ipi-pentesting.md
 - @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 - @concepts/authority-framing-agentic-cicd.md
 - @concepts/ai-for-cybersecurity.md — LLM agents in offensive/defensive workflows
-- @concepts/llm-adversarial-fuzzing.md — jailbreak/refusal testing vs agent side-effect attacks
 - @concepts/llm-pentest-automation.md — Tier-2 agents with MCP tools need runtime guards
 - @concepts/agent-vm-sandboxing.md — VM isolation complements but does not replace authority control
 - @concepts/crescendo-multi-turn-jailbreak.md — multi-turn jailbreak vs sleeper persist-and-trigger
@@ -234,7 +236,6 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 - @concepts/mcp-security-posture.md — MCP trust-boundary layer model
 - @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md — error-path implicit authority (K114)
 - @sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md — framework containment audit (K114)
-- @concepts/agentic-containment-principles.md — P1–P6 structural gates
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — GT-MCP trajectory context control (Reference)
 - @concepts/trajectory-context-control.md — memory-commit gate pattern (CCI/AGR/CDS + rollback)
 - @sources/arxiv-2606-20510-efficient-sound-probabilistic-verification-ai-agents.md — probabilistic Datalog + DRO (2606.20510)

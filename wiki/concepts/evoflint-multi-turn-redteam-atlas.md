@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, red-team, multi-turn, lab-only, k320]
 keywords: [EvoFlint, multi-turn ASR, evolutionary red team, MAP-Elites, phased conversation plans, HarmBench, quality-diversity archive]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2609-00487-evoflint-multi-turn-redteam.md
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/crescendo-multi-turn-jailbreak.md
@@ -11,18 +12,18 @@ related:
   - concepts/gflowrl-distribution-matching-attacker-rl.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/black-box-agentic-redteam-taxonomy.md
   - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-09-16
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K320)"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-00487-evoflint-multi-turn-redteam.md — EvoFlint (2609.00487)
 - @concepts/psychological-multiturn-jailbreaks.md — multi-turn persuasion surface (K302)
 - @concepts/faithful-agent-asr-measurement.md — report ASR with harness/judge configuration

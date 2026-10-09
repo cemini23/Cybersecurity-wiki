@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, usable-security, claude-md, deny, k303, defensive]
 keywords: [CLAUDE.md, AGENTS.md, deny, permission rule, sandbox, PreToolUse, write-only channel, enforcement gap, security rule]
 related:
+  - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md
   - concepts/llm-system-prompt-corpus-audit.md
   - sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md
@@ -12,22 +13,21 @@ related:
   - concepts/step-level-agent-guardrails.md
   - concepts/recognition-enforcement-gap-instruction-arbitration.md
   - concepts/mcp-security-posture.md
-  - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/system-prompt-leakage.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-09-29
+updated: 2026-10-09
 wire_status: runtime_wired
 wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + claude_settings.json.example (K303)"
 ---
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md — K377 system-prompt corpus source
 - @sources/arxiv-2608-23550-claude-md-vs-builtin-deny.md
 - @concepts/agent-runtime-guardrails.md — enforcement paradigms: where deny/sandbox actually live
 - @concepts/mcp-security-posture.md — tool admission: description/prose ≠ runtime enforcement
-- @concepts/coding-agent-supply-chain-install-gap.md — adjacent write-only-channel gap (pre-install gates vs prose instructions)
 - @concepts/system-prompt-leakage.md — instruction-file content is attacker-visible surface; rules leak like prompts
 
 ## Raw Concept

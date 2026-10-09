@@ -4,21 +4,21 @@ type: concept
 tags: [concept, llm-safety, multi-turn, social-engineering]
 keywords: [MedPRESS, sycophancy, pressure ladder, Crescendo, 2608.02520]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
   - concepts/crescendo-multi-turn-jailbreak.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-02520-medpress-patient-pressure-sycophancy.md
 - @concepts/crescendo-multi-turn-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/social-engineering.md
 - @concepts/ai-for-cybersecurity.md
 

@@ -4,8 +4,11 @@ type: concept
 tags: [llm-security, prompt-injection, guard-model, calibration, mcp]
 keywords: [2606.22659, severity metric, confident false negatives, protectai, prompt-guard, content-keying, bipia]
 related:
-  - sources/arxiv-2610-08678-secure-speculative-decoding.md
+  - sources/arxiv-2610-09240-adversarial-images-hijack-web-agents.md
+  - concepts/adversarial-images-hijack-web-agents.md
   - concepts/speculative-decoding-safety-asymmetry.md
+  - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2610-08678-secure-speculative-decoding.md
   - sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md
   - concepts/countersteer-activation-steering-ipi-defense.md
   - concepts/ai-for-cybersecurity.md
@@ -14,11 +17,9 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - entities/tools/llm-defense-lattice.md
-  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-26904-confidence-aware-tool-orchestration-robust-to.md
   - concepts/confidence-aware-tool-orchestration.md
-  - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - concepts/piminer-agentic-prompt-injection-redteam.md
@@ -30,13 +31,16 @@ related:
   - concepts/compliance-detector-rule-blindness.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-10-07
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-09240-adversarial-images-hijack-web-agents.md — K408-K417 ingest / 2026-10-09
+- @concepts/adversarial-images-hijack-web-agents.md — K408-K417 ingest / 2026-10-09
+- @concepts/speculative-decoding-safety-asymmetry.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-08678-secure-speculative-decoding.md — K403-K407 ingest source page
-- @concepts/speculative-decoding-safety-asymmetry.md — K405 draft-model tokens raise injection ASR
 - @sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md — K382–K386 ingest source page
 - @concepts/countersteer-activation-steering-ipi-defense.md — K383 suppression defense: no detector to evade, no calibration gap
 - @sources/arxiv-2606-22659-confidently-wrong-prompt-injection-calibration.md — primary source

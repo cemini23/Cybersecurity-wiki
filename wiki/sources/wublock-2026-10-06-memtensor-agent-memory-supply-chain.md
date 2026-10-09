@@ -4,13 +4,13 @@ type: source
 tags: [source, routed, agent-security]
 keywords: [WuBlock / SlowMist report 2026-10-06]
 related:
-  - concepts/agent-memory-supply-chain-compromise.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/agent-memory-supply-chain-compromise.md
   - concepts/agent-skill-injection.md
 maturity: draft
 read_status: read (routed brief)
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-07 — routed brief, no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound brief)"
@@ -18,8 +18,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound brief)"
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-memory-supply-chain-compromise.md
-- @concepts/coding-agent-supply-chain-install-gap.md
 - @concepts/agent-skill-injection.md
 
 ## Raw Concept

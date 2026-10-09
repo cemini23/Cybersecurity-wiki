@@ -4,20 +4,21 @@ type: concept
 tags: [concept, supply-chain, npm, malware, agent-security, k346]
 keywords: [2609.18862, CASHEWS, npm, malicious package, obfuscation, token density, supply chain]
 related:
-  - sources/arxiv-2609-18862-cashews-malicious-package-detection.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/arxiv-2609-18862-cashews-malicious-package-detection.md
   - concepts/skillsec-lifecycle-agent-skill-security.md
   - concepts/product-build-integrity-slsa-sigstore.md
   - concepts/codepoisonrag-racg-knowledge-poisoning.md
 maturity: draft
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K346)"
 ---
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-18862-cashews-malicious-package-detection.md — CASHEWS: Source Preprocessor for LLM-based Malicious Package Detection (2609.18862)
 
 ## Raw Concept

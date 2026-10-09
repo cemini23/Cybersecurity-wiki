@@ -4,13 +4,13 @@ type: concept
 tags: [concept, llm-security, agent-privacy, covert-channel, k298, defensive]
 keywords: [inadvertent leakage, benign-output exfiltration, refusal, tool-layer grants, secrets in context, 2608.19857]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - sources/newsletter-rss-tldrsec-2026-08-20-tldr-sec-342.md
   - sources/substack-rss-secpro-2026-08-21-ai-ready-soc.md
   - concepts/system-prompt-leakage.md
   - concepts/agent-runtime-identity-adr.md
   - concepts/agent-safety-executable-evaluation.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/asleval-privacy-exposure-displacement.md
@@ -18,7 +18,7 @@ related:
   - sources/arxiv-2609-24994-feedback-coding-covert-agentic-communication.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-09-17
+updated: 2026-10-09
 wire_status: runtime_wired
 wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + scripts/secret_grant.py (K298/K303)"
 ---
@@ -27,13 +27,13 @@ wire_target: ".cursor/hooks.json + scripts/k303_k298_policy.py + scripts/secret_
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-19857-inadvertent-context-leakage.md
 - @sources/newsletter-rss-tldrsec-2026-08-20-tldr-sec-342.md — ADR telemetry + SPIFFE identity as the audit-side answer
 - @sources/substack-rss-secpro-2026-08-21-ai-ready-soc.md — SOC foundations (asset-ID map, gather-not-decide)
 - @concepts/system-prompt-leakage.md — input-side extraction; leakage is the output-side complement
 - @concepts/agent-runtime-identity-adr.md — agent identity + telemetry to detect the channel
 - @concepts/agent-safety-executable-evaluation.md — benign-output predicate tests belong in the eval
-- @concepts/local-abliterated-llm-pentest-stack.md — lab abliterated lanes must assume the same channel
 - @concepts/mcp-security-posture.md — tool descriptions / grants vs secret material
 - @concepts/agent-runtime-guardrails.md — enforcement layer for "never return the secret to the model"
 

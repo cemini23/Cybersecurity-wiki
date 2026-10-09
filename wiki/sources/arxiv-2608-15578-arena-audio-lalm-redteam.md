@@ -4,19 +4,19 @@ type: source
 tags: [source, arxiv, llm-security, audio, lalm, red-team, k282]
 keywords: [2608.15578, ARENA, LALM, audio-grounded red-teaming, FDR, PSR, MD-Judge, LlamaGuard3, AdvBench]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/audio-grounded-lalm-redteaming.md
   - entities/tools/arena-audio-redteam.md
   - concepts/inaudible-low-frequency-audio-attacks.md
   - sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
   - entities/tools/ill-inaudible-low-frequency-lockout.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 read_status: read
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-18 — paper says code is on GitHub but no URL at retrieval; gh search found no SPDX'd ARENA-audio repo. Dual-ID: Cybersec K282 ≠ CCC K282 AgentRewind."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K282 ARENA-audio)"
@@ -26,12 +26,12 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K282 ARENA-audio)"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/audio-grounded-lalm-redteaming.md — synthesized concept
 - @entities/tools/arena-audio-redteam.md — REFERENCE entity
 - @concepts/inaudible-low-frequency-audio-attacks.md — ILL K267 sibling (inaudible-LF vs audio-grounded harm)
 - @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
 - @entities/tools/ill-inaudible-low-frequency-lockout.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/llm-pentest-automation.md
 - @concepts/ai-redteam-evidential-ceiling.md
 - @concepts/faithful-agent-asr-measurement.md

@@ -4,21 +4,21 @@ type: concept
 tags: [concept, agent-security, wave]
 keywords: [OSINT K282/K283 + CCC K421-K423, Wave]
 related:
-  - concepts/k277-security-wave.md
-  - concepts/agentic-containment-principles.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/agentic-containment-principles.md
+  - concepts/k277-security-wave.md
 maturity: draft
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound wave)"
 ---
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/k277-security-wave.md
-- @concepts/agentic-containment-principles.md
-- @concepts/coding-agent-supply-chain-install-gap.md
 
 ## Raw Concept
 

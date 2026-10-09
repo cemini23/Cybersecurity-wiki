@@ -4,17 +4,18 @@ type: entity
 tags: [tool, code-graph, tree-sitter, rag-on-code, rust, mit, offensive-security, binary-re]
 keywords: [codegraph-rust, tree-sitter, code rag, vector embeddings, mit, rust]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - "@osint-wiki/entities/tools/codegraph-rust.md"
   - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
-  - concepts/llm-vulnerability-discovery.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-10-09
 osint_eval_origin: doc1-url-5 (cross-routed; cybersec primary for RAG-on-code / binary RE)
 ---
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - `@osint-wiki/entities/tools/codegraph-rust.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 5)
 - `@concepts/llm-vulnerability-discovery.md` — methodology synthesis

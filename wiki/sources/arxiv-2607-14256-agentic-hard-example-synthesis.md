@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, multimodal, content-safety, red-teaming, google]
 keywords: [2607.14256, hard example synthesis, agentic data curation, fnr, multimodal safety]
 related:
-  - concepts/agentic-hard-example-synthesis-content-safety.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/agentic-hard-example-synthesis-content-safety.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: skimmed
 created: 2026-07-17
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-17 — Google/UCLA methodology; no public repo; steal agentic hard-example loop + FNR metric"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -22,6 +22,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agentic-hard-example-synthesis-content-safety.md — synthesis
 
 ## Raw Concept

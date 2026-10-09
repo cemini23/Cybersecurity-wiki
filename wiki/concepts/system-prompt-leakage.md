@@ -4,6 +4,7 @@ type: concept
 tags: [llm-security, prompt-leaking, system-prompt, owasp-llm07, red-team, defensive]
 keywords: [2606.18673, prompt leaking, system prompt leakage, attention drift, area, leakbench, owasp llm07]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md
   - concepts/llm-system-prompt-corpus-audit.md
   - concepts/inadvertent-context-leakage.md
@@ -12,7 +13,6 @@ related:
   - sources/arxiv-2608-19857-inadvertent-context-leakage.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - entities/tools/leakbench-area.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
   - concepts/ai-for-cybersecurity.md
@@ -28,15 +28,15 @@ related:
   - entities/tools/system-prompt-index.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-09-29
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-31575-configuration-not-conscience-system-prompts.md — K377 system-prompt corpus source — ops config composition
-- @concepts/llm-system-prompt-corpus-audit.md — K377 leaked prompts are ops config; composition not extraction
 - @concepts/llm-system-prompt-corpus-audit.md — K377 leaked prompts are ops config; composition not extraction
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — primary source (2606.18673)
 - @entities/tools/leakbench-area.md — LeakBench eval harness + AREA defense (Reference)

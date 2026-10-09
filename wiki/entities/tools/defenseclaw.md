@@ -4,8 +4,8 @@ type: entity
 tags: [tool, ai-security, governance, defensive, agentic-ai, runtime, apache-2.0, adopt]
 keywords: [defenseclaw, cisco ai defense, agentic ai security, capability scanning, runtime traffic inspection, mcp scanner, skill-scanner, sidecar, admission-control]
 related:
-  - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
   - concepts/responsible-disclosure.md
   - concepts/agent-runtime-guardrails.md
@@ -44,7 +44,7 @@ related:
   - entities/tools/ai-infra-guard.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-07-31
+updated: 2026-10-09
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 phase_0_verdict: "CONDITIONAL-GO 2026-05-31 — CLI scanners + Codex sidecar (observe) ADOPTED on laptop; LLM judge optional via DEFENSECLAW_LLM_KEY; action mode + Splunk optional."
 wire_status: policy_wired
@@ -55,8 +55,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-for-cybersecurity.md — secures agentic AI runtimes in enterprise deployments
-- @concepts/llm-adversarial-fuzzing.md — complements FuzzyAI by providing the defensive-detection layer
 - @concepts/llm-pentest-automation.md — governance for LLM-driven security tooling
 - @concepts/responsible-disclosure.md — audit-trail requirements for authorized testing
 - @concepts/agent-runtime-guardrails.md — guardrail taxonomy synthesizing enterprise + OSS patterns

@@ -4,14 +4,14 @@ type: entity
 tags: [tool, red-team, audio, lalm, reference, k282]
 keywords: [ARENA, 2608.15578, MD-Judge, LlamaGuard3, audio red team]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
   - concepts/audio-grounded-lalm-redteaming.md
   - concepts/inaudible-low-frequency-audio-attacks.md
   - entities/tools/ill-inaudible-low-frequency-lockout.md
-  - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-18 — no public repo URL / no SPDX at retrieval. Do not invent a clone path."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K282)"
@@ -19,11 +19,11 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K282)"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
 - @concepts/audio-grounded-lalm-redteaming.md
 - @concepts/inaudible-low-frequency-audio-attacks.md
 - @entities/tools/ill-inaudible-low-frequency-lockout.md
-- @concepts/llm-adversarial-fuzzing.md
 
 ## Raw Concept
 

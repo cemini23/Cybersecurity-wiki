@@ -4,13 +4,13 @@ type: source
 tags: [source, arxiv, agent-security]
 keywords: [2610.03675, k397]
 related:
+  - concepts/reliable-inference-procurement-routing.md
   - concepts/budget-aware-agentic-search-cost.md
   - concepts/fragtoken-inference-cost-amplification-lab.md
-  - concepts/reliable-inference-procurement-routing.md
 maturity: draft
 read_status: read
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-06 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K397)"
@@ -18,6 +18,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K397)"
 
 ## Relations
 
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 ## Relations
 
 - @concepts/budget-aware-agentic-search-cost.md

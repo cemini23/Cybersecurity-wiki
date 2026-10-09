@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, abstention, safety, eval, k343]
 keywords: [2609.17516, CoSQ, abstention, selective risk control, TruthfulQA, grounded commitment]
 related:
+  - concepts/reliable-inference-procurement-routing.md
   - sources/arxiv-2609-17516-chain-of-self-questioning-abstention.md
   - concepts/refusal-under-knowledge-withhold-contract.md
   - concepts/conditional-safety-adapter-routing.md
@@ -11,16 +12,16 @@ related:
   - concepts/compliance-detector-rule-blindness.md
   - concepts/certified-selective-prediction-guardrails.md
   - sources/arxiv-2609-22048-available-guardrails-selective-prediction.md
-  - concepts/reliable-inference-procurement-routing.md
 maturity: draft
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K343)"
 ---
 
 ## Relations
 
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-17516-chain-of-self-questioning-abstention.md — When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control (2609.17516)
 
 ## Raw Concept

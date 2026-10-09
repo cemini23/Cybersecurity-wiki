@@ -4,8 +4,8 @@ type: concept
 tags: [concept, neuro-symbolic, audit, k100, datalog, smt, vuln-discovery]
 keywords: [2606.00669, neurolog, datalog, souffle, z3, auditable-reasoning]
 related:
-  - sources/arxiv-neurolog-auditable-vuln-discovery-2606.00669-2026-06-05.md
   - concepts/llm-vulnerability-discovery.md
+  - sources/arxiv-neurolog-auditable-vuln-discovery-2606.00669-2026-06-05.md
   - concepts/responsible-disclosure.md
   - concepts/ai-for-cybersecurity.md
   - entities/tools/defending-code-reference-harness.md
@@ -17,13 +17,13 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-07
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-neurolog-auditable-vuln-discovery-2606.00669-2026-06-05.md — NeuroLog paper (deep-read)
-- @concepts/llm-vulnerability-discovery.md — two-stage Detect→Attack pipelines; NeuroLog as compile-free variant
 - @concepts/responsible-disclosure.md — libarchive upstream disclosure pattern from evaluation
 - @concepts/ai-for-cybersecurity.md — LLM role boundaries in security workflows
 - @entities/tools/defending-code-reference-harness.md — execute-to-crash ASAN complement (NeuroLog = compile-free audit)

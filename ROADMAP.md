@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-10-09 | Ingest K408-K417 (10 PDFs) + four inbound briefs | Compliance verdicts invariant to the rule (OCS 0.069); verification-generation gap (FCR 100% vs ASR 77%); web-agent image hijack; defensive-sufficiency theory; Tier-0 SOC gate; post-hallucination correction; EngramEdit disable test; ReSI Pareto loop; ORCAGen deception. Strata/PatchBench/SLDR/rea. No clones; friend 88 |
 | 2026-10-07 | Ingest K403-K407 (5 PDFs) + inbound briefs filled out | Secure speculative decoding safety asymmetry; ATLAS-AL region estimation; PQ BLE pairing; BARE-AI bit-flip monitors; IdeaAnchor OOD. Also K421 K8s containment, agent-memory supply chain, EvoRiskBench, BabelFake; k405 precheck + skill; friend 86 |
 | 2026-10-06 | Full ingest K398-K402 (5 PDFs) | Mosaic attacks prove bounded-window session guards insufficient; Penumbra obligation adjacent pairs; Red-TTT test-time attacker; TransScope hardware membership inference; Contextual Reader OOD -> image-gen; k400 precheck + skill; friend 84 |
 | 2026-10-06 | Full ingest K395-K397 (3 PDFs) + Basgiath add-on security | TPRS: an ASR is a property of agent + representation (28,904 runs); authorship attribution representations; FrugalEvo BA-AUC; first cybersec coverage of the Minecraft project; k396 precheck + skill; friend 82 |

@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, mcp, prompt-injection, multi-agent, context-poisoning, trajectory-control]
 keywords: [gt-mcp, causal graph, contextual drift, cci, agr, cds, self-healing, stackelberg, closed-loop]
 related:
+  - concepts/agentic-containment-principles.md
   - sources/arxiv-2609-38021-auditable-long-term-memory-retrieval-chain.md
   - sources/arxiv-2609-36739-frontier-autolab-temporal-leakage.md
   - concepts/auditable-long-term-memory-retrieval-chain.md
@@ -12,7 +13,6 @@ related:
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/agentic-containment-principles.md
   - concepts/context-fractured-decomposition-attacks.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
@@ -25,11 +25,12 @@ related:
   - sources/arxiv-2608-07440-blast-radius.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-09-30
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-38021-auditable-long-term-memory-retrieval-chain.md — K382–K386 ingest source page
 - @sources/arxiv-2609-36739-frontier-autolab-temporal-leakage.md — K382–K386 ingest source page
 - @concepts/auditable-long-term-memory-retrieval-chain.md — K385 deterministic memory retrieval chain + reader/judge variance audit
@@ -37,7 +38,6 @@ updated: 2026-09-30
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — primary source (GT-MCP)
 - @concepts/mcp-security-posture.md — K100 trust-boundary layers; trajectory control sits above them
 - @concepts/agent-runtime-guardrails.md — side-effect authorization vs context-state authorization
-- @concepts/agentic-containment-principles.md — P3 memory integrity + P4 layer-transition validation
 - @concepts/context-fractured-decomposition-attacks.md — artifact-mediated drift across instances; GT-MCP addresses in-session trajectory steering
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — stored SPI; GT-MCP rollback/quarantine as complementary control
 - @concepts/blast-radius-reversible-context-eviction.md

@@ -4,22 +4,22 @@ type: concept
 tags: [biosecurity, dual-use, llm-safety, red-team]
 keywords: [Intern-BioBreaker, bio-risk ASR, synthesis screening, dual-use AI]
 related:
-  - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
   - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
   - concepts/responsible-disclosure.md
   - concepts/ai-for-cybersecurity.md
   - concepts/biosecbench-surveillance-verifiable-agent-eval.md
   - sources/arxiv-biosecbench-surveillance-2607.19262.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-22
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/biosecbench-surveillance-verifiable-agent-eval.md
 - @sources/arxiv-2607-18056-intern-biobreaker-biosecurity.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/responsible-disclosure.md
 - @concepts/ai-for-cybersecurity.md
 

@@ -4,15 +4,15 @@ type: entity
 tags: [tool, ai-security, agent-guard, benchmark, saas, reference]
 keywords: [agentredguard, agentredbench, stackone, indirect prompt injection, tool-response guard]
 related:
-  - concepts/agent-runtime-guardrails.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/agent-runtime-guardrails.md
   - entities/tools/airguard.md
   - entities/tools/defenseclaw.md
   - entities/tools/seclaw-eval.md
   - sources/arxiv-2606-02240-agentredbench.md
 maturity: draft
 created: 2026-06-02
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-02 — paper-reported guard; compare vs AIRGuard on integration-diverse lab replay before adopt."
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -22,8 +22,8 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — AGENTREDBENCH + AGENTREDGUARD in SaaS integration threat model
-- @concepts/llm-adversarial-fuzzing.md — dynamic redteam benchmark vs static jailbreak fuzzing
 - @entities/tools/airguard.md — runtime authority control (complementary evaluation target)
 - @entities/tools/defenseclaw.md — enterprise-scale governance
 - @sources/arxiv-2606-02240-agentredbench.md — paper provenance

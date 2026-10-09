@@ -4,17 +4,17 @@ type: source
 tags: [source, arxiv, agent-security, prompt-injection, red-teaming, lab]
 keywords: [2608.05108, PIMiner, prompt injection, IPIArena, AgentDojo, strategy library]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/piminer-agentic-prompt-injection-redteam.md
   - entities/tools/piminer.md
   - concepts/prompt-injection-detector-calibration.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/openart-environment-evolution-agent-redteam.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-08-06 — MIT; ~28MB; lab red-team only; Claude Code CLI required"
 wire_status: deferred
 wire_target: "lab sandbox only — no Cursor alwaysApply / no LIVE"
@@ -24,10 +24,10 @@ wire_target: "lab sandbox only — no Cursor alwaysApply / no LIVE"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/piminer-agentic-prompt-injection-redteam.md
 - @entities/tools/piminer.md
 - @concepts/prompt-injection-detector-calibration.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/openart-environment-evolution-agent-redteam.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/ai-for-cybersecurity.md

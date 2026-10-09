@@ -4,9 +4,9 @@ type: entity
 tags: [tool, llm-security, owasp, bas, benchmark, docker, reference]
 keywords: [llm-defense-lattice, owasp llm top 10, defense lattice, breach attack simulation, alemaiorano]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/siem.md
   - entities/tools/defenseclaw.md
@@ -24,7 +24,7 @@ related:
   - entities/tools/picalib-research.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-04 — open lattice + 17-probe corpus; GitHub license NOASSERTION; laptop BAS regression only after LICENSE audit."
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -34,8 +34,8 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — maps defense families to OWASP LLM categories
-- @concepts/llm-adversarial-fuzzing.md — paraphrase brittleness testing for refusal filters
 - @concepts/llm-pentest-automation.md — HTTP-level BAS probes for LLM endpoints
 - @entities/tools/defenseclaw.md — enterprise MCP/runtime governance (prod complement)
 - @entities/tools/cryptex-oss.md — attack-side mutators for brittleness sweeps

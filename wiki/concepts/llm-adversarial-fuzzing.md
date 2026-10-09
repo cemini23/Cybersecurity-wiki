@@ -4,8 +4,11 @@ type: concept
 tags: [methodology, llm-security, adversarial-prompt, jailbreak, red-team, fuzzing, pair, crescendo]
 keywords: [llm adversarial fuzzing, jailbreak methodology, pair, crescendo, prompt injection, llm red team]
 related:
-  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
+  - concepts/vlm-perception-adversarial-robustness.md
+  - concepts/llm-vulnerability-discovery.md
+  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - concepts/adversarial-region-estimation-vs-single-example.md
+  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
   - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
   - concepts/test-time-training-redteam-attacker.md
   - concepts/quantized-llm-jailbreak-defense-atlas.md
@@ -14,7 +17,6 @@ related:
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/red-team-operations.md
   - concepts/responsible-disclosure.md
   - concepts/llm-pentest-automation.md
@@ -50,7 +52,6 @@ related:
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - sources/arxiv-2607-14256-agentic-hard-example-synthesis.md
   - entities/tools/datashield.md
-  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md
   - concepts/defender-centric-jailbreak-utility.md
   - sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
@@ -95,15 +96,18 @@ related:
   - concepts/evolving-attack-skill-libraries.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/vlm-perception-adversarial-robustness.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
+- @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md — K408-K417 ingest / 2026-10-09
+- @concepts/adversarial-region-estimation-vs-single-example.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md — K403-K407 ingest source page
-- @concepts/adversarial-region-estimation-vs-single-example.md — K403 adaptive search over failure regions
 - @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page
 - @concepts/test-time-training-redteam-attacker.md — K399 test-time training for the attacker
 - @concepts/quantized-llm-jailbreak-defense-atlas.md — K389 quantized-LLM jailbreak defense

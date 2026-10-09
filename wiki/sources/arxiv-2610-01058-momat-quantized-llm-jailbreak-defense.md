@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, agent-security]
 keywords: [2610.01058, k389]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/quantized-llm-jailbreak-defense-atlas.md
   - concepts/defender-centric-jailbreak-utility.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/instruction-hierarchy-conflict-benchmark.md
 maturity: draft
 read_status: read
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-02 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K389)"
@@ -20,6 +20,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K389)"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 ## Relations
 
 - @concepts/quantized-llm-jailbreak-defense-atlas.md

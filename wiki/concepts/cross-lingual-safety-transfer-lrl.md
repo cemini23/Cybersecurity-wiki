@@ -4,9 +4,9 @@ type: concept
 tags: [concept, llm-safety, multilingual, jailbreak-surface, low-resource, evaluation]
 keywords: [cross-lingual safety, LRL, LoDNA, refusal direction, literal vs localized, latent geometric framework, English-centric alignment]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md
   - concepts/multilingual-long-horizon-agent-evaluation.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
   - concepts/culturally-responsive-llm-benchmark-audit.md
   - sources/arxiv-2609-24934-culturally-responsive-llm-benchmark-audit.md
@@ -14,16 +14,16 @@ related:
   - sources/arxiv-2609-28395-translation-finetune-forgetting-mt-instruction.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K272)"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-11146-illusion-cross-lingual-safety-lrl.md
 - @concepts/multilingual-long-horizon-agent-evaluation.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

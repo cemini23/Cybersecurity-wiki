@@ -5,13 +5,13 @@ tags: [source, routed, agent-security]
 keywords: [arXiv 2610.02861]
 related:
   - concepts/model-is-not-a-security-boundary-kubernetes-agents.md
+  - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/agentic-containment-principles.md
   - concepts/cyber-capable-agent-evaluation-containment.md
-  - concepts/coding-agent-supply-chain-install-gap.md
 maturity: draft
 read_status: skimmed (via routed brief)
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-07 — routed brief, no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound brief)"
@@ -19,10 +19,10 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound brief)"
 
 ## Relations
 
-- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md
-- @concepts/agentic-containment-principles.md
+- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md — K408-K417 ingest / 2026-10-09
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/cyber-capable-agent-evaluation-containment.md
-- @concepts/coding-agent-supply-chain-install-gap.md
 
 ## Raw Concept
 

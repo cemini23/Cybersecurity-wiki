@@ -4,6 +4,8 @@ type: concept
 tags: [concept, mcp, evaluation, measurement, agent-security]
 keywords: [labels not endpoints, integrity chain, treatment-blind grading, scope honesty, MCP eval]
 related:
+  - sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md
+  - concepts/post-hallucination-reasoning-behavior.md
   - sources/arxiv-2608-12880-labels-not-endpoints.md
   - concepts/mcp-security-posture.md
   - concepts/faithful-agent-asr-measurement.md
@@ -24,13 +26,15 @@ related:
   - concepts/asleval-privacy-exposure-displacement.md
 maturity: draft
 created: 2026-08-15
-updated: 2026-09-17
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc (CCC K277 dual-ID note)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md — K408-K417 ingest / 2026-10-09
+- @concepts/post-hallucination-reasoning-behavior.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-12880-labels-not-endpoints.md — primary paper
 - @concepts/faithful-agent-asr-measurement.md — do not collapse exposure/execution/observation/adjudication
 - @concepts/atobench-verification-chain-deception.md — ATOBench: activity ≠ verification

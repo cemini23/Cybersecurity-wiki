@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, llm-safety, multi-turn, sycophancy]
 keywords: [2608.02520, MedPRESS, medical sycophancy, multi-turn pressure]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/multi-turn-pressure-sycophancy.md
   - concepts/crescendo-multi-turn-jailbreak.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-04 — no public code; medical eval bench"
 wire_status: wont_wire
 wire_target: "REFERENCE — pattern steal only"
@@ -22,9 +22,9 @@ wire_target: "REFERENCE — pattern steal only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/multi-turn-pressure-sycophancy.md
 - @concepts/crescendo-multi-turn-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/social-engineering.md
 - @concepts/ai-for-cybersecurity.md
 

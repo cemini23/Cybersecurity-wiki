@@ -4,30 +4,30 @@ type: concept
 tags: [concept, methodology, llm-security, audio, lalm, red-team, k282]
 keywords: [audio-grounded red-teaming, LALM, FDR, PSR, split judge, ARENA, ILL]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
   - entities/tools/arena-audio-redteam.md
   - concepts/inaudible-low-frequency-audio-attacks.md
   - sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
   - entities/tools/ill-inaudible-low-frequency-lockout.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K282 ARENA-audio)"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-15578-arena-audio-lalm-redteam.md — ARENA paper
 - @entities/tools/arena-audio-redteam.md — REFERENCE (no public SPDX URL)
 - @concepts/inaudible-low-frequency-audio-attacks.md — ILL K267: inaudible-LF availability vs this page's semantic audio-grounded harm
 - @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
 - @entities/tools/ill-inaudible-low-frequency-lockout.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/llm-pentest-automation.md
 - @concepts/ai-redteam-evidential-ceiling.md — split train-judge vs frozen eval is an evidential-ceiling control
 - @concepts/faithful-agent-asr-measurement.md — report FDR/PSR as a measurement tuple, not one ASR

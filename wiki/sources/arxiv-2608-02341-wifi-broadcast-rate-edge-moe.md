@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, wireless, wifi, edge-llm, moe]
 keywords: [2608.02341, Wi-Fi broadcast, 54 Mbps, 802.11, edge MoE, NCCL]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/wifi-broadcast-rate-edge-moe.md
   - concepts/wireless-pentest.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/network-security.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-05 — no public code; Wi-Fi MAC/policy + edge inference"
 wire_status: wont_wire
 wire_target: "REFERENCE — no clone"
@@ -22,9 +22,9 @@ wire_target: "REFERENCE — no clone"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/wifi-broadcast-rate-edge-moe.md
 - @concepts/wireless-pentest.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/network-security.md
 - @concepts/ai-for-cybersecurity.md
 

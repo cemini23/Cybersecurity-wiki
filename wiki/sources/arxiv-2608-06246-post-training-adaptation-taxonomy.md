@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, ai-governance, fine-tuning, unlearning, survey]
 keywords: [2608.06246, post-training, taxonomy, PEFT, RAG, model editing, unlearning]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/post-training-adaptation-taxonomy.md
   - concepts/datashield-risky-finetune-data-filtering.md
   - concepts/gradient-immunity-malicious-finetune.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-07 — survey; no code artifact"
 wire_status: wont_wire
 wire_target: "vocabulary / governance docs only"
@@ -22,10 +22,10 @@ wire_target: "vocabulary / governance docs only"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/post-training-adaptation-taxonomy.md
 - @concepts/datashield-risky-finetune-data-filtering.md
 - @concepts/gradient-immunity-malicious-finetune.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

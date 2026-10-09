@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, llm-security, red-teaming, backdoor, coding-agents, lab]
 keywords: [2608.05659, ARIA, instruction backdoor, customized LLM, code intelligence]
 related:
-  - concepts/aria-instruction-backdoor-redteam.md
-  - concepts/llm-adversarial-fuzzing.md
-  - concepts/piminer-agentic-prompt-injection-redteam.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/aria-instruction-backdoor-redteam.md
+  - concepts/piminer-agentic-prompt-injection-redteam.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-07 — no public ARIA code/LICENSE found; lab methodology only"
 wire_status: wont_wire
 wire_target: "policy pattern only — no runtime"
@@ -22,10 +22,10 @@ wire_target: "policy pattern only — no runtime"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/aria-instruction-backdoor-redteam.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/piminer-agentic-prompt-injection-redteam.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

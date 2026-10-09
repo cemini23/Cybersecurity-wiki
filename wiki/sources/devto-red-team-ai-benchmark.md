@@ -8,13 +8,13 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-09
 read_status: skimmed
 ---
 
 ## Relations
 
-- @concepts/local-abliterated-llm-pentest-stack.md — benchmark caution (refusal-free ≠ accurate)
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-for-cybersecurity.md — LLM × security context
 
 ## Raw Concept

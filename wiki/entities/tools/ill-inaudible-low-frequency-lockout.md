@@ -4,9 +4,9 @@ type: entity
 tags: [tool, red-team, audio-attack, lalm, reference]
 keywords: [ILL, inaudible, low-frequency, LALM, DRG, distributional requery, 2608.09158]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
   - concepts/inaudible-low-frequency-audio-attacks.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-15578-arena-audio-lalm-redteam.md
@@ -14,7 +14,7 @@ related:
   - entities/tools/arena-audio-redteam.md
 maturity: draft
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-11 — no public code URL; black-box method + DRG defense. K267 policy wire."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K267)"
@@ -22,9 +22,9 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K267)"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-09158-ill-inaudible-low-frequency-lalms.md
 - @concepts/inaudible-low-frequency-audio-attacks.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md
 

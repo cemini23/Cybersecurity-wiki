@@ -4,10 +4,10 @@ type: concept
 tags: [concept, red-teaming, prompt-injection, self-play]
 keywords: [GPT-Red, self-play, defender population, 2607.26115]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2607-26115-gpt-red-self-play.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
   - concepts/openart-environment-evolution-agent-redteam.md
   - sources/arxiv-2608-00677-openart-agent-redteam-evolution.md
@@ -15,15 +15,15 @@ related:
   - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-06
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-26115-gpt-red-self-play.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/openart-environment-evolution-agent-redteam.md
 - @sources/arxiv-2608-00677-openart-agent-redteam-evolution.md

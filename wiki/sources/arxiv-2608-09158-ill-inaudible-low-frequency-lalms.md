@@ -4,9 +4,9 @@ type: source
 tags: [source, arxiv, llm-security, audio-attack, red-team, lalm]
 keywords: [2608.09158, ILL, LALM, infrasound, low-frequency, DRG, audio red team, inaudible attack]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/inaudible-low-frequency-audio-attacks.md
   - entities/tools/ill-inaudible-low-frequency-lockout.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
@@ -15,7 +15,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-11 — no public code URL in paper; black-box red-team method + DRG defense. K267 policy wire."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K267)"
@@ -25,9 +25,9 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K267)"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/inaudible-low-frequency-audio-attacks.md
 - @entities/tools/ill-inaudible-low-frequency-lockout.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/llm-pentest-automation.md

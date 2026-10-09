@@ -4,20 +4,20 @@ type: concept
 tags: [concept, agent-security, k283-b]
 keywords: [WuBlock/SlowMist 2026-10-06, K283-b]
 related:
-  - sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md
   - concepts/agent-skill-injection.md
 maturity: draft
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K283-b)"
 ---
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md
-- @concepts/coding-agent-supply-chain-install-gap.md
 - @concepts/agent-skill-injection.md
 
 ## Raw Concept

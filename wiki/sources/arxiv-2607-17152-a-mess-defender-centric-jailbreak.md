@@ -4,8 +4,8 @@ type: source
 tags: [source, arxiv, jailbreak, safety-alignment, shapley, red-team]
 keywords: [2607.17152, A-MESS, AttackSHAP, defender-centric, ASR vs safety utility]
 related:
-  - concepts/defender-centric-jailbreak-utility.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/defender-centric-jailbreak-utility.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/pair-prompt-pattern.md
   - concepts/datashield-risky-finetune-data-filtering.md
@@ -13,7 +13,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-21
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-21 — method paper; no public code at ingest; steal AttackSHAP / subset selection over ASR ranking"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -23,8 +23,8 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/defender-centric-jailbreak-utility.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/datashield-risky-finetune-data-filtering.md

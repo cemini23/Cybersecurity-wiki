@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, chain-of-thought, audit, interpretability, k308, defensive]
 keywords: [decorative reasoning, CoT faithfulness, chain decoupling, cdr, perturbation audit, counterfactual, rationale evidence]
 related:
+  - sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md
+  - concepts/post-hallucination-reasoning-behavior.md
   - sources/arxiv-2608-24790-decorative-reasoning-medical-cot.md
   - concepts/agent-runtime-guardrails.md
   - concepts/faithful-agent-asr-measurement.md
@@ -17,13 +19,15 @@ related:
   - concepts/deep-noir-steering-discovery-chronometry.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-09-11
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K308)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md — K408-K417 ingest / 2026-10-09
+- @concepts/post-hallucination-reasoning-behavior.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-24790-decorative-reasoning-medical-cot.md
 - @concepts/agent-runtime-guardrails.md — agent "reasoning" surfaces in harness audit
 - @concepts/faithful-agent-asr-measurement.md — do not trust trajectory self-report

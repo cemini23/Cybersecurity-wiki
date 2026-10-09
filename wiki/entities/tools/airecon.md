@@ -4,15 +4,15 @@ type: entity
 tags: [tool, autonomous-pentest, ai-agent, recon, mit, offensive-security]
 keywords: [airecon, autonomous pentest, ai recon, pentest-state pattern, mit]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - "@osint-wiki/entities/tools/airecon.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
-  - concepts/llm-vulnerability-discovery.md
   - sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
   - concepts/agentic-offensive-security-kill-chain.md
   - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-06-25 — 2606.24496 flags --network=host worker + orchestrator API abuse; re-audit before Tier-2 adoption"
 osint_eval_origin: doc2-url-6 (cross-routed from OSINT eval as cybersec-primary)
 wire_status: policy_wired
@@ -21,6 +21,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - `@osint-wiki/entities/tools/airecon.md` — OSINT cross-route stub
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin Gemini eval (URL 6)
 - `@concepts/llm-vulnerability-discovery.md` — methodology synthesis

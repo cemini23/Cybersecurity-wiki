@@ -4,15 +4,15 @@ type: concept
 tags: [methodology, llm-eval, decoding, robustness, diagnostic]
 keywords: [taboo decoding, logit masking, injected surprisal, off-path robustness, circumlocution, refusal auditing]
 related:
-  - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
   - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/safety-harness-evolution.md
   - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + agent-audit (K269)"
 ---
@@ -21,8 +21,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + agent-audit (K269)
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-09900-taboo-decoding-level-diagnostic.md
-- @concepts/llm-adversarial-fuzzing.md — complements input-side fuzzing: measures resilience *inside* the decoder, holding the prompt fixed
 - @concepts/agent-runtime-guardrails.md — refusal/guardrail auditing at decoding time (mask refusal tokens → test if alignment is surface-level)
 - @concepts/ai-for-cybersecurity.md — pre-deployment audit for agent/LLM lanes
 - @concepts/safety-harness-evolution.md — taboo-guided alignment pairs with harness evolution as an active robustness regularizer

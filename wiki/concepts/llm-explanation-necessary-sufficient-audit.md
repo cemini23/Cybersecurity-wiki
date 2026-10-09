@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, interpretability, audit, k337]
 keywords: [2609.05385, necessary sufficient explanations, behavioural evidence, agent monitoring]
 related:
+  - sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md
+  - concepts/post-hallucination-reasoning-behavior.md
   - sources/arxiv-2609-05385-llm-explanation-necessary-sufficient.md
   - concepts/counterfactual-simulatability-llm-explanations.md
   - concepts/chain-of-thought-decorative-reasoning-audit.md
   - concepts/compliance-detector-rule-blindness.md
 maturity: draft
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K337)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md — K408-K417 ingest / 2026-10-09
+- @concepts/post-hallucination-reasoning-behavior.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-05385-llm-explanation-necessary-sufficient.md — Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence (2609.05385)
 
 ## Raw Concept

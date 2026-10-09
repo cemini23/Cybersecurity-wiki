@@ -4,11 +4,11 @@ type: concept
 tags: [concept, agent-security, least-privilege, capabilities, coding-agents, portico]
 keywords: [lingering authority, portico, revocable capabilities, task contract, epoch-bound handles, 2606.22504]
 related:
+  - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
   - concepts/agent-least-privilege-tool-selection.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
-  - concepts/agentic-containment-principles.md
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
@@ -17,13 +17,14 @@ related:
 
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-31
+updated: 2026-10-09
 wire_status: wont_wire
 wire_target: "REFERENCE — PORTICO artifact pending"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md — PORTICO reference monitor (2606.22504)
 - @concepts/agent-least-privilege-tool-selection.md — orthogonal OPUR (which authorized tool)
 

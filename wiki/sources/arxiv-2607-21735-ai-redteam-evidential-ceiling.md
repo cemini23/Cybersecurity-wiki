@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, llm-safety, red-teaming, evaluation]
 keywords: [2607.21735, evidential ceiling, HarmBench, AdvBench, null result]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-redteam-evidential-ceiling.md
   - entities/tools/ai-redteam-evidential-limits.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
 maturity: draft
 read_status: read
 created: 2026-07-29
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "GO 2026-07-29 — MIT; github.com/hackwither/ai-redteam-evidential-limits ~528KB"
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
@@ -22,10 +22,10 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-redteam-evidential-ceiling.md
 - @entities/tools/ai-redteam-evidential-limits.md
 - @concepts/ai-for-cybersecurity.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/pair-prompt-pattern.md
 
 ## Raw Concept

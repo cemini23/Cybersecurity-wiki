@@ -4,24 +4,24 @@ type: concept
 tags: [concept, llm-safety, reasoning, fine-tuning, misalignment, k304, defensive]
 keywords: [RIM, reasoning-induced misalignment, SDP, safety direction, safety-decision layers, emergent misalignment, reasoning SFT, drift]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-23497-safety-direction-penalty.md
   - concepts/tripwire-safety-neuron-clamp.md
   - concepts/decoy-hardening-open-weight-abliteration.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/conditional-safety-adapter-routing.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K304)"
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-23497-safety-direction-penalty.md
 - @concepts/tripwire-safety-neuron-clamp.md — both are open-weight safety mechanisms; HITL before lab use; no clamp recipes
 - @concepts/decoy-hardening-open-weight-abliteration.md — safety-removal vs FT-drift are different failure paths on the same models
-- @concepts/local-abliterated-llm-pentest-stack.md — lab stack that must re-verify safety after any fine-tune
 - @concepts/conditional-safety-adapter-routing.md — mitigation direction (selective safety intervention) and the same drift concern
 
 ## Raw Concept

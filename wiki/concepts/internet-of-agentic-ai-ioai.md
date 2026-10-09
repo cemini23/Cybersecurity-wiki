@@ -4,8 +4,8 @@ type: concept
 tags: [concept, agentic-ai, multi-agent, ioai, interoperability, threat-model, mcp]
 keywords: [ioai, internet of agentic ai, agent naming service, a2a, controlled emergence, table 4]
 related:
-  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/agentic-containment-principles.md
+  - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/trajectory-context-control.md
@@ -21,14 +21,14 @@ related:
   - concepts/intersage-trust-native-ioa-protocol.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-08-15
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md — primary vision source (2606.12835)
 - @concepts/mcp-security-posture.md — MCP as IoAI interoperability primitive; K100 admission stack
-- @concepts/agentic-containment-principles.md — P1–P6 local containment matrix
 - @concepts/trajectory-context-control.md — GT-MCP drift gate for inter-agent context merge
 
 ## Raw Concept

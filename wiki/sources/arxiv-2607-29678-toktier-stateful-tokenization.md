@@ -4,16 +4,16 @@ type: source
 tags: [source, arxiv, llm-serving, tokenization, agents, performance]
 keywords: [2607.29678, TokTier, stateful tokenization, TTFT, vLLM, agent serving]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/toktier-exact-stateful-tokenization.md
   - concepts/inferscale-kv-injection-personalized-serving.md
   - entities/tools/vllm.md
   - entities/tools/inferscale.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/local-abliterated-llm-pentest-stack.md
 maturity: draft
 read_status: read
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-03 — no public TokTier repo located"
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc + InferScale adjacent"
@@ -23,12 +23,12 @@ wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc + InferScale adjacent
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/toktier-exact-stateful-tokenization.md
 - @concepts/inferscale-kv-injection-personalized-serving.md
 - @entities/tools/vllm.md
 - @entities/tools/inferscale.md
 - @concepts/ai-for-cybersecurity.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 
 ## Raw Concept
 

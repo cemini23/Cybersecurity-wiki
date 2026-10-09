@@ -4,25 +4,25 @@ type: concept
 tags: [concept, llm-security, refusal, watch, k240]
 keywords: [Tripwire, safety neuron clamp, abliterated, HITL, Watch]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md
   - concepts/conditional-safety-adapter-routing.md
   - concepts/reasoning-induced-misalignment.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/concept2scenario-refusal-suppression.md
   - concepts/llm-pentest-automation.md
   - sources/arxiv-2608-17202-fools-gold-defensive-deception.md
   - concepts/decoy-hardening-open-weight-abliteration.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K240)"
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-14392-tripwire-safety-neuron-clamp.md
-- @concepts/local-abliterated-llm-pentest-stack.md — path-A abliterated stacks must not be auto-reclamped
 - @concepts/concept2scenario-refusal-suppression.md
 - @concepts/llm-pentest-automation.md
 

@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, code-review, supply-chain, social-engineering, devsecops]
 keywords: [pr review agent, merge gate, sevra, refusal rate, framing attack, cve reversal]
 related:
+  - concepts/llm-vulnerability-discovery.md
+  - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/llm-generated-dependency-breaking-tests.md
   - sources/arxiv-2606-13757-sevra-bench-social-engineering-review-agents.md
   - entities/tools/sevra-bench.md
@@ -11,7 +13,6 @@ related:
   - concepts/internet-of-agentic-ai-ioai.md
   - concepts/social-engineering.md
   - concepts/agent-runtime-guardrails.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/mcp-security-posture.md
   - concepts/seclaw-agent-security-evaluation.md
   - concepts/npm-supply-chain-defense.md
@@ -23,7 +24,6 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-2607-05120-agent-data-injection-attacks.md
   - concepts/agent-data-injection-attacks.md
-  - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/authority-framing-agentic-cicd.md
   - sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
@@ -39,11 +39,13 @@ related:
   - concepts/differential-fault-injection-llm-code-stub.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-31
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-20852-code-monitor-red-teaming.md
 - @concepts/code-monitor-red-teaming-public-tests.md
 - @entities/tools/senthex-research.md

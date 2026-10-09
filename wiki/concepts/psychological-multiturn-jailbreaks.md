@@ -4,6 +4,9 @@ type: concept
 tags: [concept, llm-safety, jailbreak, persuasion, multi-turn, k302, red-team, lab-only]
 keywords: [PsychJail, psychological jailbreak, multi-turn persuasion, PAP, PKM, change-of-meaning, crescendo, susceptibility fingerprint, social engineering]
 related:
+  - sources/arxiv-2610-12233-resi-recursive-safety-improvement.md
+  - concepts/recursive-safety-improvement-pareto.md
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-23028-psychjail.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/system-prompt-leakage.md
@@ -12,24 +15,25 @@ related:
   - concepts/evoflint-multi-turn-redteam-atlas.md
   - concepts/ai-redteam-evidential-ceiling.md
   - concepts/decoy-hardening-open-weight-abliteration.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-09-16
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K302)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-12233-resi-recursive-safety-improvement.md — K408-K417 ingest / 2026-10-09
+- @concepts/recursive-safety-improvement-pareto.md — K408-K417 ingest / 2026-10-09
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-23028-psychjail.md
 - @concepts/crescendo-multi-turn-jailbreak.md — adjacent multi-turn tactic (escalation/reframing) — psychological persuasion is a distinct, theory-grounded layer on top
 - @concepts/system-prompt-leakage.md — interactive deployments leak policy surface; persuasion works on that surface
 - @concepts/agent-runtime-guardrails.md — enforcement-layer context: refusal is not stable across turns
 - @concepts/ai-redteam-evidential-ceiling.md — fingerprint claims are empirical, labeled conjecture — keep evidence standards
 - @concepts/decoy-hardening-open-weight-abliteration.md — defense contrast: decoys vs persuasion resilience
-- @concepts/local-abliterated-llm-pentest-stack.md — lab context for authorized adversarial testing (authorization floor)
 
 ## Raw Concept
 

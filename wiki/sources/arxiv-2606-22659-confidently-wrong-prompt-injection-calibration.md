@@ -4,18 +4,18 @@ type: source
 tags: [source, arxiv, prompt-injection, guard-model, calibration, llm-security]
 keywords: [2606.22659, protectai, prompt-guard-2, severity metric, confident false negatives, content-keying, bipia]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
   - concepts/prompt-injection-detector-calibration.md
   - entities/tools/picalib-research.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - entities/tools/llm-defense-lattice.md
-  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
 maturity: draft
 read_status: read
 created: 2026-06-23
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-23 — github.com/anasbiswas1/picalib-research: 0★, gh api LICENSE null/404; reproduce severity metric only after SPDX audit"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -23,6 +23,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/prompt-injection-detector-calibration.md — severity metric S + shift testing framework
 - @entities/tools/picalib-research.md — public code/data artifact
 

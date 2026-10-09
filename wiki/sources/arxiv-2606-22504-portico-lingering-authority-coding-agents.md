@@ -4,11 +4,11 @@ type: source
 tags: [source, arxiv, agent-security, coding-agents, capabilities, portico, least-privilege]
 keywords: [2606.22504, portico, lingering authority, revocable capabilities, coding agents, task contract]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/lingering-authority-revocable-capabilities.md
   - concepts/agent-least-privilege-tool-selection.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
-  - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - entities/tools/airguard.md
   - entities/tools/chaincaps.md
@@ -17,7 +17,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-24 — PORTICO reference monitor described in paper; no public PORTICO repo found 2026-06-24; steal task-contract + epoch-bound handle pattern"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -25,6 +25,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/lingering-authority-revocable-capabilities.md — lingering authority + revocation synthesis
 
 ## Raw Concept

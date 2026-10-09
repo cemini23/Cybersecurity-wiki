@@ -4,8 +4,8 @@ type: source
 tags: [source, arxiv, agentic-ai, multi-agent, ioai, mcp, interoperability, threat-taxonomy]
 keywords: [2606.12835, ioai, internet of agentic ai, agent communication protocol, a2a, ans, table 4 threat taxonomy]
 related:
-  - concepts/internet-of-agentic-ai-ioai.md
   - concepts/agentic-containment-principles.md
+  - concepts/internet-of-agentic-ai-ioai.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
@@ -20,7 +20,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-17
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-17 — vision paper; no code artifact; maps IoAI Table 4 threats to existing wiki controls"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -28,9 +28,9 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/internet-of-agentic-ai-ioai.md — synthesized IoAI architecture + threat taxonomy
 - @concepts/mcp-security-posture.md — MCP as emerging IoAI interoperability layer (§4.5)
-- @concepts/agentic-containment-principles.md — P1–P6 as local containment vs IoAI-scale failures
 
 ## Raw Concept
 

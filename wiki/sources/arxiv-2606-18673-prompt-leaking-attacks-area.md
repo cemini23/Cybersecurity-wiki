@@ -4,9 +4,9 @@ type: source
 tags: [source, arxiv, llm-security, prompt-leaking, system-prompt, leakbench, area, owasp-llm07]
 keywords: [2606.18673, prompt leaking, system prompt leakage, attention drift, area, leakbench, attention re-anchoring]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/system-prompt-leakage.md
   - entities/tools/leakbench-area.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
   - concepts/ai-for-cybersecurity.md
@@ -18,7 +18,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-22
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-22 — github.com/NESA-Lab/AREA: LeakBench + AREA artifacts, 0★, gh api license null/404; ACM CCS 2026 paper — methodology/benchmark only until SPDX filed"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -26,6 +26,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/system-prompt-leakage.md — synthesized prevalence, attention drift, defense ladder
 - @entities/tools/leakbench-area.md — LeakBench benchmark + AREA defense entity
 - @sources/arxiv-2606-02822-owasp-llm-defense-attribution.md — OWASP LLM07 system-prompt leakage attribution

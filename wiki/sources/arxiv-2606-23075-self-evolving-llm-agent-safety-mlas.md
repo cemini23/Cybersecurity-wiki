@@ -4,9 +4,9 @@ type: source
 tags: [source, arxiv, agent-security, self-evolution, openclaw, mlas, k114]
 keywords: [2606.23075, mlas, self-evolving agents, openclaw, hermes-agent, attack persistence, optimizer optimizee collapse]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - concepts/self-evolving-agent-security.md
-  - concepts/agentic-containment-principles.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - concepts/agent-skill-injection.md
@@ -20,7 +20,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-23
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-23 — framework analysis paper; case studies cite github.com/openclaw/openclaw + github.com/NousResearch/hermes-agent (separate Phase-0 on those repos)"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -28,6 +28,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/self-evolving-agent-security.md — MLAS matrix + amplification effects synthesis
 - @sources/arxiv-2606-01494-clawhub-security-signals.md — OpenClaw skill scanner disagreement context
 

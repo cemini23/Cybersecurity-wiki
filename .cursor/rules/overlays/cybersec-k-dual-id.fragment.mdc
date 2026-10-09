@@ -119,5 +119,15 @@ CCC same-day used K282–K284 (AgentRewind/Twin/DFI), K285–K294 (Mandato…SPA
 - K405 Secure speculative decoding (2610.08678) ≠ CCC K405 (none assigned)
 - K406 BARE-AI bit-flip resilience (2610.08739) ≠ CCC K406 (none assigned)
 - K407 IdeaAnchor research ideation OOD (2610.08781) ≠ CCC K407 (none assigned)
+- K408 Adversarial images hijack web agents (2610.09240) ≠ CCC K408 (none assigned)
+- K409 Defensive sufficiency Stackelberg (2610.09892) ≠ CCC K409 (none assigned)
+- K410 Constrained-action SOC remediation (2610.09906) ≠ CCC K410 (none assigned)
+- K411 PHRBench post-hallucination reasoning (2610.10455) ≠ CCC K411 (none assigned)
+- K412 EngramEdit conditional-memory updates (2610.10533) ≠ CCC K412 (none assigned)
+- K413 EpiReal-Bench image-generator misinformation (2610.11112) ≠ CCC K413 (none assigned)
+- K414 ReSI recursive safety improvement (2610.12233) ≠ CCC K414 (none assigned)
+- K415 Verdict without the rule (2610.12313) ≠ CCC K415 (none assigned)
+- K416 Cited but not consulted (2610.12361) ≠ CCC K416 (none assigned)
+- K417 ORCAGen context-aware malware deception (2610.12415) ≠ CCC K417 (none assigned)
 
-K300–K407 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K417 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.

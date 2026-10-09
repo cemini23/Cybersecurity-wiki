@@ -4,24 +4,24 @@ type: concept
 tags: [concept, llm-security, defensive-deception, abliteration, k295]
 keywords: [decoy hardening, Fool's Gold, abliterated honeypot, denial of trust]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-17202-fools-gold-defensive-deception.md
   - concepts/conditional-safety-adapter-routing.md
   - concepts/psychological-multiturn-jailbreaks.md
   - concepts/reasoning-induced-misalignment.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/tripwire-safety-neuron-clamp.md
   - concepts/ai-redteam-evidential-ceiling.md
 maturity: draft
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K295)"
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-17202-fools-gold-defensive-deception.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/tripwire-safety-neuron-clamp.md
 - @concepts/ai-redteam-evidential-ceiling.md
 

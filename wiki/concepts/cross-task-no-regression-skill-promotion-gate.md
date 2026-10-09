@@ -4,19 +4,27 @@ type: concept
 tags: [concept, agent-security, k390]
 keywords: [2610.02204, K390]
 related:
+  - sources/arxiv-2610-12233-resi-recursive-safety-improvement.md
+  - sources/arxiv-2610-09892-defensive-sufficiency-stackelberg.md
+  - concepts/recursive-safety-improvement-pareto.md
+  - concepts/defensive-sufficiency-feedback-loop.md
   - sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md
   - concepts/skill-misevolution.md
   - concepts/experience-driven-redteam-skill-evolution.md
   - concepts/skilldre-dual-stage-malicious-skill-evolution-lab.md
 maturity: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K390)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-12233-resi-recursive-safety-improvement.md — K408-K417 ingest / 2026-10-09
+- @sources/arxiv-2610-09892-defensive-sufficiency-stackelberg.md — K408-K417 ingest / 2026-10-09
+- @concepts/recursive-safety-improvement-pareto.md — K408-K417 ingest / 2026-10-09
+- @concepts/defensive-sufficiency-feedback-loop.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-02204-rpg-embodied-agent-self-improvement-ood.md
 - @concepts/skill-misevolution.md
 - @concepts/experience-driven-redteam-skill-evolution.md

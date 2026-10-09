@@ -4,8 +4,8 @@ type: concept
 tags: [llm-security, jailbreak, pair, single-turn, attacker-llm, arxiv-2310-08419]
 keywords: [pair, prompt automated iterative refinement, single-turn jailbreak, attacker llm, chao chen et al]
 related:
-  - entities/tools/fuzzyai.md
   - concepts/llm-adversarial-fuzzing.md
+  - entities/tools/fuzzyai.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
@@ -20,17 +20,17 @@ related:
   - sources/arxiv-2607-26115-gpt-red-self-play.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 - @concepts/defender-centric-jailbreak-utility.md
 - @entities/tools/fuzzyai.md — reference implementation (CLI flag `-a pair`)
-- @concepts/llm-adversarial-fuzzing.md — methodology umbrella; PAIR is one pattern under it
 - @concepts/crescendo-multi-turn-jailbreak.md — companion multi-turn pattern; PAIR is single-turn
 - @concepts/ai-for-cybersecurity.md — LLM × security context
 - @concepts/ai-redteam-evidential-ceiling.md

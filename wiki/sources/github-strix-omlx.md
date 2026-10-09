@@ -4,22 +4,22 @@ type: source
 tags: [source, github, local-llm, apple-silicon, pentest, phase0]
 keywords: [strix-omlx, OMLX, Heretic, Apple Silicon, abliterated, Apache-2.0]
 related:
-  - entities/tools/strix-omlx.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - entities/tools/strix-omlx.md
   - entities/tools/strix.md
   - concepts/ai-pentest-harness-landscape.md
   - sources/github-strix.md
   - entities/tools/ollama.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-09
 read_status: skimmed
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/strix-omlx.md — Phase-0 entity (CONDITIONAL-GO clone)
-- @concepts/local-abliterated-llm-pentest-stack.md — Apple Silicon / OMLX / abliterated model wiring pattern
 - @entities/tools/strix.md — Strix harness (CONDITIONAL-GO Phase-0 clone)
 - @concepts/ai-pentest-harness-landscape.md — harness landscape
 - @sources/github-strix.md — upstream Strix Phase-0 source snapshot

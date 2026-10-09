@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, ai-governance, llm-security, tooling-landscape]
 keywords: [2608.07446, ShieldAI, MIT AI risk taxonomy, Promptfoo, Garak, PyRIT, NeMo Guardrails]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
   - entities/tools/shieldai-risk-taxonomy-mapping.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-10-09
 phase_0_verdict: "GO 2026-08-10 — Apache-2.0 mapping repo ~896KB (prompts + matrices + notebooks). REFERENCE adopt; no runtime MCP."
 wire_status: wont_wire
 wire_target: "REFERENCE clone; concept policy_wired"
@@ -22,9 +22,9 @@ wire_target: "REFERENCE clone; concept policy_wired"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 - @entities/tools/shieldai-risk-taxonomy-mapping.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md
 

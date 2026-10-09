@@ -4,8 +4,8 @@ type: source
 tags: [arxiv, llm-security, owasp, bas, evaluation, defense-in-depth, research-paper]
 keywords: [owasp llm top 10, defense lattice, breach attack simulation, llm01, llm06, llm07, paraphrase brittleness, refusal filter]
 related:
-  - concepts/agent-runtime-guardrails.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/agent-runtime-guardrails.md
   - concepts/llm-pentest-automation.md
   - concepts/ai-for-cybersecurity.md
   - entities/tools/llm-defense-lattice.md
@@ -23,13 +23,13 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-23
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — per-defense-family attribution vs aggregate “LLM secured” claims
-- @concepts/llm-adversarial-fuzzing.md — paraphrase brittleness on refusal-phrase filters
 - @concepts/llm-pentest-automation.md — BAS-style pre-release probing for LLM endpoints
 - @concepts/ai-for-cybersecurity.md — OWASP LLM Top 10 operational measurement
 - @entities/tools/llm-defense-lattice.md — open benchmark artifacts (Docker lattice + 17-probe corpus)

@@ -4,9 +4,9 @@ type: entity
 tags: [tool, ai-security, benchmark, evaluation, docker, trajectory, reference, k98]
 keywords: [seclaw, seclaw-eval, trajectory-aware, docker-testbed, risk-spec, agent benchmark]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/seclaw-agent-security-evaluation.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - entities/tools/airguard.md
   - entities/tools/nvidia-skillspector.md
@@ -22,7 +22,7 @@ related:
   - entities/tools/toolbench-x.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-04 — benchmark only; repo has no LICENSE file on GitHub API [NEEDS VERIFICATION 2026-06-04]; run laptop Docker eval after license audit before any code import."
 wire_status: wont_wire
 wire_target: "REFERENCE eval — CCC owns harness meta"
@@ -32,10 +32,10 @@ wire_target: "REFERENCE eval — CCC owns harness meta"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/seclaw-agent-security-evaluation.md — canonical eval methodology (this entity = repo stub)
 - @concepts/agent-runtime-guardrails.md — trajectory eval hygiene + guard stack under test
 - @entities/tools/defenseclaw.md — runtime scanner gate vs benchmark
-- @concepts/llm-adversarial-fuzzing.md — refusal/jailbreak fuzzing is orthogonal to stateful tool trajectories
 - @concepts/llm-pentest-automation.md — pre-release regression for Tier-2 MCP copilots
 - @entities/tools/airguard.md — runtime guard candidate to measure under SeClaw tasks
 - @entities/tools/nvidia-skillspector.md — skill preflight before agent enters testbed

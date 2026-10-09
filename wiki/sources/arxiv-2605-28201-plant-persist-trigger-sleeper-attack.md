@@ -4,20 +4,20 @@ type: source
 tags: [arxiv, agent-security, prompt-injection, sleeper-attack, adversarial, research-paper]
 keywords: [sleeper attack, plant persist trigger, agent memory, mcp context, multi-turn attack]
 related:
-  - concepts/agent-runtime-guardrails.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/agent-runtime-guardrails.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - entities/tools/nvidia-skillspector.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — sleeper attack as multi-interaction external threat
-- @concepts/llm-adversarial-fuzzing.md — extends single-turn injection testing scope
 - @concepts/crescendo-multi-turn-jailbreak.md — multi-turn adversarial pattern (different threat class)
 - @entities/tools/nvidia-skillspector.md — poisoned skills as persist target
 

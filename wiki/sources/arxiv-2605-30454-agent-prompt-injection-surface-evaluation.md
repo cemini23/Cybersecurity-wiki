@@ -4,8 +4,8 @@ type: source
 tags: [arxiv, agent-security, prompt-injection, evaluation, mcp, research-paper]
 keywords: [adaptive attack rate, tool description injection, tool output injection, per-surface asr, emnlp]
 related:
-  - concepts/agent-runtime-guardrails.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/agent-runtime-guardrails.md
   - concepts/llm-pentest-automation.md
   - sources/arxiv-2606-00485-confused-chatgpt-cross-app-context-poisoning.md
   - sources/arxiv-2606-02240-agentredbench.md
@@ -17,13 +17,13 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-22
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — dual-surface injection + Adaptive Attack Rate evaluation method
-- @concepts/llm-adversarial-fuzzing.md — fixed-channel eval overstates robustness
 - @concepts/llm-pentest-automation.md — agent eval methodology for pentest copilots
 
 ## Raw Concept

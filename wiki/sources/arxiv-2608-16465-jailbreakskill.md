@@ -4,6 +4,7 @@ type: source
 tags: [source, arxiv, llm-security, red-team, skills, k283]
 keywords: [2608.16465, JailbreakSkill, evolving skills, ASR, AdvBench, HarmBench, document-completion]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/evolving-attack-skill-libraries.md
   - entities/tools/jailbreakskill.md
   - concepts/skill-misevolution.md
@@ -11,11 +12,10 @@ related:
   - concepts/safety-harness-evolution.md
   - concepts/skillsec-lifecycle-agent-skill-security.md
   - concepts/agent-skill-injection.md
-  - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 read_status: read
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-10-09
 phase_0_verdict: "NO-GO clone 2026-08-18 — github.com/BattleWen/JailbreakSkill has no LICENSE / null SPDX (~5MB, 6 stars). Pattern steal only. Dual-ID: Cybersec K283 ≠ CCC K283 Twin."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemini-cybersec-agent-audit.mdc (K283)"
@@ -25,6 +25,7 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemini-cybersec-ag
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/evolving-attack-skill-libraries.md — synthesized concept (offense-side evolving skills)
 - @entities/tools/jailbreakskill.md — NO-GO clone entity
 - @concepts/skill-misevolution.md — defense-side pair: skills worsen with practice
@@ -32,7 +33,6 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemini-cybersec-ag
 - @concepts/safety-harness-evolution.md — SHE: which artifacts may evolve
 - @concepts/skillsec-lifecycle-agent-skill-security.md
 - @concepts/agent-skill-injection.md
-- @concepts/llm-adversarial-fuzzing.md
 
 ## Raw Concept
 

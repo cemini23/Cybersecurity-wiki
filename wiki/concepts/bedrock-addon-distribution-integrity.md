@@ -4,20 +4,20 @@ type: concept
 tags: [concept, supply-chain, code-integrity, bedrock, minecraft]
 keywords: [bedrock, behavior pack, resource pack, script module, manifest, mcpedl, curseforge, addon supply chain]
 related:
-  - concepts/product-build-integrity-slsa-sigstore.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/product-build-integrity-slsa-sigstore.md
   - concepts/mobile-app-attestation.md
 maturity: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (Basgiath add-on)"
 ---
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @concepts/product-build-integrity-slsa-sigstore.md — release-artifact integrity: what signing buys
-- @concepts/coding-agent-supply-chain-install-gap.md — install-time trust for third-party code
 - @concepts/mobile-app-attestation.md — platform attestation vs a user-installed artifact
 
 ## Raw Concept

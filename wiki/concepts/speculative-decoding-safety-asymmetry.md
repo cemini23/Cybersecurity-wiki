@@ -4,23 +4,29 @@ type: concept
 tags: [concept, agent-security, k405]
 keywords: [2610.08678, K405]
 related:
+  - sources/arxiv-2610-10345-sldr-signed-layer-safety-repair.md
+  - sources/arxiv-2610-10276-patchbench-local-suppression-vs-repair.md
+  - concepts/local-suppression-vs-repair.md
+  - concepts/reliable-inference-procurement-routing.md
   - sources/arxiv-2610-08678-secure-speculative-decoding.md
   - concepts/fragtoken-inference-cost-amplification-lab.md
-  - concepts/reliable-inference-procurement-routing.md
   - concepts/prompt-injection-detector-calibration.md
   - concepts/crescendo-multi-turn-jailbreak.md
 maturity: draft
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K405)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-10345-sldr-signed-layer-safety-repair.md — K408-K417 ingest / 2026-10-09
+- @sources/arxiv-2610-10276-patchbench-local-suppression-vs-repair.md — K408-K417 ingest / 2026-10-09
+- @concepts/local-suppression-vs-repair.md — K408-K417 ingest / 2026-10-09
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-08678-secure-speculative-decoding.md
 - @concepts/fragtoken-inference-cost-amplification-lab.md
-- @concepts/reliable-inference-procurement-routing.md
 - @concepts/prompt-injection-detector-calibration.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 

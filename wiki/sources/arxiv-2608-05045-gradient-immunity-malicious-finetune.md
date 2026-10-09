@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, llm-safety, fine-tuning]
 keywords: [2608.05045, Gradient Immunity, USG, PPOW, malicious fine-tuning, null space]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/gradient-immunity-malicious-finetune.md
   - concepts/datashield-risky-finetune-data-filtering.md
   - entities/tools/datashield.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-06 — github.com/OpenCausaLab/Gradient-Immunity is empty (README only; no LICENSE)"
 wire_status: wont_wire
 wire_target: "REFERENCE — no clone until code+LICENSE land"
@@ -22,10 +22,10 @@ wire_target: "REFERENCE — no clone until code+LICENSE land"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/gradient-immunity-malicious-finetune.md
 - @concepts/datashield-risky-finetune-data-filtering.md
 - @entities/tools/datashield.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

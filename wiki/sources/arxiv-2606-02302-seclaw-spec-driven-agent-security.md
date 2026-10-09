@@ -4,9 +4,9 @@ type: source
 tags: [arxiv, agent-security, evaluation, benchmark, trajectory, docker-testbed, research-paper, k98]
 keywords: [seclaw, 2606.02302, trajectory-aware, risk-spec, openclaw, tool-using agents, docker testbed]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/seclaw-agent-security-evaluation.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - entities/tools/seclaw-eval.md
   - entities/tools/airguard.md
@@ -24,13 +24,13 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-20
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — trajectory-aware eval complements guardrail stack
-- @concepts/llm-adversarial-fuzzing.md — jailbreak fuzzing vs stateful tool-trajectory security tasks
 - @concepts/llm-pentest-automation.md — pre-release regression harness for Tier-2 MCP agents
 - @entities/tools/seclaw-eval.md — benchmark repo (`seclaw-eval/seclaw-eval`)
 - @entities/tools/airguard.md — runtime guard to score under SeClaw-style tasks

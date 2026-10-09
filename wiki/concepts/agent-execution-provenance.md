@@ -4,6 +4,9 @@ type: concept
 tags: [concept, agent-security, provenance, observability, evaluation, audit, methodology]
 keywords: [evidence tracing, execution provenance, agent traces, W3C PROV, claim attribution, trace completeness, process accountability]
 related:
+  - sources/arxiv-2610-10533-engramedit-conditional-memory-knowledge-updates.md
+  - concepts/conditional-memory-knowledge-editing.md
+  - concepts/agentic-containment-principles.md
   - concepts/agent-runtime-identity-adr.md
   - concepts/committee-certified-rag-provenance.md
   - sources/arxiv-2608-20097-trustrag-committee-rag.md
@@ -29,7 +32,6 @@ related:
   - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-2606-12835-internet-of-agentic-ai-communication-coordination.md
   - concepts/context-fractured-decomposition-attacks.md
-  - concepts/agentic-containment-principles.md
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
@@ -46,11 +48,14 @@ related:
   - sources/arxiv-2609-30266-llm-agents-trace-tampering.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-10
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-10533-engramedit-conditional-memory-knowledge-updates.md — K408-K417 ingest / 2026-10-09
+- @concepts/conditional-memory-knowledge-editing.md — K408-K417 ingest / 2026-10-09
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-30266-llm-agents-trace-tampering.md
 - @concepts/agent-execution-trace-tampering-audit.md
 - @sources/arxiv-2606-04990-agent-traces-evidence-provenance.md — survey anchor (arXiv 2606.04990)

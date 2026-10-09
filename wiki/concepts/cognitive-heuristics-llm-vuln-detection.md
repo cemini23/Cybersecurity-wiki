@@ -4,9 +4,9 @@ type: concept
 tags: [concept, llm-security, code-review, cognitive-bias, devsecops, red-team]
 keywords: [halo-effect, framing-effect, anchoring-effect, blind-trust, cognitive-attack, llm-scanner, copilot-autofix]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md
   - concepts/llm-code-review-agent-security.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/social-engineering.md
   - concepts/prompt-injection-detector-calibration.md
   - concepts/ai-for-cybersecurity.md
@@ -19,13 +19,14 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-07
+updated: 2026-10-09
 ---
 
 **Briefs:** `briefs/2026-07-03_cognitive-heuristics-llm-scanner-redteam-checklist.md`, `briefs/2026-07-03_ci-merge-gate-cognitive-context-hardening-handoff.md`
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-30587-cognitive-heuristics-llm-vuln-detection.md — primary source (2606.30587)
 - @concepts/llm-code-review-agent-security.md — SEVRA merge-gate framing (orthogonal attack surface)
 

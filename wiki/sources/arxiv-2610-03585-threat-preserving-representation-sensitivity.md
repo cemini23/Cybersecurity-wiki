@@ -11,7 +11,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-06 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K396)"
@@ -19,6 +19,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K396)"
 
 ## Relations
 
+- @concepts/threat-preserving-representation-sensitivity.md — K408-K417 ingest / 2026-10-09
 ## Relations
 
 - @concepts/threat-preserving-representation-sensitivity.md

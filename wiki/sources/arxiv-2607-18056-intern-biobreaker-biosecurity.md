@@ -4,14 +4,14 @@ type: source
 tags: [source, arxiv, biosecurity, dual-use, jailbreak, frontier-llm]
 keywords: [2607.18056, Intern-BioBreaker, Shanghai AI Lab, bio-red-teaming, ASR]
 related:
-  - concepts/llm-biosecurity-red-teaming.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/llm-biosecurity-red-teaming.md
   - concepts/responsible-disclosure.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: skimmed
 created: 2026-07-21
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-21 — dual-use bio red-team paper; no standalone public attack-tool adopt; steal early-warning + synthesis-screening posture only"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -21,8 +21,8 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/llm-biosecurity-red-teaming.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/responsible-disclosure.md
 - @concepts/ai-for-cybersecurity.md
 

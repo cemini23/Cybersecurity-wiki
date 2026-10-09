@@ -16,14 +16,14 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-13
-updated: 2026-07-31
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---
 
 ## Relations
 
-- @concepts/agentic-containment-principles.md — P1–P6 matrix + compliance synthesis
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — architectural vs model-layer enforcement
 - @concepts/mcp-security-posture.md — SPI/memory poisoning overlaps P3
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — stored SPI empirical baseline

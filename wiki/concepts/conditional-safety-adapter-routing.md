@@ -4,25 +4,25 @@ type: concept
 tags: [concept, llm-safety, alignment, adapter-routing, k301, defensive]
 keywords: [CLEAR, conditional safety, latent gate, safety LoRA, alignment tax, over-refusal, selective intervention]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-21278-clear-latent-adapter-routing.md
   - concepts/reasoning-induced-misalignment.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/tripwire-safety-neuron-clamp.md
   - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/agent-runtime-guardrails.md
   - concepts/chain-of-self-questioning-selective-abstention.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-09-16
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K301)"
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-21278-clear-latent-adapter-routing.md
 - @concepts/reasoning-induced-misalignment.md — the failure mode conditional routing tries to avoid (safety drift under fine-tuning)
-- @concepts/local-abliterated-llm-pentest-stack.md — open-weight safety posture contrast; selective vs removed refusal
 - @concepts/tripwire-safety-neuron-clamp.md — safety mechanisms on open weights, both are HITL-gated
 - @concepts/decoy-hardening-open-weight-abliteration.md — safety-removal vs conditional-safety contrast on open weights
 - @concepts/agent-runtime-guardrails.md — enforcement-layer context; gating telemetry feeds guardrail monitoring

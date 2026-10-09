@@ -4,10 +4,10 @@ type: source
 tags: [source, arxiv, llm-security, code-review, cognitive-heuristics, vuln-detection]
 keywords: [2606.30587, halo-effect, framing-effect, anchoring-effect, cognitive-attack, copilot-autofix, zeropath]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - concepts/prompt-injection-detector-calibration.md
   - concepts/llm-code-review-agent-security.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-runtime-guardrails.md
@@ -17,7 +17,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-03
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-07-03 — no public code artifact; controlled evaluation framework + black-box cognitive attack PoC"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -27,6 +27,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @concepts/cognitive-heuristics-llm-vuln-detection.md — synthesis
 - @concepts/llm-code-review-agent-security.md — merge-gate / CI scanner complement to SEVRA
 

@@ -16,7 +16,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-18 — no public attack harness; claimed github.com/cardwizard/Sentinel 404; ADOPT pre-install gate pattern (CCC K179)"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -26,7 +26,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
-- @concepts/coding-agent-supply-chain-install-gap.md — cybersec synthesis
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @ccc-wiki/concepts/coding-agent-install-gap-and-preinstall-gate.md — CCC harness steal (K179)
 - @concepts/npm-supply-chain-defense.md — classical npm cooldown complements agent pre-install gate
 

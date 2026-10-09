@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, llm-eval, decoding, robustness, diagnostic]
 keywords: [2608.09900, Taboo, logit masking, injected surprisal, off-path robustness, circumlocution]
 related:
-  - concepts/decoding-level-taboo-diagnostic.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/decoding-level-taboo-diagnostic.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/safety-harness-evolution.md
 maturity: draft
 read_status: read
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-11 — Zenodo CC-BY-4.0 taboo-decoder.zip (~234KB); no clone (not MIT/Apache). K269 policy wire."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + agent-audit (K269)"
@@ -22,8 +22,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + agent-audit (K269)
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/decoding-level-taboo-diagnostic.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/safety-harness-evolution.md

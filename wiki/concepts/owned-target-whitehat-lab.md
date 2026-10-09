@@ -4,6 +4,7 @@ type: concept
 tags: [lab, ethics, whitehat, authorization, offensive-security, sandbox]
 keywords: [owned target, whitehat lab, self-authorization, attack box, lab VLAN, WireGuard, iron-proxy, snapshot rebuild, authorized practice]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/system-hardening.md
   - concepts/linux-security.md
   - concepts/agent-vm-sandboxing.md
@@ -16,7 +17,6 @@ related:
   - concepts/bug-bounty.md
   - concepts/pre-release-product-pentest.md
   - concepts/operator-lab-playbook.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - entities/tools/cyberstrike.md
   - concepts/ai-pentest-harness-landscape.md
   - entities/tools/bloodbash.md
@@ -36,11 +36,12 @@ related:
   - entities/tools/rustscan.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-15
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/damn-vulnerable-drone.md — intentional drone/MAVLink lab (MIT)
 - @concepts/hardware-bound-identity-anticheat-licensing.md — third-party AC only with written scope; own license/AC is the product-pentest lane
 - @sources/epic-games-v-araujo-hwid-spoofer-judgment.md — HWID spoof pled as DMCA circumvention (not lab research)

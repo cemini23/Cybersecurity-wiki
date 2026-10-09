@@ -15,11 +15,12 @@ related:
   - sources/arxiv-2607-29678-toktier-stateful-tokenization.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-03
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/operator-lab-playbook.md — start-here operator lab hub (local AI → owned lab → product → bounty)
 
 - @concepts/local-abliterated-llm-pentest-stack.md — primary methodology: local low-refusal stack, VRAM tiers, host hardening, ethics

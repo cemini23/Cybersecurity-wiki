@@ -1,3 +1,32 @@
+## [2026-10-09] ingest | K408-K417 batch (10 PDFs) + four inbound briefs filled out
+
+Full ingest of the 10 NEW inbox arXiv PDFs, plus pages for four inbound briefs. **No clone. No attack payloads in wiki.**
+
+### K408-K417
+- **K415 Verdict without the rule** (2610.12313) + **K416 Cited but not consulted** (2610.12361) — a matched pair from Lexsi Labs. **A compliance verdict is not evidence the rule was read**: perturb the governing rule with the case fixed and mean **OCS-agg = 0.069** (a permutation null sits near 0.5); swap the cited authority and the decision often does not follow. Audit with a **perturbation**, report the **rule-necessary subset** (0.73–1.00) separately. Concepts: `compliance-verdict-rule-invariance`, `citation-is-not-consultation`
+- **K413 EpiReal-Bench** (2610.11112) — the **verification-generation gap**: a generator rejects a claim as false (**FCR 100.00%**) and still renders it (**ASR 77.01%**). Asking the same model to verify first lifted interception from 10.70% to **76.20%** at no benign cost. Concept: `verification-generation-gap` (the third "stated vs operative" finding, with K415/K416)
+- **K408** adversarial images hijack web agents (2610.09240) — a page image is untrusted input once the agent reads pixels and acts; grounding → browser execution
+- **K409** defensive sufficiency (2610.09892) — the test-repair loop is a control only if findings **persist**, repairs **hold**, and updates **do not regress**; **repair regions, not singletons** (m·H_m vs N·H_N)
+- **K410** constrained-action SOC remediation (2610.09906) — **Tier-0 deterministic gate first** (58% recall, 0.00% FPR, 0.18 s, zero LLM calls), rail second, **human approval on every action**
+- **K411** PHRBench (2610.10455) — does the model **correct or commit** after a hallucinated premise? 18 models, mean **7.7 pp** cost; use **belief-update frequency** (0.68 vs 0.24), not length
+- **K412** EngramEdit (2610.10533) — the **disable test**: disabling fact-related memory flips **89.4%** of successes, random disabling causes **0** failures
+- **K414** ReSI (2610.12233) — Pareto-gated safety loop; X-Teaming ASR 86.01% → **31.45%** at −2.80 pp benign compliance; loop self-terminates after 1–3 rounds
+- **K417** ORCAGen (2610.12415) — **deception preserves the observation an eviction destroys**; 92–100% neutralisation on 150 real samples
+- **Phase-0**: `scripts/adopt_k408_k417_phase0.sh` PASS. No clones.
+- **Phase-1**: dual-ID K408-K417; `cemini-cybersec-lab-redteam.mdc` (K408/K414/K417); `cemini-cybersec-agent-audit.mdc` (K409-K413/K415-K416)
+
+### Inbound briefs filled out
+- **Strata** (K284) — `@entities/tools/strata.md`: MIT, 16.5k★, 125B MoE on consumer hardware with a localhost OpenAI/Anthropic API. CONDITIONAL-GO; needs 35-55GB RAM + NVMe
+- **PatchBench + SLDR** (K285-a) — local suppression is not repair; **MMLU −0.07 while BNPS −26.3**
+- **rea + background-agents** (K285-b/c) — agent-first RE toolkit (Hopper MCP) and sandboxed spawn-child delegation; both EXTRACT
+- **STCA + LipDA** (from image-gen) — AV-VLM adversarial attack (domain-tuned model far more robust) and lipsync forgery detection/attribution
+
+**Deep-read route**: grok CLI was **restored** today — all 10 papers deep-read via grok after three batches on the direct-read fallback. The detached queue remains unreliable for batches (9 of 10 daemons died); the **sequential foreground runner** worked.
+**friend brief:** add-on 88
+**Sweep**: `wiki/sweeps/2026-10-09-daily.md`
+
+**Archive**: ten PDFs → egress-fi cybersec/
+
 ## [2026-10-07] ingest | K403-K407 batch (5 PDFs) + inbound briefs filled out
 
 Full ingest of the 5 NEW inbox arXiv PDFs, plus pages for four inbound briefs that had been routed here

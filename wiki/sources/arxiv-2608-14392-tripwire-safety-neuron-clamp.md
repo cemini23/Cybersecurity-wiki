@@ -4,14 +4,14 @@ type: source
 tags: [source, arxiv, llm-security, refusal, watch, k240]
 keywords: [2608.14392, Tripwire, safety neuron, Welch, BH-FDR, abliterated, HITL]
 related:
-  - concepts/tripwire-safety-neuron-clamp.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/tripwire-safety-neuron-clamp.md
   - concepts/concept2scenario-refusal-suppression.md
   - concepts/llm-pentest-automation.md
 maturity: draft
 read_status: read
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-10-09
 phase_0_verdict: "WATCH 2026-08-18 — no clone, no PoC, no weight download. Inbound brief K240 (≠ OSINT/GW Talon K240, ≠ CCC robotics K240)."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K240 Tripwire)"
@@ -21,8 +21,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K240 Tripwire)"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/tripwire-safety-neuron-clamp.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/concept2scenario-refusal-suppression.md
 - @concepts/llm-pentest-automation.md
 

@@ -4,9 +4,9 @@ type: entity
 tags: [tool, llm-security, docker, sandbox, asan, exploit-dev, reference, k102]
 keywords: [anthropics, defending-code, gvisor, vp-internal, allowlist proxy, c-cpp, vulnerability harness]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - concepts/docker-agent-sandbox-allowlist-proxy.md
   - concepts/agent-vm-sandboxing.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/exploit-development.md
   - concepts/agent-skill-injection.md
   - concepts/neuro-symbolic-auditable-reasoning.md
@@ -19,7 +19,7 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-06-06 — laptop Docker/gVisor only; Apache-2.0 LICENSE file; not for cemini-prod trading path."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
@@ -29,9 +29,9 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @concepts/docker-agent-sandbox-allowlist-proxy.md — isolation + egress allowlist pattern this repo implements
 - @concepts/agent-vm-sandboxing.md — sibling isolation methodology (VM vs Docker agent sandbox)
-- @concepts/llm-vulnerability-discovery.md — recon → find → verify → report → patch pipeline
 - @concepts/exploit-development.md — ASAN-backed C/C++ memory vuln verification stage
 - @concepts/agent-skill-injection.md — untrusted agent skills driving harness need vetting before `/patch` or autonomous pipeline
 - @concepts/neuro-symbolic-auditable-reasoning.md — NeuroLog audit trail (compile-free) vs this harness (execute-to-crash)

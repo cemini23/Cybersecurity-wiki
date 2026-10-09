@@ -4,25 +4,25 @@ type: concept
 tags: [concept, ai-governance, llm-security, tooling-landscape, lab]
 keywords: [ShieldAI, MIT AI risk taxonomy, tool coverage gaps, layered mitigation, 2608.07446]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
   - entities/tools/shieldai-risk-taxonomy-mapping.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
   - concepts/post-training-adaptation-taxonomy.md
   - entities/tools/fuzzyai.md
 maturity: draft
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
 - @entities/tools/shieldai-risk-taxonomy-mapping.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/post-training-adaptation-taxonomy.md

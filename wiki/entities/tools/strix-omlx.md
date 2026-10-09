@@ -4,11 +4,11 @@ type: entity
 tags: [tool, llm-automation, pentest, apple-silicon, omlx, ollama, abliterated, conditional-go]
 keywords: [strix-omlx, sw30labs, OMLX, Heretic, MiniMax-M2, Apple Silicon, setup scripts, local LLM]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/github-strix-omlx.md
   - entities/tools/strix.md
   - sources/github-strix.md
   - concepts/ai-pentest-harness-landscape.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - entities/tools/ollama.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
@@ -16,7 +16,7 @@ related:
   - concepts/agent-vm-sandboxing.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-08-02 — Apache-2.0; shallow clone ~3.3MB; thin setup scripts only; no host install without operator OK"
 wire_status: deferred
 wire_target: "Ask before running setup-*.sh (pip install strix-agent into .strix-venv) or PATH; prefer reviewed Strix install + manual cli-config.json"
@@ -24,11 +24,11 @@ wire_target: "Ask before running setup-*.sh (pip install strix-agent into .strix
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/github-strix-omlx.md — Phase-0 provenance (clone path + sha)
 - @entities/tools/strix.md — upstream harness this wraps (CONDITIONAL-GO)
 - @sources/github-strix.md — Strix Phase-0 source snapshot
 - @concepts/ai-pentest-harness-landscape.md — harness pick matrix; local-backend path
-- @concepts/local-abliterated-llm-pentest-stack.md — OMLX / Ollama / abliterated model doctrine
 - @entities/tools/ollama.md — Ollama backend script path
 - @concepts/owned-target-whitehat-lab.md — only authorized/owned targets
 - @concepts/operator-lab-playbook.md — operator start-here

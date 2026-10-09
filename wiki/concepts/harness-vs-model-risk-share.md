@@ -4,21 +4,21 @@ type: concept
 tags: [concept, agent-security, k282-b]
 keywords: [arXiv 2610.03153, K282-b]
 related:
+  - concepts/agentic-containment-principles.md
   - sources/arxiv-2610-03153-evoriskbench-runtime.md
   - concepts/cyber-capable-agent-evaluation-containment.md
-  - concepts/agentic-containment-principles.md
 maturity: draft
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K282-b)"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-03153-evoriskbench-runtime.md
 - @concepts/cyber-capable-agent-evaluation-containment.md
-- @concepts/agentic-containment-principles.md
 
 ## Raw Concept
 

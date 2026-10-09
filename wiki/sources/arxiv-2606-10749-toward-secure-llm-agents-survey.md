@@ -4,6 +4,7 @@ type: source
 tags: [source, arxiv, survey, agent-security, lifecycle, evaluation]
 keywords: [2606.10749, llm agent security, 247 papers, threat surfaces, delegated authority, persistent state]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-execution-provenance.md
@@ -15,7 +16,6 @@ related:
   - sources/arxiv-2606-02822-owasp-llm-defense-attribution.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - concepts/context-fractured-decomposition-attacks.md
-  - concepts/agentic-containment-principles.md
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
@@ -26,11 +26,12 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-11
-updated: 2026-06-16
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-for-cybersecurity.md — lifecycle security framing for LLM × cyber workflows
 - @concepts/agent-runtime-guardrails.md — defense-layer taxonomy complement
 - @sources/arxiv-2606-04990-agent-traces-evidence-provenance.md — narrower provenance/eval survey (33 pp vs 42 pp lifecycle)

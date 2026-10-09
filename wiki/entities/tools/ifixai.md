@@ -4,17 +4,17 @@ type: entity
 tags: [tool, ai-security, agent-security, compliance, eval, k142]
 keywords: [iFixAi, agent diagnostics, deception, manipulation, sabotage, oversight evasion, Apache-2.0]
 related:
-  - concepts/ai-for-cybersecurity.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-for-cybersecurity.md — defensive AI safety/eval surface
-- @concepts/llm-adversarial-fuzzing.md — related eval methodology
 - OSINT source: `@osint-wiki/sources/multi-wiki-url-evaluation-2026-07-03.md`
 
 ## Narrative

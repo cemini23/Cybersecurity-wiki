@@ -4,10 +4,10 @@ type: source
 tags: [source, arxiv, llm-security, multi-turn, red-teaming, jailbreak, evaluation]
 keywords: [2607.11151, amt-x, adaptive multi-turn exploitation, checklist-gated, full asr, overall asr, vulcan]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/pair-prompt-pattern.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/seclaw-agent-security-evaluation.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - concepts/ai-for-cybersecurity.md
@@ -15,7 +15,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-16
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-16 — methodology paper; no public attack harness repo in abstract; steal dual-metric ASR + phase state machine"
 wire_status: wont_wire
 wire_target: "REFERENCE — no public harness"
@@ -25,6 +25,7 @@ wire_target: "REFERENCE — no public harness"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/amt-x-phase-structured-multi-turn-red-teaming.md — synthesis
 - @concepts/crescendo-multi-turn-jailbreak.md — prior multi-turn escalation baseline AMT-X cites
 - @concepts/pair-prompt-pattern.md — single-turn iterative baseline AMT-X contrasts

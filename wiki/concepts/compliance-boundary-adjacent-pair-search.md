@@ -4,21 +4,29 @@ type: concept
 tags: [concept, agent-security, k398]
 keywords: [2610.04693, K398]
 related:
-  - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
+  - sources/arxiv-2610-12361-cited-but-not-consulted-authority-swap-audit.md
+  - sources/arxiv-2610-12313-verdict-without-the-rule-compliance-invariance.md
+  - concepts/compliance-verdict-rule-invariance.md
+  - concepts/citation-is-not-consultation.md
   - concepts/threat-preserving-representation-sensitivity.md
+  - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/responsible-disclosure.md
 maturity: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K398)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-12361-cited-but-not-consulted-authority-swap-audit.md — K408-K417 ingest / 2026-10-09
+- @sources/arxiv-2610-12313-verdict-without-the-rule-compliance-invariance.md — K408-K417 ingest / 2026-10-09
+- @concepts/compliance-verdict-rule-invariance.md — K408-K417 ingest / 2026-10-09
+- @concepts/citation-is-not-consultation.md — K408-K417 ingest / 2026-10-09
+- @concepts/threat-preserving-representation-sensitivity.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
-- @concepts/threat-preserving-representation-sensitivity.md
 - @concepts/guardrail-construct-validity-agent-eval.md
 - @concepts/responsible-disclosure.md
 

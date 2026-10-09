@@ -4,6 +4,7 @@ type: source
 tags: [source, arxiv, agent-security, mcp, ai-red-team, tencent, layer-paradigm]
 keywords: [2606.31227, ai-infra-guard, layer-paradigm, mcp-scan, agent-scan, infra-scan, jailbreak]
 related:
+  - concepts/agentic-containment-principles.md
   - entities/tools/ai-infra-guard.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - concepts/mcp-security-posture.md
@@ -14,11 +15,10 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/clawaudit.md
   - concepts/agent-runtime-guardrails.md
-  - concepts/agentic-containment-principles.md
 maturity: draft
 read_status: read
 created: 2026-07-01
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-07-01 — Apache-2.0 + NOTICE §4(d); external Docker only; github.com/Tencent/AI-Infra-Guard ~4018★"
 wire_status: deferred
 wire_target: "External Docker only — ask before runtime"
@@ -26,6 +26,7 @@ wire_target: "External Docker only — ask before runtime"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/ai-infra-guard.md — artifact + Phase-0 entity (K44 + refresh)
 - @concepts/layer-paradigm-agent-red-teaming.md — layer-paradigm matching synthesis
 

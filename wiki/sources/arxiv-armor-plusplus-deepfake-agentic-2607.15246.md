@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, deepfake, adversarial-ml, agentic, black-box]
 keywords: [2607.15246, armor++, aadd-2025, deepfake detector, transferable attack, qwen]
 related:
-  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - concepts/ai-for-cybersecurity.md
   - concepts/agentic-hard-example-synthesis-content-safety.md
   - "@ccc-wiki/sources/arxiv-armor-plusplus-deepfake-agentic-attacks-2607.15246.md"
 maturity: draft
 read_status: read
 created: 2026-07-17
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-18 — no public code; steal agentic orchestration of attack primitives + residual detector reliability gap"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -22,7 +22,8 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
-- @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md — synthesis
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
+- @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md — K408-K417 ingest / 2026-10-09
 - CCC REFERENCE route only (orchestration pattern already covered)
 
 ## Raw Concept

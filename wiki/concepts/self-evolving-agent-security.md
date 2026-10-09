@@ -4,9 +4,9 @@ type: concept
 tags: [agent-security, self-evolution, mlas, containment, openclaw]
 keywords: [2606.23075, mlas, self-evolving agents, attack persistence, optimizer optimizee collapse, capability ratchet]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md
-  - concepts/agentic-containment-principles.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - concepts/agent-skill-injection.md
@@ -31,15 +31,15 @@ related:
   - concepts/self-evolving-runtime-defense.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-08-15
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-23075-self-evolving-llm-agent-safety-mlas.md — MLAS matrix + case studies
-- @concepts/agentic-containment-principles.md — P1–P6 static framework audit (insufficient alone)
 - @concepts/harnessopt-bench.md
 - @sources/arxiv-2608-06301-harnessopt-bench.md
 - @sources/arxiv-2608-09885-she-safety-harness-evolution.md — bounded self-evolution of the *harness* (validity check + safety-utility selection)

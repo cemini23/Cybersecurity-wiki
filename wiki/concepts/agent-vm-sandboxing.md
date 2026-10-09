@@ -4,6 +4,7 @@ type: concept
 tags: [methodology, sandbox, agent-vm, isolation, tracing, red-team, malware-analysis, exploit-dev]
 keywords: [agent vm, sandbox, lume, apple virtualization, vm escape, tracing rotation, malware detonation, exploit testing]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - entities/tools/cua.md
   - concepts/red-team-operations.md
   - concepts/exploit-development.md
@@ -25,7 +26,6 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - concepts/cyber-capable-agent-evaluation-containment.md
   - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/operator-lab-playbook.md
   - concepts/hardware-id-masking-opsec.md
@@ -46,7 +46,7 @@ related:
   - entities/tools/hexstrike-ai.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-12
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-containment.mdc"
 ---

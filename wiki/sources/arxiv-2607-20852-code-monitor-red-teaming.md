@@ -4,14 +4,14 @@ type: source
 tags: [source, arxiv, code-security, red-team, llm-verifier]
 keywords: [2607.20852, CodeMonitorBench, public tests, hidden bugs, weak-to-strong]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - concepts/code-monitor-red-teaming-public-tests.md
   - concepts/llm-code-review-agent-security.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-07-24
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-24 — CodeMonitorBench protocol; no public code located"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -21,9 +21,9 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @concepts/code-monitor-red-teaming-public-tests.md
 - @concepts/llm-code-review-agent-security.md
-- @concepts/llm-vulnerability-discovery.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

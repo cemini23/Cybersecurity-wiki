@@ -4,6 +4,10 @@ type: concept
 tags: [ai, llm, chatgpt, automation]
 keywords: [chatgpt, ai, llm, security automation]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - concepts/committee-certified-rag-provenance.md
   - concepts/llm-generated-dependency-breaking-tests.md
   - sources/arxiv-2608-20320-ood-travel-behavior-agents.md
@@ -20,7 +24,6 @@ related:
   - entities/people/joas-a-santos.md
   - entities/tools/fuzzyai.md
   - entities/tools/pentest-ai-agents.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/llm-pentest-automation.md
@@ -132,9 +135,7 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
   - sources/arxiv-2607-14256-agentic-hard-example-synthesis.md
   - sources/arxiv-2607-15277-partition-prompt-aggregate-self-consistency.md
-  - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
-  - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
   - sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md
   - concepts/llm-cve-to-stix-generation.md
   - concepts/rubric-capability-tree-diagnosis.md
@@ -216,7 +217,6 @@ related:
   - sources/arxiv-2607-28529-cogate-secure-code-codecoding.md
   - sources/arxiv-2607-28617-aispa-system-prompt-auditing.md
   - entities/tools/system-prompt-index.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/operator-lab-playbook.md
   - entities/tools/ollama.md
   - entities/tools/vllm.md
@@ -302,11 +302,15 @@ related:
   - sources/arxiv-2608-13069-ood-behavioral-reprogramming.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-28
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
+- @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md — K408-K417 ingest / 2026-10-09
 - @sources/devto-red-team-ai-benchmark.md — refusal-free LLM quiz methodology
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @entities/tools/vllm.md — high-throughput local LLM serving for multi-agent assist

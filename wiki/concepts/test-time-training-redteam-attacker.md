@@ -4,21 +4,21 @@ type: concept
 tags: [concept, agent-security, k399]
 keywords: [2610.05282, K399]
 related:
-  - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
   - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/piminer-agentic-prompt-injection-redteam.md
 maturity: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K399)"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/crescendo-multi-turn-jailbreak.md
 - @concepts/piminer-agentic-prompt-injection-redteam.md
 

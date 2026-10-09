@@ -4,12 +4,12 @@ type: concept
 tags: [concept, llm-security, multi-turn, red-teaming, evaluation, jailbreak]
 keywords: [amt-x, overall asr, full asr, phase state machine, checklist gate, multi-role jury]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
   - concepts/mosaic-attack-bounded-window-insufficiency.md
   - sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/pair-prompt-pattern.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/seclaw-agent-security-evaluation.md
   - concepts/layer-paradigm-agent-red-teaming.md
   - concepts/vulnerability-concept-graph-production-agent-red-teaming.md
@@ -24,13 +24,14 @@ related:
   - sources/arxiv-2607-15218-prism-physical-vs-content-danger.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-10-06
+updated: 2026-10-09
 wire_status: wont_wire
 wire_target: "REFERENCE methodology — dual-ASR in lab-redteam rule"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
 - @concepts/mosaic-attack-bounded-window-insufficiency.md — K400 bounded-window insufficiency
 - @sources/arxiv-2607-11151-amt-x-phase-structured-multi-turn-red-teaming.md — primary paper

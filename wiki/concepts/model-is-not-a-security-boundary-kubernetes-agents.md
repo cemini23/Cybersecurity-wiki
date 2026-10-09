@@ -4,25 +4,35 @@ type: concept
 tags: [concept, agent-security, k421]
 keywords: [arXiv 2610.02861, K421]
 related:
+  - sources/arxiv-2610-09906-constrained-action-ai-remediation-siem.md
+  - sources/arxiv-2610-09240-adversarial-images-hijack-web-agents.md
+  - entities/tools/background-agents.md
+  - concepts/constrained-action-soc-remediation.md
+  - concepts/adversarial-images-hijack-web-agents.md
+  - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/agentic-containment-principles.md
   - @ccc-wiki/concepts/model-is-not-a-security-boundary.md
   - sources/arxiv-2610-02861-kubernetes-agent-containment.md
-  - concepts/agentic-containment-principles.md
   - concepts/cyber-capable-agent-evaluation-containment.md
-  - concepts/coding-agent-supply-chain-install-gap.md
 maturity: draft
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K421)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-09906-constrained-action-ai-remediation-siem.md — K408-K417 ingest / 2026-10-09
+- @sources/arxiv-2610-09240-adversarial-images-hijack-web-agents.md — K408-K417 ingest / 2026-10-09
+- @entities/tools/background-agents.md — K408-K417 ingest / 2026-10-09
+- @concepts/constrained-action-soc-remediation.md — K408-K417 ingest / 2026-10-09
+- @concepts/adversarial-images-hijack-web-agents.md — K408-K417 ingest / 2026-10-09
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @@ccc-wiki/concepts/model-is-not-a-security-boundary.md — CCC harness-side statement of the same rule (K421)
 - @sources/arxiv-2610-02861-kubernetes-agent-containment.md
-- @concepts/agentic-containment-principles.md
 - @concepts/cyber-capable-agent-evaluation-containment.md
-- @concepts/coding-agent-supply-chain-install-gap.md
 
 ## Raw Concept
 

@@ -4,11 +4,12 @@ type: concept
 tags: [concept, agent-security, containment, framework-audit, memory-integrity, k114]
 keywords: [p1-p6, reasoning-execution separation, capability scoping, memory integrity, layer validation, authenticated communication, runtime monitoring, containment gap]
 related:
+  - entities/tools/background-agents.md
+  - concepts/model-is-not-a-security-boundary-kubernetes-agents.md
   - concepts/inbound-security-wave-2026-10-07.md
   - sources/arxiv-2610-03153-evoriskbench-runtime.md
   - sources/arxiv-2610-02861-kubernetes-agent-containment.md
   - concepts/harness-vs-model-risk-share.md
-  - concepts/model-is-not-a-security-boundary-kubernetes-agents.md
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - concepts/agent-runtime-guardrails.md
@@ -37,21 +38,21 @@ related:
   - concepts/intersage-trust-native-ioa-protocol.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-10-07
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @entities/tools/background-agents.md — K408-K417 ingest / 2026-10-09
+- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md — K408-K417 ingest / 2026-10-09
 - @concepts/inbound-security-wave-2026-10-07.md — inbound brief wave 2026-10-07
 - @sources/arxiv-2610-03153-evoriskbench-runtime.md — inbound brief wave 2026-10-07
 - @sources/arxiv-2610-02861-kubernetes-agent-containment.md — inbound brief wave 2026-10-07
 - @concepts/harness-vs-model-risk-share.md — K282-b separate model risk from harness risk
-- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md — K421 Kubernetes containment: the model is not a boundary
 - @sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md — primary audit source (K114)
 - @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md — model-layer error-path gap vs framework guardrails
 - @sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md — P3/P4 operationalization via GT-MCP (Reference)
 - @concepts/trajectory-context-control.md — memory-commit gate pattern
-- @sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md — model-layer error-path gap vs framework guardrails
 - @concepts/agent-runtime-guardrails.md — runtime enforcement paradigms (AIRGuard, ChainCaps, ePCA)
 - @concepts/mcp-security-posture.md — MCP-specific trust boundaries (admission, DCI, SPI, MSTI)
 - @concepts/agent-skill-injection.md — install-time + cross-session injection surfaces

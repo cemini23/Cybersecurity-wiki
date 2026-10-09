@@ -4,6 +4,7 @@ type: entity
 tags: [tool, llm-automation, pentest, red-team, apache, docker, sandbox, conditional-go]
 keywords: [Strix, usestrix, Docker sandbox, PoC validation, Ollama, Apache-2.0, strix-agent, PostHog, Scarf]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/github-strix.md
   - concepts/ai-pentest-harness-landscape.md
   - concepts/llm-pentest-automation.md
@@ -13,7 +14,6 @@ related:
   - concepts/owned-target-whitehat-lab.md
   - concepts/bug-bounty.md
   - concepts/pre-release-product-pentest.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - entities/tools/cyberstrike.md
   - entities/tools/pentest-ai-agents.md
   - entities/tools/pentest-ai.md
@@ -25,7 +25,7 @@ related:
   - entities/tools/pentestgpt.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-08-02 — Apache-2.0 verified; shallow clone ~11MB; Docker sandbox real; telemetry default-on; no curl|sh; no host pipx until operator OK"
 wire_status: deferred
 wire_target: "Ask before host pipx/CLI or MCP wire; Docker + written scope required; STRIX_TELEMETRY=0 for lab"

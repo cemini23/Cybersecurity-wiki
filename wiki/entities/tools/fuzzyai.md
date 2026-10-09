@@ -4,11 +4,11 @@ type: entity
 tags: [llm-security, jailbreak, fuzzer, red-team, pair, crescendo, adversarial-prompt, apache-2.0]
 keywords: [fuzzyai, cyberark, llm jailbreak, prompt fuzzing, pair, crescendo, adversarial prompts]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/red-team-operations.md
   - concepts/responsible-disclosure.md
   - entities/tools/cua.md
@@ -22,18 +22,18 @@ related:
   - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-10
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
-- @concepts/llm-adversarial-fuzzing.md — methodology umbrella for this tool
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/pair-prompt-pattern.md — PAIR (Prompt Automated Iterative Refinement) detail page
 - @concepts/crescendo-multi-turn-jailbreak.md — Crescendo multi-turn attack detail page
 - @concepts/ai-for-cybersecurity.md — where LLMs intersect security
-- @concepts/llm-vulnerability-discovery.md — sibling discipline (LLMs *finding* vulns, vs FuzzyAI which attacks LLMs themselves)
 - @concepts/red-team-operations.md — primary use context (authorized LLM-robustness testing)
 - @concepts/responsible-disclosure.md — ethics floor for FuzzyAI use
 - @entities/tools/cua.md — pair with cua to capture full trace of multi-turn jailbreak runs

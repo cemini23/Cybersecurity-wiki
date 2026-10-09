@@ -4,24 +4,24 @@ type: concept
 tags: [concept, llm-security, red-team, gflownet, attack-generation, authorized-lab]
 keywords: [GFlowNet, attacker model, victim model, evaluator, attack diversity, SFT, MLE, Turkish, robustness score]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md
   - concepts/gflowrl-distribution-matching-attacker-rl.md
-  - concepts/llm-adversarial-fuzzing.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K270)"
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md
 - @concepts/gflowrl-distribution-matching-attacker-rl.md — sibling GFlowNet-attacker line; keep training method distinct from eval gate
-- @concepts/llm-adversarial-fuzzing.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

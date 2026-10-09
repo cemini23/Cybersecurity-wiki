@@ -4,6 +4,7 @@ type: concept
 tags: [responsible-disclosure, vrp, platform]
 keywords: [bug bounty, hackerone, bugcrowd, intigriti, vrp, responsible disclosure]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/web-pentest-methodology.md
   - concepts/responsible-disclosure.md
   - entities/tools/burp-suite.md
@@ -27,7 +28,6 @@ related:
   - entities/tools/gau.md
   - entities/tools/katana.md
   - concepts/operator-lab-playbook.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/pre-release-product-pentest.md
   - entities/tools/cyberstrike.md
@@ -38,11 +38,12 @@ related:
   - entities/tools/hacktools.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/hacktools.md — K220 browser cheatsheet (license gate)
 - @entities/tools/strix.md — Strix AI pentest harness (Apache-2.0 CONDITIONAL-GO Phase-0)
 - @sources/rizvi-automating-bug-bounty-recon-2026.md — anti-noise recon automation (Rizvi 2026)
@@ -52,7 +53,6 @@ updated: 2026-08-03
 - @concepts/web-pentest-methodology.md
 - @concepts/responsible-disclosure.md
 - @concepts/operator-lab-playbook.md — operator-facing lab playbook that maps bounty-style recon + exploit loops onto owned lab surfaces
-- @concepts/local-abliterated-llm-pentest-stack.md — local abliterated LLM stack for offline recon triage, report drafting, and low-risk Tier-1 assist without cloud egress
 - @concepts/owned-target-whitehat-lab.md — owned / whitehat lab targets as the authorization-safe practice ground before public program work
 - @concepts/pre-release-product-pentest.md — separate lane: owned pre-release product test vs public bounty programs
 - @entities/tools/burp-suite.md

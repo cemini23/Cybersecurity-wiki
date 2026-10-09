@@ -4,8 +4,8 @@ type: source
 tags: [source, arxiv, rl, llm-post-training, red-teaming-eval, microsoft]
 keywords: [2607.13394, gflowrl, gflownet, distribution matching, advbench, harmbench, microsoft research]
 related:
-  - concepts/gflowrl-distribution-matching-attacker-rl.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/gflowrl-distribution-matching-attacker-rl.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/ai-for-cybersecurity.md
@@ -13,7 +13,7 @@ related:
 maturity: draft
 read_status: skimmed
 created: 2026-07-16
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "NO-GO 2026-07-16 — github.com/microsoft/gflowrl 404 (promised release); REFERENCE for ASR attacker-diversity claims only"
 wire_status: wont_wire
 wire_target: "Phase-0 NO-GO"
@@ -23,6 +23,7 @@ wire_target: "Phase-0 NO-GO"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/gflowrl-distribution-matching-attacker-rl.md — cybersec-relevant slice (red-team ASR)
 - Primary RL methodology → CCC / research post-training lane
 

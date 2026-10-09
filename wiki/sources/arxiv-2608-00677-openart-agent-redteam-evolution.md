@@ -4,17 +4,17 @@ type: source
 tags: [source, arxiv, agent-security, red-teaming, mcp, lab]
 keywords: [2608.00677, OpenART, EMHA, agent red team, environment evolution]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/openart-environment-evolution-agent-redteam.md
   - entities/tools/openart.md
   - concepts/gpt-red-self-play-red-teaming.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/cyber-capable-agent-evaluation-containment.md
   - concepts/ai-for-cybersecurity.md
   - concepts/red-team-operations.md
 maturity: draft
 read_status: read
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-08-04 — AGPL-3.0; ~19MB; lab red-team only"
 wire_status: deferred
 wire_target: "lab sandbox only — AGPL; no host wire"
@@ -24,10 +24,10 @@ wire_target: "lab sandbox only — AGPL; no host wire"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/openart-environment-evolution-agent-redteam.md
 - @entities/tools/openart.md
 - @concepts/gpt-red-self-play-red-teaming.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/cyber-capable-agent-evaluation-containment.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/red-team-operations.md

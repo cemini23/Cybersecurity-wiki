@@ -4,6 +4,7 @@ type: concept
 tags: [concept, llm-safety, evaluation, red-teaming]
 keywords: [evidential ceiling, null result, harm rate, certification claim, 2607.21735]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
   - sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md
   - concepts/finrt-amortized-redteam-generator.md
@@ -14,7 +15,6 @@ related:
   - sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md
   - concepts/faithful-agent-asr-measurement.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/logit-tilting-rare-behaviour-audit.md
   - concepts/probe-internal-recognition-sandbagging-audit.md
   - concepts/evoflint-multi-turn-redteam-atlas.md
@@ -41,11 +41,12 @@ related:
   - concepts/multi-conversation-persuasion-factual-robustness.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-10-02
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/benchmark-shortcut-attack-pyramid-audit.md — K387-K391 cross-link
 - @sources/arxiv-2610-00960-video-index-benchmark-shortcut-attack-pyramid.md — K387-K391 ingest source page
 - @concepts/finrt-amortized-redteam-generator.md — K382 amortized red-team generator: score coverage/severity/diversity jointly
@@ -55,7 +56,6 @@ updated: 2026-10-02
 - @sources/arxiv-2608-10669-redagentbench-faithful-agent-asr.md — faithful ASR as a measurement-condition tuple (K271)
 - @concepts/faithful-agent-asr-measurement.md — exposure/execution/observation/adjudication decomposition (K271)
 - @concepts/ai-for-cybersecurity.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/pair-prompt-pattern.md
 
 ## Raw Concept

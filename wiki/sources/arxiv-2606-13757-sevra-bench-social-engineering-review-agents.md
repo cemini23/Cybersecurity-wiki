@@ -4,11 +4,11 @@ type: source
 tags: [source, arxiv, benchmark, code-review, supply-chain, social-engineering, mcp, gitea]
 keywords: [2606.13757, sevra-bench, pr review agent, cve reversal, framing strategy, refusal rate]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - entities/tools/sevra-bench.md
   - concepts/llm-code-review-agent-security.md
   - concepts/social-engineering.md
   - concepts/agent-runtime-guardrails.md
-  - concepts/llm-vulnerability-discovery.md
   - concepts/mcp-security-posture.md
   - concepts/seclaw-agent-security-evaluation.md
   - concepts/ai-for-cybersecurity.md
@@ -22,7 +22,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-16
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-17 — re-audit: LICENSE 404 + GitHub API license null; laptop Docker+inspect-ai eval only after SPDX file"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -30,6 +30,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/sevra-bench.md — benchmark entity + Phase-0
 - @concepts/llm-code-review-agent-security.md — merge-gate threat model synthesis
 - @concepts/social-engineering.md — 15 PR framing strategies as automated SE

@@ -4,9 +4,9 @@ type: concept
 tags: [concept, llm-safety, fine-tuning, data-centric]
 keywords: [datashield, fine-tune safety degradation, segment masking, consensus subspace]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2607-15081-datashield-risky-finetune-data.md
   - entities/tools/datashield.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/self-evolving-agent-security.md
   - concepts/ai-for-cybersecurity.md
@@ -20,13 +20,14 @@ related:
   - sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-08-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 - @concepts/defender-centric-jailbreak-utility.md
 - @sources/arxiv-2607-15081-datashield-risky-finetune-data.md — paper

@@ -4,14 +4,14 @@ type: source
 tags: [source, arxiv, llm-security, defensive-deception, k295]
 keywords: [2608.17202, Fool's Gold, decoy hardening, abliteration defense, Russinovich]
 related:
-  - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/decoy-hardening-open-weight-abliteration.md
   - concepts/tripwire-safety-neuron-clamp.md
   - concepts/ai-redteam-evidential-ceiling.md
 maturity: draft
 read_status: read
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-20 — no public SPDX code; do not clone. Project page markrussinovich.github.io/fools-gold is paper companion (no hazardous data). No attack-recipe ingest. Lab policy only."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K295 Fool's Gold)"
@@ -21,8 +21,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K295 Fool's Gold)"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/decoy-hardening-open-weight-abliteration.md
-- @concepts/local-abliterated-llm-pentest-stack.md — path-A abliterated stacks: defense ≠ recipe
 - @concepts/tripwire-safety-neuron-clamp.md — do not auto-reclamp / do not treat clamp as substitute
 - @concepts/ai-redteam-evidential-ceiling.md — deception eval is scoped, not a universal safety certificate
 

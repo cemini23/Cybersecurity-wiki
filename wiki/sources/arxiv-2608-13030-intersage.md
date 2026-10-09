@@ -4,20 +4,21 @@ type: source
 tags: [source, arxiv, multi-agent, identity, ioai, k278]
 keywords: [2608.13030, InterSAGE, AIC, capability attenuation, DID, agent identity]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/intersage-trust-native-ioa-protocol.md
   - concepts/internet-of-agentic-ai-ioai.md
   - concepts/mcp-security-posture.md
-  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - "@ccc-wiki/sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md"
 maturity: draft
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-10-09
 read_status: skimmed
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/intersage-trust-native-ioa-protocol.md — cyber synthesis
 - @concepts/internet-of-agentic-ai-ioai.md — federated agent ecosystems
 - @ccc-wiki/sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md — primary ingest (CCC K278)

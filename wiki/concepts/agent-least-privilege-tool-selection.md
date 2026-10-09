@@ -4,13 +4,13 @@ type: concept
 tags: [agent-security, least-privilege, tool-selection, mcp, opur, toolprivbench]
 keywords: [over-privileged tool selection, opur, ped, premature escalation, toolprivbench, 2606.20023]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/agent-runtime-identity-adr.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - entities/tools/toolprivbench.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
-  - concepts/agentic-containment-principles.md
   - concepts/ai-for-cybersecurity.md
   - concepts/zero-trust.md
   - entities/tools/airguard.md
@@ -33,13 +33,14 @@ related:
   - concepts/task-conditioned-excess-authority.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-07-31
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md — primary source (2606.20023)
 - @entities/tools/toolprivbench.md — evaluation benchmark
 - @concepts/mcp-security-posture.md — external MCP trust stack (admission, DCI, SPI)

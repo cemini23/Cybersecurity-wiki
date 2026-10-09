@@ -33,11 +33,12 @@ related:
   - concepts/hardened-alternative-operating-systems.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-12
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @entities/tools/damn-vulnerable-drone.md — K220 optional niche owned lab (drone/MAVLink)
 - @concepts/hardware-id-masking-opsec.md — lab/collection OPSEC: identifier layers; MAC rand ≠ unlinkability
 - @entities/tools/strix-omlx.md
@@ -46,7 +47,6 @@ updated: 2026-08-12
 - @entities/tools/cyberstrike.md — AGPL AI offensive harness — CONDITIONAL-GO lab/VM only (Phase-0 2026-08-02)
 - @entities/tools/strix.md — Apache-2.0 Docker-sandbox harness — CONDITIONAL-GO (Phase-0 clone; no host install)
 - @concepts/ai-pentest-harness-landscape.md — harness decision matrix (CyberStrike vs Strix vs MIT peers)
-- @concepts/local-abliterated-llm-pentest-stack.md — local abliterated / low-refusal text LLM stack (Linux+NVIDIA + Apple Silicon)
 - @concepts/owned-target-whitehat-lab.md — authorization + isolation for servers/VMs you own
 - @concepts/pre-release-product-pentest.md — pentest the product you plan to ship
 - @concepts/bug-bounty.md — public-program side income + beefy-box ROI

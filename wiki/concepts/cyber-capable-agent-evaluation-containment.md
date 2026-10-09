@@ -4,10 +4,10 @@ type: concept
 tags: [concept, agent-security, containment, offensive-ai]
 keywords: [evaluation containment, sandbox escape, credential isolation, 2607.25379]
 related:
+  - concepts/model-is-not-a-security-boundary-kubernetes-agents.md
   - sources/arxiv-2610-03153-evoriskbench-runtime.md
   - sources/arxiv-2610-02861-kubernetes-agent-containment.md
   - concepts/harness-vs-model-risk-share.md
-  - concepts/model-is-not-a-security-boundary-kubernetes-agents.md
   - sources/arxiv-2607-25379-cyber-capable-agent-containment.md
   - concepts/agent-vm-sandboxing.md
   - concepts/agent-runtime-guardrails.md
@@ -21,15 +21,15 @@ related:
   - sources/arxiv-2608-04317-trident-agentic-drl-redteam.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-10-07
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-03153-evoriskbench-runtime.md — inbound brief wave 2026-10-07
 - @sources/arxiv-2610-02861-kubernetes-agent-containment.md — inbound brief wave 2026-10-07
 - @concepts/harness-vs-model-risk-share.md — K282-b model x harness reporting
-- @concepts/model-is-not-a-security-boundary-kubernetes-agents.md — K421 seven-layer Kubernetes containment
 - @sources/arxiv-2607-25379-cyber-capable-agent-containment.md
 - @concepts/agent-vm-sandboxing.md
 - @concepts/agent-runtime-guardrails.md

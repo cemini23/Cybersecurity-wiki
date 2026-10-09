@@ -4,23 +4,23 @@ type: concept
 tags: [concept, wireless, wifi, edge-llm]
 keywords: [802.11 broadcast, 54 Mbps, MoE, edge inference, 2608.02341]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
   - concepts/wireless-pentest.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/network-security.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-06581-whitenet-spectral-whitening.md
   - concepts/spectral-whitening-wireless-protocol-id.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-13
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-02341-wifi-broadcast-rate-edge-moe.md
 - @concepts/wireless-pentest.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/network-security.md
 - @concepts/ai-for-cybersecurity.md
 

@@ -4,11 +4,11 @@ type: entity
 tags: [tool, llm-automation, pentest, red-team, bug-bounty, agpl, conditional-go, mcp, ollama]
 keywords: [CyberStrike, cyberstrike.io, Bolt, HackBrowser, scope_check, AGPL-3.0, OpenCode fork, anomalyco]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/github-cyberstrike.md
   - concepts/llm-pentest-automation.md
   - concepts/ai-for-cybersecurity.md
   - concepts/operator-lab-playbook.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/owned-target-whitehat-lab.md
   - concepts/pre-release-product-pentest.md
   - concepts/bug-bounty.md
@@ -28,7 +28,7 @@ related:
   - entities/tools/hexstrike-ai.md
 maturity: draft
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-08-02 — AGPL-3.0 verified; shallow clone ~219MB; no host npm -g; VM/Docker only; scope_check is advisory not hard-gate"
 wire_status: deferred
 wire_target: "Ask before host CLI/MCP wire; lab VM + written scope required; AGPL network clause for any SaaS/embed"

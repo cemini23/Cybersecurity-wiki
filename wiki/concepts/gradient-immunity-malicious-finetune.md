@@ -4,25 +4,25 @@ type: concept
 tags: [concept, llm-safety, fine-tuning]
 keywords: [USG, PPOW, null space, malicious fine-tuning, 2608.05045]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
   - concepts/datashield-risky-finetune-data-filtering.md
   - entities/tools/datashield.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/ai-for-cybersecurity.md
   - concepts/post-training-adaptation-taxonomy.md
   - sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md
   - concepts/specguard-inference-time-backdoor-detection.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-09-11
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-05045-gradient-immunity-malicious-finetune.md
 - @concepts/datashield-risky-finetune-data-filtering.md
 - @entities/tools/datashield.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/post-training-adaptation-taxonomy.md
 - @sources/arxiv-2608-06246-post-training-adaptation-taxonomy.md

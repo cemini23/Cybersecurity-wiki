@@ -4,17 +4,18 @@ type: entity
 tags: [tool, red-team, parallel-models, llm-redteam, no-license-found, offensive-security]
 keywords: [multi-model-redteam, permoon, parallel redteam, no license file]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - "@osint-wiki/entities/tools/multi-model-redteam.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
-  - concepts/llm-vulnerability-discovery.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-10-09
 osint_eval_origin: doc2-url-14 (cross-routed; cybersec primary)
 ---
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - `@osint-wiki/entities/tools/multi-model-redteam.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin eval (URL 14)
 

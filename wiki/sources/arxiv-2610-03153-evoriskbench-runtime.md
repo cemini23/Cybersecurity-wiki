@@ -4,13 +4,13 @@ type: source
 tags: [source, routed, agent-security]
 keywords: [arXiv 2610.03153]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/harness-vs-model-risk-share.md
   - concepts/cyber-capable-agent-evaluation-containment.md
-  - concepts/agentic-containment-principles.md
 maturity: draft
 read_status: read (routed brief)
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-07 — routed brief, no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound brief)"
@@ -18,9 +18,9 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (inbound brief)"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/harness-vs-model-risk-share.md
 - @concepts/cyber-capable-agent-evaluation-containment.md
-- @concepts/agentic-containment-principles.md
 
 ## Raw Concept
 

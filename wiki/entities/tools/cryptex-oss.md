@@ -14,7 +14,7 @@ related:
   - entities/tools/leakbench-area.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-07-31
+updated: 2026-10-09
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 phase_0_verdict: "Adopt-eligible 2026-05-26 — MIT verified; queue Phase-0 alongside FuzzyAI for transform/mutator catalog comparison."
 wire_status: policy_wired
@@ -25,7 +25,7 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 
 ## Relations
 
-- @concepts/llm-adversarial-fuzzing.md — methodology umbrella for LLM-target offensive testing
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-for-cybersecurity.md — LLM security discipline context
 - @concepts/red-team-operations.md — authorized LLM robustness engagements
 - @concepts/responsible-disclosure.md — ethics floor for adversarial prompt research

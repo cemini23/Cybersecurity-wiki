@@ -10,7 +10,7 @@ related:
   - concepts/llm-pentest-automation.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-10-09
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 
@@ -18,7 +18,7 @@ cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-
 
 ## Relations
 
-- @concepts/llm-vulnerability-discovery.md — extends the Detect→Attack pipeline with Glasswing architecture
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - @concepts/ai-for-cybersecurity.md — production-ready LLM-driven security tooling
 - @concepts/exploit-development.md — produces verified exploit PoCs (e.g., Nginx CVE-2026-42945)
 - @concepts/llm-pentest-automation.md — architectural reference for agent-based vulnerability discovery

@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, red-teaming, prompt-injection, openai]
 keywords: [2607.26115, GPT-Red, self-play, GPT-5.6, prompt injection]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/gpt-red-self-play-red-teaming.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-07-30
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-30 — OpenAI paper; no public GPT-Red weights/code (inspect_ai cited only)"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -22,10 +22,10 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/gpt-red-self-play-red-teaming.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

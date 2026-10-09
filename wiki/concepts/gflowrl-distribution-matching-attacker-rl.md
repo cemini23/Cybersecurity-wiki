@@ -4,21 +4,22 @@ type: concept
 tags: [concept, rl, llm-security, red-teaming-eval, microsoft]
 keywords: [gflowrl, distribution matching, asr@1, advbench, harmbench, attacker diversity]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md
   - sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md
   - concepts/gflownet-automated-redteam-attack-generation.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/crescendo-multi-turn-jailbreak.md
   - concepts/amt-x-phase-structured-multi-turn-red-teaming.md
   - concepts/evoflint-multi-turn-redteam-atlas.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-08-12
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-13394-gflowrl-distribution-matching-rl.md — paper (NO-GO repo)
 - @sources/arxiv-2608-10171-gflownets-llm-attacks-turkcell.md — sibling GFlowNet attacker line (K270; do not conflate training method with eval gate)
 - @concepts/gflownet-automated-redteam-attack-generation.md — K270 GFlowNet attack-gen concept

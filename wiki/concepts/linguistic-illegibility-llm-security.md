@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, audit, interpretability, sandbox, k325]
 keywords: [linguistic illegibility, CoT monitoring limits, taint tracking, sandbox floor, activation probing]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/mosaic-attack-bounded-window-insufficiency.md
   - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
   - concepts/authorship-attribution-author-representation.md
@@ -14,16 +15,16 @@ related:
   - concepts/measurement-integrity-mcp-security-eval.md
   - concepts/agent-safety-executable-evaluation.md
   - concepts/counterfactual-simulatability-llm-explanations.md
-  - concepts/agentic-containment-principles.md
 maturity: draft
 created: 2026-09-03
-updated: 2026-10-06
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K325)"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/mosaic-attack-bounded-window-insufficiency.md — K400 bounded-window defenses are provably insufficient
 - @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
 - @concepts/authorship-attribution-author-representation.md — K395 authorship attribution: style is a signal, not a conclusion

@@ -4,9 +4,9 @@ type: source
 tags: [arxiv, agent-security, runtime-guard, authority-confusion, mcp, research-paper]
 keywords: [airguard, authority confusion, least privilege, agenttrap, dtap-150, runtime authorization]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - entities/tools/airguard.md
-  - concepts/llm-adversarial-fuzzing.md
   - entities/tools/nvidia-skillspector.md
   - sources/arxiv-2606-02240-agentredbench.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
@@ -16,14 +16,14 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-21
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — authority-confusion failure mode + runtime guard pattern
 - @entities/tools/airguard.md — open-source implementation (MIT)
-- @concepts/llm-adversarial-fuzzing.md — distinct from jailbreaks; agent side-effect attacks
 - @entities/tools/nvidia-skillspector.md — pre-install skill audit vs AIRGuard action-time enforcement
 
 ## Raw Concept

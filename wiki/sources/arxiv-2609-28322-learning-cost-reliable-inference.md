@@ -9,7 +9,7 @@ related:
 maturity: validated
 read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-09-24 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K366)"
@@ -17,7 +17,7 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K366)"
 
 ## Relations
 
-- @concepts/reliable-inference-procurement-routing.md
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 
 ## Raw Concept
 

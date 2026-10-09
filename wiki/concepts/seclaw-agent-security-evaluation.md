@@ -4,9 +4,9 @@ type: concept
 tags: [concept, agent-security, evaluation, benchmark, trajectory, k98]
 keywords: [seclaw, 2606.02302, trajectory-aware, docker-testbed, spec-driven tasks, tool-using agents]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/llm-pentest-automation.md
-  - concepts/llm-adversarial-fuzzing.md
   - entities/tools/seclaw-eval.md
   - entities/tools/defenseclaw.md
   - entities/tools/nvidia-skillspector.md
@@ -16,7 +16,6 @@ related:
   - sources/arxiv-2606-04990-agent-traces-evidence-provenance.md
   - concepts/agent-execution-provenance.md
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
-  - "@ccc-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@ccc-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
   - sources/arxiv-2606-10749-toward-secure-llm-agents-survey.md
@@ -43,16 +42,16 @@ related:
   - sources/arxiv-2607-11698-agent-hacks-agent-autoresearch.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-16
+updated: 2026-10-09
 ---
 
 # SeClaw — trajectory-aware agent security evaluation
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — trajectory eval hygiene + guard stack under test
 - @concepts/llm-pentest-automation.md — pre-release regression for Tier-2 MCP copilots
-- @concepts/llm-adversarial-fuzzing.md — refusal fuzzing orthogonal to stateful tool trajectories
 - @entities/tools/seclaw-eval.md — benchmark repo entity (Reference until LICENSE + code ship)
 - @entities/tools/defenseclaw.md — runtime scanner/sidecar gate (complementary, not substitute)
 - @entities/tools/nvidia-skillspector.md — skill preflight before agent enters testbed

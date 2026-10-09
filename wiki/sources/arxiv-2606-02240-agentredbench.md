@@ -4,8 +4,8 @@ type: source
 tags: [arxiv, agent-security, prompt-injection, red-team, benchmark, saas-integration, research-paper]
 keywords: [agentredbench, agentredguard, indirect prompt injection, saas integration, underspecified authorization, stackone]
 related:
-  - concepts/agent-runtime-guardrails.md
   - concepts/llm-adversarial-fuzzing.md
+  - concepts/agent-runtime-guardrails.md
   - concepts/llm-pentest-automation.md
   - entities/tools/agentredguard.md
   - entities/tools/airguard.md
@@ -19,13 +19,13 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-02
-updated: 2026-06-07
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — integration read/write gap + dynamic redteam benchmark
-- @concepts/llm-adversarial-fuzzing.md — dynamic LLM-driven attack generation vs static templates
 - @concepts/llm-pentest-automation.md — enterprise agent copilot threat model
 - @entities/tools/airguard.md — runtime authority guard comparison
 - @entities/tools/defenseclaw.md — enterprise governance complement

@@ -4,8 +4,9 @@ type: concept
 tags: [llm-security, jailbreak, multi-turn, crescendo, escalation, microsoft-research, arxiv-2404-01833]
 keywords: [crescendo, multi-turn jailbreak, escalation attack, mark russinovich, microsoft research, conversational drift]
 related:
-  - sources/arxiv-2610-08678-secure-speculative-decoding.md
   - concepts/speculative-decoding-safety-asymmetry.md
+  - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2610-08678-secure-speculative-decoding.md
   - concepts/test-time-training-redteam-attacker.md
   - sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md
   - sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md
@@ -13,7 +14,6 @@ related:
   - concepts/quantized-llm-jailbreak-defense-atlas.md
   - sources/arxiv-2610-01058-momat-quantized-llm-jailbreak-defense.md
   - entities/tools/fuzzyai.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/pair-prompt-pattern.md
   - concepts/social-engineering.md
   - concepts/ai-for-cybersecurity.md
@@ -44,15 +44,16 @@ related:
   - sources/arxiv-2608-05108-piminer-prompt-injection-redteam.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/speculative-decoding-safety-asymmetry.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-08678-secure-speculative-decoding.md — K403-K407 ingest source page
-- @concepts/speculative-decoding-safety-asymmetry.md — K405 jailbreak ASR rises with a weak draft model
 - @concepts/test-time-training-redteam-attacker.md — K399 attacker updating at test time
 - @sources/arxiv-2610-05346-mosaic-attacks-sequential-fragment-defense.md — K398-K402 ingest source page
 - @sources/arxiv-2610-05282-red-ttt-test-time-training-jailbreak.md — K398-K402 ingest source page
@@ -62,7 +63,6 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 - @sources/arxiv-2607-17152-a-mess-defender-centric-jailbreak.md
 - @concepts/defender-centric-jailbreak-utility.md
 - @entities/tools/fuzzyai.md — reference implementation (CLI flag `-a crs`)
-- @concepts/llm-adversarial-fuzzing.md — methodology umbrella
 - @concepts/pair-prompt-pattern.md — companion single-turn pattern
 - @concepts/social-engineering.md — Crescendo is structurally a social-engineering attack against the model
 - @concepts/ai-for-cybersecurity.md — LLM × security context

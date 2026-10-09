@@ -4,6 +4,7 @@ type: concept
 tags: [concept, agent-security, skill-injection, mcp, k95]
 keywords: [skill injection, SkillGuard, context poisoning, confused deputy, agent skills]
 related:
+  - concepts/agentic-containment-principles.md
   - sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md
   - concepts/agent-memory-supply-chain-compromise.md
   - sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md
@@ -30,7 +31,6 @@ related:
   - concepts/context-fractured-decomposition-attacks.md
   - "@ccc-wiki/concepts/skill-vetting.md"
   - sources/arxiv-2606-12797-agentic-containment-gap-framework-audit-2026-06-13.md
-  - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
   - sources/arxiv-2606-20023-over-privileged-tool-selection-toolprivbench.md
   - concepts/agent-least-privilege-tool-selection.md
@@ -66,13 +66,14 @@ related:
   - entities/tools/jailbreakskill.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/wublock-2026-10-06-memtensor-agent-memory-supply-chain.md — inbound brief wave 2026-10-07
 - @concepts/agent-memory-supply-chain-compromise.md — K283-b poisoned memory package leaks the whole context
 - @sources/arxiv-2609-32400-skilldre-dual-stage-skill-red-team-evolution.md — K378 SkillDRE dual-stage skill evolution source

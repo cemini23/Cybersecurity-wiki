@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, guardrail, mcp, tool-use, k307, defensive]
 keywords: [StepGuard, step-level guard, pre-execution, trajectory guard, safety-utility balance, defense bias, tool action audit]
 related:
+  - sources/arxiv-2610-09906-constrained-action-ai-remediation-siem.md
+  - concepts/constrained-action-soc-remediation.md
   - sources/arxiv-2608-24777-stepguard.md
   - entities/tools/stepguard.md
   - concepts/agent-runtime-guardrails.md
@@ -15,13 +17,15 @@ related:
   - sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-09-30
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc + mcp-tool-control.mdc (K307)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-09906-constrained-action-ai-remediation-siem.md — K408-K417 ingest / 2026-10-09
+- @concepts/constrained-action-soc-remediation.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-30217-instrumental-monitor-evasion-evaluation.md
 - @sources/arxiv-2608-24777-stepguard.md
 - @entities/tools/stepguard.md — StepGuard repo/model pointer (CONDITIONAL-GO; Apache-2.0 cleared 2026-09-30)

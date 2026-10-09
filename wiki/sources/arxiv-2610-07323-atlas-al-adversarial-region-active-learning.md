@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, agent-security]
 keywords: [2610.07323, k403]
 related:
-  - concepts/adversarial-region-estimation-vs-single-example.md
   - concepts/threat-preserving-representation-sensitivity.md
+  - concepts/llm-adversarial-fuzzing.md
+  - concepts/adversarial-region-estimation-vs-single-example.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
   - concepts/guardrail-construct-validity-agent-eval.md
-  - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 read_status: read
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-10-07 — no attack payloads in wiki."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K403)"
@@ -20,6 +20,9 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K403)"
 
 ## Relations
 
+- @concepts/threat-preserving-representation-sensitivity.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
+- @concepts/adversarial-region-estimation-vs-single-example.md — K408-K417 ingest / 2026-10-09
 ## Relations
 
 - @concepts/adversarial-region-estimation-vs-single-example.md

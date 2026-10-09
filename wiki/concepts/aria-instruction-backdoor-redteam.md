@@ -4,24 +4,24 @@ type: concept
 tags: [concept, llm-security, red-teaming, backdoor, coding-agents, lab]
 keywords: [ARIA, instruction backdoor, customized LLM, 2608.05659]
 related:
-  - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
-  - concepts/llm-adversarial-fuzzing.md
-  - concepts/piminer-agentic-prompt-injection-redteam.md
   - concepts/local-abliterated-llm-pentest-stack.md
+  - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
+  - concepts/piminer-agentic-prompt-injection-redteam.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc"
 ---
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-05659-aria-instruction-backdoor-redteam.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/piminer-agentic-prompt-injection-redteam.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

@@ -4,15 +4,15 @@ type: entity
 tags: [tool, ai-governance, reference, adopted]
 keywords: [ShieldAI, MIT taxonomy, tool matrix, Apache-2.0, 2608.07446]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
   - concepts/taxonomy-driven-oss-ai-risk-mitigation.md
-  - concepts/llm-adversarial-fuzzing.md
   - entities/tools/fuzzyai.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-10-09
 phase_0_verdict: "GO 2026-08-10 — Apache-2.0; shallow clone ~896KB; REFERENCE matrices/prompts/notebooks"
 wire_status: wont_wire
 wire_target: "REFERENCE shelf — policy on concept page"
@@ -20,9 +20,9 @@ wire_target: "REFERENCE shelf — policy on concept page"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-07446-shieldai-oss-ai-risk-tools.md
 - @concepts/taxonomy-driven-oss-ai-risk-mitigation.md
-- @concepts/llm-adversarial-fuzzing.md
 - @entities/tools/fuzzyai.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md

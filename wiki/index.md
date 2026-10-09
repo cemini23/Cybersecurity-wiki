@@ -518,6 +518,36 @@
 | @concepts/harness-vs-model-risk-share.md | draft | Model spread 54.37 pp vs harness spread 5.41 pp |
 | @sources/arxiv-2610-06339-babelfake-multilingual-av-deepfake.md | draft | BabelFake multilingual AV deepfake benchmark (2610.06339; from image-gen) |
 | @concepts/inbound-security-wave-2026-10-07.md | draft | Inbound brief digest: agent verification, refusal bias, jailbreak bench |
+| @entities/tools/strata.md | draft | Strata — local 125B-MoE inference on consumer hardware (K284) |
+| @sources/arxiv-2610-10276-patchbench-local-suppression-vs-repair.md | draft | PatchBench: local suppression vs repair (inbound K285-a) |
+| @sources/arxiv-2610-10345-sldr-signed-layer-safety-repair.md | draft | SLDR signed-layer safety repair (inbound K285-a) |
+| @concepts/local-suppression-vs-repair.md | draft | A global metric can hide a large local regression |
+| @entities/tools/rea.md | draft | rea — agent-first RE toolkit + Hopper MCP (K285-b) |
+| @entities/tools/background-agents.md | draft | background-agents — sandboxed spawn-child delegation (K285-c) |
+| @sources/arxiv-2610-08331-stca-av-vlm-adversarial-attack.md | draft | STCA AV-VLM adversarial attack (from image-gen) |
+| @concepts/vlm-perception-adversarial-robustness.md | draft | Domain-tuned VLM resisted what general VLMs did not |
+| @sources/arxiv-2610-08417-lipda-lipsync-forgery-attribution.md | draft | LipDA lipsync forgery detection + attribution (from image-gen) |
+| @concepts/lipsync-forgery-detection-attribution.md | draft | Lip-pose coupling as a lipsync detector |
+| @sources/arxiv-2610-09240-adversarial-images-hijack-web-agents.md | draft | Adversarial images hijack web agents (2610.09240; K408) |
+| @concepts/adversarial-images-hijack-web-agents.md | draft | A page image is untrusted input once the agent reads pixels and acts |
+| @sources/arxiv-2610-09892-defensive-sufficiency-stackelberg.md | draft | Defensive sufficiency in a Stackelberg model (2610.09892; K409) |
+| @concepts/defensive-sufficiency-feedback-loop.md | draft | When test-repair is actually a control; repair regions not singletons |
+| @sources/arxiv-2610-09906-constrained-action-ai-remediation-siem.md | draft | Constrained-action SOC remediation via guardrails proxy (2610.09906; K410) |
+| @concepts/constrained-action-soc-remediation.md | draft | Tier-0 deterministic gate first, LLM rail second, human approval on actions |
+| @sources/arxiv-2610-10455-phrbench-post-hallucination-reasoning.md | draft | PHRBench post-hallucination reasoning (2610.10455; K411) |
+| @concepts/post-hallucination-reasoning-behavior.md | draft | Does the model correct or commit after a hallucinated premise |
+| @sources/arxiv-2610-10533-engramedit-conditional-memory-knowledge-updates.md | draft | EngramEdit conditional-memory knowledge updates (2610.10533; K412) |
+| @concepts/conditional-memory-knowledge-editing.md | draft | The disable test: prove an edit lives in memory, not a prompt |
+| @sources/arxiv-2610-11112-false-claims-credible-images.md | draft | EpiReal-Bench image-generator misinformation red-team (2610.11112; K413) |
+| @concepts/verification-generation-gap.md | draft | Knowing a claim is false is not refusing to render it |
+| @sources/arxiv-2610-12233-resi-recursive-safety-improvement.md | draft | ReSI recursive safety improvement under a Pareto gate (2610.12233; K414) |
+| @concepts/recursive-safety-improvement-pareto.md | draft | Gate every safety round on a benign cost budget |
+| @sources/arxiv-2610-12313-verdict-without-the-rule-compliance-invariance.md | draft | Verdict without the rule: compliance invariance (2610.12313; K415) |
+| @sources/arxiv-2610-12361-cited-but-not-consulted-authority-swap-audit.md | draft | Cited but not consulted: authority-swap audit (2610.12361; K416) |
+| @concepts/compliance-verdict-rule-invariance.md | draft | A verdict is not evidence the rule was read |
+| @concepts/citation-is-not-consultation.md | draft | A stated ground is not the operative ground |
+| @sources/arxiv-2610-12415-orcagen-context-aware-malware-deception.md | draft | ORCAGen context-aware malware deception (2610.12415; K417) |
+| @concepts/context-aware-malware-deception-playbooks.md | draft | Deception preserves the observation an eviction destroys |
 
 | @sources/arxiv-2610-02045-form-and-void-agent-ood.md | draft | Form and Void composition agent (2610.02045; K394) — OOD, image-gen primary |
 

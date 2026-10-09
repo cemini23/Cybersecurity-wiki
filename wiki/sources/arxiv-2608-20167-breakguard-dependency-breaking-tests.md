@@ -4,14 +4,14 @@ type: source
 tags: [source, arxiv, supply-chain, dependency-update, llm-tests, k300]
 keywords: [2608.20167, BreakGuard, breaking changes, BUMP dataset, LLM-generated tests, dependency update, crash-type, Concordia]
 related:
-  - concepts/llm-generated-dependency-breaking-tests.md
   - concepts/coding-agent-supply-chain-install-gap.md
+  - concepts/llm-generated-dependency-breaking-tests.md
   - concepts/llm-codegen-prompt-security-redistribution.md
   - concepts/npm-supply-chain-defense.md
 maturity: draft
 read_status: read
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-21 — paper claims a GitHub prototype but hunt found NO matching public repo with SPDX (only name collisions: ProgrammerNomad/BreakGuard Windows break-reminder, Tahiram32/breakguard unrelated MIT product). Re-hunt 2026-08-25: still no matching SPDX repo. No clone."
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K300 dependency tests are candidates)"
@@ -21,8 +21,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K300 dependency tes
 
 ## Relations
 
+- @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @concepts/llm-generated-dependency-breaking-tests.md — primary synthesis (candidate tests, not a gate)
-- @concepts/coding-agent-supply-chain-install-gap.md — the update-triggered breakage surface this detects
 - @concepts/npm-supply-chain-defense.md — dependency risk family context
 
 ## Raw Concept

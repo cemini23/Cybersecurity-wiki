@@ -4,17 +4,18 @@ type: entity
 tags: [tool, jailbreak-corpus, prompt-injection, adversarial-ai, gpl-3, offensive-security]
 keywords: [awesome_gpt_super_prompting, cyberalbsecop, jailbreak corpus, prompt injection, gpt-4o, claude 3.5, deepseek r1]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - "@osint-wiki/entities/tools/awesome-gpt-super-prompting.md"
   - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
-  - concepts/llm-vulnerability-discovery.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-10-09
 osint_eval_origin: doc1-url-14 (cross-routed; cybersec primary for adversarial-AI study)
 ---
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - `@osint-wiki/entities/tools/awesome-gpt-super-prompting.md` — OSINT cross-route (rejected on ToS risk)
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 14)
 - `@concepts/llm-vulnerability-discovery.md` — methodology synthesis

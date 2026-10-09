@@ -4,25 +4,25 @@ type: concept
 tags: [concept, agent-security, audit, guardrails, abstention, eval, k354]
 keywords: [2609.22048, selective prediction, certified availability, abstention gate, tool-calling, partition planning]
 related:
+  - concepts/reliable-inference-procurement-routing.md
   - sources/arxiv-2609-22048-available-guardrails-selective-prediction.md
   - concepts/guardrail-construct-validity-agent-eval.md
   - concepts/chain-of-self-questioning-selective-abstention.md
-  - concepts/guardrail-construct-validity-agent-eval.md
   - sources/arxiv-2609-01519-guardrail-construct-validity.md
   - concepts/agent-runtime-guardrails.md
   - concepts/measurement-integrity-mcp-security-eval.md
   - concepts/genai-access-control-policy-enforcement.md
-  - concepts/reliable-inference-procurement-routing.md
   - sources/arxiv-2609-28322-learning-cost-reliable-inference.md
 maturity: draft
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K354)"
 ---
 
 ## Relations
 
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2609-22048-available-guardrails-selective-prediction.md — Available Guardrails (2609.22048)
 
 ## Raw Concept

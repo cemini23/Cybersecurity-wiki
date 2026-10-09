@@ -4,16 +4,16 @@ type: source
 tags: [source, arxiv, llm, test-time-compute, sampling]
 keywords: [2608.03961, adaptive sampling, fuzzy controller, test-time scaling, best-of-N]
 related:
+  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/adaptive-fuzzy-test-time-sampling.md
   - concepts/gradcuit-test-time-latent-reasoning.md
-  - concepts/local-abliterated-llm-pentest-stack.md
   - concepts/toktier-exact-stateful-tokenization.md
   - concepts/ai-for-cybersecurity.md
   - concepts/llm-pentest-automation.md
 maturity: draft
 read_status: read
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-08-05 — no public code; pattern steal for TTS budgets"
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
@@ -23,9 +23,9 @@ wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 
 ## Relations
 
+- @concepts/local-abliterated-llm-pentest-stack.md — K408-K417 ingest / 2026-10-09
 - @concepts/adaptive-fuzzy-test-time-sampling.md
 - @concepts/gradcuit-test-time-latent-reasoning.md
-- @concepts/local-abliterated-llm-pentest-stack.md
 - @concepts/toktier-exact-stateful-tokenization.md
 - @concepts/ai-for-cybersecurity.md
 - @concepts/llm-pentest-automation.md

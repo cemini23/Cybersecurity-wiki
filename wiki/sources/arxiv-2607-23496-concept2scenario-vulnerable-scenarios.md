@@ -4,15 +4,15 @@ type: source
 tags: [source, arxiv, jailbreak, interpretability, red-teaming]
 keywords: [2607.23496, Concept2Scenario, SAE, refusal direction, scenario framing]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/concept2scenario-refusal-suppression.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-07-29
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-29 — no public code located; ACM preprint"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -22,10 +22,10 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/concept2scenario-refusal-suppression.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
 
 ## Raw Concept

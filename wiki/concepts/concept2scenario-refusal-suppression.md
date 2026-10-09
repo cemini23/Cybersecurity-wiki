@@ -4,10 +4,10 @@ type: concept
 tags: [concept, jailbreak, interpretability, red-teaming]
 keywords: [Concept2Scenario, SAE, scenario direction, refusal, 2607.23496]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
   - concepts/pair-prompt-pattern.md
   - concepts/crescendo-multi-turn-jailbreak.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/ai-for-cybersecurity.md
   - sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md
   - concepts/refusal-under-knowledge-withhold-contract.md
@@ -15,15 +15,15 @@ related:
   - concepts/tripwire-safety-neuron-clamp.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-08-13
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-23496-concept2scenario-vulnerable-scenarios.md
 - @concepts/pair-prompt-pattern.md
 - @concepts/crescendo-multi-turn-jailbreak.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/ai-for-cybersecurity.md
 
 - @sources/arxiv-2608-12292-tutor-withhold-refusal-contract.md

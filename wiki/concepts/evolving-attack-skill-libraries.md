@@ -4,6 +4,7 @@ type: concept
 tags: [concept, methodology, llm-security, skills, red-team, k283]
 keywords: [evolving skills, attack skill library, JailbreakSkill, diagnose-refine-discover, dual ASR]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - sources/arxiv-2608-16465-jailbreakskill.md
   - entities/tools/jailbreakskill.md
   - concepts/skill-misevolution.md
@@ -11,18 +12,18 @@ related:
   - concepts/safety-harness-evolution.md
   - concepts/skillsec-lifecycle-agent-skill-security.md
   - concepts/agent-skill-injection.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/experience-driven-redteam-skill-evolution.md
   - concepts/evoskill-injection-self-evolving-agents.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-09-01
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemini-cybersec-agent-audit.mdc (K283)"
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-16465-jailbreakskill.md
 - @entities/tools/jailbreakskill.md — NO-GO clone (null SPDX)
 - @concepts/skill-misevolution.md — defense pair: practice can make a library unsafe
@@ -30,7 +31,6 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc + cemini-cybersec-ag
 - @concepts/safety-harness-evolution.md — SHE artifact ownership
 - @concepts/skillsec-lifecycle-agent-skill-security.md — author/pack/install/invoke/evolve stages
 - @concepts/agent-skill-injection.md
-- @concepts/llm-adversarial-fuzzing.md
 
 ## Raw Concept
 

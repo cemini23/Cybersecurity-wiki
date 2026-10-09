@@ -4,6 +4,7 @@ type: source
 tags: [source, arxiv, prompt-injection, llm-security, agent-harness, spi]
 keywords: [2606.04425, stored prompt injection, spi, cross-session, agents-md, memory injection]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/mcp-security-posture.md
   - concepts/agent-skill-injection.md
   - concepts/agent-runtime-guardrails.md
@@ -14,7 +15,6 @@ related:
   - sources/arxiv-2606-07943-poise-position-aware-skill-injection.md
   - sources/arxiv-2606-09084-context-fractured-decomposition-attacks.md
   - concepts/context-fractured-decomposition-attacks.md
-  - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-10322-game-theoretic-multi-agent-context-control-gt-mcp.md
   - concepts/trajectory-context-control.md
   - sources/arxiv-2606-07992-vats-error-path-mcp-injection-2026-06-13.md
@@ -22,11 +22,12 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-06-15
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/mcp-security-posture.md — SPI via tool-visible + file-backed persistence channels
 - @concepts/agent-skill-injection.md — supply-chain installable tools as injection source
 - @concepts/agent-runtime-guardrails.md — secure context construction as first-class harness design

@@ -4,17 +4,17 @@ type: entity
 tags: [tool, llm-security, benchmark, prompt-leaking, area, leakbench, reference]
 keywords: [leakbench, area, attention re-anchoring, nesa-lab, 2606.18673, prompt leaking]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/mcp-security-posture.md
   - sources/arxiv-2606-18673-prompt-leaking-attacks-area.md
   - concepts/system-prompt-leakage.md
-  - concepts/llm-adversarial-fuzzing.md
   - entities/tools/llm-defense-lattice.md
   - entities/tools/cryptex-oss.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-22 — github.com/NESA-Lab/AREA: LeakBench/AREA code present, 0★, no LICENSE file on GitHub API; use benchmark methodology until SPDX verified"
 wire_status: wont_wire
 wire_target: "REFERENCE — LeakBench methodology"
@@ -22,6 +22,7 @@ wire_target: "REFERENCE — LeakBench methodology"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-18673-prompt-leaking-attacks-area.md — ACM CCS 2026 paper provenance
 - @concepts/system-prompt-leakage.md — threat model + defense ladder
 - @entities/tools/llm-defense-lattice.md — OWASP LLM07 complementary BAS axis

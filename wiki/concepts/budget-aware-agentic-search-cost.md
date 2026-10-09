@@ -4,21 +4,21 @@ type: concept
 tags: [concept, agent-security, k397]
 keywords: [2610.03675, K397]
 related:
+  - concepts/reliable-inference-procurement-routing.md
   - sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md
   - concepts/fragtoken-inference-cost-amplification-lab.md
-  - concepts/reliable-inference-procurement-routing.md
 maturity: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K397)"
 ---
 
 ## Relations
 
+- @concepts/reliable-inference-procurement-routing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-03675-frugalevo-cost-aware-program-evolution.md
 - @concepts/fragtoken-inference-cost-amplification-lab.md
-- @concepts/reliable-inference-procurement-routing.md
 
 ## Raw Concept
 

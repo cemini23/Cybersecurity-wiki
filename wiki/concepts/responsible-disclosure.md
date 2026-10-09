@@ -4,6 +4,7 @@ type: concept
 tags: [ethics, disclosure, cve]
 keywords: [responsible disclosure, cvd, cve, mitre, vendor]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/compliance-boundary-adjacent-pair-search.md
   - sources/arxiv-2610-04693-penumbra-regulatory-obligation-adversarial-search.md
   - concepts/bug-bounty.md
@@ -16,7 +17,6 @@ related:
   - entities/tools/pydns-scanner.md
   - entities/tools/fuzzyai.md
   - entities/tools/cryptex-oss.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - concepts/dns-server-discovery-vs-subdomain-enumeration.md
   - entities/tools/defenseclaw.md
@@ -46,7 +46,7 @@ related:
   - concepts/zero-trust-mission-critical-robotic-fleets.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-10-06
+updated: 2026-10-09
 ---
 
 ## Relations

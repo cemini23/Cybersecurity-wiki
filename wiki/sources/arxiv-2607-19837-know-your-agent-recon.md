@@ -4,17 +4,17 @@ type: source
 tags: [source, arxiv, agent-security, ipi, pentesting, reconnaissance]
 keywords: [2607.19837, KYA, Know Your Agent, agent reconnaissance, AgentDojo, OpenHands, Mirsky]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-reconnaissance-ipi-pentesting.md
   - entities/tools/know-your-agent.md
   - concepts/agent-data-injection-attacks.md
   - concepts/llm-pentest-automation.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 read_status: read
 created: 2026-07-23
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "CONDITIONAL-GO 2026-07-23 — paper promises open-source KYA + baselines; public GitHub not found yet; REFERENCE until release"
 wire_status: deferred
 wire_target: "Await public KYA repo"
@@ -24,11 +24,11 @@ wire_target: "Await public KYA repo"
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-reconnaissance-ipi-pentesting.md
 - @entities/tools/know-your-agent.md
 - @concepts/agent-data-injection-attacks.md
 - @concepts/llm-pentest-automation.md
-- @concepts/llm-adversarial-fuzzing.md
 - @concepts/agent-runtime-guardrails.md
 - @concepts/ai-for-cybersecurity.md
 

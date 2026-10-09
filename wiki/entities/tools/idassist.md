@@ -4,12 +4,12 @@ type: entity
 tags: [tool, ida-pro, reverse-engineering, llm-plugin, binary-re, malware-analysis, mit]
 keywords: [idassist, ida pro, reverse engineering, llm-driven re, binary analysis, mit]
 related:
+  - concepts/llm-vulnerability-discovery.md
   - "@osint-wiki/entities/tools/idassist.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
-  - concepts/llm-vulnerability-discovery.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-07-31
+updated: 2026-10-09
 osint_eval_origin: doc2-url-12 (cross-routed from OSINT eval as cybersec-primary)
 wire_status: deferred
 wire_target: "Phase-0 audit pending"
@@ -17,6 +17,7 @@ wire_target: "Phase-0 audit pending"
 
 ## Relations
 
+- @concepts/llm-vulnerability-discovery.md — K408-K417 ingest / 2026-10-09
 - `@osint-wiki/entities/tools/idassist.md` — OSINT cross-route stub
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin Gemini eval (URL 12)
 - `@concepts/llm-vulnerability-discovery.md` — methodology synthesis

@@ -4,25 +4,29 @@ type: concept
 tags: [concept, agent-security, k403]
 keywords: [2610.07323, K403]
 related:
-  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
+  - sources/arxiv-2610-08331-stca-av-vlm-adversarial-attack.md
+  - concepts/vlm-perception-adversarial-robustness.md
   - concepts/threat-preserving-representation-sensitivity.md
+  - concepts/llm-adversarial-fuzzing.md
+  - sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
   - concepts/benchmark-shortcut-attack-pyramid-audit.md
   - concepts/guardrail-construct-validity-agent-eval.md
-  - concepts/llm-adversarial-fuzzing.md
 maturity: draft
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-09
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K403)"
 ---
 
 ## Relations
 
+- @sources/arxiv-2610-08331-stca-av-vlm-adversarial-attack.md — K408-K417 ingest / 2026-10-09
+- @concepts/vlm-perception-adversarial-robustness.md — K408-K417 ingest / 2026-10-09
+- @concepts/threat-preserving-representation-sensitivity.md — K408-K417 ingest / 2026-10-09
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2610-07323-atlas-al-adversarial-region-active-learning.md
-- @concepts/threat-preserving-representation-sensitivity.md
 - @concepts/benchmark-shortcut-attack-pyramid-audit.md
 - @concepts/guardrail-construct-validity-agent-eval.md
-- @concepts/llm-adversarial-fuzzing.md
 
 ## Raw Concept
 

@@ -4,28 +4,28 @@ type: source
 tags: [source, arxiv, mcp, prompt-injection, error-path, red-team, k114]
 keywords: [2606.07992, vats, implicit authority, tool-stream injection, mutation testing, mcp security]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-skill-injection.md
   - sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
-  - concepts/agentic-containment-principles.md
   - concepts/tool-environment-unreliability-eval.md
 maturity: draft
 read_status: read
 created: 2026-06-13
-updated: 2026-06-27
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/mcp-security-posture.md — error-path as fourth MCP trust-boundary failure class
 - @concepts/agent-runtime-guardrails.md — implicit authority bypasses prompt-only guards
 - @concepts/agent-skill-injection.md — tool-stream channel adjacent to skill/MCP injection
 - @sources/arxiv-mcp-description-code-inconsistency-2606.04769-2026-06-05.md — DCI on success path; VATS on error path
 - @sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md — cross-session SPI vs single-turn error IPI
-- @concepts/agentic-containment-principles.md — framework guardrails vs raw model layer gap
 
 ## Raw Concept
 

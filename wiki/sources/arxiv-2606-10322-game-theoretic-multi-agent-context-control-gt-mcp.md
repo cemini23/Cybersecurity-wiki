@@ -4,11 +4,11 @@ type: source
 tags: [source, arxiv, agent-security, mcp, prompt-injection, multi-agent, trajectory-control]
 keywords: [2606.10322, gt-mcp, context poisoning, causal graph, drift monitoring, stackelberg, self-healing]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/trajectory-context-control.md
   - concepts/agent-runtime-guardrails.md
   - concepts/mcp-security-posture.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/agentic-containment-principles.md
   - concepts/context-fractured-decomposition-attacks.md
   - sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md
   - sources/arxiv-2606-06387-webmcp-tool-surface-poisoning.md
@@ -19,7 +19,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-15
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "Reference 2026-06-17 — re-audit: no public GT-MCP repo on GitHub; architectural pattern only until implementation + LICENSE ships [NEEDS VERIFICATION 2026-06-17]"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -27,6 +27,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/trajectory-context-control.md — synthesized concept (GT-MCP control layer)
 - @concepts/agent-runtime-guardrails.md — trajectory-level guard vs single-turn filters
 - @concepts/mcp-security-posture.md — extends K100 layer model with context-evolution control

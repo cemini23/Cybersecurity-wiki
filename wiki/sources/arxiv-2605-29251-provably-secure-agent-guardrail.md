@@ -4,9 +4,9 @@ type: source
 tags: [arxiv, agent-security, guardrail, formal-methods, epca, smt, research-paper]
 keywords: [epca, provably secure agent guardrail, executable proof-constrained action, smt, formal verification, semantic guardrail dilemma]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/agent-runtime-guardrails.md
   - concepts/ai-for-cybersecurity.md
-  - concepts/llm-adversarial-fuzzing.md
   - entities/tools/defenseclaw.md
   - entities/tools/airguard.md
   - sources/arxiv-2606-01494-clawhub-security-signals.md
@@ -15,14 +15,14 @@ related:
 maturity: draft
 read_status: deep-read
 created: 2026-06-01
-updated: 2026-06-21
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/agent-runtime-guardrails.md — anchor source for formal/ePCA guardrail paradigm
 - @concepts/ai-for-cybersecurity.md — agent privilege inflation context (OpenClaw cited)
-- @concepts/llm-adversarial-fuzzing.md — contrasts probabilistic jailbreak testing vs deterministic runtime enforcement
 - @entities/tools/defenseclaw.md — enterprise runtime governance complement
 - @entities/tools/airguard.md — empirical runtime authority control complement
 

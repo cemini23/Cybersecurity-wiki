@@ -4,6 +4,7 @@ type: concept
 tags: [offensive-security, doctrine, operations]
 keywords: [red team, adversary simulation, engagement, ttp]
 related:
+  - concepts/llm-adversarial-fuzzing.md
   - concepts/adversary-emulation.md
   - concepts/ai-for-cybersecurity.md
   - concepts/av-edr-bypass.md
@@ -64,7 +65,6 @@ related:
   - entities/tools/cryptex-oss.md
   - entities/tools/nidhogg.md
   - concepts/agent-vm-sandboxing.md
-  - concepts/llm-adversarial-fuzzing.md
   - concepts/llm-pentest-automation.md
   - sources/for-red-team-operation.md
   - sources/hands-on-hacking.md
@@ -96,11 +96,12 @@ related:
   - sources/arxiv-2608-00143-symbolic-art-attack-chain-pddl.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-08-04
+updated: 2026-10-09
 ---
 
 ## Relations
 
+- @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 
 - @entities/tools/bypassav.md — K220 BypassAV mindmap (study; authorized only)
 - @entities/tools/black-cat.md — hypothesis-first engagement skill pattern

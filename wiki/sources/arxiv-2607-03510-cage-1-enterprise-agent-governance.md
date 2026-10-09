@@ -4,12 +4,12 @@ type: source
 tags: [source, arxiv, enterprise, governance, evaluation, prebind, agent-security]
 keywords: [2607.03510, cage-1, prebind assurance, standing, twelve dimensions, roopam sure]
 related:
+  - concepts/agentic-containment-principles.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/mcp-execution-control-invariants.md
   - concepts/agent-runtime-guardrails.md
   - concepts/agent-execution-provenance.md
   - concepts/intent-governed-tool-authorization.md
-  - concepts/agentic-containment-principles.md
   - concepts/mcp-security-posture.md
   - concepts/agent-data-injection-attacks.md
   - concepts/seclaw-agent-security-evaluation.md
@@ -19,7 +19,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-10
-updated: 2026-07-31
+updated: 2026-10-09
 phase_0_verdict: "REFERENCE 2026-07-10 — independent technical report (Roopam W. Sure); no installable product repo; steal Prebind Assurance + 12-dimension eval checklist; NOT lahlfors/cybernetic-governance-engine CAGE"
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
@@ -29,6 +29,7 @@ wire_target: "REFERENCE / steal-from — paper or methodology only"
 
 ## Relations
 
+- @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @concepts/cage-1-enterprise-agent-governance-eval.md — synthesis
 - @sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md — complementary long-horizon eval (same ingest batch)
 
