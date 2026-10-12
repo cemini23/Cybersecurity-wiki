@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, ai-red-team, mcp, layer-model]
 keywords: [layer-paradigm, infra-scan, mcp-scan, agent-scan, jailbreak-harness, ai-infra-guard]
 related:
+  - concepts/cross-service-agent-compositional-harm.md
+  - sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md
   - concepts/agentic-containment-principles.md
   - sources/arxiv-2606-31227-ai-infra-guard-technical-report.md
   - entities/tools/ai-infra-guard.md
@@ -24,13 +26,15 @@ related:
   - sources/arxiv-2607-13987-agent-skill-security-skillsec-eval.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-10-09
+updated: 2026-10-12
 wire_status: wont_wire
 wire_target: "REFERENCE / steal-from — paper or methodology only"
 ---
 
 ## Relations
 
+- @concepts/cross-service-agent-compositional-harm.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md — K418-K424 ingest / 2026-10-12
 - @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2606-31227-ai-infra-guard-technical-report.md — AI-Infra-Guard technical report (2606.31227)
 - @entities/tools/ai-infra-guard.md — reference implementation + Phase-0

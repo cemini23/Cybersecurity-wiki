@@ -4,6 +4,8 @@ type: concept
 tags: [concept, wireless, rf-fingerprint, authentication]
 keywords: [RFFP, thermal drift, device auth, 2607.25070]
 related:
+  - concepts/holistic-rffi-open-world-discovery.md
+  - sources/arxiv-2610-05979-holistic-rffi-vector-quantization.md
   - sources/arxiv-2607-25070-rffi-device-temperature.md
   - concepts/rf-fingerprint-probe-point-benchmark.md
   - concepts/wireless-pentest.md
@@ -13,11 +15,13 @@ related:
   - concepts/spectral-whitening-wireless-protocol-id.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-13
+updated: 2026-10-12
 ---
 
 ## Relations
 
+- @concepts/holistic-rffi-open-world-discovery.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-05979-holistic-rffi-vector-quantization.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2607-25070-rffi-device-temperature.md
 - @concepts/rf-fingerprint-probe-point-benchmark.md
 - @concepts/wireless-pentest.md

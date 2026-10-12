@@ -4,6 +4,8 @@ type: concept
 tags: [concept, supply-chain, dependency-update, llm-tests, k300, defensive]
 keywords: [breaking changes, LLM-generated tests, focal method, BUMP, dependency update, crash-type, candidate tests]
 related:
+  - concepts/llm-generated-test-discrimination.md
+  - sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md
   - concepts/llm-generated-compliance-artifacts.md
@@ -12,7 +14,7 @@ related:
   - concepts/ai-for-cybersecurity.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-10-09
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K300 dependency tests are candidates)"
 ---
@@ -21,6 +23,8 @@ wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K300 dependency tes
 
 ## Relations
 
+- @concepts/llm-generated-test-discrimination.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md — K418-K424 ingest / 2026-10-12
 - @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2608-20167-breakguard-dependency-breaking-tests.md
 - @concepts/llm-code-review-agent-security.md — LLM-driven review shares the candidate-not-gate discipline

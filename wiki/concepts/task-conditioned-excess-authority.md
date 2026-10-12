@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, least-privilege, mcp, ccc-k290]
 keywords: [excess authority, sufficient-authority envelope, trajectory audit, 2608.18351]
 related:
+  - concepts/cross-service-agent-compositional-harm.md
+  - sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md
   - sources/arxiv-2608-18351-excess-authority-least-privilege.md
   - concepts/agent-least-privilege-tool-selection.md
   - concepts/mcp-security-posture.md
@@ -11,13 +13,15 @@ related:
   - concepts/intent-governed-tool-authorization.md
 maturity: draft
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (CCC K290 excess-authority)"
 ---
 
 ## Relations
 
+- @concepts/cross-service-agent-compositional-harm.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2608-18351-excess-authority-least-privilege.md
 - @concepts/agent-least-privilege-tool-selection.md — over-privileged tool *selection* vs excess *trajectory* authority
 - @concepts/mcp-security-posture.md

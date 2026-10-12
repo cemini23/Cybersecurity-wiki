@@ -4,18 +4,22 @@ type: concept
 tags: [concept, agent-security, k359]
 keywords: [2609.24994, K359]
 related:
+  - concepts/phy-layer-covert-channel-wifi-preamble.md
+  - sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md
   - sources/arxiv-2609-24994-feedback-coding-covert-agentic-communication.md
   - concepts/inadvertent-context-leakage.md
   - concepts/asleval-privacy-exposure-displacement.md
 maturity: draft
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K359)"
 ---
 
 ## Relations
 
+- @concepts/phy-layer-covert-channel-wifi-preamble.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-24994-feedback-coding-covert-agentic-communication.md
 - @concepts/inadvertent-context-leakage.md
 - @concepts/asleval-privacy-exposure-displacement.md

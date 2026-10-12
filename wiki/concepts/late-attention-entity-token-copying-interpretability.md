@@ -4,16 +4,20 @@ type: concept
 tags: [concept, agent-security, k380]
 keywords: [2609.35663, K380]
 related:
+  - concepts/task-dependent-component-roles.md
+  - sources/arxiv-2610-13895-task-context-component-roles.md
   - sources/arxiv-2609-35663-late-attention-entity-token-copying.md
 maturity: draft
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K380)"
 ---
 
 ## Relations
 
+- @concepts/task-dependent-component-roles.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13895-task-context-component-roles.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-35663-late-attention-entity-token-copying.md
 
 ## Raw Concept

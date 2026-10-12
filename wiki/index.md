@@ -548,6 +548,21 @@
 | @concepts/citation-is-not-consultation.md | draft | A stated ground is not the operative ground |
 | @sources/arxiv-2610-12415-orcagen-context-aware-malware-deception.md | draft | ORCAGen context-aware malware deception (2610.12415; K417) |
 | @concepts/context-aware-malware-deception-playbooks.md | draft | Deception preserves the observation an eviction destroys |
+| @sources/arxiv-2610-05007-aerial-5g-gnb-arm-testbed.md | draft | Aerial 5G gNB ARM testbed + PWS over F1 (2610.05007; K418) |
+| @concepts/aerial-ran-testbed-pws-broadcast.md | draft | A PWS emergency broadcast is a high-integrity target |
+| @sources/arxiv-2610-05979-holistic-rffi-vector-quantization.md | draft | Holistic RFFI via learning-aided quantization (2610.05979; K419) |
+| @concepts/holistic-rffi-open-world-discovery.md | draft | Keep the open-set score; it is the discovery signal |
+| @sources/arxiv-2610-13307-sustainable-cloud-fog-edge-smart-buildings.md | draft | Sustainable cloud-fog-edge smart buildings (2610.13307; K420) — OOD |
+| @sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md | draft | Secrets in preamble: PHY info hiding for Wi-Fi (2610.13367; K421) |
+| @concepts/phy-layer-covert-channel-wifi-preamble.md | draft | A covert channel and a watermark are the same mechanism |
+| @sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md | draft | QTestBench LLM-generated quantum code tests (2610.13811; K422) |
+| @concepts/llm-generated-test-discrimination.md | draft | A passing generated test is not a discriminating test |
+| @sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md | draft | X-AgentRed cross-service agent red-team (2610.13886; K423) |
+| @concepts/cross-service-agent-compositional-harm.md | draft | Harm emerges from the composition of benign tool calls |
+| @sources/arxiv-2610-13895-task-context-component-roles.md | draft | Task context shapes component roles (2610.13895; K424) |
+| @concepts/task-dependent-component-roles.md | draft | A component's role is a function of task context |
+| @sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md | draft | NOMOS compiled policy tool-call gate (2610.11030; K288 inbound) |
+| @concepts/nomos-compiled-policy-enforcement.md | draft | Compile the policy once; enforce it in code |
 
 | @sources/arxiv-2610-02045-form-and-void-agent-ood.md | draft | Form and Void composition agent (2610.02045; K394) — OOD, image-gen primary |
 

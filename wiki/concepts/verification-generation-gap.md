@@ -4,18 +4,22 @@ type: concept
 tags: [concept, agent-security, k413]
 keywords: [2610.11112, K413]
 related:
+  - concepts/llm-generated-test-discrimination.md
+  - sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md
   - sources/arxiv-2610-11112-false-claims-credible-images.md
   - concepts/compliance-verdict-rule-invariance.md
   - concepts/armor-plusplus-agentic-deepfake-detector-attacks.md
 maturity: draft
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K413)"
 ---
 
 ## Relations
 
+- @concepts/llm-generated-test-discrimination.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2610-11112-false-claims-credible-images.md
 - @concepts/compliance-verdict-rule-invariance.md
 - @concepts/armor-plusplus-agentic-deepfake-detector-attacks.md

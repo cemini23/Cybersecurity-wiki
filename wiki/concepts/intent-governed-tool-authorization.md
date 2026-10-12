@@ -4,6 +4,10 @@ type: concept
 tags: [concept, agent-security, authorization, mcp, least-privilege, igac]
 keywords: [igac, intent certificate, manifest filtering, openport, session narrowing, 2606.22916]
 related:
+  - concepts/nomos-compiled-policy-enforcement.md
+  - sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md
+  - concepts/cross-service-agent-compositional-harm.md
+  - sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md
   - sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
   - concepts/mcp-security-posture.md
   - concepts/agent-runtime-guardrails.md
@@ -20,13 +24,17 @@ related:
   - concepts/task-conditioned-excess-authority.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-31
+updated: 2026-10-12
 wire_status: wont_wire
 wire_target: "REFERENCE — IGAC artifact pending"
 ---
 
 ## Relations
 
+- @concepts/nomos-compiled-policy-enforcement.md — K288 inbound brief / 2026-10-12
+- @sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md — K288 inbound brief / 2026-10-12
+- @concepts/cross-service-agent-compositional-harm.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md — IGAC paper (2606.22916)
 - @concepts/mcp-security-posture.md — admission layer complement
 

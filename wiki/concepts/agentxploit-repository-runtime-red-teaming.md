@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, k375]
 keywords: [2609.31318, K375]
 related:
+  - concepts/cross-service-agent-compositional-harm.md
+  - sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md
   - concepts/black-box-agentic-redteam-taxonomy.md
   - sources/arxiv-2609-31318-agentxploit-repository-runtime-red-teaming.md
   - concepts/secure-ai-powered-pentest-agents.md
   - concepts/faithful-agent-asr-measurement.md
 maturity: validated
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K375)"
 ---
 
 ## Relations
 
+- @concepts/cross-service-agent-compositional-harm.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13886-x-agentred-cross-service-redteam.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-31318-agentxploit-repository-runtime-red-teaming.md
 - @concepts/secure-ai-powered-pentest-agents.md
 - @concepts/faithful-agent-asr-measurement.md

@@ -4,19 +4,23 @@ type: concept
 tags: [concept, agent-security, interpretability, steering, audit, k349]
 keywords: [2609.20722, Deep Noir, activation steering, architectural chronometry, logit lens, inference-time intervention]
 related:
+  - concepts/task-dependent-component-roles.md
+  - sources/arxiv-2610-13895-task-context-component-roles.md
   - sources/arxiv-2609-20722-deep-noir-steering-discovery-chronometry.md
   - concepts/agent-runtime-guardrails.md
   - concepts/chain-of-thought-decorative-reasoning-audit.md
   - concepts/measurement-integrity-mcp-security-eval.md
 maturity: draft
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K349)"
 ---
 
 ## Relations
 
+- @concepts/task-dependent-component-roles.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13895-task-context-component-roles.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-20722-deep-noir-steering-discovery-chronometry.md — Deep Noir (2609.20722)
 
 ## Raw Concept

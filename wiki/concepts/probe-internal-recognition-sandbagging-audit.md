@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agent-security, audit, sandbagging, eval, interpretability, k352]
 keywords: [2609.21996, PIR, sandbagging, concealed knowledge, unlearning verification, internal recognition]
 related:
+  - concepts/task-dependent-component-roles.md
+  - sources/arxiv-2610-13895-task-context-component-roles.md
   - sources/arxiv-2609-21996-lie-detector-probe-internal-recognition.md
   - concepts/counterfactual-simulatability-llm-explanations.md
   - concepts/chain-of-thought-decorative-reasoning-audit.md
@@ -11,13 +13,15 @@ related:
   - concepts/faithful-agent-asr-measurement.md
 maturity: draft
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K352) + lab-redteam"
 ---
 
 ## Relations
 
+- @concepts/task-dependent-component-roles.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13895-task-context-component-roles.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-21996-lie-detector-probe-internal-recognition.md — PIR lie detector (2609.21996)
 
 ## Raw Concept

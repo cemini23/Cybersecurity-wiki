@@ -4,6 +4,8 @@ type: concept
 tags: [network, firewall, wireless, iot, ot]
 keywords: [firewall, network security, wireless, wifi, iot, ot, ics]
 related:
+  - concepts/aerial-ran-testbed-pws-broadcast.md
+  - sources/arxiv-2610-05007-aerial-5g-gnb-arm-testbed.md
   - concepts/physical-layer-deception-enterprise-wifi-auth.md
   - concepts/wpa3-sae-dos-cost-asymmetry.md
   - sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md
@@ -76,11 +78,13 @@ related:
   - sources/arxiv-2608-04881-horffi-high-openness-rffi.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-10-03
+updated: 2026-10-12
 ---
 
 ## Relations
 
+- @concepts/aerial-ran-testbed-pws-broadcast.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-05007-aerial-5g-gnb-arm-testbed.md — K418-K424 ingest / 2026-10-12
 - @concepts/physical-layer-deception-enterprise-wifi-auth.md — K392-K393 wireless cross-link
 - @concepts/wpa3-sae-dos-cost-asymmetry.md — K392-K393 wireless cross-link
 - @sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md — K392-K393 wireless ingest source

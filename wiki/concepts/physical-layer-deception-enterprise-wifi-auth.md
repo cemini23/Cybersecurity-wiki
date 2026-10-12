@@ -4,19 +4,23 @@ type: concept
 tags: [concept, wireless-security, k393]
 keywords: [2610.01580, K393]
 related:
+  - concepts/phy-layer-covert-channel-wifi-preamble.md
+  - sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md
   - sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md
   - concepts/wireless-pentest.md
   - concepts/wifi-rf-fingerprinting-open-set.md
   - concepts/network-security.md
 maturity: draft
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K393)"
 ---
 
 ## Relations
 
+- @concepts/phy-layer-covert-channel-wifi-preamble.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2610-01580-pld-eap-teap-wifi-authentication.md
 - @concepts/wireless-pentest.md
 - @concepts/wifi-rf-fingerprinting-open-set.md

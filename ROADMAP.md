@@ -48,6 +48,7 @@ Steps:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-10-12 | Ingest K418-K424 (7 PDFs) + K288 NOMOS inbound brief | Cross-service agent compositional harm (X-AgentRed 1.77x/2.99x); NOMOS compiled policy tool-call gate (violations 66.3%→2.6%); holistic RFFI (keep the open-set score); PHY preamble covert channel (46 bits/pkt); QTestBench test discrimination; task-conditional component roles; aerial RAN testbed + PWS; sustainable edge OOD. No clones; friend 89 |
 | 2026-10-09 | Ingest K408-K417 (10 PDFs) + four inbound briefs | Compliance verdicts invariant to the rule (OCS 0.069); verification-generation gap (FCR 100% vs ASR 77%); web-agent image hijack; defensive-sufficiency theory; Tier-0 SOC gate; post-hallucination correction; EngramEdit disable test; ReSI Pareto loop; ORCAGen deception. Strata/PatchBench/SLDR/rea. No clones; friend 88 |
 | 2026-10-07 | Ingest K403-K407 (5 PDFs) + inbound briefs filled out | Secure speculative decoding safety asymmetry; ATLAS-AL region estimation; PQ BLE pairing; BARE-AI bit-flip monitors; IdeaAnchor OOD. Also K421 K8s containment, agent-memory supply chain, EvoRiskBench, BabelFake; k405 precheck + skill; friend 86 |
 | 2026-10-06 | Full ingest K398-K402 (5 PDFs) | Mosaic attacks prove bounded-window session guards insufficient; Penumbra obligation adjacent pairs; Red-TTT test-time attacker; TransScope hardware membership inference; Contextual Reader OOD -> image-gen; k400 precheck + skill; friend 84 |

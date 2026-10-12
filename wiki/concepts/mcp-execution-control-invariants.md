@@ -4,6 +4,8 @@ type: concept
 tags: [concept, mcp, execution-control, capability-system, runtime-security]
 keywords: [hcp, eight-invariants, metadata-non-authority, grant-backed-approval, data-pipe, deny-path-audit]
 related:
+  - concepts/nomos-compiled-policy-enforcement.md
+  - sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md
   - sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md
   - entities/tools/handle-capability-protocol.md
   - concepts/mcp-security-posture.md
@@ -27,7 +29,7 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-31
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -36,6 +38,8 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 
 ## Relations
 
+- @concepts/nomos-compiled-policy-enforcement.md — K288 inbound brief / 2026-10-12
+- @sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md — K288 inbound brief / 2026-10-12
 - @sources/arxiv-2606-29073-hcp-mcp-execution-control-invariants.md — HCP paper + 10-case benchmark (2606.29073)
 - @entities/tools/handle-capability-protocol.md — reference implementation
 - @osint-wiki/concepts/reviewer-passive-injection-corpus.md — XSP K37 reviewer bundle cites eight invariants

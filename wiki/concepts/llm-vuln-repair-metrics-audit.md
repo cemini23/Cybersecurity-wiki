@@ -4,18 +4,22 @@ type: concept
 tags: [concept, agent-security, k363]
 keywords: [2609.26749, K363]
 related:
+  - concepts/llm-generated-test-discrimination.md
+  - sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md
   - sources/arxiv-2609-26749-llm-vulnerability-repair-metrics-failure.md
   - concepts/llm-decompiler-recompilability-fidelity.md
   - concepts/llm-codegen-prompt-security-redistribution.md
 maturity: draft
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-agent-audit.mdc (K363)"
 ---
 
 ## Relations
 
+- @concepts/llm-generated-test-discrimination.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13811-qtestbench-llm-quantum-code-tests.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-26749-llm-vulnerability-repair-metrics-failure.md
 - @concepts/llm-decompiler-recompilability-fidelity.md
 - @concepts/llm-codegen-prompt-security-redistribution.md

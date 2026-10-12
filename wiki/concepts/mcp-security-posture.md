@@ -4,6 +4,8 @@ type: concept
 tags: [concept, mcp, security, k100, admission-control, spi, dci]
 keywords: [mcp, attestation, prompt-injection, description-code, stored-spi, tool-allowlist]
 related:
+  - concepts/nomos-compiled-policy-enforcement.md
+  - sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md
   - concepts/agentic-containment-principles.md
   - concepts/inadvertent-context-leakage.md
   - concepts/nl-security-rules-vs-builtin-deny.md
@@ -118,13 +120,15 @@ related:
   - concepts/task-conditioned-excess-authority.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-10-09
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
 
 ## Relations
 
+- @concepts/nomos-compiled-policy-enforcement.md — K288 inbound brief / 2026-10-12
+- @sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md — K288 inbound brief / 2026-10-12
 - @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09
 - @sources/arxiv-2607-19267-authority-framing-laundered-cicd.md
 - @concepts/authority-framing-agentic-cicd.md

@@ -4,6 +4,8 @@ type: concept
 tags: [methodology, agent-security, guardrail, mcp, prompt-injection, runtime-enforcement, formal-methods]
 keywords: [agent guardrail, authority confusion, permission laundering, sleeper attack, epca, airguard, chaincaps, adaptive attack rate, tool composition safety]
 related:
+  - concepts/nomos-compiled-policy-enforcement.md
+  - sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md
   - concepts/llm-adversarial-fuzzing.md
   - concepts/coding-agent-supply-chain-install-gap.md
   - concepts/agentic-containment-principles.md
@@ -190,7 +192,7 @@ related:
   - concepts/asleval-privacy-exposure-displacement.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-10-09
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 ---
@@ -199,6 +201,8 @@ wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc"
 
 ## Relations
 
+- @concepts/nomos-compiled-policy-enforcement.md — K288 inbound brief / 2026-10-12
+- @sources/arxiv-2610-11030-nomos-compiled-policy-tool-gate.md — K288 inbound brief / 2026-10-12
 - @concepts/llm-adversarial-fuzzing.md — K408-K417 ingest / 2026-10-09
 - @concepts/coding-agent-supply-chain-install-gap.md — K408-K417 ingest / 2026-10-09
 - @concepts/agentic-containment-principles.md — K408-K417 ingest / 2026-10-09

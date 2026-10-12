@@ -4,6 +4,8 @@ type: concept
 tags: [methodology, wireless, rf, protocol-classification, spectrum-awareness, deep-learning, channel-robustness]
 keywords: [spectral whitening, protocol identification, I/Q classification, channel robustness, overlap classification, scale separation, RF fingerprinting, spectrum monitoring]
 related:
+  - concepts/phy-layer-covert-channel-wifi-preamble.md
+  - sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md
   - sources/arxiv-2608-06581-whitenet-spectral-whitening.md
   - concepts/wireless-pentest.md
   - concepts/wifi-broadcast-rate-edge-moe.md
@@ -12,7 +14,7 @@ related:
   - concepts/airkey-wifi-acoustic-pin-sidechannel.md
 maturity: draft
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K274)"
 ---
@@ -21,6 +23,8 @@ wire_target: ".cursor/rules/cemini-cybersec-lab-redteam.mdc (K274)"
 
 ## Relations
 
+- @concepts/phy-layer-covert-channel-wifi-preamble.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13367-secrets-in-preamble-phy-wifi.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2608-06581-whitenet-spectral-whitening.md — the source paper
 - @concepts/wireless-pentest.md — spectrum-awareness side of wireless tradecraft; distinguishes *who is on the band* from *how to break in*
 - @concepts/wifi-broadcast-rate-edge-moe.md — edge-DL axis: whitening students run on power-constrained spectrum sensors

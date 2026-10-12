@@ -4,18 +4,22 @@ type: concept
 tags: [concept, agent-security, k383]
 keywords: [2609.36570, K383]
 related:
+  - concepts/task-dependent-component-roles.md
+  - sources/arxiv-2610-13895-task-context-component-roles.md
   - sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md
   - concepts/prompt-injection-detector-calibration.md
   - concepts/piminer-agentic-prompt-injection-redteam.md
 maturity: draft
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-12
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-cybersec-mcp-tool-control.mdc (K383)"
 ---
 
 ## Relations
 
+- @concepts/task-dependent-component-roles.md — K418-K424 ingest / 2026-10-12
+- @sources/arxiv-2610-13895-task-context-component-roles.md — K418-K424 ingest / 2026-10-12
 - @sources/arxiv-2609-36570-countersteer-activation-steering-ipi-defense.md
 - @concepts/prompt-injection-detector-calibration.md
 - @concepts/piminer-agentic-prompt-injection-redteam.md

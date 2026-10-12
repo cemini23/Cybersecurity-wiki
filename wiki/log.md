@@ -1,3 +1,27 @@
+## [2026-10-12] ingest | K418-K424 batch (7 PDFs) + K288 NOMOS inbound brief
+
+Full ingest of the 7 NEW inbox arXiv PDFs, plus pages for the K288 NOMOS inbound brief. **No clone. No attack payloads in wiki.**
+
+### K418-K424
+- **K423 X-AgentRed** (2610.13886) — **the one to act on.** Harm emerges from the **composition** of individually-benign tool calls across services: build a directed **graph of tool effects and preconditions**, sample recipes, and **self-improve from execution feedback** (tool substitution + precondition refinement). **1.77x** the harmful-path rate of STAC and **2.99x** tool coverage across four frontier models. Concept: `cross-service-agent-compositional-harm`. Never clone (attack tooling).
+- **K288 NOMOS** (2610.11030, inbound) — compile a written policy into a **deterministic, LLM-free runtime tool-call gate**: EXTRACT is the only LLM pass, RESOLVE verifies **statically**, the runtime allows/blocks in **microseconds with zero LLM**. State-changing violations **66.3%→2.6%** and **30.8%→6.9%**; AgentDojo banking **ASR 0.0%** vs 46.5% undefended. **Caution: RESOLVE repairs 37% and rejects 13% of extracted rules — policy extraction is wrong ~a third of the time; verify statically, never trust.** Concept: `nomos-compiled-policy-enforcement`.
+- **K419** holistic RFFI (2610.05979) — one expandable codebook for closed-set + OSR + NCD; keep the **continuous** open-set score (binarising it destroys the discovery signal). 97.9% closed-set, 81.8% new-device (5 unseen), 90.3% (7 rogue). Concept: `holistic-rffi-open-world-discovery`.
+- **K421** PHY info hiding (2610.13367) — **46 secret bits per Wi-Fi packet** in the L-STF preamble, preserving packet detection + CFO compensation. A covert channel and a watermark are one mechanism. Concept: `phy-layer-covert-channel-wifi-preamble`.
+- **K422** QTestBench (2610.13811) — a generated test that passes is not one that **discriminates**; score against an independent oracle. Best test quality **0.71 / 0.34**, so executability overstates quality. Concept: `llm-generated-test-discrimination`.
+- **K424** task-context component roles (2610.13895) — a head's role is **task-conditional**; influence redistributes when the task changes; a condition-specific response map cuts MSE **53.6%**. Concept: `task-dependent-component-roles`.
+- **K418** aerial RAN testbed + PWS (2610.05007) — reproducible ARM OAI CU/DU split; releases a **PWS-over-F1** patch (SIB8). Concept: `aerial-ran-testbed-pws-broadcast`.
+- **K420** sustainable cloud-fog-edge smart buildings (2610.13307) — **OOD**; stub only, no target wiki.
+- **Phase-0**: `scripts/adopt_k418_k424_phase0.sh` PASS. No clones.
+- **Phase-1**: dual-ID K418-K424; lane wires in `cemini-cybersec-lab-redteam.mdc` (K418/K419/K421/K423) and `cemini-cybersec-agent-audit.mdc` (K422/K424); NOMOS → `cemini-cybersec-mcp-tool-control.mdc`.
+
+### Inbound brief
+- **K288 NOMOS** (from OSINT) — source + concept pages written; brief marked `processed: 2026-10-12`. NOMOS is **proprietary, not released** — REFERENCE only.
+
+**friend brief:** add-on 89
+**Sweeps**: `wiki/sweeps/2026-10-10-daily.md`, `2026-10-11-daily.md`, `2026-10-12-daily.md`
+
+**Archive**: seven PDFs → egress-fi cybersec/
+
 ## [2026-10-09] ingest | K408-K417 batch (10 PDFs) + four inbound briefs filled out
 
 Full ingest of the 10 NEW inbox arXiv PDFs, plus pages for four inbound briefs. **No clone. No attack payloads in wiki.**

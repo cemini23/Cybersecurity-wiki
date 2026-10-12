@@ -134,5 +134,12 @@ Federation `cemini-phase1-policy-wires.mdc` is **global-only** (`~/.cursor/rules
 - K415 Verdict without the rule (2610.12313) ≠ CCC K415 (none assigned)
 - K416 Cited but not consulted (2610.12361) ≠ CCC K416 (none assigned)
 - K417 ORCAGen context-aware malware deception (2610.12415) ≠ CCC K417 (none assigned)
+- K418 Aerial 5G gNB ARM testbed + PWS over F1 (2610.05007) ≠ CCC K418 OmniSeek — reproducible OAI CU/DU testbed
+- K419 Holistic RFFI via vector quantisation (2610.05979) ≠ CCC K419 VISTA — keep the continuous open-set score
+- K420 Sustainable cloud-fog-edge smart buildings OOD (2610.13307) ≠ CCC K420 KaliBench (= Cybersec K391)
+- K421 PHY preamble covert channel for Wi-Fi (2610.13367) ≠ CCC K421 containment / "model is not a boundary" (2610.02861 inbound) — 46 bits/packet; authorized RF lab
+- K422 QTestBench LLM-generated quantum tests (2610.13811) ≠ CCC K422 intent-based tool-call oversight — executability ≠ discrimination
+- K423 X-AgentRed cross-service agent red-team (2610.13886) ≠ CCC K423 threat-preserving representation sensitivity (= Cybersec K396) — attack tooling; never clone
+- K424 Task-context component roles (2610.13895) ≠ CCC K424 graded reward ladder
 
-K300–K417 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
+K300–K424 Cybersec entries in this overlay are **Cybersec IDs**, not the CCC K300–K324 wave.
