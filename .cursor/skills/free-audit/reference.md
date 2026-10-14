@@ -16,6 +16,8 @@ Inherits cursor-audit modes + super-audit `prod-ship`. Roles label **intent** fo
 
 Mode heuristics: same as [cursor-audit reference](../cursor-audit/reference.md#mode-classification-heuristics).
 
+**Slot 5 (Gemini CLI) lens by mode:** code-debug / config-infra → code-implementation · security → adversarial · brief-plan → strategic · architecture → agentic-reasoning · quick-triage / prod-ship → agentic-reasoning. It reads the pack directly with tools, so give it the same mission text the other auditors receive.
+
 ## Free OpenRouter selection
 
 Script: `scripts/select_free_or_models.py`
@@ -32,6 +34,8 @@ Script: `scripts/select_free_or_models.py`
 
 Live catalog changes often — never hardcode IDs as the only path.
 
+If slot 5 (Gemini CLI) is active it already supplies the **Google** family — prefer a non-Google family for the free OR slots so the council stays diverse.
+
 ## Keys / env
 
 | Variable | Used for |
@@ -41,13 +45,15 @@ Live catalog changes often — never hardcode IDs as the only path.
 | `DEEPSEEK_API_KEY` | claude-ds slot via DeepSeek API |
 | `DEEPSEEK_BASE_URL` | Default `https://api.deepseek.com/v1` |
 | `DEEPSEEK_MODEL` | Default `deepseek-v4-flash` |
+| *(Gemini CLI, slot 5)* | **No key.** Google-account oauth — needs `gemini` on PATH and a prior login (`~/.gemini/oauth_creds.json` present). Free tier; traffic may be logged. |
+| `GEMINI_API_KEY` | Optional — runs slot 5 as a **paid** HTTP leg instead of the free CLI oauth path |
 | `CEMINI_LLM_ROUTING_ENV` | Optional absolute path to a routing env file |
 
 Scripts hydrate from process env, then optional `CEMINI_LLM_ROUTING_ENV` only. They do **not** scan home trees or project dotenv files.
 
 ## Per-auditor output format
 
-Every auditor file (`auditor-grok.md`, `auditor-claude-ds.md`, `auditor-or-*.md`) uses:
+Every auditor file (`auditor-grok.md`, `auditor-claude-ds.md`, `auditor-or-*.md`, `auditor-gemini.md`) uses:
 
 ```markdown
 ### Verdict
@@ -73,7 +79,7 @@ One thing other models might miss
 ```markdown
 # Free audit — {target summary}
 
-**Mode:** {mode} · **Auditors:** Grok + claude-ds ({deepseek model}) + free OR ({m1}, {m2})
+**Mode:** {mode} · **Auditors:** Grok + claude-ds ({deepseek model}) + free OR ({m1}, {m2}) + gemini ({gemini model | skipped})
 **Pack:** `{pack}` · **Out:** `{out}`
 
 | Slot | Channel | Model | Verdict |
@@ -82,6 +88,7 @@ One thing other models might miss
 | 2 | claude-ds | deepseek-v4-flash | … |
 | 3 | openrouter-free | {m1} | … |
 | 4 | openrouter-free | {m2} | … |
+| 5 | gemini-cli | gemini-2.5-pro | … (or "skipped — no gemini") |
 
 ## Consensus (≥2 auditors agree)
 - …
@@ -90,7 +97,7 @@ One thing other models might miss
 - [{model}] …
 
 ## Conflicts (Glasswing — resolve before ship)
-| Topic | Grok | claude-ds | OR1 | OR2 | Resolution |
+| Topic | Grok | claude-ds | OR1 | OR2 | Gem | Resolution |
 |-------|------|-----------|-----|-----|------------|
 | … | … | … | … | … | … |
 
@@ -112,8 +119,10 @@ One thing other models might miss
 
 Treat degraded stubs as channel failure, not product FAIL.
 
+The **Gemini CLI leg** does not use this script — it reads the pack directly with tool access. Treat a missing binary or failed auth as a **skipped slot** (not a failure), and a partial or stub output as channel failure the same way as the HTTP legs.
+
 ## Cost discipline
 
-- Free-audit ≈ Grok plan tokens + DeepSeek Flash + $0 OR.
+- Free-audit ≈ Grok plan tokens + DeepSeek Flash + $0 OR + $0 Gemini oauth.
 - Escalate to cursor-audit / super-audit when free council is split on critical severity.
 - Do not paste secrets into free OR prompts.

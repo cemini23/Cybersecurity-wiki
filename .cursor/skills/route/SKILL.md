@@ -10,7 +10,7 @@ description: >-
   not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.4.4"
+metadata.version: "2.5.0"
 federation: true
 ---
 
@@ -146,6 +146,19 @@ When watchdog fires, parent Cursor **may** implement from the SIP handoff; still
 | **hard** | Code / tests / multi-file | **Cursor premium plan** → **Grok CLI implement**. Grok usage out + Plan → **Flash**, then **OpenCode**. Else Cursor Grok implement |
 | **money** | Scoring, Stripe, Greeks, P&L, LIVE / ship | **Same as hard** + stricter money guardrails. Do not auto-LIVE. |
 | **ambiguous** | Unclear | Ask: easy / mid / hard / money? |
+
+### Pre-run decision rule (apply BEFORE announcing a lane)
+
+Use only what is knowable **before** the run starts: `WorkDir`, target file types, target file count.
+
+1. **money** — ONLY when `WorkDir` is a software repo AND the target touches live billing (Stripe / LicenseSeat), crypto or vault keys (`Ed25519` / `truth.ged`), `watches.json`, live Discord webhooks, or package publishing. **Markdown-only edits are never money.**
+2. **easy** — all target paths are `.md` / `.txt`, count ≤ 2, and `## Verify` is a file-existence or static-lint check.
+3. **mid (default)** — `WorkDir` is any wiki or hub repo, regardless of how many `.md` / `.mdc` files are touched; OR `WorkDir` is a software repo and the task changes **≤ 2** executable source files without touching a shared schema, state machine, or build config.
+4. **hard** — ONLY when the task changes **≥ 3** executable source files, **or** alters a shared data schema / state machine / concurrency lock, **or** edits a build or packaging manifest (`pyproject.toml`, `Dockerfile`, `tauri.conf.json`).
+
+**Why this rule exists.** A 295-run sample showed **48% of runs landing on `hard`** (141 of 295). The usual cause is the multi-file escalation heuristic firing on wiki ingests, which touch 3–15 markdown files by ingest rule — markdown volume is not implementation difficulty. In that same sample most `hard` runs executed inside markdown repos, and many `hard` runs exited non-zero having already fallen back from Grok to Flash: the premium lane bought nothing. Route wiki work and ≤2-file edits to **mid**.
+
+**Cost asymmetry.** Mis-routing **downward** costs ~1 minute: the free legs have no tool access, so `## Verify` catches the non-edit and the run retries on `mid`. Mis-routing **upward** spends non-renewable premium quota plus ~5 minutes of human handoff authoring. When the rule and your instinct disagree, prefer the cheaper lane.
 
 **Fallbacks:** never hard-stop on first provider credit/usage failure - walk the chain. Grok **auth** still prints `grok login`; with usable Plan prefer Flash then OpenCode before Cursor Grok.
 
